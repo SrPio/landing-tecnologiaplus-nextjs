@@ -1,0 +1,75 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 5%;
+  background-color: transparent;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+
+  position: relative;
+  display: flex;
+  gap: 4rem;
+
+  .nav__links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 2 1 auto;
+  }
+
+  .header__right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1 1 auto;
+  }
+
+  a {
+    img {
+      height: 3rem;
+    }
+
+    .search__icon {
+      font-size: 1.5rem;
+      color: #fff;
+    }
+  }
+
+  a.logo__container {
+    display: flex;
+    justify-content: center;
+    margin: 0 2rem;
+
+    .logo {
+      height: 4rem;
+    }
+  }
+
+  .phone__btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 2rem;
+    background-color: transparent;
+    cursor: pointer;
+    color: #fff;
+    border: 3px solid #ae00ff;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+
+    .phone__icon {
+      color: #ae00ff;
+      font-size: 1.2rem;
+    }
+  }
+}

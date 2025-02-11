@@ -1,0 +1,10 @@
+@use "../../../styles/components/heroSection" as *;
+
+.hero__content {
+  // Variaciones específicas para `dispensador-tiquetes`
+
+  .hero__img {
+    height: 80% !important;
+    max-height: 600px !important;
+  }
+}

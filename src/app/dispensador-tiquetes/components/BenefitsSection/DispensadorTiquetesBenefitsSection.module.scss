@@ -1,0 +1,23 @@
+@use "../../../styles/components/benefitsSection" as *;
+
+.benefits__section {
+  // Variaciones específicas para `rollos-turnos`
+  margin-bottom: 4rem;
+
+  ul {
+    li {
+      max-width: 800px;
+      font-size: 1.8rem;
+      font-weight: 500;
+
+      > div {
+        display: flex;
+        flex-direction: column;
+        span {
+          font-size: 1.2rem;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}

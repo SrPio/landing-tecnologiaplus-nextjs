@@ -1,0 +1,19 @@
+@use "../../../styles/components/productsSection" as *;
+
+.products__section {
+  // Variaciones específicas para `localizadores`
+
+  p {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 4rem;
+  }
+  .products__container {
+    margin-bottom: 0;
+    gap: 4rem;
+    img {
+      height: 410px;
+      padding: 1rem;
+    }
+  }
+}

@@ -1,0 +1,9 @@
+@use "../../../styles/components/industriesSection" as *;
+
+.industries__section {
+  // Variaciones específicas para `rollos-turnos`
+  h2 {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+  }
+}

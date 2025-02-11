@@ -1,0 +1,23 @@
+@use "../../../styles/components/heroSection" as *;
+
+.hero__content {
+  // Variaciones específicas para `enfermeria`
+
+  .hero__img {
+    width: 80% !important;
+    max-width: 900px !important;
+    height: auto !important;
+    max-height: 80vh;
+    align-self: flex-end;
+
+    @media (min-width: 500px) and (max-width: 1800px) {
+      width: 60% !important;
+
+      /* max-width: 800px !important; */
+    }
+  }
+
+  .hero__text {
+    margin-left: 0 !important;
+  }
+}

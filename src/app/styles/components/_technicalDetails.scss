@@ -1,0 +1,100 @@
+.technical__details {
+  padding: 6rem 5%;
+  display: flex;
+  gap: 4rem;
+  .technical__carousel__container {
+    width: 50%;
+
+    img {
+      width: 100%;
+      object-fit: contain;
+    }
+  }
+
+  .TechnicalDetails__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .technical__textContainer {
+      h2 {
+        font-size: 2.5rem;
+        font-weight: 900;
+        color: #606060;
+        line-height: 1.2;
+      }
+
+      > p {
+        font-size: 2rem;
+        color: #606060;
+        line-height: 1.2;
+        margin-bottom: 2rem;
+      }
+    }
+
+    .technical__info {
+      h3 {
+        font-size: 1.2rem;
+        font-weight: 800;
+        color: #606060;
+        line-height: 1.2;
+        margin-bottom: 1rem;
+      }
+
+      .technical__circle__figure {
+        height: 40px;
+        width: 40px;
+        margin-bottom: 2rem;
+        border-radius: 50%;
+        background: #fff;
+        -webkit-box-shadow: 3px 2px 4px 0px rgba(0, 0, 0, 0.6);
+        box-shadow: 3px 2px 4px 0px rgba(0, 0, 0, 0.6);
+      }
+
+      ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 3rem;
+        margin-top: 3rem;
+
+        li {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+          img {
+            height: 60px;
+            width: 60px;
+            object-fit: contain;
+          }
+
+          p {
+            margin-top: 1.2rem;
+            font-size: 1rem;
+            text-align: center;
+            color: #606060;
+            font-weight: 400;
+            line-height: 1.2;
+          }
+        }
+      }
+    }
+
+    .technical__details__btn {
+      margin-top: 2rem;
+      cursor: pointer;
+      width: max-content;
+      font-weight: 600;
+      background: #be00ff;
+      color: #fff;
+      font-size: 1rem;
+      padding: 0.5rem 1rem;
+      border-radius: 2rem;
+      -webkit-border-radius: 2rem;
+      -moz-border-radius: 2rem;
+      -ms-border-radius: 2rem;
+      -o-border-radius: 2rem;
+    }
+  }
+}

@@ -1,0 +1,68 @@
+@use "../../../styles/components/heroSection" as *;
+
+.hero__content {
+  // Variaciones específicas para `rollos-turnos`
+
+  .central__container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-width: 90%;
+
+    @media (min-width: 500px) and (max-width: 1700px) {
+      max-width: 95%;
+    }
+  }
+
+  .hero__img {
+    width: 60% !important;
+    height: auto !important;
+    max-width: 1000px !important;
+    position: absolute;
+    left: 10%;
+    top: 5%;
+    /* top: 0; */
+    /* left: clamp(50px, 15vw, 400px); */
+
+    /* @media (min-width: 500px) and (max-width: 1700px) {
+      top: 0;
+      height: auto !important;
+      left: clamp(50px, 10vw, 100px);
+    } */
+    /* @media (min-width: 1701px) and (max-width: 1800px) {
+      top: 0;
+      height: auto !important;
+      left: clamp(50px, 5vw, 100px);
+    } */
+  }
+
+  .hero__text {
+    position: absolute;
+    right: 10%;
+    top: 20%;
+    /* top: 22%; */
+    /* right: clamp(50px, 15vw, 300px);
+
+    @media (min-width: 500px) and (max-width: 1700px) {
+      top: 10%;
+    }
+    @media (min-width: 1701px) and (max-width: 1800px) {
+      top: 22%;
+    } */
+
+    h1 {
+      font-size: 2.5rem;
+
+      @media (min-width: 500px) and (max-width: 1700px) {
+        font-size: 2rem !important;
+      }
+    }
+
+    p {
+      font-size: 1.5rem;
+      @media (min-width: 500px) and (max-width: 1700px) {
+        font-size: 1rem !important;
+      }
+    }
+  }
+}

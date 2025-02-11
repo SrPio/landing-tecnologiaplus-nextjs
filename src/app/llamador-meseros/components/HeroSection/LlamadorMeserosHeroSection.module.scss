@@ -1,0 +1,17 @@
+@use "../../../styles/components/heroSection" as *;
+
+.hero__content {
+  // Variaciones específicas para `enfermeria`
+  justify-content: space-between !important;
+  padding: 4rem 0;
+
+  .hero__img {
+    height: 100% !important;
+    /* width: 60% !important; */
+    max-width: none !important;
+  }
+
+  .hero__text {
+    margin-right: 10%;
+  }
+}

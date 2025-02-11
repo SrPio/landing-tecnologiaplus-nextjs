@@ -1,0 +1,10 @@
+@use "../../../styles/components/industriesSection" as *;
+
+.industries__section {
+  // Variaciones específicas para `dispensador-tiquetes`
+
+  h2 {
+    text-transform: none !important;
+    font-size: 1.8rem !important;
+  }
+}

@@ -1,0 +1,11 @@
+@use "../../../styles/components/heroSection" as *;
+
+.hero__content {
+  // Variaciones específicas para `encuestas-virtual`
+
+  .hero__img {
+    height: 85% !important;
+    align-self: flex-end;
+    max-width: 800px !important;
+  }
+}

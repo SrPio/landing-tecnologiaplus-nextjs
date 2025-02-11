@@ -1,0 +1,60 @@
+@use "../../../styles/components/relatedProducts" as *;
+
+.related__products {
+  // Variaciones específicas para `rollos-turnos`
+
+  .related__products__container {
+    .related__products__card:first-child .card__info {
+      padding-left: 15px;
+      padding-bottom: 0;
+
+      img {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+        object-position: 90% center;
+      }
+    }
+
+    .related__products__card:nth-child(1) .card__info {
+      justify-content: flex-start;
+      img {
+        width: 80%;
+      }
+    }
+
+    .related__products__card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  .related__products__specs {
+    padding: 3rem 5% 8rem;
+
+    ul {
+      display: flex;
+      justify-content: center;
+      gap: 3rem;
+
+      li {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+
+        img {
+          width: 30px;
+          object-fit: contain;
+        }
+
+        p {
+          font-size: 1rem;
+          color: #606060;
+          font-weight: 600;
+          line-height: 1.2;
+        }
+      }
+    }
+  }
+}

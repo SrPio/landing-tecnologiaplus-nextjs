@@ -1,0 +1,115 @@
+.related__products {
+  margin-top: 3rem;
+
+  h2 {
+    padding-top: 3rem;
+    text-align: center;
+    background: #f4f4f4;
+  }
+
+  .related__products__container {
+    padding: 3rem 3rem;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    .related__products__card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .card__info {
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+        width: 360px;
+        height: 380px;
+        background: #fff;
+        padding: 1.5rem 1rem 4rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        img {
+          width: 95%;
+          object-fit: contain;
+        }
+
+        .card__text {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin-bottom: 2rem;
+          h3 {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: #606060;
+            text-align: center;
+          }
+
+          p {
+            font-size: 1rem;
+            color: #606060;
+            line-height: 1.2;
+            text-align: center;
+          }
+        }
+      }
+
+      .selling__counter {
+        position: relative;
+        top: -40px;
+        left: 0;
+        color: #6f3bb4;
+        font-size: 1rem;
+        font-weight: 600;
+      }
+      .card__btn {
+        cursor: pointer;
+        margin-top: -35px;
+        font-weight: 600;
+        background: #6f3bb4;
+        color: #fff;
+        font-size: 1rem;
+        padding: 0.2rem 1rem;
+        border-radius: 2rem;
+        -webkit-border-radius: 2rem;
+        -moz-border-radius: 2rem;
+        -ms-border-radius: 2rem;
+        -o-border-radius: 2rem;
+      }
+    }
+  }
+
+  .related__products__specs {
+    padding: 3rem 5% 8rem;
+
+    ul {
+      display: flex;
+      justify-content: center;
+      gap: 3rem;
+
+      li {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+
+        img {
+          width: 30px;
+          object-fit: contain;
+        }
+
+        p {
+          font-size: 1rem;
+          color: #606060;
+          font-weight: 600;
+          line-height: 1.2;
+        }
+      }
+    }
+  }
+}

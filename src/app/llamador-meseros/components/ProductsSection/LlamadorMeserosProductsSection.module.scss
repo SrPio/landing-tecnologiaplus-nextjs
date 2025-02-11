@@ -1,0 +1,21 @@
+@use "../../../styles/components/productsSection" as *;
+
+.products__section {
+  // Variaciones específicas para `Calificador`
+
+  padding: 3rem 0 7rem;
+
+  .products__container {
+    margin-bottom: 0;
+    gap: 4rem;
+    justify-content: space-between !important;
+    width: 100%;
+    img {
+      height: 70vh;
+    }
+
+    img:nth-child(2) {
+      margin-right: 20vw;
+    }
+  }
+}

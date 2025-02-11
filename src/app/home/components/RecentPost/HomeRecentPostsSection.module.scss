@@ -1,0 +1,33 @@
+@use "../../../styles/components/productsSection" as *;
+
+.products__section {
+  // Variaciones específicas para `turno-master`
+
+  h2 {
+    margin-bottom: 4rem;
+  }
+
+  .products__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .btn__go_to_blog {
+    color: #394751;
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .icon__btn {
+      color: #b627ff;
+      margin-top: 2px;
+      margin-left: 5px;
+    }
+  }
+}

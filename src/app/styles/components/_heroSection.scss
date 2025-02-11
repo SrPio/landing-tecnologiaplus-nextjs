@@ -1,0 +1,49 @@
+.hero {
+  background-image: url("https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349921/jlxxsnlercoj0nihz4am_udppso.webp");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+
+  .hero__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100% - 8rem);
+    .hero__img {
+      height: 60%;
+      max-width: 600px;
+      object-fit: contain;
+    }
+
+    .hero__text {
+      margin-left: 4rem;
+      h1 {
+        font-weight: bold;
+        font-size: 2.5rem;
+        color: #fff;
+        line-height: 1.2;
+      }
+
+      p {
+        font-size: 1.5rem;
+        color: #fff;
+        font-weight: 400;
+        margin-bottom: 2rem;
+      }
+
+      .hero__btn {
+        cursor: pointer;
+        font-weight: 600;
+        background: #be00ff;
+        color: #fff;
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
+        border-radius: 2rem;
+        -webkit-border-radius: 2rem;
+        -moz-border-radius: 2rem;
+        -ms-border-radius: 2rem;
+        -o-border-radius: 2rem;
+      }
+    }
+  }
+}

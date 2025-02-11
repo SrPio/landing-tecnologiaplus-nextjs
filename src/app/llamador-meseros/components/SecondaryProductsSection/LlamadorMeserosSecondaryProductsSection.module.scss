@@ -1,0 +1,103 @@
+@use "../../../styles/components/productsSection" as *;
+
+.products__section {
+  // Variaciones específicas para `enfermeria`
+  background-color: #fff;
+  padding-bottom: 3rem;
+
+  .products__container {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0;
+
+    h2 {
+      font-size: 2.5rem;
+      font-weight: 900;
+      color: #606060;
+      margin: 2rem 0;
+    }
+    .products__card__container {
+      display: flex;
+      justify-content: center;
+      gap: 4rem;
+      .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: end;
+        gap: 1rem;
+        img {
+          height: 200px;
+          width: auto;
+          object-fit: contain;
+          margin-bottom: 1rem;
+        }
+
+        h3 {
+          color: #606060;
+          font-size: 1.5rem;
+          line-height: 1.2;
+          text-align: center;
+        }
+        p {
+          color: #6146a6;
+          font-weight: 600;
+        }
+
+        .card__btn {
+          cursor: pointer;
+          font-weight: 600;
+
+          background: #6f3bb4;
+          color: #fff;
+          font-size: 1rem;
+          padding: 0.2rem 1rem;
+          border-radius: 2rem;
+          -webkit-border-radius: 2rem;
+          -moz-border-radius: 2rem;
+          -ms-border-radius: 2rem;
+          -o-border-radius: 2rem;
+        }
+      }
+
+      iframe {
+        width: 25vw;
+        height: auto;
+        aspect-ratio: 16 / 9;
+        border-radius: 12px;
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        -ms-border-radius: 12px;
+        -o-border-radius: 12px;
+      }
+    }
+
+    .products__card__container__variant {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 4rem 5rem;
+      justify-items: center;
+      align-items: center;
+
+      .card {
+        flex-direction: row;
+        > div {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+        img {
+          height: 250px;
+        }
+
+        .card__btn {
+          margin: 15px 0;
+        }
+      }
+    }
+  }
+}
+
+.bg__section {
+  background-color: #f3f3f3;
+}

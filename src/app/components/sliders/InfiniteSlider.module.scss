@@ -1,0 +1,36 @@
+.loop__slide {
+  overflow: hidden;
+}
+.loop__slide > div {
+  display: flex;
+  animation: slide-to-left 15s linear infinite;
+  -webkit-animation: slide-to-left 15s linear infinite;
+}
+.loop__slide > div > * {
+  min-width: calc(100% / 8); // 8 logos por fila en pantallas grandes
+
+  @media (max-width: 1600px) {
+    min-width: calc(100% / 5); // 5 logos en tablets grandes
+  }
+  @media (max-width: 1200px) {
+    min-width: calc(100% / 4); // 4 logos en tablets grandes
+  }
+
+  @media (max-width: 768px) {
+    min-width: calc(100% / 3); // 3 logos en tablets pequeñas
+  }
+
+  @media (max-width: 480px) {
+    min-width: calc(100% / 2); // 2 logos en móviles pequeños
+  }
+}
+
+@keyframes slide-to-left {
+  100% {
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+  }
+}

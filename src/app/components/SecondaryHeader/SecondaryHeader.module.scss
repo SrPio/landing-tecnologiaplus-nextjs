@@ -1,0 +1,64 @@
+.secondary__header {
+  background: rgba(72, 72, 72, 0.8);
+  /*Fondosemi-transparente*/
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  /*ParaSafari*/
+  backdrop-filter: saturate(180%) blur(20px);
+  /*Efectodeblurysaturación*/
+  padding: 0.8rem 5%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-around;
+  color: #d0d0d0;
+  font-size: 0.8rem;
+  font-weight: 400;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease, visibility 0.5s ease,
+    background 0.24s cubic-bezier(0.28, 0.11, 0.32, 1),
+    backdrop-filter 0.24s cubic-bezier(0.28, 0.11, 0.32, 1);
+  -webkit-transition: opacity 0.5s ease, visibility 0.5s ease,
+    background 0.24s cubic-bezier(0.28, 0.11, 0.32, 1),
+    backdrop-filter 0.24s cubic-bezier(0.28, 0.11, 0.32, 1);
+  -moz-transition: opacity 0.5s ease, visibility 0.5s ease,
+    background 0.24s cubic-bezier(0.28, 0.11, 0.32, 1),
+    backdrop-filter 0.24s cubic-bezier(0.28, 0.11, 0.32, 1);
+  -ms-transition: opacity 0.5s ease, visibility 0.5s ease,
+    background 0.24s cubic-bezier(0.28, 0.11, 0.32, 1),
+    backdrop-filter 0.24s cubic-bezier(0.28, 0.11, 0.32, 1);
+  -o-transition: opacity 0.5s ease, visibility 0.5s ease,
+    background 0.24s cubic-bezier(0.28, 0.11, 0.32, 1),
+    backdrop-filter 0.24s cubic-bezier(0.28, 0.11, 0.32, 1);
+
+  &.visible {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .nav__links {
+    display: flex;
+    gap: 4rem;
+  }
+
+  .phone__container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  a {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .arrow__icon {
+      margin-top: 0.1rem;
+      margin-left: 0.2rem;
+    }
+  }
+}

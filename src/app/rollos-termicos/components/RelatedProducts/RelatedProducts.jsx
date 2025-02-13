@@ -1,9 +1,11 @@
 import style from "./RelatedProducts.module.scss";
 
-function RelatedProducts() {
+function RelatedProducts({ titleClassName = "" }) {
   return (
     <section className={style.related__products}>
-      <h2>Productos similares</h2>
+      <h2 className={`${style.defaultTitle} ${titleClassName}`}>
+        Productos similares
+      </h2>
       <div className={style.related__products__container}>
         <div className={style.related__products__card}>
           <div className={style.card__info}>

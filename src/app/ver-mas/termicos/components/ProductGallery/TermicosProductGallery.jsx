@@ -5,8 +5,10 @@ import Header from "../../../../components/Header/Header";
 import altStyles from "./HeaderAlt.module.scss";
 import { IoIosArrowBack } from "react-icons/io";
 import { FaWhatsapp } from "react-icons/fa";
+import Popup from "../../../../components/PopUp/Popup";
 
 function TermicosProductGallery() {
+  const [isOpen, setIsOpen] = useState(false);
   const images = [
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739392044/1_2x-100_wutnmk.webp",
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739392044/2_2x-100_jikuc2.webp",
@@ -49,7 +51,12 @@ function TermicosProductGallery() {
             />
           ))}
 
-          <button className={styles.btn__multimedia}>Multimedia</button>
+          <button
+            onClick={() => setIsOpen(true)}
+            className={styles.btn__multimedia}
+          >
+            Multimedia
+          </button>
         </div>
 
         {/* Imagen Principal */}
@@ -79,6 +86,7 @@ function TermicosProductGallery() {
           </p>
         </div>
       </div>
+      <Popup isOpen={isOpen} setIsOpen={setIsOpen} />
     </section>
   );
 }

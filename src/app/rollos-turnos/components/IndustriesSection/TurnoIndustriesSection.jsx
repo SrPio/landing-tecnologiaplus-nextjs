@@ -3,7 +3,7 @@ import style from "./TurnoIndustriesSection.module.scss";
 function TurnoIndustriesSection() {
   return (
     <section className={style.industries__section}>
-      <h2>NUESTROS ROLLOS TIQUETES ADAPTABLES A TODOS LOS SECTORES</h2>
+      <h2>Nuestros Rollos De Tiquetes funcionan en todos Los Sectores</h2>
       <ul>
         <li>
           <img

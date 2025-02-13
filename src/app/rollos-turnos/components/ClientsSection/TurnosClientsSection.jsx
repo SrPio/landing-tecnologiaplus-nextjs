@@ -11,7 +11,10 @@ function TurnosClientsSection() {
   return (
     <section id="clients-section" className={style.clients__section}>
       <h2 className={style.clients__title}>Algunos de nuestros clientes</h2>
-      <p>Descripción pequeña aquí en el texto de abajo</p>
+      <p>
+        Grandes y pequeñas empresas confían en nuestros Fichos de turnos para
+        ordenar la atención al cliente.
+      </p>
       <div className={style.clients__container}>
         <InfiniteSlider logos={logosTurnos} />
       </div>

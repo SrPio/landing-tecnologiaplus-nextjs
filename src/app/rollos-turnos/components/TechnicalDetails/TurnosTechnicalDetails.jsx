@@ -117,9 +117,9 @@ function TurnosTechnicalDetails() {
                 alt="icono de check"
               />
               <p>
-                Para dispensador de
+                Funciona en dispensadores
                 <br />
-                turnos tipo caracol
+                de turnos tipo caracol
               </p>
             </li>
           </ul>

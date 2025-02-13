@@ -3,7 +3,9 @@ import style from "./TurnosProductsSection.module.scss";
 function TurnosProductsSection() {
   return (
     <section className={style.products__section}>
-      <h2 className={style.products__title}>Colores de ticket disponibles</h2>
+      <h2 className={style.products__title}>
+        Colores de Ticket más solicitados
+      </h2>
       <div className={style.products__container}>
         <img
           loading="lazy"
@@ -11,6 +13,10 @@ function TurnosProductsSection() {
           alt="Colores de tickets"
         />
       </div>
+      <p>
+        Clasifica los turnos por prioridad o servicio con nuestra variedad de
+        colores disponibles.
+      </p>
     </section>
   );
 }

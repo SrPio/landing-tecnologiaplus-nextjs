@@ -4,9 +4,9 @@ function TurnosBenefitsSection() {
   return (
     <section className={style.benefits__section}>
       <h2 className={style.benefits__title}>
-        ¿POR QUÉ ELEGIR
+        ¿POR QUÉ CONFIAR
         <br />
-        NUESTROS ROLLOS
+        EN NUESTROS ROLLOS
         <br />
         DE TURNOS?
       </h2>
@@ -17,7 +17,8 @@ function TurnosBenefitsSection() {
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349967/Icono_1_2x-8_qhtpsh_s64dlx.webp"
             alt="icono de ticket"
           />
-          Evita desperdicio - Corte de calidad.
+          Evita el desperdicio - Corte limpio y preciso para aprovechar cada
+          ticket.
         </li>
         <li>
           <img
@@ -25,9 +26,8 @@ function TurnosBenefitsSection() {
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349967/Icono_2_2x-8_q5lixj_n0jsyy.webp"
             alt="icono de tipos de ticket"
           />
-          Distintas formas de numeración.
-          <br />
-          Opción de fabricar según la necesidad.
+          Múltiples estilos de numeración. Opción de fabricar segun la
+          necesidad.
         </li>
       </ul>
     </section>

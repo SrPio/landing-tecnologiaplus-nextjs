@@ -15,11 +15,12 @@ function TurnosHeroSection() {
           />
           <div className={styles.hero__text}>
             <h1>
-              Sistemas de llamado
+              Numeración clara y corte
               <br />
-              inalámbrico para mejorar
+              preciso para agilizar
+              <br />
             </h1>
-            <p>la atención al cliente</p>
+            <p>la atención de turnos.</p>
             <a className={styles.hero__btn} href="#">
               Ver más
             </a>

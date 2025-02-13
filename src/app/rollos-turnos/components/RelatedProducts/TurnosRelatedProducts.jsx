@@ -8,13 +8,17 @@ function TurnosRelatedProducts() {
         <div className={style.related__products__card}>
           <div className={style.card__info}>
             <div className={style.card__text}>
-              <h3>TurnoExpress</h3>
-              <p>Descripción pequeña aquí</p>
+              <h3>Dispensador de tiquetes</h3>
+              <p>
+                Complemento práctico para
+                <br />
+                tomar el turno.
+              </p>
             </div>
             <img
               loading="lazy"
-              src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738350028/TurnoExpress_2x-8_ri7zqh_xjz8bw.webp"
-              alt="imagen de TurnoExpress"
+              src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349966/dispensador_de_tiquetes_2x-8_qusuqr_fuxs8k.webp"
+              alt="imagen de Dispensador de tiquetes"
             />
           </div>
           <p className={style.selling__counter}>0000 vendidos</p>
@@ -25,13 +29,13 @@ function TurnosRelatedProducts() {
         <div className={style.related__products__card}>
           <div className={style.card__info}>
             <div className={style.card__text}>
-              <h3>Dispensador de tiquetes</h3>
-              <p>Descripción pequeña aquí</p>
+              <h3>TurnoExpress</h3>
+              <p>Rapidez y agilidad para tus filas.</p>
             </div>
             <img
               loading="lazy"
-              src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349966/dispensador_de_tiquetes_2x-8_qusuqr_fuxs8k.webp"
-              alt="imagen de Dispensador de tiquetes"
+              src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738350028/TurnoExpress_2x-8_ri7zqh_xjz8bw.webp"
+              alt="imagen de TurnoExpress"
             />
           </div>
           <p className={style.selling__counter}>0000 vendidos</p>

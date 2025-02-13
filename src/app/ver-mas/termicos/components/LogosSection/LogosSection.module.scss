@@ -1,0 +1,91 @@
+.logossection__container {
+  padding: 4rem 5% 0;
+
+  h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #000;
+
+    line-height: 1;
+  }
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  width: 60vw;
+  justify-content: space-between;
+}
+
+.toggleCheckbox {
+  display: none;
+
+  &:checked ~ .content {
+    max-height: 200px;
+    opacity: 1;
+    padding: 10px;
+  }
+
+  &:checked ~ .header .toggleLabel .arrowIcon {
+    transform: rotate(90deg);
+  }
+}
+
+.toggleLabel {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.arrowIcon {
+  font-size: 2rem;
+  transition: transform 0.3s ease;
+}
+
+.content {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease, opacity 0.3s ease;
+  border-radius: 4px;
+  margin-top: 10px;
+
+  height: 150px;
+  width: 100%;
+  margin: 1rem 0;
+
+  display: flex;
+  gap: 4rem;
+  justify-content: space-around;
+  align-items: center;
+
+  position: relative;
+
+  &::after,
+  &::before {
+    content: "";
+    position: absolute;
+    background: linear-gradient(90deg, #ffffff 0, rgba(255, 255, 255, 0));
+    height: 112px;
+    width: 200px;
+    z-index: 2;
+  }
+
+  &::after {
+    right: 0;
+    top: 0;
+    transform: rotate(180deg);
+  }
+
+  &::before {
+    left: 0;
+    bottom: 0;
+    transform: rotate(0deg);
+  }
+
+  img {
+    height: 42px; /* Establece el alto fijo de 32px */
+    width: auto; /* Mantiene la proporción original del logo */
+    object-fit: contain;
+  }
+}

@@ -1,0 +1,14 @@
+@use "../../../../components/Header/Header.module.scss" as *;
+
+.altHeader {
+  background-color: #fff;
+  color: #606060;
+}
+
+.altPhoneBtn {
+  color: #ae00ff !important;
+}
+
+.altSearchIcon {
+  color: #606060 !important;
+}

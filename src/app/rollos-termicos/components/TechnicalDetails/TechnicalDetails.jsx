@@ -73,7 +73,10 @@ function TechnicalDetails() {
           </ul>
         </div>
 
-        <a className={style.technical__details__btn} href="#">
+        <a
+          className={style.technical__details__btn}
+          href="https://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/termicos"
+        >
           Ver más
         </a>
       </div>

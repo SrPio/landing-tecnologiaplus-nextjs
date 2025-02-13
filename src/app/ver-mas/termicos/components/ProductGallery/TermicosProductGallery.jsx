@@ -29,7 +29,7 @@ function TermicosProductGallery() {
         }}
       />
       <div className={styles.action__nav}>
-        <a href="#">
+        <a href="https://landing-tecnologiaplus-nextjs.vercel.app/rollos-termicos">
           <IoIosArrowBack className={styles.icon__back} />
           Volver
         </a>

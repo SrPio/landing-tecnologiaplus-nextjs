@@ -9,7 +9,7 @@ function EncuestaVirtualRelatedProducts() {
           <div className={style.card__info}>
             <div className={style.card__text}>
               <h3>Calificador de servicios</h3>
-              <p>Descripción pequeña aquí</p>
+              <p>Toma decisiones con la opinión de tus clientes</p>
             </div>
             <img
               loading="lazy"

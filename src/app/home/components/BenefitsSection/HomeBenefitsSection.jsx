@@ -23,7 +23,9 @@ function HomeBenefitsSection() {
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738944984/icono_1_2x-8_3_fvtagl.webp"
             alt="icono de auriculares"
           />
-          Asesoría especializada.
+          Asesoría según tu sector
+          <br />
+          para decisiones clave.
         </li>
         <li>
           <img
@@ -31,7 +33,9 @@ function HomeBenefitsSection() {
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738944983/icono_2_2x-8_3_zzggy6.webp"
             alt="icono numero 10 con signo de +"
           />
-          Más de 10 años de experiencia.
+          Más de 10 años ayudando a las
+          <br />
+          empresas a mejorar el servicio.
         </li>
         <li>
           <img
@@ -39,7 +43,9 @@ function HomeBenefitsSection() {
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738944981/icono_3_2x-8_3_emxtsn.webp"
             alt="icono de mantenimiento"
           />
-          Mantenimiento técnico.
+          Soporte Técnico preventivo y correctivo
+          <br />
+          para proteger tu inversión.
         </li>
       </ul>
     </section>

@@ -43,7 +43,7 @@ function EnfermeriaRelatedProducts() {
           <div className={style.card__info}>
             <div className={style.card__text}>
               <h3>OpinaMaster</h3>
-              <p>Descripción pequeña aquí</p>
+              <p>Transforma opiniones en acciones estratégicas.</p>
             </div>
             <img
               loading="lazy"

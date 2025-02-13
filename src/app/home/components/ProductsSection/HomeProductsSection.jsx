@@ -25,7 +25,7 @@ function HomeProductsSection() {
 
         <Card
           title="Localizadores"
-          description="Descripción pequeña aquí"
+          description="Lleva tu autoservicio a otro nivel"
           imageSrc="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738431731/Localizadores_2x-8_niu5kx.webp"
           altText="imagen de Localizadores"
           link="#"
@@ -33,7 +33,7 @@ function HomeProductsSection() {
 
         <Card
           title="Llamadores de meseros"
-          description="Descripción pequeña aquí"
+          description="El botón que eleva la calidad del servicio."
           imageSrc="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738944552/4_2x-8_2_zbywdq.webp"
           altText="imagen de Llamadores de meseros"
           link="#"
@@ -42,7 +42,7 @@ function HomeProductsSection() {
 
         <Card
           title="Llamado de enfermería"
-          description="Descripción pequeña aquí"
+          description="Facilita la comunicación paciente - enfermera. "
           imageSrc="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738596111/cuidamaster_2x-8_dlawzx.webp"
           altText="imagen de Llamado de enfermería"
           link="#"
@@ -50,7 +50,7 @@ function HomeProductsSection() {
 
         <Card
           title="Calificador de servicios"
-          description="Descripción pequeña aquí"
+          description="Toma decisiones con la opinión de tus clientes"
           imageSrc="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738607994/calificador_de_servicios_2x-8_pjnvol.webp"
           altText="imagen de Calificador de servicios"
           link="#"
@@ -59,7 +59,7 @@ function HomeProductsSection() {
 
         <Card
           title="OpinaMaster"
-          description="Descripción pequeña aquí"
+          description="Transforma opiniones en acciones estratégicas."
           imageSrc="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738685536/Opinamaster_2x-8_sg1wyy.webp"
           altText="imagen de OpinaMaster"
           link="#"
@@ -84,7 +84,7 @@ tomar el turno."
 
         <Card
           title="Rollos térmicos"
-          description="Descripción pequeña aquí"
+          description="Perfectos para tickets, facturas y más."
           imageSrc="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349920/image-1_1_ljyxis_qdsmdq.webp"
           altText="imagen de Rollos térmicos"
           link="#"
@@ -93,7 +93,7 @@ tomar el turno."
 
         <Card
           title="Desarrollo de software"
-          description="Descripción pequeña aquí"
+          description="Ajustado a tus necesidades."
           imageSrc="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738945022/11_2x-8_lb72ht.webp"
           altText="imagen de Desarrollo de software"
           link="#"
@@ -102,7 +102,7 @@ tomar el turno."
 
         <Card
           title="Soporte Técnico"
-          description="Descripción pequeña aquí"
+          description="Maximiza la vida útil y el rendimiento de tu inversión."
           imageSrc="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738945024/12_2x-8_nnlbla.webp"
           altText="imagen de Soporte Técnico"
           link="#"

@@ -24,7 +24,10 @@ function HeroSection() {
             <br />
             ¡No busques mas!
           </p>
-          <a className={styles.hero__btn} href="#">
+          <a
+            className={styles.hero__btn}
+            href="https://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/termicos"
+          >
             Ver más
           </a>
         </div>

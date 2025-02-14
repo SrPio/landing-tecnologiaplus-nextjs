@@ -13,6 +13,17 @@
     gap: 20px;
     justify-items: center;
     align-items: center;
+
+    @media (max-width: 1600px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @media (max-width: 1200px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (max-width: 768px) {
+      grid-template-columns: repeat(1, 1fr);
+    }
   }
 
   .btn__go_to_blog {

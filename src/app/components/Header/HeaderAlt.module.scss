@@ -1,8 +1,8 @@
-@use "../../../../components/Header/Header.module.scss" as *;
+@use "./Header.module.scss" as *;
 
 .altHeader {
-  background-color: #fff;
-  color: #606060;
+  background-color: #fff !important;
+  color: #606060 !important;
 }
 
 .altPhoneBtn {

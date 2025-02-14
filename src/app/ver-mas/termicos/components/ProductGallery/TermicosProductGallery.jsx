@@ -2,7 +2,7 @@
 import { useState } from "react";
 import styles from "./TermicosProductGallery.module.scss";
 import Header from "../../../../components/Header/Header";
-import altStyles from "./HeaderAlt.module.scss";
+import altStyles from "../../../../components/Header/HeaderAlt.module.scss";
 import { IoIosArrowBack } from "react-icons/io";
 import { FaWhatsapp } from "react-icons/fa";
 import Popup from "../../../../components/PopUp/Popup";

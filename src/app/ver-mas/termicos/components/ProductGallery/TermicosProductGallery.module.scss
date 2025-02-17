@@ -78,12 +78,22 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      position: relative;
+
+      .icon__next {
+        font-size: 90px;
+        right: -5vw;
+        top: 50%;
+        color: #606060;
+        position: absolute;
+        cursor: pointer;
+      }
     }
 
     .container__info__products {
       display: flex;
       flex-direction: column;
-      justify-content: center;
+      justify-content: flex-start;
       gap: 2rem;
       width: 45vw;
 

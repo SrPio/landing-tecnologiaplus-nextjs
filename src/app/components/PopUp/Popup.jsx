@@ -58,6 +58,12 @@ export default function Popup({ isOpen, setIsOpen }) {
                   src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739392044/4_2x-100_xp8nfs.webp"
                   alt="Imagen 4"
                 />
+                <img
+                  loading="lazy"
+                  className={styles.image}
+                  src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739392044/5_2x-100_tqczvp.webp"
+                  alt="imagen de medidas"
+                />
               </div>
             ) : (
               <div className={styles.content}>

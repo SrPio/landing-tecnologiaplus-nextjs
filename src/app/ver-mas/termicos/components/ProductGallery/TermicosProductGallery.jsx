@@ -1,9 +1,10 @@
 "use client";
+
 import { useState } from "react";
 import styles from "./TermicosProductGallery.module.scss";
 import Header from "../../../../components/Header/Header";
 import altStyles from "../../../../components/Header/HeaderAlt.module.scss";
-import { IoIosArrowBack } from "react-icons/io";
+import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import { FaWhatsapp } from "react-icons/fa";
 import Popup from "../../../../components/PopUp/Popup";
 
@@ -17,7 +18,12 @@ function TermicosProductGallery() {
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739392044/5_2x-100_tqczvp.webp",
   ];
 
-  const [selectedImage, setSelectedImage] = useState(images[0]);
+  const [selectedIndex, setSelectedIndex] = useState(0);
+  const selectedImage = images[selectedIndex];
+
+  const handleNextImage = () => {
+    setSelectedIndex((prevIndex) => (prevIndex + 1) % images.length);
+  };
 
   return (
     <section id="hero-section" className={styles.hero}>
@@ -28,10 +34,10 @@ function TermicosProductGallery() {
           searchIcon: altStyles.altSearchIcon,
         }}
       />
+
       <div className={styles.action__nav}>
         <a href="https://landing-tecnologiaplus-nextjs.vercel.app/rollos-termicos">
-          <IoIosArrowBack className={styles.icon__back} />
-          Volver
+          <IoIosArrowBack className={styles.icon__back} /> Volver
         </a>
       </div>
 
@@ -43,14 +49,11 @@ function TermicosProductGallery() {
               key={index}
               src={img}
               alt={`Thumbnail ${index + 1}`}
-              onClick={() => setSelectedImage(img)}
+              onClick={() => setSelectedIndex(index)}
               className={selectedImage === img ? styles.active : ""}
-              style={{
-                cursor: "pointer",
-              }}
+              style={{ cursor: "pointer" }}
             />
           ))}
-
           <button
             onClick={() => setIsOpen(true)}
             className={styles.btn__multimedia}
@@ -62,6 +65,11 @@ function TermicosProductGallery() {
         {/* Imagen Principal */}
         <div className={styles.container__product__selected}>
           <img loading="lazy" src={selectedImage} alt="Imagen seleccionada" />
+          <IoIosArrowForward
+            className={styles.icon__next}
+            onClick={handleNextImage}
+            onMouseDown={(e) => e.preventDefault()}
+          />
         </div>
 
         {/* Información del producto */}
@@ -86,6 +94,7 @@ function TermicosProductGallery() {
           </p>
         </div>
       </div>
+
       <Popup isOpen={isOpen} setIsOpen={setIsOpen} />
     </section>
   );

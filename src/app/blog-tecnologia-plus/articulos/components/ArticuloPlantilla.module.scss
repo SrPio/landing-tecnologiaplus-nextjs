@@ -1,0 +1,52 @@
+.articulo__section {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  margin-bottom: 120px;
+}
+
+.articulo__titulo {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  color: #222;
+}
+
+.articulo__subtitulo {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 15px 0;
+  color: #444;
+}
+
+.articulo__texto {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+.articulo__imagen {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6200ea;
+  margin: 20px 0;
+
+  img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+}
+
+.articulo__lista {
+  padding-left: 20px;
+
+  li {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    margin-bottom: 5px;
+  }
+}

@@ -14,7 +14,7 @@ function BlogHeroSection() {
         }}
       />
       <div className={styles.hero__content}>
-        <h1 className={styles.blog__title}>BLOG</h1>
+        <h1 className={styles.neon__effect}>BLOG</h1>
         <p>
           Descubre en nuestro blog cómo usamos la tecnología para que
           <br />

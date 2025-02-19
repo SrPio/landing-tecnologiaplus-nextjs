@@ -11,6 +11,34 @@ import EnfermeriaRelatedProducts from "./components/RelatedProducts/EnfermeriaRe
 import EnfermeriaSecondaryProductsSection from "./components/SecondaryProductsSection/EnfermeriaSecondaryProductsSection";
 import StepsSectionEnfermeria from "./components/StepsSection/StepsSectionEnfermeria";
 
+
+export const metadata = {
+    title: "Llamado de Enfermería: Hacemos fácil la atención de tus pacientes",
+    description: "Sistema de llamado de enfermería, somos fabricantes de bajo costo para modernizar y facilitar la atención de pacientes en el sector salud y geriátrico.",
+    robots: "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+    alternates: {
+        canonical: "https://tecnologiaplus.com/llamado-de-enfermeria/",
+    },
+    openGraph: {
+        type: "article",
+        locale: "es_ES",
+        url: "https://tecnologiaplus.com/llamado-de-enfermeria/",
+        siteName: "TecnologiaPlus",
+        title: "Llamado de enfermería - TecnologiaPlus",
+        description: "Llamadores de enfermería de largo alcance y alta resistencia. Sistema eficiente para llamar enfermeras. ¡Contáctanos hoy!",
+        images: [
+            {
+                url: "https://tecnologiaplus.com/wp-content/uploads/2020/10/banner-abuelos.jpg",
+            },
+        ],
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Llamado de enfermería - TecnologiaPlus",
+        description: "Llamadores de enfermería de largo alcance y alta resistencia. Sistema eficiente para llamar enfermeras. ¡Contáctanos hoy!",
+    },
+};
+
 export default function EnfermeriaLanding() {
     return (
         <>

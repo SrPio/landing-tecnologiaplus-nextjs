@@ -10,6 +10,39 @@ import LocalizadoresProductsSection from "./components/ProductsSection/Localizad
 import LocalizadoresRelatedProducts from "./components/RelatedProducts/LocalizadoresRelatedProducts";
 import LocalizadoresSecondaryProductsSection from "./components/SecondaryProductsSection/LocalizadoresSecondaryProductsSection";
 
+
+export const metadata = {
+    title: "Localizadores para restaurantes: organiza y resalta tu marca",
+    description:
+        "Somos fabricantes expertos en autoservicio, impulsa tu negocio con nuestros localizadores. ¡Solicita una asesoría ahora!",
+    keywords: ["localizadores", "restaurantes", "tecnología", "autoservicio"],
+    openGraph: {
+        title: "Localizadores de clientes - TecnologiaPlus",
+        description:
+            "Localizadores para restaurantes te permiten mejorar y agilizar el servicio. Modernos llamadores para restaurantes ultraresistentes a golpes",
+        url: "https://tecnologiaplus.com/localizadores-de-clientes/",
+        siteName: "TecnologiaPlus",
+        locale: "es_ES",
+        type: "article",
+        images: [
+            {
+                url: "https://tecnologiaplus.com/wp-content/uploads/2020/09/BANNER-LLAMADORES-1600X600-3.jpg",
+                width: 1600,
+                height: 600,
+                alt: "Llamadores para restaurantes Colombia",
+            },
+        ],
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Localizadores de clientes - TecnologiaPlus",
+        description:
+            "Localizadores para restaurantes te permiten mejorar y agilizar el servicio. Modernos llamadores para restaurantes ultraresistentes a golpes",
+    },
+};
+
+
+
 export default function LocalizadoresLanding() {
     return (
         <>

@@ -122,10 +122,6 @@ function TurnosFilaUnicaProductGallery() {
                 src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740084327/2_4x-8_3_v4jloz.webp",
                 alt: "Imagen 5",
               },
-              {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740084323/6_4x-8_2_udz2vk.webp",
-                alt: "Imagen 6",
-              },
             ],
           },
           {
@@ -133,7 +129,7 @@ function TurnosFilaUnicaProductGallery() {
             label: "Medidas",
             images: [
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740076449/4_4x-8_2_u0uop3.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740084327/2_4x-8_3_v4jloz.webp",
                 alt: "Imagen de medidas",
               },
             ],

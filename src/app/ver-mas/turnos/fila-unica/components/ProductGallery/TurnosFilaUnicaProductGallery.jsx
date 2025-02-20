@@ -115,8 +115,12 @@ function TurnosFilaUnicaProductGallery() {
                 alt: "Imagen 3",
               },
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739997884/5_4x-8_jlgmym.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739997884/4_4x-8_zjhzm0.webp",
                 alt: "Imagen 4",
+              },
+              {
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739997884/5_4x-8_jlgmym.webp",
+                alt: "Imagen 5",
               },
             ],
           },

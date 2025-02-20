@@ -75,7 +75,7 @@ function TurnosFilaUnicaProductGallery() {
         {/* Información del producto */}
         <div className={styles.container__info__products}>
           <div className={styles.container__titles}>
-            <h2>Turnero fila única - supermercados</h2>
+            <h2>PANTALLA TIB</h2>
             <p>Para recibir llamados</p>
           </div>
 

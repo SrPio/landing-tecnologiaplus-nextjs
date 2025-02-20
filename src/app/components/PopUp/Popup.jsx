@@ -2,82 +2,62 @@
 import { useState } from "react";
 import styles from "./Popup.module.scss";
 
-export default function Popup({ isOpen, setIsOpen }) {
+export default function Popup({
+  isOpen,
+  setIsOpen,
+  tabs = [
+    { key: "multimedia", label: "Multimedia", images: [] },
+    { key: "medidas", label: "Medidas", images: [] },
+  ],
+}) {
   if (!isOpen) return null;
-  const [activeTab, setActiveTab] = useState("multimedia");
+  const [activeTab, setActiveTab] = useState(tabs[0].key);
+  const activeTabData = tabs.find((tab) => tab.key === activeTab);
 
   return (
-    <>
-      {isOpen && (
-        <div className={styles.overlay} onClick={() => setIsOpen(false)}>
-          <div className={styles.popup} onClick={(e) => e.stopPropagation()}>
-            <button className={styles.close} onClick={() => setIsOpen(false)}>
-              ✖
+    <div className={styles.overlay} onClick={() => setIsOpen(false)}>
+      <div className={styles.popup} onClick={(e) => e.stopPropagation()}>
+        <button className={styles.close} onClick={() => setIsOpen(false)}>
+          ✖
+        </button>
+
+        {/* Tabs */}
+        <div className={styles.tabs}>
+          {tabs.map((tab) => (
+            <button
+              key={tab.key}
+              className={activeTab === tab.key ? styles.active : ""}
+              onClick={() => setActiveTab(tab.key)}
+            >
+              {tab.label}
             </button>
-
-            {/* Tabs */}
-            <div className={styles.tabs}>
-              <button
-                className={activeTab === "multimedia" ? styles.active : ""}
-                onClick={() => setActiveTab("multimedia")}
-              >
-                Multimedia
-              </button>
-              <button
-                className={activeTab === "medidas" ? styles.active : ""}
-                onClick={() => setActiveTab("medidas")}
-              >
-                Medidas
-              </button>
-            </div>
-
-            {/* Contenido */}
-            {activeTab === "multimedia" ? (
-              <div className={styles.grid}>
-                <img
-                  loading="lazy"
-                  className={styles.image}
-                  src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739392044/1_2x-100_wutnmk.webp"
-                  alt="Imagen 1"
-                />
-                <img
-                  loading="lazy"
-                  className={styles.image}
-                  src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739392044/2_2x-100_jikuc2.webp"
-                  alt="Imagen 2"
-                />
-                <img
-                  loading="lazy"
-                  className={styles.image}
-                  src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739392044/3_2x-100_lqfj29.webp"
-                  alt="Imagen 3"
-                />
-                <img
-                  loading="lazy"
-                  className={styles.image}
-                  src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739392044/4_2x-100_xp8nfs.webp"
-                  alt="Imagen 4"
-                />
-                <img
-                  loading="lazy"
-                  className={styles.image}
-                  src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739392044/5_2x-100_tqczvp.webp"
-                  alt="imagen de medidas"
-                />
-              </div>
-            ) : (
-              <div className={styles.content}>
-                <img
-                  loading="lazy"
-                  className={styles.image__sizes}
-                  src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739392044/5_2x-100_tqczvp.webp"
-                  alt="imagen de medidas"
-                />
-              </div>
-            )}
-          </div>
+          ))}
         </div>
-      )}
-    </>
+
+        {/* Contenido dinámico */}
+        <div className={styles.content}>
+          {activeTabData?.images.length === 1 ? (
+            <img
+              loading="lazy"
+              className={styles.singleImage}
+              src={activeTabData.images[0].src}
+              alt={activeTabData.images[0].alt || "Imagen"}
+            />
+          ) : (
+            <div className={styles.grid}>
+              {activeTabData?.images.map((image, index) => (
+                <img
+                  key={index}
+                  loading="lazy"
+                  className={styles.image}
+                  src={image.src}
+                  alt={image.alt || `Imagen ${index + 1}`}
+                />
+              ))}
+            </div>
+          )}
+        </div>
+      </div>
+    </div>
   );
 }

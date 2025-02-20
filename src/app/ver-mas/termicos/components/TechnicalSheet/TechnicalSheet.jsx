@@ -1,4 +1,4 @@
-import styles from "./TechnicalSheet.module.scss";
+import styles from "../../../styles/TechnicalSheet.module.scss";
 
 function TechnicalSheet() {
   return (

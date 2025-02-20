@@ -1,21 +1,20 @@
 "use client";
 
 import { useState } from "react";
-import styles from "../../../styles/ProductGallery.module.scss";
-import Header from "../../../../components/Header/Header";
-import altStyles from "../../../../components/Header/HeaderAlt.module.scss";
+import styles from "../../../../styles/ProductGallery.module.scss";
+import altStyles from "../../../../../components/Header/HeaderAlt.module.scss";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import { FaWhatsapp } from "react-icons/fa";
-import Popup from "../../../../components/PopUp/Popup";
+import Header from "@/app/components/Header/Header";
+import Popup from "@/app/components/PopUp/Popup";
 
-function TermicosProductGallery() {
+function TurnosFilaUnicaProductGallery() {
   const [isOpen, setIsOpen] = useState(false);
   const images = [
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739392044/1_2x-100_wutnmk.webp",
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739392044/2_2x-100_jikuc2.webp",
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739392044/3_2x-100_lqfj29.webp",
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739392044/4_2x-100_xp8nfs.webp",
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739392044/5_2x-100_tqczvp.webp",
+    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739997885/1_4x-8_tbrjqw.webp",
+    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739997884/3_4x-8_dzzvtz.webp",
+    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739997887/6_4x-8_qraawp.webp",
+    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739997885/2_4x-8_dinmoa.webp",
   ];
 
   const [selectedIndex, setSelectedIndex] = useState(0);
@@ -75,8 +74,8 @@ function TermicosProductGallery() {
         {/* Información del producto */}
         <div className={styles.container__info__products}>
           <div className={styles.container__titles}>
-            <h2>ROLLOS TÉRMICOS</h2>
-            <p>Rollos para impresora térmica</p>
+            <h2>Turnero fila única - supermercados</h2>
+            <p>Para recibir llamados</p>
           </div>
 
           <div className={styles.container__contact__info}>
@@ -104,19 +103,19 @@ function TermicosProductGallery() {
             label: "Multimedia",
             images: [
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739392044/1_2x-100_wutnmk.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739997885/1_4x-8_tbrjqw.webp",
                 alt: "Imagen 1",
               },
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739392044/2_2x-100_jikuc2.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739997884/3_4x-8_dzzvtz.webp",
                 alt: "Imagen 2",
               },
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739392044/3_2x-100_lqfj29.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739997887/6_4x-8_qraawp.webp",
                 alt: "Imagen 3",
               },
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739392044/4_2x-100_xp8nfs.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739997884/5_4x-8_jlgmym.webp",
                 alt: "Imagen 4",
               },
             ],
@@ -126,7 +125,7 @@ function TermicosProductGallery() {
             label: "Medidas",
             images: [
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739392044/5_2x-100_tqczvp.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739997884/5_4x-8_jlgmym.webp",
                 alt: "Imagen de medidas",
               },
             ],
@@ -137,4 +136,4 @@ function TermicosProductGallery() {
   );
 }
 
-export default TermicosProductGallery;
+export default TurnosFilaUnicaProductGallery;

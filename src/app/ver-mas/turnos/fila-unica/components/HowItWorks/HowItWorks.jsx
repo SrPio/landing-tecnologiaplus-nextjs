@@ -12,7 +12,7 @@ function HowItWorks() {
             alt="imagen de personas esperando su turno"
           />
           <p>
-            EI usuario hace la fila y se dirige al
+            El usuario hace la fila y se dirige al
             <br />
             número de caja que muestra la pantalla
           </p>

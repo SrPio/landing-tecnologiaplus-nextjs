@@ -23,7 +23,7 @@ function HowItWorks() {
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739997885/como_funciona_1_4x-8_ikcgrd.webp"
             alt="imagen de persona atendida en caja"
           />
-          <p>EI usuario es atendido en la caja</p>
+          <p>El usuario es atendido en la caja</p>
         </div>
         <div className={styles.item}>
           <img

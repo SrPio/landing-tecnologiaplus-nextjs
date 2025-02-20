@@ -54,6 +54,8 @@
       img {
         width: 100%;
         height: calc(100% / 4 * 3);
+        max-height: 200px;
+        min-height: 100px;
         object-fit: contain;
         border: #606060 1px solid;
       }
@@ -79,6 +81,10 @@
       justify-content: center;
       align-items: center;
       position: relative;
+
+      img {
+        max-height: 500px;
+      }
 
       .icon__next {
         font-size: 90px;

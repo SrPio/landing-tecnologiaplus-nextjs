@@ -1,0 +1,13 @@
+@use "../../../../styles/HowItWorks.module.scss" as *;
+
+.items__container {
+  width: 100% !important;
+
+  .item {
+    p {
+      font-size: 0.9rem !important;
+      width: 95% !important;
+      padding: 0.5rem 1rem !important;
+    }
+  }
+}

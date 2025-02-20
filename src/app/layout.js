@@ -12,7 +12,6 @@ export const metadata = {
     ],
     apple: 'https://tecnologiaplus.com/wp-content/uploads/2018/08/cropped-favicon-tecnologia-plus-180x180.png',
   },
-  themeColor: '#ffffff',
   other: {
     'msapplication-TileImage': 'https://tecnologiaplus.com/wp-content/uploads/2018/08/cropped-favicon-tecnologia-plus-270x270.png'
   }

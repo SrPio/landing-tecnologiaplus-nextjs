@@ -1,3 +1,5 @@
+@import "../../styles/base/mixins";
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -14,11 +16,24 @@
   display: flex;
   gap: 4rem;
 
+  @include respond-between("tablet", "laptop") {
+    font-size: 0.5rem;
+    padding: 1rem 2%;
+  }
+  @include respond-between("laptop", "desktop-lg") {
+    font-size: 0.8rem;
+    padding: 2rem 2%;
+  }
+
   .nav__links {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex: 2 1 auto;
+
+    @include respond-between("tablet", "laptop") {
+      flex: 2 1 40%;
+    }
   }
 
   .header__right {
@@ -26,6 +41,10 @@
     align-items: center;
     justify-content: space-between;
     flex: 1 1 auto;
+
+    @include respond-between("tablet", "laptop") {
+      flex: 2 1 50%;
+    }
   }
 
   a {
@@ -43,6 +62,10 @@
     display: flex;
     justify-content: center;
     margin: 0 2rem;
+
+    @include respond-between("laptop", "desktop-lg") {
+      margin: 0 0.5rem;
+    }
 
     .logo {
       height: 4rem;

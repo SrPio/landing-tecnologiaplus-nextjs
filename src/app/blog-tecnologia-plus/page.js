@@ -12,7 +12,6 @@ export const metadata = {
     title: "Blog - Tecnología Plus",
     description:
         "Somos fabricantes. Descubre en nuestro blog cómo la tecnología mejora la experiencia de los usuarios en comercios. ¡Innovación para un mejor servicio!",
-    viewport: "width=device-width, initial-scale=1, minimum-scale=1",
     alternates: {
         canonical: "https://tecnologiaplus.com/blog-tecnologia-plus/",
     },

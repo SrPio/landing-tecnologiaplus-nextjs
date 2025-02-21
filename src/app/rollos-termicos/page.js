@@ -13,7 +13,6 @@ import TechnicalDetails from "./components/TechnicalDetails/TechnicalDetails";
 export const metadata = {
     title: "Rollos Térmicos: Somos fabricantes de alta calidad",
     description: "Rollos de papel térmico de alta calidad, durabilidad y precios bajos. ¡Compra ahora en Tecnología Plus!",
-    viewport: "width=device-width, initial-scale=1, minimum-scale=1",
     robots: "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
     alternates: {
         canonical: "https://tecnologiaplus.com/rollos-termicos/",

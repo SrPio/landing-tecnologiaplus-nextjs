@@ -1,0 +1,17 @@
+@use "../../../../styles/TechnicalSheet.module.scss" as *;
+
+.technicalsheet__container {
+  .items__container {
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+
+    .item {
+      img {
+        height: 50px;
+        width: auto;
+        min-width: 70px;
+        object-fit: contain;
+      }
+    }
+  }
+}

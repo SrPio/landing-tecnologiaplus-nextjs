@@ -15,7 +15,6 @@ import Footer from "./components/Footer/Footer";
 export const metadata = {
   title: "Sistemas innovadores para Agilizar y potenciar la atención al cliente",
   description: "Lleva tu negocio al siguiente nivel, en Tecnología Plus somos expertos en sistemas para agilizar y potenciar el servicio al cliente ¡Contáctanos ahora!",
-  viewport: "width=device-width, initial-scale=1, minimum-scale=1",
   alternates: {
     canonical: "https://tecnologiaplus.com/",
   },

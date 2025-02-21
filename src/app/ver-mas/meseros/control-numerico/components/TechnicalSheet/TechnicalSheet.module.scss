@@ -3,7 +3,8 @@
 .technicalsheet__container {
   .items__container {
     width: 100%;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: end;
 
     .item {
       img {
@@ -12,6 +13,15 @@
         min-width: 70px;
         object-fit: contain;
       }
+    }
+
+    .item:nth-child(1) {
+      img {
+        max-width: 180px;
+      }
+    }
+    .item:nth-child(4) {
+      margin-left: 100px;
     }
   }
 }

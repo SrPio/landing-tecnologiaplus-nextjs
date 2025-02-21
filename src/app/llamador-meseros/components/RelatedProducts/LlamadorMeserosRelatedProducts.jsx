@@ -1,9 +1,11 @@
 import style from "./LlamadorMeserosRelatedProducts.module.scss";
 
-function LlamadorMeserosRelatedProducts() {
+function LlamadorMeserosRelatedProducts({ titleClassName = "" }) {
   return (
     <section className={style.related__products}>
-      <h2>Productos similares</h2>
+      <h2 className={`${style.defaultTitle} ${titleClassName}`}>
+        Productos similares
+      </h2>
       <div className={style.related__products__container}>
         <div className={style.related__products__card}>
           <div className={style.card__info}>

@@ -1,0 +1,59 @@
+import styles from "./TechnicalSheet.module.scss";
+
+function TechnicalSheet() {
+  return (
+    <section id="clients-section" className={styles.technicalsheet__container}>
+      <h2>Ficha técnica</h2>
+      <div className={styles.items__container}>
+        <div className={styles.item}>
+          <img
+            loading="lazy"
+            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740065557/ICONO_1_4x-8_1_xmpmcr.webp"
+            alt="icono Tecnología Plus"
+          />
+          <p>
+            Compatible con
+            <br />
+            llamadores de
+            <br />
+            Tecnología Plus
+          </p>
+        </div>
+        <div className={styles.item}>
+          <img
+            loading="lazy"
+            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740174266/9_4x-8_1_qsscxv.webp"
+            alt="icono de calidad"
+          />
+          <p>Material: Acrílico</p>
+        </div>
+        <div className={styles.item}>
+          <img
+            loading="lazy"
+            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740172482/7_4x-8_1_ptxtfo.webp"
+            alt="icono de gotas"
+          />
+          <p>
+            Resiste derrames
+            <br />
+            de agua
+          </p>
+        </div>
+        <div className={styles.item}>
+          <img
+            loading="lazy"
+            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740172482/6_4x-8_3_xfwxvq.webp"
+            alt="icono de mesa"
+          />
+          <p>
+            para ponerlo
+            <br />
+            sobre las mesas
+          </p>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+export default TechnicalSheet;

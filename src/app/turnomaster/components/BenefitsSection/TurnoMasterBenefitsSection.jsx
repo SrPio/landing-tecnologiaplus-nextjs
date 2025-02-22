@@ -4,9 +4,9 @@ function TurnoMasterBenefitsSection() {
   return (
     <section className={style.benefits__section}>
       <h2 className={style.benefits__title}>
-        BENEFICIOS
+        Ventajas de nuestro
         <br />
-        DESTACADOS
+        Sistema de Turnos
       </h2>
       <ul>
         <li>
@@ -15,9 +15,8 @@ function TurnoMasterBenefitsSection() {
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738860473/icono_1_2x-8_2_ahx7d0.webp"
             alt="icono de controles"
           />
-          Personaliza según tus
-          <br />
-          colores y necesidades.
+          Personaliza según colores
+          <br />y necesidades de tu marca
         </li>
         <li>
           <img
@@ -25,7 +24,8 @@ function TurnoMasterBenefitsSection() {
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738860472/icono_2_2x-8_2_kjq13k.webp"
             alt="icono gráfico de barras"
           />
-          Estadísticas detalladas.
+          Datos y estadisticas para evaluar
+          <br />y controlar la calidad del servicio.
         </li>
         <li>
           <img
@@ -33,7 +33,9 @@ function TurnoMasterBenefitsSection() {
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738860471/icono_3_2x-8_2_fzlqej.webp"
             alt="icono de medalla de adición"
           />
-          Elige servicios adicionales.
+          Agrega funciones extra
+          <br />
+          según tus necesidades
         </li>
       </ul>
     </section>

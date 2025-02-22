@@ -34,8 +34,11 @@ function SecondaryTurnoMasterProductsSection() {
         <div className={style.products__container}>
           <div className={style.products__card__container}>
             <div className={style.card}>
-              <h2>Estadísticas</h2>
-              <p>informes detallados</p>
+              <h2>Estadisticas generales y de cada turno</h2>
+              <p>
+                Reportes en tiempo real de tiempos de atención y calidad del
+                servicio
+              </p>
               <img
                 loading="lazy"
                 src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738864484/estadisticas_2x-8_i2w4e1.webp"
@@ -43,8 +46,8 @@ function SecondaryTurnoMasterProductsSection() {
               />
             </div>
             <div className={style.card}>
-              <h2>Administración total</h2>
-              <p>software dinámico</p>
+              <h2>Control total de la sala de espera</h2>
+              <p>software amigable y escalable a las necesidades</p>
               <img
                 loading="lazy"
                 src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738860449/software_2x-8_rpfkti.webp"
@@ -69,7 +72,7 @@ seguir el turno"
             <p>
               Código QR para
               <br />
-              seguir el turno
+              revisar el turno
             </p>
           </div>
           <div className={style.card}>
@@ -80,7 +83,7 @@ seguir el turno"
 turno en el celular"
             />
             <p>
-              Seguimiento del
+              Ver estado del
               <br />
               turno en el celular
             </p>

@@ -4,11 +4,9 @@ function TurnoMasterIndustriesSection() {
   return (
     <section className={style.industries__section}>
       <h2>
-        TURNOMASTER
-        <br />
-        ADAPTABLE A TODOS
-        <br />
-        LOS SECTORES
+        TurnoMaster se adapta <br />
+        a distintos sectores para <br />
+        organizar las filas
       </h2>
       <ul>
         <li>

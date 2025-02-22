@@ -24,6 +24,12 @@ function TurnosFilaUnicaProductGallery() {
     setSelectedIndex((prevIndex) => (prevIndex + 1) % images.length);
   };
 
+  const handlePrevImage = () => {
+    setSelectedIndex((prevIndex) =>
+      prevIndex > 0 ? prevIndex - 1 : prevIndex
+    );
+  };
+
   return (
     <section id="hero-section" className={styles.hero}>
       <Header
@@ -41,34 +47,43 @@ function TurnosFilaUnicaProductGallery() {
       </div>
 
       <div className={styles.container__product__gallery}>
-        {/* Miniaturas */}
-        <div className={styles.container__thumbnails}>
-          {images.map((img, index) => (
-            <img
-              key={index}
-              src={img}
-              alt={`Thumbnail ${index + 1}`}
-              onClick={() => setSelectedIndex(index)}
-              className={selectedImage === img ? styles.active : ""}
-              style={{ cursor: "pointer" }}
-            />
-          ))}
-          <button
-            onClick={() => setIsOpen(true)}
-            className={styles.btn__multimedia}
-          >
-            Multimedia
-          </button>
-        </div>
+        <div className={styles.container__product__selectorImg}>
+          {/* Miniaturas */}
+          <div className={styles.container__thumbnails}>
+            {images.map((img, index) => (
+              <img
+                key={index}
+                src={img}
+                alt={`Thumbnail ${index + 1}`}
+                onClick={() => setSelectedIndex(index)}
+                className={selectedImage === img ? styles.active : ""}
+                style={{ cursor: "pointer" }}
+              />
+            ))}
+            <button
+              onClick={() => setIsOpen(true)}
+              className={styles.btn__multimedia}
+            >
+              Multimedia
+            </button>
+          </div>
 
-        {/* Imagen Principal */}
-        <div className={styles.container__product__selected}>
-          <img loading="lazy" src={selectedImage} alt="Imagen seleccionada" />
-          <IoIosArrowForward
-            className={styles.icon__next}
-            onClick={handleNextImage}
-            onMouseDown={(e) => e.preventDefault()}
-          />
+          {/* Imagen Principal */}
+          <div className={styles.container__product__selected}>
+            {selectedIndex > 0 && (
+              <IoIosArrowBack
+                className={styles.icon__prev}
+                onClick={handlePrevImage}
+                onMouseDown={(e) => e.preventDefault()}
+              />
+            )}
+            <img loading="lazy" src={selectedImage} alt="Imagen seleccionada" />
+            <IoIosArrowForward
+              className={styles.icon__next}
+              onClick={handleNextImage}
+              onMouseDown={(e) => e.preventDefault()}
+            />
+          </div>
         </div>
 
         {/* Información del producto */}

@@ -8,7 +8,7 @@ import { FaWhatsapp } from "react-icons/fa";
 import Header from "@/app/components/Header/Header";
 import Popup from "@/app/components/PopUp/Popup";
 
-function TurnosFilaUnicaProductGallery() {
+function ProductGallery() {
   const [isOpen, setIsOpen] = useState(false);
   const images = [
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740065962/5_4x-8_1_q6egxl.webp",
@@ -156,4 +156,4 @@ function TurnosFilaUnicaProductGallery() {
   );
 }
 
-export default TurnosFilaUnicaProductGallery;
+export default ProductGallery;

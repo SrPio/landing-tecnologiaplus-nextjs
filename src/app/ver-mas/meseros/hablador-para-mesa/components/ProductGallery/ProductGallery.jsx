@@ -8,13 +8,14 @@ import { FaWhatsapp } from "react-icons/fa";
 import Header from "@/app/components/Header/Header";
 import Popup from "@/app/components/PopUp/Popup";
 
-function TurnosFilaUnicaProductGallery() {
+function ProductGallery() {
   const [isOpen, setIsOpen] = useState(false);
   const images = [
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740076453/1_4x-8_2_oaqjhl.webp",
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740076447/6_4x-8_1_ikq9af.webp",
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740076452/2_4x-8_2_ueuajo.webp",
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740076451/3_4x-8_2_opemgp.webp",
+    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740172460/1_4x-8_5_yemmkx.webp",
+    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740172460/5_4x-8_5_m8fsct.webp",
+    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740172461/4_4x-8_5_ozbtbq.webp",
+    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740172463/2_4x-8_5_tmewtr.webp",
+    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740172462/3_4x-8_5_fmwtxa.webp",
   ];
 
   const [selectedIndex, setSelectedIndex] = useState(0);
@@ -89,7 +90,7 @@ function TurnosFilaUnicaProductGallery() {
         {/* Información del producto */}
         <div className={styles.container__info__products}>
           <div className={styles.container__titles}>
-            <h2>Tunero T1N</h2>
+            <h2>Hablador para mesa</h2>
             <p>Para recibir llamados</p>
           </div>
 
@@ -118,28 +119,24 @@ function TurnosFilaUnicaProductGallery() {
             label: "Multimedia",
             images: [
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740076453/1_4x-8_2_oaqjhl.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740172460/1_4x-8_5_yemmkx.webp",
                 alt: "Imagen 1",
               },
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740076447/6_4x-8_1_ikq9af.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740172460/5_4x-8_5_m8fsct.webp",
                 alt: "Imagen 2",
               },
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740076452/2_4x-8_2_ueuajo.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740172461/4_4x-8_5_ozbtbq.webp",
                 alt: "Imagen 3",
               },
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740076451/3_4x-8_2_opemgp.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740172463/2_4x-8_5_tmewtr.webp",
                 alt: "Imagen 4",
               },
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740076448/5_4x-8_2_enjacr.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740172462/3_4x-8_5_fmwtxa.webp",
                 alt: "Imagen 5",
-              },
-              {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740076449/4_4x-8_2_u0uop3.webp",
-                alt: "Imagen 6",
               },
             ],
           },
@@ -148,7 +145,7 @@ function TurnosFilaUnicaProductGallery() {
             label: "Medidas",
             images: [
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740076449/4_4x-8_2_u0uop3.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740172462/3_4x-8_5_fmwtxa.webp",
                 alt: "Imagen de medidas",
               },
             ],
@@ -159,4 +156,4 @@ function TurnosFilaUnicaProductGallery() {
   );
 }
 
-export default TurnosFilaUnicaProductGallery;
+export default ProductGallery;

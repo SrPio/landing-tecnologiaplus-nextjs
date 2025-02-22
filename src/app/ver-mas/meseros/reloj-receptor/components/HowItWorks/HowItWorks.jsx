@@ -8,7 +8,7 @@ function HowItWorks() {
         <div className={styles.item}>
           <img
             loading="lazy"
-            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740186399/13_4x-8_tvckpg.webp"
+            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740252975/20_4x-8_onglwi.webp"
             alt="imagen de cliente presionando botón"
           />
           <p>
@@ -20,22 +20,26 @@ function HowItWorks() {
         <div className={styles.item}>
           <img
             loading="lazy"
-            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740186399/12_4x-8_tqhx4s.webp"
-            alt="imagen de pantalla mostrando número de mesa"
+            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740252975/19_4x-8_jto88r.webp"
+            alt="imagen de mesero recibiendo alerta en reloj"
           />
           <p>
-            La pantalla muestra el número
+            El mesero recibe una alerta en el reloj, este vibra y le
             <br />
-            de la mesa que está llamando.
+            muestra la mesa de donde están llamando
           </p>
         </div>
         <div className={styles.item}>
           <img
             loading="lazy"
-            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740186399/14_4x-8_brlm1s.webp"
+            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740252975/21_4x-8_hzykoo.webp"
             alt="imagen de mesero atendiendo llamado"
           />
-          <p>El mesero atiende el llamado</p>
+          <p>
+            El mesero atiende el llamado y presiona
+            <br />
+            la tecla CANCELAR para borrar el llamado
+          </p>
         </div>
       </div>
     </section>

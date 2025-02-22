@@ -8,7 +8,7 @@ import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import { FaWhatsapp } from "react-icons/fa";
 import Popup from "../../../../components/PopUp/Popup";
 
-function TermicosProductGallery() {
+function ProductGallery() {
   const [isOpen, setIsOpen] = useState(false);
   const images = [
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739392044/1_2x-100_wutnmk.webp",
@@ -152,4 +152,4 @@ function TermicosProductGallery() {
   );
 }
 
-export default TermicosProductGallery;
+export default ProductGallery;

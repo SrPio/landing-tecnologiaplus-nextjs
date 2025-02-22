@@ -8,13 +8,14 @@ import { FaWhatsapp } from "react-icons/fa";
 import Header from "@/app/components/Header/Header";
 import Popup from "@/app/components/PopUp/Popup";
 
-function TurnosFilaUnicaProductGallery() {
+function ProductGallery() {
   const [isOpen, setIsOpen] = useState(false);
   const images = [
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739997885/1_4x-8_tbrjqw.webp",
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739997884/3_4x-8_dzzvtz.webp",
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739997887/6_4x-8_qraawp.webp",
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739997885/2_4x-8_dinmoa.webp",
+    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740252995/1_4x-8_1_ykla6e.webp",
+    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740252992/6_4x-8_1_ihfzge.webp",
+    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740252992/7_4x-8_1_epxrf8.webp",
+    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740252993/5_4x-8_1_hbbc9n.webp",
+    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740252994/2_4x-8_1_njp4iy.webp",
   ];
 
   const [selectedIndex, setSelectedIndex] = useState(0);
@@ -67,6 +68,7 @@ function TurnosFilaUnicaProductGallery() {
               Multimedia
             </button>
           </div>
+
           {/* Imagen Principal */}
           <div className={styles.container__product__selected}>
             {selectedIndex > 0 && (
@@ -88,9 +90,9 @@ function TurnosFilaUnicaProductGallery() {
         {/* Información del producto */}
         <div className={styles.container__info__products}>
           <div className={styles.container__titles}>
-            <h2>Turnero fila única - supermercados</h2>
-            <p>Para recibir llamados</p>
+            <h2>Reloj receptor de llamados</h2>
           </div>
+
           <div className={styles.container__contact__info}>
             <h3>¿Tienes preguntas?</h3>
             <p>
@@ -98,11 +100,8 @@ function TurnosFilaUnicaProductGallery() {
               <FaWhatsapp className={styles.icon__wpp} /> +57 316 4682034
             </p>
           </div>
-          <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-            volutpat. Ut Wisi enim ad io
-          </p>
+
+          <p>Compatible con los equipos de nuestra marca.</p>
         </div>
       </div>
 
@@ -115,23 +114,31 @@ function TurnosFilaUnicaProductGallery() {
             label: "Multimedia",
             images: [
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739997885/1_4x-8_tbrjqw.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740252995/1_4x-8_1_ykla6e.webp",
                 alt: "Imagen 1",
               },
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739997884/3_4x-8_dzzvtz.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740252992/6_4x-8_1_ihfzge.webp",
                 alt: "Imagen 2",
               },
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739997887/6_4x-8_qraawp.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740252992/7_4x-8_1_epxrf8.webp",
                 alt: "Imagen 3",
               },
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739997884/4_4x-8_zjhzm0.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740252993/5_4x-8_1_hbbc9n.webp",
                 alt: "Imagen 4",
               },
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739997884/5_4x-8_jlgmym.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740252994/2_4x-8_1_njp4iy.webp",
+                alt: "Imagen 5",
+              },
+              {
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740252993/4_4x-8_1_kepwg1.webp",
+                alt: "Imagen 5",
+              },
+              {
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740252994/3_4x-8_1_qy5u5d.webp",
                 alt: "Imagen 5",
               },
             ],
@@ -141,7 +148,7 @@ function TurnosFilaUnicaProductGallery() {
             label: "Medidas",
             images: [
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739997884/5_4x-8_jlgmym.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740252993/5_4x-8_1_hbbc9n.webp",
                 alt: "Imagen de medidas",
               },
             ],
@@ -152,4 +159,4 @@ function TurnosFilaUnicaProductGallery() {
   );
 }
 
-export default TurnosFilaUnicaProductGallery;
+export default ProductGallery;

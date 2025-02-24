@@ -14,12 +14,12 @@ function CalificadorHeroSection() {
         />
 
         <div className={styles.hero__text}>
-          <h1>Lorem ipsum dolor sit</h1>
-          <p>
-            Lorem ipsum dolor sit amet,
+          <h1>
+            OpinaMaster: El calificador de servicio
             <br />
-            consectetuer adipiscing elit,
-          </p>
+            para crecer con la voz de tus clientes
+          </h1>
+          <p>En Tiempo Real recibe alertas de calificaciones negativas</p>
           <a className={styles.hero__btn} href="#">
             Ver más
           </a>

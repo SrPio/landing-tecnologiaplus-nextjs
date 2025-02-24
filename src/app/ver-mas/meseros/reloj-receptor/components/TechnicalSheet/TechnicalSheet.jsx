@@ -55,7 +55,7 @@ function TechnicalSheet() {
         <div className={styles.item}>
           <img
             loading="lazy"
-            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740065557/ICONO_5_4x-8_1_wkvdpj.webp"
+            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740411505/nuevo_4x-8_nqits1.webp"
             alt="icono de diferentes tipos de aviso"
           />
           <p>

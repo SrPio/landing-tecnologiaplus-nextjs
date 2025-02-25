@@ -3,7 +3,17 @@
 .products__section {
   // Variaciones específicas para `Calificador`
 
-  padding-bottom: 7rem;
+  > p {
+    font-size: 1rem;
+    color: #606060;
+    font-weight: 400;
+    text-align: center;
+    max-width: 1250px;
+    line-height: 1.2;
+    text-wrap: balance;
+  }
+
+  padding-bottom: 9rem;
   .products__container {
     margin-bottom: 0;
     gap: 4rem;

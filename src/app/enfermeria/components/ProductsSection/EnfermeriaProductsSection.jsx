@@ -15,6 +15,17 @@ function EnfermeriaProductsSection() {
           alt="Imagen de llamador de personal para colgar en el cuello"
         />
       </div>
+      <p>
+        Garantizar el bienestar del paciente es esencial, y con nuestro Sistema
+        de Llamado de Enfermería, se facilita la comunicación entre pacientes y
+        personal de enfermería. Equipado con un llamador de personal adaptable a
+        todos los sectores, este dispositivo facilita una asistencia oportuna
+        con solo presionar un botón. Su diseño portátil permite reubicarlo
+        facilmente o incluso puede ser usado en el cuello del paciente,
+        brindando comodidad y tranquilidad. La señal de largo alcance y
+        notificación instantánea mejoran la eficiencia del personal de salud,
+        ofreciendo un servicio de calidad que ayuda a pacientes y enfermeras.
+      </p>
     </section>
   );
 }

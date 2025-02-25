@@ -14,11 +14,15 @@ function EnfermeriaHeroSection() {
         />
 
         <div className={styles.hero__text}>
-          <h1>Lorem ipsum dolor sit</h1>
-          <p>
-            Lorem ipsum dolor sit amet,
+          <h1>
+            Llamado de Enfermería:
             <br />
-            consectetuer adipiscing elit,
+            más cerca de tus pacientes.
+          </h1>
+          <p>
+            Facilita el contacto entre el
+            <br />
+            paciente y personal de salud.
           </p>
           <a className={styles.hero__btn} href="#">
             Ver más

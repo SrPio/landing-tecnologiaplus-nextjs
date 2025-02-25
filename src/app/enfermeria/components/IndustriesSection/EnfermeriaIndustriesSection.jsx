@@ -4,11 +4,11 @@ function EnfermeriaIndustriesSection() {
   return (
     <section className={style.industries__section}>
       <h2>
-        LLAMADOR DE PERSONAL
+        Llamador de Personal
         <br />
-        ADAPTABLE A TODOS
+        ideal para hospitales,
         <br />
-        LOS SECTORES
+        clínicas y más
       </h2>
       <ul>
         <li>

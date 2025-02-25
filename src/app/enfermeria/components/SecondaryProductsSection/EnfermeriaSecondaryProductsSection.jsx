@@ -4,7 +4,7 @@ function EnfermeriaSecondaryProductsSection() {
   return (
     <section className={style.products__section}>
       <h2 className={style.products__title}>
-        Opciones para llamar la enfermera
+        Opciones de llamador de enfermeras
       </h2>
       <div className={style.products__container}>
         <div className={style.products__card__container}>

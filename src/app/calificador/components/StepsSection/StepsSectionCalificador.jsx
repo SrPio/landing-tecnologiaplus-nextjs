@@ -3,7 +3,7 @@ import style from "./StepsSectionCalificador.module.scss";
 function StepsSectionCalificador() {
   return (
     <section className={style.steps__section}>
-      <h2>¿Cómo funciona?</h2>
+      <h2>¿Cómo Funciona el Calificador de Servicio al Cliente?</h2>
 
       <div className={style.cards__container}>
         <div className={style.card}>
@@ -14,7 +14,7 @@ function StepsSectionCalificador() {
           <div className={style.text__container}>
             <div className={style.number}>1</div>
             <p>
-              Al finalizar la asesoría el asesor pide al cliente evaluar la
+              Tras la asesoría, el asesor invita al cliente a calificar la
               atención.
             </p>
           </div>
@@ -40,13 +40,7 @@ function StepsSectionCalificador() {
           />
           <div className={style.text__container}>
             <div className={style.number}>3</div>
-            <p>
-              La información queda
-              <br />
-              registrada en el sistema
-              <br />
-              para revisar estadísticas.
-            </p>
+            <p>El sistema guarda los datos para generar estadísticas.</p>
           </div>
         </div>
       </div>

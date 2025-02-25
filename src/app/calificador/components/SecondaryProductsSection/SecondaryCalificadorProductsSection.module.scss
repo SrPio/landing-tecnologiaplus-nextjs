@@ -18,7 +18,17 @@
       font-size: 2.5rem;
       font-weight: 900;
       color: #606060;
-      margin: 2rem 0;
+      margin: 2rem 0 0;
+    }
+
+    > p {
+      font-size: 1rem;
+      color: #606060;
+      font-weight: 400;
+      text-align: center;
+      max-width: 1250px;
+      line-height: 1.2;
+      text-wrap: balance;
     }
     .products__card__container {
       display: flex;
@@ -30,6 +40,13 @@
         flex-direction: column;
         align-items: center;
         justify-content: end;
+
+        > p {
+          color: #606060;
+          font-size: 1.2rem;
+          font-weight: 400;
+          margin-bottom: 2rem;
+        }
 
         img {
           height: 450px;

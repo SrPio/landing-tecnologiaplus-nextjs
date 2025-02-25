@@ -4,9 +4,9 @@ function CalificadorIndustriesSection() {
   return (
     <section className={style.industries__section}>
       <h2>
-        NUESTRO CALIFICADOR
+        NUESTRO CALIFICADOR DE SERVICIO
         <br />
-        ES ADAPTABLE A TODOS
+        SE ADAPTA A TODOS
         <br />
         LOS SECTORES
       </h2>

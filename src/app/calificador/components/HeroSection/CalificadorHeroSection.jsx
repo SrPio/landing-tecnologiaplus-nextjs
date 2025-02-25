@@ -15,9 +15,11 @@ function CalificadorHeroSection() {
 
         <div className={styles.hero__text}>
           <h1>
-            OpinaMaster: El calificador de servicio
+            OpinaMaster:
             <br />
-            para crecer con la voz de tus clientes
+            El calificador de servicio para
+            <br />
+            crecer con la voz de tus clientes
           </h1>
           <p>En Tiempo Real recibe alertas de calificaciones negativas</p>
           <a className={styles.hero__btn} href="#">

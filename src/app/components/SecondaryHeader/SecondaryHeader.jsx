@@ -8,42 +8,16 @@ function SecondaryHeader() {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        let isHeroVisible = false;
-        let isClientsVisible = false;
-
-        entries.forEach((entry) => {
-          if (entry.target.id === "hero-section") {
-            isHeroVisible = entry.isIntersecting;
-          }
-          if (entry.target.id === "clients-section") {
-            isClientsVisible = entry.isIntersecting;
-          }
-        });
-
-        if (isHeroVisible) {
-          setIsVisible(false);
-        } else if (isClientsVisible) {
-          setIsVisible(true);
-        }
-      },
-      {
-        threshold: 0.1,
-        rootMargin: "-50% 0px 0px 0px", // Ajuste para detectar mejor
+    const handleScroll = () => {
+      if (window.scrollY > 150) {
+        setIsVisible(true);
+      } else {
+        setIsVisible(false);
       }
-    );
-
-    const heroTarget = document.querySelector("#hero-section");
-    const clientsTarget = document.querySelector("#clients-section");
-
-    if (heroTarget) observer.observe(heroTarget);
-    if (clientsTarget) observer.observe(clientsTarget);
-
-    return () => {
-      if (heroTarget) observer.unobserve(heroTarget);
-      if (clientsTarget) observer.unobserve(clientsTarget);
     };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   return (

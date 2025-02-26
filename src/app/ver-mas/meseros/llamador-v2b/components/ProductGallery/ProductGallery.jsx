@@ -36,10 +36,6 @@ function ProductGallery() {
       url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740420352/4_4x-8_p62fv4.webp",
     },
     {
-      name: "Negro - Blanco",
-      url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740420354/1_4x-8_rgrx2o.webp",
-    },
-    {
       name: "Negro - Rojo",
       url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740420369/3_4x-8_xhyiqi.webp",
     },
@@ -224,32 +220,28 @@ function ProductGallery() {
                 alt: "Imagen 6",
               },
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740420354/1_4x-8_rgrx2o.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740420353/2_4x-8_iyjgk9.webp",
                 alt: "Imagen 7",
               },
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740420353/2_4x-8_iyjgk9.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740420352/4_4x-8_p62fv4.webp",
                 alt: "Imagen 8",
               },
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740420352/4_4x-8_p62fv4.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740420352/5_4x-8_v44nuq.webp",
                 alt: "Imagen 9",
               },
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740420352/5_4x-8_v44nuq.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740420351/6_4x-8_kmcnhe.webp",
                 alt: "Imagen 10",
               },
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740420351/6_4x-8_kmcnhe.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740420351/7_4x-8_dfcqqq.webp",
                 alt: "Imagen 11",
               },
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740420351/7_4x-8_dfcqqq.webp",
-                alt: "Imagen 12",
-              },
-              {
                 src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740497010/16_4x-8_1_w8yawj.webp",
-                alt: "Imagen 13",
+                alt: "Imagen 12",
               },
             ],
           },

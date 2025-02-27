@@ -1,0 +1,55 @@
+@use "../../../../styles/TechnicalSheet.module.scss" as *;
+
+.technicalsheet__container {
+  .items__container {
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: end;
+
+    .item {
+      img {
+        height: 50px;
+        width: auto;
+        min-width: 120px;
+        object-fit: contain;
+        object-position: right;
+      }
+    }
+
+    .item:nth-child(6) {
+      /* margin-left: -100px; */
+      img {
+        max-width: 125px;
+      }
+    }
+    .item:nth-child(1) {
+      img {
+        height: 30px;
+      }
+    }
+
+    .item:nth-child(2) {
+      img {
+        height: 30px;
+      }
+    }
+
+    .item:nth-child(4) {
+      img {
+        height: 50px;
+      }
+    }
+
+    .item:nth-child(5) {
+      img {
+        height: 35px;
+      }
+    }
+
+    .item:nth-child(8) {
+      img {
+        height: 60px;
+      }
+    }
+  }
+}

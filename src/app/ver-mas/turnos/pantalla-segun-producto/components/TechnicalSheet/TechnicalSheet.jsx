@@ -2,7 +2,7 @@ import styles from "./TechnicalSheet.module.scss";
 
 function TechnicalSheet() {
   return (
-    <section id="clients-section" className={styles.technicalsheet__container}>
+    <section className={styles.technicalsheet__container}>
       <h2>Ficha técnica</h2>
       <div className={styles.items__container}>
         <div className={styles.item}>

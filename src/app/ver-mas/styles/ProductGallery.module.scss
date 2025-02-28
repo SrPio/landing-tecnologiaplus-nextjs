@@ -207,6 +207,10 @@
         cursor: pointer;
         width: 60px;
         height: 60px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
         img {
           object-fit: contain;
           padding: 5px;

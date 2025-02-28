@@ -49,7 +49,7 @@ function ProductGallery() {
   };
 
   return (
-    <section id="hero-section" className={styles.hero}>
+    <section className={styles.hero}>
       <Header
         customStyles={{
           header: altStyles.altHeader,

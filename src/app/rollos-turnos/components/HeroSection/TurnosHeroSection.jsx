@@ -3,7 +3,7 @@ import Header from "../../../components/Header/Header";
 
 function TurnosHeroSection() {
   return (
-    <section id="hero-section" className={styles.hero}>
+    <section className={styles.hero}>
       <Header />
       <div className={styles.hero__content}>
         <div className={styles.central__container}>

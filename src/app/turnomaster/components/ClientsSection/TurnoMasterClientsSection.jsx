@@ -9,7 +9,7 @@ function TurnoMasterClientsSection() {
   const { logosTurnoMaster } = useLogos();
 
   return (
-    <section id="clients-section" className={style.clients__section}>
+    <section className={style.clients__section}>
       <h2 className={style.clients__title}>Algunos de nuestros clientes</h2>
       <p>
         Usan TurnoMaster para decidir en tiempo real como agilizar el flujo de

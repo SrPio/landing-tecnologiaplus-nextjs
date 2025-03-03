@@ -1,0 +1,49 @@
+import styles from "../../../../styles/HowItWorks.module.scss";
+
+function HowItWorks() {
+  return (
+    <section id="clients-section" className={styles.HowItWorks__container}>
+      <h2>¿Cómo funciona?</h2>
+      <div className={styles.items__container}>
+        <div className={styles.item}>
+          <img
+            loading="lazy"
+            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741011138/12_4x-8_5_gg4wnr.webp"
+            alt="imagen de cliente haciendo pedido y recibiendo localizador"
+          />
+          <p>
+            El cliente hace el pedido y
+            <br />
+            le entregan un localizador
+          </p>
+        </div>
+        <div className={styles.item}>
+          <img
+            loading="lazy"
+            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741011138/13_4x-8_7_jzd9lo.webp"
+            alt="imagen de persona digitando numero de localizador en control"
+          />
+          <p>
+            Cuando el pedido está listo, digita
+            <br />
+            en el control el número del localizador
+          </p>
+        </div>
+        <div className={styles.item}>
+          <img
+            loading="lazy"
+            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741011138/14_4x-8_5_twqpqp.webp"
+            alt="imagen de localizador vibrando, alumbra y suena"
+          />
+          <p>
+            El localizador vibra, alumbra y suena,
+            <br />
+            notificando al cliente del llamado
+          </p>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+export default HowItWorks;

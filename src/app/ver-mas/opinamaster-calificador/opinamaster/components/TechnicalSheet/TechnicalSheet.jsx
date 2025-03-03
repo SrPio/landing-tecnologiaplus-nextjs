@@ -6,7 +6,11 @@ function TechnicalSheet() {
       <h2>Ficha técnica</h2>
       <div className={styles.items__container}>
         <div className={styles.item}>
-          <img loading="lazy" src="" alt="icono de niveles de calificación" />
+          <img
+            loading="lazy"
+            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741016187/16_4x-8_4_bzkz4u.webp"
+            alt="icono de niveles de calificación"
+          />
           <p>4 niveles de calificación</p>
         </div>
         <div className={styles.item}>

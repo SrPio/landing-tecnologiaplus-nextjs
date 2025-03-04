@@ -1,3 +1,5 @@
+@use "../../styles/base/mixins" as *;
+
 .footer {
   background-color: #0a192f;
   color: #fff;
@@ -92,6 +94,18 @@
       width: 100%;
       max-width: 400px;
       height: auto;
+    }
+  }
+}
+
+@include respond-to-max("laptop") {
+  .footer {
+    &__top {
+      justify-content: flex-start;
+    }
+
+    &__peru {
+      margin-top: 0;
     }
   }
 }

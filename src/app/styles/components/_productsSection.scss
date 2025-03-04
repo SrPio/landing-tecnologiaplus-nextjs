@@ -37,8 +37,9 @@
 
 @include respond-to-max("laptop") {
   .products__section {
+    padding: 3rem 5% 10rem;
     .products__title {
-      font-size: clamp(16px, 4vw, 30px);
+      font-size: clamp(16px, 5vw, 30px);
       text-align: center;
     }
     .products__container {

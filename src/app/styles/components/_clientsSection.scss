@@ -62,8 +62,9 @@
 
 @include respond-to-max("laptop") {
   .clients__section {
+    padding: 3rem 5%;
     h2 {
-      font-size: clamp(16px, 4vw, 30px);
+      font-size: clamp(16px, 5vw, 30px);
       text-align: center;
     }
     p {

@@ -57,7 +57,7 @@
 @include respond-to-max("laptop") {
   .steps__section {
     h2 {
-      font-size: clamp(16px, 4vw, 30px);
+      font-size: clamp(16px, 5vw, 30px);
       text-align: center;
     }
 

@@ -1,3 +1,5 @@
+@import "../../styles/base/mixins";
+
 .contact__form {
   background-image: url("https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349923/nisgh2gbe0ginddnsrko_opkrn1.webp");
   background-size: cover;
@@ -36,6 +38,7 @@
       font-weight: 900;
       color: #7600b3;
       margin-bottom: 1rem;
+      text-align: center;
     }
 
     input {
@@ -91,6 +94,36 @@
       text-align: center;
       max-width: 1250px;
       line-height: 1.2;
+    }
+  }
+}
+
+@include respond-to-max("laptop") {
+  .contact__form {
+    padding: 6rem 5%;
+    .contact__form__container {
+      flex-direction: column;
+
+      form {
+        order: 2;
+        margin: 40px auto 0;
+      }
+
+      .contact__texts {
+        order: 1;
+        margin-top: -350px;
+
+        .contact__title {
+          color: #7600b3;
+          width: 100%;
+          font-size: clamp(16px, 6vw, 60px);
+        }
+
+        p {
+          color: #7600b3;
+          font-size: clamp(16px, 3vw, 30px);
+        }
+      }
     }
   }
 }

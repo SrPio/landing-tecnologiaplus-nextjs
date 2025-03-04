@@ -1,3 +1,5 @@
+@import "../../styles/base/mixins";
+
 .benefits__section {
   background-image: url("https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738851175/fondo_2x-8_pxbzqc.webp");
   background-size: cover;
@@ -50,6 +52,20 @@
         width: 70px;
         object-fit: contain;
       }
+    }
+  }
+}
+
+@include respond-to-max("laptop") {
+  .benefits__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 15vw;
+
+    .benefits__title {
+      font-size: clamp(16px, 10vw, 80px);
     }
   }
 }

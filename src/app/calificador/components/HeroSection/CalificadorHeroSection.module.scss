@@ -1,9 +1,17 @@
 @use "../../../styles/components/heroSection" as *;
+@import "../../../styles/base/mixins";
 
-.hero__content {
-  // Variaciones específicas para `turnero-turnoexpress`
+.hero {
+  .hero__content {
+    // Variaciones específicas para `turnero-turnoexpress`
 
-  .hero__img {
-    height: 80% !important;
+    .hero__img {
+      height: 80%;
+
+      @include respond-to-max("laptop") {
+        width: 80vw;
+        height: auto;
+      }
+    }
   }
 }

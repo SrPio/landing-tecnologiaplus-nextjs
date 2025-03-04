@@ -1,11 +1,23 @@
+"use client";
+import { useState } from "react";
 import styles from "./Header.module.scss";
 import { HiPhone } from "react-icons/hi2";
 import { FaSearch } from "react-icons/fa";
 
 function Header({ customStyles = {} }) {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
   return (
     <header className={`${styles.header} ${customStyles.header || ""}`}>
-      <div className={`${styles.nav__links} ${customStyles.navLinks || ""}`}>
+      <div
+        className={`${styles.nav__links} ${menuOpen ? styles.showMenu : ""} ${
+          customStyles.navLinks || ""
+        }`}
+      >
         <a href="#">Inicio</a>
         <a href="#">Productos</a>
         <a href="#">Blog</a>
@@ -43,6 +55,15 @@ function Header({ customStyles = {} }) {
           />
           322 734 7971
         </a>
+        <div
+          className={`${styles.menu__icon} ${menuOpen ? styles.open : ""} ${
+            customStyles.menuIcon || ""
+          }`}
+          onClick={toggleMenu}
+        >
+          <span></span>
+          <span></span>
+        </div>
       </div>
     </header>
   );

@@ -1,3 +1,5 @@
+@import "../../../styles/base/mixins";
+
 .steps__section {
   display: flex;
   flex-direction: column;
@@ -46,6 +48,40 @@
           font-weight: 400;
           color: #606060;
           text-wrap: balance;
+        }
+      }
+    }
+  }
+}
+
+@include respond-to-max("laptop") {
+  .steps__section {
+    h2 {
+      font-size: clamp(16px, 4vw, 30px);
+      text-align: center;
+    }
+
+    .cards__container {
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+
+      .card {
+        width: 80%;
+        img {
+          height: auto;
+          width: 100%;
+          order: 2;
+        }
+        .text__container {
+          order: 1;
+          width: 100%;
+          justify-content: center;
+
+          p {
+            font-size: clamp(16px, 4vw, 25px);
+            width: max-content;
+          }
         }
       }
     }

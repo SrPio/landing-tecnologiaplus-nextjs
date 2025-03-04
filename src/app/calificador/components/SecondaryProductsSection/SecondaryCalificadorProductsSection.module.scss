@@ -1,4 +1,5 @@
 @use "../../../styles/components/productsSection" as *;
+@import "../../../styles/base/mixins";
 
 .products__section {
   // Variaciones específicas para `Calificador`
@@ -67,6 +68,29 @@
           -moz-border-radius: 2rem;
           -ms-border-radius: 2rem;
           -o-border-radius: 2rem;
+        }
+      }
+    }
+  }
+}
+
+@include respond-to-max("laptop") {
+  .products__section {
+    .products__container {
+      .products__card__container {
+        flex-direction: column;
+        align-items: center;
+
+        .card {
+          h2 {
+            font-size: 1.8rem;
+            text-align: center;
+          }
+
+          p {
+            font-size: 1.5rem;
+            text-align: center;
+          }
         }
       }
     }

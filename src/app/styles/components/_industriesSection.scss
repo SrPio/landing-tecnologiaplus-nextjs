@@ -1,3 +1,5 @@
+@import "../../styles/base/mixins";
+
 .industries__section {
   background-image: url("https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349923/nisgh2gbe0ginddnsrko_opkrn1.webp");
   background-size: cover;
@@ -40,6 +42,25 @@
       img {
         width: 150px;
         object-fit: contain;
+      }
+    }
+  }
+}
+
+@include respond-to-max("laptop") {
+  .industries__section {
+    flex-direction: column;
+    gap: 15vw;
+
+    h2 {
+      font-size: clamp(16px, 4vw, 30px);
+    }
+
+    ul {
+      align-items: flex-start;
+      li {
+        min-width: 15px;
+        font-size: clamp(5px, 3vw, 25px);
       }
     }
   }

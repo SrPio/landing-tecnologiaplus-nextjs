@@ -1,3 +1,5 @@
+@import "../../styles/base/mixins";
+
 .clients__section {
   display: flex;
   flex-direction: column;
@@ -54,6 +56,19 @@
       height: 42px; /* Establece el alto fijo de 32px */
       width: auto; /* Mantiene la proporción original del logo */
       object-fit: contain;
+    }
+  }
+}
+
+@include respond-to-max("laptop") {
+  .clients__section {
+    h2 {
+      font-size: clamp(16px, 4vw, 30px);
+      text-align: center;
+    }
+    p {
+      font-size: clamp(16px, 4vw, 25px);
+      text-align: center;
     }
   }
 }

@@ -13,9 +13,9 @@ import StepsSectionLlamadorMeseros from "./components/StepsSection/StepsSectionL
 
 
 export const metadata = {
-    title: "Llamadores de meseros - TecnologiaPlus",
+    title: "Llamadores de Meseros: Hacemos Fácil la Atención de tus Clientes",
     description:
-        "Llamadores de meseros inalámbricos y sistemas de llamado de personal. Timbres de servicio y mesas para restaurantes. ¡Contáctanos!",
+        "Facilita el servicio con nuestros llamadores de meseros inalámbricos. Agiliza la atención y mejora la experiencia del cliente. ¡Asesoría personalizada!",
     viewport: "width=device-width, initial-scale=1, minimum-scale=1",
     robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
     alternates: {
@@ -24,9 +24,9 @@ export const metadata = {
     openGraph: {
         locale: "es_ES",
         type: "article",
-        title: "Llamadores de meseros - TecnologiaPlus",
+        title: "Llamadores de Meseros: Hacemos Fácil la Atención de tus Clientes",
         description:
-            "Llamadores de meseros inalámbricos y sistemas de llamado de personal. Timbres de servicio y mesas para restaurantes. ¡Contáctanos!",
+            "Facilita el servicio con nuestros llamadores de meseros inalámbricos. Agiliza la atención y mejora la experiencia del cliente. ¡Asesoría personalizada!",
         url: "https://tecnologiaplus.com/llamadores-de-meseros/",
         siteName: "TecnologiaPlus",
         images: [
@@ -40,9 +40,9 @@ export const metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Llamadores de meseros - TecnologiaPlus",
+        title: "Llamadores de Meseros: Hacemos Fácil la Atención de tus Clientes",
         description:
-            "Llamadores de meseros inalámbricos y sistemas de llamado de personal. Timbres de servicio y mesas para restaurantes. ¡Contáctanos!",
+            "Facilita el servicio con nuestros llamadores de meseros inalámbricos. Agiliza la atención y mejora la experiencia del cliente. ¡Asesoría personalizada!",
     },
     other: {
         "article:publisher": "https://www.facebook.com/tecnologiapluscolombia",

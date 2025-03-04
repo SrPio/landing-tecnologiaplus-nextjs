@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /author/gabriel/
+Disallow: /wp-admin/
+Disallow: /cdn-cgi/
+Disallow: /shop/page/
+Disallow: /categoria-producto/general/page/
+Disallow: /blog-tecnologiaplus/page/
+Disallow: /blog/page/
+Disallow: /producto/
+Disallow: /category/
+
+Sitemap: https://tu-dominio.com/sitemap.xml

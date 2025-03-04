@@ -37,6 +37,10 @@
 
 @include respond-to-max("laptop") {
   .products__section {
+    .products__title {
+      font-size: clamp(16px, 4vw, 30px);
+      text-align: center;
+    }
     .products__container {
       flex-direction: column;
 

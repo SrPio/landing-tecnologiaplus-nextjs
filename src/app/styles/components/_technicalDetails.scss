@@ -1,3 +1,5 @@
+@use "../../styles/base/mixins" as *;
+
 .technical__details {
   padding: 6rem 5%;
   display: flex;
@@ -95,6 +97,64 @@
       -moz-border-radius: 2rem;
       -ms-border-radius: 2rem;
       -o-border-radius: 2rem;
+    }
+  }
+}
+
+@include respond-to-max("laptop") {
+  .technical__details {
+    flex-direction: column;
+    align-items: center;
+
+    .technical__carousel__container {
+      width: 100%;
+    }
+
+    .TechnicalDetails__container {
+      .technical__textContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h2 {
+          font-size: clamp(16px, 5vw, 30px);
+          text-align: center;
+        }
+
+        > p {
+          font-size: clamp(16px, 4vw, 25px);
+          text-align: center;
+        }
+      }
+
+      .technical__info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h3 {
+          font-size: clamp(16px, 2vw, 30px);
+          text-align: center;
+        }
+
+        ul {
+          flex-direction: column;
+          li {
+            img {
+              height: 10vw;
+              width: 10vw;
+            }
+
+            p {
+              font-size: clamp(16px, 2vw, 25px);
+            }
+          }
+        }
+      }
+
+      .technical__details__btn {
+        margin: 2rem auto 0;
+      }
     }
   }
 }

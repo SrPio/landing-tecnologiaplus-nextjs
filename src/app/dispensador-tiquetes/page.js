@@ -11,8 +11,8 @@ import DispensadorTiquetesRelatedProducts from "./components/RelatedProducts/Dis
 
 
 export const metadata = {
-    title: "Dispensador de tiquetes - TecnologiaPlus",
-    description: "Descubre nuestro dispensador de tiquetes soluciones eficientes para tu negocio. Encuentra variedad y calidad en Tecnología Plus.",
+    title: "Dispensador de Tiquetes | Agiliza la Atención",
+    description: "Mejora la experiencia de tus clientes con nuestro dispensador de tiquetes. Ordena filas y agiliza el servicio. ¡Cotiza ahora y recibe asesoría!",
     robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
     alternates: {
         canonical: "https://tecnologiaplus.com/dispensador-de-tiquetes/",
@@ -21,8 +21,8 @@ export const metadata = {
         type: "article",
         locale: "es_ES",
         url: "https://tecnologiaplus.com/dispensador-de-tiquetes/",
-        title: "Dispensador de tiquetes - TecnologiaPlus",
-        description: "Descubre nuestro dispensador de tiquetes soluciones eficientes para tu negocio. Encuentra variedad y calidad en Tecnología Plus.",
+        title: "Dispensador de Tiquetes | Agiliza la Atención",
+        description: "Mejora la experiencia de tus clientes con nuestro dispensador de tiquetes. Ordena filas y agiliza el servicio. ¡Cotiza ahora y recibe asesoría!",
         siteName: "TecnologiaPlus",
         images: [
             {
@@ -35,8 +35,8 @@ export const metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Dispensador de tiquetes - TecnologiaPlus",
-        description: "Descubre nuestro dispensador de tiquetes soluciones eficientes para tu negocio. Encuentra variedad y calidad en Tecnología Plus.",
+        title: "Dispensador de Tiquetes | Agiliza la Atención",
+        description: "Mejora la experiencia de tus clientes con nuestro dispensador de tiquetes. Ordena filas y agiliza el servicio. ¡Cotiza ahora y recibe asesoría!",
     },
     other: {
         "article:publisher": "https://www.facebook.com/tecnologiapluscolombia",

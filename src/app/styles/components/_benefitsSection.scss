@@ -67,5 +67,11 @@
     .benefits__title {
       font-size: clamp(16px, 10vw, 80px);
     }
+
+    ul {
+      li {
+        font-size: clamp(10px, 5vw, 32px);
+      }
+    }
   }
 }

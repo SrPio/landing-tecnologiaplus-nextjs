@@ -129,6 +129,10 @@
 
 @include respond-to-max("laptop") {
   .related__products {
+    h2 {
+      font-size: clamp(16px, 5vw, 30px);
+      text-align: center;
+    }
     .related__products__specs {
       padding: 5% 5% 300px;
 

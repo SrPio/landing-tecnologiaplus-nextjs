@@ -11,9 +11,9 @@ import TurnosRelatedProducts from "./components/RelatedProducts/TurnosRelatedPro
 import TurnosTechnicalDetails from "./components/TechnicalDetails/TurnosTechnicalDetails";
 
 export const metadata = {
-    title: "Rollos de turnos - TecnologiaPlus",
+    title: "Rollos de Turno: Fabricantes de Calidad Garantizada",
     description:
-        "Descubre cómo Tecnología Plus optimiza tu negocio con rollos de turnos especializados para una gestión eficiente.",
+        "Somos fabricantes de rollos de turno de alta calidad. Compra directo de fábrica con entrega rápida. ¡Cotiza ahora y recibe asesoría personalizada!",
     robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
     alternates: {
         canonical: "https://tecnologiaplus.com/rollos-de-turno/",
@@ -22,9 +22,9 @@ export const metadata = {
         type: "article",
         locale: "es_ES",
         url: "https://tecnologiaplus.com/rollos-de-turno/",
-        title: "Rollos de turnos - TecnologiaPlus",
+        title: "Rollos de Turno: Fabricantes de Calidad Garantizada",
         description:
-            "Descubre cómo Tecnología Plus optimiza tu negocio con rollos de turnos especializados para una gestión eficiente.",
+            "Somos fabricantes de rollos de turno de alta calidad. Compra directo de fábrica con entrega rápida. ¡Cotiza ahora y recibe asesoría personalizada!",
         siteName: "TecnologiaPlus",
         images: [
             {
@@ -34,9 +34,9 @@ export const metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Rollos de turnos - TecnologiaPlus",
+        title: "Rollos de Turno: Fabricantes de Calidad Garantizada",
         description:
-            "Descubre cómo Tecnología Plus optimiza tu negocio con rollos de turnos especializados para una gestión eficiente.",
+            "Somos fabricantes de rollos de turno de alta calidad. Compra directo de fábrica con entrega rápida. ¡Cotiza ahora y recibe asesoría personalizada!",
     },
     icons: {
         other: [

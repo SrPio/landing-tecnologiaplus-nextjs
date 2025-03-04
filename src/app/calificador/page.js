@@ -24,9 +24,9 @@ export const metadata = {
     openGraph: {
         locale: "es_ES",
         type: "article",
-        title: "Calificador de Servicios - TecnologiaPlus",
+        title: "Calificador de Servicios: Conoce la opinión real de tus clientes",
         description:
-            "Optimiza la experiencia del cliente con nuestro moderno sistema calificador de servicio. Contáctanos para más información.",
+            "Conoce lo que piensan realmente tus clientes con el Calificador de Servicios. Toma decisiones informadas y lleva tu empresa al siguiente nivel.",
         url: "https://tecnologiaplus.com/calificador-de-servicios/",
         siteName: "TecnologiaPlus",
         images: [
@@ -38,9 +38,9 @@ export const metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Calificador de Servicios - TecnologiaPlus",
+        title: "Calificador de Servicios: Conoce la opinión real de tus clientes",
         description:
-            "Optimiza la experiencia del cliente con nuestro moderno sistema calificador de servicio. Contáctanos para más información.",
+            "Conoce lo que piensan realmente tus clientes con el Calificador de Servicios. Toma decisiones informadas y lleva tu empresa al siguiente nivel.",
         images: [
             "https://tecnologiaplus.com/wp-content/uploads/2020/09/Banner.jpg",
         ],

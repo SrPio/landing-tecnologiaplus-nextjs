@@ -99,6 +99,8 @@
 
 @include respond-to-max("laptop") {
   .header {
+    font-size: clamp(2px, 2vw, 16px);
+
     padding: 20px 15px;
     .nav__links {
       display: none;
@@ -112,6 +114,10 @@
     a.phone__btn {
       padding: 5px 20px;
       width: max-content;
+
+      .phone__icon {
+        font-size: clamp(2px, 2vw, 16px);
+      }
     }
     .header__right {
       gap: 10px;
@@ -121,14 +127,21 @@
       }
     }
 
+    a {
+      .search__icon {
+        color: #fff;
+        font-size: clamp(2px, 4vw, 30px);
+      }
+    }
+
     /* menu  */
 
     .menu__icon {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      width: 30px;
-      height: 20px;
+      width: clamp(2px, 4vw, 30px);
+      height: clamp(2px, 3vw, 20px);
       cursor: pointer;
 
       span {

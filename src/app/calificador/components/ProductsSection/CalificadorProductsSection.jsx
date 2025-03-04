@@ -7,7 +7,7 @@ function CalificadorProductsSection() {
         <div className={style.product__item}>
           <img
             loading="lazy"
-            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738679321/Group_1_fo9nmk.webp"
+            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741104598/nuevo_4x-8_qbdidq.webp"
             alt="Rollos de dispositivo calificador"
           />
           <div className={style.btn__container}>

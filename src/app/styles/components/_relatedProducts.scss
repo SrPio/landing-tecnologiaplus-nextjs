@@ -1,4 +1,4 @@
-@import "../../styles/base/mixins";
+@use "../../styles/base/mixins" as *;
 
 .related__products {
   margin-top: 3rem;

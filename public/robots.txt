@@ -1,12 +1,13 @@
+# *
 User-agent: *
-Disallow: /author/gabriel/
-Disallow: /wp-admin/
-Disallow: /cdn-cgi/
-Disallow: /shop/page/
-Disallow: /categoria-producto/general/page/
-Disallow: /blog-tecnologiaplus/page/
-Disallow: /blog/page/
-Disallow: /producto/
-Disallow: /category/
+Disallow: /
 
-Sitemap: https://tu-dominio.com/sitemap.xml
+# *
+User-agent: *
+Allow: /dispensador-de-tiquetes/
+
+# Host
+Host: https://landing-tecnologiaplus-nextjs.vercel.app/
+
+# Sitemaps
+Sitemap: https://landing-tecnologiaplus-nextjs.vercel.app/sitemap.xml

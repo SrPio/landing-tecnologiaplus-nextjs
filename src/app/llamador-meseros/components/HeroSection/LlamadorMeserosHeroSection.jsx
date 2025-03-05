@@ -14,11 +14,15 @@ function LlamadorMeserosHeroSection() {
         />
 
         <div className={styles.hero__text}>
-          <h1>Lorem ipsum dolor sit</h1>
-          <p>
-            Lorem ipsum dolor sit amet,
+          <h1>
+            Llamador de Meseros:
             <br />
-            consectetuer adipiscing elit,
+            Un solo toque evita largas esperas
+          </h1>
+          <p>
+            Innovador y sin ruidos para
+            <br />
+            facilitar el llamado de meseros.
           </p>
           <a className={styles.hero__btn} href="#">
             Ver más

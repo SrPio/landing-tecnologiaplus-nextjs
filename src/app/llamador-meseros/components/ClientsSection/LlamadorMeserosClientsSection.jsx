@@ -11,7 +11,10 @@ function LlamadorMeserosClientsSection() {
   return (
     <section className={style.clients__section}>
       <h2 className={style.clients__title}>Algunos de nuestros clientes</h2>
-      <p>Descripción pequeña aquí en el texto de abajo</p>
+      <p>
+        Negocios que agilizan la atención con nuestro sistema Llamador de
+        Meseros
+      </p>
       <div className={style.clients__container}>
         <InfiniteSlider logos={logosLlamadorMeseros} />
       </div>

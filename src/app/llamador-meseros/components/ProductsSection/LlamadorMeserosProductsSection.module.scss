@@ -11,11 +11,13 @@
     justify-content: space-between !important;
     width: 100%;
     img {
-      height: 70vh;
+      /* height: 70vh; */
+      width: 45vw;
+      height: auto;
     }
 
     img:nth-child(2) {
-      margin-right: 20vw;
+      margin-right: 5vw;
     }
   }
 }

@@ -15,6 +15,16 @@ function LlamadorMeserosProductsSection() {
           alt="Imagen de llamador de meseros"
         />
       </div>
+      <p>
+        Eleva el nivel de tu negocio con el Llamador de Meseros. Este sistema
+        permite que los clientes soliciten atención de manera rápida, discreta y
+        sin interrumpir su conversación. Con solo pulsar un botón, el mesero
+        recibe la alerta y acude a la mesa indicada en segundos. Nada de
+        levantar la mano, esperar demasiado o llamar en voz alta. Con este
+        sistema, la atención es más fluida, el servicio más ágil y la
+        satisfacción del cliente aumenta considerablemente, impactando
+        directamente en la reputación y fidelización de tu negocio.
+      </p>
     </section>
   );
 }

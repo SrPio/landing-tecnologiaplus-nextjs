@@ -80,38 +80,50 @@ function LlamadorMeserosSecondaryProductsSection() {
         <div className={style.products__container}>
           <h2>Dale play para verlos funcionar</h2>
           <div className={style.products__card__container}>
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/uXfDzZuoym4?si=2rqKuCI7mCsD2fgo"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            ></iframe>
+            <div className={style.card__video}>
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/uXfDzZuoym4?si=2rqKuCI7mCsD2fgo"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+              <p>Así de fácil es mejorar la atención en tu restaurante</p>
+            </div>
 
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/XevVCpp6Drc?si=JjbC36iw4KZHT8p8"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            ></iframe>
+            <div className={style.card__video}>
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/XevVCpp6Drc?si=JjbC36iw4KZHT8p8"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+              <p>
+                Personal mas alerta, facilita el llamado de meseros desde la
+                cocina.{" "}
+              </p>
+            </div>
 
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/9CPZ2QoFyqM?si=Pmy0UayPdUdqOxF1"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            ></iframe>
+            <div className={style.card__video}>
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/9CPZ2QoFyqM?si=Pmy0UayPdUdqOxF1"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+              <p>Un solo toque y el número de mesa aparece en pantalla</p>
+            </div>
           </div>
           <h2>Opciones para recibir llamados</h2>
           <div className={style.products__card__container}>

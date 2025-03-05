@@ -1,5 +1,5 @@
 @use "../../../styles/components/heroSection" as *;
-@import "../../../styles/base/mixins";
+@use "../../../styles/base/mixins" as *;
 
 .hero {
   .hero__content {

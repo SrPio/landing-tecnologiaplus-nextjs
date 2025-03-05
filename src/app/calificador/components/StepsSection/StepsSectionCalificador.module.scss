@@ -1,4 +1,4 @@
-@import "../../../styles/base/mixins";
+@use "../../../styles/base/mixins" as *;
 
 .steps__section {
   display: flex;

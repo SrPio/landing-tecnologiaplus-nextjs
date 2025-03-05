@@ -1,9 +1,9 @@
 import Footer from "../components/Footer/Footer";
 import SecondaryHeader from "../components/SecondaryHeader/SecondaryHeader";
 import WppBtn from "../components/WppBtn/WppBtn";
-import EnfermeriaClientsSection from "../enfermeria/components/ClientsSection/EnfermeriaClientsSection";
 import ContactForm from "../rollos-termicos/components/ContactForm/ContactForm";
 import EncuestaVirtualBenefitsSection from "./components/BenefitsSection/EncuestaVirtualBenefitsSection";
+import EncuestaVirtualClientsSection from "./components/ClientsSection/EncuestaVirtualClientsSection";
 import EncuestaVirtualHeroSection from "./components/HeroSection/EncuestaVirtualHeroSection";
 import EncuestaVirtualIndustriesSection from "./components/IndustriesSection/EncuestaVirtualIndustriesSection";
 import EncuestaVirtualProductsSection from "./components/ProductsSection/EncuestaVirtualProductsSection";
@@ -15,7 +15,7 @@ export default function EncuestaVirtualLanding() {
         <>
             <EncuestaVirtualHeroSection />
             <SecondaryHeader />
-            <EnfermeriaClientsSection />
+            <EncuestaVirtualClientsSection />
             <EncuestaVirtualProductsSection />
             <EncuestaVirtualBenefitsSection />
             <SecondaryEncuestaVirtualProductsSection />

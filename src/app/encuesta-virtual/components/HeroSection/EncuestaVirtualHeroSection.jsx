@@ -14,11 +14,17 @@ function EncuestaVirtualHeroSection() {
         />
 
         <div className={styles.hero__text}>
-          <h1>Lorem ipsum dolor sit</h1>
-          <p>
-            Lorem ipsum dolor sit amet,
+          <h1>
+            OpinaMaster Virtual:
             <br />
-            consectetuer adipiscing elit,
+            Descubre lo que
+            <br />
+            piensan tus clientes
+          </h1>
+          <p>
+            Encuesta Virtual, atrevete a detectar
+            <br />
+            los puntos fuertes y debiles de tu negocio.
           </p>
           <a className={styles.hero__btn} href="#">
             Ver más

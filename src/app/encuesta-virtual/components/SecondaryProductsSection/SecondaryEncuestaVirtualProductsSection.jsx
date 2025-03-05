@@ -6,13 +6,17 @@ function SecondaryEncuestaVirtualProductsSection() {
       <div className={style.products__container}>
         <div className={style.products__card__container}>
           <div className={style.card}>
-            <h2>Reportes gráficos</h2>
+            <h2>
+              Gráficos para
+              <br />
+              tomar decisiones
+            </h2>
             <p>
-              con un gráfico para cada
+              Convierte opiniones en
               <br />
-              pregunta, reflejando la
+              graficos de la percepción
               <br />
-              percepción real de tus clientes.
+              real de tus clientes.
             </p>
           </div>
           <div className={style.card}>

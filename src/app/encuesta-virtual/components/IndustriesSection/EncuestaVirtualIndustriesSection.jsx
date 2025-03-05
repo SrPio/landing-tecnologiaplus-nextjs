@@ -4,10 +4,11 @@ function EncuestaVirtualIndustriesSection() {
   return (
     <section className={style.industries__section}>
       <h2>
-        NUESTRAS ENCUESTAS
+        UN SISTEMA DE ENCUESTAS
         <br />
-        SON ADAPTABLES
-        <br />A TODOS LOS SECTORES
+        VERSÁTIL PARA MEJORAR LA
+        <br />
+        ATENCIÓN AL CLIENTE.
       </h2>
       <ul>
         <li>

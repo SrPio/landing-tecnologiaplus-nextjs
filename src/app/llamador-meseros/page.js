@@ -16,7 +16,6 @@ export const metadata = {
     title: "Llamadores de Meseros: Hacemos Fácil la Atención de tus Clientes",
     description:
         "Facilita el servicio con nuestros llamadores de meseros inalámbricos. Agiliza la atención y mejora la experiencia del cliente. ¡Asesoría personalizada!",
-    viewport: "width=device-width, initial-scale=1, minimum-scale=1",
     robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
     alternates: {
         canonical: "https://tecnologiaplus.com/llamadores-de-meseros/",

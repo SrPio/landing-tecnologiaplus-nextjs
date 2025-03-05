@@ -90,7 +90,7 @@ function ProductGallery() {
         {/* Información del producto */}
         <div className={styles.container__info__products}>
           <div className={styles.container__titles}>
-            <h2>REC V3</h2>
+            <h1>REC V3</h1>
             <p>Localizadores de clientes</p>
           </div>
 

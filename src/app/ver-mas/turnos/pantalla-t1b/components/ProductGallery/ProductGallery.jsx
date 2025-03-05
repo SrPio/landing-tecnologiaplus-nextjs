@@ -90,7 +90,7 @@ function ProductGallery() {
         {/* Información del producto */}
         <div className={styles.container__info__products}>
           <div className={styles.container__titles}>
-            <h2>PANTALLA TIB</h2>
+            <h1>PANTALLA TIB</h1>
             <p>Para recibir llamados</p>
           </div>
 

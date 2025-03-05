@@ -90,7 +90,7 @@ function ProductGallery() {
         {/* Información del producto */}
         <div className={styles.container__info__products}>
           <div className={styles.container__titles}>
-            <h2>ROLLOS TÉRMICOS</h2>
+            <h1>ROLLOS TÉRMICOS</h1>
             <p>Rollos para impresora térmica</p>
           </div>
 

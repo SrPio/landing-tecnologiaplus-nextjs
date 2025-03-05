@@ -90,7 +90,7 @@ function ProductGallery() {
         {/* Información del producto */}
         <div className={styles.container__info__products}>
           <div className={styles.container__titles}>
-            <h2>Reloj receptor de llamados</h2>
+            <h1>Reloj receptor de llamados</h1>
           </div>
 
           <div className={styles.container__contact__info}>

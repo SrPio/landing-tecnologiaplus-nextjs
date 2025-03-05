@@ -90,7 +90,7 @@ function ProductGallery() {
         {/* Información del producto */}
         <div className={styles.container__info__products}>
           <div className={styles.container__titles}>
-            <h2>CIR C2</h2>
+            <h1>CIR C2</h1>
             <p>Localizadores de clientes</p>
           </div>
 

@@ -88,7 +88,7 @@ function ProductGallery() {
         {/* Información del producto */}
         <div className={styles.container__info__products}>
           <div className={styles.container__titles}>
-            <h2>OpinaMaster</h2>
+            <h1>OpinaMaster</h1>
             <p>Aviso de pared</p>
           </div>
           <div className={styles.container__contact__info}>

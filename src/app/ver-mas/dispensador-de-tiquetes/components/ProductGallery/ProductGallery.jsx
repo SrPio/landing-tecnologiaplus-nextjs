@@ -125,7 +125,7 @@ function ProductGallery() {
         {/* Información del producto */}
         <div className={styles.container__info__products}>
           <div className={styles.container__titles}>
-            <h2>DISPENSADOR DE TIQUETES</h2>
+            <h1>DISPENSADOR DE TIQUETES</h1>
             <p>Para solicitar turno</p>
           </div>
 

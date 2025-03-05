@@ -88,7 +88,7 @@ function ProductGallery() {
         {/* Información del producto */}
         <div className={styles.container__info__products}>
           <div className={styles.container__titles}>
-            <h2>Turnero fila única - supermercados</h2>
+            <h1>Turnero fila única - supermercados</h1>
             <p>Para recibir llamados</p>
           </div>
           <div className={styles.container__contact__info}>

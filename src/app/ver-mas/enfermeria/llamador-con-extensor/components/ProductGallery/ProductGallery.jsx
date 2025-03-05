@@ -90,7 +90,7 @@ function ProductGallery() {
         {/* Información del producto */}
         <div className={styles.container__info__products}>
           <div className={styles.container__titles}>
-            <h2>EX1 - LLAMADOR CON CABLE EXTENSOR</h2>
+            <h1>EX1 - LLAMADOR CON CABLE EXTENSOR</h1>
             <p>Para llamar la enfermera</p>
           </div>
 

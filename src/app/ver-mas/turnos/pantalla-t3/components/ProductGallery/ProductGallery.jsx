@@ -89,7 +89,7 @@ function ProductGallery() {
         {/* Información del producto */}
         <div className={styles.container__info__products}>
           <div className={styles.container__titles}>
-            <h2>Pantalla T3 - Módulo Turno</h2>
+            <h1>Pantalla T3 - Módulo Turno</h1>
             <p>Para recibir llamados</p>
           </div>
 

@@ -3,6 +3,7 @@
 import { useState } from "react";
 import styles from "../../../../styles/ProductGallery.module.scss";
 import altStyles from "../../../../../components/Header/HeaderAlt.module.scss";
+import useDisableRightClick from "../../../../../../../hooks/useDisableRightClick";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import { FaWhatsapp } from "react-icons/fa";
 import Header from "@/app/components/Header/Header";
@@ -63,6 +64,8 @@ function ProductGallery() {
       prevIndex > 0 ? prevIndex - 1 : prevIndex
     );
   };
+
+  useDisableRightClick();
 
   return (
     <section className={styles.hero}>

@@ -7,6 +7,7 @@ import altStyles from "../../../../components/Header/HeaderAlt.module.scss";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import { FaWhatsapp } from "react-icons/fa";
 import Popup from "../../../../components/PopUp/Popup";
+import useDisableRightClick from "../../../../../../hooks/useDisableRightClick";
 
 function ProductGallery() {
   const [isOpen, setIsOpen] = useState(false);
@@ -30,6 +31,8 @@ function ProductGallery() {
       prevIndex > 0 ? prevIndex - 1 : prevIndex
     );
   };
+
+  useDisableRightClick();
 
   return (
     <section className={styles.hero}>

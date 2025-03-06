@@ -43,7 +43,7 @@ function CalificadorRelatedProducts({ titleClassName = "" }) {
             loop={true}
             navigation
             pagination={{ clickable: true }}
-            autoplay={{ delay: 3000 }}
+            /* autoplay={{ delay: 3000 }} */
             breakpoints={{
               640: { slidesPerView: 1 },
               868: { slidesPerView: 2 },

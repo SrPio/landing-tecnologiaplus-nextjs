@@ -40,33 +40,42 @@
     }
     :global(.swiper-button-next),
     :global(.swiper-button-prev) {
-      color: #5f5f5f; // Cambia el color de las flechas
+      color: #5f5f5f;
       font-weight: bold;
     }
 
+    :global(.swiper-button-next)::after,
+    :global(.swiper-button-prev)::after {
+      font-size: 30px;
+    }
+
     :global(.swiper-button-next) {
-      right: 10px; // Ajusta la posición si es necesario
+      right: 0px;
+      top: 40%;
     }
 
     :global(.swiper-button-prev) {
-      left: 10px; // Ajusta la posición si es necesario
+      top: 40%;
+      left: 0px;
     }
 
     :global(.swiper-pagination) {
-      margin-top: 40px; // Ajusta la separación
+      margin-top: 40px;
       position: relative;
     }
 
     :global(.swiper-pagination-bullet) {
-      background-color: #aeaeae; // Cambia este color según tu preferencia
-      width: 12px; // Ajusta el tamaño si es necesario
+      background-color: #aeaeae;
+      width: 12px;
       height: 12px;
-      opacity: 1; // Asegura que sea visible
+      opacity: 1;
     }
 
     :global(.swiper-pagination-bullet-active) {
-      background-color: #5f5f5f; // Color cuando el slide está activo
+      background-color: #5f5f5f;
     }
+
+    /* Fin Swiper - Carousel */
 
     .related__products__card {
       display: flex;
@@ -193,8 +202,43 @@
 
       .related__products__card {
         .card__info {
-          width: 340px;
-          height: 360px;
+          width: 290px;
+          height: 300px;
+
+          img {
+            width: 80%;
+          }
+
+          .card__text {
+            h3 {
+              font-size: clamp(0.5rem, 4vw, 1.3rem);
+            }
+            p {
+              font-size: clamp(0.5rem, 3.5vw, 1rem);
+            }
+          }
+        }
+
+        .selling__counter {
+          font-size: clamp(0.5rem, 3vw, 1rem);
+        }
+        .card__btn {
+          font-size: clamp(0.5rem, 4vw, 1rem);
+        }
+      }
+    }
+    .turbomaster__card {
+      .related__products__card {
+        .card__info {
+          padding-left: 0;
+          padding-right: 0;
+
+          img {
+            width: 95%;
+            height: 200px;
+            object-fit: contain;
+            object-position: 70% center;
+          }
         }
       }
     }

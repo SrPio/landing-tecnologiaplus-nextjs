@@ -187,6 +187,17 @@
       font-size: clamp(16px, 5vw, 30px);
       text-align: center;
     }
+
+    .related__products__container {
+      padding: 3rem 5%;
+
+      .related__products__card {
+        .card__info {
+          width: 340px;
+          height: 360px;
+        }
+      }
+    }
     .related__products__specs {
       padding: 5% 5% 300px;
 

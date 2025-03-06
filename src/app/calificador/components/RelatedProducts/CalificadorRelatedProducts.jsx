@@ -39,7 +39,7 @@ function CalificadorRelatedProducts({ titleClassName = "" }) {
           <Swiper
             modules={[Navigation, Pagination, Autoplay]}
             spaceBetween={20}
-            slidesPerView={"auto"}
+            slidesPerView={1}
             loop={true}
             navigation
             pagination={{ clickable: true }}

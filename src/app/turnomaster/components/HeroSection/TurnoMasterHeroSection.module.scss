@@ -1,10 +1,14 @@
 @use "../../../styles/components/heroSection" as *;
 
-.hero__content {
-  // Variaciones específicas para `turnero-turnoexpress`
-
-  .hero__img {
-    height: 75vh !important;
-    max-width: none !important;
+.hero {
+  .hero__content {
+    .hero__img {
+      height: 75vh;
+      max-width: none;
+      max-height: 700px;
+    }
+    .hero__text {
+      margin-left: 0;
+    }
   }
 }

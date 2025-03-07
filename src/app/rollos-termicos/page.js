@@ -15,7 +15,7 @@ export const metadata = {
     description: "Rollos de papel térmico de alta calidad, durabilidad y precios bajos. ¡Compra ahora en Tecnología Plus!",
     robots: "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
     alternates: {
-        canonical: "https://tecnologiaplus.com/rollos-termicos/",
+        canonical: "https://landing-tecnologiaplus-nextjs.vercel.app/rollos-termicos",
     },
     openGraph: {
         locale: "es_ES",

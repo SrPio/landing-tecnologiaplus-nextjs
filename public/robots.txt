@@ -3,7 +3,7 @@ User-agent: *
 Disallow: /
 
 # *
-Allow: /rollos-termicos/
+Allow: /rollos-turnos/
 User-agent: *
 
 # Host

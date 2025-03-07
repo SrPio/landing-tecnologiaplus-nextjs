@@ -3,7 +3,7 @@ User-agent: *
 Disallow: /
 
 # *
-Allow: /rollos-turnos/
+Allow: /turnero-turnoexpress/
 User-agent: *
 
 # Host

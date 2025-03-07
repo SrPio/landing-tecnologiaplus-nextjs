@@ -13,7 +13,10 @@ function SecondaryTurnoExpressProductsSection() {
               alt="imagen de dispensador de turnos"
             />
             <p>686 vendidos</p>
-            <a className={style.card__btn} href="#">
+            <a
+              className={style.card__btn}
+              href="https://landing-tecnologiaplus-nextjs.vercel.app/dispensador-tiquetes"
+            >
               Ver más
             </a>
           </div>
@@ -25,7 +28,10 @@ function SecondaryTurnoExpressProductsSection() {
               alt="imagen del turnero T3 con logo"
             />
             <p>3527 vendidos</p>
-            <a className={style.card__btn} href="#">
+            <a
+              className={style.card__btn}
+              href="https://landing-tecnologiaplus-nextjs.vercel.app/rollos-turnos"
+            >
               Ver más
             </a>
           </div>

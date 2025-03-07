@@ -16,7 +16,10 @@ function TurnoExpressProductsSection() {
             />
             <h3>Turnero T1b</h3>
             <p>294 vendidos</p>
-            <a className={style.card__btn} href="#">
+            <a
+              className={style.card__btn}
+              href="http://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/turnos/pantalla-t1b"
+            >
               Ver más
             </a>
           </div>
@@ -28,7 +31,10 @@ function TurnoExpressProductsSection() {
             />
             <h3>Turnero T1N</h3>
             <p>269 vendidos</p>
-            <a className={style.card__btn} href="#">
+            <a
+              className={style.card__btn}
+              href="https://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/turnos/pantalla-t1n"
+            >
               Ver más
             </a>
           </div>
@@ -40,7 +46,10 @@ function TurnoExpressProductsSection() {
             />
             <h3>Pantalla fila única</h3>
             <p>32 vendidos</p>
-            <a className={style.card__btn} href="#">
+            <a
+              className={style.card__btn}
+              href="http://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/turnos/fila-unica"
+            >
               Ver más
             </a>
           </div>
@@ -52,7 +61,10 @@ function TurnoExpressProductsSection() {
             />
             <h3>Turnero T3</h3>
             <p>269 vendidos</p>
-            <a className={style.card__btn} href="#">
+            <a
+              className={style.card__btn}
+              href="http://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/turnos/pantalla-t3"
+            >
               Ver más
             </a>
           </div>
@@ -67,7 +79,10 @@ function TurnoExpressProductsSection() {
             />
             <h3>Turnero según producto</h3>
             <p>280 vendidos</p>
-            <a className={style.card__btn} href="#">
+            <a
+              className={style.card__btn}
+              href="https://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/turnos/pantalla-segun-producto"
+            >
               Ver más
             </a>
           </div>
@@ -79,7 +94,10 @@ function TurnoExpressProductsSection() {
             />
             <h3>Turnero T3 - con logo</h3>
             <p>269 vendidos</p>
-            <a className={style.card__btn} href="#">
+            <a
+              className={style.card__btn}
+              href="http://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/turnos/pantalla-t3"
+            >
               Ver más
             </a>
           </div>
@@ -92,7 +110,7 @@ function TurnoExpressProductsSection() {
           pantalla de turnos ayudas a mejorar el servicio y los tiempos de
           atención, mientras tus clientes esperan el turno de una forma más
           cómoda y sin estrés porque sabrán exactamente cuantos turnos faltan
-          para ser atendidos.{" "}
+          para ser atendidos.
         </p>
       </div>
     </section>

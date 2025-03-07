@@ -12,7 +12,10 @@ function CalificadorProductsSection() {
           />
           <div className={style.btn__container}>
             <p className={style.selling__counter}>0000 vendidos</p>
-            <a className={style.card__btn} href="#">
+            <a
+              className={style.card__btn}
+              href="https://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/opinamaster-calificador/opinamaster"
+            >
               Ver más
             </a>
           </div>
@@ -25,7 +28,10 @@ function CalificadorProductsSection() {
           />
           <div className={style.btn__container}>
             <p className={style.selling__counter}>0000 vendidos</p>
-            <a className={style.card__btn} href="#">
+            <a
+              className={style.card__btn}
+              href="https://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/opinamaster-calificador/aviso-de-pared"
+            >
               Ver más
             </a>
           </div>

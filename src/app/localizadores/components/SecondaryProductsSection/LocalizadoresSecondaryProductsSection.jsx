@@ -11,7 +11,10 @@ function LocalizadoresSecondaryProductsSection() {
             <div className={style.card}>
               <div>
                 <h3>REC V3</h3>
-                <a className={style.card__btn} href="#">
+                <a
+                  className={style.card__btn}
+                  href="http://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/localizadores/rec-v3"
+                >
                   Ver más
                 </a>
                 <p>1.948 vendidos</p>
@@ -31,7 +34,10 @@ function LocalizadoresSecondaryProductsSection() {
             <div className={style.card}>
               <div>
                 <h3>CIR C2</h3>
-                <a className={style.card__btn} href="#">
+                <a
+                  className={style.card__btn}
+                  href="http://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/localizadores/cir-c2"
+                >
                   Ver más
                 </a>
                 <p>1.630 vendidos</p>

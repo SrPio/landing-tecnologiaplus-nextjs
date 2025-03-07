@@ -10,7 +10,10 @@ function DispensadorTiquetesProductsSection() {
           src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738424725/dispensador_2x-8_dwru2g.webp"
           alt="Colores de tickets"
         />
-        <a className={style.card__btn} href="#">
+        <a
+          className={style.card__btn}
+          href="https://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/dispensador-de-tiquetes"
+        >
           Ver más
         </a>
 

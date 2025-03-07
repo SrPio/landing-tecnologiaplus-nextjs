@@ -20,7 +20,10 @@ para colgar en cuello"
               <br />
               para colgar en cuello
             </h3>
-            <a className={style.card__btn} href="#">
+            <a
+              className={style.card__btn}
+              href="http://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/enfermeria/boton-e1"
+            >
               Ver más
             </a>
             <p>4.568 vendidos</p>
@@ -32,7 +35,10 @@ para colgar en cuello"
               alt="imagen del Llamador E2 Blanco"
             />
             <h3>Llamador E2 Blanco</h3>
-            <a className={style.card__btn} href="#">
+            <a
+              className={style.card__btn}
+              href="https://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/enfermeria/llamador-v2b"
+            >
               Ver más
             </a>
             <p>4.193 vendidos</p>
@@ -49,7 +55,10 @@ extensor EX1"
               <br />
               extensor EX1
             </h3>
-            <a className={style.card__btn} href="#">
+            <a
+              className={style.card__btn}
+              href="https://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/enfermeria/llamador-con-extensor"
+            >
               Ver más
             </a>
             <p>198 vendidos</p>
@@ -67,7 +76,10 @@ extensor EX1"
             />
             <h3>Pantalla T1B</h3>
             <p>286 vendidos</p>
-            <a className={style.card__btn} href="#">
+            <a
+              className={style.card__btn}
+              href="https://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/enfermeria/pantalla-t1b"
+            >
               Ver más
             </a>
           </div>
@@ -79,7 +91,10 @@ extensor EX1"
             />
             <h3>Pantalla T6</h3>
             <p>142 vendidos</p>
-            <a className={style.card__btn} href="#">
+            <a
+              className={style.card__btn}
+              href="http://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/enfermeria/pantalla-6-llamados"
+            >
               Ver más
             </a>
           </div>
@@ -103,7 +118,10 @@ extensor EX1"
             />
             <h3>Reloj receptor digital</h3>
             <p>1276 vendidos</p>
-            <a className={style.card__btn} href="#">
+            <a
+              className={style.card__btn}
+              href="https://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/enfermeria/reloj-receptor"
+            >
               Ver más
             </a>
           </div>

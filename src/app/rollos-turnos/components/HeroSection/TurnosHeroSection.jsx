@@ -21,7 +21,10 @@ function TurnosHeroSection() {
               <br />
             </h1>
             <p>la atención de turnos.</p>
-            <a className={styles.hero__btn} href="#">
+            <a
+              className={styles.hero__btn}
+              href="http://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/rollos-de-turnos"
+            >
               Ver más
             </a>
           </div>

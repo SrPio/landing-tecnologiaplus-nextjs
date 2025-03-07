@@ -125,7 +125,10 @@ function TurnosTechnicalDetails() {
           </ul>
         </div>
 
-        <a className={style.technical__details__btn} href="#">
+        <a
+          className={style.technical__details__btn}
+          href="http://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/rollos-de-turnos"
+        >
           Ver más
         </a>
       </div>

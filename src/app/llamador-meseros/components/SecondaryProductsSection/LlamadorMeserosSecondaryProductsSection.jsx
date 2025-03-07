@@ -12,7 +12,10 @@ function LlamadorMeserosSecondaryProductsSection() {
             <div className={style.card}>
               <div>
                 <h3>Llamador V2N</h3>
-                <a className={style.card__btn} href="#">
+                <a
+                  className={style.card__btn}
+                  href="http://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/meseros/llamador-v2n"
+                >
                   Ver más
                 </a>
                 <p>4.987 vendidos</p>
@@ -26,7 +29,10 @@ function LlamadorMeserosSecondaryProductsSection() {
             <div className={style.card}>
               <div>
                 <h3>Llamador V2B</h3>
-                <a className={style.card__btn} href="#">
+                <a
+                  className={style.card__btn}
+                  href="http://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/meseros/llamador-v2b"
+                >
                   Ver más
                 </a>
                 <p>4.193 vendidos</p>
@@ -44,7 +50,10 @@ function LlamadorMeserosSecondaryProductsSection() {
                   <br />
                   para mesa
                 </h3>
-                <a className={style.card__btn} href="#">
+                <a
+                  className={style.card__btn}
+                  href="http://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/meseros/hablador-para-mesa"
+                >
                   Ver más
                 </a>
                 <p>2.175 vendidos</p>
@@ -62,7 +71,10 @@ function LlamadorMeserosSecondaryProductsSection() {
                   <br />
                   numérico
                 </h3>
-                <a className={style.card__btn} href="#">
+                <a
+                  className={style.card__btn}
+                  href="https://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/meseros/control-numerico"
+                >
                   Ver más
                 </a>
                 <p>198 vendidos</p>
@@ -135,7 +147,10 @@ function LlamadorMeserosSecondaryProductsSection() {
               />
               <h3>Reloj receptor digital</h3>
               <p>1276 vendidos</p>
-              <a className={style.card__btn} href="#">
+              <a
+                className={style.card__btn}
+                href="http://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/meseros/reloj-receptor"
+              >
                 Ver más
               </a>
             </div>
@@ -147,7 +162,10 @@ function LlamadorMeserosSecondaryProductsSection() {
               />
               <h3>Pantalla de 1 llamado</h3>
               <p>286 vendidos</p>
-              <a className={style.card__btn} href="#">
+              <a
+                className={style.card__btn}
+                href="https://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/meseros/pantalla-t1b"
+              >
                 Ver más
               </a>
             </div>
@@ -159,7 +177,10 @@ function LlamadorMeserosSecondaryProductsSection() {
               />
               <h3>Pantalla de 6 llamados</h3>
               <p>142 vendidos</p>
-              <a className={style.card__btn} href="#">
+              <a
+                className={style.card__btn}
+                href="https://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/meseros/pantalla-6-llamados"
+              >
                 Ver más
               </a>
             </div>

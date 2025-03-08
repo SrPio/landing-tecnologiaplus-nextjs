@@ -21,7 +21,7 @@ function ProductGallery() {
   const alternativeImages = [
     {
       name: "Blanco",
-      url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740668327/17_4x-8_ne5cy7.webp",
+      url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741475394/Frame_2_xva6io.webp",
     },
     {
       name: "Negro",
@@ -199,7 +199,7 @@ function ProductGallery() {
                 alt: "Imagen 6",
               },
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740668327/17_4x-8_ne5cy7.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741475394/Frame_2_xva6io.webp",
                 alt: "Imagen 7",
               },
               {

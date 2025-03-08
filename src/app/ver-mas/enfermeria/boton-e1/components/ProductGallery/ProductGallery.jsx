@@ -11,10 +11,10 @@ import Popup from "@/app/components/PopUp/Popup";
 function ProductGallery() {
   const [isOpen, setIsOpen] = useState(false);
   const images = [
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740498993/3_4x-8_j9ezlc.webp",
+    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741473545/Frame_1_1_usrdgr.webp",
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740498992/4_4x-8_mwaldk.webp",
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741113379/2_4x-8_8_lmidfg.webp",
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740498991/1_4x-8_btc9qk.webp",
+    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741473542/Frame_1_iwfg8o.webp",
   ];
 
   const [selectedIndex, setSelectedIndex] = useState(0);
@@ -120,7 +120,7 @@ function ProductGallery() {
             label: "Multimedia",
             images: [
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740498993/3_4x-8_j9ezlc.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741473545/Frame_1_1_usrdgr.webp",
                 alt: "Imagen 1",
               },
               {
@@ -132,7 +132,7 @@ function ProductGallery() {
                 alt: "Imagen 3",
               },
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740498991/1_4x-8_btc9qk.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741473542/Frame_1_iwfg8o.webp",
                 alt: "Imagen 4",
               },
             ],
@@ -142,7 +142,7 @@ function ProductGallery() {
             label: "Medidas",
             images: [
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740498991/1_4x-8_btc9qk.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741473542/Frame_1_iwfg8o.webp",
                 alt: "Imagen de medidas",
               },
             ],

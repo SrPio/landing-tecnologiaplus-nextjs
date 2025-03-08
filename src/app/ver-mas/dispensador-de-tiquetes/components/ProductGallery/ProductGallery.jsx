@@ -15,29 +15,29 @@ function ProductGallery() {
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740689237/13_4x-8_5_ssc9ik.webp",
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740689238/12_4x-8_3_j7nede.webp",
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740689239/11_4x-8_3_b5gubu.webp",
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740689240/10_4x-8_3_wzbfyf.webp",
+    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741471592/Frame_1_4_oaywtr.webp",
   ];
 
   const alternativeImages = [
     {
       name: "Rojo",
-      url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740689245/18_4x-8_1_q4aoji.webp",
+      url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741471196/Frame_1_3_rm5vzk.webp",
     },
     {
       name: "Azul",
-      url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740689246/17_4x-8_2_enxdqk.webp",
+      url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741471196/Frame_1_2_xyzzse.webp",
     },
     {
       name: "Verde",
-      url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740689247/16_4x-8_2_epxcei.webp",
+      url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741471198/Frame_1_1_fx097e.webp",
     },
     {
       name: "Amarillo",
-      url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740689248/15_4x-8_4_po6uxs.webp",
+      url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741471196/15_4x-8_ivnjuf.webp",
     },
     {
       name: "Morado",
-      url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740689236/14_4x-8_3_lazhi9.webp",
+      url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741471196/Frame_1_efitft.webp",
     },
   ];
 
@@ -206,27 +206,27 @@ function ProductGallery() {
                 alt: "Imagen 3",
               },
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740689240/10_4x-8_3_wzbfyf.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741471592/Frame_1_4_oaywtr.webp",
                 alt: "Imagen 4",
               },
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740689245/18_4x-8_1_q4aoji.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741471196/Frame_1_3_rm5vzk.webp",
                 alt: "Imagen 5",
               },
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740689246/17_4x-8_2_enxdqk.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741471196/Frame_1_2_xyzzse.webp",
                 alt: "Imagen 6",
               },
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740689247/16_4x-8_2_epxcei.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741471198/Frame_1_1_fx097e.webp",
                 alt: "Imagen 7",
               },
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740689248/15_4x-8_4_po6uxs.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741471196/15_4x-8_ivnjuf.webp",
                 alt: "Imagen 8",
               },
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740689236/14_4x-8_3_lazhi9.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741471196/Frame_1_efitft.webp",
                 alt: "Imagen 9",
               },
             ],
@@ -236,7 +236,7 @@ function ProductGallery() {
             label: "Medidas",
             images: [
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740689240/10_4x-8_3_wzbfyf.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741471592/Frame_1_4_oaywtr.webp",
                 alt: "Imagen de medidas",
               },
             ],

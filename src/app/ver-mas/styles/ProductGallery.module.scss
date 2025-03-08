@@ -64,10 +64,10 @@
 
       img {
         width: max-content;
-        aspect-ratio: 4 / 3;
+        /* aspect-ratio: 4 / 3; */
         max-height: 200px;
         min-height: 10px;
-        object-fit: cover;
+        object-fit: contain;
         border: #606060 1px solid;
       }
 
@@ -88,7 +88,7 @@
 
     .container__product__selected {
       width: 45vw;
-      height: 85%;
+      height: 100%;
       display: flex;
       justify-content: center;
       align-items: center;

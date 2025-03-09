@@ -1,0 +1,9 @@
+@use "../../../../styles/HowItWorks.module" as *;
+
+.HowItWorks__container {
+  .items__container {
+    display: grid;
+    width: 70%;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

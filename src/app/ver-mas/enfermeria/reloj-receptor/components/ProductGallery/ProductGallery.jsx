@@ -11,11 +11,11 @@ import Popup from "@/app/components/PopUp/Popup";
 function ProductGallery() {
   const [isOpen, setIsOpen] = useState(false);
   const images = [
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740252995/1_4x-8_1_ykla6e.webp",
+    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741555504/Frame_1_15_bwa18u.webp",
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740252992/6_4x-8_1_ihfzge.webp",
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740252992/7_4x-8_1_epxrf8.webp",
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740682202/6_4x-8_3_gqyivm.webp",
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740252994/2_4x-8_1_njp4iy.webp",
+    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741555843/Frame_1_16_iuugms.webp",
   ];
 
   const [selectedIndex, setSelectedIndex] = useState(0);
@@ -116,7 +116,7 @@ function ProductGallery() {
             label: "Multimedia",
             images: [
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740252995/1_4x-8_1_ykla6e.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741555504/Frame_1_15_bwa18u.webp",
                 alt: "Imagen 1",
               },
               {
@@ -132,7 +132,7 @@ function ProductGallery() {
                 alt: "Imagen 4",
               },
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740252994/2_4x-8_1_njp4iy.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741555843/Frame_1_16_iuugms.webp",
                 alt: "Imagen 5",
               },
               {

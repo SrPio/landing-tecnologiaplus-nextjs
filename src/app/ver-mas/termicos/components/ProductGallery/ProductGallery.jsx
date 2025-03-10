@@ -12,7 +12,7 @@ import useDisableRightClick from "../../../../../../hooks/useDisableRightClick";
 function ProductGallery() {
   const [isOpen, setIsOpen] = useState(false);
   const images = [
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739392044/1_2x-100_wutnmk.webp",
+    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741638695/Frame_1_60_sl57gi.webp",
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739392044/2_2x-100_jikuc2.webp",
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739392044/3_2x-100_lqfj29.webp",
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739392044/4_2x-100_xp8nfs.webp",
@@ -122,7 +122,7 @@ function ProductGallery() {
             label: "Multimedia",
             images: [
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739392044/1_2x-100_wutnmk.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741638695/Frame_1_60_sl57gi.webp",
                 alt: "Imagen 1",
               },
               {

@@ -12,10 +12,10 @@ import Popup from "@/app/components/PopUp/Popup";
 function ProductGallery() {
   const [isOpen, setIsOpen] = useState(false);
   const images = [
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741021870/6_4x-8_5_rfb0sq.webp",
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741021848/2_4x-8_7_lmscl4.webp",
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741021849/1_4x-8_8_aiqdqi.webp",
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741021873/3_4x-8_5_c91exa.webp",
+    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741641627/Frame_1_71_rtr5ip.webp",
+    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741641334/Frame_1_68_bol78g.webp",
+    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741641726/Frame_1_72_e6dexg.webp",
+    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741641439/Frame_1_69_o8kcmz.webp",
   ];
 
   const [selectedIndex, setSelectedIndex] = useState(0);
@@ -121,19 +121,19 @@ function ProductGallery() {
             label: "Multimedia",
             images: [
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741021870/6_4x-8_5_rfb0sq.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741641627/Frame_1_71_rtr5ip.webp",
                 alt: "Imagen 1",
               },
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741021848/2_4x-8_7_lmscl4.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741641334/Frame_1_68_bol78g.webp",
                 alt: "Imagen 2",
               },
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741021849/1_4x-8_8_aiqdqi.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741641726/Frame_1_72_e6dexg.webp",
                 alt: "Imagen 3",
               },
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741021873/3_4x-8_5_c91exa.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741641439/Frame_1_69_o8kcmz.webp",
                 alt: "Imagen 4",
               },
               {
@@ -141,7 +141,7 @@ function ProductGallery() {
                 alt: "Imagen 5",
               },
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741021871/4_4x-8_6_s5kugm.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741641512/Frame_1_70_b26kjg.webp",
                 alt: "Imagen 5",
               },
             ],
@@ -151,7 +151,7 @@ function ProductGallery() {
             label: "Medidas",
             images: [
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741021871/4_4x-8_6_s5kugm.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741641512/Frame_1_70_b26kjg.webp",
                 alt: "Imagen de medidas",
               },
             ],

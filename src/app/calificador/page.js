@@ -19,7 +19,7 @@ export const metadata = {
         "Conoce lo que piensan realmente tus clientes con el Calificador de Servicios. Toma decisiones informadas y lleva tu empresa al siguiente nivel.",
     robots: "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
     alternates: {
-        canonical: "https://tecnologiaplus.com/calificador-de-servicios/",
+        canonical: "https://landing-tecnologiaplus-nextjs.vercel.app/calificador",
     },
     openGraph: {
         locale: "es_ES",

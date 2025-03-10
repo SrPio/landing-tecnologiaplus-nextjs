@@ -12,11 +12,11 @@ import Popup from "@/app/components/PopUp/Popup";
 function ProductGallery() {
   const [isOpen, setIsOpen] = useState(false);
   const images = [
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741555504/Frame_1_15_bwa18u.webp",
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740252992/6_4x-8_1_ihfzge.webp",
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740252992/7_4x-8_1_epxrf8.webp",
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741634175/Frame_1_46_1_vkyrfe.webp",
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741555843/Frame_1_16_iuugms.webp",
+    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741476098/Frame_1_5_cgypo1.webp",
+    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740065235/2_4x-8_1_qcs5ym.webp",
+    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741476842/Frame_1_10_gjnhca.webp",
+    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741476436/Frame_1_8_pjcxw4.webp",
+    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741476255/Frame_1_6_ao3mbn.webp",
   ];
 
   const [selectedIndex, setSelectedIndex] = useState(0);
@@ -45,7 +45,7 @@ function ProductGallery() {
       />
 
       <div className={styles.action__nav}>
-        <a href="https://landing-tecnologiaplus-nextjs.vercel.app/rollos-termicos">
+        <a href="https://landing-tecnologiaplus-nextjs.vercel.app/turnero-turnoexpress">
           <IoIosArrowBack className={styles.icon__back} /> Volver
         </a>
       </div>
@@ -93,7 +93,8 @@ function ProductGallery() {
         {/* Información del producto */}
         <div className={styles.container__info__products}>
           <div className={styles.container__titles}>
-            <h1>Reloj receptor de llamados</h1>
+            <h1>PANTALLA T1B</h1>
+            <p>Para recibir llamados</p>
           </div>
 
           <div className={styles.container__contact__info}>
@@ -104,7 +105,11 @@ function ProductGallery() {
             </p>
           </div>
 
-          <p>Compatible con los equipos de nuestra marca.</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+            volutpat. Ut Wisi enim ad io
+          </p>
         </div>
       </div>
 
@@ -117,31 +122,23 @@ function ProductGallery() {
             label: "Multimedia",
             images: [
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741555504/Frame_1_15_bwa18u.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741476098/Frame_1_5_cgypo1.webp",
                 alt: "Imagen 1",
               },
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740252992/6_4x-8_1_ihfzge.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740065235/2_4x-8_1_qcs5ym.webp",
                 alt: "Imagen 2",
               },
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740252992/7_4x-8_1_epxrf8.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741476436/Frame_1_8_pjcxw4.webp",
                 alt: "Imagen 3",
               },
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741634175/Frame_1_46_1_vkyrfe.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741476255/Frame_1_6_ao3mbn.webp",
                 alt: "Imagen 4",
               },
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741555843/Frame_1_16_iuugms.webp",
-                alt: "Imagen 5",
-              },
-              {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740252993/4_4x-8_1_kepwg1.webp",
-                alt: "Imagen 5",
-              },
-              {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740252994/3_4x-8_1_qy5u5d.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741476562/Frame_1_9_gvix9n.webp",
                 alt: "Imagen 5",
               },
             ],
@@ -151,7 +148,7 @@ function ProductGallery() {
             label: "Medidas",
             images: [
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741634175/Frame_1_46_1_vkyrfe.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741476562/Frame_1_9_gvix9n.webp",
                 alt: "Imagen de medidas",
               },
             ],

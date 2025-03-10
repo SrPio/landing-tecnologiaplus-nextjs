@@ -16,13 +16,13 @@ function ProductGallery() {
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740420350/11_4x-8_pqdaei.webp",
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740420544/13_4x-8_ozz7zi.webp",
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740420350/9_4x-8_hbtk2c.webp",
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740420350/10_4x-8_irme6p.webp",
+    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741632937/Frame_1_43_i5i2pk.webp",
   ];
 
   const alternativeImages = [
     {
       name: "Negro",
-      url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740420352/4_4x-8_p62fv4.webp",
+      url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741631974/Frame_2_1_fzhnq5.webp",
     },
     {
       name: "Negro - Rojo",
@@ -215,7 +215,7 @@ function ProductGallery() {
                 alt: "Imagen 4",
               },
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740420350/10_4x-8_irme6p.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741632937/Frame_1_43_i5i2pk.webp",
                 alt: "Imagen 5",
               },
               {
@@ -227,7 +227,7 @@ function ProductGallery() {
                 alt: "Imagen 7",
               },
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740420352/4_4x-8_p62fv4.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741631974/Frame_2_1_fzhnq5.webp",
                 alt: "Imagen 8",
               },
               {
@@ -243,7 +243,7 @@ function ProductGallery() {
                 alt: "Imagen 11",
               },
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740420350/8_4x-8_mzmd4i.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741633054/Frame_1_44_wf7za6.webp",
                 alt: "Imagen 12",
               },
             ],
@@ -253,7 +253,7 @@ function ProductGallery() {
             label: "Medidas",
             images: [
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740420350/10_4x-8_irme6p.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741632937/Frame_1_43_i5i2pk.webp",
                 alt: "Imagen de medidas",
               },
             ],

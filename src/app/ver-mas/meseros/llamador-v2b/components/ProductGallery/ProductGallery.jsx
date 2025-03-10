@@ -16,7 +16,7 @@ function ProductGallery() {
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740497011/19_4x-8_jxofor.webp",
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740497010/21_4x-8_1_zysjdc.webp",
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740497010/17_4x-8_1_bykczq.webp",
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740497010/18_4x-8_1_coltzi.webp",
+    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741632153/Frame_1_41_whqmii.webp",
   ];
 
   const alternativeImages = [
@@ -34,7 +34,7 @@ function ProductGallery() {
     },
     {
       name: "Negro",
-      url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740420352/4_4x-8_p62fv4.webp",
+      url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741631974/Frame_2_1_fzhnq5.webp",
     },
     {
       name: "Negro - Rojo",
@@ -215,7 +215,7 @@ function ProductGallery() {
                 alt: "Imagen 4",
               },
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740497010/18_4x-8_1_coltzi.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741632153/Frame_1_41_whqmii.webp",
                 alt: "Imagen 5",
               },
               {
@@ -227,7 +227,7 @@ function ProductGallery() {
                 alt: "Imagen 7",
               },
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740420352/4_4x-8_p62fv4.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741631974/Frame_2_1_fzhnq5.webp",
                 alt: "Imagen 8",
               },
               {
@@ -243,7 +243,7 @@ function ProductGallery() {
                 alt: "Imagen 11",
               },
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740497010/16_4x-8_1_w8yawj.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741632690/Frame_1_42_dyrx8k.webp",
                 alt: "Imagen 12",
               },
             ],
@@ -253,7 +253,7 @@ function ProductGallery() {
             label: "Medidas",
             images: [
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740497010/18_4x-8_1_coltzi.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741632153/Frame_1_41_whqmii.webp",
                 alt: "Imagen de medidas",
               },
             ],

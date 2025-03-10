@@ -3,7 +3,7 @@ User-agent: *
 Disallow: /
 
 # *
-Allow: /turnomaster/
+Allow: /encuesta-virtual/
 User-agent: *
 
 # Host

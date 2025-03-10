@@ -12,9 +12,9 @@ import useDisableRightClick from "../../../../../../hooks/useDisableRightClick";
 function ProductGallery() {
   const [isOpen, setIsOpen] = useState(false);
   const images = [
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740762871/9_4x-8_3_qazxni.webp",
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740762872/7_4x-8_2_opbzc0.webp",
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740762872/8_4x-8_3_dvlshg.webp",
+    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741637848/Frame_1_56_hvhf2o.webp",
+    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741637817/Frame_1_57_fsalbd.webp",
+    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741638118/Frame_1_58_r0vivt.webp",
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740762871/10_4x-8_4_zewff6.webp",
   ];
 
@@ -191,15 +191,15 @@ function ProductGallery() {
             label: "Multimedia",
             images: [
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740762871/9_4x-8_3_qazxni.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741637848/Frame_1_56_hvhf2o.webp",
                 alt: "Imagen 1",
               },
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740762872/7_4x-8_2_opbzc0.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741637817/Frame_1_57_fsalbd.webp",
                 alt: "Imagen 2",
               },
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740762872/8_4x-8_3_dvlshg.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741638118/Frame_1_58_r0vivt.webp",
                 alt: "Imagen 3",
               },
               {

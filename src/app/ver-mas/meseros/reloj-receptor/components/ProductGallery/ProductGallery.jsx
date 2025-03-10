@@ -137,7 +137,7 @@ function ProductGallery() {
                 alt: "Imagen 5",
               },
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740252993/4_4x-8_1_kepwg1.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741635261/Frame_1_49_hzteap.webp",
                 alt: "Imagen 5",
               },
               {

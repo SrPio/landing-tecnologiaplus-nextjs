@@ -12,10 +12,10 @@ import Popup from "@/app/components/PopUp/Popup";
 function ProductGallery() {
   const [isOpen, setIsOpen] = useState(false);
   const images = [
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740076453/1_4x-8_2_oaqjhl.webp",
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740076447/6_4x-8_1_ikq9af.webp",
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740076452/2_4x-8_2_ueuajo.webp",
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740076451/3_4x-8_2_opemgp.webp",
+    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741619121/Frame_1_26_fqmq3t.webp",
+    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741619266/Frame_1_27_dylrz4.webp",
+    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741619456/Frame_1_28_cygi5b.webp",
+    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741619634/Frame_1_29_l8n9ct.webp",
   ];
 
   const [selectedIndex, setSelectedIndex] = useState(0);
@@ -121,19 +121,19 @@ function ProductGallery() {
             label: "Multimedia",
             images: [
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740076453/1_4x-8_2_oaqjhl.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741619121/Frame_1_26_fqmq3t.webp",
                 alt: "Imagen 1",
               },
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740076447/6_4x-8_1_ikq9af.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741619266/Frame_1_27_dylrz4.webp",
                 alt: "Imagen 2",
               },
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740076452/2_4x-8_2_ueuajo.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741619456/Frame_1_28_cygi5b.webp",
                 alt: "Imagen 3",
               },
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740076451/3_4x-8_2_opemgp.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741619634/Frame_1_29_l8n9ct.webp",
                 alt: "Imagen 4",
               },
               {

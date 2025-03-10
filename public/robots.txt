@@ -3,7 +3,7 @@ User-agent: *
 Disallow: /
 
 # *
-Allow: /calificador/
+Allow: /turnomaster/
 User-agent: *
 
 # Host

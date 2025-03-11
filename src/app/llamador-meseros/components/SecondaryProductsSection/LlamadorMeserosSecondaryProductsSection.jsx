@@ -98,10 +98,10 @@ function LlamadorMeserosSecondaryProductsSection() {
                 height="315"
                 src="https://www.youtube.com/embed/uXfDzZuoym4?si=2rqKuCI7mCsD2fgo"
                 title="YouTube video player"
-                frameborder="0"
+                frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin"
-                allowfullscreen
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
               ></iframe>
               <p>Así de fácil es mejorar la atención en tu restaurante</p>
             </div>
@@ -112,10 +112,10 @@ function LlamadorMeserosSecondaryProductsSection() {
                 height="315"
                 src="https://www.youtube.com/embed/XevVCpp6Drc?si=JjbC36iw4KZHT8p8"
                 title="YouTube video player"
-                frameborder="0"
+                frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin"
-                allowfullscreen
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
               ></iframe>
               <p>
                 Personal mas alerta, facilita el llamado de meseros desde la
@@ -129,10 +129,10 @@ function LlamadorMeserosSecondaryProductsSection() {
                 height="315"
                 src="https://www.youtube.com/embed/9CPZ2QoFyqM?si=Pmy0UayPdUdqOxF1"
                 title="YouTube video player"
-                frameborder="0"
+                frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin"
-                allowfullscreen
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
               ></iframe>
               <p>Un solo toque y el número de mesa aparece en pantalla</p>
             </div>

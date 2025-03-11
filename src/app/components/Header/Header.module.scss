@@ -99,20 +99,23 @@
 
 @include respond-to-max("laptop") {
   .header {
-    font-size: clamp(2px, 2vw, 16px);
+    font-size: clamp(2px, 2.5vw, 16px);
+    gap: 6vw;
+    height: 70px;
 
-    padding: 20px 15px;
+    padding: 10px 5vw;
     .nav__links {
       display: none;
     }
     a.logo__container {
       margin: 0px;
       img {
-        max-height: 45px;
+        min-width: 120px;
+        max-height: 50px;
       }
     }
     a.phone__btn {
-      padding: 5px 20px;
+      padding: 5px 15px;
       width: max-content;
 
       .phone__icon {
@@ -120,8 +123,8 @@
       }
     }
     .header__right {
-      gap: 10px;
-      max-width: 300px;
+      gap: 2vw;
+      max-width: 350px;
       a:first-child {
         display: none;
       }
@@ -129,8 +132,9 @@
 
     a {
       .search__icon {
-        color: #fff;
-        font-size: clamp(2px, 4vw, 30px);
+        display: none;
+        /* color: #fff;
+        font-size: clamp(2px, 4vw, 30px); */
       }
     }
 
@@ -140,8 +144,8 @@
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      width: clamp(2px, 4vw, 30px);
-      height: clamp(2px, 3vw, 20px);
+      width: clamp(2px, 9vw, 40px);
+      height: clamp(2px, 4vw, 15px);
       cursor: pointer;
 
       span {
@@ -154,33 +158,46 @@
     }
 
     .menu__icon.open span:first-child {
-      transform: rotate(45deg) translate(5px, 7px);
-      -webkit-transform: rotate(45deg) translate(5px, 7px);
-      -moz-transform: rotate(45deg) translate(5px, 7px);
-      -ms-transform: rotate(45deg) translate(5px, 7px);
-      -o-transform: rotate(45deg) translate(5px, 7px);
+      width: 22px;
+      transform: rotate(45deg) translate(7px, 0.5px);
+      -webkit-transform: rotate(45deg) translate(7px, 0.5px);
+      -moz-transform: rotate(45deg) translate(7px, 0.5px);
+      -ms-transform: rotate(45deg) translate(7px, 0.5px);
+      -o-transform: rotate(45deg) translate(7px, 0.5px);
     }
 
     .menu__icon.open span:last-child {
-      transform: rotate(-45deg) translate(5px, -7px);
-      -webkit-transform: rotate(-45deg) translate(5px, -7px);
-      -moz-transform: rotate(-45deg) translate(5px, -7px);
-      -ms-transform: rotate(-45deg) translate(5px, -7px);
-      -o-transform: rotate(-45deg) translate(5px, -7px);
+      width: 22px;
+      transform: rotate(-45deg) translate(8px, -2px);
+      -webkit-transform: rotate(-45deg) translate(8px, -2px);
+      -moz-transform: rotate(-45deg) translate(8px, -2px);
+      -ms-transform: rotate(-45deg) translate(8px, -2px);
+      -o-transform: rotate(-45deg) translate(8px, -2px);
     }
 
     .nav__links {
       display: none;
       flex-direction: column;
-      position: absolute;
-      top: 100px;
+      justify-content: flex-start;
+      align-items: flex-start;
+      position: fixed;
+      height: calc(100dvh - 70px);
+      top: 70px;
       left: 0;
       width: 100%;
-      background: white;
-      padding: 20px;
+      background: #11151a;
+      padding: 0 20px;
       box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 
-      color: #000;
+      color: #fff;
+      font-weight: 400;
+      font-style: normal;
+
+      a {
+        padding: 10px 0;
+        border-bottom: #2b2e36 solid 1px;
+        width: 100%;
+      }
     }
 
     .showMenu {

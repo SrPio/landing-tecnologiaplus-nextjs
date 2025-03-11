@@ -49,7 +49,7 @@ function TurnoExpressRelatedProducts({ titleClassName = "" }) {
             </div>
             <img
               loading="lazy"
-              src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738431731/Localizadores_2x-8_niu5kx.webp"
+              src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741708165/NUEVA_etp9mi.webp"
               alt="imagen de TurnoExpress"
             />
           </div>

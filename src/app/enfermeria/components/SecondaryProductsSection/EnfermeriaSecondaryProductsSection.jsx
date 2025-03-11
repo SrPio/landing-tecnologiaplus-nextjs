@@ -11,26 +11,6 @@ function EnfermeriaSecondaryProductsSection() {
           <div className={style.card}>
             <img
               loading="lazy"
-              src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738685525/llamador_para_colgar_cuello_2x-8_oqbvar.webp"
-              alt="imagen del Llamador E1
-para colgar en cuello"
-            />
-            <h3>
-              Llamador E1
-              <br />
-              para colgar en cuello
-            </h3>
-            <a
-              className={style.card__btn}
-              href="http://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/enfermeria/boton-e1"
-            >
-              Ver más
-            </a>
-            <p>4.568 vendidos</p>
-          </div>
-          <div className={style.card}>
-            <img
-              loading="lazy"
               src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738685527/llamador_blanco_2x-8_pibji3.webp"
               alt="imagen del Llamador E2 Blanco"
             />
@@ -62,6 +42,26 @@ extensor EX1"
               Ver más
             </a>
             <p>198 vendidos</p>
+          </div>
+          <div className={style.card}>
+            <img
+              loading="lazy"
+              src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738685525/llamador_para_colgar_cuello_2x-8_oqbvar.webp"
+              alt="imagen del Llamador E1
+para colgar en cuello"
+            />
+            <h3>
+              Llamador E1
+              <br />
+              para colgar en cuello
+            </h3>
+            <a
+              className={style.card__btn}
+              href="http://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/enfermeria/boton-e1"
+            >
+              Ver más
+            </a>
+            <p>4.568 vendidos</p>
           </div>
         </div>
         <h2>Opciones para recibir llamados</h2>

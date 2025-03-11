@@ -151,11 +151,14 @@ function ProductGallery() {
           </div>
 
           <div className={styles.container__contact__info}>
+            <a
+              href="https://wa.me/573227347971"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaWhatsapp className={styles.icon__wpp} />
+            </a>
             <h3>¿Tienes preguntas?</h3>
-            <p>
-              Puedes llamar al 322 734 7971
-              <FaWhatsapp className={styles.icon__wpp} /> +57 316 4682034
-            </p>
           </div>
 
           <p>

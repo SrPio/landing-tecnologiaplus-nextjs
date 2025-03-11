@@ -169,7 +169,10 @@
 
       .container__contact__info {
         background: #f5f5f5;
-        padding: 2rem 1.5rem;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        padding: 2rem;
         border-radius: 15px;
         -webkit-border-radius: 15px;
         -moz-border-radius: 15px;
@@ -195,8 +198,7 @@
 
         .icon__wpp {
           color: #00bc06;
-          margin-left: 10px;
-          height: 1.5cap;
+          font-size: 40px;
         }
       }
 

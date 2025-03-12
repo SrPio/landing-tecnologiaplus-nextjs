@@ -3,7 +3,7 @@ User-agent: *
 Disallow: /
 
 # *
-Allow: /encuesta-virtual/
+Allow: /enfermeria/
 User-agent: *
 
 # Host

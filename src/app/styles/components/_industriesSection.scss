@@ -51,6 +51,7 @@
   .industries__section {
     flex-direction: column;
     gap: 15vw;
+    padding: 4rem 10vw;
 
     h2 {
       font-size: clamp(16px, 5vw, 30px);
@@ -58,6 +59,7 @@
 
     ul {
       align-items: flex-start;
+      gap: 5vw;
       li {
         min-width: 15px;
         font-size: clamp(5px, 3vw, 25px);

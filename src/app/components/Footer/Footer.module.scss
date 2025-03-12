@@ -100,6 +100,18 @@
 
 @include respond-to-max("laptop") {
   .footer {
+    padding: 5vw;
+
+    h3 {
+      font-size: 1rem;
+    }
+
+    ul {
+      li {
+        font-size: 0.8rem;
+      }
+    }
+
     &__top {
       justify-content: flex-start;
     }

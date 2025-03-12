@@ -250,13 +250,29 @@
       ul {
         justify-content: space-between;
         width: 100%;
+        gap: 0;
         li {
           gap: 2vw;
           img {
             width: clamp(10px, 3vw, 30px);
           }
           p {
-            font-size: clamp(2px, 1.8vw, 16px);
+            font-size: clamp(2px, 1.1vw, 16px);
+            width: auto;
+          }
+        }
+      }
+    }
+  }
+}
+
+@include respond-to-max("mobile-md") {
+  .related__products {
+    .related__products__specs {
+      ul {
+        li {
+          p {
+            font-size: 4px;
           }
         }
       }

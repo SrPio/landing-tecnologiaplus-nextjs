@@ -87,3 +87,9 @@
     }
   }
 }
+
+@include respond-to-max("mobile-md") {
+  .steps__section {
+    padding: 3rem 5vw;
+  }
+}

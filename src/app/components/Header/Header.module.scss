@@ -83,8 +83,14 @@
       }
     }
 
-    .dropdown:hover .dropdownMenu {
+    /* .dropdown:hover .dropdownMenu {
       display: block;
+    } */
+
+    @media (min-width: 1025px) {
+      .dropdown:hover .dropdownMenu {
+        display: block;
+      }
     }
 
     /* FIN dropdown */
@@ -276,6 +282,13 @@
 
       .dropdown {
         width: 100%;
+      }
+      .dropdownMenu.show {
+        display: block;
+        position: static;
+        box-shadow: none;
+        background: none;
+        padding: 0;
       }
 
       a {

@@ -7,6 +7,8 @@ import { IoIosArrowDown } from "react-icons/io";
 
 function Header({ customStyles = {} }) {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [dropdownOpen, setDropdownOpen] = useState({}); // Estado para cada dropdown
+  const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
     if (menuOpen) {
@@ -16,8 +18,25 @@ function Header({ customStyles = {} }) {
     }
   }, [menuOpen]);
 
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 1024); // Ajusta según tu breakpoint para mobile
+    };
+
+    handleResize();
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
+  };
+
+  const toggleDropdown = (key) => {
+    setDropdownOpen((prev) => ({
+      ...prev,
+      [key]: !prev[key],
+    }));
   };
 
   return (
@@ -29,11 +48,24 @@ function Header({ customStyles = {} }) {
       >
         <a href="#">Inicio</a>
 
+        {/* Dropdown Productos */}
         <div className={styles.dropdown}>
-          <a href="#">
+          <a
+            href="#"
+            onClick={(e) => {
+              if (isMobile) {
+                e.preventDefault(); // Evita navegación en mobile
+                toggleDropdown("productos");
+              }
+            }}
+          >
             Productos <IoIosArrowDown className={styles.arrow__icon} />
           </a>
-          <ul className={styles.dropdownMenu}>
+          <ul
+            className={`${styles.dropdownMenu} ${
+              dropdownOpen["productos"] ? styles.show : ""
+            }`}
+          >
             <li>
               <a href="#">Turnero</a>
             </li>
@@ -67,11 +99,24 @@ function Header({ customStyles = {} }) {
           </ul>
         </div>
 
+        {/* Dropdown Blog */}
         <div className={styles.dropdown}>
-          <a href="#">
+          <a
+            href="#"
+            onClick={(e) => {
+              if (isMobile) {
+                e.preventDefault();
+                toggleDropdown("blog");
+              }
+            }}
+          >
             Blog <IoIosArrowDown className={styles.arrow__icon} />
           </a>
-          <ul className={styles.dropdownMenu}>
+          <ul
+            className={`${styles.dropdownMenu} ${
+              dropdownOpen["blog"] ? styles.show : ""
+            }`}
+          >
             <li>
               <a href="#">Autoservicio</a>
             </li>

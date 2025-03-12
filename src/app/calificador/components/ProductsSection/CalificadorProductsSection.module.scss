@@ -99,9 +99,17 @@
     }
 
     .product__item:nth-child(2) .btn__container {
-      left: 420px;
+      left: 25vw;
       top: -100px;
 
+      @include respond-to-max("desktop-xl") {
+        left: 29vw;
+        top: -100px;
+      }
+      @include respond-to-max("desktop") {
+        left: 29vw;
+        top: -150px;
+      }
       @include respond-to-max("laptop") {
         left: 75%;
         top: -600px;

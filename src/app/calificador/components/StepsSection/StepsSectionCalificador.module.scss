@@ -54,6 +54,30 @@
   }
 }
 
+@include respond-to-max("desktop-lg") {
+  .steps__section {
+    .cards__container {
+      .card {
+        width: 25vw;
+        object-fit: contain;
+
+        img {
+          object-fit: contain;
+        }
+
+        .text__container {
+          .number {
+            font-size: 6rem;
+          }
+          p {
+            font-size: clamp(16px, 4vw, 20px);
+          }
+        }
+      }
+    }
+  }
+}
+
 @include respond-to-max("laptop") {
   .steps__section {
     h2 {

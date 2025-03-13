@@ -1,10 +1,13 @@
 @use "../../../styles/components/industriesSection" as *;
+@use "../../../styles/base/mixins" as *;
 
 .industries__section {
-  // Variaciones específicas para `dispensador-tiquetes`
-
   h2 {
-    text-transform: none !important;
-    font-size: 1.8rem !important;
+    text-transform: none;
+    font-size: 1.8rem;
+
+    @include respond-to-max("laptop") {
+      font-size: clamp(16px, 5vw, 30px);
+    }
   }
 }

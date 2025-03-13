@@ -1,10 +1,18 @@
 @use "../../../styles/components/heroSection" as *;
+@use "../../../styles/base/mixins" as *;
 
-.hero__content {
-  // Variaciones específicas para `dispensador-tiquetes`
+.hero {
+  .hero__content {
+    // Variaciones específicas para `dispensador-tiquetes`
 
-  .hero__img {
-    height: 80% !important;
-    max-height: 600px !important;
+    .hero__img {
+      height: 80%;
+      max-height: 600px;
+
+      @include respond-to-max("laptop") {
+        width: 80vw;
+        height: auto;
+      }
+    }
   }
 }

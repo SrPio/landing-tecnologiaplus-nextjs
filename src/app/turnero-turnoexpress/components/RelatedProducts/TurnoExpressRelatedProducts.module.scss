@@ -2,31 +2,4 @@
 
 .related__products {
   // Variaciones específicas para `rollos-turnos`
-
-  .related__products__container {
-    .related__products__card:first-child .card__info {
-      padding-left: 15px;
-      padding-bottom: 0;
-
-      img {
-        width: 100%;
-        height: 250px;
-        object-fit: cover;
-        object-position: 90% center;
-      }
-    }
-
-    .related__products__card:nth-child(2) .card__info {
-      justify-content: flex-start;
-      img {
-        width: 80%;
-      }
-    }
-
-    .related__products__card {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-  }
 }

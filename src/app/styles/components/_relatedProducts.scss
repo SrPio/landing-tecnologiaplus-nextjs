@@ -161,6 +161,19 @@
         }
       }
     }
+
+    .rollos__termicos__card {
+      .card__info {
+        justify-content: flex-start;
+        img {
+          width: 80%;
+
+          @include respond-to-max("laptop") {
+            margin-top: -15px;
+          }
+        }
+      }
+    }
   }
 
   .related__products__specs {

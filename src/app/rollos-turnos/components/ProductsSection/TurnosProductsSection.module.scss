@@ -1,5 +1,16 @@
 @use "../../../styles/components/productsSection" as *;
+@use "../../../styles/base/mixins" as *;
 
 .products__section {
   // Variaciones específicas para `rollos-turnos`
+}
+
+@include respond-to-max("laptop") {
+  .products__section {
+    .products__container {
+      img {
+        height: auto;
+      }
+    }
+  }
 }

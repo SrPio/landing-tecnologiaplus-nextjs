@@ -263,6 +263,7 @@
     }
 
     .nav__links {
+      z-index: 1000;
       display: none;
       flex-direction: column;
       justify-content: flex-start;

@@ -26,7 +26,7 @@ function DispensadorTiquetesRelatedProducts() {
       description: "Digitaliza la gestión de turnos.",
       img: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738350030/TurnoMaster_2x-8_stvupu_tvjv5q.webp",
       sold: "0000 vendidos",
-      className: style.turbomaster__card,
+      className: style.turnomaster__card,
     },
   ];
 

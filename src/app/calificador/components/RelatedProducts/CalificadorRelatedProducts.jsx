@@ -14,7 +14,7 @@ function CalificadorRelatedProducts({ titleClassName = "" }) {
       description: "Digitaliza la gestión de turnos.",
       img: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349924/TurnoMaster_2x-8_1_t4wh3f_ooru74.webp",
       sold: "0000 vendidos",
-      className: style.turbomaster__card,
+      className: style.turnomaster__card,
     },
     {
       name: "TurnoExpress",

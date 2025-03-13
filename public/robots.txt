@@ -3,7 +3,7 @@ User-agent: *
 Disallow: /
 
 # *
-Allow: /llamador-meseros/
+Allow: /localizadores/
 User-agent: *
 
 # Host

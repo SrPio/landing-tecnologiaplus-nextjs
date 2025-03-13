@@ -1,34 +1,4 @@
 @use "../../../styles/components/relatedProducts" as *;
 
 .related__products {
-  // Variaciones específicas para `rollos-turnos`
-
-  margin-top: 3rem;
-
-  .related__products__container {
-    padding: 3rem 3rem;
-    background: #f4f4f4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-
-    .related__products__card:last-child .card__info {
-      padding-left: 15px;
-      padding-bottom: 0;
-
-      img {
-        width: 100%;
-        height: 250px;
-        object-fit: cover;
-        object-position: 90% center;
-      }
-    }
-
-    .related__products__card {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-  }
 }

@@ -36,44 +36,46 @@ function RelatedProducts({ titleClassName = "" }) {
         Productos similares
       </h2>
       <div className={style.related__products__container}>
-        <Swiper
-          modules={[Navigation, Pagination, Autoplay]}
-          spaceBetween={20}
-          slidesPerView={1}
-          loop={true}
-          navigation
-          pagination={{ clickable: true }}
-          breakpoints={{
-            640: { slidesPerView: 1 },
-            868: { slidesPerView: 2 },
-            1024: { slidesPerView: 3 },
-          }}
-        >
-          {products.map((product, index) => (
-            <SwiperSlide
-              key={index}
-              className={`${style.swiper__slide} ${product.className || ""}`}
-            >
-              <div className={style.related__products__card}>
-                <div className={style.card__info}>
-                  <div className={style.card__text}>
-                    <h3>{product.name}</h3>
-                    <p>{product.description}</p>
+        <div className={style.card__container}>
+          <Swiper
+            modules={[Navigation, Pagination, Autoplay]}
+            spaceBetween={20}
+            slidesPerView={1}
+            loop={true}
+            navigation
+            pagination={{ clickable: true }}
+            breakpoints={{
+              640: { slidesPerView: 1 },
+              868: { slidesPerView: 2 },
+              1024: { slidesPerView: 3 },
+            }}
+          >
+            {products.map((product, index) => (
+              <SwiperSlide
+                key={index}
+                className={`${style.swiper__slide} ${product.className || ""}`}
+              >
+                <div className={style.related__products__card}>
+                  <div className={style.card__info}>
+                    <div className={style.card__text}>
+                      <h3>{product.name}</h3>
+                      <p>{product.description}</p>
+                    </div>
+                    <img
+                      loading="lazy"
+                      src={product.img}
+                      alt={`imagen de ${product.name}`}
+                    />
                   </div>
-                  <img
-                    loading="lazy"
-                    src={product.img}
-                    alt={`imagen de ${product.name}`}
-                  />
+                  <p className={style.selling__counter}>{product.sold}</p>
+                  <a className={style.card__btn} href="#">
+                    Ver más
+                  </a>
                 </div>
-                <p className={style.selling__counter}>{product.sold}</p>
-                <a className={style.card__btn} href="#">
-                  Ver más
-                </a>
-              </div>
-            </SwiperSlide>
-          ))}
-        </Swiper>
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        </div>
       </div>
       <div className={style.related__products__specs}>
         <ul>

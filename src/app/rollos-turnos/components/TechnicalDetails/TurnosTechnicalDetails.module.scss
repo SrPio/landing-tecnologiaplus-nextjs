@@ -1,4 +1,5 @@
 @use "../../../styles/components/technicalDetails" as *;
+@use "../../../styles/base/mixins" as *;
 
 .technical__details {
   padding: 6rem 5%;
@@ -155,6 +156,38 @@
       -moz-border-radius: 2rem;
       -ms-border-radius: 2rem;
       -o-border-radius: 2rem;
+    }
+  }
+}
+
+@include respond-to-max("laptop") {
+  .technical__details {
+    .technical__carousel__container {
+      width: 100%;
+      img {
+        padding: 15px;
+      }
+    }
+
+    .TechnicalDetails__container {
+      .technical__textContainer {
+        h2 {
+          font-size: clamp(16px, 5vw, 30px);
+          text-align: center;
+        }
+
+        > p {
+          font-size: clamp(16px, 4.5vw, 30px);
+          text-align: center;
+        }
+      }
+
+      .technical__info {
+        h3 {
+          font-size: clamp(16px, 5vw, 30px);
+          text-align: center;
+        }
+      }
     }
   }
 }

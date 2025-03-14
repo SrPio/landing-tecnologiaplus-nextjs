@@ -1,8 +1,7 @@
 @use "../../../styles/components/benefitsSection" as *;
+@use "../../../styles/base/mixins" as *;
 
 .benefits__section {
-  // Variaciones específicas para `rollos-turnos`
-
   position: relative;
   z-index: 2;
 
@@ -33,6 +32,43 @@
 
     li:nth-child(3) img {
       width: 250px;
+    }
+  }
+}
+
+@include respond-to-max("laptop") {
+  .benefits__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 15vw;
+
+    .benefits__title {
+      font-size: clamp(16px, 10vw, 80px);
+    }
+
+    ul {
+      flex-direction: column;
+      li {
+        font-size: clamp(10px, 5vw, 32px);
+        flex-direction: row;
+
+        img {
+          width: 20vw;
+          height: 20vw;
+          max-width: 300px;
+          max-height: 300px;
+        }
+      }
+
+      li:nth-child(2) img {
+        height: auto;
+      }
+
+      li:nth-child(3) img {
+        width: auto;
+      }
     }
   }
 }

@@ -1,8 +1,7 @@
 @use "../../../styles/components/productsSection" as *;
+@use "../../../styles/base/mixins" as *;
 
 .products__section {
-  // Variaciones específicas para `Calificador`
-
   padding-top: 120px;
   padding-bottom: 3rem;
 
@@ -66,6 +65,37 @@
           -moz-border-radius: 2rem;
           -ms-border-radius: 2rem;
           -o-border-radius: 2rem;
+        }
+      }
+    }
+  }
+}
+
+@include respond-to-max("laptop") {
+  .products__section {
+    padding: 4rem 0 0rem;
+    .products__container {
+      h2 {
+        font-size: clamp(16px, 5vw, 30px);
+        text-align: center;
+        margin: 0;
+      }
+
+      p {
+        font-size: clamp(16px, 3vw, 30px);
+        text-align: center;
+      }
+      .products__card__container {
+        flex-direction: column;
+        gap: 2rem;
+
+        .card {
+          align-items: center;
+          width: 100%;
+          img {
+            width: 80vw;
+            height: auto;
+          }
         }
       }
     }

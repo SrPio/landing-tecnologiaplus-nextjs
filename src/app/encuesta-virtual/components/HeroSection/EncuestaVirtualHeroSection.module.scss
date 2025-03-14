@@ -1,11 +1,20 @@
 @use "../../../styles/components/heroSection" as *;
+@use "../../../styles/base/mixins" as *;
 
-.hero__content {
-  // Variaciones específicas para `encuestas-virtual`
+.hero {
+  .hero__content {
+    // Variaciones específicas para `encuestas-virtual`
 
-  .hero__img {
-    height: 85% !important;
-    align-self: flex-end;
-    max-width: 800px !important;
+    .hero__img {
+      height: 85%;
+      align-self: flex-end;
+      max-width: 800px;
+
+      @include respond-to-max("laptop") {
+        align-self: auto;
+        width: 80vw;
+        height: auto;
+      }
+    }
   }
 }

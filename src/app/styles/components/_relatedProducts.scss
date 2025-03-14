@@ -171,6 +171,17 @@
         }
       }
     }
+
+    .calificador__card {
+      .card__info {
+        img {
+          width: 70%;
+          height: 250px;
+          object-fit: contain;
+          object-position: 90% center;
+        }
+      }
+    }
   }
 
   .related__products__specs {
@@ -262,6 +273,19 @@
           img {
             width: 65%;
             margin-top: 3px;
+          }
+        }
+      }
+    }
+
+    .calificador__card {
+      .related__products__card {
+        .card__info {
+          img {
+            width: 70%;
+            height: 140px;
+            object-fit: contain;
+            object-position: 90% center;
           }
         }
       }

@@ -1,7 +1,8 @@
+import ContactForm from "../components/ContactForm/ContactForm";
 import Footer from "../components/Footer/Footer";
 import SecondaryHeader from "../components/SecondaryHeader/SecondaryHeader";
 import WppBtn from "../components/WppBtn/WppBtn";
-import ContactForm from "../rollos-termicos/components/ContactForm/ContactForm";
+
 import LlamadorMeserosBenefitsSection from "./components/BenefitsSection/LlamadorMeserosBenefitsSection";
 import LlamadorMeserosClientsSection from "./components/ClientsSection/LlamadorMeserosClientsSection";
 import LlamadorMeserosHeroSection from "./components/HeroSection/LlamadorMeserosHeroSection";

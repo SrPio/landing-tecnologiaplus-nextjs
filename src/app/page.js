@@ -7,9 +7,9 @@ import HomeClientsSection from "./home/components/ClientsSection/HomeClientsSect
 import HomeProductsSection from "./home/components/ProductsSection/HomeProductsSection";
 import HomeBenefitsSection from "./home/components/BenefitsSection/HomeBenefitsSection";
 import HomeRecentPostsSection from "./home/components/RecentPost/HomeRecentPostsSection";
-import ContactForm from "./rollos-termicos/components/ContactForm/ContactForm";
 import WppBtn from "./components/WppBtn/WppBtn";
 import Footer from "./components/Footer/Footer";
+import ContactForm from "@/app/components/ContactForm/ContactForm";
 
 
 export const metadata = {

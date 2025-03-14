@@ -1,4 +1,4 @@
-import ContactForm from "@/app/rollos-termicos/components/ContactForm/ContactForm";
+import ContactForm from "@/app/components/ContactForm/ContactForm";
 import WppBtn from "@/app/components/WppBtn/WppBtn";
 import Footer from "@/app/components/Footer/Footer";
 import style from "../../../localizadores/components/RelatedProducts/LocalizadoresRelatedProducts.module.scss";

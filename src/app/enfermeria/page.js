@@ -1,7 +1,8 @@
+import ContactForm from "../components/ContactForm/ContactForm";
 import Footer from "../components/Footer/Footer";
 import SecondaryHeader from "../components/SecondaryHeader/SecondaryHeader";
 import WppBtn from "../components/WppBtn/WppBtn";
-import ContactForm from "../rollos-termicos/components/ContactForm/ContactForm";
+
 import EnfermeriaBenefitsSection from "./components/BenefitsSection/EnfermeriaBenefitsSection";
 import EnfermeriaClientsSection from "./components/ClientsSection/EnfermeriaClientsSection";
 import EnfermeriaHeroSection from "./components/HeroSection/EnfermeriaHeroSection";

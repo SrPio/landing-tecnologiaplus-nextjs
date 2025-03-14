@@ -13,7 +13,6 @@ import SecondaryTurnoMasterProductsSection from "./components/SecondaryProductsS
 export const metadata = {
     title: "Sistema de Turnos: Agiliza Organiza las Filas en tu negocio",
     description: "Sistema de turnos para organizar filas: Somos fabricantes. Ideal para agilizar la atención en salas de espera . ¡Solicita una asesoria ahora!",
-    viewport: "width=device-width, initial-scale=1, minimum-scale=1",
     robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
     alternates: {
         canonical: "https://landing-tecnologiaplus-nextjs.vercel.app/turnomaster",

@@ -1,8 +1,7 @@
 @use "../../../styles/components/productsSection" as *;
+@use "../../../styles/base/mixins" as *;
 
 .products__section {
-  // Variaciones específicas para `Calificador`
-
   padding-top: 3rem;
   padding-bottom: 0;
 
@@ -119,6 +118,72 @@
         line-height: 1.2;
         text-align: center;
         margin-top: 1rem;
+      }
+    }
+  }
+}
+
+@include respond-to-max("laptop") {
+  .products__section {
+    padding: 3rem 5%;
+    h2 {
+      font-size: clamp(16px, 5vw, 30px);
+      text-align: center;
+    }
+    .products__container {
+      .products__card__container {
+        flex-direction: column;
+
+        .card {
+          h2 {
+            font-size: clamp(16px, 5vw, 30px);
+            text-align: center;
+          }
+
+          p {
+            padding-bottom: 1rem;
+            font-size: clamp(16px, 5vw, 30px);
+          }
+          img {
+            object-fit: contain;
+            height: auto;
+            width: 80vw;
+            padding: 0;
+          }
+
+          &:nth-child(2) img {
+            padding: 0;
+          }
+        }
+      }
+    }
+  }
+
+  .additional__services__section {
+    h2 {
+      font-size: clamp(16px, 5vw, 30px);
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+
+    .services__card__container {
+      flex-direction: column;
+      gap: 3rem;
+
+      .card {
+        h2 {
+          font-size: clamp(16px, 5vw, 30px);
+          text-align: center;
+        }
+        p {
+          padding-bottom: 1rem;
+          font-size: clamp(16px, 5vw, 30px);
+        }
+        img {
+          object-fit: contain;
+          height: auto;
+          width: 30vw;
+        }
       }
     }
   }

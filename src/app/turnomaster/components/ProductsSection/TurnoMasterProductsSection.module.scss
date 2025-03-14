@@ -1,4 +1,5 @@
 @use "../../../styles/components/productsSection" as *;
+@use "../../../styles/base/mixins" as *;
 
 .products__section {
   // Variaciones específicas para `turno-master`
@@ -32,6 +33,31 @@
     img {
       height: 410px;
       padding: 1rem;
+    }
+  }
+}
+
+@include respond-to-max("laptop") {
+  .products__section {
+    padding: 3rem 5% 10rem;
+    h2 {
+      font-size: clamp(16px, 5vw, 30px);
+      text-align: center;
+    }
+
+    .card__btn {
+      font-size: clamp(16px, 5vw, 30px);
+    }
+    .products__container {
+      flex-direction: column;
+      margin-top: 3rem;
+      margin-bottom: 0;
+
+      img {
+        object-fit: contain;
+        height: auto;
+        width: 80vw;
+      }
     }
   }
 }

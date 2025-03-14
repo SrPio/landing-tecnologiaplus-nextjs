@@ -1,60 +1,78 @@
+"use client";
+
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination, Autoplay } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 import style from "./TurnoMasterRelatedProducts.module.scss";
 
 function TurnoMasterRelatedProducts() {
+  const products = [
+    {
+      name: "Rollos térmicos",
+      description: "Perfectos para tickets, facturas y más.",
+      img: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349920/image-1_1_ljyxis_qdsmdq.webp",
+      sold: "0000 vendidos",
+      className: style.rollos__termicos__card,
+    },
+    {
+      name: "TurnoExpress",
+      description: "Rapidez y agilidad para tus filas.",
+      img: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738350028/TurnoExpress_2x-8_ri7zqh_xjz8bw.webp",
+      sold: "0000 vendidos",
+    },
+    {
+      name: "Rollos de turnos",
+      description: "Organiza y mejora el servicio.",
+      img: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738424725/Rollos_de_turnos_2x-8_tcxrnt.webp",
+      sold: "0000 vendidos",
+    },
+  ];
+
   return (
     <section className={style.related__products}>
       <h2>Productos similares</h2>
       <div className={style.related__products__container}>
-        <div className={style.related__products__card}>
-          <div className={style.card__info}>
-            <div className={style.card__text}>
-              <h3>Rollos térmicos</h3>
-              <p>Perfectos para tickets, facturas y más.</p>
-            </div>
-            <img
-              loading="lazy"
-              src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349920/image-1_1_ljyxis_qdsmdq.webp"
-              alt="imagen de Rollos térmicos"
-            />
-          </div>
-          <p className={style.selling__counter}>0000 vendidos</p>
-          <a className={style.card__btn} href="#">
-            Ver más
-          </a>
-        </div>
-        <div className={style.related__products__card}>
-          <div className={style.card__info}>
-            <div className={style.card__text}>
-              <h3>TurnoExpress</h3>
-              <p>Rapidez y agilidad para tus filas.</p>
-            </div>
-            <img
-              loading="lazy"
-              src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738350028/TurnoExpress_2x-8_ri7zqh_xjz8bw.webp"
-              alt="imagen de TurnoExpress"
-            />
-          </div>
-          <p className={style.selling__counter}>0000 vendidos</p>
-          <a className={style.card__btn} href="#">
-            Ver más
-          </a>
-        </div>
-        <div className={style.related__products__card}>
-          <div className={style.card__info}>
-            <div className={style.card__text}>
-              <h3>Rollos de turnos</h3>
-              <p>Organiza y mejora el servicio.</p>
-            </div>
-            <img
-              loading="lazy"
-              src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738424725/Rollos_de_turnos_2x-8_tcxrnt.webp"
-              alt="imagen de Rollos de turnos"
-            />
-          </div>
-          <p className={style.selling__counter}>0000 vendidos</p>
-          <a className={style.card__btn} href="#">
-            Ver más
-          </a>
+        <div className={style.card__container}>
+          <Swiper
+            modules={[Navigation, Pagination, Autoplay]}
+            spaceBetween={20}
+            slidesPerView={1}
+            loop={true}
+            navigation
+            pagination={{ clickable: true }}
+            breakpoints={{
+              640: { slidesPerView: 1 },
+              868: { slidesPerView: 2 },
+              1024: { slidesPerView: 3 },
+            }}
+          >
+            {products.map((product, index) => (
+              <SwiperSlide
+                key={index}
+                className={`${style.swiper__slide} ${product.className || ""}`}
+              >
+                <div className={style.related__products__card}>
+                  <div className={style.card__info}>
+                    <div className={style.card__text}>
+                      <h3>{product.name}</h3>
+                      <p>{product.description}</p>
+                    </div>
+                    <img
+                      loading="lazy"
+                      src={product.img}
+                      alt={`imagen de ${product.name}`}
+                    />
+                  </div>
+                  <p className={style.selling__counter}>{product.sold}</p>
+                  <a className={style.card__btn} href="#">
+                    Ver más
+                  </a>
+                </div>
+              </SwiperSlide>
+            ))}
+          </Swiper>
         </div>
       </div>
       <div className={style.related__products__specs}>
@@ -87,9 +105,9 @@ function TurnoMasterRelatedProducts() {
             <img
               loading="lazy"
               src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349925/ynuxn64wkw3nkqxl4tvo_lwqzi0.webp"
-              alt="icono de Envíos en Colombia y Latinoamerica"
+              alt="icono de Envíos en Colombia y Latinoamérica"
             />
-            <p>Envíos en Colombia y Latinoamerica</p>
+            <p>Envíos en Colombia y Latinoamérica</p>
           </li>
         </ul>
       </div>

@@ -143,6 +143,27 @@
       .form__container {
         order: 2;
         margin: 40px auto 0;
+
+        .message__container {
+          .message__head {
+            flex-direction: column;
+
+            .check__icon {
+              font-size: 90px;
+            }
+
+            h2 {
+              font-size: clamp(16px, 6vw, 40px);
+              text-align: center;
+            }
+          }
+
+          p {
+            font-size: clamp(16px, 3vw, 20px);
+            text-align: center;
+            margin: 1rem 0 0;
+          }
+        }
       }
 
       .contact__texts {

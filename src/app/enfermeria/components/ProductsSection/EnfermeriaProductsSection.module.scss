@@ -1,8 +1,7 @@
 @use "../../../styles/components/productsSection" as *;
+@use "../../../styles/base/mixins" as *;
 
 .products__section {
-  // Variaciones específicas para `Calificador`
-
   > p {
     font-size: 1rem;
     color: #606060;
@@ -11,6 +10,10 @@
     max-width: 1250px;
     line-height: 1.2;
     text-wrap: balance;
+
+    @include respond-to-max("laptop") {
+      margin-top: 2rem;
+    }
   }
 
   padding-bottom: 9rem;
@@ -20,6 +23,12 @@
     img {
       height: 500px;
       padding: 1rem;
+
+      @include respond-to-max("laptop") {
+        width: 80vw;
+        height: auto;
+        padding: 0;
+      }
     }
   }
 }

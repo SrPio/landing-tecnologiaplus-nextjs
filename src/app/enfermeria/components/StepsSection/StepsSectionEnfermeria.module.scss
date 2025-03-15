@@ -1,3 +1,5 @@
+@use "../../../styles/base/mixins" as *;
+
 .steps__section {
   display: flex;
   flex-direction: column;
@@ -54,6 +56,33 @@
           -moz-border-radius: 20px;
           -ms-border-radius: 20px;
           -o-border-radius: 20px;
+        }
+      }
+    }
+  }
+}
+
+@include respond-to-max("laptop") {
+  .steps__section {
+    h2 {
+      font-size: clamp(16px, 5vw, 30px);
+      text-align: center;
+    }
+    .cards__container {
+      flex-direction: column;
+
+      .card {
+        img {
+          width: 80vw;
+          height: auto;
+          object-fit: contain;
+        }
+
+        .text__container {
+          p {
+            font-size: clamp(12px, 4vw, 20px);
+            text-align: center;
+          }
         }
       }
     }

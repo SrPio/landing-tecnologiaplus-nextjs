@@ -1,17 +1,32 @@
 @use "../../../styles/components/heroSection" as *;
+@use "../../../styles/base/mixins" as *;
 
-.hero__content {
-  // Variaciones específicas para `enfermeria`
-  justify-content: space-between !important;
-  padding: 4rem 0;
+.hero {
+  .hero__content {
+    justify-content: space-between;
+    padding: 4rem 0;
 
-  .hero__img {
-    height: auto !important;
-    /* width: 60% !important; */
-    max-width: 60% !important;
-  }
+    @include respond-to-max("laptop") {
+      justify-content: center;
+    }
 
-  .hero__text {
-    margin-right: 10%;
+    .hero__img {
+      height: auto;
+      /* width: 60%; */
+      max-width: 60%;
+
+      @include respond-to-max("laptop") {
+        align-self: auto;
+        width: 80vw;
+        height: auto;
+      }
+    }
+
+    .hero__text {
+      margin-right: 10%;
+      @include respond-to-max("laptop") {
+        margin-right: 0;
+      }
+    }
   }
 }

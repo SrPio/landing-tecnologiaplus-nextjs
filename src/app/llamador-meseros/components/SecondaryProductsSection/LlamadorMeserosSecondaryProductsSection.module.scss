@@ -1,4 +1,5 @@
 @use "../../../styles/components/productsSection" as *;
+@use "../../../styles/base/mixins" as *;
 
 .products__section {
   // Variaciones específicas para `enfermeria`
@@ -15,11 +16,21 @@
       font-weight: 900;
       color: #606060;
       margin: 2rem 0;
+
+      @include respond-to-max("laptop") {
+        font-size: clamp(16px, 5vw, 30px);
+        text-align: center;
+      }
     }
     .products__card__container {
       display: flex;
       justify-content: center;
       gap: 4rem;
+
+      @include respond-to-max("laptop") {
+        flex-direction: column;
+      }
+
       .card {
         display: flex;
         flex-direction: column;
@@ -31,6 +42,11 @@
           width: auto;
           object-fit: contain;
           margin-bottom: 1rem;
+
+          @include respond-to-max("laptop") {
+            width: 80vw;
+            height: auto;
+          }
         }
 
         h3 {
@@ -38,6 +54,11 @@
           font-size: 1.5rem;
           line-height: 1.2;
           text-align: center;
+
+          @include respond-to-max("laptop") {
+            font-size: clamp(16px, 5vw, 30px);
+            text-align: center;
+          }
         }
         p {
           color: #6146a6;
@@ -61,6 +82,13 @@
       }
 
       .card__video {
+        @include respond-to-max("laptop") {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          justify-content: center;
+          align-items: center;
+        }
         iframe {
           width: 25vw;
           height: auto;
@@ -70,6 +98,10 @@
           -moz-border-radius: 12px;
           -ms-border-radius: 12px;
           -o-border-radius: 12px;
+
+          @include respond-to-max("laptop") {
+            width: 80vw;
+          }
         }
 
         p {
@@ -87,15 +119,36 @@
       justify-items: center;
       align-items: center;
 
+      @include respond-to-max("laptop") {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 6rem;
+      }
+
       .card {
         flex-direction: row;
+
+        @include respond-to-max("laptop") {
+          flex-direction: column;
+        }
+
         > div {
           display: flex;
           flex-direction: column;
           align-items: center;
+
+          @include respond-to-max("laptop") {
+            order: 2;
+          }
         }
         img {
           height: 250px;
+          @include respond-to-max("laptop") {
+            order: 1;
+            width: 80vw;
+            height: auto;
+          }
         }
 
         .card__btn {

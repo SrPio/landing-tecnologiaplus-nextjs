@@ -1,3 +1,5 @@
+@use "../../../styles/base/mixins" as *;
+
 .steps__section {
   display: flex;
   flex-direction: column;
@@ -8,6 +10,10 @@
 
   h2 {
     margin-bottom: 3rem;
+    @include respond-to-max("laptop") {
+      font-size: clamp(16px, 5vw, 30px);
+      text-align: center;
+    }
   }
 
   .cards__container {

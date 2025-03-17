@@ -20,6 +20,23 @@
     display: flex;
     gap: 2rem;
 
+    .mobile__cards__container {
+      display: none;
+
+      @include respond-to-max("laptop") {
+        display: flex;
+        flex-direction: column;
+        gap: 10vw;
+
+        .card {
+          img {
+            width: 80vw;
+            height: auto;
+          }
+        }
+      }
+    }
+
     .card {
       display: flex;
       flex-direction: column;
@@ -36,6 +53,7 @@
         -ms-border-radius: 20px;
         -o-border-radius: 20px;
       }
+
       .text__container {
         margin-top: -1rem;
         display: flex;
@@ -62,6 +80,12 @@
           -ms-border-radius: 20px;
           -o-border-radius: 20px;
         }
+      }
+    }
+
+    .card__desktop {
+      @include respond-to-max("laptop") {
+        display: none;
       }
     }
   }

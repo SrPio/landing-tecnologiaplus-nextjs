@@ -16,14 +16,14 @@ export const metadata = {
   title: "Sistemas innovadores para Agilizar y potenciar la atención al cliente",
   description: "Lleva tu negocio al siguiente nivel, en Tecnología Plus somos expertos en sistemas para agilizar y potenciar el servicio al cliente ¡Contáctanos ahora!",
   alternates: {
-    canonical: "https://tecnologiaplus.com/",
+    canonical: "https://landing-tecnologiaplus-nextjs.vercel.app/",
   },
   openGraph: {
     locale: "es_ES",
     type: "website",
     title: "Tecnología Plus - Llamadores Inalámbricos y Sistemas de Turnos",
     description: "Mejora la eficiencia de tu negocio con los llamadores inalámbricos y sistemas de turnos de Tecnología Plus. Soluciones innovadoras para un mejor servicio.",
-    url: "https://tecnologiaplus.com/",
+    url: "https://landing-tecnologiaplus-nextjs.vercel.app/",
     siteName: "TecnologiaPlus",
     images: [
       {

@@ -12,6 +12,7 @@
       @include respond-to-max("laptop") {
         width: 80vw;
         height: auto;
+        max-width: 500px;
       }
     }
   }

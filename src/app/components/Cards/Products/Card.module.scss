@@ -1,3 +1,5 @@
+@use "../../../styles/base/mixins" as *;
+
 .related__products__card {
   display: flex;
   flex-direction: column;
@@ -34,6 +36,11 @@
         font-weight: 700;
         color: #606060;
         text-align: center;
+
+        @include respond-to-max("laptop") {
+          font-size: clamp(16px, 5vw, 1.3rem);
+          text-align: center;
+        }
       }
 
       p {
@@ -42,6 +49,10 @@
         line-height: 1.2;
         text-align: center;
         margin-bottom: 0;
+        @include respond-to-max("laptop") {
+          font-size: clamp(12px, 4vw, 1.2rem);
+          text-align: center;
+        }
       }
     }
   }
@@ -105,8 +116,6 @@
   }
 
   &.custom__style__five .card__info {
-    padding-left: 0;
-
     img {
       margin-top: -5%;
       width: 80%;
@@ -114,8 +123,6 @@
   }
 
   &.custom__style__six .card__info {
-    padding-left: 0;
-
     img {
       width: 60%;
     }

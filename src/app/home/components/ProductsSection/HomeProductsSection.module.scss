@@ -27,6 +27,7 @@
 
     @include respond-to-max("laptop") {
       grid-template-columns: repeat(1, minmax(0, 1fr));
+      max-width: 500px;
     }
   }
 }

@@ -1,10 +1,16 @@
 @use "../../../styles/components/productsSection" as *;
+@use "../../../styles/base/mixins" as *;
 
 .products__section {
   // Variaciones específicas para `turno-master`
 
   h2 {
     margin-bottom: 4rem;
+
+    @include respond-to-max("laptop") {
+      font-size: clamp(16px, 5vw, 30px);
+      text-align: center;
+    }
   }
 
   .products__container {
@@ -35,6 +41,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
+    @include respond-to-max("laptop") {
+      font-size: clamp(16px, 5vw, 1.5rem);
+    }
 
     .icon__btn {
       color: #b627ff;

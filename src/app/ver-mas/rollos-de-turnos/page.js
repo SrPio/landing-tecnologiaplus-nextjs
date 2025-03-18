@@ -8,11 +8,13 @@ import LogosSection from "../termicos/components/LogosSection/LogosSection";
 import TechnicalSheet from "./components/TechnicalSheet/TechnicalSheet";
 import LlamadorMeserosRelatedProducts from "@/app/llamador-meseros/components/RelatedProducts/LlamadorMeserosRelatedProducts";
 import HowItWorks from "./components/HowItWorks/HowItWorks";
+import MobileProductGallery from "./components/ProductGallery/MobileProductGallery";
 
 export default function VerMasRollosTurnos() {
     return (
         <>
             <ProductGallery />
+            {/* <MobileProductGallery /> */}
             <SecondaryHeader />
             <TechnicalSheet />
             <HowItWorks />

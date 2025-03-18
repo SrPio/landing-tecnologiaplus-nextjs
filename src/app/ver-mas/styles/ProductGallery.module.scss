@@ -1,4 +1,5 @@
-.hero {
+.hero,
+.mobileGallery {
   .action__nav {
     margin: 0 auto;
     width: 95%;
@@ -267,6 +268,140 @@
         -ms-border-radius: 5px;
         -o-border-radius: 5px;
       }
+    }
+  }
+}
+
+.mobileGallery {
+  /* Cambiar el estilo de los bullets */
+
+  :global(.swiper-wrapper) {
+    display: flex;
+    align-items: center;
+  }
+
+  :global(.swiper-pagination) {
+    margin-top: 5vw;
+    position: relative;
+  }
+
+  :global(.swiper-pagination-bullet) {
+    background-color: #aeaeae;
+    /* width: 12px;
+    height: 12px; */
+    opacity: 1;
+  }
+
+  :global(.swiper-pagination-bullet-active) {
+    background-color: #5f5f5f;
+  }
+
+  /* FIN Cambiar el estilo de los bullets */
+
+  .thumbs-container {
+    overflow-x: auto;
+    white-space: nowrap;
+    display: flex;
+    padding: 10px 0;
+  }
+
+  :global(.thumbs-swiper) {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100px;
+    padding: min(15px, 5vw) min(15px, 5vw) 0 min(15px, 5vw);
+    margin-bottom: min(15px, 5vw);
+  }
+
+  :global(.thumb-slide) {
+    border: #606060 1px solid;
+    flex: 0 0 auto;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 104px;
+
+    img {
+      object-fit: contain;
+      height: 100%;
+    }
+  }
+
+  .container__info__products {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1rem;
+
+    padding: 5vw 0;
+    margin: 0 5vw;
+    border-top: 1px solid #606060;
+
+    .container__titles {
+      line-height: 1.2;
+      h1 {
+        color: #000000;
+        font-weight: 800;
+
+        font-size: clamp(16px, 5vw, 2rem);
+        text-align: center;
+        color: #606060;
+      }
+      p {
+        color: #606060;
+        font-weight: 600;
+        margin-top: 0.8rem;
+
+        font-size: clamp(16px, 5vw, 2rem);
+        text-align: center;
+        color: #606060;
+      }
+    }
+
+    .container__contact__info {
+      background: #f5f5f5;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+      padding: 1rem;
+      border-radius: 15px;
+      -webkit-border-radius: 15px;
+      -moz-border-radius: 15px;
+      -ms-border-radius: 15px;
+      -o-border-radius: 15px;
+
+      h3 {
+        font-weight: 800;
+        font-size: clamp(16px, 5vw, 2rem);
+      }
+
+      p {
+        font-weight: 600;
+        color: #606060;
+        line-height: 1;
+
+        display: flex;
+        align-items: center;
+
+        margin-top: 0.8rem;
+        font-size: clamp(16px, 5vw, 2rem);
+      }
+
+      .icon__wpp {
+        color: #00bc06;
+        font-size: 40px;
+      }
+    }
+
+    > p {
+      color: #606060;
+      font-weight: 600;
+      text-wrap: balance;
+      font-size: clamp(16px, 5vw, 2rem);
+      text-align: center;
     }
   }
 }

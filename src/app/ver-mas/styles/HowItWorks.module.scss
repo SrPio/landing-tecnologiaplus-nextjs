@@ -1,3 +1,5 @@
+@use "../../styles/base/mixins" as *;
+
 .HowItWorks__container {
   padding: 2rem 0 4rem;
   margin: 0 5%;
@@ -9,6 +11,12 @@
     color: #000;
     margin-bottom: 2rem;
     line-height: 1;
+
+    @include respond-to-max("laptop") {
+      font-size: clamp(16px, 5vw, 2rem);
+      text-align: center;
+      color: #606060;
+    }
   }
 
   .items__container {
@@ -17,6 +25,11 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 3rem 2rem;
     margin: 0 auto;
+
+    @include respond-to-max("laptop") {
+      display: flex;
+      flex-direction: column;
+    }
 
     .item {
       display: flex;
@@ -56,6 +69,13 @@
         -moz-border-radius: 25px;
         -ms-border-radius: 25px;
         -o-border-radius: 25px;
+
+        @include respond-to-max("laptop") {
+          font-size: clamp(8px, 3.2vw, 2rem);
+          text-align: center;
+          padding: 5px 20px;
+          min-height: 10vw;
+        }
       }
     }
   }

@@ -3,7 +3,6 @@ User-agent: *
 Disallow: /
 
 # *
-Allow: /$
 User-agent: *
 
 # Host

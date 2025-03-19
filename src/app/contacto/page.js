@@ -15,6 +15,7 @@ export default function ContactoLanding() {
                     header: altStyles.altHeader,
                     phoneBtn: altStyles.altPhoneBtn,
                     searchIcon: altStyles.altSearchIcon,
+                    menuIcon: altStyles.altMenuIcon,
                 }}
             />
             <ContactForm noMarginTop={true} />

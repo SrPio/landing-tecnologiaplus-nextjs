@@ -36,6 +36,7 @@ function MobileProductGallery() {
           header: altStyles.altHeader,
           phoneBtn: altStyles.altPhoneBtn,
           searchIcon: altStyles.altSearchIcon,
+          menuIcon: altStyles.altMenuIcon,
         }}
       />
 

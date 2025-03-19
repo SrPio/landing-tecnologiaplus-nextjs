@@ -26,6 +26,7 @@
       display: flex;
       justify-content: center;
       gap: 4rem;
+      padding-bottom: 2rem;
 
       @include respond-to-max("laptop") {
         flex-direction: column;

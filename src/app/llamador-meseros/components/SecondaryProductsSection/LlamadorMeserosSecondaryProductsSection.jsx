@@ -90,6 +90,54 @@ function LlamadorMeserosSecondaryProductsSection() {
               />
             </div>
           </div>
+          <h2>Opciones para recibir llamados</h2>
+          <div className={style.products__card__container}>
+            <div className={style.card}>
+              <img
+                loading="lazy"
+                src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738685534/reloj_receptor_digital_2x-8_adfgxj.webp"
+                alt="imagen del Reloj receptor digital"
+              />
+              <h3>Reloj receptor digital</h3>
+              <p>1276 vendidos</p>
+              <a
+                className={style.card__btn}
+                href="http://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/meseros/reloj-receptor"
+              >
+                Ver más
+              </a>
+            </div>
+            <div className={style.card}>
+              <img
+                loading="lazy"
+                src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739197744/Turnero_T1B_2x-8_1_1_opvowd.webp"
+                alt="imagen del Pantalla de 1 llamado"
+              />
+              <h3>Pantalla de 1 llamado</h3>
+              <p>286 vendidos</p>
+              <a
+                className={style.card__btn}
+                href="https://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/meseros/pantalla-t1b"
+              >
+                Ver más
+              </a>
+            </div>
+            <div className={style.card}>
+              <img
+                loading="lazy"
+                src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738694391/6_llamados_2x-8_wppkb6.webp"
+                alt="imagen del Pantalla de 6 llamados"
+              />
+              <h3>Pantalla de 6 llamados</h3>
+              <p>142 vendidos</p>
+              <a
+                className={style.card__btn}
+                href="https://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/meseros/pantalla-6-llamados"
+              >
+                Ver más
+              </a>
+            </div>
+          </div>
         </div>
       </section>
       <section className={style.products__section}>
@@ -139,54 +187,6 @@ function LlamadorMeserosSecondaryProductsSection() {
                 allowFullScreen
               ></iframe>
               <p>Un solo toque y el número de mesa aparece en pantalla</p>
-            </div>
-          </div>
-          <h2>Opciones para recibir llamados</h2>
-          <div className={style.products__card__container}>
-            <div className={style.card}>
-              <img
-                loading="lazy"
-                src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738685534/reloj_receptor_digital_2x-8_adfgxj.webp"
-                alt="imagen del Reloj receptor digital"
-              />
-              <h3>Reloj receptor digital</h3>
-              <p>1276 vendidos</p>
-              <a
-                className={style.card__btn}
-                href="http://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/meseros/reloj-receptor"
-              >
-                Ver más
-              </a>
-            </div>
-            <div className={style.card}>
-              <img
-                loading="lazy"
-                src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739197744/Turnero_T1B_2x-8_1_1_opvowd.webp"
-                alt="imagen del Pantalla de 1 llamado"
-              />
-              <h3>Pantalla de 1 llamado</h3>
-              <p>286 vendidos</p>
-              <a
-                className={style.card__btn}
-                href="https://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/meseros/pantalla-t1b"
-              >
-                Ver más
-              </a>
-            </div>
-            <div className={style.card}>
-              <img
-                loading="lazy"
-                src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738694391/6_llamados_2x-8_wppkb6.webp"
-                alt="imagen del Pantalla de 6 llamados"
-              />
-              <h3>Pantalla de 6 llamados</h3>
-              <p>142 vendidos</p>
-              <a
-                className={style.card__btn}
-                href="https://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/meseros/pantalla-6-llamados"
-              >
-                Ver más
-              </a>
             </div>
           </div>
         </div>

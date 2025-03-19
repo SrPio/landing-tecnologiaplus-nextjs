@@ -11,7 +11,11 @@ function LlamadorMeserosSecondaryProductsSection() {
           >
             <div className={style.card}>
               <div>
-                <h3>Llamador V2N</h3>
+                <h3>
+                  Llamador V2N
+                  <br />
+                  de 3 teclas
+                </h3>
                 <a
                   className={style.card__btn}
                   href="http://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/meseros/llamador-v2n"
@@ -22,8 +26,8 @@ function LlamadorMeserosSecondaryProductsSection() {
               </div>
               <img
                 loading="lazy"
-                src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738694395/1_2x-8_1_gw4xok.webp"
-                alt="imagen de Llamador V2N"
+                src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742395037/Boto%CC%81n_3_teclas_4x-8_buaiyg.webp"
+                alt="imagen de Llamador V2N de 3 teclas"
               />
             </div>
             <div className={style.card}>

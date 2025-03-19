@@ -15,13 +15,17 @@ function CalificadorHeroSection() {
 
         <div className={styles.hero__text}>
           <h1>
-            OpinaMaster:
+            <span>OpinaMaster:</span>
             <br />
-            El calificador de servicio para
-            <br />
-            crecer con la voz de tus clientes
+            El calificador de servicio
           </h1>
-          <p>En Tiempo Real recibe alertas de calificaciones negativas</p>
+          <p>
+            para crecer con la voz de tus clientes
+            <br />
+            <span>
+              En Tiempo Real recibe alertas de calificaciones negativas
+            </span>
+          </p>
           <a className={styles.hero__btn} href="#">
             Ver más
           </a>

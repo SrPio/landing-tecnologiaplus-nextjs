@@ -22,9 +22,9 @@ function EncuestaVirtualHeroSection() {
             piensan tus clientes
           </h1>
           <p>
-            Encuesta Virtual, atrevete a detectar
+            Encuesta Virtual, atrévete a detectar
             <br />
-            los puntos fuertes y debiles de tu negocio.
+            los puntos fuertes y débiles de tu negocio.
           </p>
           <a className={styles.hero__btn} href="#">
             Ver más

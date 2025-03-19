@@ -15,11 +15,11 @@ function HomeHeroSection() {
 
         <div className={styles.hero__text}>
           <h1>
-            Sistemas de llamado
+            <span>TurnoMaster:</span>
             <br />
-            inalámbrico para mejorar
+            Sistema de turnos de espera
           </h1>
-          <p>la atención al cliente</p>
+          <p>Lleva tu sala de espera al siguiente nivel</p>
           <a className={styles.hero__btn} href="#">
             Ver más
           </a>

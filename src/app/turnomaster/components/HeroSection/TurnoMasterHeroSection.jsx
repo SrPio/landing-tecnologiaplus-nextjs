@@ -15,7 +15,7 @@ function TurnoMasterHeroSection() {
 
         <div className={styles.hero__text}>
           <h1>
-            TurnoMaster:
+            <span>TurnoMaster:</span>
             <br />
             Sistema de turnos de espera
           </h1>

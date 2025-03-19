@@ -15,12 +15,12 @@ function TurnosHeroSection() {
           />
           <div className={styles.hero__text}>
             <h1>
-              Numeración clara y corte
+              Numeración clara
               <br />
-              preciso para agilizar
+              y corte preciso
               <br />
             </h1>
-            <p>la atención de turnos.</p>
+            <p>para agilizar la atención de turnos.</p>
             <a
               className={styles.hero__btn}
               href="http://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/rollos-de-turnos"

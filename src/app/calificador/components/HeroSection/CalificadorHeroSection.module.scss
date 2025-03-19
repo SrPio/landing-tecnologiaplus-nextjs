@@ -14,5 +14,51 @@
         max-width: 500px;
       }
     }
+
+    .hero__text {
+      h1 {
+        font-size: 3.5rem;
+        span {
+          font-size: 2.6rem;
+        }
+      }
+
+      p {
+        font-size: 1.8rem;
+        line-height: 1;
+        span {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}
+
+@include respond-to-max("laptop") {
+  .hero {
+    .hero__content {
+      .hero__text {
+        h1 {
+          font-size: clamp(16px, 5.5vw, 30px);
+          text-align: center;
+
+          span {
+            font-size: clamp(14px, 3vw, 22px);
+            text-align: center;
+          }
+        }
+
+        p {
+          font-size: clamp(12px, 2.5vw, 20px);
+          text-align: center;
+          line-height: 1.2;
+
+          span {
+            font-size: clamp(10px, 2vw, 18px);
+            text-align: center;
+          }
+        }
+      }
+    }
   }
 }

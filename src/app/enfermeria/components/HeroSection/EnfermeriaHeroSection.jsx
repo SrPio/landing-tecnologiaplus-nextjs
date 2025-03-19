@@ -20,9 +20,9 @@ function EnfermeriaHeroSection() {
             más cerca de tus pacientes.
           </h1>
           <p>
-            Facilita el contacto entre el
+            Facilita el contacto entre el paciente y
             <br />
-            paciente y personal de salud.
+            personal de salud.
           </p>
           <a className={styles.hero__btn} href="#">
             Ver más

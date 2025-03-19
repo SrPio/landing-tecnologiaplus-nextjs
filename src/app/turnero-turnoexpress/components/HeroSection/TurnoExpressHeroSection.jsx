@@ -15,9 +15,9 @@ function TurnoExpressHeroSection() {
 
         <div className={styles.hero__text}>
           <h1>
-            Turnero digital:
+            <span>Turnero digital:</span>
             <br />
-            ADIOS A LAS FILAS
+            Adiós a las filas
           </h1>
           <p>Agilidad y orden en cada turno.</p>
           <a className={styles.hero__btn} href="#">

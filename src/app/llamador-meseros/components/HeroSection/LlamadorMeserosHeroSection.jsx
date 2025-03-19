@@ -19,11 +19,7 @@ function LlamadorMeserosHeroSection() {
             <br />
             Un solo toque evita largas esperas
           </h1>
-          <p>
-            Innovador y sin ruidos para
-            <br />
-            facilitar el llamado de meseros.
-          </p>
+          <p>Innovador y sin ruidos para facilitar el llamado de meseros.</p>
           <a className={styles.hero__btn} href="#">
             Ver más
           </a>

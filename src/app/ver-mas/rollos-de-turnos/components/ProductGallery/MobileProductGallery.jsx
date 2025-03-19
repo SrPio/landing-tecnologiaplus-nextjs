@@ -85,7 +85,7 @@ function MobileProductGallery() {
       {/* Información del producto */}
       <div className={styles.container__info__products}>
         <div className={styles.container__titles}>
-          <h1>LLAMADOR V2N</h1>
+          <h1>ROLLOS DE TURNOS</h1>
         </div>
 
         <div className={styles.container__contact__info}>

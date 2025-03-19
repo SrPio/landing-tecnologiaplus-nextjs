@@ -132,8 +132,8 @@ function ProductGallery() {
         {/* Información del producto */}
         <div className={styles.container__info__products}>
           <div className={styles.container__titles}>
-            <h1>LLAMADOR V2N</h1>
-            <p>Para recibir llamados</p>
+            <h1>ROLLOS DE TURNOS</h1>
+            <p>Dispensador de tiquete tipo caracol</p>
           </div>
 
           {/* Alternativas */}

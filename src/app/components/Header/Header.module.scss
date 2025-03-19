@@ -66,6 +66,10 @@
       -ms-border-radius: 20px;
       -o-border-radius: 20px;
 
+      @include respond-to-max("laptop") {
+        font-weight: 300;
+      }
+
       li {
         list-style: none;
         padding: 8px 26px;
@@ -279,7 +283,7 @@
       box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 
       color: #fff;
-      font-weight: 300;
+      font-weight: 500;
       text-transform: none;
       font-size: 1rem;
 

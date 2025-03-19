@@ -30,6 +30,7 @@
     justify-content: space-between;
     align-items: center;
     flex: 2 1 auto;
+    overflow: auto;
 
     @include respond-between("tablet", "laptop") {
       flex: 2 1 40%;
@@ -73,6 +74,10 @@
       li {
         list-style: none;
         padding: 8px 26px;
+
+        @include respond-to-max("laptop") {
+          padding: 0 26px;
+        }
 
         a {
           text-decoration: none;

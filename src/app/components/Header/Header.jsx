@@ -11,14 +11,14 @@ function Header({ customStyles = {} }) {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
-    if (menuOpen) {
+    if (menuOpen && isMobile) {
       document.body.style.position = "fixed";
       document.body.style.width = "100%";
     } else {
       document.body.style.position = "";
       document.body.style.width = "";
     }
-  }, [menuOpen]);
+  }, [menuOpen, isMobile]);
 
   useEffect(() => {
     const handleResize = () => {

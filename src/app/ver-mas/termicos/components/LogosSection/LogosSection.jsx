@@ -8,12 +8,8 @@ function LogosSection() {
   const { logosTermicos } = useLogos();
   return (
     <section className={styles.logossection__container}>
-      <input type="checkbox" id="toggle" className={styles.toggleCheckbox} />
       <div className={styles.header}>
         <h2>Algunos clientes</h2>
-        <label htmlFor="toggle" className={styles.toggleLabel}>
-          <IoIosArrowForward className={styles.arrowIcon} />
-        </label>
       </div>
       <div className={styles.content}>
         <InfiniteSlider logos={logosTermicos} />

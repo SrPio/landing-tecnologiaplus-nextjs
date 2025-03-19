@@ -1,5 +1,13 @@
+@use "../../styles/base/mixins" as *;
+
 .logossection__container {
   padding: 4rem 5% 0;
+  @include respond-to-max("laptop") {
+    font-size: clamp(16px, 5vw, 2rem);
+    text-align: center;
+    color: #606060;
+    width: 100%;
+  }
 
   h2 {
     font-size: 2rem;
@@ -7,46 +15,23 @@
     color: #000;
 
     line-height: 1;
+
+    @include respond-to-max("laptop") {
+      font-size: clamp(16px, 5vw, 2rem);
+      text-align: center;
+      color: #606060;
+      width: 100%;
+    }
   }
 }
 
 .header {
   display: flex;
   align-items: center;
-  width: 60vw;
   justify-content: space-between;
 }
 
-.toggleCheckbox {
-  display: none;
-
-  &:checked ~ .content {
-    max-height: 200px;
-    opacity: 1;
-    padding: 10px;
-  }
-
-  &:checked ~ .header .toggleLabel .arrowIcon {
-    transform: rotate(90deg);
-  }
-}
-
-.toggleLabel {
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-}
-
-.arrowIcon {
-  font-size: 2rem;
-  transition: transform 0.3s ease;
-}
-
 .content {
-  max-height: 0;
-  opacity: 0;
-  overflow: hidden;
-  transition: max-height 0.3s ease, opacity 0.3s ease;
   border-radius: 4px;
   margin-top: 10px;
 

@@ -15,6 +15,11 @@ function LlamadorMeserosProductsSection() {
           alt="Imagen de llamador de meseros"
         />
       </div>
+      <input
+        type="checkbox"
+        id="toggleText"
+        className={style.toggle__checkbox}
+      />
       <p>
         Eleva el nivel de tu negocio con el Llamador de Meseros. Este sistema
         permite que los clientes soliciten atención de manera rápida, discreta y
@@ -25,6 +30,7 @@ function LlamadorMeserosProductsSection() {
         satisfacción del cliente aumenta considerablemente, impactando
         directamente en la reputación y fidelización de tu negocio.
       </p>
+      <label htmlFor="toggleText" className={style.toggle__label}></label>
     </section>
   );
 }

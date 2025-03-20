@@ -37,6 +37,11 @@ function CalificadorProductsSection() {
           </div>
         </div>
       </div>
+      <input
+        type="checkbox"
+        id="toggleText"
+        className={style.toggle__checkbox}
+      />
       <p>
         En Tecnología Plus, entendemos que la satisfacción del cliente es clave
         para el éxito de cualquier negocio. Por eso, hemos desarrollado Opina
@@ -50,6 +55,7 @@ function CalificadorProductsSection() {
         soluciones personalizadas, adaptadas a distintos sectores como
         restaurantes, clínicas, hoteles y más.
       </p>
+      <label htmlFor="toggleText" className={style.toggle__label}></label>
     </section>
   );
 }

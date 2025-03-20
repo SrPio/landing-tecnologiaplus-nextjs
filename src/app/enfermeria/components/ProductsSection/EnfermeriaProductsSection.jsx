@@ -15,6 +15,11 @@ function EnfermeriaProductsSection() {
           alt="Imagen de llamador de personal para colgar en el cuello"
         />
       </div>
+      <input
+        type="checkbox"
+        id="toggleText"
+        className={style.toggle__checkbox}
+      />
       <p>
         Garantizar el bienestar del paciente es esencial, y con nuestro Sistema
         de Llamado de Enfermería, se facilita la comunicación entre pacientes y
@@ -26,6 +31,7 @@ function EnfermeriaProductsSection() {
         notificación instantánea mejoran la eficiencia del personal de salud,
         ofreciendo un servicio de calidad que ayuda a pacientes y enfermeras.
       </p>
+      <label htmlFor="toggleText" className={style.toggle__label}></label>
     </section>
   );
 }

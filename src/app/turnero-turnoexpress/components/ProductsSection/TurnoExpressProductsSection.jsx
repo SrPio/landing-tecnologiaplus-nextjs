@@ -102,17 +102,21 @@ function TurnoExpressProductsSection() {
             </a>
           </div>
         </div>
-
-        <p>
-          Dale a tus clientes la comodidad que merecen con Turno Express.
-          Nuestro Turnero digital elimina las aburridas filas, brindando orden y
-          comodidad para tu equipo de trabajo y para tus clientes. Con nuestra
-          pantalla de turnos ayudas a mejorar el servicio y los tiempos de
-          atención, mientras tus clientes esperan el turno de una forma más
-          cómoda y sin estrés porque sabrán exactamente cuantos turnos faltan
-          para ser atendidos.
-        </p>
       </div>
+      <input
+        type="checkbox"
+        id="toggleText"
+        className={style.toggle__checkbox}
+      />
+      <p>
+        Dale a tus clientes la comodidad que merecen con Turno Express. Nuestro
+        Turnero digital elimina las aburridas filas, brindando orden y comodidad
+        para tu equipo de trabajo y para tus clientes. Con nuestra pantalla de
+        turnos ayudas a mejorar el servicio y los tiempos de atención, mientras
+        tus clientes esperan el turno de una forma más cómoda y sin estrés
+        porque sabrán exactamente cuantos turnos faltan para ser atendidos.
+      </p>
+      <label htmlFor="toggleText" className={style.toggle__label}></label>
     </section>
   );
 }

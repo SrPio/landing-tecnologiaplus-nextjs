@@ -13,6 +13,11 @@ function TurnosProductsSection() {
           alt="Colores de tickets"
         />
       </div>
+      <input
+        type="checkbox"
+        id="toggleText"
+        className={style.toggle__checkbox}
+      />
       <p>
         En Tecnología Plus, ofrecemos rollos de turnos de alta calidad,
         diseñados con cortes precisos para garantizar una impresión clara y
@@ -32,6 +37,7 @@ function TurnosProductsSection() {
         Plus, nos comprometemos a optimizar tu sistema de gestión de turnos,
         asegurando precisión y eficiencia en cada ticket.
       </p>
+      <label htmlFor="toggleText" className={style.toggle__label}></label>
     </section>
   );
 }

@@ -16,14 +16,19 @@ function DispensadorTiquetesProductsSection() {
         >
           Ver más
         </a>
-
-        <p>
-          Elimina las filas y agiliza el flujo de atención, nuestro dispensador
-          de turnos ayuda a reducir el desorden y mejora la experiencia de
-          espera, asegurando que cada cliente sea atendido en el momento
-          adecuado y sin confusiones.
-        </p>
       </div>
+      <input
+        type="checkbox"
+        id="toggleText"
+        className={style.toggle__checkbox}
+      />
+      <p>
+        Elimina las filas y agiliza el flujo de atención, nuestro dispensador de
+        turnos ayuda a reducir el desorden y mejora la experiencia de espera,
+        asegurando que cada cliente sea atendido en el momento adecuado y sin
+        confusiones.
+      </p>
+      <label htmlFor="toggleText" className={style.toggle__label}></label>
     </section>
   );
 }

@@ -15,6 +15,11 @@ function EncuestaVirtualProductsSection() {
           alt="Imagen de celular con alerta en tiempo real"
         />
       </div>
+      <input
+        type="checkbox"
+        id="toggleText"
+        className={style.toggle__checkbox}
+      />
       <p>
         Cada empresa es única, y OpinaMaster Virtual se adapta a sus
         necesidades. Este sistema de encuestas de satisfacción del cliente
@@ -26,6 +31,7 @@ function EncuestaVirtualProductsSection() {
         OpinaMaster, medir la experiencia del cliente te ayuda a tomar mejores
         decisiones.
       </p>
+      <label htmlFor="toggleText" className={style.toggle__label}></label>
     </section>
   );
 }

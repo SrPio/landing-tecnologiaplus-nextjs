@@ -110,6 +110,11 @@ tomar el turno."
         />
       </div>
 
+      <input
+        type="checkbox"
+        id="toggleText"
+        className={style.toggle__checkbox}
+      />
       <p>
         En Tecnología Plus, somos fabricantes especializados en rollos térmicos
         de alta calidad, diseñados para satisfacer las necesidades de impresión
@@ -121,6 +126,7 @@ tomar el turno."
         ¡Contacta con nosotros y descubre cómo podemos ser tu mejor aliado en
         impresión térmica!
       </p>
+      <label htmlFor="toggleText" className={style.toggle__label}></label>
     </section>
   );
 }

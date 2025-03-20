@@ -15,8 +15,8 @@ export default function VerMasPantallaSegunProducto() {
         <>
             <ProductGallery />
             <SecondaryHeader />
-            <TechnicalSheet />
             <ControlsOptions />
+            <TechnicalSheet />
             <HowItWorks />
             <LogosSection />
             <TurnoExpressRelatedProducts titleClassName={style.customTitle} />

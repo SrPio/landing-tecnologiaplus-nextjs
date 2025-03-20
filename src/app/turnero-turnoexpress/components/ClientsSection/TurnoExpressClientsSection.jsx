@@ -11,7 +11,7 @@ function TurnoExpressClientsSection() {
   return (
     <section className={style.clients__section}>
       <h2 className={style.clients__title}>Algunos de nuestros clientes</h2>
-      <p>Eliminan las filas con nuestro Turnero Digital.</p>
+      <p>Eliminan las filas con nuestro turnero digital.</p>
       <div className={style.clients__container}>
         <InfiniteSlider logos={logosTurnoExpress} />
       </div>

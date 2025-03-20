@@ -3,8 +3,8 @@
 }
 .loop__slide > div {
   display: flex;
-  animation: slide-to-left 15s linear infinite;
-  -webkit-animation: slide-to-left 15s linear infinite;
+  animation: slide-to-left 25s linear infinite;
+  -webkit-animation: slide-to-left 25s linear infinite;
 }
 .loop__slide > div > * {
   min-width: calc(100% / 8); // 8 logos por fila en pantallas grandes

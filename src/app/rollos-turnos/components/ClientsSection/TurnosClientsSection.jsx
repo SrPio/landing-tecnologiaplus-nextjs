@@ -12,7 +12,7 @@ function TurnosClientsSection() {
     <section className={style.clients__section}>
       <h2 className={style.clients__title}>Algunos de nuestros clientes</h2>
       <p>
-        Grandes y pequeñas empresas confían en nuestros Fichos de turnos para
+        Grandes y pequeñas empresas confían en nuestros fichos de turnos para
         ordenar la atención al cliente.
       </p>
       <div className={style.clients__container}>

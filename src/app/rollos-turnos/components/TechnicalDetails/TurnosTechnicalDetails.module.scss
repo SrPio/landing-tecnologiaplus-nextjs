@@ -84,8 +84,6 @@
         margin-bottom: 2rem;
         border-radius: 50%;
         background: #fff;
-        -webkit-box-shadow: 3px 2px 4px 0px rgba(0, 0, 0, 0.6);
-        box-shadow: 3px 2px 4px 0px rgba(0, 0, 0, 0.6);
 
         &.color__Azul {
           background: #00aec5;
@@ -105,10 +103,11 @@
 
         &.color__Blanco {
           background: #fff;
+          border: #606060 1px solid;
         }
 
         &.selected {
-          outline: 3px solid #0b71e4;
+          outline: 4px solid #0b71e4;
           outline-offset: 3px;
         }
       }

@@ -15,9 +15,9 @@ function DispensadorTiquetesHeroSection() {
 
         <div className={styles.hero__text}>
           <h1>
-            Dispensador De Turnos
+            <span>Dispensador De Turnos</span>
             <br />
-            Adios a las filas{" "}
+            Adios a las filas
           </h1>
           <p>Orden y comodidad en cada turno.</p>
           <a

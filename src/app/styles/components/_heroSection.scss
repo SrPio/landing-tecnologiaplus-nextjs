@@ -20,17 +20,19 @@
     .hero__text {
       margin-left: 4rem;
       h1 {
-        font-weight: bold;
         font-size: 2.5rem;
         color: #fff;
         line-height: 1.2;
+
+        font-weight: 850;
+        line-height: 1;
       }
 
       p {
         font-size: 1.5rem;
         color: #fff;
-        font-weight: 400;
         margin-bottom: 2rem;
+        font-weight: 500;
       }
 
       .hero__btn {

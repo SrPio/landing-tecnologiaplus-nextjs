@@ -112,12 +112,14 @@
         text-align: center;
       }
       .products__card__container {
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
 
         .card {
           img {
-            width: 80vw;
+            width: 40vw;
             height: auto;
+            max-height: 40vw;
           }
 
           &:nth-child(1) img {
@@ -130,15 +132,22 @@
           }
 
           h3 {
-            font-size: clamp(16px, 5vw, 22px);
+            font-size: clamp(12px, 4vw, 22px);
             text-align: center;
+            line-height: 1.2;
+            height: auto;
+            min-height: 1.5rem;
+          }
+
+          &:nth-child(1) h3 {
+            line-height: 1;
           }
         }
       }
 
       .products__card__container__variant {
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
 
         .card {
         }

@@ -1,7 +1,7 @@
 @use "../../styles/base/mixins" as *;
 
 .logossection__container {
-  padding: 4rem 5% 0;
+  padding: 2rem 5% 0;
   @include respond-to-max("laptop") {
     font-size: clamp(16px, 5vw, 2rem);
     text-align: center;

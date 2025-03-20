@@ -22,7 +22,7 @@ function HeroSection() {
           <p>
             Perfectos para tickets, facturas y más.
             <br />
-            ¡No busques mas!
+            ¡No busques más!
           </p>
           <a
             className={styles.hero__btn}

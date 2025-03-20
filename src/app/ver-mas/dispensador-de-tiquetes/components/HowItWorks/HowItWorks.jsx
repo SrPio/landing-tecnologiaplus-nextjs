@@ -12,7 +12,7 @@ function HowItWorks() {
             alt="imagen de usuario tomando turno"
           />
           <p>
-            Usuario toma un número de turno
+            1) Usuario toma un número de turno
             <br />
             en el dispensador tipo caracol.
           </p>
@@ -23,7 +23,7 @@ function HowItWorks() {
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740689241/9_4x-8_2_cldmeo.webp"
             alt="imagen de usuario esperando ser llamado"
           />
-          <p>Usuario espera que lo llamen en la pantalla.</p>
+          <p>2) Usuario espera que lo llamen en la pantalla.</p>
         </div>
         <div className={styles.item}>
           <img
@@ -32,7 +32,7 @@ function HowItWorks() {
             alt="imagen de usuario dirigiendose a la ventanilla"
           />
           <p>
-            Cuando llaman el turno, se dirige a la
+            3) Cuando llaman el turno, se dirige a la
             <br />
             ventanilla o módulo de atención.
           </p>

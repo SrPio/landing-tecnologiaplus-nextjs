@@ -12,7 +12,7 @@ function HowItWorks() {
             alt="imagen de cliente presionando botón"
           />
           <p>
-            El cliente presiona el botón
+            1) El cliente presiona el botón
             <br />
             para llamar al mesero
           </p>
@@ -24,7 +24,7 @@ function HowItWorks() {
             alt="imagen de pantalla mostrando número de mesa"
           />
           <p>
-            La pantalla muestra el número
+            2) La pantalla muestra el número
             <br />
             de la mesa que está llamando.
           </p>
@@ -35,7 +35,7 @@ function HowItWorks() {
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740186399/14_4x-8_brlm1s.webp"
             alt="imagen de mesero atendiendo llamado"
           />
-          <p>El mesero atiende el llamado</p>
+          <p>3) El mesero atiende el llamado</p>
         </div>
       </div>
     </section>

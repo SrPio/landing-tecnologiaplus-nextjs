@@ -12,7 +12,7 @@ function HowItWorks() {
             alt="imagen de cliente presionando botón"
           />
           <p>
-            El cliente presiona el botón
+            1) El cliente presiona el botón
             <br />
             para llamar al mesero
           </p>
@@ -24,7 +24,7 @@ function HowItWorks() {
             alt="imagen de mesero recibiendo alerta en reloj"
           />
           <p>
-            El mesero recibe una alerta en el reloj, este vibra y le
+            2) El mesero recibe una alerta en el reloj, este vibra y le
             <br />
             muestra la mesa de donde están llamando
           </p>
@@ -36,7 +36,7 @@ function HowItWorks() {
             alt="imagen de mesero atendiendo llamado"
           />
           <p>
-            El mesero atiende el llamado y presiona
+            3) El mesero atiende el llamado y presiona
             <br />
             la tecla CANCELAR para borrar el llamado
           </p>

@@ -12,7 +12,7 @@ function HowItWorks() {
             alt="imagen de persona solicitando asesoría"
           />
           <p>
-            Al finalizar la asesoría el asesor pide
+            1) Al finalizar la asesoría el asesor pide
             <br />
             al cliente evaluar la atención.
           </p>
@@ -24,7 +24,7 @@ function HowItWorks() {
             alt="imagen de persona eligiendo calificación"
           />
           <p>
-            El cliente elige entre 4
+            2) El cliente elige entre 4
             <br />
             niveles de calificación
           </p>
@@ -36,7 +36,7 @@ function HowItWorks() {
             alt="imagen de persona enviando calificación"
           />
           <p>
-            La información queda registrada en el
+            3) La información queda registrada en el
             <br />
             sistema para revisar estadísticas.
           </p>

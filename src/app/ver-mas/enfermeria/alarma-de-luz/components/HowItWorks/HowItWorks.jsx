@@ -12,7 +12,7 @@ function HowItWorks() {
             alt="imagen de paciente presionando botón de llamado"
           />
           <p>
-            El paciente presiona el botón
+            1) El paciente presiona el botón
             <br />
             para llamar la enfermera
           </p>
@@ -24,7 +24,7 @@ function HowItWorks() {
             alt="imagen de la enfermera recibiendo llamado"
           />
           <p>
-            La alarma suena y alumbra hasta que la
+            2) La alarma suena y alumbra hasta que la
             <br />
             enfermera atiende el paciente y presiona la
             <br />

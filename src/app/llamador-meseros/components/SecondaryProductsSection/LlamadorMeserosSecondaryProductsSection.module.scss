@@ -29,7 +29,9 @@
       padding-bottom: 2rem;
 
       @include respond-to-max("laptop") {
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
       }
 
       .card {
@@ -45,8 +47,10 @@
           margin-bottom: 1rem;
 
           @include respond-to-max("laptop") {
-            width: 80vw;
+            width: 40vw;
             height: auto;
+            max-height: 40vw;
+            margin-bottom: 0;
           }
         }
 
@@ -113,6 +117,14 @@
       }
     }
 
+    .video__container {
+      @include respond-to-max("laptop") {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+
     .products__card__container__variant {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
@@ -121,10 +133,9 @@
       align-items: center;
 
       @include respond-to-max("laptop") {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 6rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
       }
 
       .card {
@@ -147,8 +158,9 @@
           height: 250px;
           @include respond-to-max("laptop") {
             order: 1;
-            width: 80vw;
+            width: 40vw;
             height: auto;
+            max-height: 40vw;
           }
         }
 

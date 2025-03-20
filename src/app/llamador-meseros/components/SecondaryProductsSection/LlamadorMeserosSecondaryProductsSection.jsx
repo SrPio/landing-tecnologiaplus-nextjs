@@ -143,7 +143,9 @@ function LlamadorMeserosSecondaryProductsSection() {
       <section className={style.products__section}>
         <div className={style.products__container}>
           <h2>Dale play para verlos funcionar</h2>
-          <div className={style.products__card__container}>
+          <div
+            className={`${style.products__card__container} ${style.video__container}`}
+          >
             <div className={style.card__video}>
               <iframe
                 width="560"

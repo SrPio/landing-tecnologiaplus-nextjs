@@ -12,7 +12,7 @@ function HowItWorks() {
             alt="imagen de personas tomando su turno"
           />
           <p>
-            1) Usuario toma un número de turno
+            1. Usuario toma un número de turno
             <br />
             en el dispensador tipo caracol.
           </p>
@@ -24,7 +24,7 @@ function HowItWorks() {
             alt="imagen de persona esperando ser llamados por la pantalla"
           />
           <p>
-            2) Usuario espera que lo llamen en la pantalla.
+            2. Usuario espera que lo llamen en la pantalla.
             <br />
             Cada asesor tiene un control inalámbrico para llamar turnos.
           </p>
@@ -35,7 +35,7 @@ function HowItWorks() {
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740076446/como_funciona_4x-8_2_mnetd3.webp"
             alt="imagen de pantalla mostrando el número de turno"
           />
-          <p>3) Muestra el numero del turno.</p>
+          <p>3. Muestra el numero del turno.</p>
         </div>
       </div>
     </section>

@@ -12,7 +12,7 @@ function HowItWorks() {
             alt="imagen de cliente haciendo pedido y recibiendo localizador"
           />
           <p>
-            1) El cliente hace el pedido y
+            1. El cliente hace el pedido y
             <br />
             le entregan un localizador
           </p>
@@ -24,7 +24,7 @@ function HowItWorks() {
             alt="imagen de persona digitando numero de localizador en control"
           />
           <p>
-            2) Cuando el pedido está listo, digita
+            2. Cuando el pedido está listo, digita
             <br />
             en el control el número del localizador
           </p>
@@ -36,7 +36,7 @@ function HowItWorks() {
             alt="imagen de localizador vibrando, alumbra y suena"
           />
           <p>
-            3) El localizador vibra, alumbra y suena,
+            3. El localizador vibra, alumbra y suena,
             <br />
             notificando al cliente del llamado
           </p>

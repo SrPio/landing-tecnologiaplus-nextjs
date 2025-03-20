@@ -12,7 +12,7 @@ function HowItWorks() {
             alt="imagen de persona escaneando código QR"
           />
           <p>
-            1) El usuario se acerca al aviso para
+            1. El usuario se acerca al aviso para
             <br />
             escanear el código QR.
           </p>
@@ -24,7 +24,7 @@ function HowItWorks() {
             alt="imagen de persona seleccionando tipo de pregunta"
           />
           <p>
-            2) Opción amigable con diferentes
+            2. Opción amigable con diferentes
             <br />
             tipos de preguntas.
           </p>
@@ -36,7 +36,7 @@ function HowItWorks() {
             alt="imagen de información registrada en sistema"
           />
           <p>
-            3) La información queda registrada en el
+            3. La información queda registrada en el
             <br />
             sistema para revisar estadísticas.
           </p>

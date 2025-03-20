@@ -12,7 +12,7 @@ function HowItWorks() {
             alt="imagen de cliente presionando el botón de llamado"
           />
           <p>
-            1) El cliente presiona el botón
+            1. El cliente presiona el botón
             <br />
             para llamar al mesero
           </p>
@@ -23,7 +23,7 @@ function HowItWorks() {
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740430513/15_4x-8_upshss.webp"
             alt="imagen de mesero recibiendo el llamado en la pantalla"
           />
-          <p>2) El mesero recibe el llamado en la pantalla.</p>
+          <p>2. El mesero recibe el llamado en la pantalla.</p>
         </div>
         <div className={styles.item}>
           <img
@@ -32,7 +32,7 @@ function HowItWorks() {
             alt="imagen de cliente escuchando la pantalla sonar y reclamando su pedido"
           />
           <p>
-            3) El mesero atiende el llamado y presiona
+            3. El mesero atiende el llamado y presiona
             <br />
             la tecla CANCELAR para borrar el llamado
           </p>

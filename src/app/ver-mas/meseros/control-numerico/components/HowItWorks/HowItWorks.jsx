@@ -12,7 +12,7 @@ function HowItWorks() {
             alt="imagen de cocinero digitando número asignado a mesero"
           />
           <p>
-            1) Desde cocina digitan el número asignado a cada
+            1. Desde cocina digitan el número asignado a cada
             <br />
             mesero para avisarle que la orden está lista.
           </p>
@@ -24,7 +24,7 @@ function HowItWorks() {
             alt="imagen de mesero recibiendo alerta en reloj o pantalla"
           />
           <p>
-            2) El mesero recibe la alerta en
+            2. El mesero recibe la alerta en
             <br />
             el reloj o en la pantalla
           </p>
@@ -35,7 +35,7 @@ function HowItWorks() {
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740160659/13_4x-8_ofe2yc.webp"
             alt="imagen de mesero llevando orden desde cocina"
           />
-          <p>3) El mesero va a la cocina</p>
+          <p>3. El mesero va a la cocina</p>
         </div>
       </div>
     </section>

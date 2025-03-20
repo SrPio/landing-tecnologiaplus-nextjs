@@ -6,7 +6,7 @@ export default function Popup({
   isOpen,
   setIsOpen,
   tabs = [
-    { key: "multimedia", label: "Multimedia", images: [] },
+    { key: "multimedia", label: "Galería", images: [] },
     { key: "medidas", label: "Medidas", images: [] },
   ],
 }) {

@@ -67,7 +67,7 @@ function ProductGallery() {
               onClick={() => setIsOpen(true)}
               className={styles.btn__multimedia}
             >
-              Multimedia
+              Galería
             </button>
           </div>
 
@@ -116,7 +116,7 @@ function ProductGallery() {
         tabs={[
           {
             key: "multimedia",
-            label: "Multimedia",
+            label: "Galería",
             images: [
               {
                 src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741555504/Frame_1_15_bwa18u.webp",

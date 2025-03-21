@@ -13,7 +13,7 @@ function ProductGallery() {
   const [isOpen, setIsOpen] = useState(false);
   const images = [
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741635705/Frame_1_50_wda5sy.webp",
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740432241/4_4x-8_1_nzirgw.webp",
+    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742517358/NUEVA_4x-8_absvfy.webp",
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741635832/Frame_1_51_m0kx84.webp",
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740432241/3_4x-8_1_bfbqv1.webp",
   ];
@@ -125,7 +125,7 @@ function ProductGallery() {
                 alt: "Imagen 1",
               },
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740432241/4_4x-8_1_nzirgw.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742517358/NUEVA_4x-8_absvfy.webp",
                 alt: "Imagen 2",
               },
               {

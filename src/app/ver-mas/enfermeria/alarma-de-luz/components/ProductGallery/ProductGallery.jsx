@@ -91,7 +91,7 @@ function ProductGallery() {
         <div className={styles.container__info__products}>
           <div className={styles.container__titles}>
             <h1>Alarma de luz</h1>
-            <p>Para recibir llamados</p>
+            <p>Alerta instantánea con luz y sonido</p>
           </div>
 
           <div className={styles.container__contact__info}>
@@ -106,9 +106,9 @@ function ProductGallery() {
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-            volutpat. Ut Wisi enim ad io
+            Alarma visual y sonora Ideal para con alto nivel de ruido, perfecto
+            para espacios grandes pasillos largos, buscando facilitar la
+            comunicación entre pacientes y el personal de enfermería.
           </p>
         </div>
       </div>

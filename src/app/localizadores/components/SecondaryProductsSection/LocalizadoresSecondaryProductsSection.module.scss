@@ -4,6 +4,7 @@
 .products__section {
   background: #fff;
   margin-top: 4rem;
+  padding: 3rem;
 
   @include respond-to-max("laptop") {
     padding-bottom: 4rem;

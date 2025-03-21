@@ -45,7 +45,7 @@ function ProductGallery() {
       />
 
       <div className={styles.action__nav}>
-        <a href="https://landing-tecnologiaplus-nextjs.vercel.app/turnero-turnoexpress">
+        <a href="https://landing-tecnologiaplus-nextjs.vercel.app/enfermeria">
           <IoIosArrowBack className={styles.icon__back} /> Volver
         </a>
       </div>

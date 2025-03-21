@@ -13,7 +13,7 @@ function StepsSectionEnfermeria() {
           />
           <div className={style.text__container}>
             <p>
-              Presiona el botón para
+              1. Presiona el botón para
               <br />
               llamar la enfermera
             </p>
@@ -26,7 +26,7 @@ function StepsSectionEnfermeria() {
           />
           <div className={style.text__container}>
             <p>
-              La enfermera recibe el llamado en la
+              2. La enfermera recibe el llamado en la
               <br />
               pantalla o en el reloj receptor
             </p>
@@ -39,7 +39,7 @@ function StepsSectionEnfermeria() {
           />
           <div className={style.text__container}>
             <p>
-              Se atiende el llamado y presiona
+              3. Se atiende el llamado y presiona
               <br />
               la tecla “CANCEL” para borrar el llamado
             </p>

@@ -4,7 +4,7 @@ function EnfermeriaIndustriesSection() {
   return (
     <section className={style.industries__section}>
       <h2>
-        Llamador de Personal
+        Llamador de Personal:
         <br />
         ideal para hospitales,
         <br />

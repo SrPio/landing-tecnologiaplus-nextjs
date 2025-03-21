@@ -87,10 +87,14 @@
         &:nth-child(2) h3 {
           line-height: inherit;
         }
+
         img {
           height: 200px;
         }
 
+        &:nth-child(1) img {
+          height: 200px;
+        }
         &:nth-child(2) img {
           height: 200px;
           padding-bottom: 0;

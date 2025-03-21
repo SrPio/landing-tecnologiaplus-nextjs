@@ -23,6 +23,14 @@ function TechnicalDetails() {
           <h3>Características</h3>
           <ul>
             <li>
+              <div className={style.technical__circle__figure}></div>
+              <p>
+                Color
+                <br />
+                Blanco
+              </p>
+            </li>
+            <li>
               <img
                 loading="lazy"
                 src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349924/uq6mantgalzbg1cwabg2_lq36yt.webp"

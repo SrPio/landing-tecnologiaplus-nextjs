@@ -45,7 +45,7 @@ function ProductGallery() {
       />
 
       <div className={styles.action__nav}>
-        <a href="https://landing-tecnologiaplus-nextjs.vercel.app/turnero-turnoexpress">
+        <a href="https://landing-tecnologiaplus-nextjs.vercel.app/llamador-meseros">
           <IoIosArrowBack className={styles.icon__back} /> Volver
         </a>
       </div>
@@ -93,7 +93,7 @@ function ProductGallery() {
         {/* Información del producto */}
         <div className={styles.container__info__products}>
           <div className={styles.container__titles}>
-            <h1>PANTALLA T1B</h1>
+            <h1>Pantalla de 1 llamado</h1>
             <p>Para recibir llamados</p>
           </div>
 

@@ -23,7 +23,7 @@ function CalificadorHeroSection() {
             para crecer con la voz de tus clientes
             <br />
             <span>
-              En Tiempo Real recibe alertas de calificaciones negativas
+              En tiempo real recibe alertas de calificaciones negativas
             </span>
           </p>
           <a className={styles.hero__btn} href="#">

@@ -70,6 +70,13 @@
           -o-border-radius: 2rem;
         }
       }
+
+      .card:nth-child(2) {
+        > h2,
+        > p {
+          margin-left: 100px;
+        }
+      }
     }
   }
 }

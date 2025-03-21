@@ -94,7 +94,7 @@ function ProductGallery() {
         <div className={styles.container__info__products}>
           <div className={styles.container__titles}>
             <h1>Hablador para mesa</h1>
-            <p>Para recibir llamados</p>
+            <p>0000000</p>
           </div>
 
           <div className={styles.container__contact__info}>

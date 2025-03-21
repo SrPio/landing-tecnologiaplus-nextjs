@@ -111,8 +111,13 @@
 
         p {
           font-size: 1rem;
-          font-weight: 400;
-          max-width: 450px;
+          font-weight: 700;
+          max-width: 400px;
+          margin: 0 auto 20px;
+          height: 3rem;
+          display: flex;
+          align-items: flex-end;
+          text-wrap: balance;
         }
       }
     }

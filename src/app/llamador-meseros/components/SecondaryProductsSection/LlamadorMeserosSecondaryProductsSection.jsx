@@ -147,6 +147,7 @@ function LlamadorMeserosSecondaryProductsSection() {
             className={`${style.products__card__container} ${style.video__container}`}
           >
             <div className={style.card__video}>
+              <p>Así de fácil es mejorar la atención en tu restaurante</p>
               <iframe
                 width="560"
                 height="315"
@@ -157,10 +158,13 @@ function LlamadorMeserosSecondaryProductsSection() {
                 referrerPolicy="strict-origin-when-cross-origin"
                 allowFullScreen
               ></iframe>
-              <p>Así de fácil es mejorar la atención en tu restaurante</p>
             </div>
 
             <div className={style.card__video}>
+              <p>
+                Personal mas alerta, facilita el llamado de meseros desde la
+                cocina.
+              </p>
               <iframe
                 width="560"
                 height="315"
@@ -171,13 +175,10 @@ function LlamadorMeserosSecondaryProductsSection() {
                 referrerPolicy="strict-origin-when-cross-origin"
                 allowFullScreen
               ></iframe>
-              <p>
-                Personal mas alerta, facilita el llamado de meseros desde la
-                cocina.{" "}
-              </p>
             </div>
 
             <div className={style.card__video}>
+              <p>Un solo toque y el número de mesa aparece en pantalla</p>
               <iframe
                 width="560"
                 height="315"
@@ -188,7 +189,6 @@ function LlamadorMeserosSecondaryProductsSection() {
                 referrerPolicy="strict-origin-when-cross-origin"
                 allowFullScreen
               ></iframe>
-              <p>Un solo toque y el número de mesa aparece en pantalla</p>
             </div>
           </div>
         </div>

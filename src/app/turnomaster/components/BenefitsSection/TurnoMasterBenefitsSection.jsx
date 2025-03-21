@@ -4,9 +4,9 @@ function TurnoMasterBenefitsSection() {
   return (
     <section className={style.benefits__section}>
       <h2 className={style.benefits__title}>
-        Ventajas de nuestro
+        VENTAJAS DE NUESTRO
         <br />
-        Sistema de Turnos
+        SISTEMA DE TURNOS
       </h2>
       <ul>
         <li>

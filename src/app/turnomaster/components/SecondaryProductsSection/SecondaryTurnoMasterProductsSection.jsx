@@ -34,7 +34,7 @@ function SecondaryTurnoMasterProductsSection() {
         <div className={style.products__container}>
           <div className={style.products__card__container}>
             <div className={style.card}>
-              <h2>Estadisticas generales y de cada turno</h2>
+              <h2>Estadísticas generales y de cada turno</h2>
               <p>
                 Reportes en tiempo real de tiempos de atención y calidad del
                 servicio

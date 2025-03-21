@@ -18,6 +18,7 @@
   }
 
   p {
+    margin-top: 44px;
     @include respond-to-max("laptop") {
       margin-top: 4rem;
     }

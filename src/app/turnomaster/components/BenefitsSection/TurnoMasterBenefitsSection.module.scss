@@ -1,10 +1,19 @@
 @use "../../../styles/components/benefitsSection" as *;
+@use "../../../styles/base/mixins" as *;
 
 .benefits__section {
   // Variaciones específicas para `rollos-turnos`
 
   position: relative;
   z-index: 2;
+
+  .benefits__title {
+    font-size: 3.5rem;
+
+    @include respond-to-max("laptop") {
+      font-size: clamp(16px, 10vw, 80px);
+    }
+  }
 
   ul {
     li {

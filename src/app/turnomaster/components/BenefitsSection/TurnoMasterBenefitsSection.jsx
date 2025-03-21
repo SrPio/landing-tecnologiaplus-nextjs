@@ -16,7 +16,7 @@ function TurnoMasterBenefitsSection() {
             alt="icono de controles"
           />
           Personaliza según colores
-          <br />y necesidades de tu marca
+          <br />y necesidades de tu marca.
         </li>
         <li>
           <img
@@ -24,7 +24,7 @@ function TurnoMasterBenefitsSection() {
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738860472/icono_2_2x-8_2_kjq13k.webp"
             alt="icono gráfico de barras"
           />
-          Datos y estadisticas para evaluar
+          Datos y estadísticas para evaluar
           <br />y controlar la calidad del servicio.
         </li>
         <li>
@@ -35,7 +35,7 @@ function TurnoMasterBenefitsSection() {
           />
           Agrega funciones extra
           <br />
-          según tus necesidades
+          según tus necesidades.
         </li>
       </ul>
     </section>

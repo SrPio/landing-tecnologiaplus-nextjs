@@ -26,7 +26,10 @@
     }
 
     .hero__text {
-      margin-left: 0;
+      margin-left: -149px;
+      @include respond-to-max("laptop") {
+        margin-left: 0;
+      }
     }
   }
 }

@@ -26,9 +26,9 @@ function EncuestaVirtualHeroSection() {
             <br />
             los puntos fuertes y débiles de tu negocio.
           </p>
-          <a className={styles.hero__btn} href="#">
+          {/* <a className={styles.hero__btn} href="#">
             Ver más
-          </a>
+          </a> */}
         </div>
       </div>
     </section>

@@ -20,9 +20,9 @@ function TurnoMasterHeroSection() {
             Sistema de turnos de espera
           </h1>
           <p>Lleva tu sala de espera al siguiente nivel</p>
-          <a className={styles.hero__btn} href="#">
+          {/* <a className={styles.hero__btn} href="#">
             Ver más
-          </a>
+          </a> */}
         </div>
       </div>
     </section>

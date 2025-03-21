@@ -16,7 +16,7 @@ function DispensadorTiquetesBenefitsSection() {
             alt="icono de agilidad en turnos"
           />
           <div>
-            Control total de los turnos:
+            Control total de los turnos
             <br />
             <span>permite a tu equipo ofrecer mejor servicio</span>
           </div>

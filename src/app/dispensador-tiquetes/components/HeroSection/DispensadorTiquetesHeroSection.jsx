@@ -17,7 +17,7 @@ function DispensadorTiquetesHeroSection() {
           <h1>
             <span>Dispensador de turnos</span>
             <br />
-            Adios a las filas
+            Adiós a las filas
           </h1>
           <p>Orden y comodidad en cada turno.</p>
           <a

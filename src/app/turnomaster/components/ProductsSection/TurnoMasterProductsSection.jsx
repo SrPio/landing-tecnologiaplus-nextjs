@@ -3,7 +3,7 @@ import style from "./TurnoMasterProductsSection.module.scss";
 function TurnoMasterProductsSection() {
   return (
     <section className={style.products__section}>
-      <h2>Dos Formas de Solicitar el Turno</h2>
+      <h2>Dos formas de solicitar el turno</h2>
       <a className={style.card__btn} href="#">
         ¡Quiero más información!
       </a>

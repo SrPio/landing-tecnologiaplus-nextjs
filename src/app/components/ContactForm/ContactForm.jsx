@@ -33,10 +33,7 @@ function ContactForm({ noMarginTop = false }) {
               <input type="text" placeholder="Nombre" />
               <input type="tel" placeholder="Celular" />
               <input type="email" placeholder="Correo" />
-              <input
-                type="text"
-                placeholder="Cuéntanos en qué te podemos ayudar."
-              />
+              <input type="text" placeholder="En qué te podemos ayudar." />
               <button type="submit">Enviar</button>
             </form>
           )}

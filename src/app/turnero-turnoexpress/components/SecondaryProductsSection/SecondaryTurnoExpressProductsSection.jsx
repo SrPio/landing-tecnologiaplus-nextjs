@@ -15,7 +15,7 @@ function SecondaryTurnoExpressProductsSection() {
             <p>686 vendidos</p>
             <a
               className={style.card__btn}
-              href="https://landing-tecnologiaplus-nextjs.vercel.app/dispensador-tiquetes"
+              href="https://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/dispensador-de-tiquetes"
             >
               Ver más
             </a>
@@ -30,7 +30,7 @@ function SecondaryTurnoExpressProductsSection() {
             <p>3527 vendidos</p>
             <a
               className={style.card__btn}
-              href="https://landing-tecnologiaplus-nextjs.vercel.app/rollos-turnos"
+              href="https://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/rollos-de-turnos"
             >
               Ver más
             </a>

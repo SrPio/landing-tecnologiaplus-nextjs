@@ -61,7 +61,7 @@ const Footer = () => {
               />{" "}
               Colombia
             </li>
-            <li>Bogotá • Av. Cra 30#75-61 Oficina 510.</li>
+            <li>Bogotá, Cra 19 # 82-85 oficina 401.</li>
             <li>Medellín • El Poblado edificio Oceanía.</li>
             <li>Cobertura nacional</li>
           </ul>

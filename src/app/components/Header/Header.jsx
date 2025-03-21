@@ -22,7 +22,7 @@ function Header({ customStyles = {} }) {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth <= 1024); // Ajusta según tu breakpoint para mobile
+      setIsMobile(window.innerWidth <= 1024);
     };
 
     handleResize();
@@ -56,7 +56,7 @@ function Header({ customStyles = {} }) {
             href="#"
             onClick={(e) => {
               if (isMobile) {
-                e.preventDefault(); // Evita navegación en mobile
+                e.preventDefault();
                 toggleDropdown("productos");
               }
             }}
@@ -101,50 +101,8 @@ function Header({ customStyles = {} }) {
           </ul>
         </div>
 
-        {/* Dropdown Blog */}
-        <div className={styles.dropdown}>
-          <a
-            href="#"
-            onClick={(e) => {
-              if (isMobile) {
-                e.preventDefault();
-                toggleDropdown("blog");
-              }
-            }}
-          >
-            Blog <IoIosArrowDown className={styles.arrow__icon} />
-          </a>
-          <ul
-            className={`${styles.dropdownMenu} ${
-              dropdownOpen["blog"] ? styles.show : ""
-            }`}
-          >
-            <li>
-              <a href="#">Autoservicio</a>
-            </li>
-            <li>
-              <a href="#">Calificador de servicio</a>
-            </li>
-            <li>
-              <a href="#">Encuestas de satisfacción</a>
-            </li>
-            <li>
-              <a href="#">Gestión de turnos</a>
-            </li>
-            <li>
-              <a href="#">Servicio al cliente</a>
-            </li>
-            <li>
-              <a href="#">Servicio de enfermería</a>
-            </li>
-            <li>
-              <a href="#">Sistema de turnos</a>
-            </li>
-            <li>
-              <a href="#">Uncategorized</a>
-            </li>
-          </ul>
-        </div>
+        {/* Blog como enlace normal */}
+        <a href="#">Blog</a>
 
         <a href="#" className={styles.contactoMobile}>
           Contacto

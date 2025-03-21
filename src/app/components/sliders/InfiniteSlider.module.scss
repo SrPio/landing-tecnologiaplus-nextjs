@@ -7,7 +7,7 @@
   -webkit-animation: slide-to-left 25s linear infinite;
 }
 .loop__slide > div > * {
-  min-width: calc(100% / 8); // 8 logos por fila en pantallas grandes
+  min-width: calc(100% / 11); // 8 logos por fila en pantallas grandes
 
   @media (max-width: 1600px) {
     min-width: calc(100% / 5); // 5 logos en tablets grandes

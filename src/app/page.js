@@ -51,7 +51,20 @@ export default function Home() {
   return (
     <>
       {/* <HomeHeroSection /> */}
-      <SliderHero />
+      <SliderHero
+        botonesPorHero={{
+          turnoMaster: { href: "https://landing-tecnologiaplus-nextjs.vercel.app/turnomaster", text: "Ver más" },
+          dispensadorTiquetes: { href: "https://landing-tecnologiaplus-nextjs.vercel.app/dispensador-tiquetes", text: "Ver más" },
+          turnoExpress: { href: "https://landing-tecnologiaplus-nextjs.vercel.app/turnero-turnoexpress", text: "Ver más" },
+          calificador: { href: "https://landing-tecnologiaplus-nextjs.vercel.app/calificador", text: "Ver más" },
+          rollosTermicos: { href: "https://landing-tecnologiaplus-nextjs.vercel.app/rollos-termicos", text: "Ver más" },
+          rollosTurnos: { href: "https://landing-tecnologiaplus-nextjs.vercel.app/rollos-turnos", text: "Ver más" },
+          encuestaVirtual: { href: "https://landing-tecnologiaplus-nextjs.vercel.app/encuesta-virtual", text: "Ver más" },
+          enfermeria: { href: "https://landing-tecnologiaplus-nextjs.vercel.app/enfermeria", text: "Ver más" },
+          llamadorMeseros: { href: "https://landing-tecnologiaplus-nextjs.vercel.app/llamador-meseros", text: "Ver más" },
+          localizadores: { href: "https://landing-tecnologiaplus-nextjs.vercel.app/localizadores", text: "Ver más" }
+        }}
+      />
       <SecondaryHeader />
       <HomeClientsSection />
       <HomeProductsSection />

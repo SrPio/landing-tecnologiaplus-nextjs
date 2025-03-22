@@ -4,6 +4,7 @@ import Header from "../../../components/Header/Header";
 function DispensadorTiquetesHeroSection({
   hideHeader = false,
   backgroundTransparent = false,
+  boton,
 }) {
   return (
     <section
@@ -27,12 +28,18 @@ function DispensadorTiquetesHeroSection({
             Adiós a las filas
           </h1>
           <p>Orden y comodidad en cada turno.</p>
-          <a
-            className={styles.hero__btn}
-            href="https://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/dispensador-de-tiquetes"
-          >
-            Ver más
-          </a>
+          {boton ? (
+            <a className={styles.hero__btn} href={boton.href}>
+              {boton.text}
+            </a>
+          ) : (
+            <a
+              className={styles.hero__btn}
+              href="https://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/dispensador-de-tiquetes"
+            >
+              Ver más
+            </a>
+          )}
         </div>
       </div>
     </section>

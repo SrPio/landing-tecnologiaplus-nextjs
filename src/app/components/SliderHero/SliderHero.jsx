@@ -18,12 +18,12 @@ import EnfermeriaHeroSection from "@/app/enfermeria/components/HeroSection/Enfer
 import LlamadorMeserosHeroSection from "@/app/llamador-meseros/components/HeroSection/LlamadorMeserosHeroSection";
 import LocalizadoresHeroSection from "@/app/localizadores/components/HeroSection/LocalizadoresHeroSection";
 
-export default function SliderHero() {
+export default function SliderHero({ botonesPorHero = {} }) {
   return (
     <div className={styles.container__slider__hero}>
       <Header />
       <Swiper
-        className={styles.customSwiper} // Agregamos la clase personalizada
+        className={styles.customSwiper}
         spaceBetween={50}
         slidesPerView={1}
         pagination={{ clickable: true }}
@@ -36,54 +36,70 @@ export default function SliderHero() {
           <TurnoMasterHeroSection
             hideHeader={true}
             backgroundTransparent={true}
+            boton={botonesPorHero.turnoMaster}
           />
         </SwiperSlide>
         <SwiperSlide>
-          <HeroSection hideHeader={true} backgroundTransparent={true} />
+          <HeroSection
+            hideHeader={true}
+            backgroundTransparent={true}
+            boton={botonesPorHero.rollosTermicos}
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <TurnosHeroSection hideHeader={true} backgroundTransparent={true} />
+          <TurnosHeroSection
+            hideHeader={true}
+            backgroundTransparent={true}
+            boton={botonesPorHero.rollosTurnos}
+          />
         </SwiperSlide>
         <SwiperSlide>
           <DispensadorTiquetesHeroSection
             hideHeader={true}
             backgroundTransparent={true}
+            boton={botonesPorHero.dispensadorTiquetes}
           />
         </SwiperSlide>
         <SwiperSlide>
           <TurnoExpressHeroSection
             hideHeader={true}
             backgroundTransparent={true}
+            boton={botonesPorHero.turnoExpress}
           />
         </SwiperSlide>
         <SwiperSlide>
           <CalificadorHeroSection
             hideHeader={true}
             backgroundTransparent={true}
+            boton={botonesPorHero.calificador}
           />
         </SwiperSlide>
         <SwiperSlide>
           <EncuestaVirtualHeroSection
             hideHeader={true}
             backgroundTransparent={true}
+            boton={botonesPorHero.encuestaVirtual}
           />
         </SwiperSlide>
         <SwiperSlide>
           <EnfermeriaHeroSection
             hideHeader={true}
             backgroundTransparent={true}
+            boton={botonesPorHero.enfermeria}
           />
         </SwiperSlide>
         <SwiperSlide>
           <LlamadorMeserosHeroSection
             hideHeader={true}
             backgroundTransparent={true}
+            boton={botonesPorHero.llamadorMeseros}
           />
         </SwiperSlide>
         <SwiperSlide>
           <LocalizadoresHeroSection
             hideHeader={true}
             backgroundTransparent={true}
+            boton={botonesPorHero.localizadores}
           />
         </SwiperSlide>
       </Swiper>

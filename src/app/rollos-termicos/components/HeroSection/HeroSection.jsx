@@ -1,7 +1,11 @@
 import styles from "./HeroSection.module.scss";
 import Header from "../../../components/Header/Header";
 
-function HeroSection({ hideHeader = false, backgroundTransparent = false }) {
+function HeroSection({
+  hideHeader = false,
+  backgroundTransparent = false,
+  boton,
+}) {
   return (
     <section
       className={`${styles.hero} ${
@@ -28,12 +32,18 @@ function HeroSection({ hideHeader = false, backgroundTransparent = false }) {
             <br />
             ¡No busques más!
           </p>
-          <a
-            className={styles.hero__btn}
-            href="https://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/termicos"
-          >
-            Ver más
-          </a>
+          {boton ? (
+            <a className={styles.hero__btn} href={boton.href}>
+              {boton.text}
+            </a>
+          ) : (
+            <a
+              className={styles.hero__btn}
+              href="https://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/termicos"
+            >
+              Ver más
+            </a>
+          )}
         </div>
       </div>
     </section>

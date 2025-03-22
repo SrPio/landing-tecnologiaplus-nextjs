@@ -4,6 +4,7 @@ import Header from "../../../components/Header/Header";
 function TurnosHeroSection({
   hideHeader = false,
   backgroundTransparent = false,
+  boton,
 }) {
   return (
     <section
@@ -28,12 +29,18 @@ function TurnosHeroSection({
               <br />
             </h1>
             <p>para agilizar la atención de turnos.</p>
-            <a
-              className={styles.hero__btn}
-              href="http://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/rollos-de-turnos"
-            >
-              Ver más
-            </a>
+            {boton ? (
+              <a className={styles.hero__btn} href={boton.href}>
+                {boton.text}
+              </a>
+            ) : (
+              <a
+                className={styles.hero__btn}
+                href="http://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/rollos-de-turnos"
+              >
+                Ver más
+              </a>
+            )}
           </div>
         </div>
       </div>

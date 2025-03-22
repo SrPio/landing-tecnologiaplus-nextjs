@@ -4,6 +4,7 @@ import Header from "../../../components/Header/Header";
 function EnfermeriaHeroSection({
   hideHeader = false,
   backgroundTransparent = false,
+  boton,
 }) {
   return (
     <section
@@ -31,9 +32,11 @@ function EnfermeriaHeroSection({
             <br />
             personal de salud.
           </p>
-          <a className={styles.hero__btn} href="#">
-            Ver más
-          </a>
+          {boton ? (
+            <a className={styles.hero__btn} href={boton.href}>
+              {boton.text}
+            </a>
+          ) : null}
         </div>
       </div>
     </section>

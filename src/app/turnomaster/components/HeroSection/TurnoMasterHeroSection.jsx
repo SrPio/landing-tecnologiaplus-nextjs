@@ -4,6 +4,7 @@ import Header from "../../../components/Header/Header";
 function TurnoMasterHeroSection({
   hideHeader = false,
   backgroundTransparent = false,
+  boton,
 }) {
   return (
     <section
@@ -27,6 +28,12 @@ function TurnoMasterHeroSection({
             Sistema de turnos de espera
           </h1>
           <p>Lleva tu sala de espera al siguiente nivel</p>
+
+          {boton ? (
+            <a className={styles.hero__btn} href={boton.href}>
+              {boton.text}
+            </a>
+          ) : null}
         </div>
       </div>
     </section>

@@ -4,6 +4,7 @@ import Header from "../../../components/Header/Header";
 function LocalizadoresHeroSection({
   hideHeader = false,
   backgroundTransparent = false,
+  boton,
 }) {
   return (
     <section
@@ -27,9 +28,11 @@ function LocalizadoresHeroSection({
             <br />
             consectetuer adipiscing elit,
           </p>
-          <a className={styles.hero__btn} href="#">
-            Ver más
-          </a>
+          {boton ? (
+            <a className={styles.hero__btn} href={boton.href}>
+              {boton.text}
+            </a>
+          ) : null}
         </div>
       </div>
     </section>

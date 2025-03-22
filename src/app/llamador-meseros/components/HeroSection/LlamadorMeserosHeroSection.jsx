@@ -4,6 +4,7 @@ import Header from "../../../components/Header/Header";
 function LlamadorMeserosHeroSection({
   hideHeader = false,
   backgroundTransparent = false,
+  boton,
 }) {
   return (
     <section
@@ -27,9 +28,11 @@ function LlamadorMeserosHeroSection({
             Un solo toque evita largas esperas
           </h1>
           <p>Innovador y sin ruidos para facilitar el llamado de meseros.</p>
-          <a className={styles.hero__btn} href="#">
-            Ver más
-          </a>
+          {boton ? (
+            <a className={styles.hero__btn} href={boton.href}>
+              {boton.text}
+            </a>
+          ) : null}
         </div>
       </div>
     </section>

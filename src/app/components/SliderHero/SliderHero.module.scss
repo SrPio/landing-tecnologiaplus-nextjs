@@ -5,62 +5,62 @@
   background-size: cover;
   background-position: center;
   height: 100dvh;
-}
 
-/* Personalizar los puntitos de paginación */
-:global(.swiper-pagination) {
-  bottom: 150px !important; // Ajusta este valor según lo necesites
-}
-:global(.swiper-pagination-bullet) {
-  width: 12px;
-  height: 12px;
-  background-color: rgba(255, 255, 255, 0.6); // Color blanco con opacidad
-  margin: 0 5px;
-  transition: all 0.3s ease;
-  top: -25px;
-}
+  /* Personalizar los puntitos de paginación */
+  :global(.swiper-pagination) {
+    bottom: 150px !important; // Ajusta este valor según lo necesites
+  }
+  :global(.swiper-pagination-bullet) {
+    width: 12px;
+    height: 12px;
+    background-color: rgba(255, 255, 255, 0.6); // Color blanco con opacidad
+    margin: 0 5px;
+    transition: all 0.3s ease;
+    top: -25px;
+  }
 
-:global(.swiper-pagination-bullet-active) {
-  background-color: #ffffff; // Color blanco sólido
-  /* transform: scale(1.3); */ // Aumenta un poco el tamaño del punto activo
-}
+  :global(.swiper-pagination-bullet-active) {
+    background-color: #ffffff; // Color blanco sólido
+    /* transform: scale(1.3); */ // Aumenta un poco el tamaño del punto activo
+  }
 
-/* Personalizar las flechas */
-:global(.swiper-button-prev),
-:global(.swiper-button-next) {
-  color: white; // Color de las flechas
-  width: 50px;
-  height: 50px;
-  transition: all 0.3s ease;
-}
-
-/* Posicionar las flechas dentro del slider */
-:global(.swiper-button-prev) {
-  left: 20px;
-  top: calc(50% - 128px);
-}
-
-:global(.swiper-button-next) {
-  right: 20px;
-  top: calc(50% - 128px);
-}
-
-@include respond-to-max("laptop") {
+  /* Personalizar las flechas */
   :global(.swiper-button-prev),
   :global(.swiper-button-next) {
-    display: none;
-    &::after {
-      font-size: 30px; // Aumenta el tamaño de las flechas
-    }
+    color: white; // Color de las flechas
+    width: 50px;
+    height: 50px;
+    transition: all 0.3s ease;
   }
 
+  /* Posicionar las flechas dentro del slider */
   :global(.swiper-button-prev) {
-    left: 10px;
-    top: calc(50% - 70px);
+    left: 20px;
+    top: calc(50% - 128px);
   }
 
   :global(.swiper-button-next) {
-    right: 10px;
-    top: calc(50% - 70px);
+    right: 20px;
+    top: calc(50% - 128px);
+  }
+
+  @include respond-to-max("laptop") {
+    :global(.swiper-button-prev),
+    :global(.swiper-button-next) {
+      display: none;
+      &::after {
+        font-size: 30px; // Aumenta el tamaño de las flechas
+      }
+    }
+
+    :global(.swiper-button-prev) {
+      left: 10px;
+      top: calc(50% - 70px);
+    }
+
+    :global(.swiper-button-next) {
+      right: 10px;
+      top: calc(50% - 70px);
+    }
   }
 }

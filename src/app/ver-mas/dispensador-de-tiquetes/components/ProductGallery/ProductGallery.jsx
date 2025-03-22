@@ -15,7 +15,7 @@ function ProductGallery() {
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740689237/13_4x-8_5_ssc9ik.webp",
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740689238/12_4x-8_3_j7nede.webp",
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740689239/11_4x-8_3_b5gubu.webp",
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742650043/Frame_1_1_vd55bu.webp",
+    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741471592/Frame_1_4_oaywtr.webp",
   ];
 
   const alternativeImages = [
@@ -73,9 +73,9 @@ function ProductGallery() {
       />
 
       <div className={styles.action__nav}>
-        <a href="https://landing-tecnologiaplus-nextjs.vercel.app/dispensador-tiquetes">
+        <button onClick={() => window.history.back()}>
           <IoIosArrowBack className={styles.icon__back} /> Volver
-        </a>
+        </button>
       </div>
 
       <div className={styles.container__product__gallery}>
@@ -209,7 +209,7 @@ function ProductGallery() {
                 alt: "Imagen 3",
               },
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742650043/Frame_1_1_vd55bu.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741471592/Frame_1_4_oaywtr.webp",
                 alt: "Imagen 4",
               },
               {
@@ -239,7 +239,7 @@ function ProductGallery() {
             label: "Medidas",
             images: [
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742650043/Frame_1_1_vd55bu.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741471592/Frame_1_4_oaywtr.webp",
                 alt: "Imagen de medidas",
               },
             ],

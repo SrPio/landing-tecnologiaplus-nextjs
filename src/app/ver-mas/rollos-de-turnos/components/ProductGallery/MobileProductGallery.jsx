@@ -41,9 +41,9 @@ function MobileProductGallery() {
       />
 
       <div className={styles.action__nav}>
-        <a href="https://landing-tecnologiaplus-nextjs.vercel.app/rollos-turnos">
+        <button onClick={() => window.history.back()}>
           <IoIosArrowBack className={styles.icon__back} /> Volver
-        </a>
+        </button>
       </div>
       {/* Carrusel principal */}
       <Swiper

@@ -16,7 +16,8 @@
       background: linear-gradient(90deg, #00cfff, #c555ff);
     }
 
-    > a {
+    > a,
+    > button {
       display: flex;
       font-weight: 700;
       color: #606060;

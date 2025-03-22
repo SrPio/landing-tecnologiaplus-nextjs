@@ -43,9 +43,9 @@ function ProductGallery() {
       />
 
       <div className={styles.action__nav}>
-        <a href="https://landing-tecnologiaplus-nextjs.vercel.app/enfermeria">
+        <button onClick={() => window.history.back()}>
           <IoIosArrowBack className={styles.icon__back} /> Volver
-        </a>
+        </button>
       </div>
 
       <div className={styles.container__product__gallery}>

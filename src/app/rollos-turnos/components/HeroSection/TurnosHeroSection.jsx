@@ -1,10 +1,17 @@
 import styles from "./TurnosHeroSection.module.scss";
 import Header from "../../../components/Header/Header";
 
-function TurnosHeroSection() {
+function TurnosHeroSection({
+  hideHeader = false,
+  backgroundTransparent = false,
+}) {
   return (
-    <section className={styles.hero}>
-      <Header />
+    <section
+      className={`${styles.hero} ${
+        backgroundTransparent ? styles.transparent : ""
+      }`}
+    >
+      {!hideHeader && <Header />}
       <div className={styles.hero__content}>
         <div className={styles.central__container}>
           <img

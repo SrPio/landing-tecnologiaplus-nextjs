@@ -1,10 +1,14 @@
 import styles from "./HeroSection.module.scss";
 import Header from "../../../components/Header/Header";
 
-function HeroSection() {
+function HeroSection({ hideHeader = false, backgroundTransparent = false }) {
   return (
-    <section className={styles.hero}>
-      <Header />
+    <section
+      className={`${styles.hero} ${
+        backgroundTransparent ? styles.transparent : ""
+      }`}
+    >
+      {!hideHeader && <Header />}
       <div className={styles.hero__content}>
         <img
           loading="lazy"

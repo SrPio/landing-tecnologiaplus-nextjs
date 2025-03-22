@@ -10,6 +10,7 @@ import HomeRecentPostsSection from "./home/components/RecentPost/HomeRecentPosts
 import WppBtn from "./components/WppBtn/WppBtn";
 import Footer from "./components/Footer/Footer";
 import ContactForm from "@/app/components/ContactForm/ContactForm";
+import SliderHero from "./components/SliderHero/SliderHero";
 
 
 export const metadata = {
@@ -49,7 +50,8 @@ export const metadata = {
 export default function Home() {
   return (
     <>
-      <HomeHeroSection />
+      {/* <HomeHeroSection /> */}
+      <SliderHero />
       <SecondaryHeader />
       <HomeClientsSection />
       <HomeProductsSection />

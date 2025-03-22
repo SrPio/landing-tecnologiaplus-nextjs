@@ -1,10 +1,17 @@
 import styles from "./TurnoMasterHeroSection.module.scss";
 import Header from "../../../components/Header/Header";
 
-function TurnoMasterHeroSection() {
+function TurnoMasterHeroSection({
+  hideHeader = false,
+  backgroundTransparent = false,
+}) {
   return (
-    <section className={styles.hero}>
-      <Header />
+    <section
+      className={`${styles.hero} ${
+        backgroundTransparent ? styles.transparent : ""
+      }`}
+    >
+      {!hideHeader && <Header />}
       <div className={styles.hero__content}>
         <img
           loading="lazy"
@@ -20,9 +27,6 @@ function TurnoMasterHeroSection() {
             Sistema de turnos de espera
           </h1>
           <p>Lleva tu sala de espera al siguiente nivel</p>
-          {/* <a className={styles.hero__btn} href="#">
-            Ver más
-          </a> */}
         </div>
       </div>
     </section>

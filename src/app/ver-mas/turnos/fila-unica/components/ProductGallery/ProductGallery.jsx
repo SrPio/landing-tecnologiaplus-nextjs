@@ -83,6 +83,20 @@ function ProductGallery() {
               onClick={handleNextImage}
               onMouseDown={(e) => e.preventDefault()}
             />
+
+            <div className={styles.pagination}>
+              {images.map((_, index) => (
+                <div
+                  key={index}
+                  className={`${styles.dot} ${
+                    selectedIndex === index ? styles.activeDot : ""
+                  }`}
+                  onClick={() => {
+                    setSelectedIndex(index);
+                  }}
+                />
+              ))}
+            </div>
           </div>
         </div>
 

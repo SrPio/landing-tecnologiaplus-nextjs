@@ -1,28 +1,16 @@
 .loop__slide {
   overflow: hidden;
+  width: 4000px; /* Ajusta el ancho fijo que prefieras */
+  max-width: 100%; /* Evita que sea más grande que la pantalla */
 }
 .loop__slide > div {
   display: flex;
-  animation: slide-to-left 10s linear infinite;
-  -webkit-animation: slide-to-left 10s linear infinite;
+  animation: slide-to-left 20s linear infinite;
+  -webkit-animation: slide-to-left 20s linear infinite;
 }
 .loop__slide > div > * {
-  min-width: calc(100% / 11); // 8 logos por fila en pantallas grandes
-
-  @media (max-width: 1600px) {
-    min-width: calc(100% / 5); // 5 logos en tablets grandes
-  }
-  @media (max-width: 1200px) {
-    min-width: calc(100% / 4); // 4 logos en tablets grandes
-  }
-
-  @media (max-width: 768px) {
-    min-width: calc(100% / 3); // 3 logos en tablets pequeñas
-  }
-
-  @media (max-width: 480px) {
-    min-width: calc(100% / 2); // 2 logos en móviles pequeños
-  }
+  flex: 0 0 auto; // Evita que los logos se estiren o encojan
+  padding: 0 31.5px; // Espaciado uniforme entre logos
 }
 
 @keyframes slide-to-left {
@@ -32,5 +20,26 @@
     -moz-transform: translateX(-100%);
     -ms-transform: translateX(-100%);
     -o-transform: translateX(-100%);
+  }
+}
+
+/* Diferente duración según el tamaño del slider */
+@media (max-width: 768px) {
+  .loop__slide {
+    width: 800px;
+    max-width: 100%;
+  }
+  .loop__slide > div {
+    display: flex;
+    animation: slide-to-left 12s linear infinite;
+    -webkit-animation: slide-to-left 12s linear infinite;
+  }
+}
+
+@media (max-width: 480px) {
+  .loop__slide > div {
+    display: flex;
+    animation: slide-to-left 7s linear infinite;
+    -webkit-animation: slide-to-left 7s linear infinite;
   }
 }

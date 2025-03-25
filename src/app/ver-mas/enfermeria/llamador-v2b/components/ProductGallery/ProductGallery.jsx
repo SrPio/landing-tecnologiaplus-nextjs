@@ -44,7 +44,7 @@ function ProductGallery() {
 
   const handlePrevImage = () => {
     setSelectedIndex((prevIndex) =>
-      prevIndex > 0 ? prevIndex - 1 : prevIndex
+      prevIndex === 0 ? images.length - 1 : prevIndex - 1
     );
   };
 

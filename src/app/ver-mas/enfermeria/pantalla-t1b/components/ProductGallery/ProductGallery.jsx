@@ -28,7 +28,7 @@ function ProductGallery() {
 
   const handlePrevImage = () => {
     setSelectedIndex((prevIndex) =>
-      prevIndex > 0 ? prevIndex - 1 : prevIndex
+      prevIndex === 0 ? images.length - 1 : prevIndex - 1
     );
   };
 
@@ -74,13 +74,11 @@ function ProductGallery() {
 
           {/* Imagen Principal */}
           <div className={styles.container__product__selected}>
-            {selectedIndex > 0 && (
-              <IoIosArrowBack
-                className={styles.icon__prev}
-                onClick={handlePrevImage}
-                onMouseDown={(e) => e.preventDefault()}
-              />
-            )}
+            <IoIosArrowBack
+              className={styles.icon__prev}
+              onClick={handlePrevImage}
+              onMouseDown={(e) => e.preventDefault()}
+            />
             <img loading="lazy" src={selectedImage} alt="Imagen seleccionada" />
             <IoIosArrowForward
               className={styles.icon__next}

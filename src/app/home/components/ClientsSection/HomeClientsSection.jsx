@@ -4,6 +4,7 @@ import style from "./HomeClientsSection.module.scss";
 import { useLogos } from "../../../context/LogosContext";
 
 import InfiniteSlider from "../../../components/sliders/InfiniteSlider";
+import InfiniteSlider2 from "@/app/components/sliders/InfiniteSlider2";
 
 function HomeClientsSection() {
   const { logosHome } = useLogos();

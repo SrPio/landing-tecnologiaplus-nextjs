@@ -54,6 +54,17 @@ function ProductGallery() {
   const [selectedAltIndex, setSelectedAltIndex] = useState(0);
   const [isAlternative, setIsAlternative] = useState(false);
 
+  const [scrollPosition, setScrollPosition] = useState(0);
+  const [showScrollButtons, setShowScrollButtons] = useState(images.length > 5);
+
+  const handleScrollDown = () => {
+    setScrollPosition((prev) => Math.min(prev + 1, images.length - 5));
+  };
+
+  const handleScrollUp = () => {
+    setScrollPosition((prev) => Math.max(prev - 1, 0));
+  };
+
   const selectedImage = isAlternative
     ? alternativeImages[selectedAltIndex].url
     : images[selectedIndex];

@@ -55,13 +55,32 @@ function ProductGallery() {
   );
 
   const handleNextImage = () => {
-    setSelectedIndex((prevIndex) => (prevIndex + 1) % images.length);
+    if (selectedAltImage) {
+      const currentIndex = alternativeImages.findIndex(
+        (img) => img.url === selectedAltImage
+      );
+      const nextIndex = (currentIndex + 1) % alternativeImages.length;
+      setSelectedAltImage(alternativeImages[nextIndex].url);
+      setSelectedVariantName(alternativeImages[nextIndex].name);
+    } else {
+      setSelectedIndex((prevIndex) => (prevIndex + 1) % images.length);
+    }
   };
 
   const handlePrevImage = () => {
-    setSelectedIndex((prevIndex) =>
-      prevIndex === 0 ? images.length - 1 : prevIndex - 1
-    );
+    if (selectedAltImage) {
+      const currentIndex = alternativeImages.findIndex(
+        (img) => img.url === selectedAltImage
+      );
+      const prevIndex =
+        currentIndex === 0 ? alternativeImages.length - 1 : currentIndex - 1;
+      setSelectedAltImage(alternativeImages[prevIndex].url);
+      setSelectedVariantName(alternativeImages[prevIndex].name);
+    } else {
+      setSelectedIndex((prevIndex) =>
+        prevIndex === 0 ? images.length - 1 : prevIndex - 1
+      );
+    }
   };
 
   useDisableRightClick();
@@ -109,23 +128,19 @@ function ProductGallery() {
 
           {/* Imagen Principal */}
           <div className={styles.container__product__selected}>
-            {/* Mostrar flechas solo si no hay una imagen alternativa seleccionada */}
-            {!selectedAltImage && selectedIndex > 0 && (
-              <IoIosArrowBack
-                className={styles.icon__prev}
-                onClick={handlePrevImage}
-                onMouseDown={(e) => e.preventDefault()}
-              />
-            )}
+            <IoIosArrowBack
+              className={styles.icon__prev}
+              onClick={handlePrevImage}
+              onMouseDown={(e) => e.preventDefault()}
+            />
+
             <img loading="lazy" src={selectedImage} alt="Imagen seleccionada" />
 
-            {!selectedAltImage && selectedIndex < images.length - 1 && (
-              <IoIosArrowForward
-                className={styles.icon__next}
-                onClick={handleNextImage}
-                onMouseDown={(e) => e.preventDefault()}
-              />
-            )}
+            <IoIosArrowForward
+              className={styles.icon__next}
+              onClick={handleNextImage}
+              onMouseDown={(e) => e.preventDefault()}
+            />
           </div>
         </div>
 

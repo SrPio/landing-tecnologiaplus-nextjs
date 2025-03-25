@@ -21,23 +21,23 @@ function ProductGallery() {
   const alternativeImages = [
     {
       name: "Rojo",
-      url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741471196/Frame_1_3_rm5vzk.webp",
+      url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742935712/Frame_2_malazk.webp",
     },
     {
       name: "Azul",
-      url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741471196/Frame_1_2_xyzzse.webp",
+      url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742935905/Frame_2_2_vdocq8.webp",
     },
     {
       name: "Verde",
-      url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741471198/Frame_1_1_fx097e.webp",
+      url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742936012/Frame_2_4_rrj0or.webp",
     },
     {
       name: "Amarillo",
-      url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741471196/15_4x-8_ivnjuf.webp",
+      url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742935960/Frame_2_3_o4fazq.webp",
     },
     {
       name: "Morado",
-      url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741471196/Frame_1_efitft.webp",
+      url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742935833/Frame_2_1_sdzueu.webp",
     },
   ];
 
@@ -245,23 +245,23 @@ function ProductGallery() {
                 alt: "Imagen 4",
               },
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741471196/Frame_1_3_rm5vzk.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742935712/Frame_2_malazk.webp",
                 alt: "Imagen 5",
               },
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741471196/Frame_1_2_xyzzse.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742935905/Frame_2_2_vdocq8.webp",
                 alt: "Imagen 6",
               },
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741471198/Frame_1_1_fx097e.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742936012/Frame_2_4_rrj0or.webp",
                 alt: "Imagen 7",
               },
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741471196/15_4x-8_ivnjuf.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742935960/Frame_2_3_o4fazq.webp",
                 alt: "Imagen 8",
               },
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741471196/Frame_1_efitft.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742935833/Frame_2_1_sdzueu.webp",
                 alt: "Imagen 9",
               },
             ],

@@ -30,41 +30,41 @@ function ProductGallery() {
   ];
 
   const [selectedIndex, setSelectedIndex] = useState(0);
-  const [selectedAltImage, setSelectedAltImage] = useState(
-    alternativeImages[0].url
-  );
-  const selectedImage = selectedAltImage || images[selectedIndex];
-  const [selectedVariantName, setSelectedVariantName] = useState(
-    alternativeImages[0].name
-  );
+  const [selectedAltIndex, setSelectedAltIndex] = useState(0);
+  const [isAlternative, setIsAlternative] = useState(true);
+
+  const selectedImage = isAlternative
+    ? alternativeImages[selectedAltIndex].url
+    : images[selectedIndex];
+  const selectedVariantName = isAlternative
+    ? alternativeImages[selectedAltIndex].name
+    : "Opciones";
 
   const handleNextImage = () => {
-    if (selectedAltImage) {
-      const currentIndex = alternativeImages.findIndex(
-        (img) => img.url === selectedAltImage
+    if (isAlternative) {
+      setSelectedAltIndex(
+        (prevIndex) => (prevIndex + 1) % alternativeImages.length
       );
-      const nextIndex = (currentIndex + 1) % alternativeImages.length;
-      setSelectedAltImage(alternativeImages[nextIndex].url);
-      setSelectedVariantName(alternativeImages[nextIndex].name);
     } else {
       setSelectedIndex((prevIndex) => (prevIndex + 1) % images.length);
     }
   };
 
   const handlePrevImage = () => {
-    if (selectedAltImage) {
-      const currentIndex = alternativeImages.findIndex(
-        (img) => img.url === selectedAltImage
+    if (isAlternative) {
+      setSelectedAltIndex((prevIndex) =>
+        prevIndex === 0 ? alternativeImages.length - 1 : prevIndex - 1
       );
-      const prevIndex =
-        currentIndex === 0 ? alternativeImages.length - 1 : currentIndex - 1;
-      setSelectedAltImage(alternativeImages[prevIndex].url);
-      setSelectedVariantName(alternativeImages[prevIndex].name);
     } else {
       setSelectedIndex((prevIndex) =>
         prevIndex === 0 ? images.length - 1 : prevIndex - 1
       );
     }
+  };
+
+  const handleSelectAlternative = (img, index) => {
+    setSelectedAltIndex(index);
+    setIsAlternative(true);
   };
 
   useDisableRightClick();
@@ -95,8 +95,8 @@ function ProductGallery() {
                 src={img}
                 alt={`Thumbnail ${index + 1}`}
                 onClick={() => {
-                  setSelectedAltImage(null); // Restablecer la imagen alternativa
-                  setSelectedIndex(index); // Actualizar la imagen principal con el índice seleccionado
+                  setIsAlternative(false); // Desactivar imágenes alternativas
+                  setSelectedIndex(index); // Actualizar la imagen principal
                 }}
                 className={selectedImage === img ? styles.active : ""}
                 style={{ cursor: "pointer" }}
@@ -125,6 +125,24 @@ function ProductGallery() {
               onClick={handleNextImage}
               onMouseDown={(e) => e.preventDefault()}
             />
+
+            <div className={styles.pagination}>
+              {(isAlternative ? alternativeImages : images).map((_, index) => (
+                <div
+                  key={index}
+                  className={`${styles.dot} ${
+                    index === (isAlternative ? selectedAltIndex : selectedIndex)
+                      ? styles.activeDot
+                      : ""
+                  }`}
+                  onClick={() =>
+                    isAlternative
+                      ? setSelectedAltIndex(index)
+                      : setSelectedIndex(index)
+                  }
+                />
+              ))}
+            </div>
           </div>
         </div>
 
@@ -148,12 +166,11 @@ function ProductGallery() {
                 <div
                   key={index}
                   className={`${styles.alternative__item} ${
-                    selectedAltImage === img.url ? styles.selected : ""
+                    selectedAltIndex === index && isAlternative
+                      ? styles.selected
+                      : ""
                   }`}
-                  onClick={() => {
-                    setSelectedAltImage(img.url);
-                    setSelectedVariantName(img.name);
-                  }}
+                  onClick={() => handleSelectAlternative(img, index)}
                 >
                   <img
                     src={img.url}

@@ -107,7 +107,7 @@ function CalificadorRelatedProducts({ titleClassName = "" }) {
             <img
               loading="lazy"
               src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349925/ynuxn64wkw3nkqxl4tvo_lwqzi0.webp"
-              alt="icono de Envíos en Colombia y Latinoamerica"
+              alt="icono de Envíos en Colombia y Latinoamérica"
             />
             <p>Envíos en Colombia y Latinoamerica</p>
           </li>

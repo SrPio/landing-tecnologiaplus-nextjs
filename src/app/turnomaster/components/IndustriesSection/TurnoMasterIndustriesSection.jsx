@@ -13,7 +13,7 @@ function TurnoMasterIndustriesSection() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738350027/Salud_2x-8_vg4jxo_dyuifd.webp"
-            alt="icono de Salud"
+            alt="icono de salud"
           />
           <p>Sector salud</p>
         </li>
@@ -21,7 +21,7 @@ function TurnoMasterIndustriesSection() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349970/Oficinas_2x-8_xzhwcw_jumnnh.webp"
-            alt="icono de Oficinas"
+            alt="icono de oficina"
           />
           <p>Oficinas</p>
         </li>

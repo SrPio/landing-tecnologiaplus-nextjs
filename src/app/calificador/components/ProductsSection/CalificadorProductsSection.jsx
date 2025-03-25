@@ -8,7 +8,7 @@ function CalificadorProductsSection() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741104598/nuevo_4x-8_qbdidq.webp"
-            alt="Rollos de dispositivo calificador"
+            alt="Calificador de Servicio"
           />
           <div className={style.btn__container}>
             <p className={style.selling__counter}>0000 vendidos</p>
@@ -24,7 +24,7 @@ function CalificadorProductsSection() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738678296/Group_2_fpyzaa.webp"
-            alt="Imagen de aviso de pared"
+            alt="Aviso de pared con calificador de servicio al cliente"
           />
           <div className={style.btn__container}>
             <p className={style.selling__counter}>0000 vendidos</p>

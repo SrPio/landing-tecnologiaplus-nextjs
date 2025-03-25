@@ -13,7 +13,7 @@ function CalificadorBenefitsSection() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738596137/Icono_1_2x-8_1_ddkdtv.webp"
-            alt="icono de alerta por email"
+            alt="Recibe alertas por email"
           />
           Alerta de calificación
           <br />
@@ -23,7 +23,7 @@ function CalificadorBenefitsSection() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738596138/Icono_2_2x-8_1_vcthy7.webp"
-            alt="icono de signo de pregunta"
+            alt="Preguntas personalizadas"
           />
           Personaliza tus preguntas.
         </li>
@@ -31,7 +31,7 @@ function CalificadorBenefitsSection() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738596138/Icono_3_2x-8_1_ebqi7y.webp"
-            alt="icono de gráfica estadística"
+            alt="Reportes graficos para mejor toma de decisiones"
           />
           Estadísticas en internet.
         </li>

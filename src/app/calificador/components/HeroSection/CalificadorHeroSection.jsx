@@ -18,7 +18,7 @@ function CalificadorHeroSection({
           loading="lazy"
           className={styles.hero__img}
           src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738596299/Imagen_principal_2x-8_xvqvel.webp"
-          alt="imagen de calificador"
+          alt="Calificador de Servicio"
         />
 
         <div className={styles.hero__text}>

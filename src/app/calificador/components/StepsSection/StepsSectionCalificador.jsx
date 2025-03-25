@@ -9,7 +9,7 @@ function StepsSectionCalificador() {
         <div className={style.card}>
           <img
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738596106/1_2x-8_uapzf4.webp"
-            alt="imagen de asesor hablando con el cliente"
+            alt="Asesor guiando a un usuario como calificar el servicio al cliente"
           />
           <div className={style.text__container}>
             <div className={style.number}>1</div>
@@ -22,7 +22,7 @@ function StepsSectionCalificador() {
         <div className={style.card}>
           <img
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738596112/2_2x-8_uiwi6q.webp"
-            alt="imagen de encuesta y sus opciones"
+            alt="Modelo de encuestas de satisfacción"
           />
           <div className={style.text__container}>
             <div className={style.number}>2</div>
@@ -36,7 +36,7 @@ function StepsSectionCalificador() {
         <div className={style.card}>
           <img
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738596112/3_2x-8_x3j9tc.webp"
-            alt="imagen de asesor hablando con el cliente"
+            alt="Medición grafica del total de datos recopilados con un calificador de atencion al cliente"
           />
           <div className={style.text__container}>
             <div className={style.number}>3</div>

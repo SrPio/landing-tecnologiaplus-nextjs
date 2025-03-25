@@ -67,6 +67,7 @@
       width: 10vw;
       /* aspect-ratio: 4 / 3; */
       max-height: 850px;
+      position: relative;
 
       img {
         width: max-content;
@@ -89,6 +90,46 @@
         -moz-border-radius: 50px;
         -ms-border-radius: 50px;
         -o-border-radius: 50px;
+      }
+
+      .scrollDown,
+      .scrollUp {
+        font-size: 44px;
+        color: #fff;
+        padding: 0.5rem;
+        opacity: 0;
+        visibility: hidden;
+        position: absolute;
+        cursor: pointer;
+        background: #484848cc;
+        -webkit-backdrop-filter: saturate(180%) blur(20px);
+        backdrop-filter: saturate(180%) blur(20px);
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        -webkit-transition: opacity 0.3s ease, visibility 0.3s ease;
+        -moz-transition: opacity 0.3s ease, visibility 0.3s ease;
+        -ms-transition: opacity 0.3s ease, visibility 0.3s ease;
+        -o-transition: opacity 0.3s ease, visibility 0.3s ease;
+      }
+
+      .scrollDown {
+        bottom: 64px;
+        right: 50%;
+        transform: translateX(50%);
+      }
+      .scrollUp {
+        top: -25px;
+        right: 50%;
+        transform: translateX(50%);
+      }
+
+      &:hover .scrollDown,
+      &:hover .scrollUp {
+        opacity: 1;
+        visibility: visible;
       }
     }
 

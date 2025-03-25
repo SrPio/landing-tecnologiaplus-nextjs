@@ -4,7 +4,12 @@ import { useState } from "react";
 import styles from "../../../../styles/ProductGallery.module.scss";
 import altStyles from "../../../../../components/Header/HeaderAlt.module.scss";
 import useDisableRightClick from "../../../../../../../hooks/useDisableRightClick";
-import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
+import {
+  IoIosArrowBack,
+  IoIosArrowDown,
+  IoIosArrowForward,
+  IoIosArrowUp,
+} from "react-icons/io";
 import { FaWhatsapp } from "react-icons/fa";
 import Header from "@/app/components/Header/Header";
 import Popup from "@/app/components/PopUp/Popup";
@@ -21,6 +26,16 @@ function ProductGallery() {
 
   const [selectedIndex, setSelectedIndex] = useState(0);
   const selectedImage = images[selectedIndex];
+  const [scrollPosition, setScrollPosition] = useState(0);
+  const [showScrollButtons, setShowScrollButtons] = useState(images.length > 5);
+
+  const handleScrollDown = () => {
+    setScrollPosition((prev) => Math.min(prev + 1, images.length - 5));
+  };
+
+  const handleScrollUp = () => {
+    setScrollPosition((prev) => Math.max(prev - 1, 0));
+  };
 
   const handleNextImage = () => {
     setSelectedIndex((prevIndex) => (prevIndex + 1) % images.length);
@@ -54,16 +69,38 @@ function ProductGallery() {
         <div className={styles.container__product__selectorImg}>
           {/* Miniaturas */}
           <div className={styles.container__thumbnails}>
-            {images.map((img, index) => (
-              <img
-                key={index}
-                src={img}
-                alt={`Thumbnail ${index + 1}`}
-                onClick={() => setSelectedIndex(index)}
-                className={selectedImage === img ? styles.active : ""}
-                style={{ cursor: "pointer" }}
+            {showScrollButtons && scrollPosition > 0 && (
+              <IoIosArrowUp
+                className={styles.scrollUp}
+                onClick={handleScrollUp}
+                onMouseDown={(e) => e.preventDefault()}
               />
-            ))}
+            )}
+            {images
+              .slice(scrollPosition, scrollPosition + 5)
+              .map((img, index) => (
+                <img
+                  key={scrollPosition + index} // Usamos un índice único para evitar problemas de key
+                  src={img}
+                  alt={`Thumbnail ${scrollPosition + index + 1}`}
+                  onClick={() => {
+                    setSelectedIndex(scrollPosition + index);
+                  }}
+                  className={
+                    selectedIndex === scrollPosition + index
+                      ? styles.active
+                      : ""
+                  }
+                  style={{ cursor: "pointer" }}
+                />
+              ))}
+            {showScrollButtons && scrollPosition < images.length - 5 && (
+              <IoIosArrowDown
+                className={styles.scrollDown}
+                onClick={handleScrollDown}
+                onMouseDown={(e) => e.preventDefault()}
+              />
+            )}
             <button
               onClick={() => setIsOpen(true)}
               className={styles.btn__multimedia}

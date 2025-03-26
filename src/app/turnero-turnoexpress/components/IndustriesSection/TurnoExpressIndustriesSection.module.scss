@@ -2,8 +2,6 @@
 @use "../../../styles/base/mixins" as *;
 
 .industries__section {
-  // Variaciones específicas para `Tuernero-turnoexpress`
-
   h2 {
     font-size: 2.2rem;
     @include respond-to-max("laptop") {

@@ -2,8 +2,6 @@
 @use "../../../styles/base/mixins" as *;
 
 .products__section {
-  // Variaciones específicas para `rollos-turnos`
-
   .products__container {
     flex-direction: column;
     align-items: center;

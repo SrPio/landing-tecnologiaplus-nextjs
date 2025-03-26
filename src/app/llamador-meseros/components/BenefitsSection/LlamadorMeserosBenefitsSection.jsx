@@ -14,24 +14,24 @@ function LlamadorMeserosBenefitsSection() {
         <li>
           <img
             loading="lazy"
-            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738685528/icono_1_2x-8_1_yqr37o.webp"
-            alt="icono de gota de agua"
+            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743024065/15_4x-8_xfnlus.webp"
+            alt="icono de alerta"
           />
           Empleados mas alertas
         </li>
         <li>
           <img
             loading="lazy"
-            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738685528/icono_2_2x-8_1_kjdmh4.webp"
-            alt="icono de batería"
+            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743024067/14_4x-8_fmpqd8.webp"
+            alt="icono de reducción de tiempo"
           />
           Reduce tiempos de espera
         </li>
         <li>
           <img
             loading="lazy"
-            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738431754/icono_2_2x-8_vktxnl.webp"
-            alt="icono de señal"
+            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743024062/13_4x-8_iqmqcf.webp"
+            alt="icono de aumento de ventas"
           />
           Aumenta ventas al facilitar
           <br />

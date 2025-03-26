@@ -113,7 +113,6 @@ function ArticuloPlantilla({
               altText="Imagen 1"
               link="#"
               date="20 de marzo de 2025"
-              width="300px"
             />
             <BlogCard
               title="Título 2"
@@ -122,7 +121,6 @@ function ArticuloPlantilla({
               altText="Imagen 2"
               link="#"
               date="21 de marzo de 2025"
-              width="300px"
             />
             <BlogCard
               title="Título 3"
@@ -131,7 +129,6 @@ function ArticuloPlantilla({
               altText="Imagen 3"
               link="#"
               date="22 de marzo de 2025"
-              width="300px"
             />
           </div>
         </section>

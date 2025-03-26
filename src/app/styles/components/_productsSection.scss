@@ -54,8 +54,9 @@
   .products__section {
     padding: 3rem 5% 10rem;
     .products__title {
-      font-size: clamp(16px, 5vw, 30px);
+      font-size: clamp(16px, 5.5vw, 30px);
       text-align: center;
+      text-wrap: balance;
     }
     .products__container {
       flex-direction: column;

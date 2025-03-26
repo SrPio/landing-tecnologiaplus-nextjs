@@ -21,12 +21,29 @@ function LlamadorMeserosHeroSection({
           alt="imagen de llamador de personal"
         />
 
+        <img
+          loading="lazy"
+          className={styles.hero__img__mobile}
+          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743017344/4_4x-8_nlf2cd.webp"
+          alt="imagen de llamador de personal"
+        />
+
         <div className={styles.hero__text}>
           <h1>
             Llamador de Meseros:
             <br />
             Un solo toque evita largas esperas
           </h1>
+          <p>Innovador y sin ruidos para facilitar el llamado de meseros.</p>
+          {boton ? (
+            <a className={styles.hero__btn} href={boton.href}>
+              {boton.text}
+            </a>
+          ) : null}
+        </div>
+
+        <div className={styles.hero__text__mobile}>
+          <h1>Llamador de Meseros: Un solo toque evita largas esperas</h1>
           <p>Innovador y sin ruidos para facilitar el llamado de meseros.</p>
           {boton ? (
             <a className={styles.hero__btn} href={boton.href}>

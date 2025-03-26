@@ -21,18 +21,18 @@
     .hero__img {
       width: 60%;
       height: auto;
-      max-height: 600px;
+      max-height: 500px;
       max-width: 1000px;
     }
 
     .hero__text {
       height: max-content;
-      margin-top: -10%;
-      margin-left: -10%;
+      margin-top: 0;
+      margin-left: -4rem;
 
       h1 {
-        font-size: 3rem;
-        font-weight: 850;
+        font-size: 2rem;
+        font-weight: 700;
         line-height: 1;
 
         @media (min-width: 500px) and (max-width: 1700px) {
@@ -45,6 +45,59 @@
         font-weight: 500;
         @media (min-width: 500px) and (max-width: 1700px) {
           font-size: 1rem;
+        }
+      }
+    }
+
+    .hero__text__mobile {
+      display: none;
+
+      @include respond-to-max("laptop") {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        margin-top: 2rem;
+        h1 {
+          font-size: clamp(16px, 5vw, 30px);
+          text-align: center;
+          text-wrap: balance;
+
+          width: 85vw;
+
+          color: #fff;
+          font-weight: 700;
+          line-height: 1.2;
+
+          margin-bottom: 2rem;
+        }
+
+        p {
+          font-size: clamp(16px, 2.5vw, 20px);
+          text-align: center;
+          text-wrap: balance;
+
+          width: 70vw;
+
+          margin-top: 0.8rem;
+
+          color: #fff;
+          margin-bottom: 2rem;
+          font-weight: 400;
+        }
+
+        .hero__btn {
+          cursor: pointer;
+          font-weight: 600;
+          background: #be00ff;
+          color: #fff;
+          font-size: 1rem;
+          padding: 0.5rem 1rem;
+          border-radius: 2rem;
+          -webkit-border-radius: 2rem;
+          -moz-border-radius: 2rem;
+          -ms-border-radius: 2rem;
+          -o-border-radius: 2rem;
         }
       }
     }
@@ -63,24 +116,7 @@
       }
 
       .hero__text {
-        margin: 0 15px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        h1 {
-          font-size: clamp(16px, 5.5vw, 30px);
-          text-align: center;
-
-          span {
-            font-size: clamp(14px, 3vw, 22px);
-            text-align: center;
-          }
-        }
-
-        p {
-          font-size: clamp(12px, 2.5vw, 20px);
-          text-align: center;
-        }
+        display: none;
       }
     }
   }

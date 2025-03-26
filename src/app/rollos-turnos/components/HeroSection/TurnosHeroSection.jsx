@@ -18,17 +18,34 @@ function TurnosHeroSection({
           <img
             loading="lazy"
             className={styles.hero__img}
-            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349967/Imagen_banner_2x-8_kcq3mt_v22bb7.webp"
+            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743018206/5_4x-8_1_v0uhtd.webp"
             alt="imagen de rollos para impresora"
           />
           <div className={styles.hero__text}>
+            <h1>Numeración clara</h1>
+            <p>
+              y corte preciso para agilizar
+              <br />
+              la atención de turnos.
+            </p>
+            {boton ? (
+              <a className={styles.hero__btn} href={boton.href}>
+                {boton.text}
+              </a>
+            ) : (
+              <a
+                className={styles.hero__btn}
+                href="http://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/rollos-de-turnos"
+              >
+                Ver más
+              </a>
+            )}
+          </div>
+          <div className={styles.hero__text__mobile}>
             <h1>
-              Numeración clara
-              <br />
-              y corte preciso
-              <br />
+              Numeración clara y corte preciso para agilizar la atención de
+              turnos.
             </h1>
-            <p>para agilizar la atención de turnos.</p>
             {boton ? (
               <a className={styles.hero__btn} href={boton.href}>
                 {boton.text}

@@ -100,6 +100,7 @@
         &:active {
           @include respond-to-max("laptop") {
             background-color: #42464f;
+            -webkit-tap-highlight-color: transparent;
           }
         }
       }

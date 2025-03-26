@@ -8,7 +8,6 @@
       max-width: 900px;
       height: auto;
       max-height: 80vh;
-      align-self: flex-end;
 
       @media (min-width: 500px) and (max-width: 1800px) {
         width: 60%;
@@ -17,16 +16,52 @@
       }
       @include respond-to-max("laptop") {
         align-self: auto;
-        width: 80vw;
+        width: 90vw;
         height: auto;
         max-width: 500px;
       }
     }
 
     .hero__text {
-      margin-left: -149px;
+      margin-left: -24px;
       @include respond-to-max("laptop") {
         margin-left: 0;
+        display: none;
+      }
+    }
+
+    .hero__text__mobile {
+      display: none;
+
+      @include respond-to-max("laptop") {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        margin-top: 4rem;
+        h1 {
+          font-size: clamp(16px, 5vw, 30px);
+          text-align: center;
+          text-wrap: balance;
+
+          color: #fff;
+          font-weight: 700;
+          line-height: 1.2;
+        }
+
+        p {
+          font-size: clamp(16px, 2.5vw, 20px);
+          text-align: center;
+          text-wrap: balance;
+
+          width: 70vw;
+
+          margin-top: 1rem;
+
+          color: #fff;
+          margin-bottom: 2rem;
+          font-weight: 400;
+        }
       }
     }
   }

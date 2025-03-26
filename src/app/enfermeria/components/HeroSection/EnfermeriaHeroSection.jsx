@@ -17,7 +17,7 @@ function EnfermeriaHeroSection({
         <img
           loading="lazy"
           className={styles.hero__img}
-          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738685528/Imagen_principal_2x-8_1_cnekrr.webp"
+          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739198779/Recurso_32_2x-8_ifuwuz.webp"
           alt="imagen de llamador de personal"
         />
 
@@ -25,13 +25,27 @@ function EnfermeriaHeroSection({
           <h1>
             Llamado de Enfermería:
             <br />
-            más cerca de tus pacientes.
+            Más cerca de tus pacientes.
           </h1>
           <p>
             Facilita el contacto entre el paciente y
             <br />
             personal de salud.
           </p>
+          {boton ? (
+            <a className={styles.hero__btn} href={boton.href}>
+              {boton.text}
+            </a>
+          ) : null}
+        </div>
+
+        <div className={styles.hero__text__mobile}>
+          <h1>
+            Llamado de Enfermería:
+            <br />
+            Más cerca de tus pacientes.
+          </h1>
+          <p>Facilita el contacto entre el paciente y personal de salud.</p>
           {boton ? (
             <a className={styles.hero__btn} href={boton.href}>
               {boton.text}

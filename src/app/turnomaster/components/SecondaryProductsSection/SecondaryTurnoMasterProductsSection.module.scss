@@ -125,7 +125,8 @@
 
 @include respond-to-max("laptop") {
   .products__section {
-    padding: 3rem 5%;
+    padding: 0 0 3rem;
+    background-color: #fff;
     h2 {
       font-size: clamp(16px, 5vw, 30px);
       text-align: center;
@@ -133,27 +134,60 @@
     .products__container {
       .products__card__container {
         flex-direction: column;
+        gap: 2rem;
+        width: 100vw;
+
+        .card:first-of-type {
+          background: #f4f4f4;
+          padding-top: 3rem;
+        }
+
+        .card:nth-of-type(2) {
+          h2 {
+            margin-top: 0;
+          }
+        }
 
         .card {
           h2 {
-            font-size: clamp(16px, 5vw, 30px);
+            font-size: clamp(16px, 4.5vw, 30px);
             text-align: center;
+            text-wrap: balance;
           }
 
           p {
             padding-bottom: 1rem;
-            font-size: clamp(16px, 5vw, 30px);
+            font-size: clamp(16px, 4vw, 30px);
+            text-wrap: balance;
           }
           img {
             object-fit: contain;
             height: auto;
-            width: 80vw;
-            padding: 0;
+            width: 100vw;
+            padding: 0 5vw;
           }
 
+          &:nth-child(1) img {
+          }
           &:nth-child(2) img {
             padding: 0;
           }
+        }
+      }
+    }
+  }
+
+  .variant__section {
+    padding: 0 5vw;
+    .products__container {
+      .products__card__container {
+        gap: 4rem;
+
+        .card {
+          width: 80vw;
+        }
+        .card:first-of-type {
+          background: #fff;
         }
       }
     }
@@ -167,8 +201,9 @@
     }
 
     .services__card__container {
-      flex-direction: column;
-      gap: 3rem;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 4rem 2rem;
 
       .card {
         h2 {
@@ -177,12 +212,12 @@
         }
         p {
           padding-bottom: 1rem;
-          font-size: clamp(16px, 5vw, 30px);
+          font-size: clamp(16px, 4vw, 30px);
         }
         img {
           object-fit: contain;
-          height: auto;
-          width: 30vw;
+          height: 40vw;
+          width: auto;
         }
       }
     }

@@ -91,6 +91,16 @@
 
         &:hover {
           background-color: #42464f;
+
+          @include respond-to-max("laptop") {
+            background: #11151a;
+          }
+        }
+
+        &:active {
+          @include respond-to-max("laptop") {
+            background-color: #42464f;
+          }
         }
       }
     }

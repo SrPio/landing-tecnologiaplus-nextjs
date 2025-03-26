@@ -20,6 +20,7 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      gap: 1rem;
     }
     width: 100%;
     img {
@@ -36,13 +37,37 @@
 
     img:nth-child(1) {
       @include respond-to-max("laptop") {
-        align-self: start;
+        /* align-self: start; */
       }
     }
-    img:nth-child(2) {
+    img:nth-child(3) {
       margin-right: 5vw;
       @include respond-to-max("laptop") {
-        margin-right: 0;
+        /* margin-right: 0; */
+      }
+    }
+
+    .img__mobile:nth-child(2) {
+      @include respond-to-max("laptop") {
+        align-self: start;
+        width: 95vw;
+      }
+    }
+
+    .img__mobile {
+      display: none;
+
+      @include respond-to-max("laptop") {
+        display: block;
+        width: 70vw;
+        height: auto;
+        max-width: 500px;
+      }
+    }
+
+    .img__desktop {
+      @include respond-to-max("laptop") {
+        display: none;
       }
     }
   }

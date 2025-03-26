@@ -17,8 +17,12 @@ function TurnosBenefitsSection() {
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349967/Icono_1_2x-8_qhtpsh_s64dlx.webp"
             alt="icono de ticket"
           />
-          Evita el desperdicio - Corte limpio y preciso para aprovechar cada
-          ticket.
+          <p>
+            Evita el desperdicio
+            <span className={style.span__desktop}> - </span>
+            <span className={style.span__mobile}>. </span>Corte limpio y preciso
+            para aprovechar cada ticket.
+          </p>
         </li>
         <li>
           <img

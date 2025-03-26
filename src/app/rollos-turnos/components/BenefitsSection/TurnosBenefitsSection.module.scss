@@ -7,6 +7,21 @@
   .benefits__title {
     font-size: 3.5rem;
   }
+
+  ul {
+    li {
+      span {
+        display: inline-block;
+      }
+
+      .span__desktop {
+        margin: 0 10px;
+      }
+      .span__mobile {
+        display: none;
+      }
+    }
+  }
 }
 
 @include respond-to-max("laptop") {
@@ -24,6 +39,13 @@
     ul {
       li {
         font-size: clamp(10px, 5vw, 32px);
+
+        .span__mobile {
+          display: inline-block;
+        }
+        .span__desktop {
+          display: none;
+        }
       }
     }
   }

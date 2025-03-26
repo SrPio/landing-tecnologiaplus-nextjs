@@ -273,30 +273,6 @@ function ProductGallery() {
                 src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740762871/10_4x-8_4_zewff6.webp",
                 alt: "Imagen 4",
               },
-              {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740762874/16_4x-8_3_iupo2n.webp",
-                alt: "Imagen 5",
-              },
-              {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740762870/15_4x-8_5_k9xmxt.webp",
-                alt: "Imagen 6",
-              },
-              {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740762870/14_4x-8_4_nzyhjc.webp",
-                alt: "Imagen 7",
-              },
-              {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740762870/12_4x-8_4_weks32.webp",
-                alt: "Imagen 8",
-              },
-              {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740762871/11_4x-8_4_oumbfg.webp",
-                alt: "Imagen 9",
-              },
-              {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740762870/13_4x-8_6_uhgkeo.webp",
-                alt: "Imagen 10",
-              },
             ],
           },
           {

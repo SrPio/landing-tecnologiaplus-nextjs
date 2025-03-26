@@ -189,6 +189,10 @@ function ProductGallery() {
                 src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739392044/4_2x-100_xp8nfs.webp",
                 alt: "Imagen 4",
               },
+              {
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739392044/5_2x-100_tqczvp.webp",
+                alt: "Imagen 5",
+              },
             ],
           },
           {

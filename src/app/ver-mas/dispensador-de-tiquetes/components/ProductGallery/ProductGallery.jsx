@@ -278,26 +278,6 @@ function ProductGallery() {
                 src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742650043/Frame_1_1_vd55bu.webp",
                 alt: "Imagen 4",
               },
-              {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742935712/Frame_2_malazk.webp",
-                alt: "Imagen 5",
-              },
-              {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742935905/Frame_2_2_vdocq8.webp",
-                alt: "Imagen 6",
-              },
-              {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742936012/Frame_2_4_rrj0or.webp",
-                alt: "Imagen 7",
-              },
-              {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742935960/Frame_2_3_o4fazq.webp",
-                alt: "Imagen 8",
-              },
-              {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742935833/Frame_2_1_sdzueu.webp",
-                alt: "Imagen 9",
-              },
             ],
           },
           {

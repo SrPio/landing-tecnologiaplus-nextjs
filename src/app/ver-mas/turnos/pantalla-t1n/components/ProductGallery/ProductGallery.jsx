@@ -21,6 +21,8 @@ function ProductGallery() {
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741619266/Frame_1_27_dylrz4.webp",
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741619456/Frame_1_28_cygi5b.webp",
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741619634/Frame_1_29_l8n9ct.webp",
+    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741621767/Frame_1_31_tbevif.webp",
+    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741621668/Frame_1_30_dndw16.webp",
   ];
 
   const [selectedIndex, setSelectedIndex] = useState(0);

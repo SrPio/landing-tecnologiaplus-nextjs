@@ -97,7 +97,7 @@ tomar el turno."
           imageSrc="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738945022/11_2x-8_lb72ht.webp"
           altText="imagen de Desarrollo de software"
           link="#"
-          customClass="custom__style__five"
+          customClass="custom__style__six"
         />
 
         <Card
@@ -106,7 +106,7 @@ tomar el turno."
           imageSrc="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738945024/12_2x-8_nnlbla.webp"
           altText="imagen de Soporte Técnico"
           link="#"
-          customClass="custom__style__six"
+          customClass="custom__style__seven"
         />
       </div>
 

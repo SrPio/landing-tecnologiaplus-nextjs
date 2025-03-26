@@ -14,8 +14,8 @@ function StepsSectionCalificador() {
           <div className={style.text__container}>
             <div className={style.number}>1</div>
             <p>
-              Tras la asesoría, el asesor invita al cliente a calificar la
-              atención.
+              Al terminar la asesoría, el asesor invita al cliente a calificar
+              la atención.
             </p>
           </div>
         </div>

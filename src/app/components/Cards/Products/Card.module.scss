@@ -122,7 +122,25 @@
     }
   }
 
+  &.custom__style__six {
+    > a {
+      display: none;
+    }
+  }
+
   &.custom__style__six .card__info {
+    img {
+      margin-top: -5%;
+      width: 80%;
+    }
+  }
+
+  &.custom__style__seven {
+    > a {
+      display: none;
+    }
+  }
+  &.custom__style__seven .card__info {
     img {
       width: 60%;
     }

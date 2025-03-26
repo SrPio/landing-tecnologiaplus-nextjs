@@ -27,6 +27,7 @@ function RelatedProducts({ titleClassName = "" }) {
       description: "Complemento práctico para tomar el turno.",
       img: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349966/dispensador_de_tiquetes_2x-8_qusuqr_fuxs8k.webp",
       sold: "0000 vendidos",
+      className: style.dispensador__card,
     },
   ];
 

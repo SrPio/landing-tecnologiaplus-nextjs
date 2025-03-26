@@ -3,6 +3,10 @@ import style from "./TechnicalDetails.module.scss";
 function TechnicalDetails() {
   return (
     <section className={style.technical__details}>
+      <div>
+        <h2 className={style.title__mobile}>Ficha Técnica</h2>
+        <p className={style.subtitle__mobile}>Rollos térmicos</p>
+      </div>
       <div className={style.technical__carousel__container}>
         <img
           loading="lazy"

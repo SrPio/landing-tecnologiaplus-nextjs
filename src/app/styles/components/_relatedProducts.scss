@@ -242,10 +242,12 @@
           .card__text {
             margin-bottom: clamp(0.5rem, 2vw, 2rem);
             h3 {
-              font-size: clamp(0.5rem, 4vw, 1.3rem);
+              font-size: clamp(0.5rem, 4vw, 1.2rem);
+              text-wrap: balance;
             }
             p {
               font-size: clamp(0.5rem, 3.5vw, 1rem);
+              text-wrap: balance;
             }
           }
         }
@@ -269,6 +271,16 @@
             height: 200px;
             object-fit: cover;
             object-position: 151% center;
+          }
+        }
+      }
+    }
+
+    .dispensador__card {
+      .related__products__card {
+        .card__info {
+          img {
+            margin-top: 15px;
           }
         }
       }
@@ -329,6 +341,7 @@
         li {
           p {
             font-size: 10px;
+            text-wrap: balance;
           }
         }
       }

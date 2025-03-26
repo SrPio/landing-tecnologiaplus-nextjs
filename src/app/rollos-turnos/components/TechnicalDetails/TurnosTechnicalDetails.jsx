@@ -35,6 +35,10 @@ function TurnosTechnicalDetails() {
 
   return (
     <section className={style.technical__details}>
+      <div>
+        <h2 className={style.title__mobile}>Ficha Técnica</h2>
+        <p className={style.subtitle__mobile}>Rollos de turnos</p>
+      </div>
       <div className={style.technical__carousel__container}>
         {images.map((image) => (
           <img

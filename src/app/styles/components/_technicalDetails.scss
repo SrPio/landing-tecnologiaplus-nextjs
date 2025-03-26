@@ -4,6 +4,10 @@
   padding: 6rem 5%;
   display: flex;
   gap: 4rem;
+  .title__mobile,
+  .subtitle__mobile {
+    display: none;
+  }
   .technical__carousel__container {
     width: 50%;
 
@@ -109,6 +113,18 @@
     flex-direction: column;
     align-items: center;
 
+    .title__mobile {
+      font-size: clamp(16px, 5vw, 30px);
+      text-align: center;
+      display: block;
+    }
+
+    .subtitle__mobile {
+      font-size: clamp(16px, 4vw, 25px);
+      text-align: center;
+      display: block;
+    }
+
     .technical__carousel__container {
       width: 100%;
     }
@@ -122,11 +138,13 @@
         h2 {
           font-size: clamp(16px, 5vw, 30px);
           text-align: center;
+          display: none;
         }
 
         > p {
           font-size: clamp(16px, 4vw, 25px);
           text-align: center;
+          display: none;
         }
       }
 

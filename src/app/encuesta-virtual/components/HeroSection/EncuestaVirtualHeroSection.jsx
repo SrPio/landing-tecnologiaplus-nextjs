@@ -40,6 +40,26 @@ function EncuestaVirtualHeroSection({
             </a>
           ) : null}
         </div>
+
+        <div className={styles.hero__text__mobile}>
+          <h1>OpinaMaster Virtual: Descubre lo que piensan tus clientes</h1>
+          <p>
+            Encuesta Virtual, atrévete a detectar los puntos fuertes y débiles
+            de tu negocio.
+          </p>
+          {boton ? (
+            <a className={styles.hero__btn} href={boton.href}>
+              {boton.text}
+            </a>
+          ) : null}
+        </div>
+
+        <img
+          loading="lazy"
+          className={styles.hero__img__mobile}
+          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743004188/1_4x-8_2_ezutdl.webp"
+          alt="imagen de encuesta virtual"
+        />
       </div>
     </section>
   );

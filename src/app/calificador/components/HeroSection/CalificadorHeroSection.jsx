@@ -40,6 +40,20 @@ function CalificadorHeroSection({
             </a>
           ) : null}
         </div>
+
+        <div className={styles.hero__text__mobile}>
+          <h1>
+            OpinaMaster:
+            <br />
+            El calificador de servicio para crecer con la voz de tus clientes
+          </h1>
+          <p>En tiempo real recibe alertas de calificaciones negativas</p>
+          {boton ? (
+            <a className={styles.hero__btn} href={boton.href}>
+              {boton.text}
+            </a>
+          ) : null}
+        </div>
       </div>
     </section>
   );

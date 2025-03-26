@@ -91,20 +91,22 @@
       width: 100%;
 
       .card {
-        width: 80%;
+        width: 80vw;
         img {
           height: auto;
           width: 100%;
-          order: 2;
+          max-width: 600px;
         }
         .text__container {
-          order: 1;
           width: 100%;
           justify-content: center;
+          margin-top: 0;
 
           p {
             font-size: clamp(16px, 4vw, 25px);
             width: max-content;
+            font-weight: 500;
+            max-width: 70%;
           }
         }
       }

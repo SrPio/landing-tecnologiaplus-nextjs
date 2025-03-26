@@ -9,6 +9,13 @@ function CalificadorProductsSection() {
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741104598/nuevo_4x-8_qbdidq.webp"
             alt="Calificador de Servicio"
+            className={style.img__desktop}
+          />
+          <img
+            loading="lazy"
+            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742992729/6_4x-8_fqosbn.webp"
+            alt="Calificador de Servicio"
+            className={style.img__mobile}
           />
           <div className={style.btn__container}>
             <p className={style.selling__counter}>0000 vendidos</p>
@@ -25,6 +32,13 @@ function CalificadorProductsSection() {
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738678296/Group_2_fpyzaa.webp"
             alt="Aviso de pared con calificador de servicio al cliente"
+            className={style.img__desktop}
+          />
+          <img
+            loading="lazy"
+            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742992730/7_4x-8_nuhjlt.webp"
+            alt="Calificador de Servicio"
+            className={style.img__mobile}
           />
           <div className={style.btn__container}>
             <p className={style.selling__counter}>0000 vendidos</p>

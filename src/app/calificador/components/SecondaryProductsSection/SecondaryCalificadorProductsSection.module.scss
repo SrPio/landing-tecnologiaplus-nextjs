@@ -99,6 +99,19 @@
             text-align: center;
           }
         }
+
+        .card:nth-child(2) {
+          > h2,
+          > p {
+            margin-left: 0;
+          }
+
+          img {
+            width: 80vw;
+            height: auto;
+            max-width: 450px;
+          }
+        }
       }
     }
   }

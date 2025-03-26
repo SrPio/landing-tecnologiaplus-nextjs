@@ -120,8 +120,8 @@
 
         .card {
           img {
-            width: 40vw;
-            height: auto;
+            width: auto;
+            height: 40vw;
             max-height: 40vw;
           }
 
@@ -131,11 +131,12 @@
           }
 
           &:nth-child(2) img {
-            height: auto;
+            /* width: 60vw;
+            height: 60vw; */
           }
 
           h3 {
-            font-size: clamp(12px, 4vw, 22px);
+            font-size: clamp(12px, 3vw, 22px);
             text-align: center;
             line-height: 1.2;
             height: auto;
@@ -144,6 +145,10 @@
 
           &:nth-child(1) h3 {
             line-height: 1;
+          }
+
+          &:last-child {
+            grid-column: span 2;
           }
         }
       }

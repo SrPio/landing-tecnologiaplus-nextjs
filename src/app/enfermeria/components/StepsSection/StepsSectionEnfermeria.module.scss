@@ -25,11 +25,11 @@
         height: 500px;
         width: auto;
         background: #fff;
-        border-radius: 20px;
-        -webkit-border-radius: 20px;
-        -moz-border-radius: 20px;
-        -ms-border-radius: 20px;
-        -o-border-radius: 20px;
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
       }
       .text__container {
         margin-top: -1rem;
@@ -64,6 +64,7 @@
 
 @include respond-to-max("laptop") {
   .steps__section {
+    padding: 3rem 5vw;
     h2 {
       font-size: clamp(16px, 5vw, 30px);
       text-align: center;
@@ -73,7 +74,7 @@
 
       .card {
         img {
-          width: 80vw;
+          width: 90vw;
           height: auto;
           object-fit: contain;
         }

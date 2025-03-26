@@ -329,6 +329,10 @@
             width: auto;
           }
         }
+
+        li:nth-child(odd) {
+          margin-left: 5vw;
+        }
       }
     }
   }

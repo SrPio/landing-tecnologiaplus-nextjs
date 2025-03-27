@@ -17,38 +17,22 @@ import Popup from "@/app/components/PopUp/Popup";
 function ProductGallery() {
   const [isOpen, setIsOpen] = useState(false);
   const images = [
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740420544/12_4x-8_vtpoyn.webp",
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740420350/11_4x-8_pqdaei.webp",
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740420544/13_4x-8_ozz7zi.webp",
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740420350/9_4x-8_hbtk2c.webp",
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741632937/Frame_1_43_i5i2pk.webp",
+    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743039883/6_4x-8_1_jbkzeq.webp",
+    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743039882/5_4x-8_wzjgam.webp",
+    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743039883/7_4x-8_1_saux20.webp",
+    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743039883/3_4x-8_wiiwjz.webp",
+    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743040123/Frame_1_9_tdu2he.webp",
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743026440/17_4x-8_1_vrxvxf.webp",
   ];
 
   const alternativeImages = [
     {
       name: "Negro",
-      url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741631974/Frame_2_1_fzhnq5.webp",
-    },
-    {
-      name: "Negro - Rojo",
-      url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740420369/3_4x-8_xhyiqi.webp",
-    },
-    {
-      name: "Negro - Amarillo",
-      url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740420353/2_4x-8_iyjgk9.webp",
+      url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743039510/Frame_2_5_fznqyt.webp",
     },
     {
       name: "Blanco - Negro",
-      url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740420352/5_4x-8_v44nuq.webp",
-    },
-    {
-      name: "Blanco - Rojo",
-      url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740420351/6_4x-8_kmcnhe.webp",
-    },
-    {
-      name: "Blanco - Amarillo",
-      url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740420351/7_4x-8_dfcqqq.webp",
+      url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743039509/Frame_2_6_qar5li.webp",
     },
   ];
 
@@ -199,8 +183,8 @@ function ProductGallery() {
         {/* Información del producto */}
         <div className={styles.container__info__products}>
           <div className={styles.container__titles}>
-            <h1>LLAMADOR V2N</h1>
-            <p>Para recibir llamados</p>
+            <h1>LLAMADOR V2 DE 3 TECLAS</h1>
+            <p>Para llamar al personal</p>
           </div>
 
           {/* Alternativas */}
@@ -229,13 +213,6 @@ function ProductGallery() {
                   />
                 </div>
               ))}
-              <div className={styles.info__colors}>
-                Se puede
-                <br />
-                personalizar
-                <br />
-                eI color
-              </div>
             </div>
           </div>
 
@@ -267,23 +244,23 @@ function ProductGallery() {
             label: "Galería",
             images: [
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740420544/12_4x-8_vtpoyn.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743039883/6_4x-8_1_jbkzeq.webp",
                 alt: "Imagen 1",
               },
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740420350/11_4x-8_pqdaei.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743039882/5_4x-8_wzjgam.webp",
                 alt: "Imagen 2",
               },
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740420544/13_4x-8_ozz7zi.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743039883/7_4x-8_1_saux20.webp",
                 alt: "Imagen 3",
               },
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740420350/9_4x-8_hbtk2c.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743039883/3_4x-8_wiiwjz.webp",
                 alt: "Imagen 4",
               },
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741632937/Frame_1_43_i5i2pk.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743040123/Frame_1_9_tdu2he.webp",
                 alt: "Imagen 5",
               },
               {
@@ -297,7 +274,7 @@ function ProductGallery() {
             label: "Medidas",
             images: [
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741632937/Frame_1_43_i5i2pk.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743040123/Frame_1_9_tdu2he.webp",
                 alt: "Imagen de medidas",
               },
             ],

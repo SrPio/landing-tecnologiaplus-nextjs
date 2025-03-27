@@ -12,9 +12,9 @@ function TechnicalSheet() {
             alt="icono batería"
           />
           <p>
-            Voltaje: DC12V
-            <br />
             Batería 23A12V
+            <br />
+            Voltaje: DC12V
           </p>
         </div>
         <div className={styles.item}>
@@ -34,17 +34,17 @@ function TechnicalSheet() {
         <div className={styles.item}>
           <img
             loading="lazy"
-            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740421969/18_4x-8_djfe2w.webp"
-            alt="icono de 2 teclas de llamado"
+            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743039883/11_4x-8_rp9yee.webp"
+            alt="icono de 3 teclas de llamado"
           />
           <p>
-            2 teclas de llamado:
+            3 teclas de llamado:
             <br />
-            Llamar
+            Tecla llamar o tecla pagar.
             <br />
-            cancelar (para borrar el llamado
+            Cancelar (para borrar el llamado
             <br />
-            cuando atienden el paciente)
+            cuando atienden el cliente)
           </p>
         </div>
         <div className={styles.item}>
@@ -70,14 +70,6 @@ function TechnicalSheet() {
             <br />
             Equipos de Tecnología Plus.
           </p>
-        </div>
-        <div className={styles.item}>
-          <img
-            loading="lazy"
-            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740065557/ICONO_1_4x-8_1_xmpmcr.webp"
-            alt="icono Tecnología Plus"
-          />
-          <p>Marca</p>
         </div>
         <div className={styles.item}>
           <img

@@ -8,7 +8,7 @@ function HowItWorks() {
         <div className={styles.item}>
           <img
             loading="lazy"
-            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740420410/22_4x-8_siy8li.webp"
+            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743039883/14_4x-8_1_nfpyrv.webp"
             alt="imagen de cliente presionando botón"
           />
           <p>
@@ -20,7 +20,7 @@ function HowItWorks() {
         <div className={styles.item}>
           <img
             loading="lazy"
-            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740420543/21_4x-8_klg7jr.webp"
+            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743039883/15_4x-8_1_otbk7u.webp"
             alt="imagen de mesero recibiendo llamado"
           />
           <p>
@@ -32,7 +32,7 @@ function HowItWorks() {
         <div className={styles.item}>
           <img
             loading="lazy"
-            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740420354/33_4x-8_taayyo.webp"
+            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743039883/16_4x-8_2_ej3v5o.webp"
             alt="imagen de mesero atendiendo llamado"
           />
           <p>

@@ -15,8 +15,12 @@
       }
     }
 
+    .item:nth-child(3) {
+      img {
+        height: 70px;
+      }
+    }
     .item:nth-child(6) {
-      margin-left: -80px;
       img {
         max-width: 180px;
       }

@@ -143,7 +143,9 @@ function ProductGallery() {
         {/* Información del producto */}
         <div className={styles.container__info__products}>
           <div className={styles.container__titles}>
-            <h1>Tunero T1N</h1>
+            <h1>
+              Tunero T<span>1</span>-N
+            </h1>
             <p>Para recibir llamados</p>
           </div>
 

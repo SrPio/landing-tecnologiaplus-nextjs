@@ -142,7 +142,7 @@ function ProductGallery() {
         {/* Información del producto */}
         <div className={styles.container__info__products}>
           <div className={styles.container__titles}>
-            <h1>Turnero según producto</h1>
+            <h1>Turnero Transformer</h1>
             <p>Para emitir llamados</p>
           </div>
 

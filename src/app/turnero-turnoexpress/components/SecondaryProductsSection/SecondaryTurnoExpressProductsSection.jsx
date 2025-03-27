@@ -12,7 +12,7 @@ function SecondaryTurnoExpressProductsSection() {
               src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738789798/Dispensador_2x-8_soj9hp.webp"
               alt="imagen de dispensador de turnos"
             />
-            <p>686 vendidos</p>
+            <p>2686 vendidos</p>
             <a
               className={style.card__btn}
               href="https://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/dispensador-de-tiquetes"
@@ -27,7 +27,7 @@ function SecondaryTurnoExpressProductsSection() {
               src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738448114/Rollos_de_turnos_2x-8_ovbwlu.webp"
               alt="imagen del turnero T3 con logo"
             />
-            <p>3527 vendidos</p>
+            <p>8527 vendidos</p>
             <a
               className={style.card__btn}
               href="https://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/rollos-de-turnos"

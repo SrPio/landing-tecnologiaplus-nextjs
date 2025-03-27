@@ -13,19 +13,19 @@ function LocalizadoresRelatedProducts({ titleClassName = "" }) {
       name: "Rollos de turnos",
       description: "Organiza y mejora el servicio.",
       img: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738424725/Rollos_de_turnos_2x-8_tcxrnt.webp",
-      sold: "0000 vendidos",
+      sold: "8527 vendidos",
     },
     {
       name: "TurnoExpress",
       description: "Rapidez y agilidad para tus filas.",
       img: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738350028/TurnoExpress_2x-8_ri7zqh_xjz8bw.webp",
-      sold: "0000 vendidos",
+      sold: "692 vendidos",
     },
     {
       name: "TurnoMaster",
       description: "Digitaliza la gestión de turnos.",
       img: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738350030/TurnoMaster_2x-8_stvupu_tvjv5q.webp",
-      sold: "0000 vendidos",
+      sold: "194 vendidos",
       className: style.turnomaster__card,
     },
   ];

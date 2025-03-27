@@ -13,20 +13,20 @@ function TurnoMasterRelatedProducts() {
       name: "Rollos térmicos",
       description: "Perfectos para tickets, facturas y más.",
       img: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349920/image-1_1_ljyxis_qdsmdq.webp",
-      sold: "0000 vendidos",
+      sold: "14485 vendidos",
       className: style.rollos__termicos__card,
     },
     {
       name: "TurnoExpress",
       description: "Rapidez y agilidad para tus filas.",
       img: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738350028/TurnoExpress_2x-8_ri7zqh_xjz8bw.webp",
-      sold: "0000 vendidos",
+      sold: "692 vendidos",
     },
     {
       name: "Rollos de turnos",
       description: "Organiza y mejora el servicio.",
       img: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738424725/Rollos_de_turnos_2x-8_tcxrnt.webp",
-      sold: "0000 vendidos",
+      sold: "8527 vendidos",
     },
   ];
 

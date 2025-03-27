@@ -20,13 +20,13 @@ function RelatedProducts({ titleClassName = "" }) {
       name: "TurnoExpress",
       description: "Rapidez y agilidad para tus filas.",
       img: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738350028/TurnoExpress_2x-8_ri7zqh_xjz8bw.webp",
-      sold: "0000 vendidos",
+      sold: "692 vendidos",
     },
     {
       name: "Dispensador de tiquetes",
       description: "Complemento práctico para tomar el turno.",
       img: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349966/dispensador_de_tiquetes_2x-8_qusuqr_fuxs8k.webp",
-      sold: "0000 vendidos",
+      sold: "2686 vendidos",
       className: style.dispensador__card,
     },
   ];

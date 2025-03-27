@@ -13,20 +13,20 @@ function EnfermeriaRelatedProducts({ titleClassName = "" }) {
       name: "TurnoMaster",
       description: "Digitaliza la gestión de turnos.",
       img: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738350030/TurnoMaster_2x-8_stvupu_tvjv5q.webp",
-      sold: "0000 vendidos",
+      sold: "194 vendidos",
       className: style.turnomaster__card,
     },
     {
       name: "TurnoExpress",
       description: "Rapidez y agilidad para tus filas.",
       img: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738350028/TurnoExpress_2x-8_ri7zqh_xjz8bw.webp",
-      sold: "0000 vendidos",
+      sold: "692 vendidos",
     },
     {
       name: "OpinaMaster",
       description: "Transforma opiniones en acciones estratégicas.",
       img: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738685536/Opinamaster_2x-8_sg1wyy.webp",
-      sold: "0000 vendidos",
+      sold: "18 vendidos",
     },
   ];
 

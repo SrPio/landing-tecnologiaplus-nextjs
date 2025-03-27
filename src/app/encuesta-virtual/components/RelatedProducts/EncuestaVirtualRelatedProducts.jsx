@@ -13,7 +13,7 @@ function EncuestaVirtualRelatedProducts() {
       name: "Calificador de servicios",
       description: "Toma decisiones con la opinión de tus clientes",
       img: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738607994/calificador_de_servicios_2x-8_pjnvol.webp",
-      sold: "0000 vendidos",
+      sold: "472 vendidos",
       className: style.calificador__card,
     },
     {
@@ -27,7 +27,7 @@ function EncuestaVirtualRelatedProducts() {
       name: "TurnoExpress",
       description: "Rapidez y agilidad para tus filas.",
       img: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738350028/TurnoExpress_2x-8_ri7zqh_xjz8bw.webp",
-      sold: "0000 vendidos",
+      sold: "692 vendidos",
     },
   ];
 

@@ -13,21 +13,21 @@ function TurnoExpressRelatedProducts({ titleClassName = "" }) {
       name: "TurnoMaster",
       description: "Digitaliza la gestión de turnos.",
       img: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738350030/TurnoMaster_2x-8_stvupu_tvjv5q.webp",
-      sold: "0000 vendidos",
+      sold: "194 vendidos",
       className: style.turnomaster__card,
     },
     {
       name: "Rollos térmicos",
       description: "Perfectos para tickets, facturas y más.",
       img: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349920/image-1_1_ljyxis_qdsmdq.webp",
-      sold: "0000 vendidos",
+      sold: "14485 vendidos",
       className: style.rollos__termicos__card,
     },
     {
       name: "Localizadores para Restaurantes",
       description: "Lleva tu autoservicio a otro nivel",
       img: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741708165/NUEVA_etp9mi.webp",
-      sold: "0000 vendidos",
+      sold: "4225 vendidos",
     },
   ];
 

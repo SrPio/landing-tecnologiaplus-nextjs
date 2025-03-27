@@ -17,7 +17,10 @@ function VideoSection() {
           Reproduce el video y conoce la calidad de nuestros llamadores de
           meseros
         </p>
-        <a className={style.card__btn} href="#">
+        <a
+          className={style.card__btn}
+          href="https://landing-tecnologiaplus-nextjs.vercel.app/llamador-meseros"
+        >
           Ver más
         </a>
       </div>

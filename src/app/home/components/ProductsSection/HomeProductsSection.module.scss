@@ -2,7 +2,8 @@
 @use "../../../styles/base/mixins" as *;
 
 .products__section {
-  padding-bottom: 400px;
+  /* padding-bottom: 400px; */
+  padding-bottom: 0;
   > h2 {
     margin-bottom: 3rem;
 
@@ -21,7 +22,7 @@
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 80px 40px;
     width: 95vw; // Asegura que el contenedor ocupa todo el ancho de la pantalla
-    padding: 20px;
+    /* padding: 20px; */
 
     @include respond-to-max("laptop") {
       grid-template-columns: repeat(1, minmax(0, 1fr));

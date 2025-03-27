@@ -11,6 +11,7 @@ import WppBtn from "./components/WppBtn/WppBtn";
 import Footer from "./components/Footer/Footer";
 import ContactForm from "@/app/components/ContactForm/ContactForm";
 import SliderHero from "./components/SliderHero/SliderHero";
+import VideoSection from "./home/components/VideoSection/ProductsSection/VideoSection";
 
 
 export const metadata = {
@@ -68,6 +69,7 @@ export default function Home() {
       <SecondaryHeader />
       <HomeClientsSection />
       <HomeProductsSection />
+      <VideoSection />
       <HomeBenefitsSection />
       <HomeRecentPostsSection />
       <ContactForm />

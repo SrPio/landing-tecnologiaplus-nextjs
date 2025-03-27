@@ -140,7 +140,9 @@ function ProductGallery() {
         {/* Información del producto */}
         <div className={styles.container__info__products}>
           <div className={styles.container__titles}>
-            <h1>Llamador E1 para colgar en cuello</h1>
+            <h1>
+              Llamador E<span>1</span> para colgar en cuello
+            </h1>
             <p>Para llamar la enfermera</p>
           </div>
 

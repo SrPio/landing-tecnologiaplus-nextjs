@@ -33,7 +33,7 @@ extensor EX1"
             <h3>
               Llamador con
               <br />
-              extensor EX1
+              extensor EX<span>1</span>
             </h3>
             <a
               className={style.card__btn}
@@ -41,7 +41,7 @@ extensor EX1"
             >
               Ver más
             </a>
-            <p>198 vendidos</p>
+            <p>3852 vendidos</p>
           </div>
           <div className={style.card}>
             <img
@@ -51,7 +51,7 @@ extensor EX1"
 para colgar en cuello"
             />
             <h3>
-              Llamador E1
+              Llamador E<span>1</span>
               <br />
               para colgar en cuello
             </h3>
@@ -61,7 +61,7 @@ para colgar en cuello"
             >
               Ver más
             </a>
-            <p>4.568 vendidos</p>
+            <p>568 vendidos</p>
           </div>
         </div>
         <h2>Opciones para recibir llamados</h2>
@@ -74,8 +74,10 @@ para colgar en cuello"
               src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739197744/Turnero_T1B_2x-8_1_1_opvowd.webp"
               alt="imagen de Pantalla T1B"
             />
-            <h3>Pantalla T1B</h3>
-            <p>286 vendidos</p>
+            <h3>
+              Pantalla T<span>1</span>B de <span>1</span> llamado
+            </h3>
+            <p>886 vendidos</p>
             <a
               className={style.card__btn}
               href="https://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/enfermeria/pantalla-t1b"
@@ -89,8 +91,8 @@ para colgar en cuello"
               src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738685534/pantalla_T6_2x-8_zm3lja.webp"
               alt="imagen de Pantalla T6"
             />
-            <h3>Pantalla T6</h3>
-            <p>142 vendidos</p>
+            <h3>Pantalla T6 de 6 llamados</h3>
+            <p>942 vendidos</p>
             <a
               className={style.card__btn}
               href="http://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/enfermeria/pantalla-6-llamados"
@@ -105,8 +107,11 @@ para colgar en cuello"
               alt="imagen de Alarma de luz"
             />
             <h3>Alarma de luz</h3>
-            <p>1649 vendidos</p>
-            <a className={style.card__btn} href="#">
+            <p>2649 vendidos</p>
+            <a
+              className={style.card__btn}
+              href="https://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/enfermeria/alarma-de-luz"
+            >
               Ver más
             </a>
           </div>
@@ -114,10 +119,10 @@ para colgar en cuello"
             <img
               loading="lazy"
               src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738685534/reloj_receptor_digital_2x-8_adfgxj.webp"
-              alt="imagen de Reloj receptor digital"
+              alt="imagen de Reloj receptor de llamados"
             />
-            <h3>Reloj receptor digital</h3>
-            <p>1276 vendidos</p>
+            <h3>Reloj receptor de llamados</h3>
+            <p>2276 vendidos</p>
             <a
               className={style.card__btn}
               href="https://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/enfermeria/reloj-receptor"

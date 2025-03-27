@@ -55,7 +55,7 @@
         flex-direction: row;
 
         img {
-          width: 20vw;
+          width: 25vw;
           height: 20vw;
           max-width: 300px;
           max-height: 300px;
@@ -63,7 +63,8 @@
       }
 
       li:nth-child(2) img {
-        height: auto;
+        height: 20vw;
+        width: 25vw;
       }
 
       li:nth-child(3) img {

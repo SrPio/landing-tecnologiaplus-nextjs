@@ -12,8 +12,8 @@ function CalificadorClientsSection() {
     <section className={style.clients__section}>
       <h2 className={style.clients__title}>Algunos de nuestros clientes</h2>
       <p>
-        Toman decisiones con el calificador de servicio al cliente de
-        OpinaMaster
+        Empresas que toman decisiones con el calificador de servicio al cliente
+        de OpinaMaster
       </p>
       <div className={style.clients__container}>
         <InfiniteSlider logos={logosCalificador} />

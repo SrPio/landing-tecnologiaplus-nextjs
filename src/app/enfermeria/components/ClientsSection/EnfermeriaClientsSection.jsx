@@ -12,8 +12,7 @@ function EnfermeriaClientsSection() {
     <section className={style.clients__section}>
       <h2 className={style.clients__title}>Algunos de nuestros clientes</h2>
       <p>
-        Entidades médicas que han mejorado su atención con nuestro Llamado de
-        Enfermeras
+        Entidades médicas que mejoran su atención con el llamado de enfermeras
       </p>
       <div className={style.clients__container}>
         <InfiniteSlider logos={logosEnfermeria} />

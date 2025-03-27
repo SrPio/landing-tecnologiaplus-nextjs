@@ -4,11 +4,8 @@ function EncuestaVirtualIndustriesSection() {
   return (
     <section className={style.industries__section}>
       <h2>
-        UN SISTEMA DE ENCUESTAS
-        <br />
-        VERSÁTIL PARA MEJORAR LA
-        <br />
-        ATENCIÓN AL CLIENTE.
+        Un sistema de encuestas versátil a cualquier sector para mejorar la
+        atención al cliente.
       </h2>
       <ul>
         <li>

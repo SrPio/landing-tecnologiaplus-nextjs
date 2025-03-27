@@ -12,8 +12,8 @@ function TurnoMasterClientsSection() {
     <section className={style.clients__section}>
       <h2 className={style.clients__title}>Algunos de nuestros clientes</h2>
       <p>
-        Usan TurnoMaster para decidir en tiempo real como agilizar el flujo de
-        filas
+        Empresas que usan TurnoMaster para agilizar el flujo de filas en tiempo
+        real
       </p>
       <div className={style.clients__container}>
         <InfiniteSlider logos={logosTurnoMaster} />

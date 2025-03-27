@@ -4,11 +4,8 @@ function LocalizadoresIndustriesSection() {
   return (
     <section className={style.industries__section}>
       <h2>
-        NUESTROS AVISADORES
-        <br />
-        FUNCIONAN PARA
-        <br />
-        DISTINTOS SECTORES
+        Nuestros localizadores de clientes se adaptan a distintos sectores y
+        necesidades.
       </h2>
       <ul>
         <li>

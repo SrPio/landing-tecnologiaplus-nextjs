@@ -22,12 +22,12 @@ function LocalizadoresHeroSection({
         />
 
         <div className={styles.hero__text}>
-          <h1>Lorem ipsum dolor sit</h1>
-          <p>
-            Lorem ipsum dolor sit amet,
+          <h1>
+            Localizadores para restaurantes:
             <br />
-            consectetuer adipiscing elit,
-          </p>
+            Tus clientes disfrutan el tiempo mientras esperan el pedido.
+          </h1>
+          <p>Sin filas y sin temor de perder el turno.</p>
           {boton ? (
             <a className={styles.hero__btn} href={boton.href}>
               {boton.text}

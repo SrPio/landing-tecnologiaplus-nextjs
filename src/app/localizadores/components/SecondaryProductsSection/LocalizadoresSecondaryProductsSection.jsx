@@ -49,11 +49,15 @@ function LocalizadoresSecondaryProductsSection() {
               />
             </div>
           </div>
+          <p>
+            Localizador de clientes con señal de largo alcance y material
+            resistente a golpes o caidas.
+          </p>
         </div>
       </section>
       <section className={`${style.products__section} ${style.video__section}`}>
         <div className={style.products__container}>
-          <h2>Dale play para verlos funcionar</h2>
+          <h2>Veamos funcionar nuestros Localizadores para Restaurantes</h2>
           <div className={style.products__card__container}>
             <iframe
               width="560"

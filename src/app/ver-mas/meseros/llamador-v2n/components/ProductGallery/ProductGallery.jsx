@@ -22,7 +22,7 @@ function ProductGallery() {
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740420544/13_4x-8_ozz7zi.webp",
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740420350/9_4x-8_hbtk2c.webp",
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741632937/Frame_1_43_i5i2pk.webp",
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741633054/Frame_1_44_wf7za6.webp",
+    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743026440/17_4x-8_1_vrxvxf.webp",
   ];
 
   const alternativeImages = [
@@ -287,7 +287,7 @@ function ProductGallery() {
                 alt: "Imagen 5",
               },
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741633054/Frame_1_44_wf7za6.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743026440/17_4x-8_1_vrxvxf.webp",
                 alt: "Imagen 6",
               },
             ],

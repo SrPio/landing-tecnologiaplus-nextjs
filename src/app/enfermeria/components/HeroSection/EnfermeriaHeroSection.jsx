@@ -16,7 +16,13 @@ function EnfermeriaHeroSection({
       <div className={styles.hero__content}>
         <img
           loading="lazy"
-          className={styles.hero__img}
+          className={styles.hero__img__desktop}
+          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738685528/Imagen_principal_2x-8_1_cnekrr.webp"
+          alt="imagen de llamador de personal"
+        />
+        <img
+          loading="lazy"
+          className={styles.hero__img__mobile}
           src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739198779/Recurso_32_2x-8_ifuwuz.webp"
           alt="imagen de llamador de personal"
         />

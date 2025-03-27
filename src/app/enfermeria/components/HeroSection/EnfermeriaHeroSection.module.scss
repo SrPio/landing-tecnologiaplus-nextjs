@@ -3,11 +3,13 @@
 
 .hero {
   .hero__content {
-    .hero__img {
+    .hero__img__desktop {
       width: 80%;
       max-width: 900px;
       height: auto;
       max-height: 80vh;
+      align-self: flex-end;
+      object-fit: contain;
 
       @media (min-width: 500px) and (max-width: 1800px) {
         width: 60%;
@@ -16,6 +18,18 @@
       }
       @include respond-to-max("laptop") {
         align-self: auto;
+        width: 80vw;
+        height: auto;
+        max-width: 500px;
+        display: none;
+      }
+    }
+
+    .hero__img__mobile {
+      display: none;
+      @include respond-to-max("laptop") {
+        display: block;
+        align-self: auto;
         width: 90vw;
         height: auto;
         max-width: 500px;
@@ -23,7 +37,7 @@
     }
 
     .hero__text {
-      margin-left: -24px;
+      margin-left: -149px;
       @include respond-to-max("laptop") {
         margin-left: 0;
         display: none;

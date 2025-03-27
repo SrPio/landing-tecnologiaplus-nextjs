@@ -73,18 +73,37 @@
         }
       }
 
-      iframe {
-        width: 35vw;
-        height: auto;
-        aspect-ratio: 16 / 9;
-        border-radius: 12px;
-        -webkit-border-radius: 12px;
-        -moz-border-radius: 12px;
-        -ms-border-radius: 12px;
-        -o-border-radius: 12px;
-
+      .card__video {
         @include respond-to-max("laptop") {
-          width: 80vw;
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          justify-content: center;
+          align-items: center;
+        }
+        iframe {
+          width: 25vw;
+          height: auto;
+          aspect-ratio: 16 / 9;
+          border-radius: 12px;
+          -webkit-border-radius: 12px;
+          -moz-border-radius: 12px;
+          -ms-border-radius: 12px;
+          -o-border-radius: 12px;
+
+          @include respond-to-max("laptop") {
+            width: 80vw;
+          }
+        }
+
+        p {
+          font-size: 1rem;
+          font-weight: 700;
+          max-width: 400px;
+          margin: 0 auto 20px;
+          text-wrap: balance;
+          text-align: center;
+          width: 100%;
         }
       }
     }

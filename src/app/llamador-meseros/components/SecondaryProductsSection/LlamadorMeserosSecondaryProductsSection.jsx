@@ -12,7 +12,7 @@ function LlamadorMeserosSecondaryProductsSection() {
             <div className={style.card}>
               <div>
                 <h3>
-                  Llamador V2N
+                  Llamador E2-N
                   <br />
                   de 3 teclas
                 </h3>
@@ -32,7 +32,11 @@ function LlamadorMeserosSecondaryProductsSection() {
             </div>
             <div className={style.card}>
               <div>
-                <h3>Llamador V2B</h3>
+                <h3>
+                  Llamador E2-B
+                  <br />
+                  de 2 teclas
+                </h3>
                 <a
                   className={style.card__btn}
                   href="http://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/meseros/llamador-v2b"
@@ -71,9 +75,9 @@ function LlamadorMeserosSecondaryProductsSection() {
             <div className={style.card}>
               <div>
                 <h3>
-                  Control
+                  Control numérico
                   <br />
-                  numérico
+                  para cocina
                 </h3>
                 <a
                   className={style.card__btn}
@@ -96,10 +100,10 @@ function LlamadorMeserosSecondaryProductsSection() {
               <img
                 loading="lazy"
                 src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738685534/reloj_receptor_digital_2x-8_adfgxj.webp"
-                alt="imagen del Reloj receptor digital"
+                alt="imagen del Reloj de llamados"
               />
-              <h3>Reloj receptor digital</h3>
-              <p>1276 vendidos</p>
+              <h3>Reloj receptor de llamados</h3>
+              <p>2276 vendidos</p>
               <a
                 className={style.card__btn}
                 href="http://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/meseros/reloj-receptor"
@@ -113,8 +117,10 @@ function LlamadorMeserosSecondaryProductsSection() {
                 src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739197744/Turnero_T1B_2x-8_1_1_opvowd.webp"
                 alt="imagen del Pantalla de 1 llamado"
               />
-              <h3>Pantalla de 1 llamado</h3>
-              <p>286 vendidos</p>
+              <h3>
+                Pantalla T<span>1</span>B de <span>1</span> llamado
+              </h3>
+              <p>886 vendidos</p>
               <a
                 className={style.card__btn}
                 href="https://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/meseros/pantalla-t1b"
@@ -128,8 +134,8 @@ function LlamadorMeserosSecondaryProductsSection() {
                 src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738694391/6_llamados_2x-8_wppkb6.webp"
                 alt="imagen del Pantalla de 6 llamados"
               />
-              <h3>Pantalla de 6 llamados</h3>
-              <p>142 vendidos</p>
+              <h3>Pantalla T6 de 6 llamados</h3>
+              <p>942 vendidos</p>
               <a
                 className={style.card__btn}
                 href="https://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/meseros/pantalla-6-llamados"

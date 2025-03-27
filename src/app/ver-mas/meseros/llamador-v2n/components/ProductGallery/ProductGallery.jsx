@@ -183,7 +183,7 @@ function ProductGallery() {
         {/* Información del producto */}
         <div className={styles.container__info__products}>
           <div className={styles.container__titles}>
-            <h1>LLAMADOR V2 DE 3 TECLAS</h1>
+            <h1>Llamador E2-N DE 3 TECLAS</h1>
             <p>Para llamar al personal</p>
           </div>
 

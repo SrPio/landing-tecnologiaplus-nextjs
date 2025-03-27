@@ -143,7 +143,9 @@ function ProductGallery() {
         {/* Información del producto */}
         <div className={styles.container__info__products}>
           <div className={styles.container__titles}>
-            <h1>Pantalla de 1 llamado</h1>
+            <h1>
+              Pantalla T<span>1</span>B de <span>1</span> llamado
+            </h1>
             <p>Para recibir llamados</p>
           </div>
 

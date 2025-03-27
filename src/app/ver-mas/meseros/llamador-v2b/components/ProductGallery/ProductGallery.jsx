@@ -16,6 +16,14 @@ import Popup from "@/app/components/PopUp/Popup";
 
 function ProductGallery() {
   const [isOpen, setIsOpen] = useState(false);
+  const [isVideoSelected, setIsVideoSelected] = useState(false);
+  const videoData = {
+    thumbnail:
+      "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743115272/Frame_1_11_v59cqa.webp",
+    videoUrl:
+      "https://res.cloudinary.com/ddqh0mkx9/video/upload/v1743107660/COMPRESS_ANIMACIO%CC%81N_FINAL_COM_AJUSTES_nualz4.mp4",
+  };
+
   const images = [
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740497011/20_4x-8_onyawh.webp",
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740497011/19_4x-8_jxofor.webp",
@@ -23,6 +31,7 @@ function ProductGallery() {
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740497010/17_4x-8_1_bykczq.webp",
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741632153/Frame_1_41_whqmii.webp",
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743026399/16_4x-8_h030co.webp",
+    videoData.thumbnail, // Miniatura del video
   ];
 
   const alternativeImages = [
@@ -80,7 +89,9 @@ function ProductGallery() {
         (prevIndex) => (prevIndex + 1) % alternativeImages.length
       );
     } else {
-      setSelectedIndex((prevIndex) => (prevIndex + 1) % images.length);
+      const newIndex = (selectedIndex + 1) % images.length;
+      setSelectedIndex(newIndex);
+      setIsVideoSelected(images[newIndex] === videoData.thumbnail); // Verificar si el nuevo index es el video
     }
   };
 
@@ -90,15 +101,31 @@ function ProductGallery() {
         prevIndex === 0 ? alternativeImages.length - 1 : prevIndex - 1
       );
     } else {
-      setSelectedIndex((prevIndex) =>
-        prevIndex === 0 ? images.length - 1 : prevIndex - 1
-      );
+      const newIndex =
+        selectedIndex === 0 ? images.length - 1 : selectedIndex - 1;
+      setSelectedIndex(newIndex);
+      setIsVideoSelected(images[newIndex] === videoData.thumbnail); // Verificar si el nuevo index es el video
+    }
+  };
+
+  const handlePaginationClick = (index) => {
+    if (isAlternative) {
+      setSelectedAltIndex(index);
+    } else {
+      setSelectedIndex(index);
     }
   };
 
   const handleSelectAlternative = (img, index) => {
-    setSelectedAltIndex(index);
     setIsAlternative(true);
+    setSelectedAltIndex(index);
+    setIsVideoSelected(false); // Asegurar que el video se deseleccione
+  };
+
+  const handleSelectImage = (index) => {
+    setIsAlternative(false);
+    setSelectedIndex(index);
+    setIsVideoSelected(images[index] === videoData.thumbnail); // Si es el video, lo seleccionamos
   };
 
   useDisableRightClick();
@@ -137,11 +164,12 @@ function ProductGallery() {
                   key={index}
                   src={img}
                   alt={`Thumbnail ${index + 1}`}
-                  onClick={() => {
-                    setIsAlternative(false);
-                    setSelectedIndex(scrollPosition + index);
-                  }}
-                  className={selectedImage === img ? styles.active : ""}
+                  onClick={() => handleSelectImage(scrollPosition + index)}
+                  className={
+                    selectedIndex === scrollPosition + index
+                      ? styles.active
+                      : ""
+                  }
                   style={{ cursor: "pointer" }}
                 />
               ))}
@@ -167,9 +195,18 @@ function ProductGallery() {
               onClick={handlePrevImage}
               onMouseDown={(e) => e.preventDefault()}
             />
-
-            <img loading="lazy" src={selectedImage} alt="Imagen seleccionada" />
-
+            {isVideoSelected ? (
+              <video controls className={styles.videoPlayer}>
+                <source src={videoData.videoUrl} type="video/mp4" />
+                Tu navegador no soporta videos.
+              </video>
+            ) : (
+              <img
+                loading="lazy"
+                src={selectedImage}
+                alt="Imagen seleccionada"
+              />
+            )}
             <IoIosArrowForward
               className={styles.icon__next}
               onClick={handleNextImage}
@@ -185,11 +222,7 @@ function ProductGallery() {
                       ? styles.activeDot
                       : ""
                   }`}
-                  onClick={() =>
-                    isAlternative
-                      ? setSelectedAltIndex(index)
-                      : setSelectedIndex(index)
-                  }
+                  onClick={() => handlePaginationClick(index)}
                 />
               ))}
             </div>

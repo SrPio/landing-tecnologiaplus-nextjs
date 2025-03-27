@@ -11,26 +11,40 @@ const BlogCard = ({
   link,
   customClass,
   width, // Nuevo prop para cambiar ancho
+  height, // Nuevo prop para cambiar alto
+  fontSize, // Nuevo prop para tamaño de fuente
+  imageWidth, // Nuevo prop para ancho de imagen
+  imageHeight, // Nuevo prop para alto de imagen
   date, // Nuevo prop para mostrar fecha
   hideSocials = false, // Controla si se ocultan las redes
 }) => {
   return (
     <div
       className={classNames(style.blog__card, style[customClass])}
-      style={{ width: width || "auto" }} // Aplica ancho si se proporciona
+      style={{ width: width || "auto", height: height || "auto" }}
     >
       <img
         loading="lazy"
         src={imageSrc}
         alt={altText}
         className={style.card__image}
+        style={{ width: imageWidth || "100%", height: imageHeight || "auto" }}
       />
       <div className={style.card__content}>
-        <h3 className={style.card__title}>{title}</h3>
-        <p className={style.card__description}>{description}</p>
+        <h3
+          className={style.card__title}
+          style={{ fontSize: fontSize || "1.5rem" }}
+        >
+          {title}
+        </h3>
+        <p
+          className={style.card__description}
+          style={{ fontSize: fontSize ? `calc(${fontSize} * 0.8)` : "1rem" }}
+        >
+          {description}
+        </p>
 
         <div className={style.social__container}>
-          {/* Si hay fecha, la muestra en lugar de redes */}
           {date ? (
             <span className={style.card__date}>{date}</span>
           ) : !hideSocials ? (

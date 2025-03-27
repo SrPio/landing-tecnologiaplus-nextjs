@@ -113,6 +113,11 @@ function ArticuloPlantilla({
               altText="Imagen 1"
               link="#"
               date="20 de marzo de 2025"
+              width="20vw"
+              height="12vw"
+              imageWidth="20vw"
+              imageHeight="5vw"
+              fontSize="1rem"
             />
             <BlogCard
               title="Título 2"
@@ -121,6 +126,11 @@ function ArticuloPlantilla({
               altText="Imagen 2"
               link="#"
               date="21 de marzo de 2025"
+              width="20vw"
+              height="12vw"
+              imageWidth="20vw"
+              imageHeight="5vw"
+              fontSize="1rem"
             />
             <BlogCard
               title="Título 3"
@@ -129,6 +139,11 @@ function ArticuloPlantilla({
               altText="Imagen 3"
               link="#"
               date="22 de marzo de 2025"
+              width="20vw"
+              height="12vw"
+              imageWidth="20vw"
+              imageHeight="5vw"
+              fontSize="1rem"
             />
           </div>
         </section>

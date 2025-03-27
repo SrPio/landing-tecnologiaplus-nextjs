@@ -17,7 +17,7 @@ function LocalizadoresSecondaryProductsSection() {
                 >
                   Ver más
                 </a>
-                <p>1.948 vendidos</p>
+                <p>2.595 vendidos</p>
               </div>
               <img
                 loading="lazy"

@@ -34,7 +34,7 @@ function HomeProductsSection() {
         <Card
           title="Llamadores de meseros"
           description="El botón que eleva la calidad del servicio."
-          imageSrc="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738944552/4_2x-8_2_zbywdq.webp"
+          imageSrc="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743107327/NUEVA_4x-8_1_wyooar.webp"
           altText="imagen de Llamadores de meseros"
           link="#"
           customClass="custom__style__four"

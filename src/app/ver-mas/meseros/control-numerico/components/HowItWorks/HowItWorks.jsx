@@ -20,7 +20,7 @@ function HowItWorks() {
         <div className={styles.item}>
           <img
             loading="lazy"
-            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740160659/12_4x-8_lsla4e.webp"
+            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743041698/21_4x-8_lmx89i.webp"
             alt="imagen de mesero recibiendo alerta en reloj o pantalla"
           />
           <p>

@@ -32,7 +32,7 @@ function HowItWorks() {
         <div className={styles.item}>
           <img
             loading="lazy"
-            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740670192/16_4x-8_1_eielcu.webp"
+            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743041523/19_4x-8_eldrap.webp"
             alt="imagen de enfermera atendiendo el llamado"
           />
           <p>

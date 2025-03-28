@@ -14,18 +14,21 @@ function LocalizadoresRelatedProducts({ titleClassName = "" }) {
       description: "Organiza y mejora el servicio.",
       img: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738424725/Rollos_de_turnos_2x-8_tcxrnt.webp",
       sold: "8527 vendidos",
+      link: "https://landing-tecnologiaplus-nextjs.vercel.app/rollos-turnos",
     },
     {
       name: "TurnoExpress",
       description: "Rapidez y agilidad para tus filas.",
       img: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738350028/TurnoExpress_2x-8_ri7zqh_xjz8bw.webp",
       sold: "692 vendidos",
+      link: "https://landing-tecnologiaplus-nextjs.vercel.app/turnero-turnoexpress",
     },
     {
       name: "TurnoMaster",
       description: "Digitaliza la gestión de turnos.",
       img: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738350030/TurnoMaster_2x-8_stvupu_tvjv5q.webp",
       sold: "194 vendidos",
+      link: "https://landing-tecnologiaplus-nextjs.vercel.app/turnomaster",
       className: style.turnomaster__card,
     },
   ];
@@ -72,7 +75,7 @@ function LocalizadoresRelatedProducts({ titleClassName = "" }) {
                     />
                   </div>
                   <p className={style.selling__counter}>{product.sold}</p>
-                  <a className={style.card__btn} href="#">
+                  <a className={style.card__btn} href={product.link}>
                     Ver más
                   </a>
                 </div>

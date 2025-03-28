@@ -14,6 +14,7 @@ function CalificadorRelatedProducts({ titleClassName = "" }) {
       description: "Digitaliza la gestión de turnos.",
       img: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349924/TurnoMaster_2x-8_1_t4wh3f_ooru74.webp",
       sold: "0000 vendidos",
+      link: "https://landing-tecnologiaplus-nextjs.vercel.app/turnomaster",
       className: style.turnomaster__card,
     },
     {
@@ -21,12 +22,14 @@ function CalificadorRelatedProducts({ titleClassName = "" }) {
       description: "Rapidez y agilidad para tus filas.",
       img: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738350028/TurnoExpress_2x-8_ri7zqh_xjz8bw.webp",
       sold: "692 vendidos",
+      link: "https://landing-tecnologiaplus-nextjs.vercel.app/turnero-turnoexpress",
     },
     {
       name: "CuidaMaster",
       description: "Transforma opiniones en acciones estratégicas.",
       img: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738596111/cuidamaster_2x-8_dlawzx.webp",
       sold: "9825 vendidos",
+      link: "https://landing-tecnologiaplus-nextjs.vercel.app/enfermeria",
     },
   ];
   return (
@@ -68,7 +71,7 @@ function CalificadorRelatedProducts({ titleClassName = "" }) {
                     />
                   </div>
                   <p className={style.selling__counter}>{product.sold}</p>
-                  <a className={style.card__btn} href="#">
+                  <a className={style.card__btn} href={product.link}>
                     Ver más
                   </a>
                 </div>

@@ -14,6 +14,7 @@ function TurnoMasterRelatedProducts() {
       description: "Perfectos para tickets, facturas y más.",
       img: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349920/image-1_1_ljyxis_qdsmdq.webp",
       sold: "14485 vendidos",
+      link: "https://landing-tecnologiaplus-nextjs.vercel.app/rollos-termicos",
       className: style.rollos__termicos__card,
     },
     {
@@ -21,12 +22,14 @@ function TurnoMasterRelatedProducts() {
       description: "Rapidez y agilidad para tus filas.",
       img: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738350028/TurnoExpress_2x-8_ri7zqh_xjz8bw.webp",
       sold: "692 vendidos",
+      link: "https://landing-tecnologiaplus-nextjs.vercel.app/turnero-turnoexpress",
     },
     {
       name: "Rollos de turnos",
       description: "Organiza y mejora el servicio.",
       img: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738424725/Rollos_de_turnos_2x-8_tcxrnt.webp",
       sold: "8527 vendidos",
+      link: "https://landing-tecnologiaplus-nextjs.vercel.app/rollos-turnos",
     },
   ];
 
@@ -66,7 +69,7 @@ function TurnoMasterRelatedProducts() {
                     />
                   </div>
                   <p className={style.selling__counter}>{product.sold}</p>
-                  <a className={style.card__btn} href="#">
+                  <a className={style.card__btn} href={product.link}>
                     Ver más
                   </a>
                 </div>

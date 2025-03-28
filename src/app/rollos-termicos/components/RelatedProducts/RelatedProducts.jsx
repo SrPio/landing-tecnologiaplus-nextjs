@@ -14,6 +14,7 @@ function RelatedProducts({ titleClassName = "" }) {
       description: "Digitaliza la gestión de turnos.",
       img: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349924/TurnoMaster_2x-8_1_t4wh3f_ooru74.webp",
       sold: "0000 vendidos",
+      link: "https://landing-tecnologiaplus-nextjs.vercel.app/turnomaster",
       className: style.turnomaster__card,
     },
     {
@@ -21,6 +22,7 @@ function RelatedProducts({ titleClassName = "" }) {
       description: "Rapidez y agilidad para tus filas.",
       img: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738350028/TurnoExpress_2x-8_ri7zqh_xjz8bw.webp",
       sold: "692 vendidos",
+      link: "https://landing-tecnologiaplus-nextjs.vercel.app/turnero-turnoexpress",
     },
     {
       name: "Dispensador de tiquetes",
@@ -28,6 +30,7 @@ function RelatedProducts({ titleClassName = "" }) {
       img: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349966/dispensador_de_tiquetes_2x-8_qusuqr_fuxs8k.webp",
       sold: "2686 vendidos",
       className: style.dispensador__card,
+      link: "https://landing-tecnologiaplus-nextjs.vercel.app/dispensador-tiquetes",
     },
   ];
 
@@ -69,7 +72,7 @@ function RelatedProducts({ titleClassName = "" }) {
                     />
                   </div>
                   <p className={style.selling__counter}>{product.sold}</p>
-                  <a className={style.card__btn} href="#">
+                  <a className={style.card__btn} href={product.link}>
                     Ver más
                   </a>
                 </div>

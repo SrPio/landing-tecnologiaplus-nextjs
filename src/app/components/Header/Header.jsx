@@ -48,7 +48,7 @@ function Header({ customStyles = {} }) {
           customStyles.navLinks || ""
         }`}
       >
-        <a href="#">Inicio</a>
+        <a href="https://landing-tecnologiaplus-nextjs.vercel.app/">Inicio</a>
 
         {/* Dropdown Productos */}
         <div className={styles.dropdown}>
@@ -69,47 +69,70 @@ function Header({ customStyles = {} }) {
             }`}
           >
             <li>
-              <a href="#">Turnero</a>
+              <a href="https://landing-tecnologiaplus-nextjs.vercel.app/turnero-turnoexpress">
+                Turnero
+              </a>
             </li>
             <li>
-              <a href="#">Rollos de turnos</a>
+              <a href="https://landing-tecnologiaplus-nextjs.vercel.app/rollos-turnos">
+                Rollos de turnos
+              </a>
             </li>
             <li>
-              <a href="#">Rollos térmicos</a>
+              <a href="https://landing-tecnologiaplus-nextjs.vercel.app/rollos-termicos">
+                Rollos térmicos
+              </a>
             </li>
             <li>
-              <a href="#">Dispensador de tiquetes</a>
+              <a href="https://landing-tecnologiaplus-nextjs.vercel.app/dispensador-tiquetes">
+                Dispensador de tiquetes
+              </a>
             </li>
-            <li>
+            {/* <li>
               <a href="#">Software para turnos</a>
+            </li> */}
+            <li>
+              <a href="https://landing-tecnologiaplus-nextjs.vercel.app/localizadores">
+                Localizadores de clientes
+              </a>
             </li>
             <li>
-              <a href="#">Localizadores de clientes</a>
+              <a href="https://landing-tecnologiaplus-nextjs.vercel.app/llamador-meseros">
+                Llamadores de meseros
+              </a>
             </li>
             <li>
-              <a href="#">Llamadores de meseros</a>
+              <a href="https://landing-tecnologiaplus-nextjs.vercel.app/enfermeria">
+                Llamado de enfermería
+              </a>
             </li>
             <li>
-              <a href="#">Llamado de enfermería</a>
+              <a href="https://landing-tecnologiaplus-nextjs.vercel.app/calificador">
+                Calificador de servicios
+              </a>
             </li>
             <li>
-              <a href="#">Calificador de servicios</a>
-            </li>
-            <li>
-              <a href="#">Encuestas de satisfacción</a>
+              <a href="https://landing-tecnologiaplus-nextjs.vercel.app/encuesta-virtual">
+                Encuestas de satisfacción
+              </a>
             </li>
           </ul>
         </div>
 
         {/* Blog como enlace normal */}
-        <a href="#">Blog</a>
+        <a href="https://landing-tecnologiaplus-nextjs.vercel.app/blog-tecnologia-plus">
+          Blog
+        </a>
 
-        <a href="#" className={styles.contactoMobile}>
+        <a
+          href="https://landing-tecnologiaplus-nextjs.vercel.app/contacto"
+          className={styles.contactoMobile}
+        >
           Contacto
         </a>
       </div>
       <a
-        href="#"
+        href="https://landing-tecnologiaplus-nextjs.vercel.app/"
         className={`${styles.logo__container} ${
           customStyles.logoContainer || ""
         }`}
@@ -124,7 +147,10 @@ function Header({ customStyles = {} }) {
       <div
         className={`${styles.header__right} ${customStyles.headerRight || ""}`}
       >
-        <a href="#" className={styles.contactoDesktop}>
+        <a
+          href="https://landing-tecnologiaplus-nextjs.vercel.app/contacto"
+          className={styles.contactoDesktop}
+        >
           Contacto
         </a>
         <a href="#">
@@ -135,7 +161,7 @@ function Header({ customStyles = {} }) {
           />
         </a>
         <a
-          href="#"
+          href="tel:3227347971"
           className={`${styles.phone__btn} ${customStyles.phoneBtn || ""}`}
         >
           <HiPhone

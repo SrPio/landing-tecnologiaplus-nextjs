@@ -28,10 +28,8 @@ function TechnicalSheet() {
             alt="icono de llamadores"
           />
           <p>
-            Cada alarma
-            <br />
-            funciona hasta
-            <br />
+            Cada alarma <br className={styles.hide__on__mobile} />
+            funciona hasta <br className={styles.hide__on__mobile} />
             con 8 llamadores.
           </p>
         </div>
@@ -42,12 +40,9 @@ function TechnicalSheet() {
             alt="icono de alarma"
           />
           <p>
-            Se cuelga afuera de la
-            <br />
-            habitación y alumbra
-            <br />
-            hasta que atienden el
-            <br />
+            Se cuelga afuera de la <br className={styles.hide__on__mobile} />
+            habitación y alumbra <br className={styles.hide__on__mobile} />
+            hasta que atienden el <br className={styles.hide__on__mobile} />
             llamado.
           </p>
         </div>
@@ -58,13 +53,10 @@ function TechnicalSheet() {
             alt="icono de antena"
           />
           <p>
-            Recibe llamados de forma
-            <br />
-            inalámbrica, largo Alcance,
-            <br />
-            50 metros o más con
-            <br />
-            amplificador de señal.
+            Recibe llamados de forma <br className={styles.hide__on__mobile} />{" "}
+            inalámbrica, largo Alcance,{" "}
+            <br className={styles.hide__on__mobile} /> 50 metros o más con{" "}
+            <br className={styles.hide__on__mobile} /> amplificador de señal.
           </p>
         </div>
 
@@ -75,10 +67,8 @@ function TechnicalSheet() {
             alt="icono de modo de aviso"
           />
           <p>
-            Modo de aviso: suena y
-            <br />
-            alumbra, opción de
-            <br />
+            Modo de aviso: suena y <br className={styles.hide__on__mobile} />
+            alumbra, opción de <br className={styles.hide__on__mobile} />
             graduar el volumen.
           </p>
         </div>
@@ -89,8 +79,7 @@ function TechnicalSheet() {
             alt="icono de compatibilidad"
           />
           <p>
-            Compatible con: Equipos
-            <br />
+            Compatible con: Equipos <br className={styles.hide__on__mobile} />
             de Tecnología Plus.
           </p>
         </div>

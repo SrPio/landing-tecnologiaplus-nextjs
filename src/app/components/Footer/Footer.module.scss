@@ -70,6 +70,14 @@
       -ms-border-radius: 50%;
       -o-border-radius: 50%;
 
+      a {
+        color: inherit;
+
+        &:hover {
+          color: inherit;
+        }
+      }
+
       &:hover {
         transform: scale(1.2);
       }

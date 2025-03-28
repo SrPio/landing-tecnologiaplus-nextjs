@@ -13,16 +13,36 @@ const Footer = () => {
           <h3>Síguenos</h3>
           <ul className={styles.footer__social}>
             <li>
-              <FiInstagram />
+              <a
+                href="https://www.instagram.com/tecnologiapluscolombia/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FiInstagram />
+              </a>
             </li>
             <li>
-              <FaTiktok />
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <FaTiktok />
+              </a>
             </li>
             <li>
-              <FaFacebookF />
+              <a
+                href="https://www.facebook.com/tecnologiapluscolombia"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaFacebookF />
+              </a>
             </li>
             <li>
-              <FaYoutube />
+              <a
+                href="https://www.youtube.com/channel/UCPho92vfQwC24X8Y3eI8Dvg"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaYoutube />
+              </a>
             </li>
           </ul>
         </div>

@@ -12,8 +12,7 @@ function TechnicalSheet() {
             alt="icono batería"
           />
           <p>
-            Batería de larga duración
-            <br />
+            Batería de larga duración <br className={styles.hide__on__mobile} />
             (más de 1 año)
           </p>
         </div>
@@ -24,10 +23,8 @@ function TechnicalSheet() {
             alt="icono de antena"
           />
           <p>
-            Rango: hasta 100m o más
-            <br />
-            con amplificador de señal
-            <br />
+            Rango: hasta 100m o más <br className={styles.hide__on__mobile} />
+            con amplificador de señal <br className={styles.hide__on__mobile} />
             Frecuencia: 433MHz
           </p>
         </div>
@@ -38,8 +35,7 @@ function TechnicalSheet() {
             alt="icono de 3 teclas de llamado"
           />
           <p>
-            3 teclas de llamado:
-            <br />
+            3 teclas de llamado: <br className={styles.hide__on__mobile} />
             Llamar, cancelar y volver a llamar.
           </p>
         </div>
@@ -58,8 +54,7 @@ function TechnicalSheet() {
             alt="icono de compatibilidad"
           />
           <p>
-            Compatible con:
-            <br />
+            Compatible con: <br className={styles.hide__on__mobile} />
             Equipos de Tecnología Plus.
           </p>
         </div>

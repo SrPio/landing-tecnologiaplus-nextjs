@@ -12,8 +12,7 @@ function TechnicalSheet() {
             alt="icono enchufe"
           />
           <p>
-            Conexión eléctrica,
-            <br />
+            Conexión eléctrica, <br className={styles.hide__on__mobile} />
             es inalámbrica.
           </p>
         </div>
@@ -32,10 +31,8 @@ function TechnicalSheet() {
             alt="icono de llamados"
           />
           <p>
-            Muestra hasta 6 llamados
-            <br />
-            al mismo tiempo, cada
-            <br />
+            Muestra hasta 6 llamados <br className={styles.hide__on__mobile} />
+            al mismo tiempo, cada <br className={styles.hide__on__mobile} />
             llamado hasta 3 dígitos.
           </p>
         </div>
@@ -46,12 +43,10 @@ function TechnicalSheet() {
             alt="icono de antena"
           />
           <p>
-            Recibe llamados de forma
-            <br />
-            inalámbrica, largo Alcance,
-            <br />
-            50 metros o más con
-            <br />
+            Recibe llamados de forma <br className={styles.hide__on__mobile} />
+            inalámbrica, largo Alcance,{" "}
+            <br className={styles.hide__on__mobile} />
+            50 metros o más con <br className={styles.hide__on__mobile} />
             amplificador de señal.
           </p>
         </div>
@@ -62,8 +57,7 @@ function TechnicalSheet() {
             alt="icono de alerta con sonido y número en pantalla"
           />
           <p>
-            Alerta con sonido y
-            <br />
+            Alerta con sonido y <br className={styles.hide__on__mobile} />
             número en pantalla
           </p>
         </div>
@@ -74,10 +68,8 @@ function TechnicalSheet() {
             alt="icono Tecnología Plus"
           />
           <p>
-            Compatible con:
-            <br />
-            Equipos de
-            <br />
+            Compatible con: <br className={styles.hide__on__mobile} />
+            Equipos de <br className={styles.hide__on__mobile} />
             Tecnología Plus.
           </p>
         </div>

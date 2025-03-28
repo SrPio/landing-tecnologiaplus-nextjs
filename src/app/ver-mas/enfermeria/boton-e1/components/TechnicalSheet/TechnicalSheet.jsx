@@ -12,8 +12,7 @@ function TechnicalSheet() {
             alt="icono batería"
           />
           <p>
-            Voltaje: DC12V
-            <br />
+            Voltaje: DC12V <br className={styles.hide__on__mobile} />
             Batería 23A12V
           </p>
         </div>
@@ -24,8 +23,7 @@ function TechnicalSheet() {
             alt="icono de resistencia al agua"
           />
           <p>
-            Resiste derrames
-            <br />
+            Resiste derrames <br className={styles.hide__on__mobile} />
             accidentales de agua
           </p>
         </div>
@@ -36,10 +34,8 @@ function TechnicalSheet() {
             alt="icono de antena"
           />
           <p>
-            Rango: hasta 100m o más
-            <br />
-            con amplificador de señal
-            <br />
+            Rango: hasta 100m o más <br className={styles.hide__on__mobile} />
+            con amplificador de señal <br className={styles.hide__on__mobile} />
             Frecuencia: 433MHz
           </p>
         </div>
@@ -50,8 +46,8 @@ function TechnicalSheet() {
             alt="icono de hospital"
           />
           <p>
-            Ideal en espacios para llamar
-            <br />
+            Ideal en espacios para llamar{" "}
+            <br className={styles.hide__on__mobile} />
             enfermera y empleados
           </p>
         </div>
@@ -62,8 +58,7 @@ function TechnicalSheet() {
             alt="icono de compatibilidad"
           />
           <p>
-            Compatible con:
-            <br />
+            Compatible con: <br className={styles.hide__on__mobile} />
             Equipos de Tecnología Plus.
           </p>
         </div>

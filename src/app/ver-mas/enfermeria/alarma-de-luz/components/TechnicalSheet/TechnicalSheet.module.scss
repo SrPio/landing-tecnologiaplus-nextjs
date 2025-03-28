@@ -102,6 +102,14 @@
           }
         }
       }
+
+      .item:nth-child(8) {
+        margin-left: 0;
+        img {
+          width: 80px;
+          max-width: 80px;
+        }
+      }
     }
   }
 }

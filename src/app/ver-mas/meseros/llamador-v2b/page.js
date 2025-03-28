@@ -5,9 +5,9 @@ import style from "../../../llamador-meseros/components/RelatedProducts/Llamador
 import SecondaryHeader from "@/app/components/SecondaryHeader/SecondaryHeader";
 import ProductGallery from "./components/ProductGallery/ProductGallery";
 import LogosSection from "../../termicos/components/LogosSection/LogosSection";
-import TechnicalSheet from "../../meseros/llamador-v2n/components/TechnicalSheet/TechnicalSheet";
 import LlamadorMeserosRelatedProducts from "@/app/llamador-meseros/components/RelatedProducts/LlamadorMeserosRelatedProducts";
-import HowItWorks from "../../meseros/llamador-v2n/components/HowItWorks/HowItWorks";
+import HowItWorks from "./components/HowItWorks/HowItWorks";
+import TechnicalSheet from "./components/TechnicalSheet/TechnicalSheet";
 
 export default function VerMasMeserosLlamadorV2b() {
     return (

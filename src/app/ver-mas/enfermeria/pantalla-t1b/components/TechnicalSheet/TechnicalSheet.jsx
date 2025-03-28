@@ -43,13 +43,7 @@ function TechnicalSheet() {
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740065557/ICONO_1_4x-8_1_xmpmcr.webp"
             alt="icono de Tecnología Plus"
           />
-          <p>
-            Compatible con:
-            <br />
-            Equipos de
-            <br />
-            Tecnología Plus.
-          </p>
+          <p>Marca</p>
         </div>
         <div className={styles.item}>
           <img

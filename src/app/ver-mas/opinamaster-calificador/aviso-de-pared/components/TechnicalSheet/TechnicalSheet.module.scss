@@ -6,6 +6,7 @@
     grid-template-columns: repeat(4, 1fr);
 
     .item {
+      gap: 1rem;
       img {
         height: 60px;
         width: auto;
@@ -22,6 +23,11 @@
     .item:nth-child(4) {
       img {
         height: 40px;
+      }
+    }
+    .item:nth-child(2) {
+      margin-left: 1rem;
+      img {
       }
     }
     .item:nth-child(3) {

@@ -6,6 +6,11 @@
     grid-template-columns: repeat(4, 1fr);
 
     .item {
+      gap: 1rem;
+
+      p {
+        text-wrap: balance;
+      }
       img {
         height: 50px;
         width: auto;
@@ -22,15 +27,32 @@
         max-width: 180px;
       }
     }
+    .item:nth-child(2),
+    .item:nth-child(6) {
+      margin-left: 2rem;
+      img {
+      }
+    }
+    .item:nth-child(3) {
+      img {
+        width: 83.44px;
+        object-position: center;
+      }
+    }
     .item:nth-child(5) {
       margin-left: 60px;
       img {
       }
     }
 
+    .item:nth-child(6) {
+      img {
+        height: 40px;
+      }
+    }
     .item:nth-child(7) {
       img {
-        height: 45px;
+        height: 40px;
       }
     }
   }

@@ -46,9 +46,7 @@ function TechnicalSheet() {
           <p>
             Compatible con:
             <br />
-            Equipos de
-            <br />
-            Tecnología Plus.
+            Llamadores de Tecnología Plus.
           </p>
         </div>
         <div className={styles.item}>

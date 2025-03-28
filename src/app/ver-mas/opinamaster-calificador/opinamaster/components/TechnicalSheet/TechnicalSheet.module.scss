@@ -6,6 +6,7 @@
     grid-template-columns: repeat(4, 1fr);
 
     .item {
+      gap: 1rem;
       img {
         height: 60px;
         width: auto;

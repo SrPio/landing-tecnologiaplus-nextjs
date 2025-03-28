@@ -36,6 +36,7 @@
   .technicalsheet__container {
     margin: 0 5vw;
     border-top: 1px solid #606060;
+
     h2 {
       font-size: clamp(16px, 5vw, 2rem);
       text-align: center;
@@ -45,17 +46,40 @@
     .items__container {
       grid-template-columns: repeat(2, 1fr);
       margin: 0;
+      padding: 0;
+      gap: 3rem 1rem;
+
+      // Resetea cualquier tamaño previo en mobile
+      .item:nth-child(2),
+      .item:nth-child(3),
+      .item:nth-child(6) {
+        img {
+          height: 40px;
+          width: 40px;
+          min-width: 40px;
+          max-width: 40px;
+          object-fit: contain;
+        }
+      }
 
       .item {
-        gap: 20px;
+        gap: 10px;
         img {
-          height: clamp(40px, 5vw, 60px);
+          height: 40px;
           width: 40px;
-          min-width: auto;
+          min-width: 40px;
+          max-width: 40px;
+          object-fit: contain;
+          flex: 0 0 auto;
         }
 
         p {
           font-size: clamp(8px, 3.2vw, 1rem);
+          text-wrap: balance;
+
+          .hide__on__mobile {
+            display: none;
+          }
         }
       }
     }

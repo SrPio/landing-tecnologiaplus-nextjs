@@ -11,7 +11,7 @@ function HomeProductsSection() {
           description="Rapidez y agilidad para tus filas."
           imageSrc="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738350028/TurnoExpress_2x-8_ri7zqh_xjz8bw.webp"
           altText="imagen de TurnoExpress"
-          link="#"
+          link="https://landing-tecnologiaplus-nextjs.vercel.app/turnero-turnoexpress"
         />
 
         <Card
@@ -19,7 +19,7 @@ function HomeProductsSection() {
           description="Digitaliza la gestión de turnos."
           imageSrc="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349924/TurnoMaster_2x-8_1_t4wh3f_ooru74.webp"
           altText="imagen de TurnoMaster"
-          link="#"
+          link="https://landing-tecnologiaplus-nextjs.vercel.app/turnomaster"
           customClass="custom__style__one"
         />
 
@@ -28,7 +28,7 @@ function HomeProductsSection() {
           description="Lleva tu autoservicio a otro nivel"
           imageSrc="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741708165/NUEVA_etp9mi.webp"
           altText="imagen de Localizadores"
-          link="#"
+          link="https://landing-tecnologiaplus-nextjs.vercel.app/localizadores"
         />
 
         <Card
@@ -36,7 +36,7 @@ function HomeProductsSection() {
           description="El botón que eleva la calidad del servicio."
           imageSrc="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743107327/NUEVA_4x-8_1_wyooar.webp"
           altText="imagen de Llamadores de meseros"
-          link="#"
+          link="https://landing-tecnologiaplus-nextjs.vercel.app/llamador-meseros"
           customClass="custom__style__four"
         />
 
@@ -45,7 +45,7 @@ function HomeProductsSection() {
           description="Facilita la comunicación paciente - enfermera. "
           imageSrc="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738596111/cuidamaster_2x-8_dlawzx.webp"
           altText="imagen de Llamado de enfermería"
-          link="#"
+          link="https://landing-tecnologiaplus-nextjs.vercel.app/enfermeria"
         />
 
         <Card
@@ -53,7 +53,7 @@ function HomeProductsSection() {
           description="Toma decisiones con la opinión de tus clientes"
           imageSrc="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738607994/calificador_de_servicios_2x-8_pjnvol.webp"
           altText="imagen de Calificador de servicios"
-          link="#"
+          link="https://landing-tecnologiaplus-nextjs.vercel.app/calificador"
           customClass="custom__style__three"
         />
 
@@ -62,7 +62,7 @@ function HomeProductsSection() {
           description="Transforma opiniones en acciones estratégicas."
           imageSrc="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738685536/Opinamaster_2x-8_sg1wyy.webp"
           altText="imagen de OpinaMaster"
-          link="#"
+          link="https://landing-tecnologiaplus-nextjs.vercel.app/encuesta-virtual"
         />
 
         <Card
@@ -71,7 +71,7 @@ function HomeProductsSection() {
 tomar el turno."
           imageSrc="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349966/dispensador_de_tiquetes_2x-8_qusuqr_fuxs8k.webp"
           altText="imagen de Dispensador de tiquetes"
-          link="#"
+          link="https://landing-tecnologiaplus-nextjs.vercel.app/dispensador-tiquetes"
         />
 
         <Card
@@ -79,7 +79,7 @@ tomar el turno."
           description="Organiza y mejora el servicio."
           imageSrc="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743018206/5_4x-8_1_v0uhtd.webp"
           altText="imagen de Rollos de turnos"
-          link="#"
+          link="https://landing-tecnologiaplus-nextjs.vercel.app/rollos-turnos"
         />
 
         <Card
@@ -87,7 +87,7 @@ tomar el turno."
           description="Perfectos para tickets, facturas y más."
           imageSrc="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349920/image-1_1_ljyxis_qdsmdq.webp"
           altText="imagen de Rollos térmicos"
-          link="#"
+          link="https://landing-tecnologiaplus-nextjs.vercel.app/rollos-termicos"
           customClass="custom__style__five"
         />
 

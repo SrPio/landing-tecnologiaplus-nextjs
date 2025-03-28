@@ -38,7 +38,10 @@ adipiscing elit, sed diam orem ipsum dol"
           link="#"
         />
       </div>
-      <a href="#" className={style.btn__go_to_blog}>
+      <a
+        href="https://landing-tecnologiaplus-nextjs.vercel.app/blog-tecnologia-plus"
+        className={style.btn__go_to_blog}
+      >
         Visita nuestro blog
         <IoIosArrowForward className={style.icon__btn} />
       </a>

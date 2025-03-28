@@ -4,8 +4,8 @@ function TurnoMasterIndustriesSection() {
   return (
     <section className={style.industries__section}>
       <h2>
-        TurnoMaster se adapta <br />
-        a distintos sectores para <br />
+        TurnoMaster se adapta <br className={style.hide__on__mobile} />
+        a distintos sectores para <br className={style.hide__on__mobile} />
         organizar las filas
       </h2>
       <ul>

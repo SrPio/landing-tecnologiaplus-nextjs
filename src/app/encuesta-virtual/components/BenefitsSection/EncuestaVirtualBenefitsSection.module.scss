@@ -46,6 +46,14 @@
 
     .benefits__title {
       font-size: clamp(16px, 10vw, 80px);
+
+      @include respond-to-max("laptop") {
+        width: 90vw;
+        text-wrap: balance;
+        .hide__on__mobile {
+          display: none;
+        }
+      }
     }
 
     ul {

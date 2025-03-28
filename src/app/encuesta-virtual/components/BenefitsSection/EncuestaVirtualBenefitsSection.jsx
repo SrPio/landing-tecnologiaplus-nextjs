@@ -4,10 +4,8 @@ function EncuestaVirtualBenefitsSection() {
   return (
     <section className={style.benefits__section}>
       <h2 className={style.benefits__title}>
-        CREA ENCUESTAS
-        <br />
-        VIRTUALES ADAPTADAS
-        <br />A TU NEGOCIO
+        CREA ENCUESTAS <br className={style.hide__on__mobile} /> VIRTUALES
+        ADAPTADAS <br className={style.hide__on__mobile} />A TU NEGOCIO
       </h2>
       <ul>
         <li>

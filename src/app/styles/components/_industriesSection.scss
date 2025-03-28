@@ -55,6 +55,13 @@
 
     h2 {
       font-size: clamp(18px, 4.5vw, 30px);
+
+      @include respond-to-max("laptop") {
+        text-wrap: balance;
+        .hide__on__mobile {
+          display: none;
+        }
+      }
     }
 
     ul {

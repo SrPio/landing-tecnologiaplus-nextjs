@@ -72,6 +72,13 @@
     ul {
       li {
         font-size: clamp(10px, 4vw, 32px);
+
+        @include respond-to-max("laptop") {
+          text-wrap: balance;
+          .hide__on__mobile {
+            display: none;
+          }
+        }
       }
     }
   }

@@ -15,8 +15,7 @@ function CalificadorBenefitsSection() {
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738596137/Icono_1_2x-8_1_ddkdtv.webp"
             alt="Recibe alertas por email"
           />
-          Alerta de calificación
-          <br />
+          Alerta de calificación <br className={style.hide__on__mobile} />
           negativa al correo.
         </li>
         <li>

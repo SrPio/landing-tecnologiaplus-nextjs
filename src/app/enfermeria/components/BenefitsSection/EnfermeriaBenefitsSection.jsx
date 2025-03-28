@@ -16,7 +16,8 @@ function EnfermeriaBenefitsSection() {
             alt="icono de gota de agua"
           />
           <div>
-            Resiste derrames de agua*
+            Resiste derrames de agua
+            <span className={style.hide__on__mobile}>*</span>
             <span>*Referencia seleccionada</span>
           </div>
         </li>

@@ -83,6 +83,11 @@
           p {
             font-size: clamp(12px, 4vw, 20px);
             text-align: center;
+
+            text-wrap: balance;
+            .hide__on__mobile {
+              display: none;
+            }
           }
         }
       }

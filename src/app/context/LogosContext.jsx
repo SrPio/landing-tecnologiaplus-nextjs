@@ -995,15 +995,15 @@ export const LogosProvider = ({ children }) => {
 
   const [logosLlamadorMeseros] = useState([
     {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563278/Mesa_de_trabajo_14_copia_4_gcnrs8.svg",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743127351/5B599FD4888E366F_uin9m3.webp",
       alt: "Logo Smartfit",
     },
     {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563265/Mesa_de_trabajo_34_owu724.svg",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743126933/F4C07E32B458FF3E_hpjknp.webp",
       alt: "Logo Estelar",
     },
     {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563266/Mesa_de_trabajo_35_gatnhj.svg",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743127595/F4C8E93F6E675389_xuanu0.webp",
       alt: "Logo Club Campestre",
     },
     {
@@ -1023,15 +1023,15 @@ export const LogosProvider = ({ children }) => {
       alt: "Logo Loreal",
     },
     {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563278/Mesa_de_trabajo_14_copia_4_gcnrs8.svg",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743127351/5B599FD4888E366F_uin9m3.webp",
       alt: "Logo Smartfit",
     },
     {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563265/Mesa_de_trabajo_34_owu724.svg",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743126933/F4C07E32B458FF3E_hpjknp.webp",
       alt: "Logo Estelar",
     },
     {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563266/Mesa_de_trabajo_35_gatnhj.svg",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743127595/F4C8E93F6E675389_xuanu0.webp",
       alt: "Logo Club Campestre",
     },
     {
@@ -1051,15 +1051,15 @@ export const LogosProvider = ({ children }) => {
       alt: "Logo Loreal",
     },
     {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563278/Mesa_de_trabajo_14_copia_4_gcnrs8.svg",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743127351/5B599FD4888E366F_uin9m3.webp",
       alt: "Logo Smartfit",
     },
     {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563265/Mesa_de_trabajo_34_owu724.svg",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743126933/F4C07E32B458FF3E_hpjknp.webp",
       alt: "Logo Estelar",
     },
     {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563266/Mesa_de_trabajo_35_gatnhj.svg",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743127595/F4C8E93F6E675389_xuanu0.webp",
       alt: "Logo Club Campestre",
     },
     {
@@ -1079,15 +1079,15 @@ export const LogosProvider = ({ children }) => {
       alt: "Logo Loreal",
     },
     {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563278/Mesa_de_trabajo_14_copia_4_gcnrs8.svg",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743127351/5B599FD4888E366F_uin9m3.webp",
       alt: "Logo Smartfit",
     },
     {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563265/Mesa_de_trabajo_34_owu724.svg",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743126933/F4C07E32B458FF3E_hpjknp.webp",
       alt: "Logo Estelar",
     },
     {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563266/Mesa_de_trabajo_35_gatnhj.svg",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743127595/F4C8E93F6E675389_xuanu0.webp",
       alt: "Logo Club Campestre",
     },
     {
@@ -1107,15 +1107,15 @@ export const LogosProvider = ({ children }) => {
       alt: "Logo Loreal",
     },
     {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563278/Mesa_de_trabajo_14_copia_4_gcnrs8.svg",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743127351/5B599FD4888E366F_uin9m3.webp",
       alt: "Logo Smartfit",
     },
     {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563265/Mesa_de_trabajo_34_owu724.svg",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743126933/F4C07E32B458FF3E_hpjknp.webp",
       alt: "Logo Estelar",
     },
     {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563266/Mesa_de_trabajo_35_gatnhj.svg",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743127595/F4C8E93F6E675389_xuanu0.webp",
       alt: "Logo Club Campestre",
     },
     {
@@ -1166,7 +1166,7 @@ export const LogosProvider = ({ children }) => {
       alt: "Logo Peru Wok",
     },
     {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563271/Mesa_de_trabajo_45_poeutt.svg",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743127235/F5CDDFC9F623885E_odq2pa.webp",
       alt: "Logo Sr. Wok",
     },
     {
@@ -1178,7 +1178,7 @@ export const LogosProvider = ({ children }) => {
       alt: "Logo Wok",
     },
     {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563272/Mesa_de_trabajo_48_atwozf.svg",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743127480/1222A6C85C9B6BB9_putlpy.webp",
       alt: "Logo Domino's Pizza",
     },
     {
@@ -1218,7 +1218,7 @@ export const LogosProvider = ({ children }) => {
       alt: "Logo Peru Wok",
     },
     {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563271/Mesa_de_trabajo_45_poeutt.svg",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743127235/F5CDDFC9F623885E_odq2pa.webp",
       alt: "Logo Sr. Wok",
     },
     {
@@ -1230,7 +1230,7 @@ export const LogosProvider = ({ children }) => {
       alt: "Logo Wok",
     },
     {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563272/Mesa_de_trabajo_48_atwozf.svg",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743127480/1222A6C85C9B6BB9_putlpy.webp",
       alt: "Logo Domino's Pizza",
     },
     {
@@ -1270,7 +1270,7 @@ export const LogosProvider = ({ children }) => {
       alt: "Logo Peru Wok",
     },
     {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563271/Mesa_de_trabajo_45_poeutt.svg",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743127235/F5CDDFC9F623885E_odq2pa.webp",
       alt: "Logo Sr. Wok",
     },
     {
@@ -1282,7 +1282,7 @@ export const LogosProvider = ({ children }) => {
       alt: "Logo Wok",
     },
     {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563272/Mesa_de_trabajo_48_atwozf.svg",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743127480/1222A6C85C9B6BB9_putlpy.webp",
       alt: "Logo Domino's Pizza",
     },
     {
@@ -1322,7 +1322,7 @@ export const LogosProvider = ({ children }) => {
       alt: "Logo Peru Wok",
     },
     {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563271/Mesa_de_trabajo_45_poeutt.svg",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743127235/F5CDDFC9F623885E_odq2pa.webp",
       alt: "Logo Sr. Wok",
     },
     {
@@ -1334,7 +1334,7 @@ export const LogosProvider = ({ children }) => {
       alt: "Logo Wok",
     },
     {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563272/Mesa_de_trabajo_48_atwozf.svg",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743127480/1222A6C85C9B6BB9_putlpy.webp",
       alt: "Logo Domino's Pizza",
     },
     {
@@ -1349,7 +1349,7 @@ export const LogosProvider = ({ children }) => {
 
   const [logosHome] = useState([
     {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563278/Mesa_de_trabajo_14_copia_4_gcnrs8.svg",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743127351/5B599FD4888E366F_uin9m3.webp",
       alt: "Logo Smartfit",
     },
     {
@@ -1381,7 +1381,7 @@ export const LogosProvider = ({ children }) => {
       alt: "Logo Los Olivos",
     },
     {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563272/Mesa_de_trabajo_48_atwozf.svg",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743127480/1222A6C85C9B6BB9_putlpy.webp",
       alt: "Logo Domino's Pizza",
     },
     {
@@ -1393,7 +1393,7 @@ export const LogosProvider = ({ children }) => {
       alt: "Logo Colmedica",
     },
     {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563278/Mesa_de_trabajo_14_copia_4_gcnrs8.svg",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743127351/5B599FD4888E366F_uin9m3.webp",
       alt: "Logo Smartfit",
     },
     {
@@ -1425,7 +1425,7 @@ export const LogosProvider = ({ children }) => {
       alt: "Logo Los Olivos",
     },
     {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563272/Mesa_de_trabajo_48_atwozf.svg",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743127480/1222A6C85C9B6BB9_putlpy.webp",
       alt: "Logo Domino's Pizza",
     },
     {

@@ -8,7 +8,7 @@ function LlamadorMeserosBenefitsSection() {
           className="w-full h-auto rounded-lg"
           src="https://res.cloudinary.com/ddqh0mkx9/video/upload/v1743107660/COMPRESS_ANIMACIO%CC%81N_FINAL_COM_AJUSTES_nualz4.mp4"
           controls
-          /* preload="none" */
+          preload="none"
           playsInline
         />
       </section>

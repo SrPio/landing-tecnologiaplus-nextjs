@@ -41,13 +41,13 @@
     }
 
     &::after {
-      right: 0;
+      right: -2px;
       top: 0;
       transform: rotate(180deg);
     }
 
     &::before {
-      left: 0;
+      left: -2px;
       bottom: 0;
       transform: rotate(0deg);
     }
@@ -70,6 +70,12 @@
     p {
       font-size: clamp(16px, 4vw, 25px);
       text-align: center;
+    }
+    .clients__container {
+      &::after,
+      &::before {
+        width: 50px;
+      }
     }
   }
 }

@@ -54,16 +54,20 @@
     height: 112px;
     width: 200px;
     z-index: 2;
+
+    @include respond-to-max("laptop") {
+      width: 50px;
+    }
   }
 
   &::after {
-    right: 0;
+    right: -2px;
     top: 0;
     transform: rotate(180deg);
   }
 
   &::before {
-    left: 0;
+    left: -2px;
     bottom: 0;
     transform: rotate(0deg);
   }

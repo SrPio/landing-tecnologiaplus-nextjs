@@ -27,7 +27,7 @@ function TurnoMasterRelatedProducts() {
     {
       name: "Rollos de turnos",
       description: "Organiza y mejora el servicio.",
-      img: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738424725/Rollos_de_turnos_2x-8_tcxrnt.webp",
+      img: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741637848/Frame_1_56_hvhf2o.webp",
       sold: "8527 vendidos",
       link: "https://landing-tecnologiaplus-nextjs.vercel.app/rollos-turnos",
     },

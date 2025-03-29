@@ -77,7 +77,7 @@ tomar el turno."
         <Card
           title="Rollos de turnos"
           description="Organiza y mejora el servicio."
-          imageSrc="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743018206/5_4x-8_1_v0uhtd.webp"
+          imageSrc="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741637848/Frame_1_56_hvhf2o.webp"
           altText="imagen de Rollos de turnos"
           link="https://landing-tecnologiaplus-nextjs.vercel.app/rollos-turnos"
         />

@@ -23,9 +23,11 @@ function LocalizadoresHeroSection({
 
         <div className={styles.hero__text}>
           <h1>
-            Localizadores para restaurantes:
+            <span>Localizadores para restaurantes:</span>
             <br />
-            Tus clientes disfrutan el tiempo mientras esperan el pedido.
+            Tus clientes disfrutan el tiempo
+            <br />
+            mientras esperan el pedido.
           </h1>
           <p>Sin filas y sin temor de perder el turno.</p>
           {boton ? (

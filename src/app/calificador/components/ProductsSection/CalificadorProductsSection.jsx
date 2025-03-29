@@ -18,7 +18,7 @@ function CalificadorProductsSection() {
             className={style.img__mobile}
           />
           <div className={style.btn__container}>
-            <p className={style.selling__counter}>0000 vendidos</p>
+            <p className={style.selling__counter}>472 vendidos</p>
             <a
               className={style.card__btn}
               href="https://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/opinamaster-calificador/opinamaster"
@@ -41,7 +41,7 @@ function CalificadorProductsSection() {
             className={style.img__mobile}
           />
           <div className={style.btn__container}>
-            <p className={style.selling__counter}>0000 vendidos</p>
+            <p className={style.selling__counter}>38 vendidos</p>
             <a
               className={style.card__btn}
               href="https://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/opinamaster-calificador/aviso-de-pared"

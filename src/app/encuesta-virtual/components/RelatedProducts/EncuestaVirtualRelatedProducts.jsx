@@ -13,7 +13,7 @@ function EncuestaVirtualRelatedProducts() {
       name: "Calificador de servicios",
       description: "Toma decisiones con la opinión de tus clientes",
       img: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738607994/calificador_de_servicios_2x-8_pjnvol.webp",
-      sold: "472 vendidos",
+      sold: "490 vendidos",
       link: "https://landing-tecnologiaplus-nextjs.vercel.app/calificador",
       className: style.calificador__card,
     },

@@ -266,14 +266,6 @@ function ProductGallery() {
                 src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742944133/Frame_1_4_i4ltkl.webp",
                 alt: "Imagen 6",
               },
-              {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741475394/Frame_2_xva6io.webp",
-                alt: "Imagen 7",
-              },
-              {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740668328/18_4x-8_u9bwuw.webp",
-                alt: "Imagen 8",
-              },
             ],
           },
           {

@@ -6,7 +6,7 @@ import { useLogos } from "../../../context/LogosContext";
 import InfiniteSlider from "../../../components/sliders/InfiniteSlider";
 
 function EncuestaVirtualClientsSection() {
-  const { logosDispensadorTiquetes } = useLogos();
+  const { logosCalificador } = useLogos();
 
   return (
     <section className={style.clients__section}>
@@ -16,7 +16,7 @@ function EncuestaVirtualClientsSection() {
         clientes.
       </p>
       <div className={style.clients__container}>
-        <InfiniteSlider logos={logosDispensadorTiquetes} />
+        <InfiniteSlider logos={logosCalificador} />
       </div>
     </section>
   );

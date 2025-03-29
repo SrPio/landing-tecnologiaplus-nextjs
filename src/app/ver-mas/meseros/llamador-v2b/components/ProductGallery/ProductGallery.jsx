@@ -25,13 +25,13 @@ function ProductGallery() {
   };
 
   const images = [
+    videoData.thumbnail, // Miniatura del video
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740497011/20_4x-8_onyawh.webp",
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740497011/19_4x-8_jxofor.webp",
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740497010/21_4x-8_1_zysjdc.webp",
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740497010/17_4x-8_1_bykczq.webp",
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741632153/Frame_1_41_whqmii.webp",
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743026399/16_4x-8_h030co.webp",
-    videoData.thumbnail, // Miniatura del video
   ];
 
   const alternativeImages = [
@@ -189,7 +189,11 @@ function ProductGallery() {
           </div>
 
           {/* Imagen Principal */}
-          <div className={styles.container__product__selected}>
+          <div
+            className={`${styles.container__product__selected} ${
+              isVideoSelected ? styles.videoBackground : ""
+            }`}
+          >
             <IoIosArrowBack
               className={styles.icon__prev}
               onClick={handlePrevImage}

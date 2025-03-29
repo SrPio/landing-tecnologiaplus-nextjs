@@ -4,10 +4,10 @@ import Footer from "@/app/components/Footer/Footer";
 import style from "../../../calificador/components/RelatedProducts/CalificadorRelatedProducts.module.scss";
 import SecondaryHeader from "@/app/components/SecondaryHeader/SecondaryHeader";
 import ProductGallery from "./components/ProductGallery/ProductGallery";
-import LogosSection from "../../termicos/components/LogosSection/LogosSection";
 import TechnicalSheet from "./components/TechnicalSheet/TechnicalSheet";
 import HowItWorks from "./components/HowItWorks/HowItWorks";
 import CalificadorRelatedProducts from "@/app/calificador/components/RelatedProducts/CalificadorRelatedProducts";
+import LogosSection from "./components/LogosSection/LogosSection";
 
 export default function VerMasAvisoDePared() {
     return (

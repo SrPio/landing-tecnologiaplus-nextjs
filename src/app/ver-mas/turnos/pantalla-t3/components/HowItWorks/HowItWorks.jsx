@@ -24,8 +24,8 @@ function HowItWorks() {
             alt="imagen de usuario esperando ser llamado"
           />
           <p>
-            2. Usuario espera que lo llamen en la pantalla.
-            <br />
+            2. Usuario espera que lo llamen en la pantalla.{" "}
+            <br className={styles.hide__on__mobile} />
             Cada asesor tiene un control inalámbrico para llamar turnos.
           </p>
         </div>
@@ -36,8 +36,8 @@ function HowItWorks() {
             alt="imagen de pantalla mostrando el número de turno"
           />
           <p>
-            3. Muestra el numero del turno y el modulo a donde
-            <br />
+            3. Muestra el numero del turno y el modulo a donde{" "}
+            <br className={styles.hide__on__mobile} />
             debe dirigirse el cliente.
           </p>
         </div>

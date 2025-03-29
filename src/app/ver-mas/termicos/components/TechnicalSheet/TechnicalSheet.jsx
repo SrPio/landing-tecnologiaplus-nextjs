@@ -1,4 +1,4 @@
-import styles from "../../../styles/TechnicalSheet.module.scss";
+import styles from "./TechnicalSheet.module.scss";
 
 function TechnicalSheet() {
   return (
@@ -12,8 +12,7 @@ function TechnicalSheet() {
             alt="icono de papel"
           />
           <p>
-            Material:
-            <br />
+            Material: <br className={styles.hide__on__mobile} />
             Papel térmico
           </p>
         </div>
@@ -24,8 +23,7 @@ function TechnicalSheet() {
             alt="icono de rollos"
           />
           <p>
-            Distintos
-            <br />
+            Distintos <br className={styles.hide__on__mobile} />
             tamaños
           </p>
         </div>
@@ -36,8 +34,7 @@ function TechnicalSheet() {
             alt="icono de impresora"
           />
           <p>
-            Tipo de uso: para
-            <br />
+            Tipo de uso: para <br className={styles.hide__on__mobile} />
             impresora térmica
           </p>
         </div>
@@ -48,8 +45,7 @@ function TechnicalSheet() {
             alt="icono de check"
           />
           <p>
-            Compatible con la mayoría
-            <br />
+            Compatible con la mayoría <br className={styles.hide__on__mobile} />
             de impresoras térmicas.
           </p>
         </div>
@@ -68,8 +64,7 @@ function TechnicalSheet() {
             alt="icono de rollo con medidas"
           />
           <p>
-            Medidas según
-            <br />
+            Medidas según <br className={styles.hide__on__mobile} />
             necesidad.
           </p>
         </div>

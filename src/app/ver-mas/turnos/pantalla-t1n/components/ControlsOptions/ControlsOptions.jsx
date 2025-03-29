@@ -14,10 +14,10 @@ function ControlsOptions() {
           <div>
             <h3>Control de 1 tecla</h3>
             <p>
-              Solamente permite avanzar en orden.
-              <br />
-              Medidas: 5cm x 3cm x 8cm.
-              <br />
+              Solamente permite avanzar en orden.{" "}
+              <br className={styles.hide__on__mobile} />
+              Medidas: 5cm x 3cm x 8cm.{" "}
+              <br className={styles.hide__on__mobile} />
               Tecnología inalámbrica.
             </p>
           </div>
@@ -31,10 +31,10 @@ function ControlsOptions() {
           <div>
             <h3>Control de 2 teclas</h3>
             <p>
-              Teclas: Avanzar y retroceder.
-              <br />
-              Medidas: 5cm x 3cm x 8cm.
-              <br />
+              Teclas: Avanzar y retroceder.{" "}
+              <br className={styles.hide__on__mobile} />
+              Medidas: 5cm x 3cm x 8cm.{" "}
+              <br className={styles.hide__on__mobile} />
               Tecnología inalámbrica.
             </p>
           </div>
@@ -48,12 +48,11 @@ function ControlsOptions() {
           <div>
             <h3>Control con números</h3>
             <p>
-              Permite avanzar, repetir,
-              <br />
-              y llamar cualquier número.
-              <br />
-              Medidas: 6cm x 3.5cm x 12.5cm.
-              <br />
+              Permite avanzar, repetir,{" "}
+              <br className={styles.hide__on__mobile} />y llamar cualquier
+              número. <br className={styles.hide__on__mobile} />
+              Medidas: 6cm x 3.5cm x 12.5cm.{" "}
+              <br className={styles.hide__on__mobile} />
               Tecnología inalámbrica.
             </p>
           </div>

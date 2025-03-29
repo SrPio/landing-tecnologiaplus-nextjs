@@ -75,6 +75,13 @@
           text-align: center;
           padding: 5px 20px;
           min-height: 10vw;
+
+          text-wrap: balance;
+          max-width: 80vw;
+
+          .hide__on__mobile {
+            display: none;
+          }
         }
       }
     }

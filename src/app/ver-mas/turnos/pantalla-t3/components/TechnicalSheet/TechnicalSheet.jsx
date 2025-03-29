@@ -20,8 +20,8 @@ function TechnicalSheet() {
             alt="icono de 9-99"
           />
           <p>
-            Registra hasta
-            <br />9 módulos y 99 turnos
+            Registra hasta <br className={styles.hide__on__mobile} />9 módulos y
+            99 turnos
           </p>
         </div>
         <div className={styles.item}>
@@ -31,8 +31,7 @@ function TechnicalSheet() {
             alt="icono de pantalla de dígitos"
           />
           <p>
-            Pantalla de
-            <br />
+            Pantalla de <br className={styles.hide__on__mobile} />
             dígitos tipo display.
           </p>
         </div>
@@ -43,8 +42,7 @@ function TechnicalSheet() {
             alt="icono de tipos de uso"
           />
           <p>
-            Tipos de uso
-            <br />
+            Tipos de uso <br className={styles.hide__on__mobile} />
             Área de espera.
           </p>
         </div>
@@ -55,8 +53,7 @@ function TechnicalSheet() {
             alt="icono de antena"
           />
           <p>
-            Recibe llamados de forma
-            <br />
+            Recibe llamados de forma <br className={styles.hide__on__mobile} />
             inalámbrica.
           </p>
         </div>
@@ -67,8 +64,7 @@ function TechnicalSheet() {
             alt="icono de sonido"
           />
           <p>
-            Alerta con sonido y
-            <br />
+            Alerta con sonido y <br className={styles.hide__on__mobile} />
             número en pantalla
           </p>
         </div>
@@ -80,10 +76,8 @@ function TechnicalSheet() {
             alt="icono de Tecnología Plus"
           />
           <p>
-            Compatible con:
-            <br />
-            Equipos de
-            <br />
+            Compatible con: <br className={styles.hide__on__mobile} />
+            Equipos de <br className={styles.hide__on__mobile} />
             Tecnología Plus.
           </p>
         </div>
@@ -94,8 +88,8 @@ function TechnicalSheet() {
             alt="icono de ojo"
           />
           <p>
-            Visibilidad:
-            <br />1 a 50 metros.
+            Visibilidad: <br className={styles.hide__on__mobile} />1 a 50
+            metros.
           </p>
         </div>
       </div>

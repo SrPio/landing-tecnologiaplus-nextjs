@@ -18,7 +18,7 @@ function HeroSection({
           loading="lazy"
           className={styles.hero__img}
           src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349924/tiuyfgrjwlmhj4gdzrtm_lybcwl.webp"
-          alt="Rollos de papel térmico"
+          alt="imagen de rollos para impresora"
         />
 
         <div className={styles.hero__text}>

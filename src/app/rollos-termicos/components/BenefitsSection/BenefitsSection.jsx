@@ -13,7 +13,7 @@ function BenefitsSection() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349923/rijkjjxwhpa9hbvnj8ga_i2qgeg.webp"
-            alt="Icono de Garantía"
+            alt="icono de check"
           />
           <div>
             Variedad en tamaños y medidas:
@@ -37,7 +37,7 @@ function BenefitsSection() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349924/u2v3b0ngu177bi5byxcv_yckaaq.webp"
-            alt="icono de verificación completada"
+            alt="icono check"
           />
           <div>
             Compatibilidad:

@@ -11,7 +11,7 @@ function TechnicalDetails() {
         <img
           loading="lazy"
           src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349924/w95mg3v5l3rz4s634bso_dqg6eq.webp"
-          alt="rollos y etiquetas para impresoras termicas"
+          alt="imagen de ficha de fila"
         />
       </div>
       <div className={style.TechnicalDetails__container}>
@@ -38,7 +38,7 @@ function TechnicalDetails() {
               <img
                 loading="lazy"
                 src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349924/uq6mantgalzbg1cwabg2_lq36yt.webp"
-                alt="icono de papel térmico"
+                alt="icono de papel"
               />
               <p>
                 Material:
@@ -50,7 +50,7 @@ function TechnicalDetails() {
               <img
                 loading="lazy"
                 src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349922/mfucx7jyhfttrhehhv6f_gparqv.webp"
-                alt="icono de Rollos térmicos"
+                alt="icono de rollos"
               />
               <p>
                 Distintos
@@ -62,7 +62,7 @@ function TechnicalDetails() {
               <img
                 loading="lazy"
                 src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349922/mklyxhubukpeobmbjxso_swt54w.webp"
-                alt="icono de rollos termicos impresora"
+                alt="icono de impresora"
               />
               <p>
                 Tipo de uso: para
@@ -74,7 +74,7 @@ function TechnicalDetails() {
               <img
                 loading="lazy"
                 src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349920/jacnophczhcmtv5jmrmt_vsmuoe.webp"
-                alt="icono de símbolo de aprobación"
+                alt="icono de check"
               />
               <p>
                 Compatible con la mayoría

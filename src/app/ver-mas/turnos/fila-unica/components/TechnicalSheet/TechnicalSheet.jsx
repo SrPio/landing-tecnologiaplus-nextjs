@@ -28,8 +28,7 @@ function TechnicalSheet() {
             alt="icono de dos iconos visibles"
           />
           <p>
-            Dos dígitos visibles
-            <br />
+            Dos dígitos visibles <br className={styles.hide__on__mobile} />
             en pantalla.
           </p>
         </div>
@@ -40,8 +39,8 @@ function TechnicalSheet() {
             alt="icono de personas"
           />
           <p>
-            Agilizar filas en supermercados
-            <br />y espacios similares.
+            Agilizar filas en supermercados{" "}
+            <br className={styles.hide__on__mobile} />y espacios similares.
           </p>
         </div>
         <div className={styles.item}>
@@ -51,8 +50,7 @@ function TechnicalSheet() {
             alt="icono de antena"
           />
           <p>
-            La comunicación con
-            <br />
+            La comunicación con <br className={styles.hide__on__mobile} />
             el control es inalámbrica.
           </p>
         </div>
@@ -63,8 +61,7 @@ function TechnicalSheet() {
             alt="icono de sonido"
           />
           <p>
-            Alerta con sonido y
-            <br />
+            Alerta con sonido y <br className={styles.hide__on__mobile} />
             número en pantalla
           </p>
         </div>
@@ -75,10 +72,8 @@ function TechnicalSheet() {
             alt="icono de control de Tecnología Plus"
           />
           <p>
-            Compatible con:
-            <br />
-            controles que indique
-            <br />
+            Compatible con: <br className={styles.hide__on__mobile} />
+            controles que indique <br className={styles.hide__on__mobile} />
             Tecnología Plus.
           </p>
         </div>
@@ -89,8 +84,8 @@ function TechnicalSheet() {
             alt="icono de ojo"
           />
           <p>
-            Visibilidad:
-            <br />1 a 50 metros.
+            Visibilidad: <br className={styles.hide__on__mobile} />1 a 50
+            metros.
           </p>
         </div>
       </div>

@@ -12,8 +12,8 @@ function HowItWorks() {
             alt="imagen de personas esperando su turno"
           />
           <p>
-            1. El usuario hace la fila y se dirige al
-            <br />
+            1. El usuario hace la fila y se dirige al{" "}
+            <br className={styles.hide__on__mobile} />
             número de caja que muestra la pantalla
           </p>
         </div>
@@ -23,7 +23,11 @@ function HowItWorks() {
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739997885/como_funciona_1_4x-8_ikcgrd.webp"
             alt="imagen de persona atendida en caja"
           />
-          <p>2. El usuario es atendido en la caja</p>
+          <p>
+            2. El usuario es atendido en la{" "}
+            <br className={styles.hide__on__mobile} />
+            caja
+          </p>
         </div>
         <div className={styles.item}>
           <img
@@ -32,8 +36,8 @@ function HowItWorks() {
             alt="imagen de cajera accionando botón de siguiente turno"
           />
           <p>
-            3. Cada cajera tiene 1 control para
-            <br />
+            3. Cada cajera tiene 1 control para{" "}
+            <br className={styles.hide__on__mobile} />
             indicar cuando quedan libres.
           </p>
         </div>

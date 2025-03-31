@@ -8,7 +8,7 @@ function DispensadorTiquetesProductsSection() {
         <img
           loading="lazy"
           src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738424725/dispensador_2x-8_dwru2g.webp"
-          alt="Colores de tickets"
+          alt="Colores de tickets y dispensador de turnos rojo"
         />
         <a
           className={style.card__btn}

@@ -18,7 +18,7 @@ function DispensadorTiquetesHeroSection({
           loading="lazy"
           className={styles.hero__img}
           src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738424725/Imagen_banner_2x-8_qd3lwx.webp"
-          alt="imagen de dispensador de tiquetes"
+          alt="Dispensador de tiquetes rojo"
         />
 
         <div className={styles.hero__text}>

@@ -15,7 +15,7 @@ function TurnosBenefitsSection() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349967/Icono_1_2x-8_qhtpsh_s64dlx.webp"
-            alt="icono de ticket"
+            alt="icono de ticket blanco"
           />
           <p>
             Evita el desperdicio
@@ -28,7 +28,7 @@ function TurnosBenefitsSection() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349967/Icono_2_2x-8_q5lixj_n0jsyy.webp"
-            alt="icono de tipos de ticket"
+            alt="icono de ejemplo numérico de ticket blanco"
           />
           Múltiples estilos de numeración. Opción de fabricar segun la
           necesidad.

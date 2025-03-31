@@ -82,7 +82,7 @@ function TurnosTechnicalDetails() {
               <img
                 loading="lazy"
                 src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349968/iono_caracteristicas_1_2x-8_pnvmte_mfgdfd.webp"
-                alt="icono de ticket"
+                alt="icono de ticket gris"
               />
               <p>
                 Material:
@@ -94,7 +94,7 @@ function TurnosTechnicalDetails() {
               <img
                 loading="lazy"
                 src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349968/iono_caracteristicas_3_2x-8_ypg8wb_esoytf.webp"
-                alt="icono de tipos de numeración"
+                alt="icono de tipos de numeración gris"
               />
               <p>
                 Varias opciones
@@ -106,7 +106,7 @@ function TurnosTechnicalDetails() {
               <img
                 loading="lazy"
                 src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349968/iono_caracteristicas_2_2x-8_jkw2nh_w5ebni.webp"
-                alt="icono de turno numerado"
+                alt="icono de turno numerado gris"
               />
               <p>
                 Asigna turnos en
@@ -118,7 +118,7 @@ function TurnosTechnicalDetails() {
               <img
                 loading="lazy"
                 src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349968/iono_caracteristicas_4_2x-8_ppszke_c4zofk.webp"
-                alt="icono de check"
+                alt="icono de dispensador de turnos gris"
               />
               <p>
                 Funciona en dispensadores

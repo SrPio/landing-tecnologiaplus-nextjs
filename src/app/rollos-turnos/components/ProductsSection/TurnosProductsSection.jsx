@@ -10,7 +10,7 @@ function TurnosProductsSection() {
         <img
           loading="lazy"
           src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738350027/tickets_2x-8_j3gdmx_mt44rr.webp"
-          alt="Colores de tickets"
+          alt="Fichos para turnos"
         />
       </div>
       <input

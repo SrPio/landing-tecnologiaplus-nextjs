@@ -375,11 +375,42 @@
 
   /* FIN Cambiar el estilo de los bullets */
 
-  .thumbs-container {
+  .thumbs__container {
     overflow-x: auto;
     white-space: nowrap;
     display: flex;
-    padding: 10px 0;
+    padding: 20px 5vw;
+    gap: 10px;
+    justify-content: flex-start;
+
+    .thumb__Slide {
+      flex: 0 0 auto;
+      cursor: pointer;
+      overflow: hidden;
+      border: 1px solid #606060;
+      width: 90px;
+      height: 90px;
+      transition: transform 0.2s ease, opacity 0.2s ease;
+      -webkit-transition: transform 0.2s ease, opacity 0.2s ease;
+      -moz-transition: transform 0.2s ease, opacity 0.2s ease;
+      -ms-transition: transform 0.2s ease, opacity 0.2s ease;
+      -o-transition: transform 0.2s ease, opacity 0.2s ease;
+
+      &:hover {
+        opacity: 0.8;
+      }
+
+      &.active {
+        /* border-color: #007bff; */ // Color del borde cuando está seleccionado
+      }
+
+      img {
+        width: 90px; // Tamaño fijo, ajústalo si es necesario
+        height: 90px;
+        object-fit: contain; // Evita distorsión
+        border-radius: 6px;
+      }
+    }
   }
 
   :global(.thumbs-swiper) {

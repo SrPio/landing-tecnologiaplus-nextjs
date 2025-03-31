@@ -40,6 +40,12 @@ function MobileProductGallery() {
           <IoIosArrowBack className={styles.icon__back} /> Volver
         </button>
       </div>
+
+      <div className={styles.container__titles}>
+        <h1>Turnero T3 - Módulo Turno</h1>
+        <p>Para recibir llamados</p>
+      </div>
+
       {/* Carrusel principal */}
       <Swiper
         modules={[Navigation, Pagination]}
@@ -61,23 +67,18 @@ function MobileProductGallery() {
 
       {/* Información del producto */}
       <div className={styles.container__info__products}>
-        <div className={styles.container__titles}>
-          <h1>Turnero T3 - Módulo Turno</h1>
-          <p>Para recibir llamados</p>
-        </div>
-
-        <div className={styles.container__contact__info}>
-          <a href="https://wa.me/573227347971" target="_blank" rel="noreferrer">
-            <FaWhatsapp className={styles.icon__wpp} />
-          </a>
-          <h3>¿Tienes preguntas?</h3>
-        </div>
-
         <p>
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
           nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
           volutpat. Ut Wisi enim ad io
         </p>
+
+        <div className={styles.container__contact__info}>
+          <a href="https://wa.me/573227347971" target="_blank" rel="noreferrer">
+            <FaWhatsapp className={styles.icon__wpp} />
+            <h3>¿Tienes preguntas?</h3>
+          </a>
+        </div>
       </div>
     </div>
   );

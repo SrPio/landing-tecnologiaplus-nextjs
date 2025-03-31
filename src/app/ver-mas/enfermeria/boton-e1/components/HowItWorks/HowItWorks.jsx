@@ -12,8 +12,7 @@ function HowItWorks() {
             alt="imagen de paciente presionando botón de llamado"
           />
           <p>
-            1. Presiona el botón para
-            <br />
+            1. Presiona el botón para <br className={styles.hide__on__mobile} />
             llamar la enfermera
           </p>
         </div>
@@ -24,8 +23,8 @@ function HowItWorks() {
             alt="imagen de la enfermera recibiendo llamado"
           />
           <p>
-            2. La enfermera recibe el llamado en la
-            <br />
+            2. La enfermera recibe el llamado en la{" "}
+            <br className={styles.hide__on__mobile} />
             pantalla o en el reloj receptor
           </p>
         </div>

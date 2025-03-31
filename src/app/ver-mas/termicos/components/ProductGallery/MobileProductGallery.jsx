@@ -21,6 +21,8 @@ function MobileProductGallery() {
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739392044/5_2x-100_tqczvp.webp",
   ];
 
+  const [thumbsSwiper, setThumbsSwiper] = useState(null);
+
   return (
     <div className={styles.mobileGallery}>
       <Header
@@ -37,11 +39,18 @@ function MobileProductGallery() {
           <IoIosArrowBack className={styles.icon__back} /> Volver
         </button>
       </div>
+
+      <div className={styles.container__titles}>
+        <h1>ROLLOS TÉRMICOS</h1>
+        <p>Rollos para impresora térmica</p>
+      </div>
+
       {/* Carrusel principal */}
       <Swiper
         modules={[Navigation, Pagination]}
         pagination={{ clickable: true }}
         loop={true}
+        thumbs={{ swiper: thumbsSwiper }}
         className={styles.mainSwiper}
       >
         {images.map((img, index) => (
@@ -57,23 +66,18 @@ function MobileProductGallery() {
 
       {/* Información del producto */}
       <div className={styles.container__info__products}>
-        <div className={styles.container__titles}>
-          <h1>ROLLOS TÉRMICOS</h1>
-          <p>Rollos para impresora térmica</p>
-        </div>
-
-        <div className={styles.container__contact__info}>
-          <a href="https://wa.me/573227347971" target="_blank" rel="noreferrer">
-            <FaWhatsapp className={styles.icon__wpp} />
-          </a>
-          <h3>¿Tienes preguntas?</h3>
-        </div>
-
         <p>
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
           nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
           volutpat. Ut Wisi enim ad io
         </p>
+
+        <div className={styles.container__contact__info}>
+          <a href="https://wa.me/573227347971" target="_blank" rel="noreferrer">
+            <FaWhatsapp className={styles.icon__wpp} />
+            <h3>¿Tienes preguntas?</h3>
+          </a>
+        </div>
       </div>
     </div>
   );

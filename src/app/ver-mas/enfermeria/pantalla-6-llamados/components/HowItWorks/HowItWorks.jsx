@@ -12,8 +12,8 @@ function HowItWorks() {
             alt="imagen de paciente presionando el botón de llamado"
           />
           <p>
-            1. El paciente presiona el botón
-            <br />
+            1. El paciente presiona el botón{" "}
+            <br className={styles.hide__on__mobile} />
             para llamar la enfermera
           </p>
         </div>
@@ -24,8 +24,8 @@ function HowItWorks() {
             alt="imagen de pantalla de enfermera recibiendo el llamado"
           />
           <p>
-            2. La pantalla muestra el número de
-            <br />
+            2. La pantalla muestra el número de{" "}
+            <br className={styles.hide__on__mobile} />
             la habitación o del baño
           </p>
         </div>
@@ -36,8 +36,8 @@ function HowItWorks() {
             alt="imagen de enfermera atendiendo el llamado"
           />
           <p>
-            3. Se atiende el llamado y presiona la tecla
-            <br />
+            3. Se atiende el llamado y presiona la tecla{" "}
+            <br className={styles.hide__on__mobile} />
             "CANCEL" para borrar el llamado
           </p>
         </div>

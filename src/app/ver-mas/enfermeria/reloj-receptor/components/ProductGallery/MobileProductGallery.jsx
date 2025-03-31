@@ -41,6 +41,11 @@ function MobileProductGallery() {
           <IoIosArrowBack className={styles.icon__back} /> Volver
         </button>
       </div>
+
+      <div className={styles.container__titles}>
+        <h1>Reloj receptor de llamados</h1>
+      </div>
+
       {/* Carrusel principal */}
       <Swiper
         modules={[Navigation, Pagination]}
@@ -62,18 +67,14 @@ function MobileProductGallery() {
 
       {/* Información del producto */}
       <div className={styles.container__info__products}>
-        <div className={styles.container__titles}>
-          <h1>Reloj receptor de llamados</h1>
-        </div>
+        <p>Compatible con los equipos de nuestra marca.</p>
 
         <div className={styles.container__contact__info}>
           <a href="https://wa.me/573227347971" target="_blank" rel="noreferrer">
             <FaWhatsapp className={styles.icon__wpp} />
+            <h3>¿Tienes preguntas?</h3>
           </a>
-          <h3>¿Tienes preguntas?</h3>
         </div>
-
-        <p>Compatible con los equipos de nuestra marca.</p>
       </div>
     </div>
   );

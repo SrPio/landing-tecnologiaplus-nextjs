@@ -64,6 +64,10 @@ function MobileProductGallery() {
         </button>
       </div>
 
+      <div className={styles.container__titles}>
+        <h1>ROLLOS DE TURNOS</h1>
+      </div>
+
       {/* Carrusel principal */}
       <Swiper
         ref={mainSwiperRef}
@@ -100,9 +104,11 @@ function MobileProductGallery() {
 
       {/* Información del producto */}
       <div className={styles.container__info__products}>
-        <div className={styles.container__titles}>
-          <h1>ROLLOS DE TURNOS</h1>
-        </div>
+        <p>
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+          nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+          volutpat. Ut Wisi enim ad io
+        </p>
 
         <div className={styles.container__contact__info}>
           <a href="https://wa.me/573227347971" target="_blank" rel="noreferrer">
@@ -110,12 +116,6 @@ function MobileProductGallery() {
           </a>
           <h3>¿Tienes preguntas?</h3>
         </div>
-
-        <p>
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-          nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-          volutpat. Ut Wisi enim ad io
-        </p>
       </div>
     </div>
   );

@@ -402,9 +402,56 @@
   /* FIN Cambiar el estilo de los bullets */
 
   .colorNameContainer {
-    font-size: clamp(12px, 3vw, 2rem);
-    text-align: center;
-    color: #606060;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 10px;
+
+    h3 {
+      font-size: clamp(12px, 3vw, 2rem);
+      text-align: center;
+      color: #606060;
+    }
+
+    .container__colors {
+      display: flex;
+      gap: 10px;
+    }
+
+    .technical__circle__figure {
+      cursor: pointer;
+      height: 20px;
+      width: 20px;
+      margin-bottom: 2rem;
+      border-radius: 50%;
+      background: #fff;
+
+      &.color__Azul {
+        background: #00aec5;
+      }
+
+      &.color__Amarillo {
+        background: #f3ca03;
+      }
+
+      &.color__Verde {
+        background: #00ba8a;
+      }
+
+      &.color__Rosa {
+        background: #ff3564;
+      }
+
+      &.color__Blanco {
+        background: #fff;
+        border: #606060 1px solid;
+      }
+
+      &.selected {
+        outline: 2px solid #0b71e4;
+        outline-offset: 3px;
+      }
+    }
   }
 
   .thumbs__container {

@@ -11,38 +11,36 @@ import altStyles from "../../../../components/Header/HeaderAlt.module.scss";
 import Header from "@/app/components/Header/Header";
 import { IoIosArrowBack } from "react-icons/io";
 import { FaWhatsapp } from "react-icons/fa";
+import classNames from "classnames";
 
 const images = [
   "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741637848/Frame_1_56_hvhf2o.webp",
   "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741637817/Frame_1_57_fsalbd.webp",
   "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741638118/Frame_1_58_r0vivt.webp",
   "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740762871/10_4x-8_4_zewff6.webp",
+  "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743540143/Frame_1_13_xvglmm.webp",
 ];
 
 const alternativeImages = [
   {
-    name: "Opciones",
-    url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740762874/16_4x-8_3_iupo2n.webp",
-  },
-  {
     name: "Blanco",
-    url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740762870/15_4x-8_5_k9xmxt.webp",
+    url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743540140/Frame_1_15_bei8yg.webp",
   },
   {
     name: "Verde",
-    url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740762870/14_4x-8_4_nzyhjc.webp",
+    url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743540141/Frame_1_14_ebh5tc.webp",
   },
   {
     name: "Rosa",
-    url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740762870/12_4x-8_4_weks32.webp",
+    url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743540137/Frame_1_17_wytng7.webp",
   },
   {
     name: "Amarillo",
-    url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740762871/11_4x-8_4_oumbfg.webp",
+    url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743540138/Frame_1_16_xajdgf.webp",
   },
   {
     name: "Azul",
-    url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740762870/13_4x-8_6_uhgkeo.webp",
+    url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743540101/Frame_1_18_mmrgzv.webp",
   },
 ];
 
@@ -86,7 +84,7 @@ function MobileProductGallery() {
       <Swiper
         ref={mainSwiperRef}
         modules={[Navigation, Pagination]}
-        pagination={{ clickable: true }}
+        pagination={isAlternative ? false : { clickable: true }}
         loop={true}
         className={styles.mainSwiper}
         onSlideChange={(swiper) => setCurrentIndex(swiper.realIndex)}
@@ -102,11 +100,27 @@ function MobileProductGallery() {
         ))}
       </Swiper>
 
-      {isAlternative && (
+      {isAlternative ? (
         <div className={styles.colorNameContainer}>
           <h3>{alternativeImages[currentIndex]?.name}</h3>
+          <div className={styles.container__colors}>
+            {alternativeImages.map((image, index) => (
+              <div
+                key={index}
+                className={`${styles.technical__circle__figure} ${
+                  styles["color__" + image.name] // Usa image.name en lugar de index
+                } ${currentIndex === index ? styles.selected : ""}`}
+                onClick={() =>
+                  handleThumbnailClick(
+                    alternativeImages.map((alt) => alt.url),
+                    index
+                  )
+                }
+              ></div>
+            ))}
+          </div>
         </div>
-      )}
+      ) : null}
 
       <div className={styles.thumbs__container}>
         <h3>Galería</h3>

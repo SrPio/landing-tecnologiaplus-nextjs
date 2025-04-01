@@ -12,38 +12,53 @@ import Header from "@/app/components/Header/Header";
 import { IoIosArrowBack } from "react-icons/io";
 import { FaWhatsapp } from "react-icons/fa";
 
+const images = [
+  "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741637848/Frame_1_56_hvhf2o.webp",
+  "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741637817/Frame_1_57_fsalbd.webp",
+  "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741638118/Frame_1_58_r0vivt.webp",
+  "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740762871/10_4x-8_4_zewff6.webp",
+];
+
+const alternativeImages = [
+  {
+    name: "Opciones",
+    url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740762874/16_4x-8_3_iupo2n.webp",
+  },
+  {
+    name: "Blanco",
+    url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740762870/15_4x-8_5_k9xmxt.webp",
+  },
+  {
+    name: "Verde",
+    url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740762870/14_4x-8_4_nzyhjc.webp",
+  },
+  {
+    name: "Rosa",
+    url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740762870/12_4x-8_4_weks32.webp",
+  },
+  {
+    name: "Amarillo",
+    url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740762871/11_4x-8_4_oumbfg.webp",
+  },
+  {
+    name: "Azul",
+    url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740762870/13_4x-8_6_uhgkeo.webp",
+  },
+];
+
 function MobileProductGallery() {
-  const images = [
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741637848/Frame_1_56_hvhf2o.webp",
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741637817/Frame_1_57_fsalbd.webp",
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741638118/Frame_1_58_r0vivt.webp",
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740762871/10_4x-8_4_zewff6.webp",
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740762874/16_4x-8_3_iupo2n.webp",
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740762870/15_4x-8_5_k9xmxt.webp",
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740762870/14_4x-8_4_nzyhjc.webp",
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740762870/12_4x-8_4_weks32.webp",
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740762871/11_4x-8_4_oumbfg.webp",
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740762870/13_4x-8_6_uhgkeo.webp",
-  ];
-
-  const thumbnails = [
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740762874/16_4x-8_3_iupo2n.webp",
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740762870/15_4x-8_5_k9xmxt.webp",
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740762870/14_4x-8_4_nzyhjc.webp",
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740762870/12_4x-8_4_weks32.webp",
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740762871/11_4x-8_4_oumbfg.webp",
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740762870/13_4x-8_6_uhgkeo.webp",
-  ];
-
   const mainSwiperRef = useRef(null);
+  const [currentImages, setCurrentImages] = useState(images);
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const isAlternative = alternativeImages.some(
+    (img) => img.url === currentImages[0]
+  );
 
-  const [activeIndex, setActiveIndex] = useState(null);
-
-  const handleThumbnailClick = (thumbnail) => {
-    const indexInMain = images.findIndex((img) => img === thumbnail);
-    if (mainSwiperRef.current && indexInMain !== -1) {
-      mainSwiperRef.current.swiper.slideTo(indexInMain);
-      setActiveIndex(indexInMain);
+  const handleThumbnailClick = (imageSet, index) => {
+    setCurrentImages(imageSet);
+    setCurrentIndex(index);
+    if (mainSwiperRef.current) {
+      mainSwiperRef.current.swiper.slideTo(index);
     }
   };
 
@@ -68,18 +83,18 @@ function MobileProductGallery() {
         <h1>ROLLOS DE TURNOS</h1>
       </div>
 
-      {/* Carrusel principal */}
       <Swiper
         ref={mainSwiperRef}
         modules={[Navigation, Pagination]}
         pagination={{ clickable: true }}
         loop={true}
         className={styles.mainSwiper}
+        onSlideChange={(swiper) => setCurrentIndex(swiper.realIndex)}
       >
-        {images.map((img, index) => (
+        {currentImages.map((img, index) => (
           <SwiperSlide key={index}>
             <img
-              src={img}
+              src={typeof img === "string" ? img : img.url}
               alt={`Imagen ${index + 1}`}
               className={styles.mainImage}
             />
@@ -87,34 +102,56 @@ function MobileProductGallery() {
         ))}
       </Swiper>
 
-      {/* Miniaturas */}
+      {isAlternative && (
+        <div className={styles.colorNameContainer}>
+          <h3>{alternativeImages[currentIndex]?.name}</h3>
+        </div>
+      )}
+
       <div className={styles.thumbs__container}>
-        {thumbnails.map((image, index) => (
-          <div
-            key={index}
-            className={`${styles.thumb__Slide} ${
-              images[activeIndex] === image ? styles.active : ""
-            }`}
-            onClick={() => handleThumbnailClick(image)}
-          >
-            <img src={image} alt={`Thumbnail ${index}`} />
-          </div>
-        ))}
+        <h3>Galería</h3>
+        <div className={styles.thumbsRow}>
+          {images.map((img, index) => (
+            <div
+              key={index}
+              className={styles.thumb__Slide}
+              onClick={() => handleThumbnailClick(images, index)}
+            >
+              <img src={img} alt={`Thumbnail ${index}`} />
+            </div>
+          ))}
+        </div>
+
+        <h3>Colores</h3>
+        <div className={styles.thumbsRow}>
+          {alternativeImages.map((img, index) => (
+            <div
+              key={index}
+              className={styles.thumb__Slide}
+              onClick={() =>
+                handleThumbnailClick(
+                  alternativeImages.map((alt) => alt.url),
+                  index
+                )
+              }
+            >
+              <img src={img.url} alt={img.name} />
+            </div>
+          ))}
+        </div>
       </div>
 
-      {/* Información del producto */}
       <div className={styles.container__info__products}>
         <p>
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
           nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-          volutpat. Ut Wisi enim ad io
+          volutpat.
         </p>
-
         <div className={styles.container__contact__info}>
           <a href="https://wa.me/573227347971" target="_blank" rel="noreferrer">
             <FaWhatsapp className={styles.icon__wpp} />
+            <h3>¿Tienes preguntas?</h3>
           </a>
-          <h3>¿Tienes preguntas?</h3>
         </div>
       </div>
     </div>

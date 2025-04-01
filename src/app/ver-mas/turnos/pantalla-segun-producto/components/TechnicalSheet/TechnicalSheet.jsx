@@ -20,8 +20,7 @@ function TechnicalSheet() {
             alt="icono de 99"
           />
           <p>
-            Registra hasta 99 turnos
-            <br />
+            Registra hasta 99 turnos <br className={styles.hide__on__mobile} />
             en cada pantalla
           </p>
         </div>
@@ -32,10 +31,8 @@ function TechnicalSheet() {
             alt="icono de area de espera y restaurante"
           />
           <p>
-            Tipos de uso: Áreas de
-            <br />
-            espera en general.
-            <br />
+            Tipos de uso: Áreas de <br className={styles.hide__on__mobile} />
+            espera en general. <br className={styles.hide__on__mobile} />
             Restaurantes autoservicio
           </p>
         </div>
@@ -46,8 +43,7 @@ function TechnicalSheet() {
             alt="icono de antena"
           />
           <p>
-            Recibe llamados de forma
-            <br />
+            Recibe llamados de forma <br className={styles.hide__on__mobile} />
             inalámbrica.
           </p>
         </div>
@@ -58,8 +54,7 @@ function TechnicalSheet() {
             alt="icono de sonido"
           />
           <p>
-            Alerta con sonido y
-            <br />
+            Alerta con sonido y <br className={styles.hide__on__mobile} />
             número en pantalla
           </p>
         </div>
@@ -71,10 +66,8 @@ function TechnicalSheet() {
             alt="icono de Tecnología Plus"
           />
           <p>
-            Compatible con:
-            <br />
-            Equipos de
-            <br />
+            Compatible con: <br className={styles.hide__on__mobile} />
+            Equipos de <br className={styles.hide__on__mobile} />
             Tecnología Plus.
           </p>
         </div>

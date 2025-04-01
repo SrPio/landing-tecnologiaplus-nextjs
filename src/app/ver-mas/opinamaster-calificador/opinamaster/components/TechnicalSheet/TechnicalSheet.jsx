@@ -28,10 +28,8 @@ function TechnicalSheet() {
             alt="icono de USB"
           />
           <p>
-            Alimentación de
-            <br />
-            energía y transferencia
-            <br />
+            Alimentación de <br className={styles.hide__on__mobile} />
+            energía y transferencia <br className={styles.hide__on__mobile} />
             de datos por USB
           </p>
         </div>

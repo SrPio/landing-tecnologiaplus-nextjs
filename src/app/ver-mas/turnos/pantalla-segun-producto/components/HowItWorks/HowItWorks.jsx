@@ -12,8 +12,8 @@ function HowItWorks() {
             alt="imagen de personas tomando su turno"
           />
           <p>
-            1. El cliente recibe el número
-            <br />
+            1. El cliente recibe el número{" "}
+            <br className={styles.hide__on__mobile} />
             de turno para su pedido
           </p>
         </div>
@@ -24,8 +24,8 @@ function HowItWorks() {
             alt="imagen de persona digitando en el control el numero de turno"
           />
           <p>
-            2. Cuando el pedido está listo, digita en
-            <br />
+            2. Cuando el pedido está listo, digita en{" "}
+            <br className={styles.hide__on__mobile} />
             el control el número del turno
           </p>
         </div>
@@ -36,8 +36,7 @@ function HowItWorks() {
             alt="imagen de pantalla mostrando el número de turno"
           />
           <p>
-            3. La pantalla suena
-            <br />
+            3. La pantalla suena <br className={styles.hide__on__mobile} />
             avisando al cliente del llamado
           </p>
         </div>

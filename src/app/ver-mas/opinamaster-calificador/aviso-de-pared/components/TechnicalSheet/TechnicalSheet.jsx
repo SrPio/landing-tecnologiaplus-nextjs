@@ -28,8 +28,7 @@ function TechnicalSheet() {
             alt="icono de cinta"
           />
           <p>
-            Con adhesivo para
-            <br />
+            Con adhesivo para <br className={styles.hide__on__mobile} />
             pegar en la pared
           </p>
         </div>
@@ -40,8 +39,7 @@ function TechnicalSheet() {
             alt="icono de gotas"
           />
           <p>
-            Resiste derrames
-            <br />
+            Resiste derrames <br className={styles.hide__on__mobile} />
             de agua el aviso de acrílico
           </p>
         </div>

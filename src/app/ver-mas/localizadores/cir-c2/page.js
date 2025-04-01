@@ -3,16 +3,16 @@ import WppBtn from "@/app/components/WppBtn/WppBtn";
 import Footer from "@/app/components/Footer/Footer";
 import style from "../../../localizadores/components/RelatedProducts/LocalizadoresRelatedProducts.module.scss";
 import SecondaryHeader from "@/app/components/SecondaryHeader/SecondaryHeader";
-import ProductGallery from "./components/ProductGallery/ProductGallery";
 import TechnicalSheet from "./components/TechnicalSheet/TechnicalSheet";
 import HowItWorks from "./components/HowItWorks/HowItWorks";
 import LocalizadoresRelatedProducts from "@/app/localizadores/components/RelatedProducts/LocalizadoresRelatedProducts";
 import LogosSection from "./components/LogosSection/LogosSection";
+import ProductGallerySelected from "./components/ProductGallery/ProductGallerySelected";
 
 export default function VerMasLocalizadoresCirC2() {
     return (
         <>
-            <ProductGallery />
+            <ProductGallerySelected />
             <SecondaryHeader />
             <TechnicalSheet />
             <HowItWorks />

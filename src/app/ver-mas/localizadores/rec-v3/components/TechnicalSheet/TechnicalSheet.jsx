@@ -20,8 +20,7 @@ function TechnicalSheet() {
             alt="icono de antena"
           />
           <p>
-            Largo Alcance, más de
-            <br />
+            Largo Alcance, más de <br className={styles.hide__on__mobile} />
             200 metros a la redonda
           </p>
         </div>
@@ -33,8 +32,7 @@ function TechnicalSheet() {
             alt="icono de calidad"
           />
           <p>
-            Material: Termoplástico
-            <br />
+            Material: Termoplástico <br className={styles.hide__on__mobile} />
             (resistente a golpes)
           </p>
         </div>
@@ -45,10 +43,8 @@ function TechnicalSheet() {
             alt="icono compatibilidad"
           />
           <p>
-            Capacidad:
-            <br />
-            hasta 20 localizadores y
-            <br />
+            Capacidad: <br className={styles.hide__on__mobile} />
+            hasta 20 localizadores y <br className={styles.hide__on__mobile} />
             pueden adicionar más bases.
           </p>
         </div>
@@ -59,10 +55,8 @@ function TechnicalSheet() {
             alt="icono caseta"
           />
           <p>
-            Tipos de USO:
-            <br />
-            Áreas de espera y
-            <br />
+            Tipos de USO: <br className={styles.hide__on__mobile} />
+            Áreas de espera y <br className={styles.hide__on__mobile} />
             zonas de comidas.
           </p>
         </div>
@@ -73,8 +67,7 @@ function TechnicalSheet() {
             alt="icono de enchufe"
           />
           <p>
-            Requerimiento:
-            <br />
+            Requerimiento: <br className={styles.hide__on__mobile} />
             Conexión eléctrica
           </p>
         </div>
@@ -85,10 +78,8 @@ function TechnicalSheet() {
             alt="icono de batería"
           />
           <p>
-            Duración de la batería:
-            <br />
-            Más de 3 horas por fuera
-            <br />
+            Duración de la batería: <br className={styles.hide__on__mobile} />
+            Más de 3 horas por fuera <br className={styles.hide__on__mobile} />
             de la base de recarga.
           </p>
         </div>

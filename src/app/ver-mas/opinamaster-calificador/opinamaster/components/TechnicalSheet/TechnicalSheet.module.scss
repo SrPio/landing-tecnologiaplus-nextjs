@@ -14,6 +14,11 @@
         min-width: 50px;
         object-fit: contain;
       }
+
+      .img__mobile {
+        display: none;
+      }
+
       p {
         justify-content: flex-start;
         width: 100%;
@@ -87,6 +92,14 @@
           .hide__on__mobile {
             display: none;
           }
+        }
+
+        .img__desktop {
+          display: none;
+        }
+
+        .img__mobile {
+          display: block;
         }
       }
     }

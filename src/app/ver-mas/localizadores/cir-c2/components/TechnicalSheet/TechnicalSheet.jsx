@@ -10,6 +10,13 @@ function TechnicalSheet() {
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741011162/4_4x-8_4_uxxrur.webp"
             alt="icono de vibrar, sonar y alumbra"
+            className={styles.img__desktop}
+          />
+          <img
+            loading="lazy"
+            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743518434/NUEVO_1_4x-8_v5vvlt.webp"
+            alt="icono de vibrar, sonar y alumbra"
+            className={styles.img__mobile}
           />
           <p>Vibra, suena y alumbra</p>
         </div>

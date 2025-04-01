@@ -22,6 +22,13 @@ function TechnicalSheet() {
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740254435/8_4x-8_ppgjyp.webp"
             alt="icono de alfanumerica"
+            className={styles.img__desktop}
+          />
+          <img
+            loading="lazy"
+            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743521161/NUEVO_4_4x-8_b40dgi.webp"
+            alt="icono de alfanumerica"
+            className={styles.img__mobile}
           />
           <p>Alfanumérica</p>
         </div>
@@ -53,6 +60,13 @@ function TechnicalSheet() {
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740411505/nuevo_4x-8_nqits1.webp"
             alt="icono de diferentes tipos de aviso"
+            className={styles.img__desktop}
+          />
+          <img
+            loading="lazy"
+            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743520975/NUEVO_5_4x-8_eer7ax.webp"
+            alt="icono de diferentes tipos de aviso"
+            className={styles.img__mobile}
           />
           <p>
             Tipo de aviso: <br className={styles.hide__on__mobile} />
@@ -97,6 +111,13 @@ function TechnicalSheet() {
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740254433/9_4x-8_y7wpo5.webp"
             alt="icono de 4 llamados visibles"
+            className={styles.img__desktop}
+          />
+          <img
+            loading="lazy"
+            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743519166/NUEVO_3_4x-8_f7s4h6.webp"
+            alt="icono de 4 llamados visibles"
+            className={styles.img__mobile}
           />
           <p>
             4 llamados visibles <br className={styles.hide__on__mobile} />

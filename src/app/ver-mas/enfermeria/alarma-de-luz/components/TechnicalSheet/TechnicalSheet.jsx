@@ -26,6 +26,13 @@ function TechnicalSheet() {
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741558125/8_4x-8_aex4cu.webp"
             alt="icono de llamadores"
+            className={styles.img__desktop}
+          />
+          <img
+            loading="lazy"
+            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743518103/REMPLAZAR_1_4x-8_1_xi2h5p.webp"
+            alt="icono de llamadores"
+            className={styles.img__mobile}
           />
           <p>
             Cada alarma <br className={styles.hide__on__mobile} />
@@ -65,6 +72,13 @@ function TechnicalSheet() {
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741558128/9_4x-8_syembx.webp"
             alt="icono de modo de aviso"
+            className={styles.img__desktop}
+          />
+          <img
+            loading="lazy"
+            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743518198/REEMPLAZAR_2_4x-8_osa8s3.webp"
+            alt="icono de llamadores"
+            className={styles.img__mobile}
           />
           <p>
             Modo de aviso: suena y <br className={styles.hide__on__mobile} />

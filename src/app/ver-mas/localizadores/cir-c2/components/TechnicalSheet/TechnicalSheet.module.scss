@@ -15,6 +15,10 @@
         min-width: 70px;
         object-fit: contain;
       }
+
+      .img__mobile {
+        display: none;
+      }
     }
 
     .item:nth-child(1),
@@ -84,6 +88,14 @@
           .hide__on__mobile {
             display: none;
           }
+        }
+
+        .img__desktop {
+          display: none;
+        }
+
+        .img__mobile {
+          display: block;
         }
       }
     }

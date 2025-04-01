@@ -10,6 +10,13 @@ function TechnicalSheet() {
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741016187/16_4x-8_4_bzkz4u.webp"
             alt="icono de niveles de calificación"
+            className={styles.img__desktop}
+          />
+          <img
+            loading="lazy"
+            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743518798/NUEVO_2_4x-8_vzlwis.webp"
+            alt="icono de niveles de calificación"
+            className={styles.img__mobile}
           />
           <p>4 niveles de calificación</p>
         </div>

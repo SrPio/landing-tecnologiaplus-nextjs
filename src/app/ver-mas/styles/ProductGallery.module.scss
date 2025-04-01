@@ -474,6 +474,16 @@
       justify-content: flex-start;
     }
 
+    /* Ocultar la barra de desplazamiento horizontal en navegadores Webkit */
+    .thumbsRow::-webkit-scrollbar {
+      display: none;
+    }
+
+    /* Para otros navegadores */
+    .thumbsRow {
+      scrollbar-width: none; /* Firefox */
+    }
+
     .thumb__Slide {
       flex: 0 0 auto;
       cursor: pointer;

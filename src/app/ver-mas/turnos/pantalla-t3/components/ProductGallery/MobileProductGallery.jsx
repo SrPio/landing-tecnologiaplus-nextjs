@@ -18,7 +18,7 @@ function MobileProductGallery() {
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741641334/Frame_1_68_bol78g.webp",
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741641726/Frame_1_72_e6dexg.webp",
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741641439/Frame_1_69_o8kcmz.webp",
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740084323/6_4x-8_2_udz2vk.webp",
+    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743517289/Frame_1_12_wy1i9i.webp",
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741641512/Frame_1_70_b26kjg.webp",
   ];
 

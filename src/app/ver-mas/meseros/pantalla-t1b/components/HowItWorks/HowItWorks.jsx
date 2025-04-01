@@ -12,8 +12,8 @@ function HowItWorks() {
             alt="imagen de cliente presionando el botón de llamado"
           />
           <p>
-            1. El cliente presiona el botón
-            <br />
+            1. El cliente presiona el botón{" "}
+            <br className={styles.hide__on__mobile} />
             para llamar al mesero
           </p>
         </div>
@@ -32,8 +32,8 @@ function HowItWorks() {
             alt="imagen de cliente escuchando la pantalla sonar y reclamando su pedido"
           />
           <p>
-            3. El mesero atiende el llamado y presiona
-            <br />
+            3. El mesero atiende el llamado y presiona{" "}
+            <br className={styles.hide__on__mobile} />
             la tecla CANCELAR para borrar el llamado
           </p>
         </div>

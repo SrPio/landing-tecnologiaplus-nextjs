@@ -12,8 +12,7 @@ function TechnicalSheet() {
             alt="icono de alerta con sonido y número en pantalla"
           />
           <p>
-            Alerta con sonido y
-            <br />
+            Alerta con sonido y <br className={styles.hide__on__mobile} />
             número en pantalla
           </p>
         </div>
@@ -24,8 +23,7 @@ function TechnicalSheet() {
             alt="icono de antena"
           />
           <p>
-            Recibe los llamados
-            <br />
+            Recibe los llamados <br className={styles.hide__on__mobile} />
             de forma inalámbrica.
           </p>
         </div>
@@ -44,8 +42,7 @@ function TechnicalSheet() {
             alt="icono de Tecnología Plus"
           />
           <p>
-            Compatible con:
-            <br />
+            Compatible con: <br className={styles.hide__on__mobile} />
             Llamadores de Tecnología Plus.
           </p>
         </div>
@@ -56,8 +53,7 @@ function TechnicalSheet() {
             alt="icono de area de espera"
           />
           <p>
-            uso: espacios para llamar
-            <br />
+            uso: espacios para llamar <br className={styles.hide__on__mobile} />
             meseros o empleados.
           </p>
         </div>
@@ -68,8 +64,7 @@ function TechnicalSheet() {
             alt="icono de pantalla visible"
           />
           <p>
-            1 llamado visible
-            <br />
+            1 llamado visible <br className={styles.hide__on__mobile} />
             en pantalla
           </p>
         </div>
@@ -80,8 +75,7 @@ function TechnicalSheet() {
             alt="icono de pantalla de 3 dígitos"
           />
           <p>
-            Muestra hasta
-            <br />3 dígitos
+            Muestra hasta <br className={styles.hide__on__mobile} />3 dígitos
           </p>
         </div>
       </div>

@@ -28,8 +28,7 @@ function TechnicalSheet() {
             alt="icono de persona"
           />
           <p>
-            Uso: para llamar
-            <br />
+            Uso: para llamar <br className={styles.hide__on__mobile} />
             el personal.
           </p>
         </div>
@@ -40,8 +39,7 @@ function TechnicalSheet() {
             alt="icono compatibilidad"
           />
           <p>
-            Compatible Con
-            <br />
+            Compatible Con <br className={styles.hide__on__mobile} />
             Equipos de Tecnología Plus.
           </p>
         </div>
@@ -52,8 +50,9 @@ function TechnicalSheet() {
             alt="icono de antena"
           />
           <p>
-            Se digita el numero a llarnar
-            <br />y se envía una señal inalámbrica.
+            Se digita el numero a llarnar{" "}
+            <br className={styles.hide__on__mobile} />y se envía una señal
+            inalámbrica.
           </p>
         </div>
       </div>

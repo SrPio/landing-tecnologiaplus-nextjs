@@ -12,10 +12,8 @@ function TechnicalSheet() {
             alt="icono Tecnología Plus"
           />
           <p>
-            Compatible con
-            <br />
-            llamadores de
-            <br />
+            Compatible con <br className={styles.hide__on__mobile} />
+            llamadores de <br className={styles.hide__on__mobile} />
             Tecnología Plus
           </p>
         </div>
@@ -34,8 +32,7 @@ function TechnicalSheet() {
             alt="icono de gotas"
           />
           <p>
-            Resiste derrames
-            <br />
+            Resiste derrames <br className={styles.hide__on__mobile} />
             de agua
           </p>
         </div>
@@ -46,8 +43,7 @@ function TechnicalSheet() {
             alt="icono de mesa"
           />
           <p>
-            para ponerlo
-            <br />
+            para ponerlo <br className={styles.hide__on__mobile} />
             sobre las mesas
           </p>
         </div>

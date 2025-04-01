@@ -12,8 +12,8 @@ function HowItWorks() {
             alt="imagen de cliente presionando botón"
           />
           <p>
-            1. El cliente presiona el botón
-            <br />
+            1. El cliente presiona el botón{" "}
+            <br className={styles.hide__on__mobile} />
             para llamar al mesero
           </p>
         </div>
@@ -24,8 +24,8 @@ function HowItWorks() {
             alt="imagen de pantalla mostrando número de mesa"
           />
           <p>
-            2. La pantalla muestra el número
-            <br />
+            2. La pantalla muestra el número{" "}
+            <br className={styles.hide__on__mobile} />
             de la mesa que está llamando.
           </p>
         </div>

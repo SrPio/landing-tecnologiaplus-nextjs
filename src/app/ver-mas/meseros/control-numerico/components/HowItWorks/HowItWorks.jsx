@@ -12,8 +12,8 @@ function HowItWorks() {
             alt="imagen de cocinero digitando número asignado a mesero"
           />
           <p>
-            1. Desde cocina digitan el número asignado a cada
-            <br />
+            1. Desde cocina digitan el número asignado a cada{" "}
+            <br className={styles.hide__on__mobile} />
             mesero para avisarle que la orden está lista.
           </p>
         </div>
@@ -24,8 +24,8 @@ function HowItWorks() {
             alt="imagen de mesero recibiendo alerta en reloj o pantalla"
           />
           <p>
-            2. El mesero recibe la alerta en
-            <br />
+            2. El mesero recibe la alerta en{" "}
+            <br className={styles.hide__on__mobile} />
             el reloj o en la pantalla
           </p>
         </div>

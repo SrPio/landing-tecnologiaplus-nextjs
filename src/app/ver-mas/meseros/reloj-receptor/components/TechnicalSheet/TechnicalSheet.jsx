@@ -12,10 +12,9 @@ function TechnicalSheet() {
             alt="icono batería"
           />
           <p>
-            Batería: Se recarga tipo
-            <br />
-            celular, duración entre 1 y
-            <br />3 días. Incluye cargador.
+            Batería: Se recarga tipo <br className={styles.hide__on__mobile} />
+            celular, duración entre 1 y{" "}
+            <br className={styles.hide__on__mobile} />3 días. Incluye cargador.
           </p>
         </div>
         <div className={styles.item}>
@@ -33,10 +32,8 @@ function TechnicalSheet() {
             alt="icono de enchufe"
           />
           <p>
-            Incluye adaptador y
-            <br />
-            cable de conexión
-            <br />
+            Incluye adaptador y <br className={styles.hide__on__mobile} />
+            cable de conexión <br className={styles.hide__on__mobile} />
             eléctrica.
           </p>
         </div>
@@ -47,8 +44,7 @@ function TechnicalSheet() {
             alt="icono reloj"
           />
           <p>
-            Ideal para llamar
-            <br />
+            Ideal para llamar <br className={styles.hide__on__mobile} />
             empleados
           </p>
         </div>
@@ -59,8 +55,7 @@ function TechnicalSheet() {
             alt="icono de diferentes tipos de aviso"
           />
           <p>
-            Tipo de aviso:
-            <br />
+            Tipo de aviso: <br className={styles.hide__on__mobile} />
             vibración, sonido y luz
           </p>
         </div>
@@ -71,8 +66,7 @@ function TechnicalSheet() {
             alt="icono de antena"
           />
           <p>
-            Recibe los llamados
-            <br />
+            Recibe los llamados <br className={styles.hide__on__mobile} />
             de forma inalámbrica.
           </p>
         </div>
@@ -83,8 +77,7 @@ function TechnicalSheet() {
             alt="icono de gotas"
           />
           <p>
-            Resiste derrames
-            <br />
+            Resiste derrames <br className={styles.hide__on__mobile} />
             accidentales de agua.
           </p>
         </div>
@@ -95,8 +88,7 @@ function TechnicalSheet() {
             alt="icono de cabina"
           />
           <p>
-            Uso: espacios para llamar
-            <br />
+            Uso: espacios para llamar <br className={styles.hide__on__mobile} />
             meseros o empleados.
           </p>
         </div>
@@ -107,8 +99,7 @@ function TechnicalSheet() {
             alt="icono de 4 llamados visibles"
           />
           <p>
-            4 llamados visibles
-            <br />
+            4 llamados visibles <br className={styles.hide__on__mobile} />
             en pantalla
           </p>
         </div>

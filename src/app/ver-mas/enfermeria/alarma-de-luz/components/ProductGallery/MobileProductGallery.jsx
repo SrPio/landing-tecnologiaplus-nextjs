@@ -40,6 +40,7 @@ function MobileProductGallery() {
 
       <div className={styles.container__titles}>
         <h1>Alarma de luz</h1>
+        <p>Alerta instantánea con luz y sonido</p>
       </div>
       {/* Carrusel principal */}
       <Swiper
@@ -63,9 +64,10 @@ function MobileProductGallery() {
       {/* Información del producto */}
       <div className={styles.container__info__products}>
         <p>
-          Alarma visual y sonora ideal para lugares con alto nivel de ruido,
-          espacios amplios y pasillos largos, buscando facilitar la comunicación
-          entre pacientes y el personal de enfermería.
+          Alarma visual y sonora compatible con llamado de enfermería, ideal
+          para lugares con alto nivel de ruido, espacios amplios y pasillos
+          largos, buscando facilitar la comunicación entre pacientes y el
+          personal de enfermería.
         </p>
 
         <div className={styles.container__contact__info}>

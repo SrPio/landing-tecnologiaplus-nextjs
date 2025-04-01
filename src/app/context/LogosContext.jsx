@@ -499,7 +499,7 @@ export const LogosProvider = ({ children }) => {
       alt: "Logo Clinaltec",
     },
     {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563262/Mesa_de_trabajo_22_emrtxp.svg",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743542458/Mesa_de_trabajo_22_4x_b8gbeq.webp",
       alt: "Logo Clinimed",
     },
     {
@@ -515,7 +515,7 @@ export const LogosProvider = ({ children }) => {
       alt: "Logo Cruz Roja",
     },
     {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563262/Mesa_de_trabajo_26_lbdqzi.svg",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743542409/Mesa_de_trabajo_26_4x_hu0kue.webp",
       alt: "Logo Confa",
     },
     {
@@ -539,7 +539,7 @@ export const LogosProvider = ({ children }) => {
       alt: "Logo Clinaltec",
     },
     {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563262/Mesa_de_trabajo_22_emrtxp.svg",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743542458/Mesa_de_trabajo_22_4x_b8gbeq.webp",
       alt: "Logo Clinimed",
     },
     {
@@ -555,7 +555,7 @@ export const LogosProvider = ({ children }) => {
       alt: "Logo Cruz Roja",
     },
     {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563262/Mesa_de_trabajo_26_lbdqzi.svg",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743542409/Mesa_de_trabajo_26_4x_hu0kue.webp",
       alt: "Logo Confa",
     },
     {
@@ -579,7 +579,7 @@ export const LogosProvider = ({ children }) => {
       alt: "Logo Clinaltec",
     },
     {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563262/Mesa_de_trabajo_22_emrtxp.svg",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743542458/Mesa_de_trabajo_22_4x_b8gbeq.webp",
       alt: "Logo Clinimed",
     },
     {
@@ -595,7 +595,7 @@ export const LogosProvider = ({ children }) => {
       alt: "Logo Cruz Roja",
     },
     {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563262/Mesa_de_trabajo_26_lbdqzi.svg",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743542409/Mesa_de_trabajo_26_4x_hu0kue.webp",
       alt: "Logo Confa",
     },
     {
@@ -619,7 +619,7 @@ export const LogosProvider = ({ children }) => {
       alt: "Logo Clinaltec",
     },
     {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563262/Mesa_de_trabajo_22_emrtxp.svg",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743542458/Mesa_de_trabajo_22_4x_b8gbeq.webp",
       alt: "Logo Clinimed",
     },
     {
@@ -635,7 +635,7 @@ export const LogosProvider = ({ children }) => {
       alt: "Logo Cruz Roja",
     },
     {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563262/Mesa_de_trabajo_26_lbdqzi.svg",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743542409/Mesa_de_trabajo_26_4x_hu0kue.webp",
       alt: "Logo Confa",
     },
     {
@@ -659,7 +659,7 @@ export const LogosProvider = ({ children }) => {
       alt: "Logo Clinaltec",
     },
     {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563262/Mesa_de_trabajo_22_emrtxp.svg",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743542458/Mesa_de_trabajo_22_4x_b8gbeq.webp",
       alt: "Logo Clinimed",
     },
     {
@@ -675,7 +675,7 @@ export const LogosProvider = ({ children }) => {
       alt: "Logo Cruz Roja",
     },
     {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563262/Mesa_de_trabajo_26_lbdqzi.svg",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743542409/Mesa_de_trabajo_26_4x_hu0kue.webp",
       alt: "Logo Confa",
     },
     {
@@ -699,7 +699,7 @@ export const LogosProvider = ({ children }) => {
       alt: "Logo Clinaltec",
     },
     {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563262/Mesa_de_trabajo_22_emrtxp.svg",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743542458/Mesa_de_trabajo_22_4x_b8gbeq.webp",
       alt: "Logo Clinimed",
     },
     {
@@ -715,7 +715,7 @@ export const LogosProvider = ({ children }) => {
       alt: "Logo Cruz Roja",
     },
     {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563262/Mesa_de_trabajo_26_lbdqzi.svg",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743542409/Mesa_de_trabajo_26_4x_hu0kue.webp",
       alt: "Logo Confa",
     },
   ]);
@@ -1107,7 +1107,7 @@ export const LogosProvider = ({ children }) => {
       alt: "Logo Hoteles Cosmos",
     },
     {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563267/Mesa_de_trabajo_37_cjzayx.svg",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743542350/Mesa_de_trabajo_37_4x_n1ksz9.webp",
       alt: "Logo Club El Nogal",
     },
     {
@@ -1135,7 +1135,7 @@ export const LogosProvider = ({ children }) => {
       alt: "Logo Hoteles Cosmos",
     },
     {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563267/Mesa_de_trabajo_37_cjzayx.svg",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743542350/Mesa_de_trabajo_37_4x_n1ksz9.webp",
       alt: "Logo Club El Nogal",
     },
     {
@@ -1163,7 +1163,7 @@ export const LogosProvider = ({ children }) => {
       alt: "Logo Hoteles Cosmos",
     },
     {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563267/Mesa_de_trabajo_37_cjzayx.svg",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743542350/Mesa_de_trabajo_37_4x_n1ksz9.webp",
       alt: "Logo Club El Nogal",
     },
     {
@@ -1191,7 +1191,7 @@ export const LogosProvider = ({ children }) => {
       alt: "Logo Hoteles Cosmos",
     },
     {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563267/Mesa_de_trabajo_37_cjzayx.svg",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743542350/Mesa_de_trabajo_37_4x_n1ksz9.webp",
       alt: "Logo Club El Nogal",
     },
     {
@@ -1219,7 +1219,7 @@ export const LogosProvider = ({ children }) => {
       alt: "Logo Hoteles Cosmos",
     },
     {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563267/Mesa_de_trabajo_37_cjzayx.svg",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743542350/Mesa_de_trabajo_37_4x_n1ksz9.webp",
       alt: "Logo Club El Nogal",
     },
     {
@@ -1234,7 +1234,7 @@ export const LogosProvider = ({ children }) => {
 
   const [logosLocalizadores] = useState([
     {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563268/Mesa_de_trabajo_39_vripqv.svg",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743542309/Mesa_de_trabajo_39_4x_szfdyq.webp",
       alt: "Logo Qbano",
     },
     {
@@ -1246,7 +1246,7 @@ export const LogosProvider = ({ children }) => {
       alt: "Logo Alkosto",
     },
     {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563269/Mesa_de_trabajo_41_vdtxvg.svg",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743542268/Mesa_de_trabajo_41_4x_lktbou.webp",
       alt: "Logo Frisby",
     },
     {
@@ -1266,11 +1266,11 @@ export const LogosProvider = ({ children }) => {
       alt: "Logo Sr. Wok",
     },
     {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563271/Mesa_de_trabajo_46_jwx3qb.svg",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743542141/Mesa_de_trabajo_46_4x_azluws.webp",
       alt: "Logo Cosechas",
     },
     {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563271/Mesa_de_trabajo_47_zep4iv.svg",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743542051/Mesa_de_trabajo_47_4x_jtxvmh.webp",
       alt: "Logo Wok",
     },
     {
@@ -1282,11 +1282,11 @@ export const LogosProvider = ({ children }) => {
       alt: "Logo Juan Valdez",
     },
     {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563272/Mesa_de_trabajo_49_n1gnqv.svg",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743542005/Mesa_de_trabajo_49_4x_jlptaw.webp",
       alt: "Logo Crepes & Waffles",
     },
     {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563268/Mesa_de_trabajo_39_vripqv.svg",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743542309/Mesa_de_trabajo_39_4x_szfdyq.webp",
       alt: "Logo Qbano",
     },
     {
@@ -1298,7 +1298,7 @@ export const LogosProvider = ({ children }) => {
       alt: "Logo Alkosto",
     },
     {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563269/Mesa_de_trabajo_41_vdtxvg.svg",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743542268/Mesa_de_trabajo_41_4x_lktbou.webp",
       alt: "Logo Frisby",
     },
     {
@@ -1318,11 +1318,11 @@ export const LogosProvider = ({ children }) => {
       alt: "Logo Sr. Wok",
     },
     {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563271/Mesa_de_trabajo_46_jwx3qb.svg",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743542141/Mesa_de_trabajo_46_4x_azluws.webp",
       alt: "Logo Cosechas",
     },
     {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563271/Mesa_de_trabajo_47_zep4iv.svg",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743542051/Mesa_de_trabajo_47_4x_jtxvmh.webp",
       alt: "Logo Wok",
     },
     {
@@ -1334,11 +1334,11 @@ export const LogosProvider = ({ children }) => {
       alt: "Logo Juan Valdez",
     },
     {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563272/Mesa_de_trabajo_49_n1gnqv.svg",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743542005/Mesa_de_trabajo_49_4x_jlptaw.webp",
       alt: "Logo Crepes & Waffles",
     },
     {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563268/Mesa_de_trabajo_39_vripqv.svg",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743542309/Mesa_de_trabajo_39_4x_szfdyq.webp",
       alt: "Logo Qbano",
     },
     {
@@ -1350,7 +1350,7 @@ export const LogosProvider = ({ children }) => {
       alt: "Logo Alkosto",
     },
     {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563269/Mesa_de_trabajo_41_vdtxvg.svg",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743542268/Mesa_de_trabajo_41_4x_lktbou.webp",
       alt: "Logo Frisby",
     },
     {
@@ -1370,11 +1370,11 @@ export const LogosProvider = ({ children }) => {
       alt: "Logo Sr. Wok",
     },
     {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563271/Mesa_de_trabajo_46_jwx3qb.svg",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743542141/Mesa_de_trabajo_46_4x_azluws.webp",
       alt: "Logo Cosechas",
     },
     {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563271/Mesa_de_trabajo_47_zep4iv.svg",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743542051/Mesa_de_trabajo_47_4x_jtxvmh.webp",
       alt: "Logo Wok",
     },
     {
@@ -1386,11 +1386,11 @@ export const LogosProvider = ({ children }) => {
       alt: "Logo Juan Valdez",
     },
     {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563272/Mesa_de_trabajo_49_n1gnqv.svg",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743542005/Mesa_de_trabajo_49_4x_jlptaw.webp",
       alt: "Logo Crepes & Waffles",
     },
     {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563268/Mesa_de_trabajo_39_vripqv.svg",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743542309/Mesa_de_trabajo_39_4x_szfdyq.webp",
       alt: "Logo Qbano",
     },
     {
@@ -1402,7 +1402,7 @@ export const LogosProvider = ({ children }) => {
       alt: "Logo Alkosto",
     },
     {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563269/Mesa_de_trabajo_41_vdtxvg.svg",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743542268/Mesa_de_trabajo_41_4x_lktbou.webp",
       alt: "Logo Frisby",
     },
     {
@@ -1422,11 +1422,11 @@ export const LogosProvider = ({ children }) => {
       alt: "Logo Sr. Wok",
     },
     {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563271/Mesa_de_trabajo_46_jwx3qb.svg",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743542141/Mesa_de_trabajo_46_4x_azluws.webp",
       alt: "Logo Cosechas",
     },
     {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563271/Mesa_de_trabajo_47_zep4iv.svg",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743542051/Mesa_de_trabajo_47_4x_jtxvmh.webp",
       alt: "Logo Wok",
     },
     {
@@ -1438,7 +1438,7 @@ export const LogosProvider = ({ children }) => {
       alt: "Logo Juan Valdez",
     },
     {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563272/Mesa_de_trabajo_49_n1gnqv.svg",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743542005/Mesa_de_trabajo_49_4x_jlptaw.webp",
       alt: "Logo Crepes & Waffles",
     },
   ]);
@@ -1449,7 +1449,7 @@ export const LogosProvider = ({ children }) => {
       alt: "Logo Smartfit",
     },
     {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563269/Mesa_de_trabajo_41_vdtxvg.svg",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743542268/Mesa_de_trabajo_41_4x_lktbou.webp",
       alt: "Logo Frisby",
     },
     {
@@ -1465,7 +1465,7 @@ export const LogosProvider = ({ children }) => {
       alt: "Logo Liga Colombiana Contra el Cáncer",
     },
     {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563272/Mesa_de_trabajo_49_n1gnqv.svg",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743542005/Mesa_de_trabajo_49_4x_jlptaw.webp",
       alt: "Logo Crepes & Waffles",
     },
     {
@@ -1493,7 +1493,7 @@ export const LogosProvider = ({ children }) => {
       alt: "Logo Smartfit",
     },
     {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563269/Mesa_de_trabajo_41_vdtxvg.svg",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743542268/Mesa_de_trabajo_41_4x_lktbou.webp",
       alt: "Logo Frisby",
     },
     {
@@ -1509,7 +1509,7 @@ export const LogosProvider = ({ children }) => {
       alt: "Logo Liga Colombiana Contra el Cáncer",
     },
     {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563272/Mesa_de_trabajo_49_n1gnqv.svg",
+      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743542005/Mesa_de_trabajo_49_4x_jlptaw.webp",
       alt: "Logo Crepes & Waffles",
     },
     {

@@ -45,7 +45,11 @@ function MobileProductGallery() {
         <h1>
           PANTALLA T<span>1</span>B de <span>1</span> llamado
         </h1>
-        <p>Muestra 1 llamado en pantalla, hasta 15 en cola.</p>
+        <p>
+          Muestra 1 llamado en pantalla,
+          <br />
+          hasta 15 en cola.
+        </p>
       </div>
 
       {/* Carrusel principal */}

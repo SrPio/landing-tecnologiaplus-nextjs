@@ -15,6 +15,9 @@
         max-width: 120px;
         object-fit: contain;
       }
+      .img__mobile {
+        display: none;
+      }
     }
 
     .item:nth-child(6) {
@@ -76,8 +79,8 @@
       .item:nth-child(6) {
         margin-left: 0;
         img {
-          width: 80px;
-          max-width: 80px;
+          width: 40px;
+          max-width: 40px;
         }
       }
 
@@ -98,6 +101,14 @@
           .hide__on__mobile {
             display: none;
           }
+        }
+
+        .img__desktop {
+          display: none;
+        }
+
+        .img__mobile {
+          display: block;
         }
       }
     }

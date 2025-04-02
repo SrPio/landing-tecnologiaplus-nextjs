@@ -12,8 +12,8 @@ function HowItWorks() {
             alt="imagen de usuario tomando turno"
           />
           <p>
-            1. Usuario toma un número de turno
-            <br />
+            1. Usuario toma un número de turno{" "}
+            <br className={styles.hide__on__mobile} />
             en el dispensador tipo caracol.
           </p>
         </div>
@@ -32,8 +32,8 @@ function HowItWorks() {
             alt="imagen de usuario dirigiendose a la ventanilla"
           />
           <p>
-            3. Cuando llaman el turno, se dirige a la
-            <br />
+            3. Cuando llaman el turno, se dirige a la{" "}
+            <br className={styles.hide__on__mobile} />
             ventanilla o módulo de atención.
           </p>
         </div>

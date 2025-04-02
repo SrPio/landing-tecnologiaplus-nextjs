@@ -12,8 +12,7 @@ function TechnicalSheet() {
             alt="icono material"
           />
           <p>
-            Material:
-            <br />
+            Material: <br className={styles.hide__on__mobile} />
             Acrílico
           </p>
         </div>
@@ -24,8 +23,7 @@ function TechnicalSheet() {
             alt="icono de personas"
           />
           <p>
-            Es la opción más sencilla
-            <br />
+            Es la opción más sencilla <br className={styles.hide__on__mobile} />
             de organizar filas.
           </p>
         </div>
@@ -36,8 +34,7 @@ function TechnicalSheet() {
             alt="icono de turnos"
           />
           <p>
-            Asigna turnos en
-            <br />
+            Asigna turnos en <br className={styles.hide__on__mobile} />
             orden de llegada.
           </p>
         </div>
@@ -48,10 +45,9 @@ function TechnicalSheet() {
             alt="icono de sala de espera"
           />
           <p>
-            Tipos de uso:
-            <br />
-            Áreas de espera en general donde
-            <br />
+            Tipos de uso: <br className={styles.hide__on__mobile} />
+            Áreas de espera en general donde{" "}
+            <br className={styles.hide__on__mobile} />
             hay una o varias filas de espera.
           </p>
         </div>
@@ -62,8 +58,8 @@ function TechnicalSheet() {
             alt="icono números"
           />
           <p>
-            Agiliza eI llamado de turnos
-            <br />
+            Agiliza eI llamado de turnos{" "}
+            <br className={styles.hide__on__mobile} />
             de manera ordenada.
           </p>
         </div>
@@ -74,8 +70,7 @@ function TechnicalSheet() {
             alt="icono de tornillo"
           />
           <p>
-            Incluye tornillos para
-            <br />
+            Incluye tornillos para <br className={styles.hide__on__mobile} />
             colgarlo en la pared.
           </p>
         </div>

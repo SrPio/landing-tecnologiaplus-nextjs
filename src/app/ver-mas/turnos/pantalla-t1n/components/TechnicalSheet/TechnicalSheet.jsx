@@ -20,8 +20,7 @@ function TechnicalSheet() {
             alt="icono de 99"
           />
           <p>
-            Registra hasta
-            <br />
+            Registra hasta <br className={styles.hide__on__mobile} />
             99 turnos
           </p>
         </div>
@@ -40,8 +39,7 @@ function TechnicalSheet() {
             alt="icono de sala de espera"
           />
           <p>
-            Tipos de uso
-            <br />
+            Tipos de uso <br className={styles.hide__on__mobile} />
             Área de espera.
           </p>
         </div>
@@ -52,8 +50,7 @@ function TechnicalSheet() {
             alt="icono de antena"
           />
           <p>
-            Recibe llamados de forma
-            <br />
+            Recibe llamados de forma <br className={styles.hide__on__mobile} />
             inalámbrica.
           </p>
         </div>
@@ -64,8 +61,7 @@ function TechnicalSheet() {
             alt="icono de sonido"
           />
           <p>
-            Alerta con sonido y
-            <br />
+            Alerta con sonido y <br className={styles.hide__on__mobile} />
             número en pantalla
           </p>
         </div>
@@ -76,10 +72,8 @@ function TechnicalSheet() {
             alt="icono de control de Tecnología Plus"
           />
           <p>
-            Compatible con:
-            <br />
-            controles que indique
-            <br />
+            Compatible con: <br className={styles.hide__on__mobile} />
+            controles que indique <br className={styles.hide__on__mobile} />
             Tecnología Plus.
           </p>
         </div>
@@ -90,8 +84,8 @@ function TechnicalSheet() {
             alt="icono de ojo"
           />
           <p>
-            Visibilidad:
-            <br />1 a 50 metros.
+            Visibilidad: <br className={styles.hide__on__mobile} />1 a 50
+            metros.
           </p>
         </div>
       </div>

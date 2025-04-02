@@ -147,6 +147,7 @@ function ProductGallery() {
         <div className={styles.container__info__products}>
           <div className={styles.container__titles}>
             <h1>Reloj receptor de llamados</h1>
+            <p>Vibra y muestra el número de la cama.</p>
           </div>
 
           <div className={styles.container__contact__info}>
@@ -160,7 +161,11 @@ function ProductGallery() {
             <h3>¿Tienes preguntas?</h3>
           </div>
 
-          <p>Compatible con los equipos de nuestra marca.</p>
+          <p>
+            Reloj receptor de llamados de enfermería, recibe alertas
+            instantáneas facilitando la atención a los pacientes. Ideal en zonas
+            especificas de hospitales y hogares geriátricos.
+          </p>
         </div>
       </div>
 

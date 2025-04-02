@@ -145,7 +145,7 @@ function ProductGallery() {
             <h1>
               Llamador con extensor EX<span>1</span>
             </h1>
-            <p>Para llamar la enfermera</p>
+            <p>Con cable extensor para pacientes con movilidad reducida</p>
           </div>
 
           <div className={styles.container__contact__info}>
@@ -160,9 +160,9 @@ function ProductGallery() {
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-            volutpat. Ut Wisi enim ad io
+            Sistema de timbres para habitaciones con cable flexible, ideal para
+            camas hospitalarias y hogares geriátricos. Facilita la comunicación
+            entre pacientes y el personal de salud.
           </p>
         </div>
       </div>

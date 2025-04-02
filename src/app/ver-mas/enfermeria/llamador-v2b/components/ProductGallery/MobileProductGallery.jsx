@@ -73,7 +73,7 @@ function MobileProductGallery() {
 
       <div className={styles.container__titles}>
         <h1>Llamador E2 Blanco</h1>
-        <p>Para llamar la enfermera</p>
+        <p>Más cerca de tus pacientes.</p>
       </div>
 
       <Swiper
@@ -161,9 +161,10 @@ function MobileProductGallery() {
 
       <div className={styles.container__info__products}>
         <p>
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-          nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-          volutpat.
+          Llamado de enfermería inhalambrico para mejorar la atención en el
+          sector salud, ideal para hospitales, clínicas y hogares geriátricos.
+          Solución práctica que agiliza la atención y brinda mayor comodidad a
+          los pacientes.
         </p>
         <div className={styles.container__contact__info}>
           <a href="https://wa.me/573227347971" target="_blank" rel="noreferrer">

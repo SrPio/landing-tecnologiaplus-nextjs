@@ -143,7 +143,7 @@ function ProductGallery() {
             <h1>
               Llamador E<span>1</span> para colgar en cuello
             </h1>
-            <p>Para llamar la enfermera</p>
+            <p>Siempre a la mano de tus pacientes</p>
           </div>
 
           <div className={styles.container__contact__info}>
@@ -158,9 +158,10 @@ function ProductGallery() {
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-            volutpat. Ut Wisi enim ad io
+            Botón de enfermería portátil, ligero y resistente al agua, ideal
+            para adultos mayores o pacientes con movilidad reducida. Permite
+            llamar a la enfermera fácilmente, mejorando el bienestar del
+            paciente.
           </p>
         </div>
       </div>

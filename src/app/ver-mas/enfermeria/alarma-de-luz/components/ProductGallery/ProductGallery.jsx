@@ -157,9 +157,10 @@ function ProductGallery() {
           </div>
 
           <p>
-            Alarma visual y sonora ideal para lugares con alto nivel de ruido,
-            espacios amplios y pasillos largos, buscando facilitar la
-            comunicación entre pacientes y el personal de enfermería.
+            Alarma visual y sonora compatible con llamado de enfermería, ideal
+            para lugares con alto nivel de ruido, espacios amplios y pasillos
+            largos, buscando facilitar la comunicación entre pacientes y el
+            personal de enfermería.
           </p>
         </div>
       </div>

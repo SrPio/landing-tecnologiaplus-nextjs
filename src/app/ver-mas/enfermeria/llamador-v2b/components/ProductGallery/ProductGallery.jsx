@@ -183,7 +183,7 @@ function ProductGallery() {
         <div className={styles.container__info__products}>
           <div className={styles.container__titles}>
             <h1>Llamador E2 Blanco</h1>
-            <p>Para llamar la enfermera</p>
+            <p>Más cerca de tus pacientes.</p>
           </div>
 
           {/* Alternativas */}
@@ -227,9 +227,10 @@ function ProductGallery() {
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-            volutpat. Ut Wisi enim ad io
+            Llamado de enfermería inhalambrico para mejorar la atención en el
+            sector salud, ideal para hospitales, clínicas y hogares geriátricos.
+            Solución práctica que agiliza la atención y brinda mayor comodidad a
+            los pacientes.
           </p>
         </div>
       </div>

@@ -12,8 +12,7 @@ function TechnicalSheet() {
             alt="icono de alerta con sonido y número en pantalla"
           />
           <p>
-            Alerta con sonido y
-            <br />
+            Alerta con sonido y <br className={styles.hide__on__mobile} />
             número en pantalla
           </p>
         </div>
@@ -24,8 +23,7 @@ function TechnicalSheet() {
             alt="icono de antena"
           />
           <p>
-            Recibe los llamados
-            <br />
+            Recibe los llamados <br className={styles.hide__on__mobile} />
             de forma inalámbrica.
           </p>
         </div>
@@ -51,10 +49,8 @@ function TechnicalSheet() {
             className={styles.img__mobile}
           />
           <p>
-            Compatible con:
-            <br />
-            Equipos de
-            <br />
+            Compatible con: <br className={styles.hide__on__mobile} />
+            Equipos de <br className={styles.hide__on__mobile} />
             Tecnología Plus.
           </p>
         </div>
@@ -65,10 +61,8 @@ function TechnicalSheet() {
             alt="icono de area de espera"
           />
           <p>
-            Tipos de uso: Áreas
-            <br />
-            de espera en general,
-            <br />
+            Tipos de uso: Áreas <br className={styles.hide__on__mobile} />
+            de espera en general, <br className={styles.hide__on__mobile} />
             Restaurantes autoservicio.
           </p>
         </div>
@@ -79,8 +73,7 @@ function TechnicalSheet() {
             alt="icono de pantalla visible"
           />
           <p>
-            1 llamado visible
-            <br />
+            1 llamado visible <br className={styles.hide__on__mobile} />
             en pantalla
           </p>
         </div>
@@ -91,8 +84,7 @@ function TechnicalSheet() {
             alt="icono de pantalla de 3 dígitos"
           />
           <p>
-            Muestra hasta
-            <br />3 dígitos
+            Muestra hasta <br className={styles.hide__on__mobile} />3 dígitos
           </p>
         </div>
         <div className={styles.item}>
@@ -102,12 +94,9 @@ function TechnicalSheet() {
             alt="icono de pantalla en 005"
           />
           <p>
-            Llama a cualquier número
-            <br />
-            sin necesidad de un
-            <br />
-            orden estricto. También
-            <br />
+            Llama a cualquier número <br className={styles.hide__on__mobile} />
+            sin necesidad de un <br className={styles.hide__on__mobile} />
+            orden estricto. También <br className={styles.hide__on__mobile} />
             permite llamar en orden.
           </p>
         </div>

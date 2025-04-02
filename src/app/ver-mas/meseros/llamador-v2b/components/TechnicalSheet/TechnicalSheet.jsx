@@ -36,6 +36,13 @@ function TechnicalSheet() {
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740421969/18_4x-8_djfe2w.webp"
             alt="icono de 2 teclas de llamado"
+            className={styles.img__desktop}
+          />
+          <img
+            loading="lazy"
+            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743625747/NUEVO_1_4x-8_1_eea7hz.webp"
+            alt="icono de 2 teclas de llamado"
+            className={styles.img__mobile}
           />
           <p>
             2 teclas de llamado:

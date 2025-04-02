@@ -35,6 +35,13 @@ function TechnicalSheet() {
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743039883/11_4x-8_rp9yee.webp"
             alt="icono de 3 teclas de llamado"
+            className={styles.img__desktop}
+          />
+          <img
+            loading="lazy"
+            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743625749/NUEVO_1_1_4x-8_dvzjhb.webp"
+            alt="icono de 2 teclas de llamado"
+            className={styles.img__mobile}
           />
           <p>
             3 teclas de llamado: <br className={styles.hide__on__mobile} />

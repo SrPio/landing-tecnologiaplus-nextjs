@@ -280,7 +280,7 @@ function ProductGallery() {
             label: "Medidas",
             images: [
               {
-                src: "",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743562353/Frame_1_10_amnnfc.webp",
                 alt: "Imagen de medidas",
               },
             ],

@@ -24,8 +24,7 @@ function TechnicalSheet() {
             alt="icono de antena"
           />
           <p>
-            Rango: hasta 100m o más
-            <br />
+            Rango: hasta 100m o más <br className={styles.hide__on__mobile} />
             con amplificador de señal
             <br />
             Frecuencia: 433MHz
@@ -38,12 +37,11 @@ function TechnicalSheet() {
             alt="icono de 3 teclas de llamado"
           />
           <p>
-            3 teclas de llamado:
-            <br />
-            Tecla llamar o tecla pagar.
-            <br />
-            Cancelar (para borrar el llamado
-            <br />
+            3 teclas de llamado: <br className={styles.hide__on__mobile} />
+            Tecla llamar o tecla pagar.{" "}
+            <br className={styles.hide__on__mobile} />
+            Cancelar (para borrar el llamado{" "}
+            <br className={styles.hide__on__mobile} />
             cuando atienden el cliente)
           </p>
         </div>
@@ -66,8 +64,7 @@ function TechnicalSheet() {
             alt="icono de compatibilidad"
           />
           <p>
-            Compatible con:
-            <br />
+            Compatible con: <br className={styles.hide__on__mobile} />
             Equipos de Tecnología Plus.
           </p>
         </div>
@@ -78,8 +75,7 @@ function TechnicalSheet() {
             alt="icono de resistencia al agua"
           />
           <p>
-            Resiste derrames
-            <br />
+            Resiste derrames <br className={styles.hide__on__mobile} />
             accidentales de agua
           </p>
         </div>

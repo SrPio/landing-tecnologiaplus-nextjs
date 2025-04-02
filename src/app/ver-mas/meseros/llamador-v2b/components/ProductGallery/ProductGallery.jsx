@@ -237,7 +237,7 @@ function ProductGallery() {
         <div className={styles.container__info__products}>
           <div className={styles.container__titles}>
             <h1>Llamador E2-B de 2 teclas</h1>
-            <p>Para recibir llamados</p>
+            <p>Permite llamar al mesero y borrar el llamado al ser atendido.</p>
           </div>
 
           {/* Alternativas */}
@@ -288,9 +288,10 @@ function ProductGallery() {
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-            volutpat. Ut Wisi enim ad io
+            Llamado de meseros con diseño ergonómico y alta resistencia para
+            mejorar la atención en el sector gastronómico, ideal para
+            restaurantes, bares y clubes. Solución práctica que agiliza la
+            atención y brinda mayor comodidad a los clientes.
           </p>
         </div>
       </div>

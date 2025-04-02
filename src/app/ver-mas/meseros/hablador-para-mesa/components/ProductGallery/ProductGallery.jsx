@@ -143,7 +143,7 @@ function ProductGallery() {
         <div className={styles.container__info__products}>
           <div className={styles.container__titles}>
             <h1>Hablador para mesa</h1>
-            <p>0000000</p>
+            <p>Resalta tu marca con un espacio adecuado para el botón</p>
           </div>
 
           <div className={styles.container__contact__info}>
@@ -158,9 +158,9 @@ function ProductGallery() {
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-            volutpat. Ut Wisi enim ad io
+            Hablador de mesa para mostrar publicidad cerca a tus clientes. Ideal
+            para restaurantes, hoteles y clubes. Incluye un espacio especial
+            para colocar el botón de llamado de personal.
           </p>
         </div>
       </div>

@@ -42,7 +42,7 @@ function MobileProductGallery() {
 
       <div className={styles.container__titles}>
         <h1>Control para llamar empleados</h1>
-        <p>000000</p>
+        <p>Para llamar empleados o meseros desde cocina</p>
       </div>
 
       {/* Carrusel principal */}
@@ -67,9 +67,10 @@ function MobileProductGallery() {
       {/* Información del producto */}
       <div className={styles.container__info__products}>
         <p>
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-          nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-          volutpat. Ut Wisi enim ad io
+          Facilita la comunicación entre tus empleados con este práctico control
+          que permite llamar uno o varios empleados al mismo tiempo. Ideal para
+          restaurantes, hoteles y fábricas, agiliza la coordinación del equipo.
+          ¡Responde a cada solicitud sin demoras!
         </p>
 
         <div className={styles.container__contact__info}>

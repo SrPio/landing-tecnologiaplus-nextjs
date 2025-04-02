@@ -184,7 +184,7 @@ function ProductGallery() {
         <div className={styles.container__info__products}>
           <div className={styles.container__titles}>
             <h1>Llamador E2-N DE 3 TECLAS</h1>
-            <p>Para llamar al personal</p>
+            <p> Permite llamar al mesero y pedir la cuenta.</p>
           </div>
 
           {/* Alternativas */}
@@ -228,9 +228,9 @@ function ProductGallery() {
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-            volutpat. Ut Wisi enim ad io
+            Llamador de meseros inalámbrico para reducir tiempo de espera, ideal
+            en restaurantes, hoteles, bares, cafes y salas vip. La mejor forma
+            de agilizar el servicio.
           </p>
         </div>
       </div>

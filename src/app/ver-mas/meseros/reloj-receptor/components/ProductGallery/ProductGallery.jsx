@@ -145,6 +145,7 @@ function ProductGallery() {
         <div className={styles.container__info__products}>
           <div className={styles.container__titles}>
             <h1>Reloj receptor de llamados</h1>
+            <p>Vibra y muestra el número de la mesa.</p>
           </div>
 
           <div className={styles.container__contact__info}>
@@ -158,7 +159,11 @@ function ProductGallery() {
             <h3>¿Tienes preguntas?</h3>
           </div>
 
-          <p>Compatible con los equipos de nuestra marca.</p>
+          <p>
+            Reloj receptor de llamados para uso de meseros, recibe alertas
+            instantáneas facilitando la atención a los clientes. Ideal en
+            restaurantes, bares, clubes y zonas vip.
+          </p>
         </div>
       </div>
 

@@ -143,7 +143,9 @@ function ProductGallery() {
         <div className={styles.container__info__products}>
           <div className={styles.container__titles}>
             <h1>Pantalla T6 de 6 llamados</h1>
-            <p>Para recibir llamados</p>
+            <p>
+              Muestra 6 llamados al mismo tiempo, visualización alfanumérica .
+            </p>
           </div>
 
           <div className={styles.container__contact__info}>
@@ -158,9 +160,9 @@ function ProductGallery() {
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-            volutpat. Ut Wisi enim ad io
+            Pantalla para mostrar a los meseros los números de mesas que se
+            encuentran en espera de ser atendidos. Ideal para restaurantes,
+            bares y clubes. Compatible con llamadores para restaurantes
           </p>
         </div>
       </div>

@@ -45,7 +45,7 @@ function MobileProductGallery() {
         <h1>
           Pantalla T<span>1</span>B de <span>1</span> llamado
         </h1>
-        <p>Para recibir llamados</p>
+        <p>Muestra 1 llamado en pantalla, hasta 15 en cola.</p>
       </div>
 
       {/* Carrusel principal */}
@@ -70,9 +70,9 @@ function MobileProductGallery() {
       {/* Información del producto */}
       <div className={styles.container__info__products}>
         <p>
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-          nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-          volutpat. Ut Wisi enim ad io
+          Pantalla para visualizar llamados del timbre de mesa. Facilita la
+          atención al ser visible por varios meseros al mismo tiempo. Ideal para
+          restaurantes, bares y clubes en areas con menos de 15 mesas.
         </p>
 
         <div className={styles.container__contact__info}>

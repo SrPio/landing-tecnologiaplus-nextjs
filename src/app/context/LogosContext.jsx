@@ -823,129 +823,6 @@ export const LogosProvider = ({ children }) => {
     },
   ]);
 
-  const [logosDispensadorTiquetes] = useState([
-    {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738425713/Logo_cliente_1_jutge5.svg",
-      alt: "Logo Don Jediondo",
-    },
-    {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563274/Mesa_de_trabajo_6_cwxydi.svg",
-      alt: "Logo Disfarma",
-    },
-    {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563260/Mesa_de_trabajo_18_qgekb6.svg",
-      alt: "Logo Ramédicas",
-    },
-    {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563262/Mesa_de_trabajo_19_kdsynx.svg",
-      alt: "Logo Nord Vital",
-    },
-    {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563262/Mesa_de_trabajo_20_o1drqb.svg",
-      alt: "Logo Los Olivos",
-    },
-    {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563277/Mesa_de_trabajo_11_nkxgvv.svg",
-      alt: "Logo Cruz Roja",
-    },
-    {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738425713/Logo_cliente_1_jutge5.svg",
-      alt: "Logo Don Jediondo",
-    },
-    {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563274/Mesa_de_trabajo_6_cwxydi.svg",
-      alt: "Logo Disfarma",
-    },
-    {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563260/Mesa_de_trabajo_18_qgekb6.svg",
-      alt: "Logo Ramédicas",
-    },
-    {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563262/Mesa_de_trabajo_19_kdsynx.svg",
-      alt: "Logo Nord Vital",
-    },
-    {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563262/Mesa_de_trabajo_20_o1drqb.svg",
-      alt: "Logo Los Olivos",
-    },
-    {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563277/Mesa_de_trabajo_11_nkxgvv.svg",
-      alt: "Logo Cruz Roja",
-    },
-    {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738425713/Logo_cliente_1_jutge5.svg",
-      alt: "Logo Don Jediondo",
-    },
-    {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563274/Mesa_de_trabajo_6_cwxydi.svg",
-      alt: "Logo Disfarma",
-    },
-    {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563260/Mesa_de_trabajo_18_qgekb6.svg",
-      alt: "Logo Ramédicas",
-    },
-    {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563262/Mesa_de_trabajo_19_kdsynx.svg",
-      alt: "Logo Nord Vital",
-    },
-    {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563262/Mesa_de_trabajo_20_o1drqb.svg",
-      alt: "Logo Los Olivos",
-    },
-    {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563277/Mesa_de_trabajo_11_nkxgvv.svg",
-      alt: "Logo Cruz Roja",
-    },
-    {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738425713/Logo_cliente_1_jutge5.svg",
-      alt: "Logo Don Jediondo",
-    },
-    {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563274/Mesa_de_trabajo_6_cwxydi.svg",
-      alt: "Logo Disfarma",
-    },
-    {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563260/Mesa_de_trabajo_18_qgekb6.svg",
-      alt: "Logo Ramédicas",
-    },
-    {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563262/Mesa_de_trabajo_19_kdsynx.svg",
-      alt: "Logo Nord Vital",
-    },
-    {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563262/Mesa_de_trabajo_20_o1drqb.svg",
-      alt: "Logo Los Olivos",
-    },
-    {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563277/Mesa_de_trabajo_11_nkxgvv.svg",
-      alt: "Logo Cruz Roja",
-    },
-    {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738425713/Logo_cliente_1_jutge5.svg",
-      alt: "Logo Don Jediondo",
-    },
-    {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563274/Mesa_de_trabajo_6_cwxydi.svg",
-      alt: "Logo Disfarma",
-    },
-    {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563260/Mesa_de_trabajo_18_qgekb6.svg",
-      alt: "Logo Ramédicas",
-    },
-    {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563262/Mesa_de_trabajo_19_kdsynx.svg",
-      alt: "Logo Nord Vital",
-    },
-    {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563262/Mesa_de_trabajo_20_o1drqb.svg",
-      alt: "Logo Los Olivos",
-    },
-    {
-      src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563277/Mesa_de_trabajo_11_nkxgvv.svg",
-      alt: "Logo Cruz Roja",
-    },
-  ]);
-
   const [logosEnfermeria] = useState([
     {
       src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563278/Mesa_de_trabajo_14_copia_3_sacylb.svg",
@@ -1539,7 +1416,6 @@ export const LogosProvider = ({ children }) => {
       value={{
         logosTermicos,
         logosTurnos,
-        logosDispensadorTiquetes,
         logosTurnoExpress,
         logosCalificador,
         logosEnfermeria,

@@ -5,14 +5,14 @@ import { useLogos } from "../../../../context/LogosContext";
 import InfiniteSlider from "@/app/components/sliders/InfiniteSlider";
 
 function LogosSection() {
-  const { logosDispensadorTiquetes } = useLogos();
+  const { logosTurnos } = useLogos();
   return (
     <section className={styles.logossection__container}>
       <div className={styles.header}>
         <h2>Algunos clientes</h2>
       </div>
       <div className={styles.content}>
-        <InfiniteSlider logos={logosDispensadorTiquetes} />
+        <InfiniteSlider logos={logosTurnos} />
       </div>
     </section>
   );

@@ -21,6 +21,7 @@ function ProductGallery() {
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740689238/12_4x-8_3_j7nede.webp",
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740689239/11_4x-8_3_b5gubu.webp",
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742650043/Frame_1_1_vd55bu.webp",
+    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743619582/Frame_1_19_k6f9dp.webp",
   ];
 
   const alternativeImages = [

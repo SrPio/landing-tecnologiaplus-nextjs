@@ -446,6 +446,10 @@
         background: #fff;
         border: #606060 1px solid;
       }
+      &.color__Negro {
+        background: #000000;
+        border: #606060 1px solid;
+      }
 
       &.selected {
         outline: 2px solid #0b71e4;
@@ -488,7 +492,8 @@
       flex: 0 0 auto;
       cursor: pointer;
       overflow: hidden;
-      /* border: 1px solid #606060; */
+      /*border: 1px solid #606060;
+      */
       width: 90px;
       height: 70px;
       transition: transform 0.2s ease, opacity 0.2s ease;
@@ -496,7 +501,13 @@
       -moz-transition: transform 0.2s ease, opacity 0.2s ease;
       -ms-transition: transform 0.2s ease, opacity 0.2s ease;
       -o-transition: transform 0.2s ease, opacity 0.2s ease;
+      border-radius: 6px;
+      -webkit-border-radius: 6px;
+      -moz-border-radius: 6px;
+      -ms-border-radius: 6px;
+      -o-border-radius: 6px;
 
+      border: 1px solid #ebebeb;
       &.active {
         border: 1px solid #606060;
       }
@@ -505,7 +516,6 @@
         width: 90px;
         height: 70px;
         object-fit: contain;
-        border-radius: 6px;
       }
     }
   }

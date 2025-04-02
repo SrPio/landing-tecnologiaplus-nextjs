@@ -497,12 +497,8 @@
       -ms-transition: transform 0.2s ease, opacity 0.2s ease;
       -o-transition: transform 0.2s ease, opacity 0.2s ease;
 
-      &:hover {
-        opacity: 0.8;
-      }
-
       &.active {
-        /* border-color: #007bff; */ // Color del borde cuando está seleccionado
+        border: 1px solid #606060;
       }
 
       img {

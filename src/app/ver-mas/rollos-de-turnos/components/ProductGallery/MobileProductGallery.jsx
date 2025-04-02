@@ -51,6 +51,7 @@ function MobileProductGallery() {
   const isAlternative = alternativeImages.some(
     (img) => img.url === currentImages[0]
   );
+  const isGallery = currentImages === images;
 
   const handleThumbnailClick = (imageSet, index) => {
     setCurrentImages(imageSet);
@@ -70,7 +71,6 @@ function MobileProductGallery() {
           menuIcon: altStyles.altMenuIcon,
         }}
       />
-
       <div className={styles.action__nav}>
         <button onClick={() => window.history.back()}>
           <IoIosArrowBack className={styles.icon__back} /> Volver
@@ -128,7 +128,9 @@ function MobileProductGallery() {
           {images.map((img, index) => (
             <div
               key={index}
-              className={styles.thumb__Slide}
+              className={classNames(styles.thumb__Slide, {
+                [styles.active]: isGallery && currentIndex === index,
+              })}
               onClick={() => handleThumbnailClick(images, index)}
             >
               <img src={img} alt={`Thumbnail ${index}`} />
@@ -141,7 +143,9 @@ function MobileProductGallery() {
           {alternativeImages.map((img, index) => (
             <div
               key={index}
-              className={styles.thumb__Slide}
+              className={classNames(styles.thumb__Slide, {
+                [styles.active]: !isGallery && currentIndex === index,
+              })}
               onClick={() =>
                 handleThumbnailClick(
                   alternativeImages.map((alt) => alt.url),

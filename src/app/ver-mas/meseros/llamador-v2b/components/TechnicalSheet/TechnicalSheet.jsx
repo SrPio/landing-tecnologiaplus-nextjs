@@ -24,10 +24,8 @@ function TechnicalSheet() {
             alt="icono de antena"
           />
           <p>
-            Rango: hasta 100m o más
-            <br />
-            con amplificador de señal
-            <br />
+            Rango: hasta 100m o más <br className={styles.hide__on__mobile} />
+            con amplificador de señal <br className={styles.hide__on__mobile} />
             Frecuencia: 433MHz
           </p>
         </div>
@@ -45,12 +43,10 @@ function TechnicalSheet() {
             className={styles.img__mobile}
           />
           <p>
-            2 teclas de llamado:
-            <br />
-            Llamar
-            <br />
-            cancelar (para borrar el llamado
-            <br />
+            2 teclas de llamado: <br className={styles.hide__on__mobile} />
+            Llamar <br className={styles.hide__on__mobile} />
+            cancelar (para borrar el llamado{" "}
+            <br className={styles.hide__on__mobile} />
             cuando atienden el cliente)
           </p>
         </div>
@@ -61,8 +57,8 @@ function TechnicalSheet() {
             alt="icono de caseta de llamado"
           />
           <p>
-            Uso: en lugares para llamar
-            <br />
+            Uso: en lugares para llamar{" "}
+            <br className={styles.hide__on__mobile} />
             al mesero o empleados
           </p>
         </div>
@@ -73,8 +69,7 @@ function TechnicalSheet() {
             alt="icono de compatibilidad"
           />
           <p>
-            Compatible con:
-            <br />
+            Compatible con: <br className={styles.hide__on__mobile} />
             Equipos de Tecnología Plus.
           </p>
         </div>
@@ -93,8 +88,7 @@ function TechnicalSheet() {
             alt="icono de resistencia al agua"
           />
           <p>
-            Resiste derrames
-            <br />
+            Resiste derrames <br className={styles.hide__on__mobile} />
             accidentales de agua
           </p>
         </div>

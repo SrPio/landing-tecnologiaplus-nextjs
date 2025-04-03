@@ -49,6 +49,22 @@
         -o-border-radius: 2rem;
       }
     }
+
+    .hero__text__mobile {
+      .hero__btn {
+        cursor: pointer;
+        font-weight: 600;
+        background: #be00ff;
+        color: #fff;
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
+        border-radius: 2rem;
+        -webkit-border-radius: 2rem;
+        -moz-border-radius: 2rem;
+        -ms-border-radius: 2rem;
+        -o-border-radius: 2rem;
+      }
+    }
   }
 }
 

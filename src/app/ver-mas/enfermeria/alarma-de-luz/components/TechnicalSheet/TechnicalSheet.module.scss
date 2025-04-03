@@ -88,6 +88,17 @@
         }
       }
 
+      .item:nth-child(3) {
+        img {
+          height: 55px;
+        }
+      }
+      .item:nth-child(6) {
+        img {
+          height: 55px;
+        }
+      }
+
       .item {
         gap: 10px;
         img {

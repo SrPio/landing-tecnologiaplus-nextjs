@@ -227,7 +227,7 @@ function ProductGallery() {
           </div>
 
           <p>
-            Llamado de enfermería inhalambrico para mejorar la atención en el
+            Llamado de enfermería inalámbrico para mejorar la atención en el
             sector salud, ideal para hospitales, clínicas y hogares geriátricos.
             Solución práctica que agiliza la atención y brinda mayor comodidad a
             los pacientes.

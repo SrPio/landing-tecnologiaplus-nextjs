@@ -19,9 +19,9 @@ function ProductGallery() {
   const images = [
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741638695/Frame_1_60_sl57gi.webp",
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739392044/2_2x-100_jikuc2.webp",
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739392044/3_2x-100_lqfj29.webp",
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739392044/4_2x-100_xp8nfs.webp",
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739392044/5_2x-100_tqczvp.webp",
+    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743638601/Frame_2_9_da908b.webp",
+    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743638738/Frame_2_10_mjtfir.webp",
+    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743637906/Frame_2_7_ybq4g4.png",
   ];
 
   const [selectedIndex, setSelectedIndex] = useState(0);
@@ -182,15 +182,15 @@ function ProductGallery() {
                 alt: "Imagen 2",
               },
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739392044/3_2x-100_lqfj29.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743638601/Frame_2_9_da908b.webp",
                 alt: "Imagen 3",
               },
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739392044/4_2x-100_xp8nfs.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743638738/Frame_2_10_mjtfir.webp",
                 alt: "Imagen 4",
               },
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739392044/5_2x-100_tqczvp.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743637906/Frame_2_7_ybq4g4.png",
                 alt: "Imagen 5",
               },
             ],
@@ -200,7 +200,7 @@ function ProductGallery() {
             label: "Medidas",
             images: [
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739392044/5_2x-100_tqczvp.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743637906/Frame_2_7_ybq4g4.png",
                 alt: "Imagen de medidas",
               },
             ],

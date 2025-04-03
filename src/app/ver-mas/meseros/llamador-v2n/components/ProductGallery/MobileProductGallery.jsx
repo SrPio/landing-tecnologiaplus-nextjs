@@ -25,11 +25,11 @@ const images = [
 const alternativeImages = [
   {
     name: "Negro",
-    url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743039510/Frame_2_5_fznqyt.webp",
+    url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743683761/Frame_1_21_bdcoxu.webp",
   },
   {
     name: "Blanco",
-    url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743039509/Frame_2_6_qar5li.webp",
+    url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743683759/Frame_1_22_cikxto.webp",
   },
 ];
 

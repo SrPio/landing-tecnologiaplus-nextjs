@@ -25,27 +25,27 @@ const images = [
 const alternativeImages = [
   {
     name: "Blanco - Rojo",
-    url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740420351/6_4x-8_kmcnhe.webp",
+    url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743684487/Frame_1_25_ljuopc.webp",
   },
   {
     name: "Blanco - Negro",
-    url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740420352/5_4x-8_v44nuq.webp",
+    url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743684487/Frame_1_23_kyutqv.webp",
   },
   {
     name: "Blanco - Amarillo",
-    url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740420351/7_4x-8_dfcqqq.webp",
+    url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743684487/Frame_1_26_qsl1jr.webp",
   },
   {
     name: "Negro",
-    url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741631974/Frame_2_1_fzhnq5.webp",
+    url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743684487/Frame_1_27_aoosj5.webp",
   },
   {
     name: "Negro - Rojo",
-    url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740420369/3_4x-8_xhyiqi.webp",
+    url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743684488/Frame_1_24_qaabts.webp",
   },
   {
     name: "Negro - Amarillo",
-    url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740420353/2_4x-8_iyjgk9.webp",
+    url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743684487/Frame_1_28_pujhcp.webp",
   },
 ];
 

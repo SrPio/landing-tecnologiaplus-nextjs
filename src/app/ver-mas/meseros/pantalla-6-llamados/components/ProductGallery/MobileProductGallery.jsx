@@ -42,7 +42,7 @@ function MobileProductGallery() {
 
       <div className={styles.container__titles}>
         <h1>Pantalla T6 de 6 llamados</h1>
-        <p>Muestra 6 llamados al mismo tiempo, visualización alfanumérica .</p>
+        <p>Muestra 6 llamados al mismo tiempo, visualización alfanumérica.</p>
       </div>
 
       {/* Carrusel principal */}

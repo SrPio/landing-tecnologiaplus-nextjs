@@ -36,32 +36,61 @@ function ArticuloPlantilla({
                 );
               case "imagen":
                 return (
-                  <figure key={index} className={styles.articulo__imagen}>
-                    <img
-                      src={bloque.url}
-                      alt={bloque.descripcion || "Imagen del artículo"}
-                      loading="lazy"
-                      style={{ height: bloque.altura || "auto" }}
-                    />
-                    {bloque.descripcion && (
-                      <figcaption>{bloque.descripcion}</figcaption>
-                    )}
-                  </figure>
+                  <img
+                    src={bloque.url}
+                    alt={bloque.descripcion || "Imagen del artículo"}
+                    loading="lazy"
+                    style={{ height: bloque.altura || "auto" }}
+                  />
                 );
+
+              case "enlaces":
+                return (
+                  <ul key={index} className={styles.articulo__lista}>
+                    {bloque.items.map((item, i) => (
+                      <li key={i}>
+                        <a
+                          href={item.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          {item.titulo}
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                );
+
               case "lista":
+                const listStyle =
+                  bloque.bulletStyle === "emoji"
+                    ? styles.articulo__lista_emoji
+                    : bloque.bulletStyle === "circle"
+                    ? styles.articulo__lista_circle
+                    : bloque.bulletStyle === "square"
+                    ? styles.articulo__lista_square
+                    : ""; // Usamos la clase CSS por defecto si no hay estilo personalizado
+
                 return bloque.ordenada ? (
-                  <ol key={index} className={styles.articulo__lista}>
+                  <ol
+                    key={index}
+                    className={`${styles.articulo__lista} ${listStyle}`}
+                  >
                     {bloque.items.map((item, i) => (
                       <li key={i}>{item}</li>
                     ))}
                   </ol>
                 ) : (
-                  <ul key={index} className={styles.articulo__lista}>
+                  <ul
+                    key={index}
+                    className={`${styles.articulo__lista} ${listStyle}`}
+                  >
                     {bloque.items.map((item, i) => (
                       <li key={i}>{item}</li>
                     ))}
                   </ul>
                 );
+
               default:
                 return null;
             }

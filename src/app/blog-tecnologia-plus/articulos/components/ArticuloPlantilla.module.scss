@@ -59,6 +59,26 @@
   }
 }
 
+.articulo__lista_emoji {
+  list-style-type: none; /* Quitamos el bullet por defecto */
+  padding-left: 20px; /* Ajustamos el espacio */
+}
+
+.articulo__lista_emoji li::before {
+  content: "✅"; /* Usamos un emoji como bullet */
+  margin-right: 10px;
+}
+
+.articulo__lista_circle {
+  list-style-type: circle; /* Bullets de círculo */
+  padding-left: 40px;
+}
+
+.articulo__lista_square {
+  list-style-type: square; /* Bullets cuadrados */
+  padding-left: 40px;
+}
+
 .articulo__footer {
   display: flex;
   flex-direction: column;

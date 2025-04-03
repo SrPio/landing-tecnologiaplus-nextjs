@@ -433,6 +433,31 @@
       &.color__Rojo {
         background: #eb4b37;
       }
+      &.color__Blanco___Rojo {
+        background: #eb4b37;
+        background: conic-gradient(#fff 0deg 180deg, #eb4b37 180deg 360deg);
+        border: #606060 1px solid;
+      }
+      &.color__Blanco___Negro {
+        background: #eb4b37;
+        background: conic-gradient(#fff 0deg 180deg, #000 180deg 360deg);
+        border: #606060 1px solid;
+      }
+      &.color__Blanco___Amarillo {
+        background: #eb4b37;
+        background: conic-gradient(#fff 0deg 180deg, #f3ca03 180deg 360deg);
+        border: #606060 1px solid;
+      }
+      &.color__Negro___Rojo {
+        background: #eb4b37;
+        background: conic-gradient(#000000 0deg 180deg, #eb4b37 180deg 360deg);
+        border: #606060 1px solid;
+      }
+      &.color__Negro___Amarillo {
+        background: #eb4b37;
+        background: conic-gradient(#000000 0deg 180deg, #f3ca03 180deg 360deg);
+        border: #606060 1px solid;
+      }
       &.color__Morado {
         background: #7f23b4;
       }

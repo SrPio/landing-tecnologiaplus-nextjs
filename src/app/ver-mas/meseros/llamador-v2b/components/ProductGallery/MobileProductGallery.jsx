@@ -120,20 +120,28 @@ function MobileProductGallery() {
         <div className={styles.colorNameContainer}>
           <h3>{alternativeImages[currentIndex]?.name}</h3>
           <div className={styles.container__colors}>
-            {alternativeImages.map((image, index) => (
-              <div
-                key={index}
-                className={`${styles.technical__circle__figure} ${
-                  styles["color__" + image.name] // Usa image.name en lugar de index
-                } ${currentIndex === index ? styles.selected : ""}`}
-                onClick={() =>
-                  handleThumbnailClick(
-                    alternativeImages.map((alt) => alt.url),
-                    index
-                  )
-                }
-              ></div>
-            ))}
+            {alternativeImages.map((image, index) => {
+              // Aquí logueamos la clase generada
+              const className = `color__${image.name
+                .replace(/\s+/g, "_")
+                .replace(/-/g, "_")}`;
+              console.log("Clase generada:", className);
+
+              return (
+                <div
+                  key={index}
+                  className={`${styles.technical__circle__figure} ${
+                    styles[className] || ""
+                  } ${currentIndex === index ? styles.selected : ""}`}
+                  onClick={() =>
+                    handleThumbnailClick(
+                      alternativeImages.map((alt) => alt.url),
+                      index
+                    )
+                  }
+                ></div>
+              );
+            })}
           </div>
         </div>
       ) : null}

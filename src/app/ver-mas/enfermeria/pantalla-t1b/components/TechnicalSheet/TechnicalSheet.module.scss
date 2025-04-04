@@ -16,6 +16,10 @@
         object-fit: contain;
         object-position: right;
       }
+
+      .img__mobile {
+        display: none;
+      }
     }
 
     .item:nth-child(2) {
@@ -89,6 +93,14 @@
           .hide__on__mobile {
             display: none;
           }
+        }
+
+        .img__desktop {
+          display: none;
+        }
+
+        .img__mobile {
+          display: block;
         }
       }
     }

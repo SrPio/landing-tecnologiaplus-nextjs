@@ -8,7 +8,7 @@ function HowItWorks() {
         <div className={styles.item}>
           <img
             loading="lazy"
-            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740160660/11_4x-8_e5kor0.webp"
+            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743772811/NUEVA_CONTROL_4x-8_uuumyj.webp"
             alt="imagen de cocinero digitando número asignado a mesero"
           />
           <p>

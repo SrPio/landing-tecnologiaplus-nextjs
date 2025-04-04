@@ -55,6 +55,13 @@ function TechnicalSheet() {
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740065557/ICONO_5_4x-8_1_wkvdpj.webp"
             alt="icono de alerta con sonido y número en pantalla"
+            className={styles.img__desktop}
+          />
+          <img
+            loading="lazy"
+            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743773248/NUEVO_ICONO_1_4x-8_xjrawz.webp"
+            alt="icono de alerta con sonido y número en pantalla"
+            className={styles.img__mobile}
           />
           <p>
             Alerta con sonido y <br className={styles.hide__on__mobile} />

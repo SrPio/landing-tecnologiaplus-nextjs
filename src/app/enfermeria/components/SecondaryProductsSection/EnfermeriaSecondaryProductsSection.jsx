@@ -72,7 +72,7 @@ para colgar en cuello"
             <img
               loading="lazy"
               src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739197744/Turnero_T1B_2x-8_1_1_opvowd.webp"
-              alt="imagen de Pantalla T1B"
+              alt="Turnero T1-B"
             />
             <h3>
               Pantalla T<span>1</span>B de <span>1</span> llamado

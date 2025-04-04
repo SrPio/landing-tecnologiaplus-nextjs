@@ -12,7 +12,7 @@ function TurnoExpressProductsSection() {
             <img
               loading="lazy"
               src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739197744/Turnero_T1B_2x-8_1_1_opvowd.webp"
-              alt="imagen del turnero T1-B"
+              alt="Turnero T1-B"
             />
             <h3>
               Turnero T<span>1</span>-B
@@ -29,7 +29,7 @@ function TurnoExpressProductsSection() {
             <img
               loading="lazy"
               src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738431727/Turnero_T1N_2x-8_r4igzs.webp"
-              alt="imagen del turnero T1-N"
+              alt="Turnero digital  T1-N"
             />
             <h3>
               Turnero T<span>1</span>-N
@@ -46,7 +46,7 @@ function TurnoExpressProductsSection() {
             <img
               loading="lazy"
               src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738431726/Fila_unica_2x-8_iejxvf.webp"
-              alt="imagen del turnero Fila única"
+              alt="Turnero colombia de fila única"
             />
             <h3>Turnero fila única</h3>
             <p>32 vendidos</p>
@@ -61,7 +61,7 @@ function TurnoExpressProductsSection() {
             <img
               loading="lazy"
               src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738431727/Turnero_T3_2x-8_ypmexo.webp"
-              alt="imagen del turnero T3"
+              alt="Turneros digitales  T3"
             />
             <h3>Turnero T3</h3>
             <p>692 vendidos</p>
@@ -79,7 +79,7 @@ function TurnoExpressProductsSection() {
             <img
               loading="lazy"
               src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738431730/Segun_producto_2x-8_fepwc0.webp"
-              alt="imagen del turnero según producto"
+              alt="turneros inalambricos personalizados según producto"
             />
             <h3>Turnero Transformer</h3>
             <p>82 vendidos</p>
@@ -94,7 +94,7 @@ function TurnoExpressProductsSection() {
             <img
               loading="lazy"
               src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738431729/T3_con_logo_2x-8_ofmcyp.webp"
-              alt="imagen del turnero T3 con logo"
+              alt="Turneros bogota​ T3 con logo"
             />
             <h3>Turnero T3 - con logo</h3>
             <p>269 vendidos</p>

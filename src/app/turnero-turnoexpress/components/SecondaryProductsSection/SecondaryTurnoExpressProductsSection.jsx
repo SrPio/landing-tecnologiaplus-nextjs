@@ -10,7 +10,7 @@ function SecondaryTurnoExpressProductsSection() {
             <img
               loading="lazy"
               src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738789798/Dispensador_2x-8_soj9hp.webp"
-              alt="imagen de dispensador de turnos"
+              alt="Dispensador de turnos caracol rojo"
             />
             <p>2686 vendidos</p>
             <a
@@ -25,7 +25,7 @@ function SecondaryTurnoExpressProductsSection() {
             <img
               loading="lazy"
               src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738448114/Rollos_de_turnos_2x-8_ovbwlu.webp"
-              alt="imagen del turnero T3 con logo"
+              alt="Rollos de turnos personalizados"
             />
             <p>8527 vendidos</p>
             <a

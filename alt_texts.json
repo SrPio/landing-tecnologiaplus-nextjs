@@ -4,72 +4,112 @@
     "alt": "logo Tecnología plus"
   },
   {
-    "src": "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738424725/Imagen_banner_2x-8_qd3lwx.webp",
-    "alt": " Dispensador de tiquetes rojo"
+    "src": "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738431726/Imagen_bannerprincipal_2x-8_daisi3.webp",
+    "alt": "Turnero caracol rojo con su complemento pantalla de turno y tikets"
   },
   {
-    "src": "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738425713/Logo_cliente_1_jutge5.svg",
-    "alt": "Logo Don Jediondo"
+    "src": "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563274/Mesa_de_trabajo_5_wuz5jm.svg",
+    "alt": "Logo Mundo Mujer"
   },
   {
     "src": "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563274/Mesa_de_trabajo_6_cwxydi.svg",
     "alt": "Logo Disfarma"
   },
   {
-    "src": "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563260/Mesa_de_trabajo_18_qgekb6.svg",
-    "alt": "Logo Ramédicas"
+    "src": "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563273/Mesa_de_trabajo_5_copia_exd62o.svg",
+    "alt": "Logo Alkosto HiperAhorro"
   },
   {
-    "src": "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563262/Mesa_de_trabajo_19_kdsynx.svg",
-    "alt": "Logo Nord Vital I.P.S"
+    "src": "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563276/Mesa_de_trabajo_8_tscicy.svg",
+    "alt": "Logo Tuya"
   },
   {
-    "src": "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563262/Mesa_de_trabajo_20_o1drqb.svg",
-    "alt": "Logo Los Olivos"
+    "src": "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563259/Mesa_de_trabajo_14_hbvz1s.svg",
+    "alt": "Logo Alkomprar"
   },
   {
-    "src": "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563277/Mesa_de_trabajo_11_nkxgvv.svg",
-    "alt": "Logo Cruz Roja Colombiana"
+    "src": "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563274/Mesa_de_trabajo_7_awxms5.svg",
+    "alt": "Logo Colmedica"
   },
   {
-    "src": "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738424725/dispensador_2x-8_dwru2g.webp",
-    "alt": "Colores de tickets y dspensador de turnos rojo"
+    "src": "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563259/Mesa_de_trabajo_15_f4mmaj.svg",
+    "alt": "Logo Mac Pollo"
   },
   {
-    "src": "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738424672/icono_1_2x-8_gnq6al.webp",
-    "alt": "icono de agilidad en turnos"
+    "src": "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563276/Mesa_de_trabajo_9_egrpk3.svg",
+    "alt": "Logo Comfenalco Antioquia"
   },
   {
-    "src": "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738424673/icono_2_2x-8_1_rpqhcz.webp",
-    "alt": "icono de reloj y dinero"
+    "src": "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742563260/Mesa_de_trabajo_16_jyibxe.svg",
+    "alt": "Logo Comfacundi"
   },
   {
-    "src": "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738424675/icono_3_2x-8_qsgnsv.webp",
-    "alt": "icono de tipos de cara feliz"
+    "src": "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739197744/Turnero_T1B_2x-8_1_1_opvowd.webp",
+    "alt": "Turnero T1-B"
+  },
+  {
+    "src": "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738431727/Turnero_T1N_2x-8_r4igzs.webp",
+    "alt": "Turnero digital  T1-N"
+  },
+  {
+    "src": "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738431726/Fila_unica_2x-8_iejxvf.webp",
+    "alt": "Turnero colombia de fila única"
+  },
+  {
+    "src": "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738431727/Turnero_T3_2x-8_ypmexo.webp",
+    "alt": "Turneros digitales  T3"
+  },
+  {
+    "src": "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738431730/Segun_producto_2x-8_fepwc0.webp",
+    "alt": "turneros inalambricos personalizados según producto"
+  },
+  {
+    "src": "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738431729/T3_con_logo_2x-8_ofmcyp.webp",
+    "alt": "Turneros bogota​ T3 con logo"
+  },
+  {
+    "src": "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738431751/icono_1_2x-8_zw5neg.webp",
+    "alt": "icono de sonido"
+  },
+  {
+    "src": "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738431754/icono_2_2x-8_vktxnl.webp",
+    "alt": "icono de conectividad y largo alcance"
+  },
+  {
+    "src": "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738431752/icono_3_2x-8_ypc1eu.webp",
+    "alt": "icono de tipos de pantalla anti reflejo"
+  },
+  {
+    "src": "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738789798/Dispensador_2x-8_soj9hp.webp",
+    "alt": "Dispensador de turnos caracol rojo"
+  },
+  {
+    "src": "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738448114/Rollos_de_turnos_2x-8_ovbwlu.webp",
+    "alt": "Rollos de turnos personalizados"
   },
   {
     "src": "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738350027/Salud_2x-8_vg4jxo_dyuifd.webp",
     "alt": "icono de salud"
   },
   {
-    "src": "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349970/Oficinas_2x-8_xzhwcw_jumnnh.webp",
-    "alt": "icono de oficina"
+    "src": "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738446073/Sala_de_espera_2x-8_vb2upo.webp",
+    "alt": "icono de sala de espera"
   },
   {
     "src": "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349970/otras_indistrias_2x-8_bvq8fo_s2xoyg.webp",
     "alt": "icono de otras industrias"
   },
   {
-    "src": "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741637848/Frame_1_56_hvhf2o.webp",
-    "alt": "Rollos de turnos personalizados"
-  },
-  {
-    "src": "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738350028/TurnoExpress_2x-8_ri7zqh_xjz8bw.webp",
-    "alt": "TurnoExpress junto con los productos complementarios pantalla de turnos y rollos de turnos"
-  },
-  {
     "src": "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738350030/TurnoMaster_2x-8_stvupu_tvjv5q.webp",
     "alt": " TurnoMaster junto a su complemento la pantalla de turnos digital"
+  },
+  {
+    "src": "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349920/image-1_1_ljyxis_qdsmdq.webp",
+    "alt": "rollos térmicos para impresora térmica"
+  },
+  {
+    "src": "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741708165/NUEVA_etp9mi.webp",
+    "alt": "Localizadores para restaurantes"
   },
   {
     "src": "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349925/xcbtnf1wh1en4taujsdx_avnfkj.webp",
@@ -99,4 +139,4 @@
     "src": "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738350028/Tplus_en_blanco_2x-8_uokdmv_zoykmd.webp",
     "alt": "Logo de Tecnología Plus"
   }
-]
+  ]

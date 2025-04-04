@@ -18,7 +18,7 @@ function TurnoExpressHeroSection({
           loading="lazy"
           className={styles.hero__img}
           src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738431726/Imagen_bannerprincipal_2x-8_daisi3.webp"
-          alt="imagen de rollos para impresora"
+          alt="Turnero caracol rojo con su complemento pantalla de turno y tikets"
         />
 
         <div className={styles.hero__text}>

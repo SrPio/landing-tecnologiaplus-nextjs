@@ -21,7 +21,7 @@ function LocalizadoresBenefitsSection() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738431754/icono_2_2x-8_vktxnl.webp"
-            alt="icono de señal"
+            alt="icono de conectividad y largo alcance"
           />
           Largo Alcance, más de
           <br />

@@ -19,7 +19,6 @@ const images = [
   "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743039883/7_4x-8_1_saux20.webp",
   "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743039883/3_4x-8_wiiwjz.webp",
   "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743040123/Frame_1_9_tdu2he.webp",
-  "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743026440/17_4x-8_1_vrxvxf.webp",
 ];
 
 const alternativeImages = [

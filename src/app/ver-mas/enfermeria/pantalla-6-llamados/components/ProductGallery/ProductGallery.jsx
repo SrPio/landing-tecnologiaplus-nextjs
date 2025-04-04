@@ -142,8 +142,8 @@ function ProductGallery() {
         {/* Información del producto */}
         <div className={styles.container__info__products}>
           <div className={styles.container__titles}>
-            <h1>Pantalla T6 de 6 llamados</h1>
-            <p>Muestra 6 llamados y cuenta con visualización alfanumérica.</p>
+            <h1>Pantalla T6</h1>
+            <p>Muestra 6 llamados al mismo tiempo.</p>
           </div>
 
           <div className={styles.container__contact__info}>

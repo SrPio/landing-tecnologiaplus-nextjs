@@ -9,7 +9,7 @@ const articuloLlamadoEnfermeria = {
   contenido: [
     {
       tipo: "imagen",
-      url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743711311/29-qqkmghn2gdn360xnizfpvp3ixw30aybt9seqv0pt7k_hiadij.webp",
+      url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743783087/Imagen_de_WhatsApp_2025-04-04_a_las_11.06.54_1dcf04a8_gj6t2l.webp",
       descripcion: "Llamado de enfermería en un hogar geriátrico",
       altura: "30vw",
     },

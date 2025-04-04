@@ -136,9 +136,9 @@ function ArticuloPlantilla({
           {/* Contenedor de las tarjetas */}
           <div className={styles.articulos__similares__container}>
             <BlogCard
-              title="Título 1"
-              description="Descripción breve del primer blog"
-              imageSrc="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739206940/3_1_2x-8_znjln1.png"
+              title="Timbre para Cama de Hospital: Atención Rápida y Eficaz para el Paciente"
+              description="Estar hospitalizado es una experiencia desafiante."
+              imageSrc="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743783087/Imagen_de_WhatsApp_2025-04-04_a_las_11.06.54_1dcf04a8_gj6t2l.webp"
               altText="Imagen 1"
               link="#"
               date="20 de marzo de 2025"

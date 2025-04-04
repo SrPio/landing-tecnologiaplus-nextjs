@@ -66,9 +66,10 @@ function ControlsOptions() {
           <div>
             <h3>Control industrial</h3>
             <p>
-              Permite 0000000 <br className={styles.hide__on__mobile} />
-              0000000 <br className={styles.hide__on__mobile} />
-              Medidas: 0000000000 <br className={styles.hide__on__mobile} />
+              Mayor resistencia para uso industrial.
+              <br className={styles.hide__on__mobile} />
+              Medidas: 7cm x 7.5cm x 6.5cm.
+              <br className={styles.hide__on__mobile} />
               Tecnología inalámbrica.
             </p>
           </div>

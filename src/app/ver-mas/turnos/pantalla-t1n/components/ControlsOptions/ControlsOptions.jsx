@@ -14,7 +14,7 @@ function ControlsOptions() {
           <div>
             <h3>Control de 1 tecla</h3>
             <p>
-              Solamente permite avanzar en orden.{" "}
+              Solo permite avanzar en orden.{" "}
               <br className={styles.hide__on__mobile} />
               Medidas: 5cm x 3cm x 8cm.{" "}
               <br className={styles.hide__on__mobile} />
@@ -53,6 +53,22 @@ function ControlsOptions() {
               número. <br className={styles.hide__on__mobile} />
               Medidas: 6cm x 3.5cm x 12.5cm.{" "}
               <br className={styles.hide__on__mobile} />
+              Tecnología inalámbrica.
+            </p>
+          </div>
+        </div>
+        <div className={styles.item}>
+          <img
+            loading="lazy"
+            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743774372/control_industrial_4x-8_shia0y.webp"
+            alt="imagen de control"
+          />
+          <div>
+            <h3>Control industrial</h3>
+            <p>
+              Permite 0000000 <br className={styles.hide__on__mobile} />
+              0000000 <br className={styles.hide__on__mobile} />
+              Medidas: 0000000000 <br className={styles.hide__on__mobile} />
               Tecnología inalámbrica.
             </p>
           </div>

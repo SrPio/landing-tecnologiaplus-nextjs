@@ -150,7 +150,8 @@ function ArticuloPlantilla({
               height="12vw"
               imageWidth="20vw"
               imageHeight="5vw"
-              fontSize="1rem"
+              titleFontSize="0.8rem"
+              descriptionFontSize="0.7rem"
             />
             <BlogCard
               title="Título 2"
@@ -163,7 +164,8 @@ function ArticuloPlantilla({
               height="12vw"
               imageWidth="20vw"
               imageHeight="5vw"
-              fontSize="1rem"
+              titleFontSize="0.8rem"
+              descriptionFontSize="0.7rem"
             />
             <BlogCard
               title="Título 3"
@@ -176,7 +178,8 @@ function ArticuloPlantilla({
               height="12vw"
               imageWidth="20vw"
               imageHeight="5vw"
-              fontSize="1rem"
+              titleFontSize="0.8rem"
+              descriptionFontSize="0.7rem"
             />
           </div>
         </section>

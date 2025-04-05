@@ -12,7 +12,8 @@ const BlogCard = ({
   customClass,
   width, // Nuevo prop para cambiar ancho
   height, // Nuevo prop para cambiar alto
-  fontSize, // Nuevo prop para tamaño de fuente
+  titleFontSize, // Nuevo prop para tamaño de fuente del titulo
+  descriptionFontSize, // Nuevo prop para tamaño de fuente de la descripción
   imageWidth, // Nuevo prop para ancho de imagen
   imageHeight, // Nuevo prop para alto de imagen
   date, // Nuevo prop para mostrar fecha
@@ -33,13 +34,17 @@ const BlogCard = ({
       <div className={style.card__content}>
         <h3
           className={style.card__title}
-          style={{ fontSize: fontSize || "1.5rem" }}
+          style={{ fontSize: titleFontSize || "1.5rem" }}
         >
           {title}
         </h3>
         <p
           className={style.card__description}
-          style={{ fontSize: fontSize ? `calc(${fontSize} * 0.8)` : "1rem" }}
+          style={{
+            fontSize: descriptionFontSize
+              ? `calc(${descriptionFontSize} * 0.8)`
+              : "1rem",
+          }}
         >
           {description}
         </p>

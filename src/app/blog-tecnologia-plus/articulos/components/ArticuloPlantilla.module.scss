@@ -17,6 +17,8 @@
   font-weight: bold;
   text-align: center;
   color: #606060;
+
+  margin-bottom: 20px;
 }
 
 .articulo__subtitulo {
@@ -38,14 +40,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #713fb0;
-  margin: 20px 0;
 
-  img {
-    max-width: 100%;
-    height: auto;
-    object-fit: cover;
-  }
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
 .articulo__lista {

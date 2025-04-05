@@ -11,7 +11,12 @@ const articuloLlamadoEnfermeria = {
       tipo: "imagen",
       url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743783087/Imagen_de_WhatsApp_2025-04-04_a_las_11.06.54_1dcf04a8_gj6t2l.webp",
       descripcion: "Llamado de enfermería en un hogar geriátrico",
-      altura: "30vw",
+      altura: "32rem",
+      estilo: {
+        float: "left",
+        width: "50%",
+        marginRight: "16px",
+      },
     },
     {
       tipo: "texto",

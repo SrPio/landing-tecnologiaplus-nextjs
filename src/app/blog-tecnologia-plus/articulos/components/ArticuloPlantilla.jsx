@@ -40,7 +40,11 @@ function ArticuloPlantilla({
                     src={bloque.url}
                     alt={bloque.descripcion || "Imagen del artículo"}
                     loading="lazy"
-                    style={{ height: bloque.altura || "auto" }}
+                    className={styles.articulo__imagen}
+                    style={{
+                      height: bloque.altura || "auto",
+                      ...bloque.estilo,
+                    }}
                   />
                 );
 
@@ -193,6 +197,7 @@ ArticuloPlantilla.propTypes = {
       altura: PropTypes.string,
       ordenada: PropTypes.bool,
       items: PropTypes.arrayOf(PropTypes.string),
+      estilo: PropTypes.object,
     })
   ).isRequired,
   /* publicadoPor: PropTypes.string.isRequired, */

@@ -145,7 +145,7 @@ function ProductGallery() {
             <h1>
               Llamador con extensor EX<span>1</span>
             </h1>
-            <p>Con cable extensor para pacientes con movilidad reducida</p>
+            <p>Con cable extensor para alcanzar la cama.</p>
           </div>
 
           <div className={styles.container__contact__info}>

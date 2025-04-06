@@ -27,7 +27,7 @@ export const metadata = {
         siteName: "TecnologiaPlus",
         images: [
             {
-                url: "https://tecnologiaplus.com/wp-content/uploads/2020/09/turnos1.png",
+                url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743970202/10_zozuzq.webp",
                 width: 900,
                 height: 514,
                 type: "image/png",

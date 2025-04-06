@@ -27,7 +27,7 @@ export const metadata = {
         type: "article",
         images: [
             {
-                url: "https://tecnologiaplus.com/wp-content/uploads/2020/09/BANNER-LLAMADORES-1600X600-3.jpg",
+                url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743970202/6_aqz1pb.webp",
                 width: 1600,
                 height: 600,
                 alt: "Llamadores para restaurantes Colombia",

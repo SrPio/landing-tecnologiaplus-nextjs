@@ -29,7 +29,7 @@ export const metadata = {
         description: "Llamadores de enfermería de largo alcance y alta resistencia. Sistema eficiente para llamar enfermeras. ¡Contáctanos hoy!",
         images: [
             {
-                url: "https://tecnologiaplus.com/wp-content/uploads/2020/10/banner-abuelos.jpg",
+                url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743970202/4_aggf31.webp",
             },
         ],
     },

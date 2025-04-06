@@ -29,7 +29,7 @@ export const metadata = {
         siteName: "TecnologiaPlus",
         images: [
             {
-                url: "https://tecnologiaplus.com/wp-content/uploads/2023/06/Nueva-imagen-rollos-de-turnos-2-1-1.png",
+                url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743970202/7_onwjnc.webp",
             },
         ],
     },

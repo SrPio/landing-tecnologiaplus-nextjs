@@ -32,7 +32,7 @@ export const metadata = {
         siteName: "TecnologiaPlus",
         images: [
             {
-                url: "https://tecnologiaplus.com/wp-content/uploads/2020/09/Banner.jpg",
+                url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743970202/1_spvfxt.webp",
             },
         ],
         updatedTime: "2024-12-30T16:34:53-05:00",
@@ -43,7 +43,7 @@ export const metadata = {
         description:
             "Conoce lo que piensan realmente tus clientes con el Calificador de Servicios. Toma decisiones informadas y lleva tu empresa al siguiente nivel.",
         images: [
-            "https://tecnologiaplus.com/wp-content/uploads/2020/09/Banner.jpg",
+            "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743970202/1_spvfxt.webp",
         ],
     },
     icons: {
@@ -66,7 +66,7 @@ export default function CalificadorLanding() {
         name: "Calificador de Servicios: Conoce la opinión real de tus clientes",
         description:
             "Conoce lo que piensan realmente tus clientes con el Calificador de Servicios. Toma decisiones informadas y lleva tu empresa al siguiente nivel.",
-        image: "https://tecnologiaplus.com/wp-content/uploads/2020/09/Banner.jpg",
+        image: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743970202/1_spvfxt.webp",
         datePublished: "2020-08-21T01:24:34+00:00",
         dateModified: "2024-12-30T21:34:53+00:00",
         inLanguage: "es",

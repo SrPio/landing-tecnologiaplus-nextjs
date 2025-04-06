@@ -29,7 +29,7 @@ export const metadata = {
         siteName: "TecnologiaPlus",
         images: [
             {
-                url: "https://tecnologiaplus.com/wp-content/uploads/2020/09/banner-tur-1600px.jpg",
+                url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743970202/9_pl5ffb.webp",
                 width: 1600,
                 height: 600,
                 alt: "pantallas de turnos",

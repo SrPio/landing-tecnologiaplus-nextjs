@@ -31,7 +31,7 @@ export const metadata = {
         siteName: "TecnologiaPlus",
         images: [
             {
-                url: "https://tecnologiaplus.com/wp-content/uploads/2020/10/BANNER-LLAMADORES-MESEROS-1600X600-2.jpg",
+                url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743970202/5_jjo8ks.webp",
                 width: 1600,
                 height: 600,
                 alt: "Llamadores de meseros",

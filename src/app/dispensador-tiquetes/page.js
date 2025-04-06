@@ -27,7 +27,7 @@ export const metadata = {
         siteName: "TecnologiaPlus",
         images: [
             {
-                url: "https://tecnologiaplus.com/wp-content/uploads/2023/06/Captura-de-pantalla-2023-05-25-210121.png",
+                url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743970202/2_dccdnc.webp",
                 width: 958,
                 height: 747,
                 alt: "Dispensador de tiquetes",

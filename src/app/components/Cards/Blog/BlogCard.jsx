@@ -16,6 +16,7 @@ const BlogCard = ({
   descriptionFontSize, // Nuevo prop para tamaño de fuente de la descripción
   imageWidth, // Nuevo prop para ancho de imagen
   imageHeight, // Nuevo prop para alto de imagen
+  imageObjectPosition,
   date, // Nuevo prop para mostrar fecha
   hideSocials = false, // Controla si se ocultan las redes
 }) => {
@@ -29,7 +30,11 @@ const BlogCard = ({
         src={imageSrc}
         alt={altText}
         className={style.card__image}
-        style={{ width: imageWidth || "100%", height: imageHeight || "auto" }}
+        style={{
+          width: imageWidth || "100%",
+          height: imageHeight || "auto",
+          objectPosition: imageObjectPosition || "center",
+        }}
       />
       <div className={style.card__content}>
         <h3

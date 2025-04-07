@@ -152,6 +152,7 @@ function ArticuloPlantilla({
               imageHeight="5vw"
               titleFontSize="0.8rem"
               descriptionFontSize="0.7rem"
+              imageObjectPosition="50% 20%"
             />
             <BlogCard
               title="Título 2"

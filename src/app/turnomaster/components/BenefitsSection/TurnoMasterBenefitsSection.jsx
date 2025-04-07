@@ -13,7 +13,7 @@ function TurnoMasterBenefitsSection() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738860473/icono_1_2x-8_2_ahx7d0.webp"
-            alt="icono de controles"
+            alt="Icono de controles"
           />
           Personaliza según colores <br className={style.hide__on__mobile} /> y
           necesidades de tu marca.
@@ -22,7 +22,7 @@ function TurnoMasterBenefitsSection() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738860472/icono_2_2x-8_2_kjq13k.webp"
-            alt="icono gráfico de barras"
+            alt="Reportes gráficos para mejor toma de decisiones"
           />
           Datos y estadísticas para evaluar{" "}
           <br className={style.hide__on__mobile} /> y controlar la calidad del

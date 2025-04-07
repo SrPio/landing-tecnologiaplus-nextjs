@@ -8,7 +8,7 @@ function ProductsSection() {
         <img
           loading="lazy"
           src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349920/image-1_1_ljyxis_qdsmdq.webp"
-          alt="rollos térmicos para impresora térmica"
+          alt="imagen de rollos térmicos para impresora"
         />
         <img
           loading="lazy"

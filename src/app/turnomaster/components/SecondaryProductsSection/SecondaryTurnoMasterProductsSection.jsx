@@ -12,7 +12,7 @@ function SecondaryTurnoMasterProductsSection() {
               <img
                 loading="lazy"
                 src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738864481/Group_11_1_muxouk.webp"
-                alt="imagen de Ticket de turno"
+                alt="Ticket de turno en físico y en el teléfono"
               />
             </div>
             <div className={style.card}>
@@ -21,7 +21,7 @@ function SecondaryTurnoMasterProductsSection() {
               <img
                 loading="lazy"
                 src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738860441/pantalla_tv_2x-8_oq494d.webp"
-                alt="imagen de Pantalla TV"
+                alt="Ticket de turno en físico y en el teléfono"
               />
             </div>
           </div>
@@ -42,7 +42,7 @@ function SecondaryTurnoMasterProductsSection() {
               <img
                 loading="lazy"
                 src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738864484/estadisticas_2x-8_i2w4e1.webp"
-                alt="imagen de informes detallados"
+                alt="Estadísticas en base a los resultados del calificador de servicio"
               />
             </div>
             <div className={style.card}>
@@ -51,7 +51,7 @@ function SecondaryTurnoMasterProductsSection() {
               <img
                 loading="lazy"
                 src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738860449/software_2x-8_rpfkti.webp"
-                alt="imagen de software dinámico"
+                alt="Pantalla de turnos con la información correspondiente al mostrar el llamado"
               />
             </div>
           </div>
@@ -87,8 +87,7 @@ function SecondaryTurnoMasterProductsSection() {
             <img
               loading="lazy"
               src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738860451/1_2x-8_2_dm6w2x.webp"
-              alt="imagen de Código QR para
-seguir el turno"
+              alt=" Código QR para seguir el turno desde el teléfono"
             />
             <p>
               Código QR para
@@ -100,8 +99,7 @@ seguir el turno"
             <img
               loading="lazy"
               src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738860450/2_2x-8_2_gf82jw.webp"
-              alt="imagen de Seguimiento del
-turno en el celular"
+              alt="Visualización del turno correspondiente y del que fue llamado para así guiar al usuario"
             />
             <p>
               Ver estado del
@@ -113,8 +111,7 @@ turno en el celular"
             <img
               loading="lazy"
               src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738860452/3_2x-8_1_aldwxr.webp"
-              alt="imagen de Turno por
-mensaje de texto"
+              alt="Notificación por medio de mensaje de texto del turno correspondiente"
             />
             <p>
               Turno por
@@ -126,8 +123,7 @@ mensaje de texto"
             <img
               loading="lazy"
               src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738868534/4_2x-8_1_nalqed.webp"
-              alt="imagen de Calificador
-de servicio"
+              alt="Calificador de servicios u OpinaMaster"
             />
             <p>
               Calificador

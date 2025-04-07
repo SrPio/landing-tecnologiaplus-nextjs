@@ -143,7 +143,7 @@ function ProductGallery() {
         <div className={styles.container__info__products}>
           <div className={styles.container__titles}>
             <h1>ROLLOS TÉRMICOS</h1>
-            <p>Rollos para impresora térmica</p>
+            <p>Perfectos para tickets, facturas y más.</p>
           </div>
 
           <div className={styles.container__contact__info}>
@@ -158,9 +158,9 @@ function ProductGallery() {
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-            volutpat. Ut Wisi enim ad io
+            Rollos de Papel térmico de alta calidad compatibles con múltiples
+            modelos de impresoras térmicas. Contamos con Rollos térmicos en
+            variedad de tamaños. ¡Somos fabricantes!
           </p>
         </div>
       </div>

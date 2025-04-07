@@ -41,7 +41,7 @@ function MobileProductGallery() {
       </div>
 
       <div className={styles.container__titles}>
-        <h1>Control numérico para cocina</h1>
+        <h1>CONTROL NUMÉRICO</h1>
         <p>Para llamar empleados o meseros desde cocina</p>
       </div>
 

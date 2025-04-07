@@ -79,6 +79,7 @@ function MobileProductGallery() {
 
       <div className={styles.container__titles}>
         <h1>ROLLOS DE TURNOS</h1>
+        <p>Varias opciones y colores, numeración clara y corte preciso.</p>
       </div>
 
       <Swiper
@@ -161,9 +162,10 @@ function MobileProductGallery() {
 
       <div className={styles.container__info__products}>
         <p>
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-          nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-          volutpat.
+          Rollos de Tickets Numerados para uso en dispensador tipo caracol,
+          elimina las filas y facilita el llamado de turnos de forma ordenada.
+          Perfectos para zonas de espera en sector salud y servicios. Producto
+          de bajo costo con un alto beneficio.
         </p>
         <div className={styles.container__contact__info}>
           <a href="https://wa.me/573227347971" target="_blank" rel="noreferrer">

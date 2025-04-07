@@ -198,7 +198,7 @@ function ProductGallery() {
         <div className={styles.container__info__products}>
           <div className={styles.container__titles}>
             <h1>ROLLOS DE TURNOS</h1>
-            <p>Dispensador de tiquete tipo caracol</p>
+            <p>Varias opciones y colores, numeración clara y corte preciso.</p>
           </div>
 
           {/* Alternativas */}
@@ -242,9 +242,10 @@ function ProductGallery() {
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-            volutpat. Ut Wisi enim ad io
+            Rollos de Tickets Numerados para uso en dispensador tipo caracol,
+            elimina las filas y facilita el llamado de turnos de forma ordenada.
+            Perfectos para zonas de espera en sector salud y servicios. Producto
+            de bajo costo con un alto beneficio.
           </p>
         </div>
       </div>

@@ -70,7 +70,7 @@ function MobileProductGallery() {
       </div>
 
       <div className={styles.container__titles}>
-        <h1>Llamador E2-N DE 3 TECLAS</h1>
+        <h1>LLAMADOR DE MESEROS E2-N CON TECLA PAGAR</h1>
         <p> Permite llamar al mesero y pedir la cuenta.</p>
       </div>
 

@@ -72,7 +72,7 @@ function MobileProductGallery() {
       </div>
 
       <div className={styles.container__titles}>
-        <h1>Llamador E2 Blanco</h1>
+        <h1>LLAMADOR DE ENFERMERÍA E2 BLANCO</h1>
         <p>Más cerca de tus pacientes.</p>
       </div>
 

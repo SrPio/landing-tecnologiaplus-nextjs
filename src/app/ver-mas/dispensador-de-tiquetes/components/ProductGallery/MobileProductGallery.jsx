@@ -83,8 +83,11 @@ function MobileProductGallery() {
       </div>
 
       <div className={styles.container__titles}>
-        <h1>DISPENSADOR DE TIQUETES</h1>
-        <p>Para solicitar turno</p>
+        <h1>DISPENSADOR DE TICKETS</h1>
+        <p>
+          ¡Adiós al desorden y las filas! con el dispensador de tiquetes tipo
+          caracol
+        </p>
       </div>
 
       <Swiper
@@ -172,9 +175,9 @@ function MobileProductGallery() {
 
       <div className={styles.container__info__products}>
         <p>
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-          nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-          volutpat. Ut Wisi enim ad io
+          Dispensador de Tiquetes para organizar filas, tiene forma de caracol
+          para tomar el turno fácilmente. Ideal para salas de espera en sector
+          salud y servicios. Fácil instalación en pared o mostrador.
         </p>
         <div className={styles.container__contact__info}>
           <a href="https://wa.me/573227347971" target="_blank" rel="noreferrer">

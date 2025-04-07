@@ -41,8 +41,8 @@ function MobileProductGallery() {
       </div>
 
       <div className={styles.container__titles}>
-        <h1>REC V3</h1>
-        <p>Localizadores de clientes</p>
+        <h1>LOCALIZADORES PARA RESTAURANTES REC-V3</h1>
+        <p>Tus clientes disfrutan el tiempo mientras esperan el pedido</p>
       </div>
 
       {/* Carrusel principal */}
@@ -67,9 +67,11 @@ function MobileProductGallery() {
       {/* Información del producto */}
       <div className={styles.container__info__products}>
         <p>
-          Cada kit incluye: Base de recarga con emisor de señal integrado.
-          Cantidad de localizadores que el cliente requiera, cada uno con logo
-          del cliente en Sticker ultrafuerte. Cable de conexión eléctrica.
+          Con los localizadores para restaurantes los clientes esperan su pedido
+          sin temor de perder el turno, ya que el avisador de pedidos vibra y
+          alumbra cuando el pedido está listo, evitando ruidos molestos para los
+          demás clientes. Ideal para plazoletas de comida y restaurantes
+          autoservicio.
         </p>
 
         <div className={styles.container__contact__info}>

@@ -142,7 +142,7 @@ function ProductGallery() {
         {/* Información del producto */}
         <div className={styles.container__info__products}>
           <div className={styles.container__titles}>
-            <h1>Hablador para mesa</h1>
+            <h1>HABLADOR DE MESA</h1>
             <p>Resalta tu marca con un espacio adecuado para el botón</p>
           </div>
 

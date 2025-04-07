@@ -88,7 +88,7 @@ function MobileProductGallery() {
       </div>
 
       <div className={styles.container__titles}>
-        <h1>Llamador E2-B de 2 teclas</h1>
+        <h1>LLAMADOR DE MESEROS E2-B</h1>
         <p>Permite llamar al mesero y borrar el llamado al ser atendido.</p>
       </div>
 

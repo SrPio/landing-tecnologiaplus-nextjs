@@ -41,8 +41,8 @@ function MobileProductGallery() {
       </div>
 
       <div className={styles.container__titles}>
-        <h1>CIR C2</h1>
-        <p>Localizadores de clientes</p>
+        <h1>LOCALIZADORES PARA RESTAURANTES CIR-C2</h1>
+        <p>Ideal para autoservicio, sin temor de perder el turno.</p>
       </div>
 
       {/* Carrusel principal */}
@@ -67,9 +67,10 @@ function MobileProductGallery() {
       {/* Información del producto */}
       <div className={styles.container__info__products}>
         <p>
-          Cada kit incluye: Base de recarga con emisor de señal integrado.
-          Cantidad de localizadores que el cliente requiera, cada uno con logo
-          del cliente en Sticker ultrafuerte. Cable de conexión eléctrica.
+          Los localizadores para restaurantes Cir C2 mantienen las ventajas del
+          modelo Rec V3 y además funciona con un control separado de los
+          localizadores.Ideal para locales de comida que entregan el localizador
+          en un punto distinto al de llamado.
         </p>
 
         <div className={styles.container__contact__info}>

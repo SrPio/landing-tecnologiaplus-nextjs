@@ -141,7 +141,7 @@ function ProductGallery() {
         <div className={styles.container__info__products}>
           <div className={styles.container__titles}>
             <h1>
-              Llamador E<span>1</span> para colgar en cuello
+              LLAMADOR DE ENFERMERÍA E<span>1</span> PARA USAR EN EL CUELLO
             </h1>
             <p>Siempre a la mano de tus pacientes</p>
           </div>

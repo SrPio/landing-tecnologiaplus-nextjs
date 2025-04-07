@@ -18,7 +18,7 @@ function EncuestaVirtualHeroSection({
           loading="lazy"
           className={styles.hero__img}
           src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738607993/Imagen_principal_2x-8_pc1qfd.webp"
-          alt="imagen de encuesta virtual"
+          alt="Software de encuestas en línea"
         />
 
         <div className={styles.hero__text}>
@@ -58,7 +58,7 @@ function EncuestaVirtualHeroSection({
           loading="lazy"
           className={styles.hero__img__mobile}
           src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743004188/1_4x-8_2_ezutdl.webp"
-          alt="imagen de encuesta virtual"
+          alt="Calificador de servicio al cliente"
         />
       </div>
     </section>

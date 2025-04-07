@@ -12,7 +12,7 @@ function EncuestaVirtualBenefitsSection() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738607995/Tablet_2x-8_yfzeko.webp"
-            alt="imagen de tablet"
+            alt="Ejemplo de como se ve una plana de la encuesta de satisfacción de servicio al cliente en tablet"
           />
           Tablet o celular.
         </li>
@@ -20,7 +20,7 @@ function EncuestaVirtualBenefitsSection() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738607999/Link_por_mail_o_RS_2x-8_gfs8zq.webp"
-            alt="imagen de celular"
+            alt="Ejemplo visual de la encuesta de servicio al cliente en un teléfono celular personalizada"
           />
           Link por email
           <br />O redes sociales.
@@ -29,7 +29,7 @@ function EncuestaVirtualBenefitsSection() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738607998/pantalla_tactil_2x-8_brnroa.webp"
-            alt="imagen de computador"
+            alt="Ejemplo de como se ve la encuesta de satisfacción de servicio al cliente en computador de mesa"
           />
           Pantalla táctil.
         </li>

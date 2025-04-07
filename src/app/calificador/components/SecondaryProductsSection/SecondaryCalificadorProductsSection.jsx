@@ -20,7 +20,7 @@ function SecondaryCalificadorProductsSection() {
             <img
               loading="lazy"
               src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738596106/Estadi%CC%81sticas_2x-8_dlqi3u.webp"
-              alt="Estadisticas en base a los resultados del calificador de servicio"
+              alt="Estadísticas en base a los resultados del calificador de servicio"
             />
           </div>
         </div>

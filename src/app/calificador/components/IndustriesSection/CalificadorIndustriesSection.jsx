@@ -15,7 +15,7 @@ function CalificadorIndustriesSection() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738615986/oficinas_2x-8_ybubhb.webp"
-            alt="icono de oficinas"
+            alt="icono de oficina"
           />
           <p>Oficinas</p>
         </li>

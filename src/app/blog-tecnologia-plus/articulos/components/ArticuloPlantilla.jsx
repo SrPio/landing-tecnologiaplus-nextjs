@@ -48,6 +48,27 @@ function ArticuloPlantilla({
                   />
                 );
 
+              case "texto-enriquecido":
+                return (
+                  <p key={index} className={styles.articulo__texto}>
+                    {bloque.partes.map((parte, i) =>
+                      typeof parte === "string" ? (
+                        parte
+                      ) : (
+                        <a
+                          key={i}
+                          href={parte.href}
+                          className="text-blue-600 underline hover:text-blue-800"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          {parte.texto}
+                        </a>
+                      )
+                    )}
+                  </p>
+                );
+
               case "enlaces":
                 return (
                   <ul key={index} className={styles.articulo__lista}>
@@ -63,6 +84,28 @@ function ArticuloPlantilla({
                       </li>
                     ))}
                   </ul>
+                );
+
+              case "texto-html":
+                return (
+                  <div
+                    key={index}
+                    className={styles.articulo__texto}
+                    dangerouslySetInnerHTML={{ __html: bloque.html }}
+                  />
+                );
+
+              case "boton":
+                return (
+                  <a
+                    key={index}
+                    href={bloque.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={styles.btn__cta}
+                  >
+                    {bloque.texto}
+                  </a>
                 );
 
               case "lista":
@@ -193,15 +236,39 @@ ArticuloPlantilla.propTypes = {
   titulo: PropTypes.string.isRequired,
   contenido: PropTypes.arrayOf(
     PropTypes.shape({
-      tipo: PropTypes.oneOf(["titulo", "subtitulo", "texto", "imagen", "lista"])
-        .isRequired,
+      tipo: PropTypes.oneOf([
+        "titulo",
+        "subtitulo",
+        "texto",
+        "imagen",
+        "lista",
+        "enlaces",
+        "texto-enriquecido",
+      ]).isRequired,
       texto: PropTypes.string,
       url: PropTypes.string,
       descripcion: PropTypes.string,
       altura: PropTypes.string,
       ordenada: PropTypes.bool,
-      items: PropTypes.arrayOf(PropTypes.string),
+      items: PropTypes.arrayOf(
+        PropTypes.oneOfType([
+          PropTypes.string,
+          PropTypes.shape({
+            titulo: PropTypes.string,
+            url: PropTypes.string,
+          }),
+        ])
+      ),
       estilo: PropTypes.object,
+      partes: PropTypes.arrayOf(
+        PropTypes.oneOfType([
+          PropTypes.string,
+          PropTypes.shape({
+            texto: PropTypes.string.isRequired,
+            href: PropTypes.string.isRequired,
+          }),
+        ])
+      ),
     })
   ).isRequired,
   /* publicadoPor: PropTypes.string.isRequired, */

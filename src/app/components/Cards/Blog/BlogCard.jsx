@@ -19,6 +19,10 @@ const BlogCard = ({
   imageObjectPosition,
   date, // Nuevo prop para mostrar fecha
   hideSocials = false, // Controla si se ocultan las redes
+  dateFontSize, // para .card__date
+  buttonFontSize, // para .card__btn
+  buttonPadding, // para .card__btn
+  descriptionMargin,
 }) => {
   return (
     <div
@@ -46,9 +50,8 @@ const BlogCard = ({
         <p
           className={style.card__description}
           style={{
-            fontSize: descriptionFontSize
-              ? `calc(${descriptionFontSize} * 0.8)`
-              : "1rem",
+            fontSize: descriptionFontSize || "1rem",
+            margin: descriptionMargin || "0.5rem 0 1rem 0",
           }}
         >
           {description}
@@ -56,7 +59,12 @@ const BlogCard = ({
 
         <div className={style.social__container}>
           {date ? (
-            <span className={style.card__date}>{date}</span>
+            <span
+              className={style.card__date}
+              style={{ fontSize: dateFontSize || "0.875rem" }}
+            >
+              {date}
+            </span>
           ) : !hideSocials ? (
             <div className={style.social__icons}>
               <img
@@ -77,7 +85,14 @@ const BlogCard = ({
             </div>
           ) : null}
 
-          <a className={style.card__btn} href={link}>
+          <a
+            className={style.card__btn}
+            href={link}
+            style={{
+              fontSize: buttonFontSize || "0.8rem",
+              padding: buttonPadding || "0.5rem 1rem",
+            }}
+          >
             Leer más <IoIosArrowForward />
           </a>
         </div>

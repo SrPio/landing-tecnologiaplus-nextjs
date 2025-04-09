@@ -136,7 +136,7 @@ function SecondaryHeader() {
 
       <div className={style.phone__container}>
         <HiPhone />
-        <a href="tel:3227347971">322 734 7971</a>
+        <a href="tel:+573164682034">316 468 2034</a>
       </div>
 
       <div

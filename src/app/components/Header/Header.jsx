@@ -161,13 +161,13 @@ function Header({ customStyles = {} }) {
           />
         </a>
         <a
-          href="tel:3227347971"
+          href="tel:+573164682034"
           className={`${styles.phone__btn} ${customStyles.phoneBtn || ""}`}
         >
           <HiPhone
             className={`${styles.phone__icon} ${customStyles.phoneIcon || ""}`}
           />
-          322 734 7971
+          316 468 2034
         </a>
         <div
           className={`${styles.menu__icon} ${menuOpen ? styles.open : ""} ${

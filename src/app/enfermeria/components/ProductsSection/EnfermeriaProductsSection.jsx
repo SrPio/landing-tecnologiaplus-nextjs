@@ -26,7 +26,7 @@ function EnfermeriaProductsSection() {
         personal de enfermería. Equipado con un llamador de personal adaptable a
         todos los sectores, este dispositivo facilita una asistencia oportuna
         con solo presionar un botón. Su diseño portátil permite reubicarlo
-        facilmente o incluso puede ser usado en el cuello del paciente,
+        fácilmente o incluso puede ser usado en el cuello del paciente,
         brindando comodidad y tranquilidad. La señal de largo alcance y
         notificación instantánea mejoran la eficiencia del personal de salud,
         ofreciendo un servicio de calidad que ayuda a pacientes y enfermeras.

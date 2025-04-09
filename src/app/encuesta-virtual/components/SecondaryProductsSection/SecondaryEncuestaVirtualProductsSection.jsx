@@ -14,9 +14,9 @@ function SecondaryEncuestaVirtualProductsSection() {
             <p>
               Convierte opiniones en
               <br />
-              graficos de la percepción
+              gráficos que reflejan la
               <br />
-              real de tus clientes.
+              percepción real de tus clientes.
             </p>
           </div>
           <div className={style.card}>

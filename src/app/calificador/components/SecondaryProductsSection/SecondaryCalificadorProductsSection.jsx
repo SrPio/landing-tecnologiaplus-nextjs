@@ -6,8 +6,8 @@ function SecondaryCalificadorProductsSection() {
       <div className={style.products__container}>
         <div className={style.products__card__container}>
           <div className={style.card}>
-            <h2>Alertas en tiempo real</h2>
-            <p>Agiliza la toma de decisiones</p>
+            <h2>Alertas en tiempo real.</h2>
+            <p>Agiliza la toma de decisiones.</p>
             <img
               loading="lazy"
               src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738596112/Alertas_cel_2x-8_tfsbg1.webp"
@@ -15,7 +15,7 @@ function SecondaryCalificadorProductsSection() {
             />
           </div>
           <div className={style.card}>
-            <h2>Métricas precisas</h2>
+            <h2>Métricas precisas.</h2>
             <p>Identifica como mejorar tu negocio.</p>
             <img
               loading="lazy"

@@ -26,7 +26,7 @@ function HowItWorks() {
           <p>
             2. El cliente elige entre 4{" "}
             <br className={styles.hide__on__mobile} />
-            niveles de calificación
+            niveles de calificación.
           </p>
         </div>
         <div className={styles.item}>

@@ -23,16 +23,17 @@ function EncuestaVirtualHeroSection({
 
         <div className={styles.hero__text}>
           <h1>
-            OpinaMaster Virtual:
+            OpinaMaster
             <br />
-            Descubre lo que
+            Descubre lo que piensan
             <br />
-            piensan tus clientes
+            tus clientes con nuestra
+            <br />
+            encuesta virtual.
           </h1>
           <p>
-            Encuesta Virtual, atrévete a detectar
-            <br />
-            los puntos fuertes y débiles de tu negocio.
+            Atrévete a detectar los puntos fuertes
+            <br />y las oportunidades de mejora en tu negocio.
           </p>
           {boton ? (
             <a className={styles.hero__btn} href={boton.href}>
@@ -42,10 +43,18 @@ function EncuestaVirtualHeroSection({
         </div>
 
         <div className={styles.hero__text__mobile}>
-          <h1>OpinaMaster Virtual: Descubre lo que piensan tus clientes</h1>
+          <h1>
+            OpinaMaster
+            <br />
+            Descubre lo que piensan tus
+            <br />
+            clientes con nuestra
+            <br />
+            encuesta virtual.
+          </h1>
           <p>
-            Encuesta Virtual, atrévete a detectar los puntos fuertes y débiles
-            de tu negocio.
+            Atrévete a detectar los puntos fuertes y las oportunidades de
+            mejora en tu negocio.
           </p>
           {boton ? (
             <a className={styles.hero__btn} href={boton.href}>

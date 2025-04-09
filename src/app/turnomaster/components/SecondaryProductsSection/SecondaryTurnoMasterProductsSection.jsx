@@ -63,7 +63,7 @@ function SecondaryTurnoMasterProductsSection() {
         />
         <p>
           Cada marca es única, y en Tecnología Plus lo sabemos. Por eso, nuestro
-          Sistema TurnoMaster es facil de usar y personalizable, diseñado para
+          Sistema TurnoMaster es fácil de usar y personalizable, diseñado para
           adaptarse a las necesidades de tu sala de espera. Configura los
           colores, escoge la numeración de turnos, elige entre múltiples
           opciones para organizar filas y el llamado de turnos. Además, puedes

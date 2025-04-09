@@ -17,7 +17,7 @@ function EnfermeriaBenefitsSection() {
           />
           <div>
             <div>
-              Resiste derrames de agua
+              Resiste derrames de agua.
               <span className={style.hide__on__mobile}>*</span>
             </div>
             <span>*Referencia seleccionada</span>
@@ -29,7 +29,7 @@ function EnfermeriaBenefitsSection() {
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738685528/icono_2_2x-8_1_kjdmh4.webp"
             alt="icono de batería de carga"
           />
-          Batería de larga duración
+          Batería de larga duración.
         </li>
         <li>
           <img
@@ -37,7 +37,7 @@ function EnfermeriaBenefitsSection() {
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738431754/icono_2_2x-8_vktxnl.webp"
             alt="icono de conectividad y largo alcance"
           />
-          Señal de largo alcance
+          Señal de largo alcance.
         </li>
       </ul>
     </section>

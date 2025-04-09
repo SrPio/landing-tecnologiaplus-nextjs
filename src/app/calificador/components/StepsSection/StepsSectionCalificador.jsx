@@ -29,7 +29,7 @@ function StepsSectionCalificador() {
             <p>
               El cliente elige entre 4
               <br />
-              niveles de calificación
+              niveles de calificación.
             </p>
           </div>
         </div>

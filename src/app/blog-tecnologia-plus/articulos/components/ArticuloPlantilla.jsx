@@ -51,21 +51,35 @@ function ArticuloPlantilla({
               case "texto-enriquecido":
                 return (
                   <p key={index} className={styles.articulo__texto}>
-                    {bloque.partes.map((parte, i) =>
-                      typeof parte === "string" ? (
-                        parte
-                      ) : (
-                        <a
-                          key={i}
-                          href={parte.href}
-                          className="text-blue-600 underline hover:text-blue-800"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          {parte.texto}
-                        </a>
-                      )
-                    )}
+                    {bloque.partes.map((parte, i) => {
+                      if (typeof parte === "string") {
+                        return parte;
+                      }
+
+                      if (parte.href) {
+                        return (
+                          <a
+                            key={i}
+                            href={parte.href}
+                            className="text-blue-600 underline hover:text-blue-800"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            {parte.texto}
+                          </a>
+                        );
+                      }
+
+                      if (parte.bold) {
+                        return <strong key={i}>{parte.texto}</strong>;
+                      }
+
+                      if (parte.italic) {
+                        return <em key={i}>{parte.texto}</em>;
+                      }
+
+                      return parte.texto;
+                    })}
                   </p>
                 );
 
@@ -265,7 +279,9 @@ ArticuloPlantilla.propTypes = {
           PropTypes.string,
           PropTypes.shape({
             texto: PropTypes.string.isRequired,
-            href: PropTypes.string.isRequired,
+            href: PropTypes.string,
+            bold: PropTypes.bool,
+            italic: PropTypes.bool,
           }),
         ])
       ),

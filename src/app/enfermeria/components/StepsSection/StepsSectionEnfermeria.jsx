@@ -9,7 +9,7 @@ function StepsSectionEnfermeria() {
         <div className={style.card}>
           <img
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738685532/1_2x-8_kqzcjp.webp"
-            alt="imagen de paciente usando el llamador"
+            alt="Paciente usando el botón para llamar enfermeras"
           />
           <div className={style.text__container}>
             <p>
@@ -35,7 +35,7 @@ function StepsSectionEnfermeria() {
         <div className={style.card}>
           <img
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738685531/2_1_2x-8_yz4xzc.webp"
-            alt="imagen de paciente presionando el botón de CANCELAR"
+            alt=" paciente presionando el botón de CANCELAR en el llamador de enfermería"
           />
           <div className={style.text__container}>
             <p>

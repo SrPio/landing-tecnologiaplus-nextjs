@@ -12,7 +12,7 @@ function EnfermeriaSecondaryProductsSection() {
             <img
               loading="lazy"
               src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738685527/llamador_blanco_2x-8_pibji3.webp"
-              alt="imagen del Llamador E2 Blanco"
+              alt="Llamador de enfermería E2 Blanco"
             />
             <h3>Llamador E2 Blanco</h3>
             <a
@@ -27,8 +27,7 @@ function EnfermeriaSecondaryProductsSection() {
             <img
               loading="lazy"
               src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739198779/Recurso_32_2x-8_ifuwuz.webp"
-              alt="imagen de Llamador con
-extensor EX1"
+              alt="Botón para pacientes extensor EX1"
             />
             <h3>
               Llamador con
@@ -47,8 +46,7 @@ extensor EX1"
             <img
               loading="lazy"
               src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738685525/llamador_para_colgar_cuello_2x-8_oqbvar.webp"
-              alt="imagen del Llamador E1
-para colgar en cuello"
+              alt="Llamador de enfermeras para colgar en el cuello"
             />
             <h3>
               Llamador E<span>1</span>
@@ -89,7 +87,7 @@ para colgar en cuello"
             <img
               loading="lazy"
               src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738685534/pantalla_T6_2x-8_zm3lja.webp"
-              alt="imagen de Pantalla T6"
+              alt="Pantalla de turnos T6"
             />
             <h3>Pantalla T6 de 6 llamados</h3>
             <p>942 vendidos</p>
@@ -104,7 +102,7 @@ para colgar en cuello"
             <img
               loading="lazy"
               src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738685530/alarma_de_luz_2x-8_xhufht.webp"
-              alt="imagen de Alarma de luz"
+              alt="Alarma de luz para enfermeras"
             />
             <h3>Alarma de luz</h3>
             <p>2649 vendidos</p>
@@ -119,7 +117,7 @@ para colgar en cuello"
             <img
               loading="lazy"
               src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738685534/reloj_receptor_digital_2x-8_adfgxj.webp"
-              alt="imagen de Reloj receptor de llamados"
+              alt="Reloj receptor de llamados para enfermeras"
             />
             <h3>Reloj receptor de llamados</h3>
             <p>2276 vendidos</p>

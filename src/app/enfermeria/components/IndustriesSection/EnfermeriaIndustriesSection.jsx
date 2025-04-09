@@ -15,7 +15,7 @@ function EnfermeriaIndustriesSection() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738685529/Geria%CC%81tricos_2x-8_djctos.webp"
-            alt="icono de Geriátricos"
+            alt="Acompañamiento geriátrico"
           />
           <p>Geriátricos</p>
         </li>

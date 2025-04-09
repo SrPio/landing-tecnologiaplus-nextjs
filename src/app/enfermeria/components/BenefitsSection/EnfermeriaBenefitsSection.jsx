@@ -27,7 +27,7 @@ function EnfermeriaBenefitsSection() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738685528/icono_2_2x-8_1_kjdmh4.webp"
-            alt="icono de batería"
+            alt="icono de batería de carga"
           />
           Batería de larga duración
         </li>

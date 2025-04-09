@@ -24,7 +24,7 @@ function LocalizadoresIndustriesSection() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738692286/salud_2x-8_anq348.webp"
-            alt="icono de Salud"
+            alt="icono de Sector salud"
           />
           <p>Salud</p>
         </li>

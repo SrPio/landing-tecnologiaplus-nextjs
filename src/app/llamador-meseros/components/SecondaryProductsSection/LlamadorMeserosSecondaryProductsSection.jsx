@@ -100,7 +100,7 @@ function LlamadorMeserosSecondaryProductsSection() {
               <img
                 loading="lazy"
                 src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738685534/reloj_receptor_digital_2x-8_adfgxj.webp"
-                alt="imagen del Reloj de llamados"
+                alt="Reloj receptor de llamados para enfermeras"
               />
               <h3>Reloj receptor de llamados</h3>
               <p>2276 vendidos</p>

@@ -41,7 +41,7 @@ function MobileProductGallery() {
       </div>
 
       <div className={styles.container__titles}>
-        <h1>LOCALIZADORES PARA RESTAURANTES REC-V3</h1>
+        <h1>Localizadores para restaurantes REC-V3</h1>
         <p>Tus clientes disfrutan el tiempo mientras esperan el pedido</p>
       </div>
 
@@ -67,7 +67,7 @@ function MobileProductGallery() {
       {/* Información del producto */}
       <div className={styles.container__info__products}>
         <p>
-          Con los localizadores para restaurantes los clientes esperan su pedido
+          Con los Localizadores para restaurantes los clientes esperan su pedido
           sin temor de perder el turno, ya que el avisador de pedidos vibra y
           alumbra cuando el pedido está listo, evitando ruidos molestos para los
           demás clientes. Ideal para plazoletas de comida y restaurantes

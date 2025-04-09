@@ -15,7 +15,7 @@ function TurnoExpressBenefitsSection() {
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738431751/icono_1_2x-8_zw5neg.webp"
             alt="icono de sonido"
           />
-          Sonido para anunciar el turno
+          Sonido para anunciar el turno.
         </li>
         <li>
           <img

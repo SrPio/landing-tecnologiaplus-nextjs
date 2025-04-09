@@ -29,7 +29,7 @@ const articuloRestauranteAutoservicio = {
       partes: [
         "Para lograrlo, es fundamental contar con una serie de herramientas y estrategias que optimicen la atención y mejoren la experiencia del cliente. Por ejemplo, el uso de ",
         {
-          texto: "localizadores para restaurantes",
+          texto: "Localizadores para restaurantes",
           href: "https://landing-tecnologiaplus-nextjs.vercel.app/localizadores",
         },
         " es una excelente solución para organizar los pedidos y reducir tiempos de espera, asegurando que cada cliente reciba su comida de manera eficiente.",
@@ -40,7 +40,7 @@ const articuloRestauranteAutoservicio = {
       partes: [
         "Además, incorporar ",
         {
-          texto: "localizadores para restaurantes",
+          texto: "Localizadores para restaurantes",
           href: "https://landing-tecnologiaplus-nextjs.vercel.app/localizadores",
         },
         " permite una comunicación más ágil entre el personal y los comensales, facilitando el proceso de entrega y mejorando la percepción del servicio. Otra herramienta indispensable son los calificadores de servicio, que te ayudan a obtener retroalimentación directa de los clientes, permitiéndote identificar áreas de mejora y reforzar la satisfacción del cliente.",
@@ -99,7 +99,7 @@ const articuloRestauranteAutoservicio = {
       partes: [
         "Además, los ",
         {
-          texto: "localizadores para restaurantes",
+          texto: "Localizadores para restaurantes",
           href: "https://landing-tecnologiaplus-nextjs.vercel.app/localizadores",
         },
         " son una excelente forma de reducir las quejas por entregas demoradas, ya que garantizan que los pedidos se entreguen en el momento preciso. Esto no solo mejora la logística del servicio, sino que también refuerza la percepción positiva del cliente.",
@@ -119,7 +119,7 @@ const articuloRestauranteAutoservicio = {
       partes: [
         "Además de los ",
         {
-          texto: "localizadores para restaurantes",
+          texto: "Localizadores para restaurantes",
           href: "https://landing-tecnologiaplus-nextjs.vercel.app/localizadores",
         },
         ", es importante contar con carteles o una señalización clara que indique cada zona del restaurante autoservicio, así como lo que ofrece en concreto. Entre las señalizaciones encontramos: las áreas de servicio, los menús disponibles, las opciones de personalización y los pasos a seguir para realizar un pedido. Esto ayuda a los clientes a navegar por el restaurante y facilita su experiencia de autoservicio.",
@@ -138,7 +138,7 @@ const articuloRestauranteAutoservicio = {
       tipo: "texto-enriquecido",
       partes: [
         "Además, al complementar esta práctica con herramientas tecnológicas como los ",
-        { texto: "localizadores para restaurantes", bold: true },
+        { texto: "Localizadores para restaurantes", bold: true },
         ", puedes optimizar aún más el servicio. Estos dispositivos garantizan que los pedidos lleguen al cliente de manera precisa y oportuna, mientras que los menús claros refuerzan la satisfacción del cliente desde el primer contacto.",
       ],
     },
@@ -166,7 +166,7 @@ const articuloRestauranteAutoservicio = {
       partes: [
         "Para complementar esta modalidad, incorporar herramientas como los ",
         {
-          texto: "localizadores para restaurantes",
+          texto: "Localizadores para restaurantes",
           href: "https://landing-tecnologiaplus-nextjs.vercel.app/localizadores",
         },
         " puede optimizar aún más el proceso. Estas soluciones tecnológicas aseguran una comunicación ágil y una entrega precisa de los pedidos, mejorando la percepción del servicio.",
@@ -195,7 +195,7 @@ const articuloRestauranteAutoservicio = {
       partes: [
         "Un área claramente marcada y organizada es fundamental para que los clientes recojan sus pedidos una vez estén listos y sean llamados mediante los ",
         {
-          texto: "localizadores para restaurantes",
+          texto: "Localizadores para restaurantes",
           href: "https://landing-tecnologiaplus-nextjs.vercel.app/localizadores",
         },
         " o avisador de pedido. Este espacio debe estar diseñado para garantizar que los clientes encuentren fácilmente sus alimentos, minimizando la confusión o el caos en el área de retiro.",
@@ -205,7 +205,7 @@ const articuloRestauranteAutoservicio = {
       tipo: "texto-enriquecido",
       partes: [
         "Incorporar ",
-        { texto: "localizadores para restaurantes", bold: true },
+        { texto: "Localizadores para restaurantes", bold: true },
         " en este proceso no solo mejora la logística, sino que también agiliza el servicio, brindando una experiencia más fluida y satisfactoria. Además, el uso de ",
         { texto: "calificadores de servicio", bold: true },
         " puede ayudarte a obtener retroalimentación directa sobre la organización y eficacia del área de retiro, permitiendo realizar mejoras constantes.",
@@ -250,7 +250,7 @@ const articuloRestauranteAutoservicio = {
       partes: [
         "En resumen, un restaurante autoservicio exitoso se distingue por su atención al cliente y por la implementación de herramientas que optimicen la experiencia gastronómica. Desde ",
         {
-          texto: "localizadores para restaurantes",
+          texto: "Localizadores para restaurantes",
           href: "https://landing-tecnologiaplus-nextjs.vercel.app/localizadores",
         },
         " (que notifican a los clientes cuando sus pedidos están listos), ",
@@ -266,7 +266,7 @@ const articuloRestauranteAutoservicio = {
       partes: [
         "Recuerda que en Tecnología Plus entendemos las necesidades de los restaurantes autoservicio y ofrecemos soluciones tecnológicas diseñadas para mejorar la eficiencia y satisfacción del cliente. Con nuestros ",
         {
-          texto: "localizadores para restaurantes",
+          texto: "Localizadores para restaurantes",
           href: "https://landing-tecnologiaplus-nextjs.vercel.app/localizadores",
         },
         " y ",

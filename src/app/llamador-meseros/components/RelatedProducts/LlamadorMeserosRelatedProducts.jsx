@@ -10,8 +10,8 @@ import style from "./LlamadorMeserosRelatedProducts.module.scss";
 function LlamadorMeserosRelatedProducts({ titleClassName = "" }) {
   const products = [
     {
-      name: "Localizadores para Restaurantes",
-      description: "Lleva tu autoservicio a otro nivel",
+      name: "Localizadores para restaurantes",
+      description: "Lleva tu autoservicio a otro nivel.",
       img: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741708165/NUEVA_etp9mi.webp",
       sold: "4225 vendidos",
       link: "https://landing-tecnologiaplus-nextjs.vercel.app/localizadores",

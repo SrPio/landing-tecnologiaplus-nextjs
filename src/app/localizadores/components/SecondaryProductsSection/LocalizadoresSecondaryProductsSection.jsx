@@ -57,7 +57,7 @@ function LocalizadoresSecondaryProductsSection() {
       </section>
       <section className={`${style.products__section} ${style.video__section}`}>
         <div className={style.products__container}>
-          <h2>Veamos funcionar nuestros Localizadores para Restaurantes</h2>
+          <h2>Veamos funcionar nuestros Localizadores para restaurantes</h2>
           <div
             className={`${style.products__card__container} ${style.video__container}`}
           >

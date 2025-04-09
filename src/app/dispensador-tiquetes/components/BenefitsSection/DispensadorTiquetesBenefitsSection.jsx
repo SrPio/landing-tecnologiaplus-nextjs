@@ -16,9 +16,9 @@ function DispensadorTiquetesBenefitsSection() {
             alt="icono de agilidad en turnos"
           />
           <div>
-            Control total de los turnos
+            Control total de los turnos.
             <br />
-            <span>permite a tu equipo ofrecer mejor servicio</span>
+            <span>Permite a tu equipo ofrecer mejor servicio.</span>
           </div>
         </li>
         <li>
@@ -28,11 +28,9 @@ function DispensadorTiquetesBenefitsSection() {
             alt="icono de reloj y dinero"
           />
           <div>
-            Elimina filas:
+            Elimina filas evitando largas esperas
             <br />
-            <span>
-              evitando largas esperas y mejorando la organización del servicio.
-            </span>
+            <span>y mejorando la organización del servicio.</span>
           </div>
         </li>
         <li>
@@ -42,9 +40,9 @@ function DispensadorTiquetesBenefitsSection() {
             alt="icono de tipos de cara feliz"
           />
           <div>
-            Mejor experiencia de servicio:
+            Mejor experiencia de servicio
             <br />
-            <span>porque tus clientes lo merecen</span>
+            <span>porque tus clientes lo merecen.</span>
           </div>
         </li>
       </ul>

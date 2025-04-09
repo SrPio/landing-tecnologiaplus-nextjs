@@ -30,7 +30,7 @@ function TurnosBenefitsSection() {
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349967/Icono_2_2x-8_q5lixj_n0jsyy.webp"
             alt="icono de ejemplo numérico de ticket blanco"
           />
-          Múltiples estilos de numeración. Opción de fabricar segun la
+          Múltiples estilos de numeración. Opción de fabricar según la
           necesidad.
         </li>
       </ul>

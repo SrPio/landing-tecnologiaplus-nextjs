@@ -41,7 +41,7 @@ function MobileProductGallery() {
       </div>
 
       <div className={styles.container__titles}>
-        <h1>LOCALIZADORES PARA RESTAURANTES CIR-C2</h1>
+        <h1>Localizadores para restaurantes CIR-C2</h1>
         <p>Ideal para autoservicio, sin temor de perder el turno.</p>
       </div>
 
@@ -67,7 +67,7 @@ function MobileProductGallery() {
       {/* Información del producto */}
       <div className={styles.container__info__products}>
         <p>
-          Los localizadores para restaurantes Cir C2 mantienen las ventajas del
+          Los Localizadores para restaurantes Cir C2 mantienen las ventajas del
           modelo Rec V3 y además funciona con un control separado de los
           localizadores.Ideal para locales de comida que entregan el localizador
           en un punto distinto al de llamado.

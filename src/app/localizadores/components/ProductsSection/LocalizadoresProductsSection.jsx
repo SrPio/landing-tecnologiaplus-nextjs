@@ -38,7 +38,7 @@ function LocalizadoresProductsSection() {
         también en el sector salud y otros sectores que buscan facilitar la
         entrega de pedidos o el llamado de turnos. Con modelos que se ajustan
         segun la necesidad, es una solución escalable que se ajusta segun el
-        crecimiento de los negocios, los localizadores para restaurantes de
+        crecimiento de los negocios, los Localizadores para restaurantes de
         Tecnología Plus son la herramienta perfecta para transformar la
         experiencia de atención al cliente.
       </p>

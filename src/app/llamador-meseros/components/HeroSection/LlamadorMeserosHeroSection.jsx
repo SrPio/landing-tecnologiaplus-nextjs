@@ -18,14 +18,14 @@ function LlamadorMeserosHeroSection({
           loading="lazy"
           className={styles.hero__img}
           src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742225589/Imagen_portada_4x-8_1_z9hiby.webp"
-          alt="Reloj receptor de llamador de meseros"
+          alt="llamador de personal junto al reloj receptor"
         />
 
         <img
           loading="lazy"
           className={styles.hero__img__mobile}
           src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743017344/4_4x-8_nlf2cd.webp"
-          alt="Reloj receptor de llamador de meseros"
+          alt="llamador de personal junto al reloj receptor"
         />
 
         <div className={styles.hero__text}>

@@ -19,7 +19,7 @@ function TurnosHeroSection({
             loading="lazy"
             className={styles.hero__img}
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743018206/5_4x-8_1_v0uhtd.webp"
-            alt="imagen de rollos para impresora"
+            alt="Rollos para impresora térmica personalizados"
           />
           <div className={styles.hero__text}>
             <h1>Numeración clara</h1>

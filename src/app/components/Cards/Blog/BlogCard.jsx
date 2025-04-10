@@ -69,17 +69,17 @@ const BlogCard = ({
             <div className={style.social__icons}>
               <img
                 src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738944989/instagram_2x-8_bflzuj.webp"
-                alt="Instagram"
+                alt="Icono de Instagram"
                 className={style.social__icon}
               />
               <img
                 src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738944985/facebook_2x-8_sy9pch.webp"
-                alt="Facebook"
+                alt="Icono de Facebook"
                 className={style.social__icon}
               />
               <img
                 src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738944987/wpp_2x-8_tsgorp.webp"
-                alt="Whatsapp"
+                alt="Icono de WhatsApp"
                 className={style.social__icon}
               />
             </div>

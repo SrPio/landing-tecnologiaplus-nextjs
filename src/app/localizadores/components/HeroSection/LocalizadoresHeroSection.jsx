@@ -18,7 +18,7 @@ function LocalizadoresHeroSection({
           loading="lazy"
           className={styles.hero__img}
           src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742225417/Imagen_portada_4x-8_dfrjjg.webp"
-          alt="Localizadores para restaurantes junto a su base de carga"
+          alt="Localizadores para clientes"
         />
 
         <div className={styles.hero__text}>

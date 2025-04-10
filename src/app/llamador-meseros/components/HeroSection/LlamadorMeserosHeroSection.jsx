@@ -34,7 +34,7 @@ function LlamadorMeserosHeroSection({
             <br />
             Un solo toque evita largas esperas.
           </h1>
-          <p>Innovador y sin ruidos para facilitar el llamado de meseros.</p>
+          <p>Silencioso y de largo alcance.</p>
           {boton ? (
             <a className={styles.hero__btn} href={boton.href}>
               {boton.text}
@@ -44,7 +44,7 @@ function LlamadorMeserosHeroSection({
 
         <div className={styles.hero__text__mobile}>
           <h1>Llamador de Meseros: Un solo toque evita largas esperas.</h1>
-          <p>Innovador y sin ruidos para facilitar el llamado de meseros.</p>
+          <p>Silencioso y de largo alcance.</p>
           {boton ? (
             <a className={styles.hero__btn} href={boton.href}>
               {boton.text}

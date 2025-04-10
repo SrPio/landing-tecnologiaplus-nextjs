@@ -7,25 +7,25 @@ function LlamadorMeserosProductsSection() {
         <img
           loading="lazy"
           src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738694397/Group_8_og4pea.webp"
-          alt="Imagen de brazalete del mesero"
+          alt="Reloj receptor de llamados para meseros"
           className={style.img__desktop}
         />
         <img
           loading="lazy"
           src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743022988/11_4x-8_1_sftupq.webp"
-          alt="Imagen de brazalete del mesero"
+          alt="Reloj receptor de llamados para meseros"
           className={style.img__mobile}
         />
         <img
           loading="lazy"
           src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738694396/Group_9_yutx7u.webp"
-          alt="Imagen de llamador de meseros"
+          alt="Hablador de mesa junto al botón para llamar al mesero"
           className={style.img__desktop}
         />
         <img
           loading="lazy"
           src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743022991/12_4x-8_km9kam.webp"
-          alt="Imagen de llamador de meseros"
+          alt="Hablador de mesa junto al botón para llamar al mesero"
           className={style.img__mobile}
         />
       </div>

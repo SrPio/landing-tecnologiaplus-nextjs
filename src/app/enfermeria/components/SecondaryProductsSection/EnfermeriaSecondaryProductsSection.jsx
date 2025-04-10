@@ -117,7 +117,7 @@ function EnfermeriaSecondaryProductsSection() {
             <img
               loading="lazy"
               src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738685534/reloj_receptor_digital_2x-8_adfgxj.webp"
-              alt="Reloj receptor de llamados para enfermeras"
+              alt="Reloj de llamado al personal"
             />
             <h3>Reloj receptor de llamados</h3>
             <p>2276 vendidos</p>

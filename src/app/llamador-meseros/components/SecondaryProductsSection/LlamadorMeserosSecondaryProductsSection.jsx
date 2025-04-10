@@ -27,7 +27,7 @@ function LlamadorMeserosSecondaryProductsSection() {
               <img
                 loading="lazy"
                 src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742395037/Boto%CC%81n_3_teclas_4x-8_buaiyg.webp"
-                alt="imagen de Llamador V2N de 3 teclas"
+                alt="Llamador de meseros V2N de 3 teclas"
               />
             </div>
             <div className={style.card}>
@@ -48,7 +48,7 @@ function LlamadorMeserosSecondaryProductsSection() {
               <img
                 loading="lazy"
                 src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738694394/2_2x-8_1_yojp4b.webp"
-                alt="imagen de Llamador V2B"
+                alt="Llamador de meseros V2B"
               />
             </div>
             <div className={style.card}>
@@ -69,7 +69,7 @@ function LlamadorMeserosSecondaryProductsSection() {
               <img
                 loading="lazy"
                 src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738694393/3_2x-8_igijiu.webp"
-                alt="imagen de Hablador para mesa"
+                alt="Hablador de mesa"
               />
             </div>
             <div className={style.card}>
@@ -90,7 +90,7 @@ function LlamadorMeserosSecondaryProductsSection() {
               <img
                 loading="lazy"
                 src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738694391/4_2x-8_mioq3p.webp"
-                alt="imagen de Control numérico"
+                alt="Control numérico"
               />
             </div>
           </div>
@@ -100,7 +100,7 @@ function LlamadorMeserosSecondaryProductsSection() {
               <img
                 loading="lazy"
                 src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738685534/reloj_receptor_digital_2x-8_adfgxj.webp"
-                alt="Reloj receptor de llamados para enfermeras"
+                alt=" Reloj de llamado al personal"
               />
               <h3>Reloj receptor de llamados</h3>
               <p>2276 vendidos</p>
@@ -132,7 +132,7 @@ function LlamadorMeserosSecondaryProductsSection() {
               <img
                 loading="lazy"
                 src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738694391/6_llamados_2x-8_wppkb6.webp"
-                alt="imagen del Pantalla de 6 llamados"
+                alt="Pantalla para turnos de 6 llamados"
               />
               <h3>Pantalla T6 de 6 llamados</h3>
               <p>942 vendidos</p>

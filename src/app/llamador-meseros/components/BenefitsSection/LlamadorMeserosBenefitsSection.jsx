@@ -18,7 +18,7 @@ function LlamadorMeserosBenefitsSection() {
             <img
               loading="lazy"
               src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743024065/15_4x-8_xfnlus.webp"
-              alt="icono de alerta"
+              alt="Icono de notificación"
             />
             Empleados más alertas.
           </li>

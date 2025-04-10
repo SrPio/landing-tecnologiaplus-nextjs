@@ -28,9 +28,8 @@ export default function SliderHero({ botonesPorHero = {} }) {
         slidesPerView={1}
         pagination={{ clickable: true }}
         navigation={true}
-        autoplay={{ delay: 5000, disableOnInteraction: false }}
         loop={true}
-        modules={[Navigation, Pagination, Autoplay]}
+        modules={[Navigation, Pagination]}
       >
         <SwiperSlide>
           <TurnoMasterHeroSection

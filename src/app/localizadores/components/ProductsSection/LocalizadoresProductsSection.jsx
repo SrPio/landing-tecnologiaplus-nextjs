@@ -9,12 +9,12 @@ function LocalizadoresProductsSection() {
         <img
           loading="lazy"
           src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738851946/rec_v3_2x-8_ehwkxo.webp"
-          alt="Imagen de localizador Rec V3"
+          alt="Localizador para clientes Rec V3"
         />
         <img
           loading="lazy"
           src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738851948/cir_c2_2x-8_icgmcm.webp"
-          alt="Imagen de localizador Cir C2"
+          alt="Localizador para restaurantes Cir C2"
         />
       </div>
       <input

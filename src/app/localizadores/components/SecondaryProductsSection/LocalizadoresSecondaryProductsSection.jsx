@@ -22,7 +22,7 @@ function LocalizadoresSecondaryProductsSection() {
               <img
                 loading="lazy"
                 src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738855044/rec_v3_1_2x-8_ctzrqp.webp"
-                alt="imagen de localizador REC V3"
+                alt="Localizador para restaurantes REC V3 junto a su base de carga"
               />
             </div>
             <img
@@ -45,7 +45,7 @@ function LocalizadoresSecondaryProductsSection() {
               <img
                 loading="lazy"
                 src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738851948/cir_c2_1_2x-8_lb8ufb.webp"
-                alt="imagen de localizador CIR C2"
+                alt="Localizadores para clientes CIR C2 junto a su base de carga"
               />
             </div>
           </div>

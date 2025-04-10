@@ -32,7 +32,7 @@ function LlamadorMeserosHeroSection({
           <h1>
             Llamador de Meseros:
             <br />
-            Un solo toque evita largas esperas
+            Un solo toque evita largas esperas.
           </h1>
           <p>Innovador y sin ruidos para facilitar el llamado de meseros.</p>
           {boton ? (
@@ -43,7 +43,7 @@ function LlamadorMeserosHeroSection({
         </div>
 
         <div className={styles.hero__text__mobile}>
-          <h1>Llamador de Meseros: Un solo toque evita largas esperas</h1>
+          <h1>Llamador de Meseros: Un solo toque evita largas esperas.</h1>
           <p>Innovador y sin ruidos para facilitar el llamado de meseros.</p>
           {boton ? (
             <a className={styles.hero__btn} href={boton.href}>

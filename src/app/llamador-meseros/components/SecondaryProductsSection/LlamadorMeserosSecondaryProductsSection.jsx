@@ -5,7 +5,7 @@ function LlamadorMeserosSecondaryProductsSection() {
     <>
       <section className={`${style.products__section} ${style.bg__section}`}>
         <div className={style.products__container}>
-          <h2>Botón para llamar mesero</h2>
+          <h2>Botón para llamar al mesero</h2>
           <div
             className={`${style.products__card__container} ${style.products__card__container__variant}`}
           >
@@ -153,7 +153,7 @@ function LlamadorMeserosSecondaryProductsSection() {
             className={`${style.products__card__container} ${style.video__container}`}
           >
             <div className={style.card__video}>
-              <p>Así de fácil es mejorar la atención en tu restaurante</p>
+              <p>Así de fácil es mejorar la atención en tu restaurante.</p>
               <iframe
                 width="560"
                 height="315"
@@ -168,7 +168,7 @@ function LlamadorMeserosSecondaryProductsSection() {
 
             <div className={style.card__video}>
               <p>
-                Personal mas alerta, facilita el llamado de meseros desde la
+                Personal más alerta, facilita el llamado de meseros desde la
                 cocina.
               </p>
               <iframe
@@ -184,7 +184,7 @@ function LlamadorMeserosSecondaryProductsSection() {
             </div>
 
             <div className={style.card__video}>
-              <p>Un solo toque y el número de mesa aparece en pantalla</p>
+              <p>Un solo toque y el número de mesa aparece en pantalla.</p>
               <iframe
                 width="560"
                 height="315"

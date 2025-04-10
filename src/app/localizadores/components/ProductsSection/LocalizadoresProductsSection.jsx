@@ -32,7 +32,7 @@ function LocalizadoresProductsSection() {
         plazoletas de comidas, mejorando la atención y resaltando su marca a
         través de publicidad impresa en los localizadores de clientes.
         Fabricados con material termoplástico resistente a golpes, garantizan
-        durabilidad y fiabilidad para mas años de vida util. Además contamos con
+        durabilidad y fiabilidad para más años de vida util. Además contamos con
         los repuestos para ofrecer servicio técnico y así prolongar su vida
         util. Su versatilidad los hace ideales no solo para restaurantes, sino
         también en el sector salud y otros sectores que buscan facilitar la

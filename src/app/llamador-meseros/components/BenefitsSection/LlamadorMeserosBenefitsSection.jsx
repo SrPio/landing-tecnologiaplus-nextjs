@@ -20,7 +20,7 @@ function LlamadorMeserosBenefitsSection() {
               src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743024065/15_4x-8_xfnlus.webp"
               alt="icono de alerta"
             />
-            Empleados mas alertas
+            Empleados más alertas.
           </li>
           <li>
             <img
@@ -28,7 +28,7 @@ function LlamadorMeserosBenefitsSection() {
               src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743024067/14_4x-8_fmpqd8.webp"
               alt="icono de reducción de tiempo"
             />
-            Reduce tiempos de espera
+            Reduce tiempos de espera.
           </li>
           <li>
             <img
@@ -38,7 +38,7 @@ function LlamadorMeserosBenefitsSection() {
             />
             Aumenta ventas al facilitar
             <br />
-            pedidos adicionales
+            pedidos adicionales.
           </li>
         </ul>
       </section>

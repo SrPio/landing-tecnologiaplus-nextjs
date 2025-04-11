@@ -43,7 +43,10 @@ function MobileProductGallery() {
 
       <div className={styles.container__titles}>
         <h1>TURNERO T3 - MÓDULO TURNO</h1>
-        <p>Llama los turnos en orden y muestra el numero de ventanilla</p>
+        <p>
+          Resalta tu marca, llama los turnos en orden y muestra el numero de
+          ventanilla
+        </p>
       </div>
 
       {/* Carrusel principal */}
@@ -68,9 +71,10 @@ function MobileProductGallery() {
       {/* Información del producto */}
       <div className={styles.container__info__products}>
         <p>
-          Turnero manual, la solución secilla para organizar el llamado de los
-          turnos, ideal para salas de espera con varias ventanillas de atención
-          al publico. Mejora la organización y evita confusiones en la atención.
+          Turnero digital con espacio para el logo, permite llamar turnos en
+          orden y mostrar el numero de ventanilla libre. ideal para salas de
+          espera con varias ventanillas de atención . Eleva la imagen de tu
+          empresa con una pantalla personalizada.
         </p>
 
         <div className={styles.container__contact__info}>

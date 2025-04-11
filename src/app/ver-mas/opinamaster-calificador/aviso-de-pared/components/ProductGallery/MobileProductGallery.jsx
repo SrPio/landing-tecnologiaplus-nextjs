@@ -40,8 +40,8 @@ function MobileProductGallery() {
       </div>
 
       <div className={styles.container__titles}>
-        <h1>OpinaMaster</h1>
-        <p>Aviso de pared</p>
+        <h1>AVISO DE PARED PARA CALIFICAR SERVICIO</h1>
+        <p>No te quedes sin saber la opinión de tus clientes.</p>
       </div>
 
       {/* Carrusel principal */}
@@ -66,9 +66,10 @@ function MobileProductGallery() {
       {/* Información del producto */}
       <div className={styles.container__info__products}>
         <p>
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-          nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-          volutpat. Ut Wisi enim ad io
+          Diseñado para espacios sin contacto humano, este calificador de
+          servicio para instalar en pared facilita la recolección de opiniones
+          de forma práctica y discreta. Ideal para zonas de baños, áreas de
+          autoservicio, zonas comunes, áreas de coworking y zonas silenciosas.
         </p>
 
         <div className={styles.container__contact__info}>

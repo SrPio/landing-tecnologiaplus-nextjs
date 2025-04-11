@@ -143,7 +143,7 @@ function ProductGallery() {
         <div className={styles.container__info__products}>
           <div className={styles.container__titles}>
             <h1>Turnero Transformer</h1>
-            <p>Para emitir llamados</p>
+            <p>Personalizados según la necesidad.</p>
           </div>
 
           <div className={styles.container__contact__info}>
@@ -158,9 +158,12 @@ function ProductGallery() {
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-            volutpat. Ut Wisi enim ad io
+            El Turnero transformer se fabrica según la necesidad, permite
+            asignar un consecutivo de turnos diferente para cada producto o
+            servicio. Puede funcionar en el sector gastronómico para atender
+            autoservicio o en oficinas donde tienen una fila para cada tipo de
+            servicio. Este tipo de turnero es ideal para negocios que desean
+            mejorar el llamado de turnos sin alterar su forma de trabajar.
           </p>
         </div>
       </div>

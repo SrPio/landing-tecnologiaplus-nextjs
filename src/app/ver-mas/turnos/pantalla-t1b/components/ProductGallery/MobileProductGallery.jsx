@@ -44,7 +44,7 @@ function MobileProductGallery() {
         <h1>
           TURNERO T<span>1</span>-B
         </h1>
-        <p>Para recibir llamados</p>
+        <p>Para salas de espera pequeñas y con poco trafico.</p>
       </div>
 
       {/* Carrusel principal */}
@@ -69,9 +69,10 @@ function MobileProductGallery() {
       {/* Información del producto */}
       <div className={styles.container__info__products}>
         <p>
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-          nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-          volutpat. Ut Wisi enim ad io
+          Turnero T1 Blanca con pantalla digital, es un turnero inalambrico de
+          bajo costo diseñado para zonas de espera pequeñas. Tiene sonido
+          graduable y soporte para uso en pared o en encimeras. Permite llamar
+          turnos en orden y aleatorios facilitando la atención al público.
         </p>
 
         <div className={styles.container__contact__info}>

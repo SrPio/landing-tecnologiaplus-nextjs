@@ -142,8 +142,8 @@ function ProductGallery() {
         {/* Información del producto */}
         <div className={styles.container__info__products}>
           <div className={styles.container__titles}>
-            <h1>OpinaMaster</h1>
-            <p>Calificador de servicios</p>
+            <h1>CALIFICADOR DE SERVICIO</h1>
+            <p>Para crecer con la opinión de tus clientes</p>
           </div>
           <div className={styles.container__contact__info}>
             <a
@@ -156,9 +156,10 @@ function ProductGallery() {
             <h3>¿Tienes preguntas?</h3>
           </div>
           <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-            volutpat. Ut Wisi enim ad io
+            Calificador de servicio al cliente para capturar en un segundo la
+            percepción real de los usuarios. Ademas recibe alertas de
+            calificaciones negativas en tiempo real, ideal para el sector
+            servicios y puntos de atención al cliente.
           </p>
         </div>
       </div>

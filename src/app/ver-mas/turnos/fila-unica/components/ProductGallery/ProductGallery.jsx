@@ -143,7 +143,10 @@ function ProductGallery() {
         <div className={styles.container__info__products}>
           <div className={styles.container__titles}>
             <h1>Turnero fila única - supermercados</h1>
-            <p>Para recibir llamados</p>
+            <p>
+              Una sola fila para agilizar la atención en cajas y mejorar el
+              servicio.
+            </p>
           </div>
           <div className={styles.container__contact__info}>
             <a
@@ -156,9 +159,11 @@ function ProductGallery() {
             <h3>¿Tienes preguntas?</h3>
           </div>
           <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-            volutpat. Ut Wisi enim ad io
+            La Pantalla Fila Única permite organizar a todas las personas en una
+            sola fila, la pantalla muestra el numero de caja o ventanilla que
+            está libre. Este sistema ha ganado popularidad en supermercados y
+            lugares con alta afluencia de personas, ya que mejora el orden,
+            reduce la confusión y agiliza la atención al evitar múltiples filas.
           </p>
         </div>
       </div>

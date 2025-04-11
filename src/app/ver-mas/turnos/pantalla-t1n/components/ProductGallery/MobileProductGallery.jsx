@@ -45,7 +45,7 @@ function MobileProductGallery() {
         <h1>
           Tunero T<span>1</span>-N
         </h1>
-        <p>Para recibir llamados</p>
+        <p>Turnos organizados con identidad de marca</p>
       </div>
 
       {/* Carrusel principal */}
@@ -70,9 +70,12 @@ function MobileProductGallery() {
       {/* Información del producto */}
       <div className={styles.container__info__products}>
         <p>
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-          nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-          volutpat. Ut Wisi enim ad io
+          Turnero digital T1N con pantalla personalizable que permite proyectar
+          la imagen corporativa mientras se hace el llamado de turnos. Uso
+          frecuente en sector salud, gastronomia y oficinas de servicio. Este
+          llamador de turnos es inalambrica y compatible con varias opciones de
+          controles, lo cual permite adaptarse a distintas formas de gestionar
+          filas.
         </p>
 
         <div className={styles.container__contact__info}>

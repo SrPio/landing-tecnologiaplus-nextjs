@@ -42,8 +42,8 @@ function MobileProductGallery() {
       </div>
 
       <div className={styles.container__titles}>
-        <h1>Turnero T3 - Módulo Turno</h1>
-        <p>Para recibir llamados</p>
+        <h1>TURNERO T3 - MÓDULO TURNO</h1>
+        <p>Llama los turnos en orden y muestra el numero de ventanilla</p>
       </div>
 
       {/* Carrusel principal */}
@@ -68,9 +68,9 @@ function MobileProductGallery() {
       {/* Información del producto */}
       <div className={styles.container__info__products}>
         <p>
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-          nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-          volutpat. Ut Wisi enim ad io
+          Turnero manual, la solución secilla para organizar el llamado de los
+          turnos, ideal para salas de espera con varias ventanillas de atención
+          al publico. Mejora la organización y evita confusiones en la atención.
         </p>
 
         <div className={styles.container__contact__info}>

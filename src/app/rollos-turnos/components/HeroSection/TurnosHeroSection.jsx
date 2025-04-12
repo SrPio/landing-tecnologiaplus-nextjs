@@ -18,16 +18,12 @@ function TurnosHeroSection({
           <img
             loading="lazy"
             className={styles.hero__img}
-            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743018206/5_4x-8_1_v0uhtd.webp"
+            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744458412/Nueva_imagen_2x-8_xi5zmr.webp"
             alt="Rollos para impresora térmica personalizados"
           />
           <div className={styles.hero__text}>
-            <h1>Numeración clara</h1>
-            <p>
-              y corte preciso para agilizar
-              <br />
-              la atención de turnos.
-            </p>
+            <h1>Numeración clara y corte preciso</h1>
+            <p>para agilizar la atención de turnos.</p>
             {boton ? (
               <a className={styles.hero__btn} href={boton.href}>
                 {boton.text}

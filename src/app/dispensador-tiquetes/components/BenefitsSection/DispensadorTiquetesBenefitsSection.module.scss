@@ -10,6 +10,13 @@
       font-size: 1.8rem;
       font-weight: 500;
 
+      @include respond-to-max("laptop") {
+        text-wrap: balance;
+        .hide__on__mobile {
+          display: none;
+        }
+      }
+
       > div {
         display: flex;
         flex-direction: column;

@@ -5,18 +5,13 @@ import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import HeroSection from "@/app/rollos-termicos/components/HeroSection/HeroSection";
-import TurnosHeroSection from "@/app/rollos-turnos/components/HeroSection/TurnosHeroSection";
-import TurnoMasterHeroSection from "@/app/turnomaster/components/HeroSection/TurnoMasterHeroSection";
 import Header from "../Header/Header";
 import styles from "./SliderHero.module.scss";
-import DispensadorTiquetesHeroSection from "@/app/dispensador-tiquetes/components/HeroSection/DispensadorTiquetesHeroSection";
-import TurnoExpressHeroSection from "@/app/turnero-turnoexpress/components/HeroSection/TurnoExpressHeroSection";
-import CalificadorHeroSection from "@/app/calificador/components/HeroSection/CalificadorHeroSection";
-import EncuestaVirtualHeroSection from "@/app/encuesta-virtual/components/HeroSection/EncuestaVirtualHeroSection";
-import EnfermeriaHeroSection from "@/app/enfermeria/components/HeroSection/EnfermeriaHeroSection";
-import LlamadorMeserosHeroSection from "@/app/llamador-meseros/components/HeroSection/LlamadorMeserosHeroSection";
-import LocalizadoresHeroSection from "@/app/localizadores/components/HeroSection/LocalizadoresHeroSection";
+import RollosTermicosHeroSection from "./Slides/RollosTermicosHero/RollosTermicosHeroSection";
+import RollosTurnosHeroSection from "./Slides/RollosTurnosHeroSection/RollosTurnosHeroSection";
+import DispensadorTiquetesHeroSection from "./Slides/DispensadorTurnosHeroSection/DispensadorTiquetesHeroSection";
+import TurnoExpressHeroSection from "./Slides/TurneroHeroSection/TurnoExpressHeroSection";
+import CalificadorHeroSection from "./Slides/CalificadorHeroSection/CalificadorHeroSection";
 
 export default function SliderHero({ botonesPorHero = {} }) {
   return (
@@ -32,21 +27,14 @@ export default function SliderHero({ botonesPorHero = {} }) {
         modules={[Navigation, Pagination]}
       >
         <SwiperSlide>
-          <TurnoMasterHeroSection
-            hideHeader={true}
-            backgroundTransparent={true}
-            boton={botonesPorHero.turnoMaster}
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <HeroSection
+          <RollosTermicosHeroSection
             hideHeader={true}
             backgroundTransparent={true}
             boton={botonesPorHero.rollosTermicos}
           />
         </SwiperSlide>
         <SwiperSlide>
-          <TurnosHeroSection
+          <RollosTurnosHeroSection
             hideHeader={true}
             backgroundTransparent={true}
             boton={botonesPorHero.rollosTurnos}
@@ -71,34 +59,6 @@ export default function SliderHero({ botonesPorHero = {} }) {
             hideHeader={true}
             backgroundTransparent={true}
             boton={botonesPorHero.calificador}
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <EncuestaVirtualHeroSection
-            hideHeader={true}
-            backgroundTransparent={true}
-            boton={botonesPorHero.encuestaVirtual}
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <EnfermeriaHeroSection
-            hideHeader={true}
-            backgroundTransparent={true}
-            boton={botonesPorHero.enfermeria}
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <LlamadorMeserosHeroSection
-            hideHeader={true}
-            backgroundTransparent={true}
-            boton={botonesPorHero.llamadorMeseros}
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <LocalizadoresHeroSection
-            hideHeader={true}
-            backgroundTransparent={true}
-            boton={botonesPorHero.localizadores}
           />
         </SwiperSlide>
       </Swiper>

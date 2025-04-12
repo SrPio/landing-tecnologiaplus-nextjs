@@ -24,7 +24,7 @@ function TechnicalSheet() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739998010/icono_7_4x-8_gkqxdl.webp"
-            alt="icono de conectividad y largo alcance"
+            alt="icono de antena"
           />
           <p>
             Largo Alcance, más de <br className={styles.hide__on__mobile} />
@@ -82,7 +82,7 @@ function TechnicalSheet() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740254431/16_4x-8_pcbsng.webp"
-            alt="icono de batería"
+            alt="icono batería"
           />
           <p>
             Duración de la batería: <br className={styles.hide__on__mobile} />

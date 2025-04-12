@@ -9,7 +9,7 @@ function HowItWorks() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740668328/10_4x-8_2_xnbpdt.webp"
-            alt="imagen de paciente presionando botón"
+            alt="paciente presionando botón para llamar a la enfermera"
           />
           <p>
             1. Presiona el botón para <br className={styles.hide__on__mobile} />
@@ -21,7 +21,7 @@ function HowItWorks() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740668328/9_4x-8_1_r2py4s.webp"
-            alt="imagen de enfermera recibiendo llamado"
+            alt="enfermera recibiendo llamado en el reloj receptor"
           />
           <p>
             2. La enfermera recibe el llamado en la{" "}
@@ -33,7 +33,7 @@ function HowItWorks() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740668328/8_4x-8_1_ewxndx.webp"
-            alt="imagen de enfermera atendiendo llamado"
+            alt="enfermera atendiendo llamado del paciente"
           />
           <p>
             3. Se atiende el llamado y presiona{" "}

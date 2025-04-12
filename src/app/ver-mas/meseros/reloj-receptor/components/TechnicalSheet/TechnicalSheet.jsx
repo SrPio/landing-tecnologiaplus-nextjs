@@ -77,7 +77,7 @@ function TechnicalSheet() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739998010/icono_7_4x-8_gkqxdl.webp"
-            alt="icono de conectividad y largo alcance"
+            alt="icono de antena"
           />
           <p>
             Recibe los llamados <br className={styles.hide__on__mobile} />
@@ -88,7 +88,7 @@ function TechnicalSheet() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740172482/7_4x-8_1_ptxtfo.webp"
-            alt="icono de gotas"
+            alt="icono de resistencia al agua"
           />
           <p>
             Resiste derrames <br className={styles.hide__on__mobile} />

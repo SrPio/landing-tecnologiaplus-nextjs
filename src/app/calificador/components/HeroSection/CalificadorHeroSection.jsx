@@ -42,8 +42,15 @@ function CalificadorHeroSection({
           <h1>
             OpinaMaster:
             <br />
-            El calificador de servicio para crecer con la voz de tus clientes.
+            El calificador
+            <br />
+            de servicio
           </h1>
+          <p>
+            para crecer con la voz
+            <br />
+            de tus clientes.
+          </p>
           {boton ? (
             <a className={styles.hero__btn} href={boton.href}>
               {boton.text}

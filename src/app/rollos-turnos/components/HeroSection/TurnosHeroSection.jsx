@@ -42,7 +42,11 @@ function TurnosHeroSection({
               Numeración clara
               <br />y corte preciso
             </h1>
-            <p>para agilizar la atención de turnos.</p>
+            <p>
+              para agilizar la atención
+              <br />
+              de turnos.
+            </p>
             {boton ? (
               <a className={styles.hero__btn} href={boton.href}>
                 {boton.text}

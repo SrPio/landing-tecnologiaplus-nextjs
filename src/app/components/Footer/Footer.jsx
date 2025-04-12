@@ -76,7 +76,7 @@ const Footer = () => {
             <li>
               <img
                 src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349920/colombia_1_mcsiuu_vyabd4.png"
-                alt="Colombia"
+                alt="Bandera de Colombia"
                 loading="lazy"
               />{" "}
               Colombia
@@ -91,7 +91,7 @@ const Footer = () => {
             <li>
               <img
                 src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349923/peru_myylpq_rpvpzb.png"
-                alt="Perú"
+                alt="Bandera del Perú"
                 loading="lazy"
               />{" "}
               Perú

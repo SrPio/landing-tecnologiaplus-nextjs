@@ -53,7 +53,7 @@ function TechnicalSheet() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739392283/ICONO_1_ctsg4n.svg"
-            alt="icono de color blanco"
+            alt="icono de color morado"
           />
           <p>Color: blanco</p>
         </div>

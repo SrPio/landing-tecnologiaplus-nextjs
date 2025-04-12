@@ -50,7 +50,7 @@ function TechnicalSheet() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739998010/icono_7_4x-8_gkqxdl.webp"
-            alt="icono de antena"
+            alt="icono de conectividad y largo alcance"
           />
           <p>
             Recibe llamados de forma <br className={styles.hide__on__mobile} />
@@ -73,13 +73,13 @@ function TechnicalSheet() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740065557/ICONO_1_4x-8_1_xmpmcr.webp"
-            alt="icono de Tecnología Plus"
+            alt="icono Tecnología Plus"
             className={styles.img__desktop}
           />
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740161084/9_4x-8_l5gvik.webp"
-            alt="icono compatibilidad"
+            alt="icono de compatibilidad"
             className={styles.img__mobile}
           />
           <p>

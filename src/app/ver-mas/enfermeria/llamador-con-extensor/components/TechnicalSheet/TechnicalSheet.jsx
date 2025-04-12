@@ -20,7 +20,7 @@ function TechnicalSheet() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739998010/icono_7_4x-8_gkqxdl.webp"
-            alt="icono de antena"
+            alt="icono de conectividad y largo alcance"
           />
           <p>
             Rango: hasta 100m o más <br className={styles.hide__on__mobile} />
@@ -50,7 +50,7 @@ function TechnicalSheet() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739392283/ICONO_1_ctsg4n.svg"
-            alt="icono de color"
+            alt="icono de color morado"
           />
           <p>Color: blanco</p>
         </div>

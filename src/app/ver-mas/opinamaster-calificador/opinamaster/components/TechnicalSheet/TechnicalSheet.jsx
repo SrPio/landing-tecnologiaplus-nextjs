@@ -44,7 +44,7 @@ function TechnicalSheet() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740065557/ICONO_1_4x-8_1_xmpmcr.webp"
-            alt="icono de Tecnología Plus"
+            alt="icono Tecnología Plus"
           />
           <p>Marca</p>
         </div>

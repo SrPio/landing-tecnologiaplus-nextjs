@@ -15,7 +15,7 @@ function TechnicalSheet() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740161084/9_4x-8_l5gvik.webp"
-            alt="icono compatibilidad"
+            alt="icono de compatibilidad"
             className={styles.img__mobile}
           />
           <p>

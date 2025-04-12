@@ -17,7 +17,7 @@ function TechnicalSheet() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739392283/ICONO_1_ctsg4n.svg"
-            alt="icono de color"
+            alt="icono de color morado"
           />
           <p>Color: blanco</p>
         </div>
@@ -25,13 +25,13 @@ function TechnicalSheet() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741558125/8_4x-8_aex4cu.webp"
-            alt="icono de llamadores"
+            alt="icono de llamadores de enfermería"
             className={styles.img__desktop}
           />
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743518103/REMPLAZAR_1_4x-8_1_xi2h5p.webp"
-            alt="icono de llamadores"
+            alt="icono de llamadores de enfermería"
             className={styles.img__mobile}
           />
           <p>
@@ -44,7 +44,7 @@ function TechnicalSheet() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741558126/5_4x-8_utywac.webp"
-            alt="icono de alarma"
+            alt="icono de alarma de luz"
           />
           <p>
             Se cuelga afuera de la <br className={styles.hide__on__mobile} />
@@ -57,7 +57,7 @@ function TechnicalSheet() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739998010/icono_7_4x-8_gkqxdl.webp"
-            alt="icono de antena"
+            alt="icono de conectividad y largo alcance"
           />
           <p>
             Recibe llamados de forma <br className={styles.hide__on__mobile} />{" "}
@@ -71,13 +71,13 @@ function TechnicalSheet() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741558128/9_4x-8_syembx.webp"
-            alt="icono de modo de aviso"
+            alt="icono de modo de aviso en la larma de luz"
             className={styles.img__desktop}
           />
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743518198/REEMPLAZAR_2_4x-8_osa8s3.webp"
-            alt="icono de llamadores"
+            alt="icono de modo de aviso en la larma de luz"
             className={styles.img__mobile}
           />
           <p>

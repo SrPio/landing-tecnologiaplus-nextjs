@@ -36,7 +36,7 @@ function TechnicalSheet() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740161084/9_4x-8_l5gvik.webp"
-            alt="icono compatibilidad"
+            alt="icono de compatibilidad"
           />
           <p>
             Compatible Con <br className={styles.hide__on__mobile} />
@@ -47,7 +47,7 @@ function TechnicalSheet() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739998010/icono_7_4x-8_gkqxdl.webp"
-            alt="icono de antena"
+            alt="icono de conectividad y largo alcance"
           />
           <p>
             Se digita el numero a llarnar{" "}

@@ -22,12 +22,12 @@ function EncuestaVirtualHeroSection({
         />
 
         <div className={styles.hero__text}>
-          <h1>Encuesta virtual:</h1>
-          <p>
-            Detecta los puntos fuertes y
+          <h1>
+            Encuesta virtual:
             <br />
-            como mejorar tu negocio.
-          </p>
+            Detecta los puntos fuertes
+          </h1>
+          <p>y como mejorar tu negocio.</p>
           {boton ? (
             <a className={styles.hero__btn} href={boton.href}>
               {boton.text}

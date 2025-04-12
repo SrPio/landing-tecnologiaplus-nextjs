@@ -30,9 +30,9 @@ function LlamadorMeserosHeroSection({
 
         <div className={styles.hero__text}>
           <h1>
-            Llamador de Meseros:
+            Llamador de Meseros: Un solo
             <br />
-            Un solo toque evita largas esperas.
+            toque evita largas esperas.
           </h1>
           <p>Silencioso y de largo alcance.</p>
           {boton ? (

@@ -43,7 +43,7 @@ const BlogCard = ({
       <div className={style.card__content}>
         <h3
           className={style.card__title}
-          style={{ fontSize: titleFontSize || "1.5rem" }}
+          style={{ fontSize: titleFontSize || "1.3rem" }}
         >
           {title}
         </h3>

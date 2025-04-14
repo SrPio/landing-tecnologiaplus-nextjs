@@ -15,6 +15,7 @@ adipiscing elit, sed diam orem ipsum dol"
           imageSrc="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739206999/1_1_2x-8_vbgthg.png"
           altText="imagen de referencia"
           link="#"
+          hideSocials="true"
         />
 
         <BlogCard
@@ -26,6 +27,7 @@ adipiscing elit, sed diam orem ipsum dol"
           altText="imagen de referencia"
           link="#"
           customClass="custom__style__one"
+          hideSocials="true"
         />
 
         <BlogCard
@@ -36,6 +38,7 @@ adipiscing elit, sed diam orem ipsum dol"
           imageSrc="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739206967/2_1_2x-8_i8zygy.png"
           altText="imagen de referencia"
           link="#"
+          hideSocials="true"
         />
       </div>
       <a

@@ -5,7 +5,7 @@ function LlamadorMeserosSecondaryProductsSection() {
     <>
       <section className={`${style.products__section} ${style.bg__section}`}>
         <div className={style.products__container}>
-          <h2>Botón para llamar al mesero</h2>
+          <h2>Opciones para llamar al mesero</h2>
           <div
             className={`${style.products__card__container} ${style.products__card__container__variant}`}
           >

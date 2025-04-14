@@ -14,7 +14,8 @@
 }
 
 .video__section {
-  video {
+  video,
+  iframe {
     width: 612px;
     height: 344px;
     border-radius: 20px;
@@ -25,7 +26,7 @@
 
     @include respond-to-max("laptop") {
       width: 90vw;
-      height: auto;
+      height: 50vw;
       margin-top: 0;
     }
   }
@@ -48,8 +49,10 @@
 
   .benefits__title {
     font-size: 3rem;
+    display: none;
     @include respond-to-max("laptop") {
       font-size: clamp(16px, 10vw, 80px);
+      display: inline-block;
     }
   }
 

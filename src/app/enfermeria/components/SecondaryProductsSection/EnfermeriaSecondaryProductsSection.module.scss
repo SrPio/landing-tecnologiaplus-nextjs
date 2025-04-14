@@ -141,7 +141,7 @@
           }
 
           h3 {
-            font-size: clamp(12px, 3vw, 22px);
+            font-size: clamp(16px, 4vw, 30px);
             text-align: center;
             line-height: 1.2;
             height: auto;
@@ -149,7 +149,10 @@
           }
 
           &:nth-child(1) h3 {
-            line-height: 1;
+            line-height: 1.2;
+          }
+          &:nth-child(2) h3 {
+            line-height: 1.2;
           }
 
           &:last-child {

@@ -3,13 +3,16 @@ import style from "./VideoSection.module.scss";
 function VideoSection() {
   return (
     <section className={style.video__section}>
-      <video
-        className="w-full h-auto rounded-lg"
-        src="https://res.cloudinary.com/ddqh0mkx9/video/upload/v1743107660/COMPRESS_ANIMACIO%CC%81N_FINAL_COM_AJUSTES_nualz4.mp4"
-        controls
-        preload="none"
-        playsInline
-      />
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/XGGhLks0iVc?si=8v7bSNs0cWdSTcSG"
+        title="YouTube video player"
+        frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerPolicy="strict-origin-when-cross-origin"
+        allowFullScreen
+      ></iframe>
 
       <div className={style.text__container}>
         <h2 className={style.benefits__title}>SOMOS FABRICANTES</h2>

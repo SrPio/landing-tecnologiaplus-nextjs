@@ -163,6 +163,15 @@
           font-size: clamp(16px, 5vw, 30px);
           text-align: center;
         }
+
+        ul {
+          li:nth-child(4) {
+            img {
+              height: 18vw;
+              width: 14vw;
+            }
+          }
+        }
       }
 
       .technical__info:nth-child(2) {

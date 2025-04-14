@@ -18,10 +18,11 @@
     padding-bottom: 400px;
   }
 
-  video {
+  video,
+  iframe {
     z-index: 3;
     width: 40vw;
-    height: auto;
+    height: 22vw;
     /* max-height: 400px; */
     border-radius: 20px;
     -webkit-border-radius: 20px;
@@ -31,6 +32,7 @@
 
     @include respond-to-max("laptop") {
       width: 85vw;
+      height: 50vw;
       order: 2;
 
       margin-top: -5vw;

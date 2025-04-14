@@ -3,7 +3,7 @@ import style from "./LocalizadoresProductsSection.module.scss";
 function LocalizadoresProductsSection() {
   return (
     <section className={style.products__section}>
-      <h2>Más de 1.000 restaurantes usan nuetros localizadores</h2>
+      <h2>Más de 1.000 restaurantes usan nuestros localizadores</h2>
       <p>Elige el avisador de pedidos que mejor se adapte a tu negocio.</p>
       <div className={style.products__container}>
         <img
@@ -28,16 +28,16 @@ function LocalizadoresProductsSection() {
         otros sectores. Con un alcance de más de 200 metros, estos dispositivos
         permiten a los usuarios disfrutar su tiempo sin temor de perder su
         turno, ya que el avisador de pedidos vibra alumbra y suena para avisar
-        cuando el pedido esta listo. Marcas reconocidas los utilizan en sus
+        cuando el pedido está listo. Marcas reconocidas los utilizan en sus
         plazoletas de comidas, mejorando la atención y resaltando su marca a
         través de publicidad impresa en los localizadores de clientes.
         Fabricados con material termoplástico resistente a golpes, garantizan
-        durabilidad y fiabilidad para más años de vida util. Además contamos con
-        los repuestos para ofrecer servicio técnico y así prolongar su vida
-        util. Su versatilidad los hace ideales no solo para restaurantes, sino
+        durabilidad y fiabilidad para más años de vida útil. Además, contamos
+        con los repuestos para ofrecer servicio técnico y así prolongar su vida
+        útil. Su versatilidad los hace ideales no solo para restaurantes, sino
         también en el sector salud y otros sectores que buscan facilitar la
         entrega de pedidos o el llamado de turnos. Con modelos que se ajustan
-        segun la necesidad, es una solución escalable que se ajusta segun el
+        según la necesidad, es una solución escalable que se ajusta según el
         crecimiento de los negocios, los Localizadores para restaurantes de
         Tecnología Plus son la herramienta perfecta para transformar la
         experiencia de atención al cliente.

@@ -25,7 +25,7 @@ function LocalizadoresBenefitsSection() {
           />
           Largo Alcance, más de
           <br />
-          200 metros a la redonda
+          200 metros a la redonda.
         </li>
         <li>
           <img
@@ -34,7 +34,7 @@ function LocalizadoresBenefitsSection() {
             alt="icono de medalla de excelencia"
           />
           Material resistente
-          <br />a golpes y caídas
+          <br />a golpes y caídas.
         </li>
       </ul>
     </section>

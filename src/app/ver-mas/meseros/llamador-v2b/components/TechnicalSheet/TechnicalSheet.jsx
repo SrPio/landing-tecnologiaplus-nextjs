@@ -44,8 +44,8 @@ function TechnicalSheet() {
           />
           <p>
             2 teclas de llamado: <br className={styles.hide__on__mobile} />
-            Llamar <br className={styles.hide__on__mobile} />
-            cancelar (para borrar el llamado{" "}
+            Llamar. <br className={styles.hide__on__mobile} />
+            Cancelar (para borrar el llamado{" "}
             <br className={styles.hide__on__mobile} />
             cuando atienden el cliente)
           </p>

@@ -163,7 +163,7 @@ function ProductGallery() {
           <p>
             Pantalla para visualizar llamados del timbre de mesa. Facilita la
             atención al ser visible por varios meseros al mismo tiempo. Ideal
-            para restaurantes, bares y clubes en areas con menos de 15 mesas.
+            para restaurantes, bares y clubes en áreas con menos de 15 mesas.
           </p>
         </div>
       </div>

@@ -76,7 +76,7 @@ function MobileProductGallery() {
         <p>
           Pantalla para visualizar llamados del timbre hospitalario. Facilita la
           atención al ser visible por varias enfermeras al mismo tiempo. Ideal
-          para hospitales y hogares geriátricos en areas con menos de 15
+          para hospitales y hogares geriátricos en áreas con menos de 15
           pacientes.
         </p>
 

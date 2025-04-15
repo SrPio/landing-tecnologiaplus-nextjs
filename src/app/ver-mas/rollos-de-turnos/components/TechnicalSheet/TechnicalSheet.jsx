@@ -55,7 +55,7 @@ function TechnicalSheet() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740689277/2_4x-8_4_otmwfs.webp"
-            alt="icono de numero"
+            alt="icono números"
           />
           <p>
             Agiliza el llamado de turnos{" "}

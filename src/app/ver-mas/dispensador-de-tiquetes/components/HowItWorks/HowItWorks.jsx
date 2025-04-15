@@ -9,7 +9,7 @@ function HowItWorks() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740689242/8_4x-8_2_twguhd.webp"
-            alt="imagen de usuario tomando turno"
+            alt=" usuario tomando su turno con el dispensador de tiquetes"
           />
           <p>
             1. Usuario toma un número de turno{" "}
@@ -21,7 +21,7 @@ function HowItWorks() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740689241/9_4x-8_2_cldmeo.webp"
-            alt="imagen de usuario esperando ser llamado"
+            alt="usuario esperando ser llamado por una pantalla de turnos"
           />
           <p>2. Usuario espera que lo llamen en la pantalla.</p>
         </div>
@@ -29,7 +29,7 @@ function HowItWorks() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740689243/7_4x-8_1_ek8a7o.webp"
-            alt="imagen de usuario dirigiendose a la ventanilla"
+            alt="usuario siendo atendido de manera correcta y en orden"
           />
           <p>
             3. Cuando llaman el turno, se dirige a la{" "}

@@ -41,7 +41,7 @@ function TurnoMasterProductsSection() {
         />
         <img
           loading="lazy"
-          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742994790/9_4x-8_zejb3t.webp"
+          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738431730/Segun_producto_2x-8_fepwc0.webp"
           alt="Como solicitar el turno de manera presencial"
           className={style.img__mobile}
         />

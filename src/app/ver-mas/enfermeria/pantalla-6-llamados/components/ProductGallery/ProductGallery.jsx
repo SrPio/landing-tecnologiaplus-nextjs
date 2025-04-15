@@ -159,7 +159,7 @@ function ProductGallery() {
 
           <p>
             Pantalla alfanumérica compatible con timbre para enfermos, muestra
-            los números de habitaciones o el area que requiere la atención.
+            los números de habitaciones o el área que requiere la atención.
             Visible para varias enfermeras.
           </p>
         </div>

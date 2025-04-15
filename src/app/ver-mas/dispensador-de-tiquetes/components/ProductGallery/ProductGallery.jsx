@@ -198,7 +198,7 @@ function ProductGallery() {
           <div className={styles.container__titles}>
             <h1>DISPENSADOR DE TICKETS</h1>
             <p>
-              ¡Adiós al desorden y las filas! con el dispensador de tiquetes
+              ¡Adiós al desorden y las filas! Con el dispensador de tiquetes
               tipo caracol
             </p>
           </div>
@@ -281,6 +281,10 @@ function ProductGallery() {
               {
                 src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742650043/Frame_1_1_vd55bu.webp",
                 alt: "Imagen 4",
+              },
+              {
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743619582/Frame_1_19_k6f9dp.webp",
+                alt: "Imagen 5",
               },
             ],
           },

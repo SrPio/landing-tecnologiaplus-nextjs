@@ -70,7 +70,7 @@ function MobileProductGallery() {
       <div className={styles.container__info__products}>
         <p>
           Reloj receptor de llamados de enfermería, recibe alertas instantáneas
-          facilitando la atención a los pacientes. Ideal en zonas especificas de
+          facilitando la atención a los pacientes. Ideal en zonas específicas de
           hospitales y hogares geriátricos.
         </p>
 

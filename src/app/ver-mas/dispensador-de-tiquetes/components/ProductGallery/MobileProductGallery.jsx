@@ -85,7 +85,7 @@ function MobileProductGallery() {
       <div className={styles.container__titles}>
         <h1>DISPENSADOR DE TICKETS</h1>
         <p>
-          ¡Adiós al desorden y las filas! con el dispensador de tiquetes tipo
+          ¡Adiós al desorden y las filas! Con el dispensador de tiquetes tipo
           caracol
         </p>
       </div>

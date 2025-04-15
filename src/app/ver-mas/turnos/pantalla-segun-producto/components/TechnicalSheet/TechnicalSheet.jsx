@@ -28,7 +28,7 @@ function TechnicalSheet() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740069836/Recurso_17_4x-8_o84p1k.webp"
-            alt="icono de area de espera y restaurante"
+            alt="icono de área de espera y restaurante"
           />
           <p>
             Tipos de uso: Áreas de <br className={styles.hide__on__mobile} />

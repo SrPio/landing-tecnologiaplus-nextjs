@@ -9,7 +9,7 @@ function HowItWorks() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740507244/13_4x-8_1_ecteza.webp"
-            alt="imagen de persona solicitando asesoría"
+            alt="Asesor ofreciendo el calificador de servicio al usuario"
           />
           <p>
             1. Al finalizar la asesoría el asesor pide{" "}
@@ -21,7 +21,7 @@ function HowItWorks() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740507243/14_4x-8_zhsved.webp"
-            alt="imagen de persona eligiendo calificación"
+            alt="Mano de usuario eligiendo en una pantalla la calificación acorde al servicio que recibio"
           />
           <p>
             2. El cliente elige entre 4{" "}
@@ -33,7 +33,7 @@ function HowItWorks() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740507244/15_4x-8_fcq15o.webp"
-            alt="imagen de persona enviando calificación"
+            alt="Estadistica donde muestra el porcentaje de calificaciones recibidas"
           />
           <p>
             3. La información queda registrada en el{" "}

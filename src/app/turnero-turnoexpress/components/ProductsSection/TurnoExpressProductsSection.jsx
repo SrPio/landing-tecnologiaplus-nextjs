@@ -79,7 +79,7 @@ function TurnoExpressProductsSection() {
             <img
               loading="lazy"
               src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738431730/Segun_producto_2x-8_fepwc0.webp"
-              alt="turneros inalambricos personalizados según producto"
+              alt="turneros inalámbricos personalizados según producto"
             />
             <h3>Turnero Transformer</h3>
             <p>82 vendidos</p>

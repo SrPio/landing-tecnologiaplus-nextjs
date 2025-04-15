@@ -36,7 +36,7 @@ function HowItWorks() {
             alt="imagen de pantalla mostrando el número de turno"
           />
           <p>
-            3. Muestra el numero del turno y el modulo a donde{" "}
+            3. Muestra el número del turno y el módulo a donde{" "}
             <br className={styles.hide__on__mobile} />
             debe dirigirse el cliente.
           </p>

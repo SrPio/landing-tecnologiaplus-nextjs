@@ -9,7 +9,7 @@ function HowItWorks() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740432239/9_4x-8_1_vtqhow.webp"
-            alt="imagen de persona escaneando código QR"
+            alt="Usuario escaneando el aviso de pared para dar su calificación del servicio"
           />
           <p>
             1. El usuario se acerca al aviso para{" "}
@@ -21,7 +21,7 @@ function HowItWorks() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740432238/10_4x-8_1_vco8n7.webp"
-            alt="imagen de persona seleccionando tipo de pregunta"
+            alt="Opción de recomendación por el servicio recibido"
           />
           <p>
             2. Opción amigable con diferentes{" "}
@@ -33,7 +33,7 @@ function HowItWorks() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740432236/11_4x-8_1_cylads.webp"
-            alt="imagen de información registrada en sistema"
+            alt="Estadistica donde muestra el porcentaje de calificaciones recibidas."
           />
           <p>
             3. La información queda registrada en el{" "}

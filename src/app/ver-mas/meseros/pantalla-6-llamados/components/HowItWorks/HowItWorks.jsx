@@ -9,7 +9,7 @@ function HowItWorks() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740186399/13_4x-8_tvckpg.webp"
-            alt="imagen de cliente presionando botón"
+            alt="cliente presiona el llamador botrón para llamar al mesero"
           />
           <p>
             1. El cliente presiona el botón{" "}
@@ -21,7 +21,7 @@ function HowItWorks() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740186399/12_4x-8_tqhx4s.webp"
-            alt="imagen de pantalla mostrando número de mesa"
+            alt="el mesero recibe el llamado en la pantalla de 6 llamados"
           />
           <p>
             2. La pantalla muestra el número{" "}
@@ -33,7 +33,7 @@ function HowItWorks() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740186399/14_4x-8_brlm1s.webp"
-            alt="imagen de mesero atendiendo llamado"
+            alt="el cliente es atendido por el mesero"
           />
           <p>3. El mesero atiende el llamado</p>
         </div>

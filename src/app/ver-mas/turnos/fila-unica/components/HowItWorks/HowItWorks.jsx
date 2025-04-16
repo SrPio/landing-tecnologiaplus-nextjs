@@ -9,7 +9,7 @@ function HowItWorks() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739997885/como_funciona_4x-8_fug49b.webp"
-            alt="imagen de personas esperando su turno"
+            alt="Usarios esperando su turno siendo organizados por un turnero fila unica en un supermercado"
           />
           <p>
             1. El usuario hace la fila y se dirige al{" "}
@@ -21,7 +21,7 @@ function HowItWorks() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739997885/como_funciona_1_4x-8_ikcgrd.webp"
-            alt="imagen de persona atendida en caja"
+            alt="Usuario siendo atendido tras el llamado del turnero"
           />
           <p>
             2. El usuario es atendido en la{" "}
@@ -33,7 +33,7 @@ function HowItWorks() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739997885/como_funciona_2_4x-8_vjoxua.webp"
-            alt="imagen de cajera accionando botón de siguiente turno"
+            alt="Asesor realizando el siguiente llamado en el control"
           />
           <p>
             3. Cada cajera tiene 1 control para{" "}

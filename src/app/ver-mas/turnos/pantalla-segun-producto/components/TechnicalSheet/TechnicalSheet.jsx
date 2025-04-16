@@ -17,7 +17,7 @@ function TechnicalSheet() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739998014/icono_4_4x-8_leto92.webp"
-            alt="icono de 99"
+            alt="icono de registro hasta 99"
           />
           <p>
             Registra hasta 99 turnos <br className={styles.hide__on__mobile} />
@@ -40,7 +40,7 @@ function TechnicalSheet() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739998010/icono_7_4x-8_gkqxdl.webp"
-            alt="icono de conectividad y largo alcance"
+            alt="icono de antena"
           />
           <p>
             Recibe llamados de forma <br className={styles.hide__on__mobile} />

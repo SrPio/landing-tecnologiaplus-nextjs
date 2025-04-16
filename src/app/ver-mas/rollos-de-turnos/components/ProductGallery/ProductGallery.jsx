@@ -26,10 +26,6 @@ function ProductGallery() {
 
   const alternativeImages = [
     {
-      name: "Opciones",
-      url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740762874/16_4x-8_3_iupo2n.webp",
-    },
-    {
       name: "Blanco",
       url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740762870/15_4x-8_5_k9xmxt.webp",
     },
@@ -71,7 +67,7 @@ function ProductGallery() {
     : images[selectedIndex];
   const selectedVariantName = isAlternative
     ? alternativeImages[selectedAltIndex].name
-    : "Opciones";
+    : "Colores";
 
   const handleNextImage = () => {
     if (isAlternative) {
@@ -243,7 +239,7 @@ function ProductGallery() {
           </div>
 
           <p>
-            Rollos de Tickets Numerados para uso en dispensador tipo caracol,
+            Rollos de tickets numerados para uso de Dispensador tipo Caracol,
             elimina las filas y facilita el llamado de turnos de forma ordenada.
             Perfectos para zonas de espera en sector salud y servicios. Producto
             de bajo costo con un alto beneficio.

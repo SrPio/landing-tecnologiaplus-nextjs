@@ -27,23 +27,23 @@ function ProductGallery() {
   const alternativeImages = [
     {
       name: "Blanco",
-      url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740762870/15_4x-8_5_k9xmxt.webp",
+      url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744828999/Frame_1_32_tg1wjk.webp",
     },
     {
       name: "Verde",
-      url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740762870/14_4x-8_4_nzyhjc.webp",
+      url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744828998/Frame_1_31_mxuqgk.webp",
     },
     {
       name: "Rosa",
-      url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740762870/12_4x-8_4_weks32.webp",
+      url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744828998/Frame_1_33_t0xzlo.webp",
     },
     {
       name: "Amarillo",
-      url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740762871/11_4x-8_4_oumbfg.webp",
+      url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744828459/Frame_1_30_rfuvow.webp",
     },
     {
       name: "Azul",
-      url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740762870/13_4x-8_6_uhgkeo.webp",
+      url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744828998/Frame_1_34_trumlj.webp",
     },
   ];
 

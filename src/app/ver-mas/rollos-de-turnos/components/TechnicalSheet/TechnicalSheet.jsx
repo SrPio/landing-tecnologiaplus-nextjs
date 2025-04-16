@@ -9,7 +9,7 @@ function TechnicalSheet() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740762760/2_4x-8_5_k1yidc.webp"
-            alt="icono tiquete"
+            alt="icono tiquete de turnos"
           />
           <p>
             Material: <br className={styles.hide__on__mobile} />
@@ -31,7 +31,7 @@ function TechnicalSheet() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740689274/4_4x-8_3_qytmzj.webp"
-            alt="icono de turnos"
+            alt="icono de ficho para turnos"
           />
           <p>
             Asigna turnos en <br className={styles.hide__on__mobile} />
@@ -55,7 +55,7 @@ function TechnicalSheet() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740689277/2_4x-8_4_otmwfs.webp"
-            alt="icono números"
+            alt="icono de numero"
           />
           <p>
             Agiliza el llamado de turnos{" "}

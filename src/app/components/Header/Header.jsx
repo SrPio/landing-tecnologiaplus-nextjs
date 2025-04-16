@@ -116,6 +116,11 @@ function Header({ customStyles = {} }) {
                 Encuestas de satisfacción
               </a>
             </li>
+            <li>
+              <a href="https://landing-tecnologiaplus-nextjs.vercel.app/turnomaster">
+                Turnomaster
+              </a>
+            </li>
           </ul>
         </div>
 

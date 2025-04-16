@@ -160,7 +160,7 @@ function ProductGallery() {
           </div>
           <p>
             La Pantalla Fila Única permite organizar a todas las personas en una
-            sola fila, la pantalla muestra el numero de caja o ventanilla que
+            sola fila, la pantalla muestra el número de caja o ventanilla que
             está libre. Este sistema ha ganado popularidad en supermercados y
             lugares con alta afluencia de personas, ya que mejora el orden,
             reduce la confusión y agiliza la atención al evitar múltiples filas.

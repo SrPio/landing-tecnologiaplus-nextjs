@@ -35,7 +35,7 @@ function HowItWorks() {
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740076446/como_funciona_4x-8_2_mnetd3.webp"
             alt="imagen de pantalla mostrando el número de turno"
           />
-          <p>3. Muestra el numero del turno.</p>
+          <p>3. Muestra el número del turno.</p>
         </div>
       </div>
     </section>

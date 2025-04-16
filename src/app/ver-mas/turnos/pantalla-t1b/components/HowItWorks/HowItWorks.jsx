@@ -21,7 +21,7 @@ function HowItWorks() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740065235/COMO_FUNCIONA_1_4x-8_1_mnux8l.webp"
-            alt="imagen de persona de caja digitando el numero de turno"
+            alt="imagen de persona de caja digitando el número de turno"
           />
           <p>
             2. Cuando el pedido está listo, digita{" "}

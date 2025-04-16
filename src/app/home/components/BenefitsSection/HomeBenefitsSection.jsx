@@ -31,7 +31,7 @@ function HomeBenefitsSection() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738944983/icono_2_2x-8_3_zzggy6.webp"
-            alt="icono numero 10 con signo de +"
+            alt="icono número 10 con signo de +"
           />
           Más de 10 años ayudando a las
           <br />

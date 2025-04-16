@@ -159,7 +159,7 @@ function ProductGallery() {
           <p>
             Los Localizadores para restaurantes Cir C2 mantienen las ventajas
             del modelo Rec V3 y además funciona con un control separado de los
-            localizadores.Ideal para locales de comida que entregan el
+            localizadores. Ideal para locales de comida que entregan el
             localizador en un punto distinto al de llamado.
           </p>
         </div>

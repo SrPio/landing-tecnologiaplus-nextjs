@@ -50,7 +50,7 @@ function TechnicalSheet() {
             alt="icono de antena"
           />
           <p>
-            Se digita el numero a llarnar{" "}
+            Se digita el número a llarnar{" "}
             <br className={styles.hide__on__mobile} />y se envía una señal
             inalámbrica.
           </p>

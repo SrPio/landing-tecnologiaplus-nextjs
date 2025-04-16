@@ -157,7 +157,7 @@ function ProductGallery() {
           </div>
           <p>
             Calificador de servicio al cliente para capturar en un segundo la
-            percepción real de los usuarios. Ademas recibe alertas de
+            percepción real de los usuarios. Además recibe alertas de
             calificaciones negativas en tiempo real, ideal para el sector
             servicios y puntos de atención al cliente.
           </p>

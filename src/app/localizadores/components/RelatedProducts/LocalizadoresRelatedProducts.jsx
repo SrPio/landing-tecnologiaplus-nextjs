@@ -12,7 +12,7 @@ function LocalizadoresRelatedProducts({ titleClassName = "" }) {
     {
       name: "Rollos de turnos",
       description: "Organiza y mejora el servicio.",
-      img: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741637848/Frame_1_56_hvhf2o.webp",
+      img: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744462120/10-8_dvra0q.webp",
       sold: "8527 vendidos",
       link: "https://landing-tecnologiaplus-nextjs.vercel.app/rollos-turnos",
     },

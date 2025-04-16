@@ -21,7 +21,7 @@ function ProductGallery() {
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741641334/Frame_1_68_bol78g.webp",
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741641726/Frame_1_72_e6dexg.webp",
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741641439/Frame_1_69_o8kcmz.webp",
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743517289/Frame_1_12_wy1i9i.webp",
+    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743774378/6_4x-8_2_ytxttp.webp",
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741641512/Frame_1_70_b26kjg.webp",
   ];
 
@@ -145,7 +145,7 @@ function ProductGallery() {
           <div className={styles.container__titles}>
             <h1>TURNERO T3 - MÓDULO TURNO</h1>
             <p>
-              Resalta tu marca, llama los turnos en orden y muestra el numero de
+              Resalta tu marca, llama los turnos en orden y muestra el número de
               ventanilla
             </p>
           </div>
@@ -163,8 +163,8 @@ function ProductGallery() {
 
           <p>
             Turnero digital con espacio para el logo, permite llamar turnos en
-            orden y mostrar el numero de ventanilla libre. ideal para salas de
-            espera con varias ventanillas de atención . Eleva la imagen de tu
+            orden y mostrar el número de ventanilla libre. Ideal para salas de
+            espera con varias ventanillas de atención. Eleva la imagen de tu
             empresa con una pantalla personalizada.
           </p>
         </div>
@@ -195,7 +195,7 @@ function ProductGallery() {
                 alt: "Imagen 4",
               },
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743517289/Frame_1_12_wy1i9i.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743774378/6_4x-8_2_ytxttp.webp",
                 alt: "Imagen 5",
               },
               {

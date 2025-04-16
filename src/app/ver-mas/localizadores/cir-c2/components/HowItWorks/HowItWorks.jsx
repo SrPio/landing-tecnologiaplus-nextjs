@@ -21,7 +21,7 @@ function HowItWorks() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741011138/13_4x-8_7_jzd9lo.webp"
-            alt="imagen de persona digitando numero de localizador en control"
+            alt="imagen de persona digitando número de localizador en control"
           />
           <p>
             2. Cuando el pedido está listo, digita{" "}

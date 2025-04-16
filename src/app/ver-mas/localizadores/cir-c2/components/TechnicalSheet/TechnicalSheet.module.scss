@@ -66,6 +66,11 @@
         flex: 0 0 auto;
       }
 
+      .item:nth-child(1) img {
+        height: 55px;
+        width: 40px;
+      }
+
       .item:nth-child(5) {
         margin-left: 0;
       }

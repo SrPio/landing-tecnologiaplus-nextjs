@@ -9,7 +9,7 @@ function HowItWorks() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740252975/20_4x-8_onglwi.webp"
-            alt="imagen de cliente presionando botón"
+            alt="El cliente oprime el llamador de meseros"
           />
           <p>
             1. El cliente presiona el botón{" "}
@@ -21,7 +21,7 @@ function HowItWorks() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740252975/19_4x-8_jto88r.webp"
-            alt="imagen de mesero recibiendo alerta en reloj"
+            alt="El mesero recibe el llamado por medio del reloj receptor ya que alumbra y vibra"
           />
           <p>
             2. El mesero recibe una alerta en el reloj, este vibra y le{" "}
@@ -33,7 +33,7 @@ function HowItWorks() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740252975/21_4x-8_hzykoo.webp"
-            alt="imagen de mesero atendiendo llamado"
+            alt="El cliente es atendido por el mesero tras recibir el llamado"
           />
           <p>
             3. El mesero atiende el llamado y presiona{" "}

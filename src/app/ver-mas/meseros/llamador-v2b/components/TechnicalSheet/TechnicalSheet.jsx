@@ -54,7 +54,7 @@ function TechnicalSheet() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740254426/11_4x-8_tfnsac.webp"
-            alt="icono caseta"
+            alt="icono de cabina"
           />
           <p>
             Uso: en lugares para llamar{" "}

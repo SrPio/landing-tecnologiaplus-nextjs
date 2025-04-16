@@ -160,7 +160,7 @@ function MobileProductGallery() {
       <div className={styles.container__info__products}>
         <p>
           Llamador de meseros inalámbrico para reducir tiempo de espera, ideal
-          en restaurantes, hoteles, bares, cafes y salas vip. La mejor forma de
+          en restaurantes, hoteles, bares, cafés y salas VIP. La mejor forma de
           agilizar el servicio.
         </p>
         <div className={styles.container__contact__info}>

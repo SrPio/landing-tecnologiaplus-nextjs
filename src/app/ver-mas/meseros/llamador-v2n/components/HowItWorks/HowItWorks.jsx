@@ -12,9 +12,9 @@ function HowItWorks() {
             alt="imagen de cliente presionando botón"
           />
           <p>
-            1. El cliente presiona el botón{" "}
+            1. El cliente presiona el botón: tecla{" "}
             <br className={styles.hide__on__mobile} />
-            para llamar al mesero
+            para llamar al mesero o tecla para pagar
           </p>
         </div>
         <div className={styles.item}>

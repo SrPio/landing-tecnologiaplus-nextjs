@@ -15,15 +15,13 @@ function EnfermeriaHeroSection({
       {!hideHeader && <Header />}
       <div className={styles.hero__content}>
         <img
-          loading="lazy"
           className={styles.hero__img__desktop}
           src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738685528/Imagen_principal_2x-8_1_cnekrr.webp"
           alt="Llamado de enfermería presionando un botón"
         />
         <img
-          loading="lazy"
           className={styles.hero__img__mobile}
-          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739198779/Recurso_32_2x-8_ifuwuz.webp"
+          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744780774/Recurso_32_2x-8_ifuwuz_1_hawdh1.webp"
           alt="Botón para pacientes extensor EX1"
         />
 

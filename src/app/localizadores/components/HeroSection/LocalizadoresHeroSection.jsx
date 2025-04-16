@@ -15,9 +15,13 @@ function LocalizadoresHeroSection({
       {!hideHeader && <Header />}
       <div className={styles.hero__content}>
         <img
-          loading="lazy"
-          className={styles.hero__img}
-          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742225417/Imagen_portada_4x-8_dfrjjg.webp"
+          className={styles.hero__img__desktop}
+          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744781254/Imagen_portada_4x-8_dfrjjg_1_1_lvtv17.webp"
+          alt="Localizadores para clientes"
+        />
+        <img
+          className={styles.hero__img__mobile}
+          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744781156/Imagen_portada_4x-8_dfrjjg_1_cg4eew.webp"
           alt="Localizadores para clientes"
         />
 

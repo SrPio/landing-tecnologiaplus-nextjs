@@ -15,15 +15,13 @@ function TurnoMasterHeroSection({
       {!hideHeader && <Header />}
       <div className={styles.hero__content}>
         <img
-          loading="lazy"
           className={styles.hero__img}
           src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738860875/imagen_ppal_2x-8_1_cpkvb2.webp"
           alt="Software de feedback de clientes con pantalla de turnos"
         />
         <img
-          loading="lazy"
           className={styles.hero__img__mobile}
-          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743016309/3_4x-8_1_lidcip.webp"
+          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744780172/3_4x-8_1_lidcip_1_bysyyz.webp"
           alt="Software de feedback de clientes con pantalla de turnos"
         />
 

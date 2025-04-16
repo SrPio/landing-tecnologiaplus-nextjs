@@ -11,10 +11,15 @@
     align-items: center;
     justify-content: center;
     height: calc(100% - 8rem);
-    .hero__img {
+    .hero__img,
+    .hero__img__desktop {
       height: 60%;
       max-width: 600px;
       object-fit: contain;
+    }
+
+    .hero__img__mobile {
+      display: none;
     }
 
     .hero__text {
@@ -73,9 +78,15 @@
     .hero__content {
       display: flex;
       flex-direction: column;
-      .hero__img {
+      .hero__img,
+      .hero__img__mobile {
         width: 80vw;
         height: auto;
+        display: block;
+      }
+
+      .hero__img__desktop {
+        display: none;
       }
 
       .hero__text {

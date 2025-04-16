@@ -15,9 +15,13 @@ function DispensadorTiquetesHeroSection({
       {!hideHeader && <Header />}
       <div className={styles.hero__content}>
         <img
-          loading="lazy"
-          className={styles.hero__img}
+          className={styles.hero__img__desktop}
           src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738424725/Imagen_banner_2x-8_qd3lwx.webp"
+          alt="Dispensador de tiquetes rojo"
+        />
+        <img
+          className={styles.hero__img__mobile}
+          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744772161/Imagen_banner_2x-8_qd3lwx_1_mbxtiv.webp"
           alt="Dispensador de tiquetes rojo"
         />
 

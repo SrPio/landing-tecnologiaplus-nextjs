@@ -15,9 +15,13 @@ function HeroSection({
       {!hideHeader && <Header />}
       <div className={styles.hero__content}>
         <img
-          loading="lazy"
-          className={styles.hero__img}
+          className={styles.hero__img__desktop}
           src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349924/tiuyfgrjwlmhj4gdzrtm_lybcwl.webp"
+          alt="Rollos de papel térmico"
+        />
+        <img
+          className={styles.hero__img__mobile}
+          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744771350/tiuyfgrjwlmhj4gdzrtm_lybcwl_1_alshzc.webp"
           alt="Rollos de papel térmico"
         />
 

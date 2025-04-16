@@ -3,7 +3,8 @@
 
 .hero {
   .hero__content {
-    .hero__img {
+    .hero__img,
+    .hero__img__desktop {
       height: 80%;
 
       @include respond-to-max("laptop") {
@@ -11,6 +12,10 @@
         height: auto;
         max-width: 500px;
       }
+    }
+
+    .hero__img__mobile {
+      display: none;
     }
 
     .hero__text {
@@ -71,6 +76,9 @@
 @include respond-to-max("laptop") {
   .hero {
     .hero__content {
+      .hero__img__mobile {
+        display: block;
+      }
       .hero__text {
         display: none;
         h1 {

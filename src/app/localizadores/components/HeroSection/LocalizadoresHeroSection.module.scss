@@ -3,12 +3,24 @@
 
 .hero {
   .hero__content {
-    .hero__img {
+    .hero__img,
+    .hero__img__desktop {
       height: 75vh;
       max-width: none;
       @include respond-to-max("laptop") {
         height: auto;
         width: 90vw;
+        max-width: 500px;
+      }
+    }
+
+    .hero__img__mobile {
+      display: none;
+
+      @include respond-to-max("laptop") {
+        display: block;
+        width: 80vw;
+        height: auto;
         max-width: 500px;
       }
     }

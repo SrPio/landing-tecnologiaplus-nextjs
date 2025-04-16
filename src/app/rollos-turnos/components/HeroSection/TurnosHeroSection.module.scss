@@ -18,11 +18,16 @@
       }
     }
 
-    .hero__img {
+    .hero__img,
+    .hero__img__desktop {
       width: 60%;
       height: auto;
       max-height: 500px;
       max-width: 1000px;
+    }
+
+    .hero__img__mobile {
+      display: none;
     }
 
     .hero__text {
@@ -108,10 +113,16 @@
     .hero__content .central__container {
       display: flex;
       flex-direction: column;
-      .hero__img {
+      .hero__img,
+      .hero__img__mobile {
+        display: block;
         width: 80vw;
         height: auto;
         max-width: 500px;
+      }
+
+      .hero__img__desktop {
+        display: none;
       }
 
       .hero__text {

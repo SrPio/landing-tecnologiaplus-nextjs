@@ -15,16 +15,14 @@ function LlamadorMeserosHeroSection({
       {!hideHeader && <Header />}
       <div className={styles.hero__content}>
         <img
-          loading="lazy"
           className={styles.hero__img}
           src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742225589/Imagen_portada_4x-8_1_z9hiby.webp"
           alt="llamador de personal junto al reloj receptor"
         />
 
         <img
-          loading="lazy"
           className={styles.hero__img__mobile}
-          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743017344/4_4x-8_nlf2cd.webp"
+          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744780947/4_4x-8_nlf2cd_1_dih39x.webp"
           alt="llamador de personal junto al reloj receptor"
         />
 

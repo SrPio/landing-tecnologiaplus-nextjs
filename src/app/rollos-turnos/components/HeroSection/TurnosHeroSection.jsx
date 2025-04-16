@@ -16,9 +16,13 @@ function TurnosHeroSection({
       <div className={styles.hero__content}>
         <div className={styles.central__container}>
           <img
-            loading="lazy"
-            className={styles.hero__img}
+            className={styles.hero__img__desktop}
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744458412/Nueva_imagen_2x-8_xi5zmr.webp"
+            alt="Rollos para impresora térmica personalizados"
+          />
+          <img
+            className={styles.hero__img__mobile}
+            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744771845/Nueva_imagen_2x-8_xi5zmr_1_s7c2qb.webp"
             alt="Rollos para impresora térmica personalizados"
           />
           <div className={styles.hero__text}>

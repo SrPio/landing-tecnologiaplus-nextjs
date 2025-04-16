@@ -15,9 +15,13 @@ function CalificadorHeroSection({
       {!hideHeader && <Header />}
       <div className={styles.hero__content}>
         <img
-          loading="lazy"
-          className={styles.hero__img}
+          className={styles.hero__img__desktop}
           src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738596299/Imagen_principal_2x-8_xvqvel.webp"
+          alt="Calificador de Servicio"
+        />
+        <img
+          className={styles.hero__img__mobile}
+          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744779706/Imagen_principal_2x-8_xvqvel_1_kllsuz.webp"
           alt="Calificador de Servicio"
         />
 

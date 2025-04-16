@@ -17,7 +17,7 @@ function TechnicalSheet() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739998014/icono_4_4x-8_leto92.webp"
-            alt="icono de registro hasta 99"
+            alt="icono de 99"
           />
           <p>Registra hasta 99</p>
         </div>
@@ -25,7 +25,7 @@ function TechnicalSheet() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739998007/icono_2_4x-8_q91g57.webp"
-            alt="icono de dos iconos visibles"
+            alt="icono de 05"
           />
           <p>
             Dos dígitos visibles <br className={styles.hide__on__mobile} />
@@ -47,7 +47,7 @@ function TechnicalSheet() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739998010/icono_7_4x-8_gkqxdl.webp"
-            alt="icono de antena"
+            alt="icono de conectividad y largo alcance"
           />
           <p>
             La comunicación con <br className={styles.hide__on__mobile} />

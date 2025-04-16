@@ -12,6 +12,7 @@ import RollosTurnosHeroSection from "./Slides/RollosTurnosHeroSection/RollosTurn
 import DispensadorTiquetesHeroSection from "./Slides/DispensadorTurnosHeroSection/DispensadorTiquetesHeroSection";
 import TurnoExpressHeroSection from "./Slides/TurneroHeroSection/TurnoExpressHeroSection";
 import CalificadorHeroSection from "./Slides/CalificadorHeroSection/CalificadorHeroSection";
+import EncuestaVirtualHeroSection from "./Slides/EncuestaVirtualHeroSection/EncuestaVirtualHeroSection";
 
 export default function SliderHero({ botonesPorHero = {} }) {
   return (
@@ -59,6 +60,13 @@ export default function SliderHero({ botonesPorHero = {} }) {
             hideHeader={true}
             backgroundTransparent={true}
             boton={botonesPorHero.calificador}
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <EncuestaVirtualHeroSection
+            hideHeader={true}
+            backgroundTransparent={true}
+            boton={botonesPorHero.encuestaVirtual}
           />
         </SwiperSlide>
       </Swiper>

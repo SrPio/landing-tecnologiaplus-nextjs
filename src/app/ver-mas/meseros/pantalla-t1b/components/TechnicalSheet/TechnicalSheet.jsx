@@ -60,7 +60,7 @@ function TechnicalSheet() {
             alt="icono de cabina"
           />
           <p>
-            uso: espacios para llamar <br className={styles.hide__on__mobile} />
+            Uso: espacios para llamar <br className={styles.hide__on__mobile} />
             meseros o empleados.
           </p>
         </div>

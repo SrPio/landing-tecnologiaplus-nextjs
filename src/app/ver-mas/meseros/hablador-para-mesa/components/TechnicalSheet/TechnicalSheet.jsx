@@ -50,7 +50,7 @@ function TechnicalSheet() {
             alt="icono de mesa"
           />
           <p>
-            para ponerlo <br className={styles.hide__on__mobile} />
+            Para ponerlo <br className={styles.hide__on__mobile} />
             sobre las mesas
           </p>
         </div>

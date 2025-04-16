@@ -14,11 +14,12 @@ import { FaWhatsapp } from "react-icons/fa";
 import classNames from "classnames";
 
 const images = [
-  "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741637848/Frame_1_56_hvhf2o.webp",
+  "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744821670/Frame_1_29_ulkwdl.webp",
   "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741637817/Frame_1_57_fsalbd.webp",
   "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741638118/Frame_1_58_r0vivt.webp",
   "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740762871/10_4x-8_4_zewff6.webp",
   "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743540143/Frame_1_13_xvglmm.webp",
+  "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743562353/Frame_1_10_amnnfc.webp",
 ];
 
 const alternativeImages = [

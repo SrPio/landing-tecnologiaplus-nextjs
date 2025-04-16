@@ -17,10 +17,11 @@ import useDisableRightClick from "../../../../../../hooks/useDisableRightClick";
 function ProductGallery() {
   const [isOpen, setIsOpen] = useState(false);
   const images = [
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741637848/Frame_1_56_hvhf2o.webp",
+    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744821670/Frame_1_29_ulkwdl.webp",
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741637817/Frame_1_57_fsalbd.webp",
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741638118/Frame_1_58_r0vivt.webp",
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740762871/10_4x-8_4_zewff6.webp",
+    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743562353/Frame_1_10_amnnfc.webp",
   ];
 
   const alternativeImages = [
@@ -259,7 +260,7 @@ function ProductGallery() {
             label: "Galería",
             images: [
               {
-                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741637848/Frame_1_56_hvhf2o.webp",
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744821670/Frame_1_29_ulkwdl.webp",
                 alt: "Imagen 1",
               },
               {
@@ -273,6 +274,10 @@ function ProductGallery() {
               {
                 src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740762871/10_4x-8_4_zewff6.webp",
                 alt: "Imagen 4",
+              },
+              {
+                src: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743562353/Frame_1_10_amnnfc.webp",
+                alt: "Imagen de medidas",
               },
             ],
           },

@@ -50,7 +50,7 @@ function TechnicalSheet() {
             alt="icono de conectividad y largo alcance"
           />
           <p>
-            Se digita el número a llarnar{" "}
+            Se digita el número a llamar{" "}
             <br className={styles.hide__on__mobile} />y se envía una señal
             inalámbrica.
           </p>

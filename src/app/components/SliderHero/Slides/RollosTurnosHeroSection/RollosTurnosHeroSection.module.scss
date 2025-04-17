@@ -6,5 +6,11 @@
     .hero__img {
       max-width: 620px;
     }
+
+    .hero__img__mobile {
+      @include respond-to-max("laptop") {
+        width: 75vw;
+      }
+    }
   }
 }

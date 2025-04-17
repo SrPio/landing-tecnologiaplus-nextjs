@@ -19,6 +19,11 @@ function RollosTermicosHeroSection({
           src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744462120/11-8_rp5mms.webp"
           alt="Rollos de papel térmico"
         />
+        <img
+          className={styles.hero__img__mobile}
+          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744861534/11-8_1_hruyob.webp"
+          alt="Rollos de papel térmico"
+        />
 
         <div className={styles.hero__text}>
           <h1>Rollos térmicos</h1>

@@ -19,6 +19,11 @@ function TurnoMasterHeroSection({
           src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744462122/4-8_lwh7js.webp"
           alt="Software de feedback de clientes con pantalla de turnos"
         />
+        <img
+          className={styles.hero__img__mobile}
+          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744861623/Group_7_zgut7e.webp"
+          alt="Software de feedback de clientes con pantalla de turnos"
+        />
 
         <div className={styles.hero__text}>
           <img
@@ -26,7 +31,10 @@ function TurnoMasterHeroSection({
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744830279/3-8_jxkhuf.webp"
             alt="Logo TurnoMaster"
           />
-          <h1>Sistema de turnos de espera</h1>
+          <h1>
+            Sistema de turnos
+            <span className={styles.hide__mobile}> de espera</span>
+          </h1>
           <p>Digitaliza tu sala de espera fácilmente.</p>
 
           {boton ? (

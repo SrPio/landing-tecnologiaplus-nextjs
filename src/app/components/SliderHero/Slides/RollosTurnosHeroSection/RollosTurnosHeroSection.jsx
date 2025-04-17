@@ -19,6 +19,11 @@ function RollosTurnosHeroSection({
           src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744462120/10-8_dvra0q.webp"
           alt="Rollos para impresora térmica personalizados"
         />
+        <img
+          className={styles.hero__img__mobile}
+          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744861625/Group_6_gqyr8k.webp"
+          alt="Rollos para impresora térmica personalizados"
+        />
         <div className={styles.hero__text}>
           <img
             className={styles.hero__img__logo}
@@ -27,24 +32,6 @@ function RollosTurnosHeroSection({
           />
           <h1>Rollos de turnos</h1>
           <p>Para dispensador tipo caracol.</p>
-          {boton ? (
-            <a className={styles.hero__btn} href={boton.href}>
-              {boton.text}
-            </a>
-          ) : (
-            <a
-              className={styles.hero__btn}
-              href="http://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/rollos-de-turnos"
-            >
-              Ver más
-            </a>
-          )}
-        </div>
-        <div className={styles.hero__text__mobile}>
-          <h1>
-            Numeración clara y corte preciso para agilizar la atención de
-            turnos.
-          </h1>
           {boton ? (
             <a className={styles.hero__btn} href={boton.href}>
               {boton.text}

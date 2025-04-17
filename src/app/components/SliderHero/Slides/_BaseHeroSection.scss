@@ -107,7 +107,8 @@
     .hero__content {
       display: flex;
       flex-direction: column;
-      height: calc(100vh - 70px);
+      justify-content: center;
+      height: calc(100vh - 90px);
 
       .hero__img {
         width: 80vw;
@@ -126,7 +127,8 @@
         display: flex;
       }
 
-      .hero__img__logo__turnoMaster {
+      .hero__img__logo__turnoMaster,
+      .hero__img__logo {
         display: none;
       }
 
@@ -163,7 +165,7 @@
           font-weight: 700;
           text-wrap: balance;
           line-height: 1.1;
-          padding: 0 20vw;
+          padding: 0 15vw;
           margin-top: 1rem;
         }
 

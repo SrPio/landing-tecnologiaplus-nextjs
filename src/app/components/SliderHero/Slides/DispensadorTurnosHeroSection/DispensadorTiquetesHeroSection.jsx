@@ -19,6 +19,11 @@ function DispensadorTiquetesHeroSection({
           src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744462120/9-8_dmswza.webp"
           alt="Dispensador de tiquetes rojo"
         />
+        <img
+          className={styles.hero__img__mobile}
+          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744861625/Group_3_nkqa3u.webp"
+          alt="Dispensador de tiquetes rojo"
+        />
 
         <div className={styles.hero__text}>
           <img

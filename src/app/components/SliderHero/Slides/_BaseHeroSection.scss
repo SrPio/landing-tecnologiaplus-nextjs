@@ -108,8 +108,8 @@
       display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: 1fr 1fr;
+      grid-template-rows: 45% 55%;
       justify-items: center;
-      /* padding-top: 5vw; */
       height: calc(100vh - 90px);
 
       .hero__img {

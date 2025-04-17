@@ -105,9 +105,11 @@
 @include respond-to-max("laptop") {
   .hero {
     .hero__content {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr;
+      justify-items: center;
+      /* padding-top: 5vw; */
       height: calc(100vh - 90px);
 
       .hero__img {
@@ -128,12 +130,13 @@
       }
 
       .hero__img__logo__turnoMaster,
-      .hero__img__logo {
+      .hero__img__logo,
+      .hero__img__logo__cuidamaster {
         display: none;
       }
 
       .hero__text {
-        display: none;
+        align-self: start;
 
         margin: 0.5rem 15px 0;
         display: flex;
@@ -160,12 +163,12 @@
         }
 
         p {
-          font-size: clamp(16px, 5vw, 80px);
+          font-size: clamp(16px, 5.5vw, 80px);
           text-align: center;
           font-weight: 700;
           text-wrap: balance;
           line-height: 1.1;
-          padding: 0 15vw;
+          padding: 0 10vw;
           margin-top: 1rem;
         }
 

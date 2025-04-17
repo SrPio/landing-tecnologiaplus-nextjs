@@ -32,17 +32,38 @@ export default function SliderHero({ botonesPorHero = {} }) {
         modules={[Navigation, Pagination]}
       >
         <SwiperSlide>
-          <RollosTermicosHeroSection
+          <LocalizadoresHeroSection
             hideHeader={true}
             backgroundTransparent={true}
-            boton={botonesPorHero.rollosTermicos}
+            boton={botonesPorHero.localizadores}
           />
         </SwiperSlide>
         <SwiperSlide>
-          <RollosTurnosHeroSection
+          <LlamadorMeserosHeroSection
             hideHeader={true}
             backgroundTransparent={true}
-            boton={botonesPorHero.rollosTurnos}
+            boton={botonesPorHero.llamadorMeseros}
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <EnfermeriaHeroSection
+            hideHeader={true}
+            backgroundTransparent={true}
+            boton={botonesPorHero.enfermeria}
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <TurnoMasterHeroSection
+            hideHeader={true}
+            backgroundTransparent={true}
+            boton={botonesPorHero.turnoMaster}
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <TurnoExpressHeroSection
+            hideHeader={true}
+            backgroundTransparent={true}
+            boton={botonesPorHero.turnoExpress}
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -53,10 +74,17 @@ export default function SliderHero({ botonesPorHero = {} }) {
           />
         </SwiperSlide>
         <SwiperSlide>
-          <TurnoExpressHeroSection
+          <RollosTurnosHeroSection
             hideHeader={true}
             backgroundTransparent={true}
-            boton={botonesPorHero.turnoExpress}
+            boton={botonesPorHero.rollosTurnos}
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <RollosTermicosHeroSection
+            hideHeader={true}
+            backgroundTransparent={true}
+            boton={botonesPorHero.rollosTermicos}
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -71,34 +99,6 @@ export default function SliderHero({ botonesPorHero = {} }) {
             hideHeader={true}
             backgroundTransparent={true}
             boton={botonesPorHero.encuestaVirtual}
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <TurnoMasterHeroSection
-            hideHeader={true}
-            backgroundTransparent={true}
-            boton={botonesPorHero.turnoMaster}
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <EnfermeriaHeroSection
-            hideHeader={true}
-            backgroundTransparent={true}
-            boton={botonesPorHero.enfermeria}
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <LlamadorMeserosHeroSection
-            hideHeader={true}
-            backgroundTransparent={true}
-            boton={botonesPorHero.llamadorMeseros}
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <LocalizadoresHeroSection
-            hideHeader={true}
-            backgroundTransparent={true}
-            boton={botonesPorHero.localizadores}
           />
         </SwiperSlide>
       </Swiper>

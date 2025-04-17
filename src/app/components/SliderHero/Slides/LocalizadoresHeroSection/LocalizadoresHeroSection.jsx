@@ -21,7 +21,7 @@ function LocalizadoresHeroSection({
         />
         <img
           className={styles.hero__img__mobile}
-          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744781156/Imagen_portada_4x-8_dfrjjg_1_cg4eew.webp"
+          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744861573/12_1-8_1_x1xwix.webp"
           alt="Localizadores para clientes"
         />
 

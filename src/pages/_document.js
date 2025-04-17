@@ -16,7 +16,9 @@ export default function Document() {
         {/* Additional performance optimization headers */}
         <meta httpEquiv="X-DNS-Prefetch-Control" content="on" />
         <link rel="preconnect" href="https://res.cloudinary.com" crossOrigin="anonymous" />
+        <link rel="dns-prefetch" href="https://res.cloudinary.com" />
         <link rel="preconnect" href="https://img.youtube.com" crossOrigin="anonymous" />
+        <link rel="dns-prefetch" href="https://img.youtube.com" />
         
         {/* PWA support */}
         <meta name="application-name" content="Tecnología Plus" />

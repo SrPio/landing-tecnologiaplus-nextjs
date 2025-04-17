@@ -27,6 +27,17 @@ export default function SliderHero({ botonesPorHero = {} }) {
 
   useEffect(() => {
     setIsClient(true);
+    
+    // Preload the LCP image
+    const preloadImage = new Image();
+    preloadImage.src = "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744462120/12_1-8_o5nq6u.webp";
+    
+    // Add preload link for critical images
+    const preloadLink = document.createElement('link');
+    preloadLink.rel = 'preload';
+    preloadLink.as = 'image';
+    preloadLink.href = "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744462120/12_1-8_o5nq6u.webp";
+    document.head.appendChild(preloadLink);
   }, []);
 
   return (
@@ -40,8 +51,8 @@ export default function SliderHero({ botonesPorHero = {} }) {
           pagination={{ clickable: true }}
           navigation={true}
           loop={true}
-          preloadImages={false}
-          lazy={{ loadPrevNext: true, loadPrevNextAmount: 1 }}
+          preloadImages={true}
+          lazy={{ loadPrevNext: true, loadPrevNextAmount: 2, checkInView: true }}
           modules={[Navigation, Pagination, Autoplay, A11y]}
           autoplay={{
             delay: 5000,
@@ -51,6 +62,7 @@ export default function SliderHero({ botonesPorHero = {} }) {
           a11y={{
             prevSlideMessage: 'Diapositiva anterior',
             nextSlideMessage: 'Siguiente diapositiva',
+            paginationBulletMessage: 'Ir a la diapositiva {{index}}',
           }}
         >
           <SwiperSlide>
@@ -58,6 +70,7 @@ export default function SliderHero({ botonesPorHero = {} }) {
               hideHeader={true}
               backgroundTransparent={true}
               boton={botonesPorHero.localizadores}
+              priority={true}
             />
           </SwiperSlide>
           <SwiperSlide>

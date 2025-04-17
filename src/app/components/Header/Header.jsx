@@ -158,7 +158,7 @@ function Header({ customStyles = {} }) {
         >
           Contacto
         </a>
-        <a href="#">
+        <a href="#" aria-label="Buscar en el sitio">
           <FaSearch
             className={`${styles.search__icon} ${
               customStyles.searchIcon || ""
@@ -168,17 +168,27 @@ function Header({ customStyles = {} }) {
         <a
           href="tel:+573164682034"
           className={`${styles.phone__btn} ${customStyles.phoneBtn || ""}`}
+          aria-label="Llamar al teléfono 316 468 2034"
         >
           <HiPhone
             className={`${styles.phone__icon} ${customStyles.phoneIcon || ""}`}
           />
-          316 468 2034
+          316 468 2034
         </a>
         <div
           className={`${styles.menu__icon} ${menuOpen ? styles.open : ""} ${
             customStyles.menuIcon || ""
           }`}
           onClick={toggleMenu}
+          role="button"
+          tabIndex="0"
+          aria-label={menuOpen ? "Cerrar menú" : "Abrir menú"}
+          aria-expanded={menuOpen}
+          onKeyDown={(e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+              toggleMenu();
+            }
+          }}
         >
           <span></span>
           <span></span>

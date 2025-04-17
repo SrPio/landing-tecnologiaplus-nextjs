@@ -17,12 +17,18 @@ const Footer = () => {
                 href="https://www.instagram.com/tecnologiapluscolombia/"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Visitar nuestro perfil de Instagram"
               >
                 <FiInstagram />
               </a>
             </li>
             <li>
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a 
+                href="#" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                aria-label="Visitar nuestro perfil de TikTok"
+              >
                 <FaTiktok />
               </a>
             </li>
@@ -31,6 +37,7 @@ const Footer = () => {
                 href="https://www.facebook.com/tecnologiapluscolombia"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Visitar nuestra página de Facebook"
               >
                 <FaFacebookF />
               </a>
@@ -40,6 +47,7 @@ const Footer = () => {
                 href="https://www.youtube.com/channel/UCPho92vfQwC24X8Y3eI8Dvg"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Visitar nuestro canal de YouTube"
               >
                 <FaYoutube />
               </a>
@@ -52,17 +60,17 @@ const Footer = () => {
           <h3>Contacto</h3>
           <ul>
             <li>
-              <a href="mailto:ventas@tecnologiaplus.com">
+              <a href="mailto:ventas@tecnologiaplus.com" aria-label="Enviar correo a ventas@tecnologiaplus.com">
                 <MdOutlineEmail /> ventas@tecnologiaplus.com
               </a>
             </li>
             <li>
-              <a href="tel:+573164682034">
-                <HiPhone /> (+57) 316 468 20 34
+              <a href="tel:+573164682034" aria-label="Llamar al teléfono 316 468 20 34">
+                <HiPhone /> (+57) 316 468 20 34
               </a>
             </li>
             <li>
-              <a href="tel:+573227347971">
+              <a href="tel:+573227347971" aria-label="Llamar al teléfono 322 734 79 71">
                 <HiPhone /> (+57) 322 734 79 71
               </a>
             </li>
@@ -78,10 +86,12 @@ const Footer = () => {
                 src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349920/colombia_1_mcsiuu_vyabd4.png"
                 alt="Bandera de Colombia"
                 loading="lazy"
+                width="20"
+                height="15"
               />{" "}
               Colombia
             </li>
-            <li>Bogotá, Cra 19 # 82-85 oficina 401.</li>
+            <li>Bogotá, Cra 19 # 82-85 oficina 401.</li>
             <li>Medellín • El Poblado edificio Oceanía.</li>
             <li>Cobertura nacional</li>
           </ul>
@@ -93,6 +103,8 @@ const Footer = () => {
                 src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349923/peru_myylpq_rpvpzb.png"
                 alt="Bandera del Perú"
                 loading="lazy"
+                width="20"
+                height="15"
               />{" "}
               Perú
             </li>
@@ -108,6 +120,8 @@ const Footer = () => {
           src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738350028/Tplus_en_blanco_2x-8_uokdmv_zoykmd.webp"
           alt="Logo de Tecnología Plus"
           loading="lazy"
+          width="400"
+          height="110"
         />
       </div>
     </footer>

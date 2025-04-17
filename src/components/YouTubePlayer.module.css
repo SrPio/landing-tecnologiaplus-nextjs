@@ -97,44 +97,49 @@
 }
 
 .consentButton {
-  background-color: #ff0000;
+  background-color: #e00000;
   color: white;
   border: none;
-  padding: 10px 20px;
+  padding: 15px 25px;
   border-radius: 4px;
   font-weight: bold;
   cursor: pointer;
   margin-top: 10px;
+  font-size: 1.1rem;
   transition: background-color 0.3s, transform 0.2s;
+  min-width: 200px;
+  min-height: 48px;
 }
 
 .consentButton:hover {
-  background-color: #cc0000;
+  background-color: #c00000;
   transform: translateY(-2px);
 }
 
 .consentButton:focus {
-  outline: 2px solid #ffffff;
+  outline: 3px solid #ffffff;
   outline-offset: 2px;
 }
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .consentMessage {
-    padding: 15px;
+    padding: 18px;
     max-width: 90%;
   }
   
   .consentMessage h3 {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
   
   .consentMessage p {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
   
   .consentButton {
-    padding: 8px 16px;
-    font-size: 0.9rem;
+    padding: 12px 20px;
+    font-size: 1rem;
+    min-width: 180px;
+    min-height: 48px;
   }
 } 

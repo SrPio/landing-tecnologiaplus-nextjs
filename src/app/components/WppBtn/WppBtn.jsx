@@ -8,6 +8,7 @@ function WppBtn() {
       target="_blank"
       rel="noreferrer"
       className={style.wpp__btn}
+      aria-label="Contactarnos por WhatsApp"
     >
       <FaWhatsapp />
     </a>

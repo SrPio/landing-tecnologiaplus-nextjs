@@ -1,9 +1,9 @@
-# *
+# Allow all crawlers
 User-agent: *
 Allow: /
 
 # Host
-Host: https://landing-tecnologiaplus-nextjs.vercel.app/
+Host: https://landing-tecnologiaplus-nextjs.vercel.app
 
 # Sitemaps
 Sitemap: https://landing-tecnologiaplus-nextjs.vercel.app/sitemap.xml

@@ -34,6 +34,32 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
+        
+        {/* Script to add dimensions to images that don't have them (client-side fix for CLS) */}
+        {process.env.NODE_ENV === 'production' && (
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                // Fix CLS issues by adding dimensions to images without width/height
+                window.addEventListener('DOMContentLoaded', function() {
+                  const images = document.querySelectorAll('img:not([width]):not([height])');
+                  images.forEach(img => {
+                    // Set default dimensions to reduce CLS
+                    if (!img.hasAttribute('width')) {
+                      img.setAttribute('width', '300');
+                    }
+                    if (!img.hasAttribute('height')) {
+                      img.setAttribute('height', '200');
+                    }
+                    
+                    // Set aspect ratio to prevent layout shifts
+                    img.style.aspectRatio = img.width + ' / ' + img.height;
+                  });
+                });
+              `,
+            }}
+          />
+        )}
       </body>
     </Html>
   );

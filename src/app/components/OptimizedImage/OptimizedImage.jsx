@@ -20,7 +20,7 @@ const OptimizedImage = ({
   ...props
 }) => {
   const [imgSrc, setImgSrc] = useState(src);
-  const isCloudinary = src.includes('res.cloudinary.com');
+  const isCloudinary = src && src.includes && src.includes('res.cloudinary.com');
   
   // Get optimized version of image if it's from Cloudinary (auto-format, quality optimization)
   useEffect(() => {
@@ -33,17 +33,26 @@ const OptimizedImage = ({
     }
   }, [src, isCloudinary]);
 
+  // Enforce width and height to prevent layout shifts
+  if (!width || !height) {
+    console.warn(`Image ${alt || 'unnamed'} is missing width or height attributes. This can cause layout shifts.`);
+  }
+
+  // Default dimensions to help avoid CLS for missing values
+  const imgWidth = width || 300;
+  const imgHeight = height || 200;
+
   return (
     <img
       src={imgSrc}
-      alt={alt}
-      width={width}
-      height={height}
+      alt={alt || ''}
+      width={imgWidth}
+      height={imgHeight}
       className={`${styles.optimizedImage} ${className || ''}`}
       loading={priority ? "eager" : loading}
       fetchPriority={priority ? "high" : "auto"}
       sizes={sizes}
-      style={style}
+      style={{ ...style, aspectRatio: `${imgWidth} / ${imgHeight}` }}
       onError={() => setImgSrc(src)} // Fallback to original source if optimization fails
       {...props}
     />

@@ -8,20 +8,26 @@
 
   /* Personalizar los puntitos de paginación */
   :global(.swiper-pagination) {
-    bottom: 150px !important; // Ajusta este valor según lo necesites
+    bottom: 150px !important;
+    @include respond-to-max("laptop") {
+      bottom: 90px !important;
+    }
   }
   :global(.swiper-pagination-bullet) {
     width: 12px;
     height: 12px;
-    background-color: rgba(255, 255, 255, 0.6); // Color blanco con opacidad
+    background-color: rgba(255, 255, 255, 0.6);
     margin: 0 5px;
     transition: all 0.3s ease;
     top: -25px;
+    @include respond-to-max("laptop") {
+      width: 9px;
+      height: 9px;
+    }
   }
 
   :global(.swiper-pagination-bullet-active) {
-    background-color: #ffffff; // Color blanco sólido
-    /* transform: scale(1.3); */ // Aumenta un poco el tamaño del punto activo
+    background-color: #ffffff;
   }
 
   /* Personalizar las flechas */

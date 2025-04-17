@@ -17,7 +17,13 @@ function CalificadorHeroSection({
         <img
           loading="lazy"
           className={styles.hero__img}
-          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744462121/5-8_hkjqqp.webp"
+          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744863300/5-8_hkjqqp.webp"
+          alt="Calificador de Servicio"
+        />
+        <img
+          loading="lazy"
+          className={styles.hero__img__mobile}
+          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744861627/Group_1_kihtey.webp"
           alt="Calificador de Servicio"
         />
 
@@ -29,19 +35,6 @@ function CalificadorHeroSection({
           />
           <h1>Calificador de servicio</h1>
           <p>Escucha a tus clientes.</p>
-          {boton ? (
-            <a className={styles.hero__btn} href={boton.href}>
-              {boton.text}
-            </a>
-          ) : null}
-        </div>
-
-        <div className={styles.hero__text__mobile}>
-          <h1>
-            OpinaMaster:
-            <br />
-            El calificador de servicio para crecer con la voz de tus clientes.
-          </h1>
           {boton ? (
             <a className={styles.hero__btn} href={boton.href}>
               {boton.text}

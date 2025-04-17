@@ -5,12 +5,12 @@ import { useEffect } from 'react'
 export default function PreloadResources() {
   useEffect(() => {
     // Preload critical images on component mount
-    const preloadImages = [
+    const imagesToPreload = [
       '/images/logo-tecnologia-plus.jpg',
       // Add other critical images here
     ]
 
-    preloadImages.forEach((src) => {
+    imagesToPreload.forEach((src) => {
       const img = new Image()
       img.src = src
     })

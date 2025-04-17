@@ -1,19 +1,14 @@
 import style from "./LlamadorMeserosBenefitsSection.module.scss";
+import YouTubePlayer from "../../../../components/YouTubePlayer";
 
 function LlamadorMeserosBenefitsSection() {
   return (
     <div className={style.video__benefits__container}>
       <section className={style.video__section}>
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/XGGhLks0iVc?si=8v7bSNs0cWdSTcSG"
-          title="YouTube video player"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerPolicy="strict-origin-when-cross-origin"
-          allowFullScreen
-        ></iframe>
+        <YouTubePlayer 
+          videoId="XGGhLks0iVc" 
+          title="Llamador de Meseros - Tecnología Plus"
+        />
       </section>
       <section className={style.benefits__section}>
         <h2 className={style.benefits__title}>

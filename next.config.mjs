@@ -3,6 +3,9 @@ const nextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
   compress: true,
+  optimizeFonts: true,
+  swcMinify: true,
+  productionBrowserSourceMaps: false,
   images: {
     formats: ['image/avif', 'image/webp'],
     deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048],
@@ -14,9 +17,28 @@ const nextConfig = {
         hostname: 'tecnologiaplus.com',
         pathname: '/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'img.youtube.com',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'i.ytimg.com',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'res.cloudinary.com',
+        pathname: '/**',
+      },
     ],
   },
-  experimental: {},
+  experimental: {
+    optimizeCss: true,
+    legacyBrowsers: false,
+    browsersListForSwc: true,
+  },
   headers: async () => {
     return [
       {

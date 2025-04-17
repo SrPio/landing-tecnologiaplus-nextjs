@@ -1,0 +1,140 @@
+.youtubeContainer {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.youtubeIframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.consentOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.thumbnailContainer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.thumbnail {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.85;
+  transition: opacity 0.3s ease;
+}
+
+.thumbnailContainer:hover .thumbnail {
+  opacity: 1;
+}
+
+.playButton {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 68px;
+  height: 48px;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.thumbnailContainer:hover .playButton {
+  opacity: 1;
+}
+
+.playButtonBg {
+  transition: fill 0.3s ease;
+}
+
+.thumbnailContainer:hover .playButtonBg {
+  fill: #cc0000;
+}
+
+.consentMessage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 80%;
+  color: white;
+  z-index: 2;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.consentMessage h3 {
+  margin-top: 0;
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+.consentButton {
+  background-color: #ff0000;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.consentButton:hover {
+  background-color: #cc0000;
+  transform: translateY(-2px);
+}
+
+.consentButton:focus {
+  outline: 2px solid #ffffff;
+  outline-offset: 2px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .consentMessage {
+    padding: 15px;
+    max-width: 90%;
+  }
+  
+  .consentMessage h3 {
+    font-size: 1rem;
+  }
+  
+  .consentMessage p {
+    font-size: 0.9rem;
+  }
+  
+  .consentButton {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
+} 

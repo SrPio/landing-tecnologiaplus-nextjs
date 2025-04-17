@@ -4,8 +4,11 @@ module.exports = {
     generateRobotsTxt: true,
     robotsTxtOptions: {
         policies: [
-            { userAgent: "*", disallow: "/" }, // Bloquea todo por defecto
-            { userAgent: "*", allow: "/dispensador-de-tiquetes/" } // Permite solo esta URL
+            { userAgent: "*", allow: "/" }, // Allow all by default
         ],
     },
+    exclude: ['/404', '/500'], // Exclude error pages
+    generateIndexSitemap: true,
+    changefreq: 'daily',
+    priority: 0.7,
 };

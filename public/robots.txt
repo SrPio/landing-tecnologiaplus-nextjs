@@ -1,10 +1,6 @@
-# *
+# Allow all crawlers
 User-agent: *
-Disallow: /
-
-# *
-User-agent: *
-Allow: /dispensador-de-tiquetes/
+Allow: /
 
 # Host
 Host: https://landing-tecnologiaplus-nextjs.vercel.app/

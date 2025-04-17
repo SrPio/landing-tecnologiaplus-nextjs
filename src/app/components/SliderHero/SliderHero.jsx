@@ -13,6 +13,10 @@ import DispensadorTiquetesHeroSection from "./Slides/DispensadorTurnosHeroSectio
 import TurnoExpressHeroSection from "./Slides/TurneroHeroSection/TurnoExpressHeroSection";
 import CalificadorHeroSection from "./Slides/CalificadorHeroSection/CalificadorHeroSection";
 import EncuestaVirtualHeroSection from "./Slides/EncuestaVirtualHeroSection/EncuestaVirtualHeroSection";
+import TurnoMasterHeroSection from "./Slides/TurnomasterHeroSection/TurnoMasterHeroSection";
+import EnfermeriaHeroSection from "./Slides/EnfermeriaHeroSection/EnfermeriaHeroSection";
+import LlamadorMeserosHeroSection from "./Slides/MeserosHeroSection/LlamadorMeserosHeroSection";
+import LocalizadoresHeroSection from "./Slides/LocalizadoresHeroSection/LocalizadoresHeroSection";
 
 export default function SliderHero({ botonesPorHero = {} }) {
   return (
@@ -67,6 +71,34 @@ export default function SliderHero({ botonesPorHero = {} }) {
             hideHeader={true}
             backgroundTransparent={true}
             boton={botonesPorHero.encuestaVirtual}
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <TurnoMasterHeroSection
+            hideHeader={true}
+            backgroundTransparent={true}
+            boton={botonesPorHero.turnoMaster}
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <EnfermeriaHeroSection
+            hideHeader={true}
+            backgroundTransparent={true}
+            boton={botonesPorHero.enfermeria}
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <LlamadorMeserosHeroSection
+            hideHeader={true}
+            backgroundTransparent={true}
+            boton={botonesPorHero.llamadorMeseros}
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <LocalizadoresHeroSection
+            hideHeader={true}
+            backgroundTransparent={true}
+            boton={botonesPorHero.localizadores}
           />
         </SwiperSlide>
       </Swiper>

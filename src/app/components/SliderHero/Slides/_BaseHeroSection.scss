@@ -7,14 +7,15 @@
   height: 100dvh;
 
   .hero__content {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
-    justify-content: center;
     height: calc(100% - 8rem);
     .hero__img {
       height: 100%;
       max-height: 500px;
       object-fit: contain;
+      justify-self: end;
     }
 
     .hero__img__mobile {
@@ -35,6 +36,14 @@
       width: auto;
       object-fit: contain;
       margin-bottom: 3rem;
+    }
+
+    .hero__img__logo__cuidamaster {
+      height: 100%;
+      max-height: 100px;
+      width: auto;
+      object-fit: contain;
+      margin-bottom: 2.5rem;
     }
 
     .hero__text__mobile {

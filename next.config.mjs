@@ -16,16 +16,7 @@ const nextConfig = {
       },
     ],
   },
-  experimental: {
-    turbo: {
-      rules: {
-        // Optimize JS
-        '*.js': {
-          loaders: ['swc-loader'],
-        },
-      },
-    },
-  },
+  experimental: {},
   headers: async () => {
     return [
       {

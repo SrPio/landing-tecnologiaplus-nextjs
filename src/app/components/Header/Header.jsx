@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import styles from "./Header.module.scss";
 import { HiPhone } from "react-icons/hi2";
 import { FaSearch } from "react-icons/fa";
@@ -9,6 +9,9 @@ function Header({ customStyles = {} }) {
   const [menuOpen, setMenuOpen] = useState(false);
   const [dropdownOpen, setDropdownOpen] = useState({}); // Estado para cada dropdown
   const [isMobile, setIsMobile] = useState(false);
+  const searchRef = useRef(null);
+  const phoneRef = useRef(null);
+  const menuRef = useRef(null);
 
   useEffect(() => {
     if (menuOpen && isMobile) {
@@ -29,6 +32,20 @@ function Header({ customStyles = {} }) {
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
+
+  // Apply aria-labels after component mounts to avoid hydration mismatch
+  useEffect(() => {
+    if (searchRef.current) {
+      searchRef.current.setAttribute('aria-label', 'Buscar en el sitio');
+    }
+    if (phoneRef.current) {
+      phoneRef.current.setAttribute('aria-label', 'Llamar al teléfono 316 468 2034');
+    }
+    if (menuRef.current) {
+      menuRef.current.setAttribute('aria-label', menuOpen ? 'Cerrar menú' : 'Abrir menú');
+      menuRef.current.setAttribute('aria-expanded', menuOpen);
+    }
+  }, [menuOpen]);
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
@@ -158,7 +175,10 @@ function Header({ customStyles = {} }) {
         >
           Contacto
         </a>
-        <a href="#" aria-label="Buscar en el sitio">
+        <a 
+          href="#" 
+          ref={searchRef}
+        >
           <FaSearch
             className={`${styles.search__icon} ${
               customStyles.searchIcon || ""
@@ -168,7 +188,7 @@ function Header({ customStyles = {} }) {
         <a
           href="tel:+573164682034"
           className={`${styles.phone__btn} ${customStyles.phoneBtn || ""}`}
-          aria-label="Llamar al teléfono 316 468 2034"
+          ref={phoneRef}
         >
           <HiPhone
             className={`${styles.phone__icon} ${customStyles.phoneIcon || ""}`}
@@ -182,8 +202,7 @@ function Header({ customStyles = {} }) {
           onClick={toggleMenu}
           role="button"
           tabIndex="0"
-          aria-label={menuOpen ? "Cerrar menú" : "Abrir menú"}
-          aria-expanded={menuOpen}
+          ref={menuRef}
           onKeyDown={(e) => {
             if (e.key === 'Enter' || e.key === ' ') {
               toggleMenu();

@@ -55,7 +55,7 @@ function EnfermeriaRelatedProducts({ titleClassName = "" }) {
           >
             {products.map((product, index) => (
               <SwiperSlide
-                key={index}
+                key={`product-${product.name.toLowerCase().replace(/\s+/g, '-')}`}
                 className={`${style.swiper__slide} ${product.className || ""}`}
               >
                 <div className={style.related__products__card}>

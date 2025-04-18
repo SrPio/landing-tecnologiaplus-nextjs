@@ -11,8 +11,10 @@ import altStyles from "../../../../../components/Header/HeaderAlt.module.scss";
 import Header from "@/app/components/Header/Header";
 import { IoIosArrowBack } from "react-icons/io";
 import { FaWhatsapp } from "react-icons/fa";
+import { useClientSwiperFix } from "@/app/utils/swiperClientFix";
 
 function MobileProductGallery() {
+  const isClient = useClientSwiperFix();
   const images = [
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741622306/Frame_1_32_fg46my.webp",
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741016956/3_4x-8_4_jpow97.webp",
@@ -46,23 +48,26 @@ function MobileProductGallery() {
       </div>
 
       {/* Carrusel principal */}
-      <Swiper
-        modules={[Navigation, Pagination]}
-        pagination={{ clickable: true }}
-        loop={true}
-        thumbs={{ swiper: thumbsSwiper }}
-        className={styles.mainSwiper}
-      >
-        {images.map((img, index) => (
-          <SwiperSlide key={index}>
-            <img
-              src={img}
-              alt={`Imagen ${index + 1}`}
-              className={styles.mainImage}
-            />
-          </SwiperSlide>
-        ))}
-      </Swiper>
+      {isClient && (
+        <Swiper
+          modules={[Navigation, Pagination]}
+          pagination={{ clickable: true }}
+          navigation={true}
+          loop={true}
+          thumbs={{ swiper: thumbsSwiper }}
+          className={styles.mainSwiper}
+        >
+          {images.map((img, index) => (
+            <SwiperSlide key={index}>
+              <img
+                src={img}
+                alt={`Imagen ${index + 1}`}
+                className={styles.mainImage}
+              />
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      )}
 
       {/* Información del producto */}
       <div className={styles.container__info__products}>

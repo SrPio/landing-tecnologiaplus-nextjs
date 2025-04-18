@@ -86,12 +86,13 @@ function MobileProductGallery() {
         ref={mainSwiperRef}
         modules={[Navigation, Pagination]}
         pagination={isAlternative ? false : { clickable: true }}
+        navigation={true}
         loop={true}
         className={styles.mainSwiper}
         onSlideChange={(swiper) => setCurrentIndex(swiper.realIndex)}
       >
         {currentImages.map((img, index) => (
-          <SwiperSlide key={index}>
+          <SwiperSlide key={`slide-${typeof img === "string" ? img.substring(img.lastIndexOf('/') + 1, img.lastIndexOf('.')) : img.url.substring(img.url.lastIndexOf('/') + 1, img.url.lastIndexOf('.'))}`}>
             <img
               src={typeof img === "string" ? img : img.url}
               alt={`Imagen ${index + 1}`}
@@ -107,10 +108,9 @@ function MobileProductGallery() {
           <div className={styles.container__colors}>
             {alternativeImages.map((image, index) => (
               <div
-                key={index}
+                key={`color-${image.name}`}
                 className={`${styles.technical__circle__figure} ${
-                  styles["color__" + image.name] // Usa image.name en lugar de index
-                } ${currentIndex === index ? styles.selected : ""}`}
+                  styles["color__" + image.name]} ${currentIndex === index ? styles.selected : ""}`}
                 onClick={() =>
                   handleThumbnailClick(
                     alternativeImages.map((alt) => alt.url),
@@ -128,7 +128,7 @@ function MobileProductGallery() {
         <div className={styles.thumbsRow}>
           {images.map((img, index) => (
             <div
-              key={index}
+              key={`gallery-thumb-${img.substring(img.lastIndexOf('/') + 1, img.lastIndexOf('.'))}`}
               className={classNames(styles.thumb__Slide, {
                 [styles.active]: isGallery && currentIndex === index,
               })}
@@ -143,7 +143,7 @@ function MobileProductGallery() {
         <div className={styles.thumbsRow}>
           {alternativeImages.map((img, index) => (
             <div
-              key={index}
+              key={`color-thumb-${img.name}`}
               className={classNames(styles.thumb__Slide, {
                 [styles.active]: !isGallery && currentIndex === index,
               })}

@@ -48,16 +48,15 @@ function MobileProductGallery() {
         <p>Turnos organizados en una pantalla que refleja tu marca.</p>
       </div>
 
-      {/* Carrusel principal */}
       <Swiper
-        modules={[Navigation, Pagination]}
+        modules={[Navigation, Pagination, Thumbs]}
         pagination={{ clickable: true }}
+        navigation={true}
         loop={true}
-        thumbs={{ swiper: thumbsSwiper }}
         className={styles.mainSwiper}
       >
         {images.map((img, index) => (
-          <SwiperSlide key={index}>
+          <SwiperSlide key={`slide-${img.substring(img.lastIndexOf('/') + 1, img.lastIndexOf('.'))}`}>
             <img
               src={img}
               alt={`Imagen ${index + 1}`}
@@ -67,17 +66,14 @@ function MobileProductGallery() {
         ))}
       </Swiper>
 
-      {/* Información del producto */}
       <div className={styles.container__info__products}>
         <p>
-          Turnero digital T1N con pantalla personalizable que permite proyectar
-          la imagen corporativa mientras se hace el llamado de turnos. Uso
-          frecuente en sector salud, gastronomía y oficinas de servicio. Este
-          llamador de turnos es inalámbrica y compatible con varias opciones de
-          controles, lo cual permite adaptarse a distintas formas de gestionar
-          filas.
+          Pantalla digital de gran formato para turnos o llamados con base en
+          nuestro equipo más versatil y avanzado TurnoMaster® ahora con un
+          módulo de audio especial, que permite al operador atender desde una
+          aplicación táctil. No requiere software, es de fácil instalación y
+          manejo por parte del operador.
         </p>
-
         <div className={styles.container__contact__info}>
           <a href="https://wa.me/573227347971" target="_blank" rel="noreferrer">
             <FaWhatsapp className={styles.icon__wpp} />

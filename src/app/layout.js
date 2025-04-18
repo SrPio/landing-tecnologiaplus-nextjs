@@ -1,6 +1,6 @@
 import "./styles/main.scss";
 import Providers from "./context/Providers";
-import { Inter } from 'next/font/google';
+import { Inter, Montserrat, Bebas_Neue } from 'next/font/google';
 import ResourcePreloader from './components/ResourcePreloader';
 import SchemaOrg from '../components/SchemaOrg';
 import ServiceWorkerRegistration from './components/ServiceWorkerRegistration';
@@ -10,6 +10,20 @@ const inter = Inter({
   subsets: ['latin'],
   display: 'swap',
   variable: '--font-inter',
+});
+
+const montserrat = Montserrat({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-montserrat',
+  weights: [100, 200, 300, 400, 500, 600, 700, 800, 900],
+});
+
+const bebasNeue = Bebas_Neue({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-bebas-neue',
+  weight: '400',
 });
 
 export const metadata = {
@@ -76,7 +90,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="es" className={inter.variable}>
+    <html lang="es" className={`${inter.variable} ${montserrat.variable} ${bebasNeue.variable}`}>
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />

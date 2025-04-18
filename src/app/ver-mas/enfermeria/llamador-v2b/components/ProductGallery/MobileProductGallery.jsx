@@ -88,9 +88,10 @@ function MobileProductGallery() {
           }
         }}
         onTransitionEnd={() => setIsSwitchingImages(false)}
+        navigation={true}
       >
         {currentImages.map((img, index) => (
-          <SwiperSlide key={index}>
+          <SwiperSlide key={`slide-${typeof img === "string" ? img.substring(img.lastIndexOf('/') + 1, img.lastIndexOf('.')) : img.url.substring(img.url.lastIndexOf('/') + 1, img.url.lastIndexOf('.'))}`}>
             <img
               src={typeof img === "string" ? img : img.url}
               alt={`Imagen ${index + 1}`}

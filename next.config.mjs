@@ -3,8 +3,6 @@ const nextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
   compress: true,
-  optimizeFonts: true,
-  swcMinify: true,
   productionBrowserSourceMaps: false,
   images: {
     formats: ['image/avif', 'image/webp'],
@@ -83,8 +81,6 @@ const nextConfig = {
   },
   experimental: {
     optimizeCss: true,
-    legacyBrowsers: false,
-    browsersListForSwc: true,
   },
   headers: async () => {
     return [

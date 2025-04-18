@@ -46,16 +46,15 @@ function MobileProductGallery() {
         <p>Para crecer con la opinión de tus clientes</p>
       </div>
 
-      {/* Carrusel principal */}
       <Swiper
-        modules={[Navigation, Pagination]}
+        modules={[Navigation, Pagination, Thumbs]}
         pagination={{ clickable: true }}
+        navigation={true}
         loop={true}
-        thumbs={{ swiper: thumbsSwiper }}
         className={styles.mainSwiper}
       >
         {images.map((img, index) => (
-          <SwiperSlide key={index}>
+          <SwiperSlide key={`slide-${img.substring(img.lastIndexOf('/') + 1, img.lastIndexOf('.'))}`}>
             <img
               src={img}
               alt={`Imagen ${index + 1}`}
@@ -65,15 +64,14 @@ function MobileProductGallery() {
         ))}
       </Swiper>
 
-      {/* Información del producto */}
       <div className={styles.container__info__products}>
         <p>
-          Calificador de servicio al cliente para capturar en un segundo la
-          percepción real de los usuarios. Además recibe alertas de
-          calificaciones negativas en tiempo real, ideal para el sector
-          servicios y puntos de atención al cliente.
+          Dispositivo electrónico que mide la satisfacción de los usuarios una
+          vez concluido el servicio prestado. Los datos se almacenan en un
+          servidor web donde el cliente puede visualizar estadísticos para tomar
+          decisiones acertadas. ¡Nunca había sido tan fácil mejorar la
+          experiencia del usuario!
         </p>
-
         <div className={styles.container__contact__info}>
           <a href="https://wa.me/573227347971" target="_blank" rel="noreferrer">
             <FaWhatsapp className={styles.icon__wpp} />

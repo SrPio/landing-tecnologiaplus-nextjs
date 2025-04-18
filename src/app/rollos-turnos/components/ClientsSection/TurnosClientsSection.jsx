@@ -3,10 +3,16 @@ import React from "react";
 import style from "./TurnosClientsSection.module.scss";
 import { useLogos } from "../../../context/LogosContext";
 
-import InfiniteSlider from "../../../components/sliders/InfiniteSlider";
+import InfiniteSlider2 from "@/app/components/sliders/InfiniteSlider2";
 
 function TurnosClientsSection() {
   const { logosTurnos } = useLogos();
+  
+  // Map logos to the format expected by InfiniteSlider2
+  const images = logosTurnos.map(logo => ({
+    url: logo.src,
+    alt: logo.alt
+  }));
 
   return (
     <section className={style.clients__section}>
@@ -16,7 +22,7 @@ function TurnosClientsSection() {
         ordenar la atención al cliente.
       </p>
       <div className={style.clients__container}>
-        <InfiniteSlider logos={logosTurnos} />
+        <InfiniteSlider2 images={images} speed={5000} />
       </div>
     </section>
   );

@@ -1,14 +1,14 @@
 "use client";
-import styles from "../../../styles/LogosSection.module.scss";
+import styles from "../../../../styles/LogosSection.module.scss";
 import { IoIosArrowForward } from "react-icons/io";
-import { useLogos } from "../../../../context/LogosContext";
+import { useLogos } from "../../../../../context/LogosContext";
 import InfiniteSlider2 from "@/app/components/sliders/InfiniteSlider2";
 
 function LogosSection() {
-  const { logosRollosDeTurnos } = useLogos();
+  const { logosTurnosWeb } = useLogos();
   
   // Map logos to the format expected by InfiniteSlider2
-  const images = logosRollosDeTurnos.map(logo => ({
+  const images = logosTurnosWeb.map(logo => ({
     url: logo.src,
     alt: logo.alt
   }));
@@ -25,4 +25,4 @@ function LogosSection() {
   );
 }
 
-export default LogosSection;
+export default LogosSection; 

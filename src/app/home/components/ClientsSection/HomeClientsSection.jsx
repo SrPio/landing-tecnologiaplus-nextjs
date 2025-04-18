@@ -3,11 +3,16 @@ import React from "react";
 import style from "./HomeClientsSection.module.scss";
 import { useLogos } from "../../../context/LogosContext";
 
-import InfiniteSlider from "../../../components/sliders/InfiniteSlider";
 import InfiniteSlider2 from "@/app/components/sliders/InfiniteSlider2";
 
 function HomeClientsSection() {
   const { logosHome } = useLogos();
+
+  // Map logos to the format expected by InfiniteSlider2 if needed
+  const images = logosHome.map(logo => ({
+    url: logo.src || logo.url, // Handle both property names
+    alt: logo.alt
+  }));
 
   return (
     <section className={style.clients__section}>
@@ -17,7 +22,7 @@ function HomeClientsSection() {
         cliente.
       </p>
       <div className={style.clients__container}>
-        <InfiniteSlider logos={logosHome} />
+        <InfiniteSlider2 images={images} speed={5000} />
       </div>
     </section>
   );

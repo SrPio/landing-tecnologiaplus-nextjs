@@ -41,12 +41,12 @@ export const metadata = {
     },
   },
   robots: {
-    index: true,
-    follow: true,
+    index: false,
+    follow: false,
     googleBot: {
-      index: true,
-      follow: true,
-      'max-image-preview': 'large',
+      index: false,
+      follow: false,
+      'max-image-preview': 'none',
       'max-video-preview': -1,
       'max-snippet': -1,
     },

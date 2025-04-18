@@ -18,6 +18,9 @@ h2 {
 :root {
   --swiper-theme-color: #606060;
   --swiper-navigation-size: 24px;
+  --swiper-navigation-top-offset: 50%;
+  --swiper-navigation-sides-offset: 10px;
+  --swiper-navigation-color: #606060;
 }
 
 // Fix for Swiper navigation visibility on all browsers
@@ -25,4 +28,20 @@ h2 {
 .swiper-button-prev {
   opacity: 1 !important;
   visibility: visible !important;
+  color: var(--swiper-navigation-color) !important;
+  background-color: rgba(255, 255, 255, 0.8) !important;
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 50% !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  z-index: 20 !important;
+  transform: translateY(-50%) !important;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 20px !important;
+  font-weight: bold !important;
 }

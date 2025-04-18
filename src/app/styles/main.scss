@@ -4,12 +4,25 @@
 @use "./base/mixins";
 
 body {
-  font-family: var(--font-montserrat), sans-serif;
+  font-family: var(--font-primary);
   font-size: 16px;
 }
 
 h2 {
-  font-size: 2.5rem;
+  font-size: var(--fs-3xl);
   font-weight: 900;
   color: #606060;
+}
+
+// Ensure Swiper styles are properly loaded
+:root {
+  --swiper-theme-color: #606060;
+  --swiper-navigation-size: 24px;
+}
+
+// Fix for Swiper navigation visibility on all browsers
+.swiper-button-next,
+.swiper-button-prev {
+  opacity: 1 !important;
+  visibility: visible !important;
 }

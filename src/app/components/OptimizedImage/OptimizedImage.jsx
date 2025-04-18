@@ -34,11 +34,6 @@ const OptimizedImage = ({
   }, [src, isCloudinary]);
 
   // Enforce width and height to prevent layout shifts
-  if (!width || !height) {
-    console.warn(`Image ${alt || 'unnamed'} is missing width or height attributes. This can cause layout shifts.`);
-  }
-
-  // Default dimensions to help avoid CLS for missing values
   const imgWidth = width || 300;
   const imgHeight = height || 200;
 
@@ -51,7 +46,7 @@ const OptimizedImage = ({
       className={`${styles.optimizedImage} ${className || ''}`}
       loading={priority ? "eager" : loading}
       fetchPriority={priority ? "high" : "auto"}
-      sizes={sizes}
+      sizes={sizes || '(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw'}
       style={{ ...style, aspectRatio: `${imgWidth} / ${imgHeight}` }}
       onError={() => setImgSrc(src)} // Fallback to original source if optimization fails
       {...props}

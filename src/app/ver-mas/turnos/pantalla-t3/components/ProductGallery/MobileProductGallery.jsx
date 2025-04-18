@@ -14,12 +14,11 @@ import { FaWhatsapp } from "react-icons/fa";
 
 function MobileProductGallery() {
   const images = [
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741641627/Frame_1_71_rtr5ip.webp",
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741641334/Frame_1_68_bol78g.webp",
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741641726/Frame_1_72_e6dexg.webp",
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741641439/Frame_1_69_o8kcmz.webp",
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743774378/6_4x-8_2_ytxttp.webp",
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741641512/Frame_1_70_b26kjg.webp",
+    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741478142/Frame_1_11_vofqtl.webp",
+    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741478238/Frame_1_12_cblm9g.webp",
+    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741477909/Frame_1_13_kluuxj.webp",
+    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741464626/3_4x-8_11_tpwt5y.webp",
+    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741479020/Frame_1_14_wugkwy.webp",
   ];
 
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
@@ -49,16 +48,15 @@ function MobileProductGallery() {
         </p>
       </div>
 
-      {/* Carrusel principal */}
       <Swiper
         modules={[Navigation, Pagination]}
         pagination={{ clickable: true }}
+        navigation={true}
         loop={true}
-        thumbs={{ swiper: thumbsSwiper }}
         className={styles.mainSwiper}
       >
         {images.map((img, index) => (
-          <SwiperSlide key={index}>
+          <SwiperSlide key={`slide-${img.substring(img.lastIndexOf('/') + 1, img.lastIndexOf('.'))}`}>
             <img
               src={img}
               alt={`Imagen ${index + 1}`}
@@ -68,7 +66,6 @@ function MobileProductGallery() {
         ))}
       </Swiper>
 
-      {/* Información del producto */}
       <div className={styles.container__info__products}>
         <p>
           Turnero digital con espacio para el logo, permite llamar turnos en

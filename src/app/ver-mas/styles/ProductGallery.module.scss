@@ -404,36 +404,39 @@
     background-color: #5f5f5f;
   }
 
-  /* Add styling for navigation buttons */
+  /* Add styling for navigation buttons with better specificity */
   :global(.swiper-button-next),
   :global(.swiper-button-prev) {
-    color: #606060;
-    background-color: rgba(255, 255, 255, 0.7);
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: all 0.3s ease;
+    color: #606060 !important;
+    background-color: rgba(255, 255, 255, 0.7) !important;
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 50% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    transition: all 0.3s ease !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    z-index: 10 !important;
   }
 
   :global(.swiper-button-next::after),
   :global(.swiper-button-prev::after) {
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 20px !important;
+    font-weight: bold !important;
   }
 
   :global(.swiper-button-next) {
-    right: 10px;
+    right: 10px !important;
   }
 
   :global(.swiper-button-prev) {
-    left: 10px;
+    left: 10px !important;
   }
 
   :global(.swiper-button-disabled) {
-    opacity: 0.5;
+    opacity: 0.5 !important;
   }
 
   /* FIN Cambiar el estilo de los bullets */

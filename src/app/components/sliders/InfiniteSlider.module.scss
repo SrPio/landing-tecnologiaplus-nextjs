@@ -1,45 +1,84 @@
 .loop__slide {
+  width: 100%;
   overflow: hidden;
-  width: 4000px; /* Ajusta el ancho fijo que prefieras */
-  max-width: 100%; /* Evita que sea más grande que la pantalla */
-}
-.loop__slide > div {
-  display: flex;
-  animation: slide-to-left 20s linear infinite;
-  -webkit-animation: slide-to-left 20s linear infinite;
-}
-.loop__slide > div > * {
-  flex: 0 0 auto; // Evita que los logos se estiren o encojan
-  padding: 0 31.5px; // Espaciado uniforme entre logos
-}
-
-@keyframes slide-to-left {
-  100% {
-    transform: translateX(-100%);
-    -webkit-transform: translateX(-100%);
-    -moz-transform: translateX(-100%);
-    -ms-transform: translateX(-100%);
-    -o-transform: translateX(-100%);
-  }
-}
-
-/* Diferente duración según el tamaño del slider */
-@media (max-width: 768px) {
-  .loop__slide {
-    width: 800px;
-    max-width: 100%;
-  }
-  .loop__slide > div {
+  position: relative;
+  contain: strict;
+  isolation: isolate;
+  backface-visibility: hidden;
+  perspective: 1000px;
+  transform: translateZ(0);
+  
+  .slider_container {
     display: flex;
-    animation: slide-to-left 12s linear infinite;
-    -webkit-animation: slide-to-left 12s linear infinite;
+    flex-wrap: nowrap;
+    width: fit-content;
+    will-change: transform;
+    transform: translateX(0);
+    backface-visibility: hidden;
+    contain: content;
+    
+    .logo_container {
+      margin: 0 3rem;
+      contain: content;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      transform: translateZ(0);
+      will-change: transform;
+      
+      @media (max-width: 768px) {
+        margin: 0 2rem;
+      }
+      
+      @media (max-width: 480px) {
+        margin: 0 1.5rem;
+      }
+      
+      img {
+        object-fit: contain;
+        object-position: center;
+        max-width: 150px;
+        will-change: transform;
+        transform: translateZ(0);
+        backface-visibility: hidden;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+    }
+    
+    > div:not(.logo_container) {
+      margin: 0 3rem;
+      contain: content;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      
+      @media (max-width: 768px) {
+        margin: 0 2rem;
+      }
+      
+      @media (max-width: 480px) {
+        margin: 0 1.5rem;
+      }
+      
+      img {
+        object-fit: contain;
+        object-position: center;
+        max-width: 150px;
+        will-change: transform;
+        transform: translateZ(0);
+        backface-visibility: hidden;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+    }
   }
 }
 
-@media (max-width: 480px) {
-  .loop__slide > div {
-    display: flex;
-    animation: slide-to-left 7s linear infinite;
-    -webkit-animation: slide-to-left 7s linear infinite;
+@media (prefers-reduced-motion: reduce) {
+  .loop__slide .slider_container {
+    animation-play-state: paused;
   }
 }

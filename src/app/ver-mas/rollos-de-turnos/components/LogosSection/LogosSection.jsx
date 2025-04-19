@@ -5,10 +5,10 @@ import { useLogos } from "../../../../context/LogosContext";
 import InfiniteSlider2 from "@/app/components/sliders/InfiniteSlider2";
 
 function LogosSection() {
-  const { logosRollosDeTurnos } = useLogos();
+  const { logosTurnos } = useLogos();
   
   // Map logos to the format expected by InfiniteSlider2
-  const images = logosRollosDeTurnos.map(logo => ({
+  const images = logosTurnos.map(logo => ({
     url: logo.src,
     alt: logo.alt
   }));

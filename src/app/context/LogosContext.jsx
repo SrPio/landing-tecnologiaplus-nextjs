@@ -15,7 +15,8 @@ export const LogosProvider = ({ children }) => {
   const [logosCalificador] = useState([]);
   const [logosEnfermeria] = useState([]);
   const [logosLlamadorMeseros] = useState([]);
-  
+  const [logosTurnoMaster] = useState([]);
+  const [logosHome] = useState([]);
   // Add some actual data for Localizadores
   const [logosLocalizadores] = useState([
     {
@@ -36,8 +37,7 @@ export const LogosProvider = ({ children }) => {
     }
   ]);
   
-  const [logosTurnoMaster] = useState([]);
-  const [logosHome] = useState([]);
+
 
   return (
     <LogosContext.Provider

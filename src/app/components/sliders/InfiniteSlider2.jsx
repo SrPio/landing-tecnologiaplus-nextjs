@@ -150,7 +150,7 @@ const InfiniteSlider2 = ({ images, speed = 5000, className }) => {
         loop={true}
         slidesPerView="auto"
         spaceBetween={30}
-        speed={1000}
+        speed={10000}
         navigation={{
           prevEl: `.${styles.nav_prev}`,
           nextEl: `.${styles.nav_next}`,
@@ -169,9 +169,9 @@ const InfiniteSlider2 = ({ images, speed = 5000, className }) => {
             <img
               src={image.url}
               alt={image.alt || 'Company logo'}
-              width="150"
+              width="1510"
               height="80"
-              loading="eager"
+              loading="lazy"
               decoding="async"
             />
           </SwiperSlide>

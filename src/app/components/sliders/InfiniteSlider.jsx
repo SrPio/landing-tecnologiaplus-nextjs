@@ -1,94 +1,120 @@
 "use client";
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef, useMemo } from 'react';
 import styles from './InfiniteSlider.module.scss';
 
-export default function InfiniteSlider({ logos = [] }) {
-  const [isLoaded, setIsLoaded] = useState(false);
-  
-  // Make sure we have enough logos to create a smooth effect
-  const duplicatedLogos = React.useMemo(() => {
-    if (!logos || logos.length === 0) return [];
+const InfiniteSlider = ({ logos = [], pauseOnHover = true }) => {
+  const [imagesLoaded, setImagesLoaded] = useState(false);
+  const [isVisible, setIsVisible] = useState(true);
+  const sliderRef = useRef(null);
+  const observerRef = useRef(null);
+
+  // Ensure we have at least 10 logos for smooth scrolling
+  const processedLogos = useMemo(() => {
+    if (logos.length === 0) return [];
     
+    // If we have less than 10 logos, duplicate them to ensure smooth scrolling
     let result = [...logos];
-    // Duplicate logos until we have at least 10
     while (result.length < 10) {
       result = [...result, ...logos];
     }
+    
     return result;
   }, [logos]);
 
-  // Preload images to avoid flickering
+  // Preload images to prevent flickering
   useEffect(() => {
-    if (!duplicatedLogos.length) return;
+    if (processedLogos.length === 0) return;
     
-    let loadedImages = 0;
-    const totalImages = duplicatedLogos.length;
+    let loadedCount = 0;
+    const totalImages = processedLogos.length;
+    const loadTimeout = setTimeout(() => setImagesLoaded(true), 3000);
     
-    // Set a timeout to show the slider even if some images fail to load
-    const timer = setTimeout(() => {
-      setIsLoaded(true);
-    }, 3000);
+    const preloadImages = async () => {
+      const promises = processedLogos.map(logo => {
+        return new Promise((resolve) => {
+          const img = new Image();
+          img.src = logo.src;
+          img.onload = () => {
+            loadedCount++;
+            if (loadedCount === totalImages) {
+              setImagesLoaded(true);
+              clearTimeout(loadTimeout);
+            }
+            resolve();
+          };
+          img.onerror = () => {
+            loadedCount++;
+            if (loadedCount === totalImages) {
+              setImagesLoaded(true);
+              clearTimeout(loadTimeout);
+            }
+            resolve();
+          };
+        });
+      });
+      
+      await Promise.all(promises);
+    };
     
-    // Preload all images
-    duplicatedLogos.forEach(logo => {
-      const img = new Image();
-      img.onload = () => {
-        loadedImages++;
-        if (loadedImages === totalImages) {
-          clearTimeout(timer);
-          setIsLoaded(true);
-        }
-      };
-      img.onerror = () => {
-        loadedImages++;
-        if (loadedImages === totalImages) {
-          clearTimeout(timer);
-          setIsLoaded(true);
-        }
-      };
-      img.src = logo.src;
+    preloadImages();
+    
+    return () => clearTimeout(loadTimeout);
+  }, [processedLogos]);
+
+  // Handle visibility changes using Intersection Observer
+  useEffect(() => {
+    if (!sliderRef.current) return;
+    
+    const handleIntersection = (entries) => {
+      const [entry] = entries;
+      setIsVisible(entry.isIntersecting);
+      
+      if (sliderRef.current) {
+        sliderRef.current.style.animationPlayState = entry.isIntersecting ? 'running' : 'paused';
+      }
+    };
+    
+    observerRef.current = new IntersectionObserver(handleIntersection, {
+      root: null,
+      threshold: 0.1,
     });
     
-    return () => clearTimeout(timer);
-  }, [duplicatedLogos]);
+    observerRef.current.observe(sliderRef.current);
+    
+    return () => {
+      if (observerRef.current && sliderRef.current) {
+        observerRef.current.unobserve(sliderRef.current);
+      }
+    };
+  }, []);
 
-  if (!duplicatedLogos.length) {
-    return null;
-  }
+  if (processedLogos.length === 0) return null;
+
+  // Create two sets of logos for the continuous loop effect
+  const allLogos = [...processedLogos, ...processedLogos];
 
   return (
-    <div className={styles.loop__slide}>
+    <div className={styles.slider_container}>
       <div 
-        className={styles.slider_container}
-        style={{ 
-          opacity: isLoaded ? 1 : 0,
-          transition: 'opacity 0.5s ease'
-        }}
+        ref={sliderRef}
+        className={`${styles.slider} ${!imagesLoaded ? styles.hidden : ''}`}
+        style={pauseOnHover ? {} : { '&:hover': { animationPlayState: 'running' } }}
       >
-        {duplicatedLogos.map((logo, index) => (
-          <div key={`logo-${index}`} className={styles.logo_container}>
-            <img
-              src={logo.src}
-              alt={logo.alt || `Logo ${index + 1}`}
-              width={logo.width || 150}
-              height={logo.height || 80}
-            />
-          </div>
-        ))}
-        
-        {/* Add a second set of logos for seamless loop */}
-        {duplicatedLogos.map((logo, index) => (
-          <div key={`logo-duplicate-${index}`} className={styles.logo_container}>
-            <img
-              src={logo.src}
-              alt={logo.alt || `Logo ${index + 1}`}
-              width={logo.width || 150}
-              height={logo.height || 80}
+        {allLogos.map((logo, index) => (
+          <div key={`${logo.alt}-${index}`} className={styles.slide}>
+            <img 
+              src={logo.src} 
+              alt={logo.alt || 'Partner logo'} 
+              width="150"
+              height="80"
+              loading="eager"
             />
           </div>
         ))}
       </div>
     </div>
   );
-}
+};
+
+export default InfiniteSlider;

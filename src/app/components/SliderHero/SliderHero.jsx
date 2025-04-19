@@ -29,13 +29,18 @@ export default function SliderHero({ botonesPorHero = {} }) {
         pagination={{ clickable: true }}
         navigation={true}
         loop={true}
-        modules={[Navigation, Pagination]}
+        modules={[Navigation, Pagination, Autoplay]}
+        autoplay={{
+          delay: 5000,
+          disableOnInteraction: false,
+        }}
       >
         <SwiperSlide>
           <LocalizadoresHeroSection
             hideHeader={true}
             backgroundTransparent={true}
             boton={botonesPorHero.localizadores}
+            priority={true}
           />
         </SwiperSlide>
         <SwiperSlide>

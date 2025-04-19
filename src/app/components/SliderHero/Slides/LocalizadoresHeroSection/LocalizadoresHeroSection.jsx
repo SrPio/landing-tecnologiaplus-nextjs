@@ -1,6 +1,6 @@
 import styles from "./LocalizadoresHeroSection.module.scss";
 import Header from "../../../Header/Header";
-import OptimizedImage from "../../../OptimizedImage/OptimizedImage";
+import ServerFirstImage from "../../../ServerFirstImage/ServerFirstImage";
 
 function LocalizadoresHeroSection({
   hideHeader = false,
@@ -8,6 +8,10 @@ function LocalizadoresHeroSection({
   boton,
   priority = false,
 }) {
+  // Use original URLs to avoid hydration mismatches
+  const desktopImageUrl = "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744462120/12_1-8_o5nq6u.webp";
+  const mobileImageUrl = "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744861573/12_1-8_1_x1xwix.webp";
+
   return (
     <section
       className={`${styles.hero} ${
@@ -16,21 +20,25 @@ function LocalizadoresHeroSection({
     >
       {!hideHeader && <Header />}
       <div className={styles.hero__content}>
-        <OptimizedImage
+        <ServerFirstImage
           className={styles.hero__img}
-          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744462120/12_1-8_o5nq6u.webp"
+          src={desktopImageUrl}
           alt="Localizadores para clientes"
           width={620}
           height={500}
+          loading={priority ? "eager" : "lazy"}
           priority={priority}
+          optimizeAfterHydration={false}
         />
-        <OptimizedImage
+        <ServerFirstImage
           className={styles.hero__img__mobile}
-          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744861573/12_1-8_1_x1xwix.webp"
+          src={mobileImageUrl}
           alt="Localizadores para clientes"
           width={375}
           height={400}
+          loading={priority ? "eager" : "lazy"}
           priority={priority}
+          optimizeAfterHydration={false}
         />
 
         <div className={styles.hero__text}>

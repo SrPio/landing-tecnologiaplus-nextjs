@@ -8,37 +8,50 @@ import { useEffect } from 'react'
  */
 export default function ResourcePreloader() {
   useEffect(() => {
-    // Function to preload images
-    const preloadCriticalImages = () => {
-      const criticalImages = [
-        '/images/logo-tecnologia-plus.jpg',
-        // Add other critical images here
-      ]
-      
-      criticalImages.forEach(src => {
-        const imgLoader = new Image()
-        imgLoader.src = src
-      })
-    }
+    try {
+      // Function to preload images
+      const preloadCriticalImages = () => {
+        const criticalImages = [
+          // Background image for slider hero
+          'https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349921/jlxxsnlercoj0nihz4am_udppso.webp',
+          // Localizadores images (LCP images)
+          'https://res.cloudinary.com/ddqh0mkx9/image/upload/f_auto,q_auto/v1744781254/Imagen_portada_4x-8_dfrjjg_1_1_lvtv17.webp',
+          'https://res.cloudinary.com/ddqh0mkx9/image/upload/f_auto,q_auto/v1744781156/Imagen_portada_4x-8_dfrjjg_1_cg4eew.webp',
+          'https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744462120/12_1-8_o5nq6u.webp',
+          'https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744861573/12_1-8_1_x1xwix.webp',
+        ]
+        
+        criticalImages.forEach(src => {
+          try {
+            const imgLoader = new Image()
+            imgLoader.fetchPriority = 'high'
+            imgLoader.src = src
+          } catch (err) {
+            console.error('Error preloading image:', src, err)
+          }
+        })
+      }
 
-    // Function to preload scripts
-    const preloadCriticalScripts = () => {
-      const criticalScripts = []
+      // Execute preloaders with a small delay to avoid blocking initial render
+      setTimeout(() => {
+        preloadCriticalImages()
+      }, 100)
       
-      if (criticalScripts.length === 0) return
-      
-      criticalScripts.forEach(src => {
-        const linkElem = document.createElement('link')
-        linkElem.rel = 'preload'
-        linkElem.as = 'script'
-        linkElem.href = src
-        document.head.appendChild(linkElem)
-      })
+      // Add preconnect for Cloudinary in case it wasn't added in the head
+      if (typeof document !== 'undefined' && !document.querySelector('link[rel="preconnect"][href="https://res.cloudinary.com"]')) {
+        try {
+          const preconnect = document.createElement('link')
+          preconnect.rel = 'preconnect'
+          preconnect.href = 'https://res.cloudinary.com'
+          preconnect.crossOrigin = 'anonymous'
+          document.head.appendChild(preconnect)
+        } catch (err) {
+          console.error('Error adding preconnect:', err)
+        }
+      }
+    } catch (err) {
+      console.error('Error in ResourcePreloader:', err)
     }
-
-    // Execute preloaders
-    preloadCriticalImages()
-    preloadCriticalScripts()
   }, [])
 
   // Component doesn't render anything visible

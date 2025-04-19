@@ -1,7 +1,9 @@
-import "./styles/main.scss";
+import "./styles/critical.scss"; // Critical CSS for first render
+import "./styles/main.scss"; // Import main CSS directly
 import Providers from "./context/Providers";
 import { Inter, Montserrat, Bebas_Neue } from 'next/font/google';
 import ResourcePreloader from './components/ResourcePreloader';
+import DeferNonCriticalJS from './components/DeferNonCriticalJS';
 import SchemaOrg from '../components/SchemaOrg';
 import ServiceWorkerRegistration from './components/ServiceWorkerRegistration';
 
@@ -95,13 +97,20 @@ export default function RootLayout({ children }) {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://tecnologiaplus.com" />
+        <link rel="dns-prefetch" href="https://res.cloudinary.com" />
+        <link rel="preconnect" href="https://res.cloudinary.com" crossOrigin="anonymous" />
         <link rel="manifest" href="/manifest.json" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        {/* Dimension hints for critical LCP images to avoid layout shifts */}
+        <meta name="thumbnail" content="https://res.cloudinary.com/ddqh0mkx9/image/upload/f_auto,q_auto/v1744781156/Imagen_portada_4x-8_dfrjjg_1_cg4eew.webp" />
+        <meta name="thumbnail:width" content="375" />
+        <meta name="thumbnail:height" content="400" /> 
         <SchemaOrg />
       </head>
       <body>
         <ResourcePreloader />
         <ServiceWorkerRegistration />
+        <DeferNonCriticalJS />
         <Providers>{children}</Providers>
       </body>
     </html>

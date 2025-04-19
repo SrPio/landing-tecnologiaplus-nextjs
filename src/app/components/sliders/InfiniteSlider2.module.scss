@@ -1,8 +1,13 @@
 .slider_container {
+  position: relative;
   width: 100%;
   overflow: hidden;
   padding: 20px 0;
-  position: relative;
+  
+  // Remove scrollbar
+  &::-webkit-scrollbar {
+    display: none;
+  }
 
   &::before, &::after {
     content: '';
@@ -103,32 +108,70 @@
   padding: 0 30px;
 }
 
-.slide {
+// Create masked edges on both sides
+.gradient_mask_left, .gradient_mask_right {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 150px; // Wider mask for better effect
+  z-index: 10;
+  pointer-events: none;
+}
+
+.gradient_mask_left {
+  left: 0;
+  background: linear-gradient(to right, white 20%, rgba(255, 255, 255, 0) 100%);
+}
+
+.gradient_mask_right {
+  right: 0;
+  background: linear-gradient(to left, white 20%, rgba(255, 255, 255, 0) 100%);
+}
+
+// Scrolling track with animation
+.slider_track {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  width: auto !important;
-  max-width: 150px;
+  gap: 30px;
+  width: max-content;
+  animation: scrollX linear infinite;
+  padding: 10px 0;
+  
+  &:hover {
+    animation-play-state: paused;
+  }
+}
+
+// Slide item
+.slide {
+  flex: 0 0 auto;
+  width: 150px;
   padding: 0 10px;
   
   img {
-    width: auto;
+    width: 100%;
     height: auto;
-    max-width: 100%;
-    max-height: 80px;
     object-fit: contain;
-    transition: transform 0.3s ease;
-    filter: grayscale(100%);
-    opacity: 0.7;
+    filter: grayscale(100%) opacity(0.7);
+    transition: filter 0.3s ease;
+    max-height: 80px;
     
     &:hover {
-      transform: scale(1.05);
-      filter: grayscale(0);
-      opacity: 1;
+      filter: grayscale(0%) opacity(1);
     }
   }
 }
 
+// Scrolling animation
+@keyframes scrollX {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+// Responsive adjustments
 @media (max-width: 768px) {
   .slider_container {
     .custom_nav,
@@ -143,8 +186,12 @@
     }
   }
   
+  .gradient_mask_left, .gradient_mask_right {
+    width: 100px;
+  }
+  
   .slide {
-    max-width: 130px;
+    width: 130px;
     
     img {
       max-height: 70px;

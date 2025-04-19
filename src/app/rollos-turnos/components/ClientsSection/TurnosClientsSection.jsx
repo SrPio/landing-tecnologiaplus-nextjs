@@ -8,11 +8,6 @@ import InfiniteSlider2 from "@/app/components/sliders/InfiniteSlider2";
 function TurnosClientsSection() {
   const { logosTurnos } = useLogos();
   
-  // Map logos to the format expected by InfiniteSlider2
-  const images = logosTurnos.map(logo => ({
-    url: logo.src,
-    alt: logo.alt
-  }));
 
   return (
     <section className={style.clients__section}>
@@ -22,7 +17,7 @@ function TurnosClientsSection() {
         ordenar la atención al cliente.
       </p>
       <div className={style.clients__container}>
-        <InfiniteSlider2 images={images} speed={5000} />
+        <InfiniteSlider2 logos={logosTurnos} speed={5000} />
       </div>
     </section>
   );

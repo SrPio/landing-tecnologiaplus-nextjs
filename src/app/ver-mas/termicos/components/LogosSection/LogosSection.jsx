@@ -8,18 +8,14 @@ function LogosSection() {
   const { logosTermicos } = useLogos();
   
   // Map logos to the format expected by InfiniteSlider2
-  const images = logosTermicos.map(logo => ({
-    url: logo.src,
-    alt: logo.alt
-  }));
-  
+
   return (
     <section className={styles.logossection__container}>
       <div className={styles.header}>
         <h2>Algunos clientes</h2>
       </div>
       <div className={styles.content}>
-        <InfiniteSlider2 images={images} speed={5000} />
+        <InfiniteSlider2 logos={logosTermicos} speed={5000} />
       </div>
     </section>
   );

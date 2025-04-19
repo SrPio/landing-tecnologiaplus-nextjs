@@ -7,19 +7,14 @@ import InfiniteSlider2 from "@/app/components/sliders/InfiniteSlider2";
 function LogosSection() {
   const { logosTurnosPresencial } = useLogos();
   
-  // Map logos to the format expected by InfiniteSlider2
-  const images = logosTurnosPresencial.map(logo => ({
-    url: logo.src,
-    alt: logo.alt
-  }));
-  
+ 
   return (
     <section className={styles.logossection__container}>
       <div className={styles.header}>
         <h2>Algunos clientes</h2>
       </div>
       <div className={styles.content}>
-        <InfiniteSlider2 images={images} speed={5000} />
+        <InfiniteSlider2 logos={logosTurnosPresencial} speed={5000} />
       </div>
     </section>
   );

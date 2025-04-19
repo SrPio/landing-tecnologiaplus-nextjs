@@ -1,13 +1,12 @@
 "use client";
 import React from "react";
 import style from "./LocalizadoresClientsSection.module.scss";
-import { useLogos } from "../../../context/LogosContext";
-
-import InfiniteSlider from "../../../components/sliders/InfiniteSlider";
+import InfiniteSlider from "@/app/components/sliders/InfiniteSlider";
+import { useLogos } from "@/app/context/LogosContext";
 
 function LocalizadoresClientsSection() {
   const { logosLocalizadores } = useLogos();
-
+  
   return (
     <section className={style.clients__section}>
       <h2 className={style.clients__title}>Algunos de nuestros clientes</h2>

@@ -13,8 +13,10 @@
     flex-wrap: nowrap;
     width: fit-content;
     will-change: transform;
-    transform: translateX(0);
+    transform: translateZ(0);
     backface-visibility: hidden;
+    animation: slide 50s linear infinite;
+    animation-play-state: running;
     contain: content;
     
     .logo_container {
@@ -39,6 +41,7 @@
         object-fit: contain;
         object-position: center;
         max-width: 150px;
+        height: auto;
         will-change: transform;
         transform: translateZ(0);
         backface-visibility: hidden;
@@ -74,6 +77,28 @@
         -moz-osx-font-smoothing: grayscale;
       }
     }
+  }
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Optimize animation for different screen sizes */
+@media (max-width: 768px) {
+  .loop__slide .slider_container {
+    animation-duration: 40s;
+  }
+}
+
+@media (max-width: 480px) {
+  .loop__slide .slider_container {
+    animation-duration: 30s;
   }
 }
 

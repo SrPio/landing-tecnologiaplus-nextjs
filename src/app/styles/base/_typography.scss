@@ -33,7 +33,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   @include fontFace('Montserrat', --font-montserrat, var(--font-system));
-  font-weight: 700;
+  font-weight: 900;
 }
 
 // Mobile-specific font optimizations
@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5, h6 {
   
   h1, h2, h3 {
     // Ensure headings are weighted properly on mobile
-    font-weight: 700 !important;
+    font-weight: 900 ;
   }
   
   // Improve text readability on mobile

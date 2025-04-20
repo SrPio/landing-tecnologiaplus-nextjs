@@ -20,7 +20,7 @@ function HowItWorks() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740670192/15_4x-8_3_s9x8p9.webp"
-            alt="imagen de pantalla de enfermera recibiendo el llamado"
+            alt="Personal de salud recibiendo el llamado por medio del reloj receptor"
           />
           <p>
             2. La enfermera recibe el <br className={styles.hide__on__mobile} />

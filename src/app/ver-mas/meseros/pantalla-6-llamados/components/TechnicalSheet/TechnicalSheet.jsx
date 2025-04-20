@@ -20,7 +20,7 @@ function TechnicalSheet() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740186438/6_4x-8_fayirq.webp"
-            alt="icono de alfanumerica"
+            alt="icono de alfanumérica"
           />
           <p>Alfanumérica</p>
         </div>
@@ -40,7 +40,7 @@ function TechnicalSheet() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739998010/icono_7_4x-8_gkqxdl.webp"
-            alt="Icono de conectividad y largo alcance"
+            alt="icono de conectividad y largo alcance"
           />
           <p>
             Recibe llamados de forma <br className={styles.hide__on__mobile} />

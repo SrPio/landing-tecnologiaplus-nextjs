@@ -9,7 +9,7 @@ function HowItWorks() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740671517/12_4x-8_2_qo19se.webp"
-            alt="imagen de paciente presionando el botón de llamado"
+            alt="Paciente presiona el botón para llamar al personal de salud"
           />
           <p>
             1. El paciente presiona el botón{" "}
@@ -21,7 +21,7 @@ function HowItWorks() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740671518/13_4x-8_4_snqnmr.webp"
-            alt="imagen de pantalla de enfermera recibiendo el llamado"
+            alt="El personal de salud visualiza el llamado del paciente por medio de la pantalla T6"
           />
           <p>
             2. La pantalla muestra el número de{" "}
@@ -33,7 +33,7 @@ function HowItWorks() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740671518/11_4x-8_2_asd27h.webp"
-            alt="imagen de enfermera atendiendo el llamado"
+            alt="Paciente recibiendo atención gracias al llamado"
           />
           <p>
             3. Se atiende el llamado y presiona la tecla{" "}

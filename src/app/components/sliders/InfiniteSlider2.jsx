@@ -48,24 +48,6 @@ const InfiniteSlider2 = ({ logos, images, speed = 5000, duration = 40, className
     }
   }, []);
   
-  // Animation styles that only apply client-side to avoid hydration mismatches
-  const trackStyle = isClient ? {
-    animationDuration: `${animationDuration}s`,
-    animationPlayState: !isInView || isHovered ? 'paused' : 'running',
-    animationName: 'scrollX',
-    animationTimingFunction: 'linear',
-    animationIterationCount: 'infinite',
-  } : {};
-
-  // Handle image loading error
-  const handleImageError = (e) => {
-    if (isClient) {
-      // Instead of hiding, show a placeholder color
-      e.target.style.opacity = '0.5';
-      e.target.style.background = '#f0f0f0';
-    }
-  };
-
   // Add animation keyframes dynamically to ensure they're available
   useEffect(() => {
     if (isClient) {
@@ -75,7 +57,8 @@ const InfiniteSlider2 = ({ logos, images, speed = 5000, duration = 40, className
       
       // Check if keyframes already exist
       for (let i = 0; i < styleSheet.cssRules.length; i++) {
-        if (styleSheet.cssRules[i].name === 'scrollX') {
+        if (styleSheet.cssRules[i].type === CSSRule.KEYFRAMES_RULE && 
+            styleSheet.cssRules[i].name === 'scrollX') {
           keyframesExist = true;
           break;
         }
@@ -96,17 +79,42 @@ const InfiniteSlider2 = ({ logos, images, speed = 5000, duration = 40, className
       }
     }
   }, [isClient]);
+  
+  // Determine if we should animate based on client state and viewport
+  const shouldAnimate = isClient && isInView && !isHovered;
+  
+  // Animation styles with proper fallbacks
+  const trackStyle = {
+    display: 'flex',
+    alignItems: 'center',
+    gap: '40px',
+    width: 'max-content',
+    padding: '10px 0',
+    willChange: 'transform',
+    transition: isHovered ? 'transform 0.2s ease' : 'none',
+    animation: shouldAnimate ? `scrollX ${animationDuration}s linear infinite` : 'none',
+  };
+
+  // Handle image loading error
+  const handleImageError = (e) => {
+    if (isClient) {
+      // Instead of hiding, show a placeholder color
+      e.target.style.opacity = '0.5';
+      e.target.style.background = '#f0f0f0';
+    }
+  };
 
   return (
     <div 
       ref={containerRef}
-      className={`${styles.slider_container} ${className || ''}`}
       style={{ 
         position: 'relative',
         width: '100%',
         overflow: 'hidden',
         padding: '20px 0',
-        margin: '10px 0'
+        margin: '10px 0',
+        WebkitUserSelect: 'none',
+        userSelect: 'none'
       }}
     >
       {/* Gradient masks for fading effect on edges */}
@@ -137,16 +145,9 @@ const InfiniteSlider2 = ({ logos, images, speed = 5000, duration = 40, className
       
       {/* Infinite scrolling track - only animate when in view */}
       <div 
-        className={styles.slider_track}
-        style={{
-          display: 'flex',
-          gap: '40px',
-          width: 'max-content',
-          padding: '10px 0',
-          ...trackStyle
-        }}
-        onMouseEnter={isClient ? () => setIsHovered(true) : undefined}
-        onMouseLeave={isClient ? () => setIsHovered(false) : undefined}
+        style={trackStyle}
+        onMouseEnter={() => setIsHovered(true)}
+        onMouseLeave={() => setIsHovered(false)}
       >
         {displayItems.map((item, index) => (
           <div 
@@ -154,7 +155,10 @@ const InfiniteSlider2 = ({ logos, images, speed = 5000, duration = 40, className
             style={{
               flex: '0 0 auto',
               width: '150px',
-              padding: '0 10px'
+              padding: '0 10px',
+              display: 'flex',
+              justifyContent: 'center',
+              alignItems: 'center'
             }}
           >
             <img 
@@ -172,6 +176,12 @@ const InfiniteSlider2 = ({ logos, images, speed = 5000, duration = 40, className
                 filter: 'grayscale(100%) opacity(0.7)',
                 transition: 'filter 0.3s ease',
                 maxHeight: '80px'
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.filter = 'grayscale(0%) opacity(1)';
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.filter = 'grayscale(100%) opacity(0.7)';
               }}
             />
           </div>

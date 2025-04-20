@@ -18,7 +18,7 @@ const YouTubePlayer = ({ videoId, title }) => {
     : videoId;
   
   // Privacy-enhanced embed URL with additional parameters for better appearance
-  const embedUrl = `https://www.youtube-nocookie.com/embed/${extractedVideoId}?rel=0&modestbranding=1&showinfo=0`;
+  const embedUrl = `https://www.youtube-nocookie.com/embed/${extractedVideoId}?rel=0&modestbranding=1&showinfo=0&enablejsapi=0`;
 
   const handleConsent = () => {
     setConsent(true);
@@ -30,11 +30,11 @@ const YouTubePlayer = ({ videoId, title }) => {
         <div className={styles.thumbnailContainer} onClick={handleConsent}>
           <picture>
             <source 
-              srcSet={`https://img.youtube.com/vi/${extractedVideoId}/maxresdefault.jpg`} 
+              srcSet={`https://i.ytimg.com/vi/${extractedVideoId}/maxresdefault.jpg`} 
               type="image/jpeg" 
             />
             <img 
-              src={`https://img.youtube.com/vi/${extractedVideoId}/hqdefault.jpg`}
+              src={`https://i.ytimg.com/vi/${extractedVideoId}/hqdefault.jpg`}
               alt="Vista previa del video"
               className={styles.thumbnail}
               loading="lazy"
@@ -60,8 +60,8 @@ const YouTubePlayer = ({ videoId, title }) => {
           src={embedUrl}
           title={title || "YouTube video player"}
           frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerPolicy="strict-origin-when-cross-origin"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          referrerPolicy="no-referrer"
           loading="lazy"
           allowFullScreen
         ></iframe>

@@ -2,6 +2,7 @@
 "use client";
 import React, { useEffect, useState, useRef, useCallback } from 'react';
 import styles from './InfiniteSlider2.module.scss';
+import OptimizedImage from '../OptimizedImage/OptimizedImage';
 
 const InfiniteSlider2 = ({ logos, images, speed = 5000, duration = 40, className }) => {
   // For backwards compatibility, handle both logos and images props
@@ -69,18 +70,12 @@ const InfiniteSlider2 = ({ logos, images, speed = 5000, duration = 40, className
       >
         {normalizedItems.map((item, index) => (
           <div key={`slide-${index}`} className={styles.slide}>
-            <img 
+            <OptimizedImage 
               src={item.src} 
               alt={item.alt || 'Client logo'} 
               loading="lazy"
-              width="150"
-              height="60"
-              decoding="async"
-              onError={(e) => {
-                if (isClient) {
-                  e.target.style.display = 'none';
-                }
-              }}
+              width={150}
+              height={60}
             />
           </div>
         ))}

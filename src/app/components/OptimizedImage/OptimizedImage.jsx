@@ -1,11 +1,12 @@
 "use client";
 
 import { useState, useEffect } from 'react';
-import styles from './OptimizedImage.module.scss';
+import { extractDimensionsFromUrl, optimizeCloudinaryUrl } from '../../utils/imageUtils';
+import styles from './OptimizedImage.module.css';
 
 /**
- * OptimizedImage component that provides better performance and accessibility
- * for images throughout the site
+ * OptimizedImage component for better performance and dimensions management
+ * This addresses LCP issues, aspect ratio problems, and adds proper dimensions
  */
 const OptimizedImage = ({
   src,
@@ -13,67 +14,87 @@ const OptimizedImage = ({
   width,
   height,
   className,
-  loading = "lazy",
   priority = false,
-  sizes,
-  style,
+  loading = 'lazy',
+  sizes = '(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw',
+  style = {},
   ...props
 }) => {
-  // Start with the original src to match server rendering
-  const [imgSrc, setImgSrc] = useState(src || '');
-  const isCloudinary = src && typeof src === 'string' && src.includes && src.includes('res.cloudinary.com');
+  // State to manage image source after optimization
+  const [imgSrc, setImgSrc] = useState(src);
+  const [isLoaded, setIsLoaded] = useState(false);
+  const [dimensions, setDimensions] = useState({ width, height });
+  const isCloudinary = src && typeof src === 'string' && src.includes('res.cloudinary.com');
   
-  // Calculate aspect ratio string in consistent format
-  const aspectRatio = width && height ? `${width} / ${height}` : undefined;
-  
-  // Get optimized version of image if it's from Cloudinary, but only after hydration
+  // Detect image dimensions and optimize Cloudinary URLs after hydration
   useEffect(() => {
-    // Skip optimization for initial render to avoid hydration mismatch
-    if (isCloudinary && !src.includes('/f_auto,q_auto')) {
-      // Wait a bit after hydration to apply optimization
+    // Skip processing for initial render to prevent hydration mismatches
+    if (isCloudinary) {
+      // If dimensions aren't explicitly provided, try to extract from URL
+      if ((!width || !height) && src) {
+        const extractedDimensions = extractDimensionsFromUrl(src);
+        if (extractedDimensions.width && extractedDimensions.height) {
+          setDimensions(extractedDimensions);
+        }
+      }
+      
+      // Apply optimization only after hydration
       const timer = setTimeout(() => {
-        // Add format auto and quality auto parameters if not already present
-        const optimizedSrc = src.replace(/\/upload\//, '/upload/f_auto,q_auto/');
+        // Optimize the image URL if it's from Cloudinary
+        const optimizedSrc = optimizeCloudinaryUrl(
+          src, 
+          dimensions.width || width, 
+          dimensions.height || height
+        );
         setImgSrc(optimizedSrc);
-      }, 500); // Small delay to ensure hydration is complete
+      }, 500);
       
       return () => clearTimeout(timer);
     }
-  }, [src, isCloudinary]);
-
-  // Enforce width and height to prevent layout shifts
-  const imgWidth = width || 300;
-  const imgHeight = height || 200;
-
-  // Determine appropriate loading strategy
-  const imgLoading = priority ? "eager" : loading;
-  const imgFetchPriority = priority ? "high" : "auto";
+  }, [src, isCloudinary, width, height, dimensions]);
   
-  // Handle image loading error
-  const handleError = () => {
+  // Handle successful image load
+  const handleImageLoad = () => {
+    setIsLoaded(true);
+  };
+  
+  // Handle image error by falling back to original source
+  const handleImageError = () => {
     if (imgSrc !== src) {
-      setImgSrc(src || ''); // Fallback to original source if optimization fails
+      setImgSrc(src); // Fallback to original
     }
   };
   
-  // Construct style object consistently
-  const imageStyle = {
-    ...(style || {}),
-    aspectRatio: aspectRatio
+  // Ensure we have some dimensions to prevent layout shifts
+  const finalWidth = dimensions.width || width || 300;
+  const finalHeight = dimensions.height || height || 200;
+  
+  // Calculate aspect ratio for the style
+  const aspectRatio = finalWidth && finalHeight ? `${finalWidth} / ${finalHeight}` : undefined;
+  
+  // Determine loading strategy
+  const loadingAttr = priority ? 'eager' : loading;
+  const fetchPriority = priority ? 'high' : 'auto';
+  
+  // Combine styles
+  const combinedStyle = {
+    ...style,
+    aspectRatio
   };
   
   return (
     <img
       src={imgSrc}
       alt={alt || ''}
-      width={imgWidth}
-      height={imgHeight}
-      className={`${styles.optimizedImage} ${className || ''}`}
-      loading={imgLoading}
-      fetchPriority={imgFetchPriority}
-      sizes={sizes || '(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw'}
-      style={imageStyle}
-      onError={handleError}
+      width={finalWidth}
+      height={finalHeight}
+      loading={loadingAttr}
+      fetchPriority={fetchPriority}
+      sizes={sizes}
+      className={`${styles.optimizedImage} ${isLoaded ? styles.loaded : styles.loading} ${className || ''}`}
+      style={combinedStyle}
+      onLoad={handleImageLoad}
+      onError={handleImageError}
       {...props}
     />
   );

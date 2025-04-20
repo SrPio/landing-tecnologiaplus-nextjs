@@ -1,19 +1,32 @@
-import React, { useState, useEffect } from 'react';
+'use client';
+
+import React, { useState, useEffect, memo } from 'react';
 import styles from './YouTubePlayer.module.css';
 
-const YouTubePlayer = ({ videoId }) => {
+/**
+ * Privacy-focused YouTube embed component
+ * Uses a two-step approach to prevent third-party cookies:
+ * 1. Shows a static thumbnail with play button (no YouTube cookies)
+ * 2. Only loads YouTube iframe after explicit user consent
+ */
+const YouTubePlayer = ({ videoId, title }) => {
   const [consent, setConsent] = useState(false);
   const [loaded, setLoaded] = useState(false);
   const [thumbnailLoaded, setThumbnailLoaded] = useState(false);
   const [useBackupThumbnail, setUseBackupThumbnail] = useState(false);
 
+  // Extract video ID if a full URL was provided
+  const extractedVideoId = videoId.includes && (videoId.includes('youtube.com') || videoId.includes('youtu.be'))
+    ? videoId.split(/[\/=]/g).pop()
+    : videoId;
+
   // Highest quality thumbnail URL
   const thumbnailUrl = !useBackupThumbnail 
-    ? `https://i.ytimg.com/vi/${videoId}/maxresdefault.jpg`
-    : `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`;
+    ? `https://i.ytimg.com/vi/${extractedVideoId}/maxresdefault.jpg`
+    : `https://i.ytimg.com/vi/${extractedVideoId}/hqdefault.jpg`;
 
   // Privacy-enhanced embed URL with minimal parameters to block tracking
-  const embedUrl = `https://www.youtube-nocookie.com/embed/${videoId}?rel=0&modestbranding=1&enablejsapi=0&color=white&disablekb=1&hl=es`;
+  const embedUrl = `https://www.youtube-nocookie.com/embed/${extractedVideoId}?rel=0&modestbranding=1&enablejsapi=0`;
 
   // Handle high-quality thumbnail load error
   const handleThumbnailError = () => {
@@ -46,7 +59,7 @@ const YouTubePlayer = ({ videoId }) => {
           {thumbnailLoaded && (
             <img 
               src={thumbnailUrl}
-              alt="Vista previa del video"
+              alt={title || "Vista previa del video"}
               className={styles.youtubeThumbnail}
               width="640"
               height="360"
@@ -68,10 +81,10 @@ const YouTubePlayer = ({ videoId }) => {
         <iframe
           className={styles.youtubeIframe}
           src={embedUrl}
-          title="YouTube video player"
+          title={title || "YouTube video player"}
           frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerPolicy="no-referrer-when-downgrade"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          referrerPolicy="no-referrer"
           loading="lazy"
           width="640"
           height="360"
@@ -82,4 +95,5 @@ const YouTubePlayer = ({ videoId }) => {
   );
 };
 
-export default YouTubePlayer; 
+// Memoize the component to prevent unnecessary re-renders
+export default memo(YouTubePlayer); 

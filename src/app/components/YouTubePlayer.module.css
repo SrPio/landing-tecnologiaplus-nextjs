@@ -1,11 +1,12 @@
 .youtubeContainer {
   position: relative;
-  width: 40vw; /* Matches the width you specified */
-  height: 22vw; /* Maintains 16:9 aspect ratio */
+  width: 100%;  
+  aspect-ratio: 16 / 9;
   overflow: hidden;
   cursor: pointer;
   border-radius: 12px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  background-color: #000;
 }
 
 .thumbnailContainer {
@@ -18,6 +19,7 @@
   overflow: hidden;
   border-radius: 12px;
   background-color: #000;
+  transition: transform 0.3s ease;
 }
 
 .youtubeThumbnail {
@@ -52,7 +54,6 @@
   padding: 15px;
   background: linear-gradient(0deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 100%);
   color: white;
-  font-family: var(--font-primary);
   font-weight: 600;
   font-size: 1rem;
   text-align: center;
@@ -80,11 +81,6 @@
 
 /* Responsive adjustments */
 @media (max-width: 1024px) {
-  .youtubeContainer {
-    width: 85vw; 
-    height: 50vw;
-  }
-  
   .playButton {
     width: 60px;
     height: 42px;

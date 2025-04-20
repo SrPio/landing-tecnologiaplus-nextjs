@@ -1,18 +1,43 @@
+'use client';
+
+import { useEffect, useState } from 'react';
 import style from "./VideoSection.module.scss";
+import dynamic from 'next/dynamic';
+
+// Import YouTubePlayer with dynamic import to improve initial load time
+const YouTubePlayer = dynamic(() => import("../../../../components/YouTubePlayer"), {
+  loading: () => <VideoPlaceholder />
+});
+
+// Responsive loading placeholder component
+function VideoPlaceholder() {
+  return (
+    <div className={style.video__placeholder}>
+      <span>Cargando video...</span>
+    </div>
+  );
+}
 
 function VideoSection() {
+  // State to track mounting of component
+  const [isMounted, setIsMounted] = useState(false);
+  
+  // Set mounted state after hydration
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
+
   return (
     <section className={style.video__section}>
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/XGGhLks0iVc?si=8v7bSNs0cWdSTcSG"
-        title="YouTube video player"
-        frameBorder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerPolicy="strict-origin-when-cross-origin"
-        allowFullScreen
-      ></iframe>
+      <div className={style.video__container}>
+        {isMounted && (
+          <YouTubePlayer
+            videoId="XGGhLks0iVc"
+            title="Llamadores de Meseros - Tecnología Plus"
+          />
+        )}
+        {!isMounted && <VideoPlaceholder />}
+      </div>
 
       <div className={style.text__container}>
         <h2 className={style.benefits__title}>SOMOS FABRICANTES</h2>

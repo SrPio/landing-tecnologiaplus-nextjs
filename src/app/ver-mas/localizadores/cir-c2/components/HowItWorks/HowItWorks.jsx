@@ -21,7 +21,7 @@ function HowItWorks() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741011138/13_4x-8_7_jzd9lo.webp"
-            alt="Asesor realiza el llamado del cliente por medio del control numerico"
+            alt="Asesor realiza el llamado del cliente por medio del control numérico"
           />
           <p>
             2. Cuando el pedido está listo, digita{" "}

@@ -21,13 +21,13 @@ function TechnicalSheet() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740254435/8_4x-8_ppgjyp.webp"
-            alt="icono de alfanumerica"
+            alt="icono de alfanumérica"
             className={styles.img__desktop}
           />
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743521161/NUEVO_4_4x-8_b40dgi.webp"
-            alt="icono de alfanumerica"
+            alt="icono de alfanumérica"
             className={styles.img__mobile}
           />
           <p>Alfanumérica</p>
@@ -48,7 +48,7 @@ function TechnicalSheet() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739998010/icono_7_4x-8_gkqxdl.webp"
-            alt="icono de conectividad y largo alcance"
+            alt="icono de antena"
           />
           <p>
             Recibe los llamados <br className={styles.hide__on__mobile} />

@@ -21,7 +21,7 @@ function TechnicalSheet() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739998010/icono_7_4x-8_gkqxdl.webp"
-            alt="icono de conectividad y largo alcance"
+            alt="icono de antena"
           />
           <p>
             Rango: hasta 100m o más <br className={styles.hide__on__mobile} />
@@ -54,7 +54,7 @@ function TechnicalSheet() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740254426/11_4x-8_tfnsac.webp"
-            alt="icono de caseta de llamado"
+            alt="icono caseta"
           />
           <p>
             Uso: en lugares para llamar{" "}

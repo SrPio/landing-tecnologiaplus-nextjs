@@ -1,4 +1,5 @@
 import style from "./LlamadorMeserosSecondaryProductsSection.module.scss";
+import YouTubePlayer from '@/components/YouTubePlayer';
 
 function LlamadorMeserosSecondaryProductsSection() {
   return (
@@ -154,16 +155,10 @@ function LlamadorMeserosSecondaryProductsSection() {
           >
             <div className={style.card__video}>
               <p>Así de fácil es mejorar la atención en tu restaurante.</p>
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/uXfDzZuoym4?si=2rqKuCI7mCsD2fgo"
-                title="YouTube video player"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerPolicy="strict-origin-when-cross-origin"
-                allowFullScreen
-              ></iframe>
+              <YouTubePlayer
+                videoId="uXfDzZuoym4"
+                title="Así de fácil es mejorar la atención en tu restaurante"
+              />
             </div>
 
             <div className={style.card__video}>
@@ -171,30 +166,18 @@ function LlamadorMeserosSecondaryProductsSection() {
                 Personal más alerta, facilita el llamado de meseros desde la
                 cocina.
               </p>
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/XevVCpp6Drc?si=JjbC36iw4KZHT8p8"
-                title="YouTube video player"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerPolicy="strict-origin-when-cross-origin"
-                allowFullScreen
-              ></iframe>
+              <YouTubePlayer
+                videoId="XevVCpp6Drc"
+                title="Personal más alerta, facilita el llamado de meseros desde la cocina"
+              />
             </div>
 
             <div className={style.card__video}>
               <p>Un solo toque y el número de mesa aparece en pantalla.</p>
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/9CPZ2QoFyqM?si=Pmy0UayPdUdqOxF1"
-                title="YouTube video player"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerPolicy="strict-origin-when-cross-origin"
-                allowFullScreen
-              ></iframe>
+              <YouTubePlayer
+                videoId="9CPZ2QoFyqM"
+                title="Un solo toque y el número de mesa aparece en pantalla"
+              />
             </div>
           </div>
         </div>

@@ -1,4 +1,5 @@
 import style from "./LocalizadoresSecondaryProductsSection.module.scss";
+import YouTubePlayer from '@/components/YouTubePlayer';
 
 function LocalizadoresSecondaryProductsSection() {
   return (
@@ -63,30 +64,18 @@ function LocalizadoresSecondaryProductsSection() {
           >
             <div className={style.card__video}>
               <p>Rec V3 - Localizadores para restaurantes</p>
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/aB7FLAPCCJ8?si=COqYK2Ftu2pBov47"
-                title="YouTube video player"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerPolicy="strict-origin-when-cross-origin"
-                allowFullScreen
-              ></iframe>
+              <YouTubePlayer
+                videoId="aB7FLAPCCJ8"
+                title="Rec V3 - Localizadores para restaurantes"
+              />
             </div>
 
             <div className={style.card__video}>
               <p>Cir C2 - Localizadores para restaurantes</p>
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/b2nlu7sOlcI?si=4sszI32LRP3rQTlP"
-                title="YouTube video player"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerPolicy="strict-origin-when-cross-origin"
-                allowFullScreen
-              ></iframe>
+              <YouTubePlayer
+                videoId="b2nlu7sOlcI"
+                title="Cir C2 - Localizadores para restaurantes"
+              />
             </div>
           </div>
         </div>

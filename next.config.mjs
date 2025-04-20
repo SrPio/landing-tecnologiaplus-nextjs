@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
   compress: true,
-  productionBrowserSourceMaps: false,
+  productionBrowserSourceMaps: true,
   // Disable source maps in development to prevent errors
   devtool: false,
   images: {
@@ -21,9 +21,11 @@ const nextConfig = {
   },
   // Enhanced webpack configuration for optimizing JavaScript bundles
   webpack: (config, { isServer, dev }) => {
-    // Disable source maps in development to prevent errors
+    // Only disable source maps in development, enable in production
     if (dev) {
       config.devtool = false;
+    } else {
+      config.devtool = 'source-map';
     }
     
     // Only run optimizations in production builds
@@ -120,7 +122,7 @@ const nextConfig = {
           },
           {
             key: 'Content-Security-Policy',
-            value: "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.google-analytics.com; img-src 'self' data: https:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com; connect-src 'self' https://www.google-analytics.com; frame-src https://www.youtube-nocookie.com https://www.youtube.com;",
+            value: "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.google-analytics.com; img-src 'self' data: https: https://img.youtube.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com; connect-src 'self' https://www.google-analytics.com; frame-src https://www.youtube-nocookie.com https://www.youtube.com;",
           },
         ],
       },

@@ -1,61 +1,71 @@
 // components/sliders/InfiniteSlider2.js
 "use client";
-import React from "react";
+import React, { useEffect, useState, useRef } from 'react';
 import styles from './InfiniteSlider2.module.scss';
 
 const InfiniteSlider2 = ({ logos, images, speed = 5000, duration = 40, className }) => {
-  // Handle both images and logos props for backward compatibility
-  const itemsToDisplay = logos || images || [];
+  // For backwards compatibility, handle both logos and images props
+  const items = logos || images || [];
   
-  // Convert speed to duration if duration is not specified
-  const animationDuration = duration || Math.max(20, Math.min(60, speed / 100));
+  // Calculate animation duration - faster speed = lower duration
+  // This gives us better control over animation speed
+  const animationDuration = duration || (items.length > 0 ? 40 : 0); 
+
+  // State to track window width for responsive behavior
+  const [windowWidth, setWindowWidth] = useState(0);
+  const sliderTrackRef = useRef(null);
   
-  // Ensure we have enough logos/images for continuous scrolling
-  const enhancedItems = [...itemsToDisplay];
+  // Track when mouse is over the slider to pause animation
+  const [isHovered, setIsHovered] = useState(false);
+
+  // Handle window resize
+  useEffect(() => {
+    const handleResize = () => setWindowWidth(window.innerWidth);
+    
+    // Set initial window width
+    handleResize();
+    
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
   
-  // If we need more items for a seamless experience, duplicate them
-  if (itemsToDisplay.length < 10) {
-    const duplicationsNeeded = Math.ceil(10 / itemsToDisplay.length);
-    for (let i = 1; i < duplicationsNeeded; i++) {
-      enhancedItems.push(...itemsToDisplay);
-    }
-  }
+  // Ensure we have enough items for continuous scrolling
+  const normalizedItems = items.length >= 5 ? items : [...items, ...items, ...items, ...items];
+  
+  // Dynamic styles for animation duration
+  const trackStyle = {
+    animationDuration: `${animationDuration}s`,
+    animationPlayState: isHovered ? 'paused' : 'running'
+  };
 
   return (
     <div className={`${styles.slider_container} ${className || ''}`}>
-      {/* Left gradient mask */}
-      <div className={styles.gradient_mask_left}></div>
+      {/* Gradient masks for fading effect on edges */}
+      <div className={styles.gradient_mask_left} />
+      <div className={styles.gradient_mask_right} />
       
-      {/* Infinite scrolling container */}
-      <div className={styles.slider_track} style={{ animationDuration: `${animationDuration}s` }}>
-        {enhancedItems.map((item, index) => (
-          <div key={`logo-${index}`} className={styles.slide}>
+      {/* Infinite scrolling track */}
+      <div 
+        className={styles.slider_track} 
+        style={trackStyle}
+        ref={sliderTrackRef}
+        onMouseEnter={() => setIsHovered(true)}
+        onMouseLeave={() => setIsHovered(false)}
+      >
+        {normalizedItems.map((item, index) => (
+          <div key={`${item.alt}-${index}`} className={styles.slide}>
             <img 
-              src={item.src || item.url} 
-              alt={item.alt || 'Company logo'} 
+              src={item.src} 
+              alt={item.alt || 'Client logo'} 
               loading="lazy"
-              width={150}
-              height="auto"
-            />
-          </div>
-        ))}
-        
-        {/* Duplicate the items for infinite effect */}
-        {enhancedItems.map((item, index) => (
-          <div key={`logo-duplicate-${index}`} className={styles.slide}>
-            <img 
-              src={item.src || item.url} 
-              alt={item.alt || 'Company logo'} 
-              loading="lazy"
-              width={150}
-              height="auto"
+              onError={(e) => {
+                e.target.style.display = 'none';
+                console.warn(`Failed to load image: ${item.src}`);
+              }}
             />
           </div>
         ))}
       </div>
-      
-      {/* Right gradient mask */}
-      <div className={styles.gradient_mask_right}></div>
     </div>
   );
 };

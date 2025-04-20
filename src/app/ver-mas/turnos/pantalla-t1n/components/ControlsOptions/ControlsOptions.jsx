@@ -43,7 +43,7 @@ function ControlsOptions() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740076454/control_4x-8_xsgy4z.webp"
-            alt="pantalla del control mostrando el teclado y el turno"
+            alt="imagen de pantalla mostrando el número de turno"
           />
           <div>
             <h3>Control con números</h3>
@@ -61,7 +61,7 @@ function ControlsOptions() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743774372/control_industrial_4x-8_shia0y.webp"
-            alt="control en forma de botón verde"
+            alt="imagen de control"
           />
           <div>
             <h3>Control industrial</h3>

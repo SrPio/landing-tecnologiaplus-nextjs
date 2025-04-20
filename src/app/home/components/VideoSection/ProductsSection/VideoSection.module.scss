@@ -9,7 +9,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
 
   @include respond-to-max("laptop") {
     font-size: 1.2rem;
@@ -20,11 +19,10 @@
   }
 
   video,
-  iframe,
-  > div {
-    z-index: 1;
-    width: 560px !important;
-    height: 315px !important;
+  iframe {
+    z-index: 3;
+    width: 40vw;
+    height: 22vw;
     /* max-height: 400px; */
     border-radius: 20px;
     -webkit-border-radius: 20px;
@@ -33,32 +31,16 @@
     -o-border-radius: 20px;
 
     @include respond-to-max("laptop") {
-      width: 85vw !important;
-      height: 50vw !important;
+      width: 85vw;
+      height: 50vw;
       order: 2;
 
-      margin-top: -5vw;
-    }
-  }
-
-  // Apply styles directly to YouTubePlayer component
-  :global(.youtubeContainer) {
-    width: 560px !important;
-    height: 315px !important;
-    z-index: 1;
-    border-radius: 20px;
-    overflow: hidden;
-
-    @include respond-to-max("laptop") {
-      width: 85vw !important;
-      height: 50vw !important;
-      order: 2;
       margin-top: -5vw;
     }
   }
 
   .text__container {
-    z-index: 2;
+    z-index: 1;
     background-color: #fff;
     height: 25vw;
     padding: 4rem 4rem 4rem 6rem;
@@ -76,7 +58,6 @@
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
-    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
 
     @include respond-to-max("laptop") {
       width: 90vw;

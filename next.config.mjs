@@ -4,8 +4,6 @@ const nextConfig = {
   poweredByHeader: false,
   compress: true,
   productionBrowserSourceMaps: true,
-  // Disable source maps in development to prevent errors
-  devtool: false,
   images: {
     formats: ['image/avif', 'image/webp'],
     remotePatterns: [
@@ -21,13 +19,6 @@ const nextConfig = {
   },
   // Enhanced webpack configuration for optimizing JavaScript bundles
   webpack: (config, { isServer, dev }) => {
-    // Only disable source maps in development, enable in production
-    if (dev) {
-      config.devtool = false;
-    } else {
-      config.devtool = 'source-map';
-    }
-    
     // Only run optimizations in production builds
     if (!dev) {
       // Split chunks more aggressively

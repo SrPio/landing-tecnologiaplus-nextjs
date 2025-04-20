@@ -104,12 +104,16 @@ export default function RootLayout({ children }) {
         <link rel="dns-prefetch" href="https://tecnologiaplus.com" />
         <link rel="dns-prefetch" href="https://res.cloudinary.com" />
         <link rel="preconnect" href="https://res.cloudinary.com" crossOrigin="anonymous" />
+        <link rel="preload" as="image" href="https://res.cloudinary.com/ddqh0mkx9/image/upload/f_auto,q_auto,w_800/v1744781156/Imagen_portada_4x-8_dfrjjg_1_cg4eew.webp" />
         <link rel="manifest" href="/manifest.json" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         {/* Dimension hints for critical LCP images to avoid layout shifts */}
-        <meta name="thumbnail" content="https://res.cloudinary.com/ddqh0mkx9/image/upload/f_auto,q_auto/v1744781156/Imagen_portada_4x-8_dfrjjg_1_cg4eew.webp" />
+        <meta name="thumbnail" content="https://res.cloudinary.com/ddqh0mkx9/image/upload/f_auto,q_auto,w_800/v1744781156/Imagen_portada_4x-8_dfrjjg_1_cg4eew.webp" />
         <meta name="thumbnail:width" content="375" />
         <meta name="thumbnail:height" content="400" /> 
+        {/* Add image-optimization-policy to disable automatic YouTube cookie consent */}
+        <meta httpEquiv="Feature-Policy" content="autoplay 'none'; camera 'none'; microphone 'none'; geolocation 'none'" />
+        <meta httpEquiv="Permissions-Policy" content="interest-cohort=()" />
         <SchemaOrg />
       </head>
       <body>

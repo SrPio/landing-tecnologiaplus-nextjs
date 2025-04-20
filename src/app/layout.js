@@ -6,6 +6,7 @@ import ResourcePreloader from './components/ResourcePreloader';
 import DeferNonCriticalJS from './components/DeferNonCriticalJS';
 import SchemaOrg from '../components/SchemaOrg';
 import ServiceWorkerRegistration from './components/ServiceWorkerRegistration';
+import ScriptLoader from './components/ScriptLoader';
 
 // Optimize fonts
 const inter = Inter({
@@ -90,6 +91,11 @@ export const metadata = {
   }
 };
 
+/**
+ * Root layout component
+ * Note: For optimal performance, use the OptimizedImage component from './components/OptimizedImage'
+ * for all image elements in the application, especially for Cloudinary images.
+ */
 export default function RootLayout({ children }) {
   return (
     <html lang="es" className={`${inter.variable} ${montserrat.variable} ${bebasNeue.variable}`}>
@@ -106,12 +112,22 @@ export default function RootLayout({ children }) {
         <meta name="thumbnail:width" content="375" />
         <meta name="thumbnail:height" content="400" /> 
         <SchemaOrg />
+        <link
+          rel="preload"
+          href="/css/6d6a705a94d5fa5d.css"
+          as="style"
+        />
       </head>
       <body>
         <ResourcePreloader />
         <ServiceWorkerRegistration />
         <DeferNonCriticalJS />
         <Providers>{children}</Providers>
+        <ScriptLoader 
+          src="/chunks/npm..pnpm-af747a0d980182f6.js" 
+          strategy="defer" 
+          id="vendor-js"
+        />
       </body>
     </html>
   );

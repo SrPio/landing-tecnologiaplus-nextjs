@@ -8,31 +8,16 @@ const nextConfig = {
   devtool: false,
   images: {
     formats: ['image/avif', 'image/webp'],
-    deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048],
-    imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
-    minimumCacheTTL: 60,
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'tecnologiaplus.com',
-        pathname: '/**',
-      },
-      {
-        protocol: 'https',
-        hostname: 'img.youtube.com',
-        pathname: '/**',
-      },
-      {
-        protocol: 'https',
-        hostname: 'i.ytimg.com',
-        pathname: '/**',
-      },
-      {
-        protocol: 'https',
         hostname: 'res.cloudinary.com',
-        pathname: '/**',
+        pathname: '**',
       },
     ],
+    deviceSizes: [320, 640, 750, 828, 1080, 1200, 1920, 2048],
+    imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
+    minimumCacheTTL: 60 * 60 * 24 * 7, // 1 week
   },
   // Enhanced webpack configuration for optimizing JavaScript bundles
   webpack: (config, { isServer, dev }) => {
@@ -84,6 +69,25 @@ const nextConfig = {
         },
       };
     }
+
+    const fileLoaderRule = config.module.rules.find(
+      (rule) => rule.test?.test?.('.svg'),
+    );
+
+    config.module.rules.push(
+      {
+        ...fileLoaderRule,
+        test: /\.svg$/i,
+        resourceQuery: /url/,
+      },
+      {
+        test: /\.svg$/i,
+        issuer: fileLoaderRule.issuer,
+        resourceQuery: { not: [...(fileLoaderRule.resourceQuery?.not || []), /url/] },
+        use: ['@svgr/webpack'],
+      },
+    );
+
     return config;
   },
   experimental: {

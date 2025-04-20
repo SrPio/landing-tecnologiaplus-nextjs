@@ -24,7 +24,7 @@ function TechnicalSheet() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739998010/icono_7_4x-8_gkqxdl.webp"
-            alt="Icono de conectividad y largo alcance"
+            alt="icono de conectividad y largo alcance"
           />
           <p>
             Largo Alcance, más de <br className={styles.hide__on__mobile} />
@@ -60,7 +60,7 @@ function TechnicalSheet() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740254426/11_4x-8_tfnsac.webp"
-            alt="icono caseta"
+            alt="icono de negocio"
           />
           <p>
             Tipos de USO: <br className={styles.hide__on__mobile} />

@@ -48,7 +48,7 @@ function TechnicalSheet() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739998010/icono_7_4x-8_gkqxdl.webp"
-            alt="Icono de conectividad y largo alcance"
+            alt="icono de conectividad y largo alcance"
           />
           <p>
             Recibe los llamados <br className={styles.hide__on__mobile} />

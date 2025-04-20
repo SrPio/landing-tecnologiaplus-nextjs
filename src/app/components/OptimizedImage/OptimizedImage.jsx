@@ -78,9 +78,22 @@ const OptimizedImage = ({
   
   // Combine styles
   const combinedStyle = {
+    display: 'block',
+    maxWidth: '100%',
+    height: 'auto',
+    transition: 'opacity 0.3s ease-in-out, filter 0.3s ease-in-out',
+    opacity: isLoaded ? 1 : 0.8,
+    filter: isLoaded ? 'blur(0)' : 'blur(5px)',
     ...style,
     aspectRatio
   };
+  
+  // Set a CSS class string that handles missing module classes
+  const cssClasses = [
+    styles.optimizedImage || '',
+    isLoaded ? (styles.loaded || '') : (styles.loading || ''),
+    className || ''
+  ].filter(Boolean).join(' ');
   
   return (
     <img
@@ -91,7 +104,7 @@ const OptimizedImage = ({
       loading={loadingAttr}
       fetchPriority={fetchPriority}
       sizes={sizes}
-      className={`${styles.optimizedImage} ${isLoaded ? styles.loaded : styles.loading} ${className || ''}`}
+      className={cssClasses || undefined}
       style={combinedStyle}
       onLoad={handleImageLoad}
       onError={handleImageError}

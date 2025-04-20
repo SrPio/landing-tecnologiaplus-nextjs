@@ -8,7 +8,7 @@ function ProductsSection() {
         <img
           loading="lazy"
           src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349920/image-1_1_ljyxis_qdsmdq.webp"
-          alt=" Rollos térmicos blancos"
+          alt="Rollos Térmicos blancos"
         />
         <img
           loading="lazy"

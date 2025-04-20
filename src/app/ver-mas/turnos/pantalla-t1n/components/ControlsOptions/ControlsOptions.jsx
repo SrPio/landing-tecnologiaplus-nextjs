@@ -9,7 +9,7 @@ function ControlsOptions() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740076453/control_1_4x-8_irysjd.webp"
-            alt="imagen de Control de 1 tecla"
+            alt="Control de 1 tecla"
           />
           <div>
             <h3>Control de 1 tecla</h3>
@@ -26,7 +26,7 @@ function ControlsOptions() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740076445/contro_4x-8_esbfwc.webp"
-            alt="imagen de Control de 2 teclas"
+            alt="Control de 2 teclas"
           />
           <div>
             <h3>Control de 2 teclas</h3>
@@ -43,7 +43,7 @@ function ControlsOptions() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740076454/control_4x-8_xsgy4z.webp"
-            alt="imagen de pantalla mostrando el número de turno"
+            alt="Control de números con visualización del turno"
           />
           <div>
             <h3>Control con números</h3>
@@ -61,7 +61,7 @@ function ControlsOptions() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743774372/control_industrial_4x-8_shia0y.webp"
-            alt="imagen de control"
+            alt="Botón de llamado de turno"
           />
           <div>
             <h3>Control industrial</h3>

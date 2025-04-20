@@ -28,7 +28,7 @@ function TechnicalSheet() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741021763/14_4x-8_7_hshabf.webp"
-            alt="icono de pantalla de dígitos"
+            alt="Icono de números de turno blanco"
           />
           <p>
             Pantalla de <br className={styles.hide__on__mobile} />
@@ -39,7 +39,7 @@ function TechnicalSheet() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740076255/icono_4x-8_2_tqnirp.webp"
-            alt="icono de sala de espera"
+            alt="Icono sala de espera"
           />
           <p>
             Tipos de uso <br className={styles.hide__on__mobile} />
@@ -50,7 +50,7 @@ function TechnicalSheet() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739998010/icono_7_4x-8_gkqxdl.webp"
-            alt="icono de conectividad y largo alcance"
+            alt="Icono de conectividad y largo alcance"
           />
           <p>
             Recibe llamados de forma <br className={styles.hide__on__mobile} />

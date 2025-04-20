@@ -9,7 +9,7 @@ function HowItWorks() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741021819/10_4x-8_6_wenqh9.webp"
-            alt="imagen de personas tomando su turno"
+            alt="usuario tomando su torno en el dispensador de turnos"
           />
           <p>
             1. Usuario toma un número de turno{" "}
@@ -21,7 +21,7 @@ function HowItWorks() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741021837/11_4x-8_7_vnj3jv.webp"
-            alt="imagen de usuario esperando ser llamado"
+            alt="Turnero con logo mostrando el turno en una sala de espera con asesores"
           />
           <p>
             2. Usuario espera que lo llamen en la pantalla.{" "}
@@ -33,7 +33,7 @@ function HowItWorks() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741021837/12_4x-8_6_zwcaxj.webp"
-            alt="imagen de pantalla mostrando el número de turno"
+            alt="Turnero con logo haciendo el llamado del turno en una sala de espera con asesores"
           />
           <p>
             3. Muestra el número del turno y el módulo a donde{" "}

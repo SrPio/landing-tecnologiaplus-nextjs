@@ -37,7 +37,8 @@ function LocalizadoresHeroSection({
           width={375}
           height={400}
           loading={priority ? "eager" : "lazy"}
-          priority={priority}
+          fetchPriority={priority ? "high" : "auto"}
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
           optimizeAfterHydration={false}
         />
 

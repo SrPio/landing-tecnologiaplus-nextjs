@@ -2,10 +2,7 @@ import "./styles/critical.scss"; // Critical CSS for first render
 import "./styles/main.scss"; // Import main CSS directly
 import Providers from "./context/Providers";
 import { Inter, Montserrat, Bebas_Neue } from 'next/font/google';
-import ResourcePreloader from './components/ResourcePreloader';
-import DeferNonCriticalJS from './components/DeferNonCriticalJS';
 import SchemaOrg from '../components/SchemaOrg';
-import ServiceWorkerRegistration from './components/ServiceWorkerRegistration';
 
 // Optimize fonts
 const inter = Inter({
@@ -92,34 +89,42 @@ export const metadata = {
 
 /**
  * Root layout component
- * Note: For optimal performance, use the OptimizedImage component from './components/OptimizedImage'
- * for all image elements in the application, especially for Cloudinary images.
+ * This layout includes performance optimizations like:
+ * - Font optimization with next/font/google
+ * - DNS prefetching and preconnect for critical domains
+ * - Security headers to prevent third-party cookies
+ * - Proper meta tags for dimensions to prevent layout shifts
  */
 export default function RootLayout({ children }) {
   return (
     <html lang="es" className={`${inter.variable} ${montserrat.variable} ${bebasNeue.variable}`}>
       <head>
+        {/* Essential resource hints */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://tecnologiaplus.com" />
-        <link rel="dns-prefetch" href="https://res.cloudinary.com" />
         <link rel="preconnect" href="https://res.cloudinary.com" crossOrigin="anonymous" />
-        <link rel="preload" as="image" href="https://res.cloudinary.com/ddqh0mkx9/image/upload/f_auto,q_auto,w_800/v1744781156/Imagen_portada_4x-8_dfrjjg_1_cg4eew.webp" />
+        <link rel="preconnect" href="https://i.ytimg.com" crossOrigin="anonymous" />
+        
+        {/* Core meta tags */}
         <link rel="manifest" href="/manifest.json" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        {/* Dimension hints for critical LCP images to avoid layout shifts */}
-        <meta name="thumbnail" content="https://res.cloudinary.com/ddqh0mkx9/image/upload/f_auto,q_auto,w_800/v1744781156/Imagen_portada_4x-8_dfrjjg_1_cg4eew.webp" />
+        
+        {/* Dimension hints for critical LCP images */}
         <meta name="thumbnail:width" content="375" />
         <meta name="thumbnail:height" content="400" /> 
-        {/* Add image-optimization-policy to disable automatic YouTube cookie consent */}
+        
+        {/* Enhanced security headers */}
         <meta httpEquiv="Feature-Policy" content="autoplay 'none'; camera 'none'; microphone 'none'; geolocation 'none'" />
-        <meta httpEquiv="Permissions-Policy" content="interest-cohort=()" />
+        <meta httpEquiv="Permissions-Policy" content="interest-cohort=(), browsing-topics=(), attribution-reporting=()" />
+        <meta httpEquiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; connect-src 'self' https://res.cloudinary.com; img-src 'self' data: https://res.cloudinary.com https://i.ytimg.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src data: 'self' https://fonts.gstatic.com; frame-src https://www.youtube-nocookie.com https://www.youtube.com; object-src 'none'; block-all-mixed-content; base-uri 'self'" />
+        
+        {/* Prevent tracking */}
+        <meta name="referrer" content="no-referrer-when-downgrade" />
+        
         <SchemaOrg />
       </head>
       <body>
-        <ResourcePreloader />
-        <ServiceWorkerRegistration />
-        <DeferNonCriticalJS />
         <Providers>{children}</Providers>
       </body>
     </html>

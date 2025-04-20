@@ -4,8 +4,9 @@
   overflow: hidden;
   padding: 20px 0;
   margin: 10px 0;
+  contain: layout size style; /* Performance optimization */
   
-  // Remove scrollbar
+  // Remove scrollbar across browsers
   &::-webkit-scrollbar {
     display: none;
   }
@@ -19,8 +20,9 @@
   top: 0;
   height: 100%;
   width: 150px; // Wider mask for better effect
-  z-index: 10;
+  z-index: 1;
   pointer-events: none;
+  contain: strict; /* Isolate from main thread work */
 }
 
 .gradient_mask_left {
@@ -41,39 +43,36 @@
   animation: scrollX linear infinite;
   padding: 10px 0;
   will-change: transform; // Performance optimization
+  contain: content; // Isolate the rendering
   
   &:hover {
     animation-play-state: paused;
   }
 }
 
-// Slide item
+// Slide item - static except when hovered
 .slide {
   flex: 0 0 auto;
   width: 150px;
   padding: 0 10px;
-  transition: transform 0.3s ease;
-  
-  &:hover {
-    transform: scale(1.05);
-  }
   
   img {
     width: 100%;
     height: auto;
     object-fit: contain;
     filter: grayscale(100%) opacity(0.7);
-    transition: filter 0.3s ease, transform 0.3s ease;
+    transition: filter 0.3s ease;
     max-height: 80px;
+    aspect-ratio: auto;
+    backface-visibility: hidden; // Reduces paint
     
     &:hover {
       filter: grayscale(0%) opacity(1);
-      transform: translateY(-2px);
     }
   }
 }
 
-// Scrolling animation
+// Optimized scrolling animation - uses transform only
 @keyframes scrollX {
   from {
     transform: translateX(0);
@@ -83,7 +82,7 @@
   }
 }
 
-// Responsive adjustments
+// Responsive adjustments with performance considerations
 @media (max-width: 992px) {
   .gradient_mask_left, .gradient_mask_right {
     width: 120px;

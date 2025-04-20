@@ -29,7 +29,25 @@ const ServerFirstImage = ({
   // Mark component as hydrated after mount
   useEffect(() => {
     setIsHydrated(true);
-  }, []);
+    
+    // If this is a priority image, preload it immediately on client side
+    // This improves LCP and addresses preload warning
+    if (priority && src) {
+      const link = document.createElement('link');
+      link.rel = 'preload';
+      link.as = 'image';
+      link.href = src;
+      link.fetchPriority = 'high';
+      document.head.appendChild(link);
+      
+      // Clean up
+      return () => {
+        if (document.head.contains(link)) {
+          document.head.removeChild(link);
+        }
+      };
+    }
+  }, [priority, src]);
   
   // Apply optimization after hydration if enabled
   useEffect(() => {
@@ -44,7 +62,7 @@ const ServerFirstImage = ({
   }, [isHydrated, optimizeAfterHydration, src]);
   
   // Calculate aspect ratio without altering the format compared to server rendering
-  const aspectRatio = width && height ? `${width} / ${height}` : undefined;
+  const aspectRatioStr = width && height ? `${width} / ${height}` : undefined;
   
   // Determine appropriate loading strategy
   const imgLoading = priority ? "eager" : loading;
@@ -62,7 +80,7 @@ const ServerFirstImage = ({
       sizes={sizes || '(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw'}
       style={{ 
         ...(style || {}),
-        aspectRatio
+        aspectRatio: aspectRatioStr
       }}
       {...props}
     />

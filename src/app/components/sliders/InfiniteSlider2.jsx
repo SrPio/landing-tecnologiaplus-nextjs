@@ -1,66 +1,85 @@
 // components/sliders/InfiniteSlider2.js
 "use client";
-import React, { useEffect, useState, useRef } from 'react';
+import React, { useEffect, useState, useRef, useCallback } from 'react';
 import styles from './InfiniteSlider2.module.scss';
 
 const InfiniteSlider2 = ({ logos, images, speed = 5000, duration = 40, className }) => {
   // For backwards compatibility, handle both logos and images props
   const items = logos || images || [];
   
+  // State to track when component is in view
+  const [isClient, setIsClient] = useState(false);
+  const [isInView, setIsInView] = useState(false);
+  const [isHovered, setIsHovered] = useState(false);
+  const containerRef = useRef(null);
+  
   // Calculate animation duration - faster speed = lower duration
-  // This gives us better control over animation speed
   const animationDuration = duration || (items.length > 0 ? 40 : 0); 
 
-  // State to track window width for responsive behavior
-  const [windowWidth, setWindowWidth] = useState(0);
-  const sliderTrackRef = useRef(null);
+  // Normalize items array for consistent server/client rendering
+  // Important: this must be the same on both server and client to avoid hydration mismatches
+  const normalizedItems = items.length >= 5 
+    ? items 
+    : [...items, ...items, ...items].slice(0, 15);
   
-  // Track when mouse is over the slider to pause animation
-  const [isHovered, setIsHovered] = useState(false);
-
-  // Handle window resize
+  // Client-side effects
   useEffect(() => {
-    const handleResize = () => setWindowWidth(window.innerWidth);
+    setIsClient(true);
     
-    // Set initial window width
-    handleResize();
-    
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
+    // Set up intersection observer to detect when slider is in view
+    if (typeof window !== 'undefined' && typeof IntersectionObserver !== 'undefined' && containerRef.current) {
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach(entry => {
+            setIsInView(entry.isIntersecting);
+          });
+        },
+        { threshold: 0.1 }
+      );
+      
+      observer.observe(containerRef.current);
+      
+      return () => {
+        observer.disconnect();
+      };
+    }
   }, []);
   
-  // Ensure we have enough items for continuous scrolling
-  const normalizedItems = items.length >= 5 ? items : [...items, ...items, ...items, ...items];
-  
-  // Dynamic styles for animation duration
-  const trackStyle = {
+  // Animation styles that only apply client-side to avoid hydration mismatches
+  const trackStyle = isClient ? {
     animationDuration: `${animationDuration}s`,
-    animationPlayState: isHovered ? 'paused' : 'running'
-  };
+    animationPlayState: !isInView || isHovered ? 'paused' : 'running',
+  } : {};
 
   return (
-    <div className={`${styles.slider_container} ${className || ''}`}>
+    <div 
+      ref={containerRef}
+      className={`${styles.slider_container} ${className || ''}`}
+    >
       {/* Gradient masks for fading effect on edges */}
       <div className={styles.gradient_mask_left} />
       <div className={styles.gradient_mask_right} />
       
-      {/* Infinite scrolling track */}
+      {/* Infinite scrolling track - only animate when in view */}
       <div 
         className={styles.slider_track} 
         style={trackStyle}
-        ref={sliderTrackRef}
-        onMouseEnter={() => setIsHovered(true)}
-        onMouseLeave={() => setIsHovered(false)}
+        onMouseEnter={isClient ? () => setIsHovered(true) : undefined}
+        onMouseLeave={isClient ? () => setIsHovered(false) : undefined}
       >
         {normalizedItems.map((item, index) => (
-          <div key={`${item.alt}-${index}`} className={styles.slide}>
+          <div key={`slide-${index}`} className={styles.slide}>
             <img 
               src={item.src} 
               alt={item.alt || 'Client logo'} 
               loading="lazy"
+              width="150"
+              height="60"
+              decoding="async"
               onError={(e) => {
-                e.target.style.display = 'none';
-                console.warn(`Failed to load image: ${item.src}`);
+                if (isClient) {
+                  e.target.style.display = 'none';
+                }
               }}
             />
           </div>

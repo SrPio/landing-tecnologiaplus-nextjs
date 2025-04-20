@@ -17,7 +17,7 @@ function TechnicalSheet() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740174266/9_4x-8_1_qsscxv.webp"
-            alt="icono de calidad"
+            alt="Icono de calidad certificada"
           />
           <p>Material: Acrílico</p>
         </div>

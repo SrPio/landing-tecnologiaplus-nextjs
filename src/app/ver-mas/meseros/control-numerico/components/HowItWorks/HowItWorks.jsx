@@ -9,7 +9,7 @@ function HowItWorks() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743772811/NUEVA_CONTROL_4x-8_uuumyj.webp"
-            alt="imagen de cocinero digitando número asignado a mesero"
+            alt="El chef presiona el control numérico para llamar al mesero y recoger el pedido"
           />
           <p>
             1. Desde cocina digitan el número asignado a cada{" "}
@@ -21,7 +21,7 @@ function HowItWorks() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743041698/21_4x-8_lmx89i.webp"
-            alt="imagen de mesero recibiendo alerta en reloj o pantalla"
+            alt="El mesero recibe el llamado por medio del reloj receptor o las pantallas turneras"
           />
           <p>
             2. El mesero recibe la alerta en{" "}
@@ -33,7 +33,7 @@ function HowItWorks() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740160659/13_4x-8_ofe2yc.webp"
-            alt="imagen de mesero llevando orden desde cocina"
+            alt="El chef entrega el pedido de alimentos gracias al llamado"
           />
           <p>3. El mesero va a la cocina</p>
         </div>

@@ -24,7 +24,7 @@ function TechnicalSheet() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739998010/icono_7_4x-8_gkqxdl.webp"
-            alt="icono de antena"
+            alt="Icono de conectividad y largo alcance"
           />
           <p>
             Largo Alcance, más de <br className={styles.hide__on__mobile} />
@@ -36,7 +36,7 @@ function TechnicalSheet() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740174266/9_4x-8_1_qsscxv.webp"
-            alt="icono de calidad"
+            alt="Icono de calidad certificada"
           />
           <p>
             Material: Termoplástico <br className={styles.hide__on__mobile} />

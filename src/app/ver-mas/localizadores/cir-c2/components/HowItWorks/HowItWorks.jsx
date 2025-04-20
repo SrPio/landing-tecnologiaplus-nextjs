@@ -9,7 +9,7 @@ function HowItWorks() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741011138/12_4x-8_5_gg4wnr.webp"
-            alt="imagen de cliente haciendo pedido y recibiendo localizador"
+            alt="Asesor entrega el localizador de clientes a un usuario en un restaurante"
           />
           <p>
             1. El cliente hace el pedido y{" "}
@@ -21,7 +21,7 @@ function HowItWorks() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741011138/13_4x-8_7_jzd9lo.webp"
-            alt="imagen de persona digitando número de localizador en control"
+            alt="Asesor realiza el llamado del cliente por medio del control numerico"
           />
           <p>
             2. Cuando el pedido está listo, digita{" "}
@@ -33,7 +33,7 @@ function HowItWorks() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741011138/14_4x-8_5_twqpqp.webp"
-            alt="imagen de localizador vibrando, alumbra y suena"
+            alt="Cliente recibe el llamado por medio del localizador ya que vibra alumbra y suena"
           />
           <p>
             3. El localizador vibra, alumbra y suena,{" "}

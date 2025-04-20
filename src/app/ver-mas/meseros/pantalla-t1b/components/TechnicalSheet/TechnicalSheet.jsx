@@ -27,7 +27,7 @@ function TechnicalSheet() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739998010/icono_7_4x-8_gkqxdl.webp"
-            alt="icono de conectividad y largo alcance"
+            alt="icono de antena"
           />
           <p>
             Recibe los llamados <br className={styles.hide__on__mobile} />
@@ -57,7 +57,7 @@ function TechnicalSheet() {
           <img
             loading="lazy"
             src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740254426/11_4x-8_tfnsac.webp"
-            alt="icono de cabina"
+            alt="icono caseta"
           />
           <p>
             Uso: espacios para llamar <br className={styles.hide__on__mobile} />

@@ -48,3 +48,8 @@ yarn*
 ##cursor files
 .gitattributes
 .editorconfig
+
+
+# Ignorar los CSS generados por SASS
+styles/**/*.css
+styles/**/*.css.map

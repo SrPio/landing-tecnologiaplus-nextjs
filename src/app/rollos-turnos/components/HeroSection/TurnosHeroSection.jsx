@@ -22,7 +22,7 @@ function TurnosHeroSection({
           />
           <img
             className={styles.hero__img__mobile}
-            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744861625/Group_6_gqyr8k.webp"
+            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1745243187/Recurso_25_3x-8_hwimpu.webp"
             alt="Rollos para impresora térmica personalizados"
           />
           <div className={styles.hero__text}>

@@ -21,7 +21,7 @@ function CalificadorHeroSection({
         />
         <img
           className={styles.hero__img__mobile}
-          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744864122/Group_1_kihtey.webp"
+          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1745243188/Recurso_26_3x-8_ydpvir.webp"
           alt="Calificador de Servicio"
         />
 

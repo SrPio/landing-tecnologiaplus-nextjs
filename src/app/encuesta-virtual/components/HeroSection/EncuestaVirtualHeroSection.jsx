@@ -22,7 +22,7 @@ function EncuestaVirtualHeroSection({
 
         <img
           className={styles.hero__img__mobile}
-          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744861626/Group_4_gelzkd.webp"
+          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1745243183/Recurso_21_3x-8_1_qdom6g.webp"
           alt="Software de encuestas en línea"
         />
 

@@ -21,7 +21,7 @@ function EnfermeriaHeroSection({
         />
         <img
           className={styles.hero__img__mobile}
-          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744780774/Recurso_32_2x-8_ifuwuz_1_hawdh1.webp"
+          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1745243187/Recurso_19_3x-8_okf5hg.webp"
           alt="Botón para pacientes extensor EX1"
         />
 

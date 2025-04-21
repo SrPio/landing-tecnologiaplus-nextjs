@@ -21,7 +21,7 @@ function DispensadorTiquetesHeroSection({
         />
         <img
           className={styles.hero__img__mobile}
-          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744861625/Group_3_nkqa3u.webp"
+          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1745243187/Recurso_23_3x-8_kplypr.webp"
           alt="Dispensador de tiquetes rojo"
         />
 

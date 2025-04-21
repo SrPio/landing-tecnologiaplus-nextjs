@@ -2,4 +2,9 @@
 @use "../../../../styles/base/mixins" as *;
 
 .hero {
+  .hero__content {
+    .hero__img__mobile {
+      width: 70vw;
+    }
+  }
 }

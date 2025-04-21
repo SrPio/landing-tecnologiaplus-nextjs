@@ -9,7 +9,7 @@
 
     .hero__img__mobile {
       @include respond-to-max("laptop") {
-        width: 75vw;
+        width: 80vw;
       }
     }
   }

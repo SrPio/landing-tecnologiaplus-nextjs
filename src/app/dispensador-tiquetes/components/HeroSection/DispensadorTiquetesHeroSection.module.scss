@@ -54,9 +54,10 @@
           -webkit-text-fill-color: transparent;
           background-clip: text;
           color: transparent;
-
           font-weight: 900;
           line-height: 1.1;
+          filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.6));
+          -webkit-filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.6));
 
           .hide__mobile {
             display: none;
@@ -68,7 +69,7 @@
           text-align: center;
           font-weight: 400;
           text-wrap: balance;
-          line-height: 1.1;
+          line-height: 1.4;
           padding: 0 10vw;
           margin-top: 1rem;
           color: #fff;

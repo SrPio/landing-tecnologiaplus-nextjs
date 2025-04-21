@@ -38,6 +38,28 @@ function TurnoExpressHeroSection({
             </a>
           ) : null}
         </div>
+
+        <div className={styles.hero__text__mobile}>
+          <h1>Turnero digital</h1>
+          <p>
+            <span>Adiós a las filas</span>
+          </p>
+          <img
+            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1745196016/linea_2x-8_n80wv9_6a5e17-horizontal_giisl2.webp"
+            alt="separador de textos"
+            className={styles.separador__text}
+          />
+          <p>
+            Orden y agilidad
+            <br />
+            en cada turno.
+          </p>
+          {boton ? (
+            <a className={styles.hero__btn} href={boton.href}>
+              {boton.text}
+            </a>
+          ) : null}
+        </div>
       </div>
     </section>
   );

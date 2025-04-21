@@ -21,17 +21,45 @@ function DispensadorTiquetesHeroSection({
         />
         <img
           className={styles.hero__img__mobile}
-          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744772161/Imagen_banner_2x-8_qd3lwx_1_mbxtiv.webp"
+          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744861625/Group_3_nkqa3u.webp"
           alt="Dispensador de tiquetes rojo"
         />
 
         <div className={styles.hero__text}>
           <h1>
-            <span>Dispensador de turnos</span>
+            <span>Dispensador de tickets</span>
             <br />
             Adiós a las filas
           </h1>
           <p>Orden y comodidad en cada turno.</p>
+          {boton ? (
+            <a className={styles.hero__btn} href={boton.href}>
+              {boton.text}
+            </a>
+          ) : (
+            <a
+              className={styles.hero__btn}
+              href="https://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/dispensador-de-tiquetes"
+            >
+              Ver más
+            </a>
+          )}
+        </div>
+        <div className={styles.hero__text__mobile}>
+          <h1>Dispensador de tickets</h1>
+          <p>
+            <span>Adiós a las filas</span>
+          </p>
+          <img
+            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1745196016/linea_2x-8_n80wv9_6a5e17-horizontal_giisl2.webp"
+            alt="separador de textos"
+            className={styles.separador__text}
+          />
+          <p>
+            Orden y comodidad
+            <br />
+            en cada turno.
+          </p>
           {boton ? (
             <a className={styles.hero__btn} href={boton.href}>
               {boton.text}

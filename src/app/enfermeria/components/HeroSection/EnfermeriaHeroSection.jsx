@@ -50,11 +50,17 @@ function EnfermeriaHeroSection({
 
         <div className={styles.hero__text__mobile}>
           <h1>
-            Llamado de Enfermería:
+            Llamado de
             <br />
-            Más cerca de tus pacientes.
+            enfermería
           </h1>
-          <p>Facilita el contacto entre el paciente y personal de salud.</p>
+          <p>
+            <span>
+              Conecta al paciente con
+              <br />
+              el personal de salud.
+            </span>
+          </p>
           {boton ? (
             <a className={styles.hero__btn} href={boton.href}>
               {boton.text}

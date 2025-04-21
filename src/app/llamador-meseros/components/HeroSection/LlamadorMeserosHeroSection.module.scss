@@ -16,7 +16,7 @@
       display: none;
 
       @include respond-to-max("laptop") {
-        width: 80vw;
+        width: 75vw;
         height: auto;
         max-width: 500px;
         display: block;

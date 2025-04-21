@@ -49,6 +49,43 @@ function HeroSection({
             </a>
           )}
         </div>
+
+        <div className={styles.hero__text__mobile}>
+          <h1>
+            Rollos
+            <br />
+            térmicos
+          </h1>
+          <p>
+            <span>
+              En variedad de tamaños.
+              <br />
+              ¡Somos fabricantes!
+            </span>
+          </p>
+          <img
+            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1745196016/linea_2x-8_n80wv9_6a5e17-horizontal_giisl2.webp"
+            alt="separador de textos"
+            className={styles.separador__text}
+          />
+          <p>
+            Perfectos para tickets,
+            <br />
+            facturas y más.
+          </p>
+          {boton ? (
+            <a className={styles.hero__btn} href={boton.href}>
+              {boton.text}
+            </a>
+          ) : (
+            <a
+              className={styles.hero__btn}
+              href="https://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/termicos"
+            >
+              Ver más
+            </a>
+          )}
+        </div>
       </div>
     </section>
   );

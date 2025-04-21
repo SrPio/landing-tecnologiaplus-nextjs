@@ -26,6 +26,11 @@ function DispensadorTiquetesHeroSection({
         />
 
         <div className={styles.hero__text}>
+          <img
+            className={styles.hero__img__logo}
+            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744463735/12-8_qjsewx.webp"
+            alt="Logo Turno Express"
+          />
           <h1>
             <span>Dispensador de tickets</span>
             <br />

@@ -24,6 +24,23 @@
 
     .hero__text {
       margin-left: 4rem;
+
+      .hero__img__logo {
+        height: 100%;
+        max-height: 66px;
+        width: auto;
+        object-fit: contain;
+        margin-bottom: 4rem;
+      }
+
+      .hero__img__logo__cuidamaster {
+        height: 100%;
+        max-height: 100px;
+        width: auto;
+        object-fit: contain;
+        margin-bottom: 2.5rem;
+      }
+
       h1 {
         font-size: 2.5rem;
         color: #fff;

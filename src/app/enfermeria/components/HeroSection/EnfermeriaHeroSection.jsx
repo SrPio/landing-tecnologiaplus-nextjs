@@ -26,6 +26,11 @@ function EnfermeriaHeroSection({
         />
 
         <div className={styles.hero__text}>
+          <img
+            className={styles.hero__img__logo__cuidamaster}
+            src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744462125/Logo_CuidaMaster_4x-8_cn4z4h.webp"
+            alt="Logo Cuida master"
+          />
           <h1>
             Llamado de Enfermería:
             <br />

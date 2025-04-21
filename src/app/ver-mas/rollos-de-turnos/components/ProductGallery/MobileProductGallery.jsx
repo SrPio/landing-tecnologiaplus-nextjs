@@ -14,7 +14,7 @@ import { FaWhatsapp } from "react-icons/fa";
 import classNames from "classnames";
 
 const images = [
-  "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744821670/Frame_1_29_ulkwdl.webp",
+  "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1745247230/Frame_1_35_vku1gs.webp",
   "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741637817/Frame_1_57_fsalbd.webp",
   "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741638118/Frame_1_58_r0vivt.webp",
   "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740762871/10_4x-8_4_zewff6.webp",
@@ -92,7 +92,16 @@ function MobileProductGallery() {
         onSlideChange={(swiper) => setCurrentIndex(swiper.realIndex)}
       >
         {currentImages.map((img, index) => (
-          <SwiperSlide key={`slide-${typeof img === "string" ? img.substring(img.lastIndexOf('/') + 1, img.lastIndexOf('.')) : img.url.substring(img.url.lastIndexOf('/') + 1, img.url.lastIndexOf('.'))}`}>
+          <SwiperSlide
+            key={`slide-${
+              typeof img === "string"
+                ? img.substring(img.lastIndexOf("/") + 1, img.lastIndexOf("."))
+                : img.url.substring(
+                    img.url.lastIndexOf("/") + 1,
+                    img.url.lastIndexOf(".")
+                  )
+            }`}
+          >
             <img
               src={typeof img === "string" ? img : img.url}
               alt={`Imagen ${index + 1}`}
@@ -110,7 +119,8 @@ function MobileProductGallery() {
               <div
                 key={`color-${image.name}`}
                 className={`${styles.technical__circle__figure} ${
-                  styles["color__" + image.name]} ${currentIndex === index ? styles.selected : ""}`}
+                  styles["color__" + image.name]
+                } ${currentIndex === index ? styles.selected : ""}`}
                 onClick={() =>
                   handleThumbnailClick(
                     alternativeImages.map((alt) => alt.url),
@@ -128,7 +138,10 @@ function MobileProductGallery() {
         <div className={styles.thumbsRow}>
           {images.map((img, index) => (
             <div
-              key={`gallery-thumb-${img.substring(img.lastIndexOf('/') + 1, img.lastIndexOf('.'))}`}
+              key={`gallery-thumb-${img.substring(
+                img.lastIndexOf("/") + 1,
+                img.lastIndexOf(".")
+              )}`}
               className={classNames(styles.thumb__Slide, {
                 [styles.active]: isGallery && currentIndex === index,
               })}

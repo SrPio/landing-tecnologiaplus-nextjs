@@ -20,6 +20,12 @@ function EncuestaVirtualHeroSection({
           alt="Software de encuestas en línea"
         />
 
+        <img
+          className={styles.hero__img__mobile}
+          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744861626/Group_4_gelzkd.webp"
+          alt="Software de encuestas en línea"
+        />
+
         <div className={styles.hero__text}>
           <h1>
             Encuesta virtual:
@@ -35,11 +41,14 @@ function EncuestaVirtualHeroSection({
         </div>
 
         <div className={styles.hero__text__mobile}>
-          <h1>Encuesta virtual:</h1>
-          <p>
-            Detecta los puntos fuertes y
+          <h1>
+            Encuesta
             <br />
-            como mejorar tu negocio.
+            virtual
+          </h1>
+          <p>
+            Detecta puntos débiles
+            <br />y mejora tu negocio.
           </p>
           {boton ? (
             <a className={styles.hero__btn} href={boton.href}>
@@ -47,12 +56,6 @@ function EncuestaVirtualHeroSection({
             </a>
           ) : null}
         </div>
-
-        <img
-          className={styles.hero__img__mobile}
-          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744780300/1_4x-8_2_ezutdl_1_jgjhbv.webp"
-          alt="Calificador de servicio al cliente"
-        />
       </div>
     </section>
   );

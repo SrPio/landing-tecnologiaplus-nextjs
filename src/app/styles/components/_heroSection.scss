@@ -92,6 +92,7 @@
 
 @include respond-to-max("laptop") {
   .hero {
+    background-image: url("https://res.cloudinary.com/ddqh0mkx9/image/upload/v1745272277/Fondo_3x-8_yjkwov.webp");
     .hero__content {
       display: grid;
       grid-template-columns: 1fr;

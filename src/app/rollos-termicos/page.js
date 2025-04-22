@@ -39,14 +39,7 @@ export const metadata = {
         description: "Rollos de papel térmico de alta calidad, durabilidad y precios bajos. ¡Compra ahora en Tecnología Plus!",
         images: ["https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743970202/8_obkppw.webp"],
     },
-    icons: {
-        other: [
-            {
-                rel: "msapplication-TileImage",
-                url: "https://tecnologiaplus.com/wp-content/uploads/2018/08/cropped-favicon-tecnologia-plus-270x270.png",
-            },
-        ],
-    },
+
 };
 
 

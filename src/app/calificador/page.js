@@ -46,14 +46,7 @@ export const metadata = {
             "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743970202/1_spvfxt.webp",
         ],
     },
-    icons: {
-        other: [
-            {
-                rel: "msapplication-TileImage",
-                url: "https://tecnologiaplus.com/wp-content/uploads/2018/08/cropped-favicon-tecnologia-plus-270x270.png",
-            },
-        ],
-    },
+
 };
 
 

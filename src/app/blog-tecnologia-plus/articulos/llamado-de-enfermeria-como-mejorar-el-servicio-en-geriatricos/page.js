@@ -33,14 +33,7 @@ export const metadata = {
         description:
             "Mejora la atención en tu hogar geriátrico con un llamado de enfermería. Simplifica el cuidado, aumenta la seguridad y adquiere el tuyo ahora. ¡Descúbrelo!",
     },
-    icons: {
-        other: [
-            {
-                rel: "msapplication-TileImage",
-                url: "https://tecnologiaplus.com/wp-content/uploads/2018/08/cropped-favicon-tecnologia-plus-270x270.png",
-            },
-        ],
-    },
+
 };
 
 

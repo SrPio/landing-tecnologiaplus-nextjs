@@ -39,14 +39,7 @@ export const metadata = {
         title: "Sistema de Turnos: Agiliza Organiza las Filas en tu negocio",
         description: "Sistema de turnos para organizar filas: Somos fabricantes. Ideal para agilizar la atención en salas de espera . ¡Solicita una asesoria ahora!",
     },
-    icons: {
-        other: [
-            {
-                rel: "msapplication-TileImage",
-                url: "https://tecnologiaplus.com/wp-content/uploads/2018/08/cropped-favicon-tecnologia-plus-270x270.png",
-            },
-        ],
-    },
+
 };
 
 

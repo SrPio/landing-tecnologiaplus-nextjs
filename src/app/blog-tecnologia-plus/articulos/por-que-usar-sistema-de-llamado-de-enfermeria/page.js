@@ -33,14 +33,7 @@ export const metadata = {
         description:
             "Descubre cómo un sistema de llamado de enfermería mejora la atención, reduce tiempos de espera y moderniza tu servicio. ¡Adquiérelo ahora!",
     },
-    icons: {
-        other: [
-            {
-                rel: "msapplication-TileImage",
-                url: "https://tecnologiaplus.com/wp-content/uploads/2018/08/cropped-favicon-tecnologia-plus-270x270.png",
-            },
-        ],
-    },
+
 };
 
 

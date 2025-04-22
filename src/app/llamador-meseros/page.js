@@ -48,14 +48,7 @@ export const metadata = {
         "article:publisher": "https://www.facebook.com/tecnologiapluscolombia",
         "article:modified_time": "2025-02-27T15:50:15+00:00",
     },
-    icons: {
-        other: [
-            {
-                rel: "msapplication-TileImage",
-                url: "https://tecnologiaplus.com/wp-content/uploads/2018/08/cropped-favicon-tecnologia-plus-270x270.png",
-            },
-        ],
-    },
+
 };
 
 

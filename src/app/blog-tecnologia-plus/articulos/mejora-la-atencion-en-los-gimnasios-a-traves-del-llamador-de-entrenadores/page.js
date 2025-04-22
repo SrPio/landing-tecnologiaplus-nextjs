@@ -33,14 +33,7 @@ export const metadata = {
         description:
             "Mejora la atención en tu gimnasio con un llamador de entrenadores. Facilita la comunicación y brinda un servicio más eficiente.",
     },
-    icons: {
-        other: [
-            {
-                rel: "msapplication-TileImage",
-                url: "https://tecnologiaplus.com/wp-content/uploads/2018/08/cropped-favicon-tecnologia-plus-270x270.png",
-            },
-        ],
-    },
+
 };
 
 

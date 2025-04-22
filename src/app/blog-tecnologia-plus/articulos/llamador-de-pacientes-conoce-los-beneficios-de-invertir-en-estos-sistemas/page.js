@@ -33,14 +33,7 @@ export const metadata = {
         description:
             "Mejora la rentabilidad y eficiencia de tu clínica u hospital con un sistema de llamador de pacientes. ¡Aumenta tu productividad hoy mismo!",
     },
-    icons: {
-        other: [
-            {
-                rel: "msapplication-TileImage",
-                url: "https://tecnologiaplus.com/wp-content/uploads/2018/08/cropped-favicon-tecnologia-plus-270x270.png",
-            },
-        ],
-    },
+
 };
 
 

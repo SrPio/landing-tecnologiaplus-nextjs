@@ -33,14 +33,7 @@ export const metadata = {
         description:
             "Un timbre para cama de hospital mejora la atención, agiliza la respuesta del personal de salud y reduce la carga laboral. Tecnología Plus te asesora.",
     },
-    icons: {
-        other: [
-            {
-                rel: "msapplication-TileImage",
-                url: "https://tecnologiaplus.com/wp-content/uploads/2018/08/cropped-favicon-tecnologia-plus-270x270.png",
-            },
-        ],
-    },
+
 };
 
 

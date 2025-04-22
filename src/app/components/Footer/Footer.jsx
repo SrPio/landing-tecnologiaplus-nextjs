@@ -23,9 +23,9 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <a 
-                href="#" 
-                target="_blank" 
+              <a
+                href="https://www.tiktok.com/@tecnologiapluscolombia?_t=ZS-8vifPxXi2KX&_r=1"
+                target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Visitar nuestro perfil de TikTok"
               >
@@ -60,17 +60,26 @@ const Footer = () => {
           <h3>Contacto</h3>
           <ul>
             <li>
-              <a href="mailto:ventas@tecnologiaplus.com" aria-label="Enviar correo a ventas@tecnologiaplus.com">
+              <a
+                href="mailto:ventas@tecnologiaplus.com"
+                aria-label="Enviar correo a ventas@tecnologiaplus.com"
+              >
                 <MdOutlineEmail /> ventas@tecnologiaplus.com
               </a>
             </li>
             <li>
-              <a href="tel:+573164682034" aria-label="Llamar al teléfono 316 468 20 34">
+              <a
+                href="tel:+573164682034"
+                aria-label="Llamar al teléfono 316 468 20 34"
+              >
                 <HiPhone /> (+57) 316 468 20 34
               </a>
             </li>
             <li>
-              <a href="tel:+573227347971" aria-label="Llamar al teléfono 322 734 79 71">
+              <a
+                href="tel:+573227347971"
+                aria-label="Llamar al teléfono 322 734 79 71"
+              >
                 <HiPhone /> (+57) 322 734 79 71
               </a>
             </li>

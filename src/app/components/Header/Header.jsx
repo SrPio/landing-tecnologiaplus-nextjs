@@ -92,56 +92,53 @@ function Header({ customStyles = {} }) {
             }`}
           >
             <li>
-              <a href="https://landing-tecnologiaplus-nextjs.vercel.app/turnero/turnoexpress">
-                Turnero
-              </a>
-            </li>
-            <li>
-              <a href="https://landing-tecnologiaplus-nextjs.vercel.app/rollos-turnos">
-                Rollos de turnos
-              </a>
-            </li>
-            <li>
-              <a href="https://landing-tecnologiaplus-nextjs.vercel.app/rollos-de-papel-termico">
-                Rollos térmicos
-              </a>
-            </li>
-            <li>
-              <a href="https://landing-tecnologiaplus-nextjs.vercel.app/dispensador-tiquetes">
-                Dispensador de tiquetes
-              </a>
-            </li>
-            {/* <li>
-              <a href="#">Software para turnos</a>
-            </li> */}
-            <li>
               <a href="https://landing-tecnologiaplus-nextjs.vercel.app/localizadores">
-                Localizadores de clientes
+                Localizadores para Restaurantes
               </a>
             </li>
             <li>
               <a href="https://landing-tecnologiaplus-nextjs.vercel.app/llamador-meseros">
-                Llamadores de meseros
+                Llamadores de Meseros
               </a>
             </li>
             <li>
-              <a href="https://landing-tecnologiaplus-nextjs.vercel.app/enfermeria">
-                Llamado de enfermería
-              </a>
-            </li>
-            <li>
-              <a href="https://landing-tecnologiaplus-nextjs.vercel.app/calificador-de-servicio-al-cliente/opinamaster">
-                Calificador de servicios
-              </a>
-            </li>
-            <li>
-              <a href="https://landing-tecnologiaplus-nextjs.vercel.app/encuesta-virtual">
-                Encuestas de satisfacción
+              <a href="https://landing-tecnologiaplus-nextjs.vercel.app/turnero/turnoexpress">
+                Turnero TurnoExpress
               </a>
             </li>
             <li>
               <a href="https://landing-tecnologiaplus-nextjs.vercel.app/turnomaster">
-                Turnomaster
+                Sistema de Turnos TurnoMaster
+              </a>
+            </li>
+            <li>
+              <a href="https://landing-tecnologiaplus-nextjs.vercel.app/rollos-turnos">
+                Rollos de Fichos para Turnos
+              </a>
+            </li>
+            <li>
+              <a href="https://landing-tecnologiaplus-nextjs.vercel.app/rollos-de-papel-termico">
+                Rollos de Papel Térmico
+              </a>
+            </li>
+            <li>
+              <a href="https://landing-tecnologiaplus-nextjs.vercel.app/dispensador-tiquetes">
+                Dispensador de Tickets
+              </a>
+            </li>
+            <li>
+              <a href="https://landing-tecnologiaplus-nextjs.vercel.app/enfermeria">
+                Llamado de Enfermería CuidaMaster
+              </a>
+            </li>
+            <li>
+              <a href="https://landing-tecnologiaplus-nextjs.vercel.app/calificador-de-servicio-al-cliente/opinamaster">
+                Calificador de Servicio al cliente OpinaMaster
+              </a>
+            </li>
+            <li>
+              <a href="https://landing-tecnologiaplus-nextjs.vercel.app/encuesta-virtual">
+                Encuesta Virtual OpinaMaster
               </a>
             </li>
           </ul>

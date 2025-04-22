@@ -4,8 +4,8 @@ const articuloTimbreLlamadoEnfermeria = {
   titulo:
     "Mejora la Experiencia del Paciente con un Timbre de Llamado de Enfermería 🏥",
   publicadoPor: "Autor Desconocido",
-  fechaPublicacion: "abril 22, 2025",
-  fechaActualizacion: "abril 22, 2025",
+  fechaPublicacion: "marzo 11, 2025",
+  fechaActualizacion: "marzo 11, 2025",
   contenido: [
     {
       tipo: "imagen",

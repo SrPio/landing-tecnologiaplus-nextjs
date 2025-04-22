@@ -1,9 +1,9 @@
 "use client";
 import React from "react";
 import style from "./TurnoExpressClientsSection.module.scss";
-import { useLogos } from "../../../context/LogosContext";
+import { useLogos } from "../../../../context/LogosContext";
 
-import InfiniteSlider from "../../../components/sliders/InfiniteSlider";
+import InfiniteSlider from "../../../../components/sliders/InfiniteSlider";
 
 function TurnoExpressClientsSection() {
   const { logosTurnoExpress } = useLogos();

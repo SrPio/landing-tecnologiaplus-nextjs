@@ -6,7 +6,7 @@ import SecondaryHeader from "@/app/components/SecondaryHeader/SecondaryHeader";
 import LogosSection from "../fila-unica/components/LogosSection/LogosSection";
 import TechnicalSheet from "./components/TechnicalSheet/TechnicalSheet";
 import HowItWorks from "./components/HowItWorks/HowItWorks";
-import TurnoExpressRelatedProducts from "@/app/turnero-turnoexpress/components/RelatedProducts/TurnoExpressRelatedProducts";
+import TurnoExpressRelatedProducts from "@/app/turnero/turnoexpress/components/RelatedProducts/TurnoExpressRelatedProducts";
 import ProductGallerySelected from "./components/ProductGallery/ProductGallerySelected";
 
 export default function VerMasPantallaT1B() {

@@ -5,7 +5,7 @@ import style from "../../../turnero-turnoexpress/components/RelatedProducts/Turn
 import SecondaryHeader from "@/app/components/SecondaryHeader/SecondaryHeader";
 import TechnicalSheet from "./components/TechnicalSheet/TechnicalSheet";
 import HowItWorks from "./components/HowItWorks/HowItWorks";
-import TurnoExpressRelatedProducts from "@/app/turnero-turnoexpress/components/RelatedProducts/TurnoExpressRelatedProducts";
+import TurnoExpressRelatedProducts from "@/app/turnero/turnoexpress/components/RelatedProducts/TurnoExpressRelatedProducts";
 import LogosSection from "./components/LogosSection/LogosSection";
 import ProductGallerySelected from "./components/ProductGallery/ProductGallerySelected";
 

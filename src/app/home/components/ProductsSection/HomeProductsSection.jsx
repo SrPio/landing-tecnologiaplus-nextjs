@@ -11,7 +11,7 @@ function HomeProductsSection() {
           description="Rapidez y agilidad para tus filas."
           imageSrc="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738350028/TurnoExpress_2x-8_ri7zqh_xjz8bw.webp"
           altText="imagen de TurnoExpress"
-          link="https://landing-tecnologiaplus-nextjs.vercel.app/turnero-turnoexpress"
+          link="https://landing-tecnologiaplus-nextjs.vercel.app/turnero/turnoexpress"
         />
 
         <Card

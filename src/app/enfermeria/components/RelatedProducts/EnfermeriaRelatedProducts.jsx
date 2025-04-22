@@ -22,7 +22,7 @@ function EnfermeriaRelatedProducts({ titleClassName = "" }) {
       description: "Rapidez y agilidad para tus filas.",
       img: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738350028/TurnoExpress_2x-8_ri7zqh_xjz8bw.webp",
       sold: "692 vendidos",
-      link: "https://landing-tecnologiaplus-nextjs.vercel.app/turnero-turnoexpress",
+      link: "https://landing-tecnologiaplus-nextjs.vercel.app/turnero/turnoexpress",
     },
     {
       name: "OpinaMaster",
@@ -55,7 +55,9 @@ function EnfermeriaRelatedProducts({ titleClassName = "" }) {
           >
             {products.map((product, index) => (
               <SwiperSlide
-                key={`product-${product.name.toLowerCase().replace(/\s+/g, '-')}`}
+                key={`product-${product.name
+                  .toLowerCase()
+                  .replace(/\s+/g, "-")}`}
                 className={`${style.swiper__slide} ${product.className || ""}`}
               >
                 <div className={style.related__products__card}>

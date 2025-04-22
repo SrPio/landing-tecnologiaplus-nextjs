@@ -21,7 +21,7 @@ function LlamadorMeserosRelatedProducts({ titleClassName = "" }) {
       description: "Rapidez y agilidad para tus filas.",
       img: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738350028/TurnoExpress_2x-8_ri7zqh_xjz8bw.webp",
       sold: "692 vendidos",
-      link: "https://landing-tecnologiaplus-nextjs.vercel.app/turnero-turnoexpress",
+      link: "https://landing-tecnologiaplus-nextjs.vercel.app/turnero/turnoexpress",
     },
     {
       name: "CuidaMaster",

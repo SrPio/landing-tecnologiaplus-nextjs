@@ -71,7 +71,7 @@ function SecondaryHeader() {
             }`}
           >
             <li>
-              <a href="https://landing-tecnologiaplus-nextjs.vercel.app/turnero-turnoexpress">
+              <a href="https://landing-tecnologiaplus-nextjs.vercel.app/turnero/turnoexpress">
                 Turnero
               </a>
             </li>

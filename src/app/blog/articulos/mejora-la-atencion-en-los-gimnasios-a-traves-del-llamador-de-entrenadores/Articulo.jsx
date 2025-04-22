@@ -269,7 +269,7 @@ const articuloAtencionGimnasio = {
     {
       tipo: "boton",
       texto: "Cotizar",
-      href: "https://wa.me/+573227347971",
+      href: "https://wa.me/573164682034",
     },
   ],
 };

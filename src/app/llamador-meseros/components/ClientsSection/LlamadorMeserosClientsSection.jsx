@@ -3,7 +3,7 @@ import React from "react";
 import style from "./LlamadorMeserosClientsSection.module.scss";
 import { useLogos } from "../../../context/LogosContext";
 
-import InfiniteSlider from "../../../components/sliders/InfiniteSlider";
+import InfiniteSlider2 from "@/app/components/sliders/InfiniteSlider2";
 
 function LlamadorMeserosClientsSection() {
   const { logosLlamadorMeseros } = useLogos();
@@ -16,7 +16,7 @@ function LlamadorMeserosClientsSection() {
         Llamador de Meseros.
       </p>
       <div className={style.clients__container}>
-        <InfiniteSlider logos={logosLlamadorMeseros} />
+        <InfiniteSlider2 logos={logosLlamadorMeseros} duration={40} />
       </div>
     </section>
   );

@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import style from "./LocalizadoresClientsSection.module.scss";
-import InfiniteSlider from "@/app/components/sliders/InfiniteSlider";
+import InfiniteSlider2 from "@/app/components/sliders/InfiniteSlider2";
 import { useLogos } from "@/app/context/LogosContext";
 
 function LocalizadoresClientsSection() {
@@ -15,7 +15,7 @@ function LocalizadoresClientsSection() {
         mejorar su atención y agilizar sus pedidos.
       </p>
       <div className={style.clients__container}>
-        <InfiniteSlider logos={logosLocalizadores} />
+        <InfiniteSlider2 logos={logosLocalizadores} duration={50} />
       </div>
     </section>
   );

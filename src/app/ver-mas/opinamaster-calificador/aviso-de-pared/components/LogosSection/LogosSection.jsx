@@ -1,8 +1,7 @@
 "use client";
 import styles from "../../../../styles/LogosSection.module.scss";
-import { IoIosArrowForward } from "react-icons/io";
 import { useLogos } from "../../../../../context/LogosContext";
-import InfiniteSlider from "@/app/components/sliders/InfiniteSlider";
+import InfiniteSlider2 from "@/app/components/sliders/InfiniteSlider";
 
 function LogosSection() {
   const { logosCalificador } = useLogos();
@@ -12,7 +11,7 @@ function LogosSection() {
         <h2>Algunos clientes</h2>
       </div>
       <div className={styles.content}>
-        <InfiniteSlider logos={logosCalificador} />
+        <InfiniteSlider2 logos={logosCalificador} duration={40} />
       </div>
     </section>
   );

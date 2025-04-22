@@ -126,13 +126,14 @@
       }
 
       .card {
+        position: relative;
+        flex-direction: row;
+        
         @include respond-to-max("laptop") {
           display: flex;
           flex-direction: column;
         }
 
-        flex-direction: row;
-        position: relative;
         > div {
           position: absolute;
           top: 50px;

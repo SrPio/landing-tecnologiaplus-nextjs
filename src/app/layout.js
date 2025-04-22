@@ -59,7 +59,7 @@ export const metadata = {
     type: 'website',
     images: [
       {
-        url: '/favicon-192x192.png',
+        url: '/android-chrome-192x192.png',
         width: 192,
         height: 192,
         alt: 'Tecnología Plus - Soluciones tecnológicas para su negocio',
@@ -70,12 +70,15 @@ export const metadata = {
     card: 'summary',
     title: 'Tecnología Plus - Sistemas para Mejorar su Negocio',
     description: 'Soluciones tecnológicas profesionales: sistemas de turnos, llamadores de meseros y localizadores',
-    images: ['/favicon-192x192.png'],
+    images: ['/android-chrome-192x192.png'],
   },
   icons: {
     icon: [
+      { url: '/favicon.ico', type: 'image/x-icon' },
       { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
-      { url: '/favicon-192x192.png', sizes: '192x192', type: 'image/png' }
+      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/android-chrome-192x192.png', sizes: '192x192', type: 'image/png' },
+      { url: '/android-chrome-512x512.png', sizes: '512x512', type: 'image/png' }
     ],
     apple: '/apple-touch-icon.png',
   },
@@ -106,8 +109,14 @@ export default function RootLayout({ children }) {
         <link rel="preconnect" href="https://res.cloudinary.com" crossOrigin="anonymous" />
         <link rel="preconnect" href="https://i.ytimg.com" crossOrigin="anonymous" />
         
+        {/* Favicon explicit links */}
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="manifest" href="/site.webmanifest" />
+        
         {/* Core meta tags */}
-        <link rel="manifest" href="/manifest.json" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         
         {/* Dimension hints for critical LCP images */}
@@ -117,7 +126,7 @@ export default function RootLayout({ children }) {
         {/* Enhanced security headers */}
         <meta httpEquiv="Feature-Policy" content="autoplay 'none'; camera 'none'; microphone 'none'; geolocation 'none'" />
         <meta httpEquiv="Permissions-Policy" content="interest-cohort=(), browsing-topics=(), attribution-reporting=()" />
-        <meta httpEquiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; connect-src 'self' https://res.cloudinary.com; img-src 'self' data: https://res.cloudinary.com https://i.ytimg.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src data: 'self' https://fonts.gstatic.com; frame-src https://www.youtube-nocookie.com https://www.youtube.com; object-src 'none'; block-all-mixed-content; base-uri 'self'" />
+        <meta httpEquiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; connect-src 'self' https://res.cloudinary.com https://api.emailjs.com; img-src 'self' data: https://res.cloudinary.com https://i.ytimg.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src data: 'self' https://fonts.gstatic.com; frame-src https://www.youtube-nocookie.com https://www.youtube.com; object-src 'none'; block-all-mixed-content; base-uri 'self'" />
         
         {/* Prevent tracking */}
         <meta name="referrer" content="no-referrer-when-downgrade" />

@@ -3,7 +3,7 @@ import React from "react";
 import style from "./TurnoMasterClientsSection.module.scss";
 import { useLogos } from "../../../context/LogosContext";
 
-import InfiniteSlider from "../../../components/sliders/InfiniteSlider";
+import InfiniteSlider2 from "@/app/components/sliders/InfiniteSlider2";
 
 function TurnoMasterClientsSection() {
   const { logosTurnoMaster } = useLogos();
@@ -16,7 +16,7 @@ function TurnoMasterClientsSection() {
         real
       </p>
       <div className={style.clients__container}>
-        <InfiniteSlider logos={logosTurnoMaster} />
+        <InfiniteSlider2 logos={logosTurnoMaster} duration={40} />
       </div>
     </section>
   );

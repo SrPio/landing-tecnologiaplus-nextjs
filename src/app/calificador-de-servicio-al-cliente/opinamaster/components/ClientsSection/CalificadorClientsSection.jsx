@@ -3,7 +3,7 @@ import React from "react";
 import style from "./CalificadorClientsSection.module.scss";
 import { useLogos } from "../../../../context/LogosContext";
 
-import InfiniteSlider from "../../../../components/sliders/InfiniteSlider";
+import InfiniteSlider2 from "@/app/components/sliders/InfiniteSlider2";
 
 function CalificadorClientsSection() {
   const { logosCalificador } = useLogos();
@@ -16,7 +16,7 @@ function CalificadorClientsSection() {
         de OpinaMaster
       </p>
       <div className={style.clients__container}>
-        <InfiniteSlider logos={logosCalificador} />
+        <InfiniteSlider2 logos={logosCalificador} duration={40} />
       </div>
     </section>
   );

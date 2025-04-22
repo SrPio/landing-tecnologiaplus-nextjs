@@ -26,14 +26,16 @@ export default function SliderHero({ botonesPorHero = {} }) {
         className={styles.customSwiper}
         spaceBetween={50}
         slidesPerView={1}
+        autoplay={false}
         pagination={{ clickable: true }}
         navigation={true}
         loop={true}
         modules={[Navigation, Pagination, Autoplay]}
-        autoplay={{
-          delay: 5000,
-          disableOnInteraction: false,
-        }}
+        // autoplay={{
+        //   waitForTransition: true,
+        //   delay: 5000,
+        //   disableOnInteraction: false,
+        // }}
       >
         <SwiperSlide>
           <LocalizadoresHeroSection

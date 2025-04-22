@@ -148,9 +148,7 @@ function Header({ customStyles = {} }) {
         </div>
 
         {/* Blog como enlace normal */}
-        <a href="https://landing-tecnologiaplus-nextjs.vercel.app/blog-tecnologia-plus">
-          Blog
-        </a>
+        <a href="https://landing-tecnologiaplus-nextjs.vercel.app/blog">Blog</a>
 
         <a
           href="https://landing-tecnologiaplus-nextjs.vercel.app/contacto"

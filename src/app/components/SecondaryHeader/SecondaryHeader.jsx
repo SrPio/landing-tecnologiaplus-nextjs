@@ -127,7 +127,7 @@ function SecondaryHeader() {
         </div>
         <a
           className={style.btn__mobile}
-          href="https://landing-tecnologiaplus-nextjs.vercel.app/blog-tecnologia-plus"
+          href="https://landing-tecnologiaplus-nextjs.vercel.app/blog"
         >
           Blog
         </a>

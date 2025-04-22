@@ -42,7 +42,7 @@ adipiscing elit, sed diam orem ipsum dol"
         />
       </div>
       <a
-        href="https://landing-tecnologiaplus-nextjs.vercel.app/blog-tecnologia-plus"
+        href="https://landing-tecnologiaplus-nextjs.vercel.app/blog"
         className={style.btn__go_to_blog}
       >
         Visita nuestro blog

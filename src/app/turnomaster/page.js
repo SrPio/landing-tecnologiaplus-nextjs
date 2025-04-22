@@ -23,7 +23,7 @@ export const metadata = {
         type: "article",
         title: "Sistema de Turnos: Agiliza Organiza las Filas en tu negocio",
         description: "Sistema de turnos para organizar filas: Somos fabricantes. Ideal para agilizar la atención en salas de espera . ¡Solicita una asesoria ahora!",
-        url: "https://tecnologiaplus.com/software-para-turnos/",
+        url: "https://landing-tecnologiaplus-nextjs.vercel.app/software-para-turnos/",
         siteName: "TecnologiaPlus",
         images: [
             {

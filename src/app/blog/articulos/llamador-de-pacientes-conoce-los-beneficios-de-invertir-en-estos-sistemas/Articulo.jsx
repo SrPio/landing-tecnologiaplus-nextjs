@@ -25,7 +25,7 @@ const articuloSistemaLlamado = {
         "La eficiencia y la satisfacción del paciente son dos pilares fundamentales para el éxito de cualquier institución de salud. Un sistema de ",
         {
           texto: "llamador de pacientes",
-          href: "https://tecnologiaplus.com/enfermeria/",
+          href: "https://landing-tecnologiaplus-nextjs.vercel.app/enfermeria/",
         },
         " se ha convertido en una herramienta esencial para hospitales, clínicas y consultorios, mejorando estos aspectos clave. En Colombia, la adopción de esta tecnología ha crecido rápidamente, demostrando su efectividad y rentabilidad.",
       ],
@@ -36,12 +36,12 @@ const articuloSistemaLlamado = {
         "Invertir en un ",
         {
           texto: "llamador de pacientes",
-          href: "https://tecnologiaplus.com/enfermeria/",
+          href: "https://landing-tecnologiaplus-nextjs.vercel.app/enfermeria/",
         },
         " Tecnología Plus no solo optimiza los tiempos de espera, sino que también eleva la calidad del servicio al paciente. Este tipo de sistema de ",
         {
           texto: "llamado de pacientes",
-          href: "https://tecnologiaplus.com/enfermeria/",
+          href: "https://landing-tecnologiaplus-nextjs.vercel.app/enfermeria/",
         },
         " se destaca por su capacidad para agilizar la comunicación, ofreciendo una experiencia más fluida tanto para los pacientes como para el personal médico.",
       ],
@@ -52,7 +52,7 @@ const articuloSistemaLlamado = {
         "A lo largo de este artículo, exploraremos los beneficios y la rentabilidad de implementar un sistema de ",
         {
           texto: "llamado de pacientes",
-          href: "https://tecnologiaplus.com/enfermeria/",
+          href: "https://landing-tecnologiaplus-nextjs.vercel.app/enfermeria/",
         },
         ", y cómo Tecnología Plus puede transformar la experiencia de atención médica, mejorando la operatividad y la satisfacción general.",
       ],
@@ -83,7 +83,7 @@ const articuloSistemaLlamado = {
         "Este sistema de ",
         {
           texto: "llamado de pacientes",
-          href: "https://tecnologiaplus.com/enfermeria/",
+          href: "https://landing-tecnologiaplus-nextjs.vercel.app/enfermeria/",
         },
         " Tecnología Plus es fácil de usar para los pacientes; simplemente deben presionar un botón cerca de su cama para que un enfermero se dirija directamente a ellos. Gracias a los paneles visuales, el personal médico puede ver en tiempo real dónde y cuándo un paciente necesita atención, lo que agiliza la respuesta y mejora la calidad del servicio.",
       ],
@@ -134,7 +134,7 @@ const articuloSistemaLlamado = {
         "La eficiencia como factor clave en la rentabilidad con un sistema de ",
         {
           texto: "llamado de pacientes",
-          href: "https://tecnologiaplus.com/enfermeria/",
+          href: "https://landing-tecnologiaplus-nextjs.vercel.app/enfermeria/",
         },
         ".",
       ],
@@ -160,7 +160,7 @@ const articuloSistemaLlamado = {
         "La capacidad de un hospital o clínica para gestionar el flujo de pacientes impacta directamente su rentabilidad. Gracias a la facilidad de uso de los botones del sistema de ",
         {
           texto: "llamado de pacientes",
-          href: "https://tecnologiaplus.com/enfermeria/",
+          href: "https://landing-tecnologiaplus-nextjs.vercel.app/enfermeria/",
         },
         " de Tecnología Plus, es más sencillo gestionar picos de demanda, evitando la saturación de servicios. Esto permite un uso más eficiente de las instalaciones, reduciendo la necesidad de inversiones adicionales en infraestructura.",
       ],
@@ -180,7 +180,7 @@ const articuloSistemaLlamado = {
         "Las demoras en atender el llamado de un paciente pueden afectar la reputación de un centro de salud. Sin embargo, un sistema de ",
         {
           texto: "llamado de pacientes",
-          href: "https://tecnologiaplus.com/enfermeria/",
+          href: "https://landing-tecnologiaplus-nextjs.vercel.app/enfermeria/",
         },
         " como el de Tecnología Plus permite que los pacientes comuniquen sus necesidades sin tener que esperar a que el enfermero llegue. Esto no solo reduce los costos asociados a errores, sino que también mejora significativamente la satisfacción del paciente.",
       ],
@@ -219,7 +219,7 @@ const articuloSistemaLlamado = {
         "Uno de los mayores beneficios de un sistema de ",
         {
           texto: "llamado de pacientes",
-          href: "https://tecnologiaplus.com/enfermeria/",
+          href: "https://landing-tecnologiaplus-nextjs.vercel.app/enfermeria/",
         },
         " como el de Tecnología Plus es la reducción del tiempo de espera. Los pacientes pueden ser atendidos de manera más rápida y eficiente, mejorando su experiencia general en el centro de salud. Esto es especialmente relevante en un contexto donde la satisfacción del paciente se ha convertido en un indicador clave de calidad. Un llamador de pacientes de Tecnología Plus no solo optimiza el tiempo de respuesta, sino que también eleva la percepción de calidad del servicio brindado.",
       ],
@@ -234,7 +234,7 @@ const articuloSistemaLlamado = {
         "Alivio para el personal médico con un sistema de ",
         {
           texto: "llamado de pacientes",
-          href: "https://tecnologiaplus.com/enfermeria/",
+          href: "https://landing-tecnologiaplus-nextjs.vercel.app/enfermeria/",
         },
         " de Tecnología Plus.",
       ],

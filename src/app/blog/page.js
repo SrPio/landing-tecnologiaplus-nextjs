@@ -14,7 +14,7 @@ export const metadata = {
     description:
         "Somos fabricantes. Descubre en nuestro blog cómo la tecnología mejora la experiencia de los usuarios en comercios. ¡Innovación para un mejor servicio!",
     alternates: {
-        canonical: "https://tecnologiaplus.com/blog-tecnologia-plus/",
+        canonical: "https://landing-tecnologiaplus-nextjs.vercel.app/blog-tecnologia-plus/",
     },
     openGraph: {
         locale: "es_ES",
@@ -22,11 +22,11 @@ export const metadata = {
         title: "Blog - Tecnología Plus",
         description:
             "Descubre en nuestro blog cómo la tecnología mejora la experiencia de los usuarios en comercios. ¡Innovación para un mejor servicio!",
-        url: "https://tecnologiaplus.com/blog-tecnologia-plus/",
+        url: "https://landing-tecnologiaplus-nextjs.vercel.app/blog-tecnologia-plus/",
         siteName: "TecnologiaPlus",
         images: [
             {
-                url: "https://tecnologiaplus.com/wp-content/uploads/2024/07/smiling-barista-using-digital-tablet-while-working-bar-min-scaled.jpg",
+                url: "https://landing-tecnologiaplus-nextjs.vercel.app/wp-content/uploads/2024/07/smiling-barista-using-digital-tablet-while-working-bar-min-scaled.jpg",
                 width: 2560,
                 height: 1707,
                 type: "image/jpeg",
@@ -39,7 +39,7 @@ export const metadata = {
         description:
             "Descubre en nuestro blog cómo la tecnología mejora la experiencia de los usuarios en comercios. ¡Innovación para un mejor servicio!",
         images: [
-            "https://tecnologiaplus.com/wp-content/uploads/2024/07/smiling-barista-using-digital-tablet-while-working-bar-min-scaled.jpg",
+            "https://landing-tecnologiaplus-nextjs.vercel.app/wp-content/uploads/2024/07/smiling-barista-using-digital-tablet-while-working-bar-min-scaled.jpg",
         ],
     },
 

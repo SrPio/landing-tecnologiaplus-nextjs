@@ -1,5 +1,5 @@
 import styles from "./CalificadorHeroSection.module.scss";
-import Header from "../../../components/Header/Header";
+import Header from "../../../../components/Header/Header";
 
 function CalificadorHeroSection({
   hideHeader = false,

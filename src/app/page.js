@@ -51,7 +51,7 @@ export default function Home() {
           dispensadorTiquetes: { href: "/dispensador-tiquetes", text: "Ver más" },
           turnoExpress: { href: "/turnero-turnoexpress", text: "Ver más" },
           calificador: { href: "/calificador", text: "Ver más" },
-          rollosTermicos: { href: "/rollos-termicos", text: "Ver más" },
+          rollosTermicos: { href: "/papel-termico", text: "Ver más" },
           rollosTurnos: { href: "/rollos-turnos", text: "Ver más" },
           encuestaVirtual: { href: "/encuesta-virtual", text: "Ver más" },
           enfermeria: { href: "/enfermeria", text: "Ver más" },

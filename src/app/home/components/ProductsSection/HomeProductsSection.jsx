@@ -53,7 +53,7 @@ function HomeProductsSection() {
           description="Toma decisiones con la opinión de tus clientes"
           imageSrc="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738607994/calificador_de_servicios_2x-8_pjnvol.webp"
           altText="imagen de Calificador de servicios"
-          link="https://landing-tecnologiaplus-nextjs.vercel.app/calificador"
+          link="https://landing-tecnologiaplus-nextjs.vercel.app/calificador-de-servicio-al-cliente/opinamaster"
           customClass="custom__style__three"
         />
 
@@ -87,7 +87,7 @@ tomar el turno."
           description="Perfectos para tickets, facturas y más."
           imageSrc="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349920/image-1_1_ljyxis_qdsmdq.webp"
           altText="imagen de Rollos térmicos"
-          link="https://landing-tecnologiaplus-nextjs.vercel.app/rollos-termicos"
+          link="https://landing-tecnologiaplus-nextjs.vercel.app/papel-termico"
           customClass="custom__style__five"
         />
 

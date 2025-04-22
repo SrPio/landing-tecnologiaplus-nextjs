@@ -200,7 +200,7 @@ const articuloAtencionGimnasio = {
         "Esta tecnología que te ofrece ",
         {
           texto: "Tecnología Plus",
-          href: "https://tecnologiaplus.com/",
+          href: "https://landing-tecnologiaplus-nextjs.vercel.app/",
         },
         " para mejorar la atención al cliente en tu gimnasio es bastante simple de implementar, pero para que puedas verlo con más facilidad, te lo explicamos:",
       ],
@@ -250,7 +250,7 @@ const articuloAtencionGimnasio = {
         "Estas soluciones creativas a problemas reales que puedes experimentar en tu gimnasio son gracias a las innovaciones que ",
         {
           texto: "Tecnología Plus",
-          href: "https://tecnologiaplus.com/",
+          href: "https://landing-tecnologiaplus-nextjs.vercel.app/",
         },
         " tiene para ofrecer, por lo cual es una excelente oportunidad para mejorar tu atención al cliente.",
       ],
@@ -261,7 +261,7 @@ const articuloAtencionGimnasio = {
         "¡",
         {
           texto: "Contáctanos hoy",
-          href: "https://tecnologiaplus.com/contacto/",
+          href: "https://landing-tecnologiaplus-nextjs.vercel.app/contacto/",
         },
         " mismo y descubre cómo podemos llevar tu servicio al siguiente nivel!",
       ],

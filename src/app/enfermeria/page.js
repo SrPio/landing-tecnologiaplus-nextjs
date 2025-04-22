@@ -18,12 +18,12 @@ export const metadata = {
     description: "Sistema de llamado de enfermería, somos fabricantes de bajo costo para modernizar y facilitar la atención de pacientes en el sector salud y geriátrico.",
     robots: "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
     alternates: {
-        canonical: "https://tecnologiaplus.com/llamado-de-enfermeria/",
+        canonical: "https://landing-tecnologiaplus-nextjs.vercel.app/llamado-de-enfermeria/",
     },
     openGraph: {
         type: "article",
         locale: "es_ES",
-        url: "https://tecnologiaplus.com/llamado-de-enfermeria/",
+        url: "https://landing-tecnologiaplus-nextjs.vercel.app/llamado-de-enfermeria/",
         siteName: "TecnologiaPlus",
         title: "Llamado de enfermería - TecnologiaPlus",
         description: "Llamadores de enfermería de largo alcance y alta resistencia. Sistema eficiente para llamar enfermeras. ¡Contáctanos hoy!",

@@ -14,7 +14,7 @@ function TurnoMasterRelatedProducts() {
       description: "Perfectos para tickets, facturas y más.",
       img: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349920/image-1_1_ljyxis_qdsmdq.webp",
       sold: "14485 vendidos",
-      link: "https://landing-tecnologiaplus-nextjs.vercel.app/rollos-termicos",
+      link: "https://landing-tecnologiaplus-nextjs.vercel.app/papel-termico",
       className: style.rollos__termicos__card,
     },
     {

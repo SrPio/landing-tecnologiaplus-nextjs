@@ -21,7 +21,7 @@ export const metadata = {
         title: "Localizadores de clientes - TecnologiaPlus",
         description:
             "Localizadores para restaurantes te permiten mejorar y agilizar el servicio. Modernos llamadores para restaurantes ultraresistentes a golpes",
-        url: "https://tecnologiaplus.com/localizadores-de-clientes/",
+        url: "https://landing-tecnologiaplus-nextjs.vercel.app/localizadores-de-clientes/",
         siteName: "TecnologiaPlus",
         locale: "es_ES",
         type: "article",

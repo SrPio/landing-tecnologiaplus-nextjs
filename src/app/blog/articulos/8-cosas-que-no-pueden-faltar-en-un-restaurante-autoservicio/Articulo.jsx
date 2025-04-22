@@ -240,7 +240,7 @@ const articuloRestauranteAutoservicio = {
         "Es fundamental ofrecer una forma para que los clientes puedan calificar el servicio y proporcionar comentarios sobre su experiencia en el restaurante. Ya sea mediante un ",
         {
           texto: "calificador de servicio",
-          href: "https://landing-tecnologiaplus-nextjs.vercel.app/calificador/",
+          href: "https://landing-tecnologiaplus-nextjs.vercel.app/calificador-de-servicio-al-cliente/opinamaster-de-servicio-al-cliente/opinamaster/",
         },
         ", encuestas en línea, buzones de sugerencias o formularios de retroalimentación, implementar este sistema permite al restaurante recopilar información valiosa para mejorar continuamente su atención al cliente.",
       ],
@@ -288,7 +288,7 @@ const articuloRestauranteAutoservicio = {
         "¡",
         {
           texto: "Contáctanos hoy",
-          href: "https://tecnologiaplus.com/contacto/",
+          href: "https://landing-tecnologiaplus-nextjs.vercel.app/contacto/",
         },
         " mismo y descubre cómo podemos llevar tu servicio al siguiente nivel!",
       ],

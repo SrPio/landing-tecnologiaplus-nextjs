@@ -102,7 +102,7 @@ function Header({ customStyles = {} }) {
               </a>
             </li>
             <li>
-              <a href="https://landing-tecnologiaplus-nextjs.vercel.app/rollos-termicos">
+              <a href="https://landing-tecnologiaplus-nextjs.vercel.app/papel-termico">
                 Rollos térmicos
               </a>
             </li>
@@ -130,7 +130,7 @@ function Header({ customStyles = {} }) {
               </a>
             </li>
             <li>
-              <a href="https://landing-tecnologiaplus-nextjs.vercel.app/calificador">
+              <a href="https://landing-tecnologiaplus-nextjs.vercel.app/calificador-de-servicio-al-cliente/opinamaster">
                 Calificador de servicios
               </a>
             </li>

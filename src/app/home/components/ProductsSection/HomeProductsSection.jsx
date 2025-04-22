@@ -87,7 +87,7 @@ tomar el turno."
           description="Perfectos para tickets, facturas y más."
           imageSrc="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349920/image-1_1_ljyxis_qdsmdq.webp"
           altText="imagen de Rollos térmicos"
-          link="https://landing-tecnologiaplus-nextjs.vercel.app/papel-termico"
+          link="https://landing-tecnologiaplus-nextjs.vercel.app/rollos-de-papel-termico"
           customClass="custom__style__five"
         />
 

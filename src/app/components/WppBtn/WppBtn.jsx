@@ -4,7 +4,7 @@ import { FaWhatsapp } from "react-icons/fa";
 function WppBtn() {
   return (
     <a
-      href="https://wa.me/573227347971"
+      href="https://wa.me/573164682034"
       target="_blank"
       rel="noreferrer"
       className={style.wpp__btn}

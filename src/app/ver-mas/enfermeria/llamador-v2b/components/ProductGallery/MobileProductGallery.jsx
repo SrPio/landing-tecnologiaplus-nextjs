@@ -91,7 +91,16 @@ function MobileProductGallery() {
         navigation={true}
       >
         {currentImages.map((img, index) => (
-          <SwiperSlide key={`slide-${typeof img === "string" ? img.substring(img.lastIndexOf('/') + 1, img.lastIndexOf('.')) : img.url.substring(img.url.lastIndexOf('/') + 1, img.url.lastIndexOf('.'))}`}>
+          <SwiperSlide
+            key={`slide-${
+              typeof img === "string"
+                ? img.substring(img.lastIndexOf("/") + 1, img.lastIndexOf("."))
+                : img.url.substring(
+                    img.url.lastIndexOf("/") + 1,
+                    img.url.lastIndexOf(".")
+                  )
+            }`}
+          >
             <img
               src={typeof img === "string" ? img : img.url}
               alt={`Imagen ${index + 1}`}
@@ -168,7 +177,7 @@ function MobileProductGallery() {
           los pacientes.
         </p>
         <div className={styles.container__contact__info}>
-          <a href="https://wa.me/573227347971" target="_blank" rel="noreferrer">
+          <a href="https://wa.me/573164682034" target="_blank" rel="noreferrer">
             <FaWhatsapp className={styles.icon__wpp} />
             <h3>¿Tienes preguntas?</h3>
           </a>

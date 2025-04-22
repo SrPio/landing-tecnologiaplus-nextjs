@@ -49,13 +49,17 @@ function MobileProductGallery() {
       <Swiper
         modules={[Navigation, Pagination, Thumbs]}
         pagination={{ clickable: true }}
-        
         navigation={true}
         loop={true}
         className={styles.mainSwiper}
       >
         {images.map((img, index) => (
-          <SwiperSlide key={`slide-${img.substring(img.lastIndexOf('/') + 1, img.lastIndexOf('.'))}`}>
+          <SwiperSlide
+            key={`slide-${img.substring(
+              img.lastIndexOf("/") + 1,
+              img.lastIndexOf(".")
+            )}`}
+          >
             <img
               src={img}
               alt={`Imagen ${index + 1}`}
@@ -74,7 +78,7 @@ function MobileProductGallery() {
           experiencia del usuario!
         </p>
         <div className={styles.container__contact__info}>
-          <a href="https://wa.me/573227347971" target="_blank" rel="noreferrer">
+          <a href="https://wa.me/573164682034" target="_blank" rel="noreferrer">
             <FaWhatsapp className={styles.icon__wpp} />
             <h3>¿Tienes preguntas?</h3>
           </a>

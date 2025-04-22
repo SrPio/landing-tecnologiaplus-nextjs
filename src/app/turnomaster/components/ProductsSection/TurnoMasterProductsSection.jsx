@@ -6,7 +6,7 @@ function TurnoMasterProductsSection() {
       <h2>Dos formas de solicitar el turno</h2>
       <a
         className={style.card__btn}
-        href="https://wa.me/573227347971"
+        href="https://wa.me/573164682034"
         target="_blank"
         rel="noreferrer"
       >
@@ -27,7 +27,7 @@ function TurnoMasterProductsSection() {
         />
         <a
           className={style.card__btn__mobile}
-          href="https://wa.me/573227347971"
+          href="https://wa.me/573164682034"
           target="_blank"
           rel="noreferrer"
         >

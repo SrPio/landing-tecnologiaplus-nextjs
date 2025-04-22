@@ -150,7 +150,7 @@ function ProductGallery() {
           </div>
           <div className={styles.container__contact__info}>
             <a
-              href="https://wa.me/573227347971"
+              href="https://wa.me/573164682034"
               target="_blank"
               rel="noreferrer"
             >

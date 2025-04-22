@@ -36,14 +36,20 @@ function Header({ customStyles = {} }) {
   // Apply aria-labels after component mounts to avoid hydration mismatch
   useEffect(() => {
     if (searchRef.current) {
-      searchRef.current.setAttribute('aria-label', 'Buscar en el sitio');
+      searchRef.current.setAttribute("aria-label", "Buscar en el sitio");
     }
     if (phoneRef.current) {
-      phoneRef.current.setAttribute('aria-label', 'Llamar al teléfono 316 468 2034');
+      phoneRef.current.setAttribute(
+        "aria-label",
+        "Llamar al teléfono 316 468 2034"
+      );
     }
     if (menuRef.current) {
-      menuRef.current.setAttribute('aria-label', menuOpen ? 'Cerrar menú' : 'Abrir menú');
-      menuRef.current.setAttribute('aria-expanded', menuOpen);
+      menuRef.current.setAttribute(
+        "aria-label",
+        menuOpen ? "Cerrar menú" : "Abrir menú"
+      );
+      menuRef.current.setAttribute("aria-expanded", menuOpen);
     }
   }, [menuOpen]);
 
@@ -175,16 +181,6 @@ function Header({ customStyles = {} }) {
         >
           Contacto
         </a>
-        <a 
-          href="#" 
-          ref={searchRef}
-        >
-          <FaSearch
-            className={`${styles.search__icon} ${
-              customStyles.searchIcon || ""
-            }`}
-          />
-        </a>
         <a
           href="tel:+573164682034"
           className={`${styles.phone__btn} ${customStyles.phoneBtn || ""}`}
@@ -204,7 +200,7 @@ function Header({ customStyles = {} }) {
           tabIndex="0"
           ref={menuRef}
           onKeyDown={(e) => {
-            if (e.key === 'Enter' || e.key === ' ') {
+            if (e.key === "Enter" || e.key === " ") {
               toggleMenu();
             }
           }}

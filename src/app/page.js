@@ -49,12 +49,12 @@ export default function Home() {
         botonesPorHero={{
           turnoMaster: { href: "/turnomaster", text: "Ver más" },
           dispensadorTiquetes: { href: "/dispensador-tiquetes", text: "Ver más" },
-          turnoExpress: { href: "/turnero-turnoexpress", text: "Ver más" },
-          calificador: { href: "/calificador", text: "Ver más" },
-          rollosTermicos: { href: "/papel-termico", text: "Ver más" },
+          turnoExpress: { href: "/turnero/turnoexpress", text: "Ver más" },
+          calificador: { href: "/calificador-de-servicio-al-cliente/opinamaster", text: "Ver más" },
+          rollosTermicos: { href: "/rollos-de-papel-termico", text: "Ver más" },
           rollosTurnos: { href: "/rollos-turnos", text: "Ver más" },
           encuestaVirtual: { href: "/encuesta-virtual", text: "Ver más" },
-          enfermeria: { href: "/enfermeria", text: "Ver más" },
+          enfermeria: { href: "/llamado-de-enfermeria/cuidamaster", text: "Ver más" },
           llamadorMeseros: { href: "/llamador-meseros", text: "Ver más" },
           localizadores: { href: "/localizadores", text: "Ver más" }
         }}

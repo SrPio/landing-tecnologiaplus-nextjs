@@ -11,7 +11,7 @@ function LocalizadoresProductsSection() {
           loading="lazy"
           src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738851946/rec_v3_2x-8_ehwkxo.webp"
           alt="Localizador para clientes Rec V3"
-          width={400}
+          width={500}
           height={500}
           optimizeAfterHydration={true}
         />
@@ -19,7 +19,7 @@ function LocalizadoresProductsSection() {
           loading="lazy"
           src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738851948/cir_c2_2x-8_icgmcm.webp"
           alt="Localizador para restaurantes Cir C2"
-          width={400}
+          width={600}
           height={500}
           optimizeAfterHydration={true}
         />

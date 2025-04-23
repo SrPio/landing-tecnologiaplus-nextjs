@@ -30,7 +30,7 @@ const articuloRestauranteAutoservicio = {
         "Para lograrlo, es fundamental contar con una serie de herramientas y estrategias que optimicen la atención y mejoren la experiencia del cliente. Por ejemplo, el uso de ",
         {
           texto: "Localizadores para restaurantes",
-          href: "https://landing-tecnologiaplus-nextjs.vercel.app/localizadores",
+          href: "http://landing-tecnologiaplus-nextjs.vercel.app/localizadores-para-restaurantes",
         },
         " es una excelente solución para organizar los pedidos y reducir tiempos de espera, asegurando que cada cliente reciba su comida de manera eficiente.",
       ],
@@ -41,7 +41,7 @@ const articuloRestauranteAutoservicio = {
         "Además, incorporar ",
         {
           texto: "Localizadores para restaurantes",
-          href: "https://landing-tecnologiaplus-nextjs.vercel.app/localizadores",
+          href: "http://landing-tecnologiaplus-nextjs.vercel.app/localizadores-para-restaurantes",
         },
         " permite una comunicación más ágil entre el personal y los comensales, facilitando el proceso de entrega y mejorando la percepción del servicio. Otra herramienta indispensable son los calificadores de servicio, que te ayudan a obtener retroalimentación directa de los clientes, permitiéndote identificar áreas de mejora y reforzar la satisfacción del cliente.",
       ],
@@ -100,7 +100,7 @@ const articuloRestauranteAutoservicio = {
         "Además, los ",
         {
           texto: "Localizadores para restaurantes",
-          href: "https://landing-tecnologiaplus-nextjs.vercel.app/localizadores",
+          href: "http://landing-tecnologiaplus-nextjs.vercel.app/localizadores-para-restaurantes",
         },
         " son una excelente forma de reducir las quejas por entregas demoradas, ya que garantizan que los pedidos se entreguen en el momento preciso. Esto no solo mejora la logística del servicio, sino que también refuerza la percepción positiva del cliente.",
       ],
@@ -120,7 +120,7 @@ const articuloRestauranteAutoservicio = {
         "Además de los ",
         {
           texto: "Localizadores para restaurantes",
-          href: "https://landing-tecnologiaplus-nextjs.vercel.app/localizadores",
+          href: "http://landing-tecnologiaplus-nextjs.vercel.app/localizadores-para-restaurantes",
         },
         ", es importante contar con carteles o una señalización clara que indique cada zona del restaurante autoservicio, así como lo que ofrece en concreto. Entre las señalizaciones encontramos: las áreas de servicio, los menús disponibles, las opciones de personalización y los pasos a seguir para realizar un pedido. Esto ayuda a los clientes a navegar por el restaurante y facilita su experiencia de autoservicio.",
       ],
@@ -167,7 +167,7 @@ const articuloRestauranteAutoservicio = {
         "Para complementar esta modalidad, incorporar herramientas como los ",
         {
           texto: "Localizadores para restaurantes",
-          href: "https://landing-tecnologiaplus-nextjs.vercel.app/localizadores",
+          href: "http://landing-tecnologiaplus-nextjs.vercel.app/localizadores-para-restaurantes",
         },
         " puede optimizar aún más el proceso. Estas soluciones tecnológicas aseguran una comunicación ágil y una entrega precisa de los pedidos, mejorando la percepción del servicio.",
       ],
@@ -196,7 +196,7 @@ const articuloRestauranteAutoservicio = {
         "Un área claramente marcada y organizada es fundamental para que los clientes recojan sus pedidos una vez estén listos y sean llamados mediante los ",
         {
           texto: "Localizadores para restaurantes",
-          href: "https://landing-tecnologiaplus-nextjs.vercel.app/localizadores",
+          href: "http://landing-tecnologiaplus-nextjs.vercel.app/localizadores-para-restaurantes",
         },
         " o avisador de pedido. Este espacio debe estar diseñado para garantizar que los clientes encuentren fácilmente sus alimentos, minimizando la confusión o el caos en el área de retiro.",
       ],
@@ -251,12 +251,12 @@ const articuloRestauranteAutoservicio = {
         "En resumen, un restaurante autoservicio exitoso se distingue por su atención al cliente y por la implementación de herramientas que optimicen la experiencia gastronómica. Desde ",
         {
           texto: "Localizadores para restaurantes",
-          href: "https://landing-tecnologiaplus-nextjs.vercel.app/localizadores",
+          href: "http://landing-tecnologiaplus-nextjs.vercel.app/localizadores-para-restaurantes",
         },
         " (que notifican a los clientes cuando sus pedidos están listos), ",
         {
           texto: "localizadores para clientes",
-          href: "https://landing-tecnologiaplus-nextjs.vercel.app/localizadores",
+          href: "http://landing-tecnologiaplus-nextjs.vercel.app/localizadores-para-restaurantes",
         },
         " (que agilizan la entrega de los pedidos y reducen tiempos de espera), una organización eficiente del espacio, hasta un personal amable y capacitado, cada detalle cuenta para crear un ambiente acogedor y funcional.",
       ],
@@ -267,12 +267,12 @@ const articuloRestauranteAutoservicio = {
         "Recuerda que en Tecnología Plus entendemos las necesidades de los restaurantes autoservicio y ofrecemos soluciones tecnológicas diseñadas para mejorar la eficiencia y satisfacción del cliente. Con nuestros ",
         {
           texto: "Localizadores para restaurantes",
-          href: "https://landing-tecnologiaplus-nextjs.vercel.app/localizadores",
+          href: "http://landing-tecnologiaplus-nextjs.vercel.app/localizadores-para-restaurantes",
         },
         " y ",
         {
           texto: "calificadores de servicio",
-          href: "https://landing-tecnologiaplus-nextjs.vercel.app/localizadores",
+          href: "http://landing-tecnologiaplus-nextjs.vercel.app/localizadores-para-restaurantes",
         },
         ", podrás reducir las quejas por entregas demoradas, obtener valiosa retroalimentación y brindar un servicio de calidad que supera las expectativas de tus comensales.",
       ],

@@ -28,7 +28,7 @@ function HomeProductsSection() {
           description="Lleva el autoservicio a otro nivel."
           imageSrc="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741708165/NUEVA_etp9mi.webp"
           altText="imagen de Localizadores"
-          link="https://landing-tecnologiaplus-nextjs.vercel.app/localizadores"
+          link="http://landing-tecnologiaplus-nextjs.vercel.app/localizadores-para-restaurantes"
         />
 
         <Card

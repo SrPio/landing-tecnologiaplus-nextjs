@@ -56,7 +56,7 @@ export default function Home() {
           encuestaVirtual: { href: "/encuesta-virtual", text: "Ver más" },
           enfermeria: { href: "/llamado-de-enfermeria/cuidamaster", text: "Ver más" },
           llamadorMeseros: { href: "/llamador-meseros", text: "Ver más" },
-          localizadores: { href: "/localizadores", text: "Ver más" }
+          localizadores: { href: "/localizadores-para-restaurantes", text: "Ver más" }
         }}
       />
       <SecondaryHeader />

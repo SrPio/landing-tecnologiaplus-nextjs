@@ -49,7 +49,7 @@ const YouTubePlayer = ({ videoId, title }) => {
             </svg>
           </div>
           <div className={styles.consentMessage}>
-            <p>Haz clic para reproducir</p>
+            {/* <p >Haz clic para reproducir</p> */}
           </div>
         </div>
       ) : (

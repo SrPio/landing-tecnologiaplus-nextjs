@@ -3,6 +3,33 @@
 import React, { useEffect, useState, useRef, useCallback } from 'react';
 import styles from './InfiniteSlider2.module.scss';
 
+// Helper to detect SVG images
+const isSvgImage = (src) => {
+  return src && (src.toLowerCase().endsWith('.svg') || src.includes('.svg'));
+};
+
+// Calculate optimal duration based on item count to maintain consistent speed
+const calculateOptimalDuration = (itemCount, preset = 'normal') => {
+  // Base duration for different presets
+  const baseMultipliers = {
+    slow: 1,     // Similar to Platzi.com's slow slider
+    normal: 1,     // Standard speed
+    fast: 0.7      // Faster speed
+  };
+  
+  // Ensure at least 10 items for calculation (including duplicates for loop)
+  const effectiveCount = Math.max(itemCount, 10);
+  
+  // Calculate base duration: larger count = proportionally larger duration
+  // This ensures visual speed stays consistent regardless of item count
+  const baseDuration = effectiveCount * 4;
+  
+  // Apply the speed multiplier
+  const multiplier = baseMultipliers[preset] || baseMultipliers.normal;
+  
+  return baseDuration * multiplier;
+};
+
 const InfiniteSlider2 = ({ 
   logos, 
   images, 
@@ -10,7 +37,9 @@ const InfiniteSlider2 = ({
   duration = 40, 
   className,
   activeDefaultSpeed = false,
-  defaultSpeed = 40
+  defaultSpeed = 40,
+  stopOnFocus = false,
+  speedPreset = 'normal' // 'slow', 'normal', or 'fast'
 }) => {
   // For backwards compatibility, handle both logos and images props
   const items = logos || images || [];
@@ -21,11 +50,14 @@ const InfiniteSlider2 = ({
   const [isHovered, setIsHovered] = useState(false);
   const containerRef = useRef(null);
   
+  // Calculate animation duration based on item count and chosen preset
+  const calculatedDuration = calculateOptimalDuration(items.length, speedPreset);
+  
   // Calculate animation duration - faster speed = lower duration
   // If activeDefaultSpeed is true, use defaultSpeed instead of provided duration
   const animationDuration = activeDefaultSpeed 
     ? defaultSpeed 
-    : (duration || (items.length > 0 ? 40 : 0)); 
+    : calculatedDuration || duration || (items.length > 0 ? 40 : 0);
 
   // Normalize items array for consistent server/client rendering
   // Important: this must be the same on both server and client to avoid hydration mismatches
@@ -92,7 +124,8 @@ const InfiniteSlider2 = ({
   }, [isClient]);
   
   // Determine if we should animate based on client state and viewport
-  const shouldAnimate = isClient && isInView && !isHovered;
+  // Only pause on hover if stopOnFocus is true
+  const shouldAnimate = isClient && isInView && !(stopOnFocus && isHovered);
   
   // Animation styles with proper fallbacks
   const trackStyle = {
@@ -106,9 +139,12 @@ const InfiniteSlider2 = ({
     WebkitBackfaceVisibility: 'hidden',
     transform: 'translateZ(0)',
     WebkitTransform: 'translateZ(0)',
+    WebkitFontSmoothing: 'antialiased',
+    MozOsxFontSmoothing: 'grayscale',
     transition: isHovered ? 'transform 0.2s ease' : 'none',
     // Only animate on client-side to avoid hydration issues
     animation: isClient && shouldAnimate ? `scrollX ${animationDuration}s linear infinite` : 'none',
+    animationPlayState: shouldAnimate ? 'running' : 'paused',
   };
 
   // Handle image loading error
@@ -129,24 +165,143 @@ const InfiniteSlider2 = ({
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    position: 'relative'
+    position: 'relative',
+    transformStyle: 'preserve-3d', // Helps with 3D rendering
   };
 
-  const logoImageStyle = {
-    position: 'absolute',
-    display: 'block',
-    width: 'auto',
-    height: '50px', // Fixed height for all logos
-    maxWidth: '130px', // Fixed max width
-    objectFit: 'contain',
-    filter: 'grayscale(100%) opacity(0.7)',
-    transition: 'filter 0.3s ease',
-    transform: 'translateZ(0)',
-    WebkitTransform: 'translateZ(0)',
-    willChange: 'filter',
-    imageRendering: 'high-quality',
-    // Prevent SVG logos from scaling with browser settings
-    vectorEffect: 'non-scaling-stroke'
+  // Special handling for the Los Olivos logo and similar SVGs
+  const isLosOlivosLogo = (src) => {
+    return src && (
+      src.includes('Mesa_de_trabajo_20_o1drqb') || 
+      src.toLowerCase().includes('los_olivos') ||
+      src.toLowerCase().includes('olivos')
+    );
+  };
+
+  // Special handling for specific problematic SVGs (width: 130px, height: 50px)
+  const isProblematicSvg = (src) => {
+    return src && (
+      // Add any specific SVGs that still have issues
+      src.includes('Mesa_de_trabajo') ||
+      src.includes('trabajo_')
+    );
+  };
+
+  // Render each logo item
+  const renderLogoItem = (item, index) => {
+    const isSvg = isSvgImage(item.src);
+    const isLosOlivos = isLosOlivosLogo(item.src);
+    const isProblemSvg = isProblematicSvg(item.src);
+    
+    // Special style for Los Olivos logo to prevent breathing
+    const losOlivosStyle = {
+      position: 'absolute',
+      display: 'block',
+      width: '120px',
+      height: '40px',
+      maxWidth: '120px',
+      maxHeight: '40px',
+      objectFit: 'contain',
+      filter: 'grayscale(100%) opacity(0.7)',
+      transition: 'filter 0.3s ease',
+      transform: 'translateZ(0)',
+      WebkitTransform: 'translateZ(0)',
+      willChange: 'filter',
+      imageRendering: 'auto',
+      shapeRendering: 'auto',
+      textRendering: 'auto',
+      transformOrigin: 'center center',
+    };
+    
+    // Fixed style for problematic SVGs (width: 130px, height: 50px)
+    const stabilizedSvgStyle = {
+      position: 'absolute',
+      display: 'block',
+      width: '130px',
+      height: '50px',
+      maxWidth: '130px',
+      maxHeight: '50px',
+      objectFit: 'contain', // Changed from 'none' to 'contain'
+      objectPosition: 'center',
+      filter: 'grayscale(100%) opacity(0.7)',
+      transition: 'filter 0.3s ease',
+      transform: 'translateZ(0)',
+      WebkitTransform: 'translateZ(0)',
+      willChange: 'filter',
+      imageRendering: 'auto',
+      transformOrigin: 'center center',
+    };
+    
+    // SVG style with basic fixes
+    const svgImageStyle = {
+      position: 'absolute',
+      display: 'block',
+      width: '130px',
+      height: '50px',
+      maxWidth: '130px',
+      maxHeight: '50px',
+      objectFit: 'contain',
+      filter: 'grayscale(100%) opacity(0.7)',
+      transition: 'filter 0.3s ease',
+      transform: 'translateZ(0)',
+      WebkitTransform: 'translateZ(0)',
+      willChange: 'filter',
+    };
+    
+    // Regular image style
+    const logoImageStyle = {
+      position: 'absolute',
+      display: 'block',
+      width: 'auto',
+      height: '50px',
+      maxWidth: '130px',
+      objectFit: 'contain',
+      filter: 'grayscale(100%) opacity(0.7)',
+      transition: 'filter 0.3s ease',
+      transform: 'translateZ(0)',
+      WebkitTransform: 'translateZ(0)',
+      willChange: 'filter',
+    };
+    
+    // Choose the appropriate style
+    let imageStyle;
+    if (isLosOlivos) {
+      imageStyle = losOlivosStyle;
+    } else if (isProblemSvg) {
+      imageStyle = stabilizedSvgStyle;
+    } else if (isSvg) {
+      imageStyle = svgImageStyle;
+    } else {
+      imageStyle = logoImageStyle;
+    }
+    
+    return (
+      <div 
+        key={`slide-${index}`}
+        style={logoItemStyle}
+      >
+        <img 
+          src={item.src} 
+          alt={item.alt || 'Client logo'} 
+          loading="lazy"
+          width={isProblemSvg ? "130" : (isLosOlivos ? "120" : "130")}
+          height={isProblemSvg ? "50" : (isLosOlivos ? "40" : "50")}
+          decoding="async"
+          onError={handleImageError}
+          style={imageStyle}
+          onMouseEnter={(e) => {
+            if (isClient) {
+              e.currentTarget.style.filter = 'grayscale(0%) opacity(1)';
+            }
+          }}
+          onMouseLeave={(e) => {
+            if (isClient) {
+              e.currentTarget.style.filter = 'grayscale(100%) opacity(0.7)';
+            }
+          }}
+        />
+      </div>
+    );
   };
 
   return (
@@ -194,33 +349,7 @@ const InfiniteSlider2 = ({
         onMouseEnter={() => isClient && setIsHovered(true)}
         onMouseLeave={() => isClient && setIsHovered(false)}
       >
-        {displayItems.map((item, index) => (
-          <div 
-            key={`slide-${index}`}
-            style={logoItemStyle}
-          >
-            <img 
-              src={item.src} 
-              alt={item.alt || 'Client logo'} 
-              loading="lazy"
-              width="130"
-              height="50"
-              decoding="async"
-              onError={handleImageError}
-              style={logoImageStyle}
-              onMouseEnter={(e) => {
-                if (isClient) {
-                  e.currentTarget.style.filter = 'grayscale(0%) opacity(1)';
-                }
-              }}
-              onMouseLeave={(e) => {
-                if (isClient) {
-                  e.currentTarget.style.filter = 'grayscale(100%) opacity(0.7)';
-                }
-              }}
-            />
-          </div>
-        ))}
+        {displayItems.map((item, index) => renderLogoItem(item, index))}
       </div>
     </div>
   );

@@ -73,7 +73,7 @@ const YouTubePlayer = ({ videoId, title }) => {
             </svg>
           </div>
           <div className={styles.consentOverlay}>
-            <p>Reproducir video</p>
+            {/* <p>Reproducir video</p> */}
           </div>
         </div>
       ) : (

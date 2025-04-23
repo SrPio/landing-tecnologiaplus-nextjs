@@ -18,7 +18,8 @@ function LlamadorMeserosClientsSection() {
       <div className={style.clients__container}>
         <InfiniteSlider2 
           logos={logosLlamadorMeseros} 
-          activeDefaultSpeed={true} 
+          speedPreset="slow"
+          stopOnFocus={false}
         />
       </div>
     </section>

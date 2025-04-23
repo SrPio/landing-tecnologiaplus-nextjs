@@ -17,7 +17,11 @@ function DispensadorTiquetesClientsSection() {
         turnos.
       </p>
       <div className={style.clients__container}>
-        <InfiniteSlider2 logos={logosTurnos} duration={40} />
+        <InfiniteSlider2 
+          logos={logosTurnos} 
+          speedPreset="slow"
+          stopOnFocus={false}
+        />
       </div>
     </section>
   );

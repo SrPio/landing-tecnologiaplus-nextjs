@@ -67,8 +67,44 @@ const nextConfig = {
             minChunks: 2,
             priority: 10,
           },
+          // Add a specific chunk for CSS
+          styles: {
+            name: 'styles',
+            test: /\.css$/,
+            chunks: 'all',
+            enforce: true,
+            priority: 50,
+          },
         },
       };
+      
+      // Ensure consistent CSS rendering in production
+      // Add this to fix SVG icon "breathing" issues
+      if (config.module && config.module.rules) {
+        // Find the CSS/SCSS rules
+        const cssRules = config.module.rules.find(rule => 
+          rule.oneOf && rule.oneOf.some(r => r.test && r.test.toString().includes('css'))
+        );
+        
+        if (cssRules && cssRules.oneOf) {
+          // Add specific options for CSS processing to ensure stable rendering
+          cssRules.oneOf.forEach(rule => {
+            if (rule.use && Array.isArray(rule.use)) {
+              rule.use.forEach(loader => {
+                if (loader.loader && loader.loader.includes('css-loader')) {
+                  // Ensure consistent SVG rendering
+                  loader.options = loader.options || {};
+                  loader.options.importLoaders = 1;
+                  loader.options.url = true;
+                }
+              });
+            }
+          });
+        }
+      }
+    } else {
+      // Development specific settings
+      config.devtool = 'eval-source-map';
     }
 
     const fileLoaderRule = config.module.rules.find(
@@ -93,6 +129,10 @@ const nextConfig = {
   },
   experimental: {
     optimizeCss: true,
+    // Add specific font optimization
+    fontLoaders: [
+      { loader: '@next/font/google', options: { subsets: ['latin'] } },
+    ],
   },
   headers: async () => {
     return [

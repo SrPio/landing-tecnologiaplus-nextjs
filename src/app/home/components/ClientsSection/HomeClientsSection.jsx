@@ -18,7 +18,8 @@ function HomeClientsSection() {
       <div className={style.clients__container}>
         <InfiniteSlider2 
           logos={logosHome} 
-          activeDefaultSpeed={true} 
+          speedPreset="slow"
+          stopOnFocus={false}
         />
       </div>
     </section>

@@ -17,7 +17,10 @@ function TurnosClientsSection() {
         ordenar la atención al cliente.
       </p>
       <div className={style.clients__container}>
-        <InfiniteSlider2 logos={logosTurnos} speed={5000} />
+        <InfiniteSlider2 
+          logos={logosTurnos} 
+          activeDefaultSpeed={true} 
+        />
       </div>
     </section>
   );

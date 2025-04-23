@@ -15,7 +15,10 @@ function LocalizadoresClientsSection() {
         mejorar su atención y agilizar sus pedidos.
       </p>
       <div className={style.clients__container}>
-        <InfiniteSlider2 logos={logosLocalizadores} duration={50} />
+        <InfiniteSlider2 
+          logos={logosLocalizadores} 
+          activeDefaultSpeed={true} 
+        />
       </div>
     </section>
   );

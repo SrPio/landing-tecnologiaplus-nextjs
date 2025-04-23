@@ -3,7 +3,15 @@
 import React, { useEffect, useState, useRef, useCallback } from 'react';
 import styles from './InfiniteSlider2.module.scss';
 
-const InfiniteSlider2 = ({ logos, images, speed = 5000, duration = 40, className }) => {
+const InfiniteSlider2 = ({ 
+  logos, 
+  images, 
+  speed = 5000, 
+  duration = 40, 
+  className,
+  activeDefaultSpeed = false,
+  defaultSpeed = 40
+}) => {
   // For backwards compatibility, handle both logos and images props
   const items = logos || images || [];
   
@@ -14,7 +22,10 @@ const InfiniteSlider2 = ({ logos, images, speed = 5000, duration = 40, className
   const containerRef = useRef(null);
   
   // Calculate animation duration - faster speed = lower duration
-  const animationDuration = duration || (items.length > 0 ? 40 : 0); 
+  // If activeDefaultSpeed is true, use defaultSpeed instead of provided duration
+  const animationDuration = activeDefaultSpeed 
+    ? defaultSpeed 
+    : (duration || (items.length > 0 ? 40 : 0)); 
 
   // Normalize items array for consistent server/client rendering
   // Important: this must be the same on both server and client to avoid hydration mismatches

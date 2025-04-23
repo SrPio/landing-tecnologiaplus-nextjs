@@ -36,7 +36,7 @@ function HomeProductsSection() {
           description="El botón que eleva la calidad del servicio."
           imageSrc="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743107327/NUEVA_4x-8_1_wyooar.webp"
           altText="imagen de Llamadores de meseros"
-          link="https://landing-tecnologiaplus-nextjs.vercel.app/llamador-meseros"
+          link="https://landing-tecnologiaplus-nextjs.vercel.app/llamadores-de-meseros"
           customClass="custom__style__four"
         />
 

@@ -1,13 +1,16 @@
-'use client';
+"use client";
 
-import { useEffect, useState } from 'react';
+import { useEffect, useState } from "react";
 import style from "./VideoSection.module.scss";
-import dynamic from 'next/dynamic';
+import dynamic from "next/dynamic";
 
 // Import YouTubePlayer with dynamic import to improve initial load time
-const YouTubePlayer = dynamic(() => import("../../../../components/YouTubePlayer"), {
-  loading: () => <VideoPlaceholder />
-});
+const YouTubePlayer = dynamic(
+  () => import("../../../../components/YouTubePlayer"),
+  {
+    loading: () => <VideoPlaceholder />,
+  }
+);
 
 // Responsive loading placeholder component
 function VideoPlaceholder() {
@@ -21,7 +24,7 @@ function VideoPlaceholder() {
 function VideoSection() {
   // State to track mounting of component
   const [isMounted, setIsMounted] = useState(false);
-  
+
   // Set mounted state after hydration
   useEffect(() => {
     setIsMounted(true);
@@ -47,7 +50,7 @@ function VideoSection() {
         </p>
         <a
           className={style.card__btn}
-          href="https://landing-tecnologiaplus-nextjs.vercel.app/llamador-meseros"
+          href="https://landing-tecnologiaplus-nextjs.vercel.app/llamadores-de-meseros"
         >
           Ver más
         </a>

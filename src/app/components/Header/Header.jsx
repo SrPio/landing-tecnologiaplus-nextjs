@@ -97,7 +97,7 @@ function Header({ customStyles = {} }) {
               </a>
             </li>
             <li>
-              <a href="https://landing-tecnologiaplus-nextjs.vercel.app/llamador-meseros">
+              <a href="https://landing-tecnologiaplus-nextjs.vercel.app/llamadores-de-meseros">
                 Llamadores de Meseros
               </a>
             </li>

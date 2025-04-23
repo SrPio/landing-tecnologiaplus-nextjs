@@ -6,7 +6,7 @@ import SecondaryHeader from "@/app/components/SecondaryHeader/SecondaryHeader";
 import LogosSection from "../control-numerico/components/LogosSection/LogosSection";
 import TechnicalSheet from "./components/TechnicalSheet/TechnicalSheet";
 import HowItWorks from "./components/HowItWorks/HowItWorks";
-import LlamadorMeserosRelatedProducts from "@/app/llamador-meseros/components/RelatedProducts/LlamadorMeserosRelatedProducts";
+import LlamadorMeserosRelatedProducts from "@/app/llamadores-de-meseros/components/RelatedProducts/LlamadorMeserosRelatedProducts";
 import ProductGallerySelected from "./components/ProductGallery/ProductGallerySelected";
 
 export default function VerMasPantallaT1B() {

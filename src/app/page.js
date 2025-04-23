@@ -55,7 +55,7 @@ export default function Home() {
           rollosTurnos: { href: "/rollos-de-fichos-para-turnos", text: "Ver más" },
           encuestaVirtual: { href: "/encuesta-virtual", text: "Ver más" },
           enfermeria: { href: "/llamado-de-enfermeria/cuidamaster", text: "Ver más" },
-          llamadorMeseros: { href: "/llamador-meseros", text: "Ver más" },
+          llamadorMeseros: { href: "/llamadores-de-meseros", text: "Ver más" },
           localizadores: { href: "/localizadores-para-restaurantes", text: "Ver más" }
         }}
       />

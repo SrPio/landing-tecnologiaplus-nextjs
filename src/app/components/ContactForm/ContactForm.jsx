@@ -169,7 +169,7 @@ function ContactForm({ noMarginTop = false }) {
       const templateParams = {
         user_name: data.user_name,
         user_email: data.user_email,
-        message: `${data.message}\n\nNúmero de contacto: ${data.user_phone}`
+        message: `${data.message}\n\nNúmero de contacto: ${data.user_phone} \n\n Correo de contacto: ${data.user_email}`
       };
       
       // Send email using EmailJS

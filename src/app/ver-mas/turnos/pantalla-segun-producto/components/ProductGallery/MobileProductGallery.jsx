@@ -18,8 +18,8 @@ function MobileProductGallery() {
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741705063/Frame_1_76_arw9zm.webp",
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742650842/Frame_1_2_gstdv0.webp",
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741704706/Frame_1_73_q4yt1c.webp",
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741704944/Frame_1_75_neqgln.webp",
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743774378/6_4x-8_2_ytxttp.webp",
+    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1745435101/Frame_1_37_zb9elr.webp",
   ];
 
   const [thumbsSwiper, setThumbsSwiper] = useState(null);

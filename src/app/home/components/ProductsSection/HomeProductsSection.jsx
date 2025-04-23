@@ -45,7 +45,7 @@ function HomeProductsSection() {
           description="Facilita la comunicación paciente - enfermera. "
           imageSrc="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738596111/cuidamaster_2x-8_dlawzx.webp"
           altText="imagen de Llamado de enfermería"
-          link="https://landing-tecnologiaplus-nextjs.vercel.app/enfermeria"
+          link="https://landing-tecnologiaplus-nextjs.vercel.app/llamado-de-enfermeria/cuidamaster"
         />
 
         <Card

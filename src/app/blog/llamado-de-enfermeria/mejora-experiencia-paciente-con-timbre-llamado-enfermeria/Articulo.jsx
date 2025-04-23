@@ -29,7 +29,7 @@ const articuloTimbreLlamadoEnfermeria = {
         "Aquí es donde el ",
         {
           texto: "timbre de llamado de enfermería",
-          href: "https://landing-tecnologiaplus-nextjs.vercel.app/enfermeria",
+          href: "https://landing-tecnologiaplus-nextjs.vercel.app/llamado-de-enfermeria/cuidamaster",
         },
         " cobra un papel crucial. Este sistema permite que los pacientes puedan solicitar ayuda de manera inmediata, sin necesidad de levantarse o esperar a que un enfermero pase por la habitación.",
       ],

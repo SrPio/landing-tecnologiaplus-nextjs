@@ -127,7 +127,7 @@ function Header({ customStyles = {} }) {
               </a>
             </li>
             <li>
-              <a href="https://landing-tecnologiaplus-nextjs.vercel.app/enfermeria">
+              <a href="https://landing-tecnologiaplus-nextjs.vercel.app/llamado-de-enfermeria/cuidamaster">
                 Llamado de Enfermería CuidaMaster
               </a>
             </li>

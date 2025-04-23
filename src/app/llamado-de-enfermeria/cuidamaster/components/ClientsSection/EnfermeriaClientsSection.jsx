@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import style from "./EnfermeriaClientsSection.module.scss";
-import { useLogos } from "../../../context/LogosContext";
+import { useLogos } from "../../../../context/LogosContext";
 
 import InfiniteSlider2 from "@/app/components/sliders/InfiniteSlider2";
 

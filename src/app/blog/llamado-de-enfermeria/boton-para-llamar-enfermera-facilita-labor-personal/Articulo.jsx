@@ -23,7 +23,7 @@ const articuloBotonLlamarEnfermera = {
         "Uno de los principales desafíos que enfrentan las enfermeras y enfermeros es la atención simultánea a múltiples pacientes con diferentes necesidades. En un turno, pueden atender desde personas con movilidad reducida hasta pacientes en estado crítico que requieren vigilancia constante. Esta diversidad de requerimientos exige una capacidad de respuesta rápida y eficiente, algo que muchas veces se ve limitado por la falta de herramientas adecuadas para gestionar la comunicación con los pacientes. Contar con un ",
         {
           texto: "botón para llamar a enfermera",
-          href: "https://landing-tecnologiaplus-nextjs.vercel.app/enfermeria",
+          href: "https://landing-tecnologiaplus-nextjs.vercel.app/llamado-de-enfermeria/cuidamaster",
         },
         " facilita este proceso, permitiendo que el personal responda a las solicitudes sin necesidad de recorrer largas distancias.",
       ],
@@ -51,7 +51,7 @@ const articuloBotonLlamarEnfermera = {
         "Por si fuera poco, el agotamiento laboral y el estrés acumulado son factores que afectan el bienestar del personal de enfermería. La carga de trabajo, sumada a las largas jornadas y la presión de brindar una atención de calidad, puede generar fatiga, errores en la administración de medicamentos y una disminución en la calidad del servicio. Contar con un ",
         {
           texto: "botón para llamar a enfermera",
-          href: "https://landing-tecnologiaplus-nextjs.vercel.app/enfermeria",
+          href: "https://landing-tecnologiaplus-nextjs.vercel.app/llamado-de-enfermeria/cuidamaster",
         },
         " no solo mejora la organización del trabajo, sino que también contribuye a reducir la carga física y emocional del personal, permitiéndoles centrarse en brindar una atención eficiente y oportuna.",
       ],
@@ -145,7 +145,7 @@ const articuloBotonLlamarEnfermera = {
         "Los sistemas avanzados permiten integrar el ",
         {
           texto: "botón para llamar a enfermera",
-          href: "https://landing-tecnologiaplus-nextjs.vercel.app/enfermeria",
+          href: "https://landing-tecnologiaplus-nextjs.vercel.app/llamado-de-enfermeria/cuidamaster",
         },
         " con paneles de control o dispositivos móviles, facilitando la coordinación entre distintos profesionales de la salud.",
       ],
@@ -216,7 +216,7 @@ const articuloBotonLlamarEnfermera = {
         "El personal de enfermería enfrenta múltiples desafíos en su día a día, desde la sobrecarga laboral hasta la presión de atender a pacientes y familiares con diversas necesidades. Implementar un ",
         {
           texto: "botón para llamar a enfermera",
-          href: "https://landing-tecnologiaplus-nextjs.vercel.app/enfermeria",
+          href: "https://landing-tecnologiaplus-nextjs.vercel.app/llamado-de-enfermeria/cuidamaster",
         },
         " es una solución práctica y efectiva para optimizar su trabajo, reducir el estrés y mejorar la gestión hospitalaria.",
       ],

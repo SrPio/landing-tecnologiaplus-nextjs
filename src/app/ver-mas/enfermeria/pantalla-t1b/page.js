@@ -6,7 +6,7 @@ import SecondaryHeader from "@/app/components/SecondaryHeader/SecondaryHeader";
 import LogosSection from "../alarma-de-luz/components/LogosSection/LogosSection";
 import TechnicalSheet from "./components/TechnicalSheet/TechnicalSheet";
 import HowItWorks from "./components/HowItWorks/HowItWorks";
-import EnfermeriaRelatedProducts from "@/app/enfermeria/components/RelatedProducts/EnfermeriaRelatedProducts";
+import EnfermeriaRelatedProducts from "@/app/llamado-de-enfermeria/cuidamaster/components/RelatedProducts/EnfermeriaRelatedProducts";
 import ProductGallerySelected from "./components/ProductGallery/ProductGallerySelected";
 
 export default function VerMasPantallaT1B() {

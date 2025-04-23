@@ -6,6 +6,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import style from "./LlamadorMeserosRelatedProducts.module.scss";
+import { useEffect, useState } from "react";
 
 function LlamadorMeserosRelatedProducts({ titleClassName = "" }) {
   const products = [
@@ -32,6 +33,14 @@ function LlamadorMeserosRelatedProducts({ titleClassName = "" }) {
     },
   ];
 
+  // Use client-side only state initialization to avoid hydration mismatches
+  const [shouldLoop, setShouldLoop] = useState(false);
+  
+  // Only enable loop on client-side after component mounts
+  useEffect(() => {
+    setShouldLoop(products.length > 3);
+  }, [products.length]);
+
   return (
     <section className={style.related__products}>
       <h2 className={`${style.defaultTitle} ${titleClassName}`}>
@@ -43,7 +52,7 @@ function LlamadorMeserosRelatedProducts({ titleClassName = "" }) {
             modules={[Navigation, Pagination, Autoplay]}
             spaceBetween={20}
             slidesPerView={1}
-            loop={true}
+            loop={shouldLoop}
             navigation
             pagination={{ clickable: true }}
             breakpoints={{

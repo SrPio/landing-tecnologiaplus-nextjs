@@ -102,8 +102,13 @@ const InfiniteSlider2 = ({
     width: 'max-content',
     padding: '10px 0',
     willChange: 'transform',
+    backfaceVisibility: 'hidden',
+    WebkitBackfaceVisibility: 'hidden',
+    transform: 'translateZ(0)',
+    WebkitTransform: 'translateZ(0)',
     transition: isHovered ? 'transform 0.2s ease' : 'none',
-    animation: shouldAnimate ? `scrollX ${animationDuration}s linear infinite` : 'none',
+    // Only animate on client-side to avoid hydration issues
+    animation: isClient && shouldAnimate ? `scrollX ${animationDuration}s linear infinite` : 'none',
   };
 
   // Handle image loading error
@@ -113,6 +118,35 @@ const InfiniteSlider2 = ({
       e.target.style.opacity = '0.5';
       e.target.style.background = '#f0f0f0';
     }
+  };
+
+  // Static styles to ensure consistent rendering between server and client
+  const logoItemStyle = {
+    flex: '0 0 auto',
+    width: '150px',
+    height: '80px',
+    padding: '0 10px',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    position: 'relative'
+  };
+
+  const logoImageStyle = {
+    position: 'absolute',
+    display: 'block',
+    width: 'auto',
+    height: '50px', // Fixed height for all logos
+    maxWidth: '130px', // Fixed max width
+    objectFit: 'contain',
+    filter: 'grayscale(100%) opacity(0.7)',
+    transition: 'filter 0.3s ease',
+    transform: 'translateZ(0)',
+    WebkitTransform: 'translateZ(0)',
+    willChange: 'filter',
+    imageRendering: 'high-quality',
+    // Prevent SVG logos from scaling with browser settings
+    vectorEffect: 'non-scaling-stroke'
   };
 
   return (
@@ -157,42 +191,32 @@ const InfiniteSlider2 = ({
       {/* Infinite scrolling track - only animate when in view */}
       <div 
         style={trackStyle}
-        onMouseEnter={() => setIsHovered(true)}
-        onMouseLeave={() => setIsHovered(false)}
+        onMouseEnter={() => isClient && setIsHovered(true)}
+        onMouseLeave={() => isClient && setIsHovered(false)}
       >
         {displayItems.map((item, index) => (
           <div 
             key={`slide-${index}`}
-            style={{
-              flex: '0 0 auto',
-              width: '150px',
-              padding: '0 10px',
-              display: 'flex',
-              justifyContent: 'center',
-              alignItems: 'center'
-            }}
+            style={logoItemStyle}
           >
             <img 
               src={item.src} 
               alt={item.alt || 'Client logo'} 
               loading="lazy"
-              width="150"
-              height="60"
+              width="130"
+              height="50"
               decoding="async"
               onError={handleImageError}
-              style={{
-                width: '100%',
-                height: 'auto',
-                objectFit: 'contain',
-                filter: 'grayscale(100%) opacity(0.7)',
-                transition: 'filter 0.3s ease',
-                maxHeight: '80px'
-              }}
+              style={logoImageStyle}
               onMouseEnter={(e) => {
-                e.currentTarget.style.filter = 'grayscale(0%) opacity(1)';
+                if (isClient) {
+                  e.currentTarget.style.filter = 'grayscale(0%) opacity(1)';
+                }
               }}
               onMouseLeave={(e) => {
-                e.currentTarget.style.filter = 'grayscale(100%) opacity(0.7)';
+                if (isClient) {
+                  e.currentTarget.style.filter = 'grayscale(100%) opacity(0.7)';
+                }
               }}
             />
           </div>

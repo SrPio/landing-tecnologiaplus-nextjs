@@ -16,7 +16,10 @@ function HomeClientsSection() {
         cliente.
       </p>
       <div className={style.clients__container}>
-        <InfiniteSlider2 logos={logosHome} duration={40} />
+        <InfiniteSlider2 
+          logos={logosHome} 
+          activeDefaultSpeed={true} 
+        />
       </div>
     </section>
   );

@@ -1,36 +1,157 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Tecnología Plus - Next.js Landing Page
 
-## Getting Started
+![Tecnología Plus Logo](public/android-chrome-192x192.png)
 
-First, run the development server:
+## 📋 Overview
 
+This is the official landing page for Tecnología Plus, a Colombian company specializing in technology solutions for businesses, including turnos (queue systems), llamador de meseros (waiter call systems), and localizadores (customer locator systems). Built with Next.js 14, this website uses modern front-end technologies to provide a fast, responsive, and SEO-friendly experience.
+
+## ✨ Features
+
+- **Modern UI/UX**: Clean design with responsive layouts for all device sizes
+- **Performance Optimized**: Fast loading times with optimized assets and code splitting
+- **Contact System**: React Hook Form with Zod validation and EmailJS integration
+- **SEO Friendly**: Comprehensive metadata, Schema.org data, and semantic HTML
+- **Internationalization Ready**: Support for multiple languages (Spanish primary)
+- **Product Showcases**: Detailed information about various product offerings
+- **WhatsApp Integration**: Direct messaging with pre-filled context from any page
+
+## 🛠️ Technologies Used
+
+- **Next.js 14**: React framework with App Router
+- **React**: UI library
+- **SASS/SCSS**: Styling with modules for component scoping
+- **React Hook Form**: Form validation and handling
+- **Zod**: Schema validation
+- **EmailJS**: Email service without backend
+- **Cloudinary**: Image hosting and optimization
+- **Responsive Design**: Mobile-first approach
+- **Swiper**: Modern carousel/slider
+- **React Icons**: Icon library
+
+## 📦 Installation & Setup
+
+### Prerequisites
+
+- Node.js 18.17 or later
+- pnpm (preferred) or npm/yarn
+
+### Installation
+
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/your-repo/landing-tecnologiaplus-nextjs.git
+cd landing-tecnologiaplus-nextjs
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+pnpm install
+```
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+3. Create environment files:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Create `.env.local` for development:
+```
+NEXT_PUBLIC_EMAILJS_PUBLIC_KEY=your_key
+NEXT_PUBLIC_EMAILJS_TEMPLATE_ID=your_template_id
+NEXT_PUBLIC_EMAILJS_SERVICE_ID=your_service_id
+```
 
-## Learn More
+4. Start the development server:
+```bash
+pnpm dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+5. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📂 Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+landing-tecnologiaplus-nextjs/
+├── public/               # Static files (images, favicon, etc)
+├── src/                  # Source files
+│   ├── app/              # Next.js App Router
+│   │   ├── components/   # Shared components
+│   │   ├── context/      # React contexts
+│   │   ├── styles/       # Global styles and mixins
+│   │   ├── [product]/    # Product-specific pages
+│   │   ├── ver-mas/      # Detailed pages
+│   │   ├── layout.js     # Root layout
+│   │   └── page.js       # Home page
+│   └── components/       # Global components
+├── .env.local            # Local environment variables (gitignored)
+├── EMAIL_CONFIG.md       # Documentation for email system
+├── next.config.js        # Next.js configuration
+└── package.json          # Project dependencies and scripts
+```
 
-## Deploy on Vercel
+## 🧩 Key Components
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### ContactForm
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The form component incorporates:
+
+- Floating labels for better UX
+- Real-time validation with useful error messages
+- Colombian phone number validation
+- Anti-spam measures with localStorage rate limiting
+- EmailJS integration for serverless email functionality
+- Responsive design for all device sizes
+
+### WhatsApp Button
+
+- Fixed position button visible throughout the site
+- Contextual message pre-filled with current page information
+- Direct link to company WhatsApp for instant communication
+
+### InfiniteSlider
+
+- Smooth animation for showcasing client logos
+- Pause on hover functionality
+- Responsive design adjusting speed based on screen size
+
+## 🚀 Deployment
+
+The website is designed to be deployed on Vercel:
+
+```bash
+pnpm build
+vercel --prod
+```
+
+Don't forget to set up environment variables in your Vercel project settings.
+
+## 📱 Mobile Responsiveness
+
+The site is fully responsive and tested on:
+- Desktop (1920px+)
+- Laptop (1366px)
+- Tablet (768px)
+- Mobile (375px+)
+
+## 🔍 SEO Considerations
+
+- Semantic HTML structure
+- Optimized meta tags
+- Schema.org structured data
+- Fast loading (95+ Lighthouse score)
+- Accessible design practices
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch: `git checkout -b feature/amazing-feature`
+3. Commit your changes: `git commit -m 'Add some amazing feature'`
+4. Push to the branch: `git push origin feature/amazing-feature`
+5. Open a pull request
+
+## 📄 License
+
+This project is proprietary and belongs to Tecnología Plus. Unauthorized use, modification, or distribution is prohibited.
+
+---
+
+Built with ❤️ for Tecnología Plus.
+
+For more information, visit [tecnologiaplus.com](https://tecnologiaplus.com)

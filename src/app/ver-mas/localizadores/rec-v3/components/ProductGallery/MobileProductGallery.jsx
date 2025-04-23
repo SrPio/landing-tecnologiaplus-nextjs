@@ -6,9 +6,9 @@ import { Navigation, Pagination } from "swiper/modules";
 import { IoChevronBack, IoChevronForward } from "react-icons/io5";
 import Image from "next/image";
 import ServerFirstImage from "../../../../../components/ServerFirstImage/ServerFirstImage";
-import style from "./MobileProductGallery.module.scss";
+import style from "../../../../styles/ProductGallery.module.scss";
+
 import Header from "@/app/components/Header/Header";
-import { IoIosArrowBack } from "react-icons/io";
 import { FaWhatsapp } from "react-icons/fa";
 import { useClientSwiperFix } from "@/app/utils/swiperClientFix";
 

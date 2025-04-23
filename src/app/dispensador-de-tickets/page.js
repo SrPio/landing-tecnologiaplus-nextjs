@@ -16,12 +16,12 @@ export const metadata = {
     description: "Mejora la experiencia de tus clientes con nuestro dispensador de tiquetes. Ordena filas y agiliza el servicio. ¡Cotiza ahora y recibe asesoría!",
     robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
     alternates: {
-        canonical: "https://landing-tecnologiaplus-nextjs.vercel.app/dispensador-tiquetes",
+        canonical: "http://landing-tecnologiaplus-nextjs.vercel.app/dispensador-de-tickets",
     },
     openGraph: {
         type: "article",
         locale: "es_ES",
-        url: "https://landing-tecnologiaplus-nextjs.vercel.app/dispensador-tiquetes",
+        url: "http://landing-tecnologiaplus-nextjs.vercel.app/dispensador-de-tickets",
         title: "Dispensador de Tiquetes | Agiliza la Atención",
         description: "Mejora la experiencia de tus clientes con nuestro dispensador de tiquetes. Ordena filas y agiliza el servicio. ¡Cotiza ahora y recibe asesoría!",
         siteName: "TecnologiaPlus",

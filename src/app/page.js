@@ -48,7 +48,7 @@ export default function Home() {
       <SliderHero
         botonesPorHero={{
           turnoMaster: { href: "/turnomaster", text: "Ver más" },
-          dispensadorTiquetes: { href: "/dispensador-tiquetes", text: "Ver más" },
+          dispensadorTiquetes: { href: "/dispensador-de-tickets", text: "Ver más" },
           turnoExpress: { href: "/turnero/turnoexpress", text: "Ver más" },
           calificador: { href: "/calificador-de-servicio-al-cliente/opinamaster", text: "Ver más" },
           rollosTermicos: { href: "/rollos-de-papel-termico", text: "Ver más" },

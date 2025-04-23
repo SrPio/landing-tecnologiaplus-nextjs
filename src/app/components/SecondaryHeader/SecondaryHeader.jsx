@@ -101,7 +101,7 @@ function SecondaryHeader() {
               </a>
             </li>
             <li>
-              <a href="https://landing-tecnologiaplus-nextjs.vercel.app/dispensador-tiquetes">
+              <a href="http://landing-tecnologiaplus-nextjs.vercel.app/dispensador-de-tickets">
                 Dispensador de Tickets
               </a>
             </li>

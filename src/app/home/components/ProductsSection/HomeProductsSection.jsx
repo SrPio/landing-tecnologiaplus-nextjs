@@ -71,7 +71,7 @@ function HomeProductsSection() {
 tomar el turno."
           imageSrc="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349966/dispensador_de_tiquetes_2x-8_qusuqr_fuxs8k.webp"
           altText="imagen de Dispensador de tiquetes"
-          link="https://landing-tecnologiaplus-nextjs.vercel.app/dispensador-tiquetes"
+          link="http://landing-tecnologiaplus-nextjs.vercel.app/dispensador-de-tickets"
         />
 
         <Card

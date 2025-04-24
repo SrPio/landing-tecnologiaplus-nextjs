@@ -15,7 +15,11 @@ function EnfermeriaClientsSection() {
         Entidades médicas que mejoran su atención con el llamado de enfermeras
       </p>
       <div className={style.clients__container}>
-        <InfiniteSlider2 logos={logosEnfermeria} duration={40} />
+        <InfiniteSlider2
+          logos={logosEnfermeria}
+          speedPreset="slow"
+          stopOnFocus={false}
+        />
       </div>
     </section>
   );

@@ -12,7 +12,11 @@ function LogosSection() {
         <h2>Algunos clientes</h2>
       </div>
       <div className={styles.content}>
-        <InfiniteSlider2 logos={logosLocalizadores} activeDefaultSpeed={true} />
+        <InfiniteSlider2
+          logos={logosLocalizadores}
+          speedPreset="slow"
+          stopOnFocus={false}
+        />
       </div>
     </section>
   );

@@ -7,7 +7,6 @@ import InfiniteSlider2 from "@/app/components/sliders/InfiniteSlider2";
 
 function TurnosClientsSection() {
   const { logosTurnos } = useLogos();
-  
 
   return (
     <section className={style.clients__section}>
@@ -17,9 +16,10 @@ function TurnosClientsSection() {
         ordenar la atención al cliente.
       </p>
       <div className={style.clients__container}>
-        <InfiniteSlider2 
-          logos={logosTurnos} 
-          activeDefaultSpeed={true} 
+        <InfiniteSlider2
+          logos={logosTurnos}
+          speedPreset="slow"
+          stopOnFocus={false}
         />
       </div>
     </section>

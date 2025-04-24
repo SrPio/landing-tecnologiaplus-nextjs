@@ -16,7 +16,11 @@ function TurnoMasterClientsSection() {
         real
       </p>
       <div className={style.clients__container}>
-        <InfiniteSlider2 logos={logosTurnoMaster} duration={40} />
+        <InfiniteSlider2
+          logos={logosTurnoMaster}
+          speedPreset="slow"
+          stopOnFocus={false}
+        />
       </div>
     </section>
   );

@@ -25,12 +25,20 @@ const alternativeImages = [
   {
     name: "Negro",
     url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743683761/Frame_1_21_bdcoxu.webp",
+    id: "black-v2n"
   },
   {
     name: "Blanco",
     url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743683759/Frame_1_22_cikxto.webp",
+    id: "white-v2n"
   },
 ];
+
+// Helper function to generate safe keys from URLs
+const generateImageKey = (url, index) => {
+  if (!url) return `img-${index}`;
+  return `img-${url.substring(url.lastIndexOf("/") + 1, url.lastIndexOf("."))}`;
+};
 
 function MobileProductGallery() {
   const mainSwiperRef = useRef(null);
@@ -41,15 +49,18 @@ function MobileProductGallery() {
   );
   const isGallery = currentImages === images;
 
-  const [isSwitchingImages, setIsSwitchingImages] = useState(false);
+  // Use a ref for this flag since it doesn't need to trigger re-renders
+  const isSwitchingImagesRef = useRef(false);
 
   const handleThumbnailClick = (imageSet, index) => {
     setCurrentImages(imageSet);
+    isSwitchingImagesRef.current = true;
     setTimeout(() => {
       setCurrentIndex(index);
       if (mainSwiperRef.current) {
         mainSwiperRef.current.swiper.slideTo(index, 0);
       }
+      isSwitchingImagesRef.current = false;
     }, 10);
   };
 
@@ -81,32 +92,34 @@ function MobileProductGallery() {
         loop={true}
         className={styles.mainSwiper}
         onSlideChange={(swiper) => {
-          if (!isSwitchingImages) {
+          if (!isSwitchingImagesRef.current) {
             setCurrentIndex(swiper.realIndex);
           }
         }}
-        onTransitionEnd={() => setIsSwitchingImages(false)}
       >
-        {currentImages.map((img, index) => (
-          <SwiperSlide key={index}>
-            <img
-              src={typeof img === "string" ? img : img.url}
-              alt={`Imagen ${index + 1}`}
-              className={styles.mainImage}
-            />
-          </SwiperSlide>
-        ))}
+        {currentImages.map((img, index) => {
+          const imgSrc = typeof img === "string" ? img : img.url;
+          return (
+            <SwiperSlide key={generateImageKey(imgSrc, index)}>
+              <img
+                src={imgSrc}
+                alt={`Imagen ${index + 1}`}
+                className={styles.mainImage}
+              />
+            </SwiperSlide>
+          );
+        })}
       </Swiper>
 
-      {isAlternative ? (
+      {isAlternative && alternativeImages[currentIndex] ? (
         <div className={styles.colorNameContainer}>
-          <h3>{alternativeImages[currentIndex]?.name}</h3>
+          <h3>{alternativeImages[currentIndex].name}</h3>
           <div className={styles.container__colors}>
             {alternativeImages.map((image, index) => (
               <div
-                key={index}
+                key={image.id || `color-${index}-${image.name}`}
                 className={`${styles.technical__circle__figure} ${
-                  styles["color__" + image.name] // Usa image.name en lugar de index
+                  styles["color__" + image.name]
                 } ${currentIndex === index ? styles.selected : ""}`}
                 onClick={() =>
                   handleThumbnailClick(
@@ -125,13 +138,13 @@ function MobileProductGallery() {
         <div className={styles.thumbsRow}>
           {images.map((img, index) => (
             <div
-              key={index}
+              key={generateImageKey(img, index)}
               className={classNames(styles.thumb__Slide, {
                 [styles.active]: isGallery && currentIndex === index,
               })}
               onClick={() => handleThumbnailClick(images, index)}
             >
-              <img src={img} alt={`Thumbnail ${index}`} />
+              <img src={img} alt={`Thumbnail ${index + 1}`} />
             </div>
           ))}
         </div>
@@ -140,7 +153,7 @@ function MobileProductGallery() {
         <div className={styles.thumbsRow}>
           {alternativeImages.map((img, index) => (
             <div
-              key={index}
+              key={img.id || `thumb-${index}-${img.name}`}
               className={classNames(styles.thumb__Slide, {
                 [styles.active]: !isGallery && currentIndex === index,
               })}

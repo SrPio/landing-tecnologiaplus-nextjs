@@ -129,10 +129,6 @@ const nextConfig = {
   },
   experimental: {
     optimizeCss: true,
-    // Add specific font optimization
-    fontLoaders: [
-      { loader: '@next/font/google', options: { subsets: ['latin'] } },
-    ],
   },
   headers: async () => {
     return [

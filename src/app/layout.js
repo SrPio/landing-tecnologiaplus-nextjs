@@ -1,29 +1,29 @@
 import "./styles/critical.scss"; // Critical CSS for first render
 import "./styles/main.scss"; // Import main CSS directly
 import Providers from "./context/Providers";
-import { Inter, Montserrat, Bebas_Neue } from 'next/font/google';
+// import { Inter, Montserrat, Bebas_Neue } from 'next/font/google';
 import SchemaOrg from '../components/SchemaOrg';
 
-// Optimize fonts
-const inter = Inter({
-  subsets: ['latin'],
-  display: 'swap',
-  variable: '--font-inter',
-});
+// Temporarily disabled Google fonts to fix build
+// const inter = Inter({ 
+//   subsets: ['latin'],
+//   display: 'swap',
+//   variable: '--font-inter'
+// });
 
-const montserrat = Montserrat({
-  subsets: ['latin'],
-  display: 'swap',
-  variable: '--font-montserrat',
-  weights: [100, 200, 300, 400, 500, 600, 700, 800, 900],
-});
+// const montserrat = Montserrat({
+//   subsets: ['latin'],
+//   display: 'swap',
+//   variable: '--font-montserrat',
+//   weight: ['400', '500', '600', '700']
+// });
 
-const bebasNeue = Bebas_Neue({
-  subsets: ['latin'],
-  display: 'swap',
-  variable: '--font-bebas-neue',
-  weight: '400',
-});
+// const bebasNeue = Bebas_Neue({
+//   subsets: ['latin'],
+//   display: 'swap',
+//   variable: '--font-bebas-neue',
+//   weight: '400'
+// });
 
 export const metadata = {
   title: {
@@ -100,7 +100,8 @@ export const metadata = {
  */
 export default function RootLayout({ children }) {
   return (
-    <html lang="es" className={`${inter.variable} ${montserrat.variable} ${bebasNeue.variable}`}>
+    // <html lang="es" className={`${inter.variable} ${montserrat.variable} ${bebasNeue.variable}`}>
+    <html lang="es">
       <head>
         {/* Essential resource hints */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -109,6 +110,9 @@ export default function RootLayout({ children }) {
         <link rel="preconnect" href="https://res.cloudinary.com" crossOrigin="anonymous" />
         <link rel="preconnect" href="https://api.emailjs.com" crossOrigin="anonymous" />
         <link rel="preconnect" href="https://i.ytimg.com" crossOrigin="anonymous" />
+        
+        {/* Temporary fallback font links */}
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&family=Bebas+Neue&display=swap" rel="stylesheet" />
         
         {/* Favicon explicit links */}
         <link rel="icon" href="/favicon.ico" sizes="any" />

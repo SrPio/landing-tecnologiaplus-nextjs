@@ -97,6 +97,8 @@ const nextConfig = {
                   loader.options = loader.options || {};
                   loader.options.importLoaders = 1;
                   loader.options.url = true;
+                  // Add this to handle external URLs
+                  loader.options.esModule = false;
                 }
               });
             }
@@ -107,6 +109,21 @@ const nextConfig = {
       // Development specific settings
       config.devtool = 'eval-source-map';
     }
+
+    // Handle URLs in CSS
+    config.module.rules.push({
+      test: /\.(scss|css)$/,
+      use: [
+        {
+          loader: 'url-loader',
+          options: {
+            limit: false,
+            esModule: false,
+          }
+        }
+      ],
+      include: [/node_modules/, /src/],
+    });
 
     const fileLoaderRule = config.module.rules.find(
       (rule) => rule.test?.test?.('.svg'),
@@ -131,7 +148,6 @@ const nextConfig = {
   },
   experimental: {
     optimizeCss: true,
-    outputStandalone: true
   },
   headers: async () => {
     return [

@@ -121,4 +121,36 @@ export function getViewportDimensions() {
 export function calculateAspectRatio(width, height) {
   if (!width || !height || width <= 0 || height <= 0) return null;
   return width / height;
-} 
+}
+
+/**
+ * Image utilities for background images
+ * This helps map Cloudinary URLs to local files
+ */
+
+// Map of Cloudinary URLs to local image paths
+export const backgroundImages = {
+  // Hero backgrounds
+  "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349921/jlxxsnlercoj0nihz4am_udppso.webp": "/images/background/hero-bg.webp",
+  "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1745272277/Fondo_3x-8_yjkwov.webp": "/images/background/hero-mobile-bg.webp",
+  
+  // Other backgrounds
+  "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738851175/fondo_2x-8_pxbzqc.webp": "/images/background/benefits-bg.webp",
+  "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349923/nisgh2gbe0ginddnsrko_opkrn1.webp": "/images/background/industries-bg.webp",
+  "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738691405/fondo_texto_2x-8_-_copia_zqda2g.webp": "/images/background/steps-bg.webp",
+};
+
+/**
+ * Download helper function (only for documentation - this doesn't actually run in the app)
+ * Use this during development to download the images from Cloudinary
+ */
+export const downloadBackgroundImages = async () => {
+  // This is just a reference for manually downloading the images
+  const cloudinaryUrls = Object.keys(backgroundImages);
+  
+  for (const url of cloudinaryUrls) {
+    const localPath = backgroundImages[url];
+    console.log(`Download ${url} to ${localPath}`);
+    // Actually download using fetch() and write to file
+  }
+}; 

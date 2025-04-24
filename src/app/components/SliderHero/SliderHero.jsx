@@ -2,6 +2,7 @@
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
+import { useState, useEffect } from "react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -19,6 +20,14 @@ import LlamadorMeserosHeroSection from "./Slides/MeserosHeroSection/LlamadorMese
 import LocalizadoresHeroSection from "./Slides/LocalizadoresHeroSection/LocalizadoresHeroSection";
 
 export default function SliderHero({ botonesPorHero = {} }) {
+  // Use client-side state to control loop functionality
+  const [isClient, setIsClient] = useState(false);
+
+  // Only enable loop functionality after client-side hydration is complete
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
+
   return (
     <div className={styles.container__slider__hero}>
       <Header />
@@ -29,7 +38,7 @@ export default function SliderHero({ botonesPorHero = {} }) {
         autoplay={false}
         pagination={{ clickable: true }}
         navigation={true}
-        loop={true}
+        loop={isClient} // Only enable loop on client-side
         modules={[Navigation, Pagination, Autoplay]}
         // autoplay={{
         //   waitForTransition: true,

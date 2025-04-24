@@ -27,6 +27,17 @@ const nextConfig = {
     contentDispositionType: 'attachment',
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
   },
+  // Turbopack configuration for compatibility
+  turbo: {
+    loaders: {
+      '.svg': ['@svgr/webpack', 'url-loader'],
+      '.css': ['style-loader', 'css-loader'],
+      '.scss': ['style-loader', 'css-loader', 'sass-loader'],
+    },
+    rules: {
+      // Add specific rules for Turbopack if needed
+    }
+  },
   // Enhanced webpack configuration for optimizing JavaScript bundles
   webpack: (config, { isServer, dev }) => {
     // Only run optimizations in production builds

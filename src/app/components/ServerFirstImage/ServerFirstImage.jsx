@@ -50,7 +50,7 @@ const ServerFirstImage = ({
     }
   }, [priority, src]);
 
-  // Apply optimization after hydration if enabled
+  // Apply optimization after hydration if enabled - without using setTimeout
   useEffect(() => {
     if (
       isHydrated &&
@@ -59,15 +59,12 @@ const ServerFirstImage = ({
       src.includes("res.cloudinary.com") &&
       !src.includes("/f_auto,q_auto")
     ) {
-      const timer = setTimeout(() => {
-        const optimizedSrc = src.replace(
-          /\/upload\//,
-          "/upload/f_auto,q_auto/"
-        );
-        setImgSrc(optimizedSrc);
-      }, 1000); // Delay optimization to ensure hydration is complete
-
-      return () => clearTimeout(timer);
+      // Remove the setTimeout delay - it can cause hydration issues
+      const optimizedSrc = src.replace(
+        /\/upload\//,
+        "/upload/f_auto,q_auto/"
+      );
+      setImgSrc(optimizedSrc);
     }
   }, [isHydrated, optimizeAfterHydration, src]);
 

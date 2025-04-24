@@ -94,32 +94,26 @@ const InfiniteSlider2 = ({
   // Add animation keyframes dynamically to ensure they're available
   useEffect(() => {
     if (isClient) {
-      // Check if we need to add keyframes
-      const styleSheet = document.styleSheets[0];
-      let keyframesExist = false;
+      // Create a new style element instead of accessing existing stylesheets
+      // This avoids CORS issues when accessing stylesheets
+      const styleElement = document.createElement('style');
+      styleElement.type = 'text/css';
       
-      // Check if keyframes already exist
-      for (let i = 0; i < styleSheet.cssRules.length; i++) {
-        if (styleSheet.cssRules[i].type === CSSRule.KEYFRAMES_RULE && 
-            styleSheet.cssRules[i].name === 'scrollX') {
-          keyframesExist = true;
-          break;
+      // Add the keyframes to our new style element
+      styleElement.innerHTML = `
+        @keyframes scrollX {
+          from { transform: translateX(0); }
+          to { transform: translateX(-50%); }
         }
-      }
+      `;
       
-      // Add keyframes if they don't exist
-      if (!keyframesExist) {
-        try {
-          styleSheet.insertRule(`
-            @keyframes scrollX {
-              from { transform: translateX(0); }
-              to { transform: translateX(-50%); }
-            }
-          `, styleSheet.cssRules.length);
-        } catch (e) {
-          console.error('Could not add keyframes:', e);
-        }
-      }
+      // Append the style element to head
+      document.head.appendChild(styleElement);
+      
+      // Clean up function to remove the style element when component unmounts
+      return () => {
+        document.head.removeChild(styleElement);
+      };
     }
   }, [isClient]);
   

@@ -72,12 +72,12 @@ function SecondaryHeader() {
           >
             <li>
               <a href="http://landing-tecnologiaplus-nextjs.vercel.app/localizadores-para-restaurantes">
-                Localizadores para Restaurantes
+                Localizadores autoservicio
               </a>
             </li>
             <li>
               <a href="https://landing-tecnologiaplus-nextjs.vercel.app/llamadores-de-meseros">
-                Llamadores de Meseros
+                Llamadores de meseros
               </a>
             </li>
             <li>
@@ -87,37 +87,37 @@ function SecondaryHeader() {
             </li>
             <li>
               <a href="https://landing-tecnologiaplus-nextjs.vercel.app/turnomaster">
-                Sistema de Turnos TurnoMaster
+                Sistema de turnos
               </a>
             </li>
             <li>
               <a href="http://landing-tecnologiaplus-nextjs.vercel.app/rollos-de-fichos-para-turnos">
-                Rollos de Fichos para Turnos
+                Rollos para turnos
               </a>
             </li>
             <li>
               <a href="https://landing-tecnologiaplus-nextjs.vercel.app/rollos-de-papel-termico">
-                Rollos de Papel Térmico
+                Rollos térmicos
               </a>
             </li>
             <li>
               <a href="http://landing-tecnologiaplus-nextjs.vercel.app/dispensador-de-tickets">
-                Dispensador de Tickets
+                Dispensador de tickets
               </a>
             </li>
             <li>
               <a href="https://landing-tecnologiaplus-nextjs.vercel.app/llamado-de-enfermeria/cuidamaster">
-                Llamado de Enfermería CuidaMaster
+                Llamado de enfermería
               </a>
             </li>
             <li>
               <a href="https://landing-tecnologiaplus-nextjs.vercel.app/calificador-de-servicio-al-cliente/opinamaster">
-                Calificador de Servicio al cliente OpinaMaster
+                Calificador de servicio
               </a>
             </li>
             <li>
               <a href="https://landing-tecnologiaplus-nextjs.vercel.app/encuesta-virtual">
-                Encuesta Virtual OpinaMaster
+                Encuesta virtual
               </a>
             </li>
           </ul>

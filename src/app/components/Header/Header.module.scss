@@ -76,7 +76,7 @@
 
       li {
         list-style: none;
-        padding: 8px 26px;
+        padding: 12px 20px;
 
         @include respond-to-max("laptop") {
           padding: 0 26px;

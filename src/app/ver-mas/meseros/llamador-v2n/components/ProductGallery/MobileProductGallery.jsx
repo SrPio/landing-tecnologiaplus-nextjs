@@ -43,6 +43,9 @@ const generateImageKey = (url, index) => {
 };
 
 function MobileProductGallery() {
+  // Reference to swiper - more efficient than using state
+  const swiperRef = useRef(null);
+
   // References to both swipers - we'll create two separate swipers
   const gallerySwiperRef = useRef(null);
   const colorSwiperRef = useRef(null);
@@ -146,7 +149,7 @@ function MobileProductGallery() {
       {/* Gallery Swiper - only visible when activeView is 'gallery' */}
       <div style={{ display: activeView === 'gallery' ? 'block' : 'none' }}>
         <Swiper
-          ref={gallerySwiperRef}
+           ref={gallerySwiperRef}
           modules={[Navigation, Pagination]}
           pagination={{ clickable: true }}
           loop={true}
@@ -169,7 +172,7 @@ function MobileProductGallery() {
       {/* Colors Swiper - only visible when activeView is 'colors' */}
       <div style={{ display: activeView === 'colors' ? 'block' : 'none' }}>
         <Swiper
-          ref={colorSwiperRef}
+           ref={colorSwiperRef}
           modules={[Navigation, Pagination]}
           pagination={false}
           loop={true}

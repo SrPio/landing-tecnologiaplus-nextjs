@@ -1,8 +1,8 @@
 "use client";
 
-import { useState } from "react";
+import { useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Thumbs } from "swiper/modules";
+import { Navigation, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -12,17 +12,25 @@ import Header from "@/app/components/Header/Header";
 import { IoIosArrowBack } from "react-icons/io";
 import { FaWhatsapp } from "react-icons/fa";
 
-function MobileProductGallery() {
-  const images = [
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741619121/Frame_1_26_fqmq3t.webp",
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741619266/Frame_1_27_dylrz4.webp",
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741619456/Frame_1_28_cygi5b.webp",
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741619634/Frame_1_29_l8n9ct.webp",
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743774378/6_4x-8_2_ytxttp.webp",
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741621668/Frame_1_30_dndw16.webp",
-  ];
+// Main gallery images - don't modify these constants during rendering
+const GALLERY_IMAGES = [
+  "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741619121/Frame_1_26_fqmq3t.webp",
+  "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741619266/Frame_1_27_dylrz4.webp",
+  "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741619456/Frame_1_28_cygi5b.webp",
+  "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741619634/Frame_1_29_l8n9ct.webp",
+  "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743774378/6_4x-8_2_ytxttp.webp",
+  "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741621668/Frame_1_30_dndw16.webp",
+];
 
-  const [thumbsSwiper, setThumbsSwiper] = useState(null);
+// Helper function to generate safe keys from URLs
+const generateImageKey = (url, index) => {
+  if (!url) return `img-${index}`;
+  return `img-${url.substring(url.lastIndexOf("/") + 1, url.lastIndexOf("."))}`;
+};
+
+function MobileProductGallery() {
+  // Reference to swiper - more efficient than using state
+  const swiperRef = useRef(null);
 
   return (
     <div className={styles.mobileGallery}>
@@ -49,19 +57,15 @@ function MobileProductGallery() {
       </div>
 
       <Swiper
-        modules={[Navigation, Pagination, Thumbs]}
+        ref={swiperRef}
+        modules={[Navigation, Pagination]}
         pagination={{ clickable: true }}
         navigation={true}
         loop={true}
         className={styles.mainSwiper}
       >
-        {images.map((img, index) => (
-          <SwiperSlide
-            key={`slide-${img.substring(
-              img.lastIndexOf("/") + 1,
-              img.lastIndexOf(".")
-            )}`}
-          >
+        {GALLERY_IMAGES.map((img, index) => (
+          <SwiperSlide key={generateImageKey(img, index)}>
             <img
               src={img}
               alt={`Imagen ${index + 1}`}

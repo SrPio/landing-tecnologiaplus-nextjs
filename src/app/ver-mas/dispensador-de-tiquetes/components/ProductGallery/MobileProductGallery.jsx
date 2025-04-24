@@ -13,7 +13,8 @@ import { IoIosArrowBack } from "react-icons/io";
 import { FaWhatsapp } from "react-icons/fa";
 import classNames from "classnames";
 
-const images = [
+// Main gallery images - don't modify these constants during rendering
+const GALLERY_IMAGES = [
   "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740689237/13_4x-8_5_ssc9ik.webp",
   "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740689238/12_4x-8_3_j7nede.webp",
   "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740689239/11_4x-8_3_b5gubu.webp",
@@ -21,49 +22,122 @@ const images = [
   "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743619582/Frame_1_19_k6f9dp.webp",
 ];
 
-const alternativeImages = [
+// Color variants - don't modify these constants during rendering
+const COLOR_VARIANTS = [
   {
     name: "Rojo",
     url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742935712/Frame_2_malazk.webp",
+    id: "red-ticket"
   },
   {
     name: "Azul",
     url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742935905/Frame_2_2_vdocq8.webp",
+    id: "blue-ticket"
   },
   {
     name: "Verde",
     url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742936012/Frame_2_4_rrj0or.webp",
+    id: "green-ticket"
   },
   {
     name: "Amarillo",
     url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742935960/Frame_2_3_o4fazq.webp",
+    id: "yellow-ticket"
   },
   {
     name: "Morado",
     url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742935833/Frame_2_1_sdzueu.webp",
+    id: "purple-ticket"
   },
 ];
 
+// Helper function to generate safe keys from URLs
+const generateImageKey = (url, index) => {
+  if (!url) return `img-${index}`;
+  return `img-${url.substring(url.lastIndexOf("/") + 1, url.lastIndexOf("."))}`;
+};
+
 function MobileProductGallery() {
-  const mainSwiperRef = useRef(null);
-  const [currentImages, setCurrentImages] = useState(images);
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const isAlternative = alternativeImages.some(
-    (img) => img.url === currentImages[0]
-  );
-  const isGallery = currentImages === images;
+  // Reference to extra swiper for compatibility
+  const swiperRef = useRef(null);
 
-  const [isSwitchingImages, setIsSwitchingImages] = useState(false);
+  // References to both swipers - we'll create two separate swipers
+  const gallerySwiperRef = useRef(null);
+  const colorSwiperRef = useRef(null);
+  
+  // Track which view is active - 'gallery' or 'colors'
+  const [activeView, setActiveView] = useState('gallery');
+  
+  // Track individual indexes for each view
+  const [galleryIndex, setGalleryIndex] = useState(0);
+  const [colorIndex, setColorIndex] = useState(0);
+  
+  // This will be true when we're actively switching views/slides to prevent double updates
+  const [isTransitioning, setIsTransitioning] = useState(false);
 
-  const handleThumbnailClick = (imageSet, index) => {
-    setIsSwitchingImages(true); // Evita que Swiper sobreescriba el índice
-    setCurrentImages(imageSet);
-    setTimeout(() => {
-      setCurrentIndex(index);
-      if (mainSwiperRef.current) {
-        mainSwiperRef.current.swiper.slideTo(index, 0);
+  // Get current color name
+  const currentColorName = colorIndex >= 0 && colorIndex < COLOR_VARIANTS.length 
+    ? COLOR_VARIANTS[colorIndex].name
+    : '';
+
+  // Handle clicking a gallery thumbnail
+  const handleGalleryThumbnailClick = (index) => {
+    if (activeView !== 'gallery') {
+      setIsTransitioning(true);
+      setActiveView('gallery');
+      setGalleryIndex(index);
+      
+      // Give time for view to change before sliding
+      setTimeout(() => {
+        if (gallerySwiperRef.current?.swiper) {
+          gallerySwiperRef.current.swiper.slideTo(index);
+        }
+        setIsTransitioning(false);
+      }, 50);
+    } else {
+      // Already in gallery view, just update the index
+      setGalleryIndex(index);
+      if (gallerySwiperRef.current?.swiper) {
+        gallerySwiperRef.current.swiper.slideTo(index);
       }
-    }, 10);
+    }
+  };
+
+  // Handle clicking a color thumbnail
+  const handleColorThumbnailClick = (index) => {
+    if (activeView !== 'colors') {
+      setIsTransitioning(true);
+      setActiveView('colors');
+      setColorIndex(index);
+      
+      // Give time for view to change before sliding
+      setTimeout(() => {
+        if (colorSwiperRef.current?.swiper) {
+          colorSwiperRef.current.swiper.slideTo(index);
+        }
+        setIsTransitioning(false);
+      }, 50);
+    } else {
+      // Already in colors view, just update the index
+      setColorIndex(index);
+      if (colorSwiperRef.current?.swiper) {
+        colorSwiperRef.current.swiper.slideTo(index);
+      }
+    }
+  };
+
+  // Handle slide change for gallery swiper
+  const handleGallerySlideChange = (swiper) => {
+    if (!isTransitioning) {
+      setGalleryIndex(swiper.realIndex);
+    }
+  };
+
+  // Handle slide change for colors swiper
+  const handleColorSlideChange = (swiper) => {
+    if (!isTransitioning) {
+      setColorIndex(swiper.realIndex);
+    }
   };
 
   return (
@@ -90,84 +164,94 @@ function MobileProductGallery() {
         </p>
       </div>
 
-      <Swiper
-        ref={mainSwiperRef}
-        modules={[Navigation, Pagination]}
-        pagination={isAlternative ? false : { clickable: true }}
-        loop={true}
-        className={styles.mainSwiper}
-        onSlideChange={(swiper) => {
-          if (!isSwitchingImages) {
-            setCurrentIndex(swiper.realIndex);
-          }
-        }}
-        onTransitionEnd={() => setIsSwitchingImages(false)}
-      >
-        {currentImages.map((img, index) => (
-          <SwiperSlide key={index}>
-            <img
-              src={typeof img === "string" ? img : img.url}
-              alt={`Imagen ${index + 1}`}
-              className={styles.mainImage}
-            />
-          </SwiperSlide>
-        ))}
-      </Swiper>
+      {/* Gallery Swiper - only visible when activeView is 'gallery' */}
+      <div style={{ display: activeView === 'gallery' ? 'block' : 'none' }}>
+        <Swiper
+          ref={gallerySwiperRef}
+          modules={[Navigation, Pagination]}
+          pagination={{ clickable: true }}
+          loop={true}
+          className={styles.mainSwiper}
+          onSlideChange={handleGallerySlideChange}
+          initialSlide={galleryIndex}
+        >
+          {GALLERY_IMAGES.map((img, index) => (
+            <SwiperSlide key={generateImageKey(img, index)}>
+              <img
+                src={img}
+                alt={`Imagen ${index + 1}`}
+                className={styles.mainImage}
+              />
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
 
-      {isAlternative ? (
+      {/* Colors Swiper - only visible when activeView is 'colors' */}
+      <div style={{ display: activeView === 'colors' ? 'block' : 'none' }}>
+        <Swiper
+          ref={colorSwiperRef}
+          modules={[Navigation, Pagination]}
+          pagination={false}
+          loop={true}
+          className={styles.mainSwiper}
+          onSlideChange={handleColorSlideChange}
+          initialSlide={colorIndex}
+        >
+          {COLOR_VARIANTS.map((color, index) => (
+            <SwiperSlide key={color.id || `color-slide-${index}`}>
+              <img
+                src={color.url}
+                alt={color.name}
+                className={styles.mainImage}
+              />
+            </SwiperSlide>
+          ))}
+        </Swiper>
+        
         <div className={styles.colorNameContainer}>
-          <h3>{alternativeImages[currentIndex]?.name}</h3>
+          <h3>{currentColorName}</h3>
           <div className={styles.container__colors}>
-            {alternativeImages.map((image, index) => (
+            {COLOR_VARIANTS.map((color, index) => (
               <div
-                key={index}
+                key={color.id || `color-dot-${index}`}
                 className={`${styles.technical__circle__figure} ${
-                  styles["color__" + image.name] // Usa image.name en lugar de index
-                } ${currentIndex === index ? styles.selected : ""}`}
-                onClick={() =>
-                  handleThumbnailClick(
-                    alternativeImages.map((alt) => alt.url),
-                    index
-                  )
-                }
+                  styles["color__" + color.name]
+                } ${colorIndex === index ? styles.selected : ""}`}
+                onClick={() => handleColorThumbnailClick(index)}
               ></div>
             ))}
           </div>
         </div>
-      ) : null}
+      </div>
 
       <div className={styles.thumbs__container}>
         <h3>Galería</h3>
         <div className={styles.thumbsRow}>
-          {images.map((img, index) => (
+          {GALLERY_IMAGES.map((img, index) => (
             <div
-              key={index}
+              key={generateImageKey(img, index)}
               className={classNames(styles.thumb__Slide, {
-                [styles.active]: isGallery && currentIndex === index,
+                [styles.active]: activeView === 'gallery' && galleryIndex === index,
               })}
-              onClick={() => handleThumbnailClick(images, index)}
+              onClick={() => handleGalleryThumbnailClick(index)}
             >
-              <img src={img} alt={`Thumbnail ${index}`} />
+              <img src={img} alt={`Thumbnail ${index + 1}`} />
             </div>
           ))}
         </div>
 
         <h3>Colores</h3>
         <div className={styles.thumbsRow}>
-          {alternativeImages.map((img, index) => (
+          {COLOR_VARIANTS.map((color, index) => (
             <div
-              key={index}
+              key={color.id || `thumb-${index}`}
               className={classNames(styles.thumb__Slide, {
-                [styles.active]: !isGallery && currentIndex === index,
+                [styles.active]: activeView === 'colors' && colorIndex === index,
               })}
-              onClick={() =>
-                handleThumbnailClick(
-                  alternativeImages.map((alt) => alt.url),
-                  index
-                )
-              }
+              onClick={() => handleColorThumbnailClick(index)}
             >
-              <img src={img.url} alt={img.name} />
+              <img src={color.url} alt={color.name} />
             </div>
           ))}
         </div>

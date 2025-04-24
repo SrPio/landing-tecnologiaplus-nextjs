@@ -1,17 +1,9 @@
-# Disallow all web crawlers from accessing the entire site
+# *
 User-agent: *
-Disallow: /
-
-# Explicitly disallow Google's crawler
-User-agent: Googlebot
-Disallow: /
-
-# Disallow Bingbot too
-User-agent: Bingbot
-Disallow: /
+Allow: /
 
 # Host
-Host: https://landing-tecnologiaplus-nextjs.vercel.app
+Host: https://landing-tecnologiaplus-nextjs.vercel.app/
 
 # Sitemaps
 Sitemap: https://landing-tecnologiaplus-nextjs.vercel.app/sitemap.xml

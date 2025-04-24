@@ -1,8 +1,8 @@
 "use client";
 
-import { useState } from "react";
+import { useRef } from 'react';
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Thumbs } from "swiper/modules";
+import { Navigation, Pagination } from 'swiper/modules';
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -12,8 +12,8 @@ import Header from "@/app/components/Header/Header";
 import { IoIosArrowBack } from "react-icons/io";
 import { FaWhatsapp } from "react-icons/fa";
 
-function MobileProductGallery() {
-  const images = [
+// Main gallery images - don't modify these constants during rendering
+const GALLERY_IMAGES = [
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741555504/Frame_1_15_bwa18u.webp",
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740252992/6_4x-8_1_ihfzge.webp",
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740252992/7_4x-8_1_epxrf8.webp",
@@ -23,7 +23,17 @@ function MobileProductGallery() {
     "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740252994/3_4x-8_1_qy5u5d.webp",
   ];
 
-  const [thumbsSwiper, setThumbsSwiper] = useState(null);
+// Helper function to generate safe keys from URLs
+const generateImageKey = (url, index) => {
+  if (!url) return `img-${index}`;
+  return `img-${url.substring(url.lastIndexOf("/") + 1, url.lastIndexOf("."))}`;
+};
+
+function MobileProductGallery() {
+  
+
+  // Reference to swiper - more efficient than using state
+  const swiperRef = useRef(null);
 
   return (
     <div className={styles.mobileGallery}>
@@ -47,16 +57,15 @@ function MobileProductGallery() {
         <p>Vibra y muestra el número de la mesa.</p>
       </div>
 
-      {/* Carrusel principal */}
+      {/* Main Swiper */}
       <Swiper
-        modules={[Navigation, Pagination]}
-        pagination={{ clickable: true }}
+        ref={swiperRef}
+        modules={[Navigation, Pagination]} pagination={{ clickable: true }}
         loop={true}
-        thumbs={{ swiper: thumbsSwiper }}
         className={styles.mainSwiper}
       >
-        {images.map((img, index) => (
-          <SwiperSlide key={index}>
+        {GALLERY_IMAGES.map((img, index) => (
+          <SwiperSlide key={generateImageKey(img, index)}>
             <img
               src={img}
               alt={`Imagen ${index + 1}`}
@@ -66,7 +75,7 @@ function MobileProductGallery() {
         ))}
       </Swiper>
 
-      {/* Información del producto */}
+      {/* Product information */}
       <div className={styles.container__info__products}>
         <p>
           Reloj receptor de llamados para uso de meseros, recibe alertas

@@ -5,6 +5,7 @@ const nextConfig = {
   compress: true,
   productionBrowserSourceMaps: true,
   images: {
+    domains: ['res.cloudinary.com', 'i.ytimg.com'],
     formats: ['image/avif', 'image/webp'],
     remotePatterns: [
       {
@@ -123,12 +124,14 @@ const nextConfig = {
         resourceQuery: { not: [...(fileLoaderRule.resourceQuery?.not || []), /url/] },
         use: ['@svgr/webpack'],
       },
+      
     );
 
     return config;
   },
   experimental: {
     optimizeCss: true,
+    outputStandalone: true
   },
   headers: async () => {
     return [

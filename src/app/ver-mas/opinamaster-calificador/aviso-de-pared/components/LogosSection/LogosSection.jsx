@@ -1,7 +1,7 @@
 "use client";
 import styles from "../../../../styles/LogosSection.module.scss";
 import { useLogos } from "../../../../../context/LogosContext";
-import InfiniteSlider2 from "@/app/components/sliders/InfiniteSlider";
+import InfiniteSlider2 from "@/app/components/sliders/InfiniteSlider2";
 
 function LogosSection() {
   const { logosCalificador } = useLogos();

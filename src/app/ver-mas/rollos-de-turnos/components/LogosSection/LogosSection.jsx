@@ -6,7 +6,6 @@ import InfiniteSlider2 from "@/app/components/sliders/InfiniteSlider2";
 
 function LogosSection() {
   const { logosTurnos } = useLogos();
-  
 
   return (
     <section className={styles.logossection__container}>
@@ -14,7 +13,7 @@ function LogosSection() {
         <h2>Algunos clientes</h2>
       </div>
       <div className={styles.content}>
-        <InfiniteSlider2 logos={logosTurnos} speed={5000} />
+        <InfiniteSlider2 logos={logosTurnos} activeDefaultSpeed={true} />
       </div>
     </section>
   );

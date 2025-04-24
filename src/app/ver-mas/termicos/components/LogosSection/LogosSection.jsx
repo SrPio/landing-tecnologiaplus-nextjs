@@ -6,8 +6,6 @@ import InfiniteSlider2 from "@/app/components/sliders/InfiniteSlider2";
 
 function LogosSection() {
   const { logosTermicos } = useLogos();
-  
-  // Map logos to the format expected by InfiniteSlider2
 
   return (
     <section className={styles.logossection__container}>
@@ -15,9 +13,10 @@ function LogosSection() {
         <h2>Algunos clientes</h2>
       </div>
       <div className={styles.content}>
-        <InfiniteSlider2 
-          logos={logosTermicos} 
-          activeDefaultSpeed={true}
+        <InfiniteSlider2
+          logos={logosTermicos}
+          speedPreset="slow"
+          stopOnFocus={false}
         />
       </div>
     </section>

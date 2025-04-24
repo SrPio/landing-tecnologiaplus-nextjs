@@ -11,7 +11,11 @@ function LogosSection() {
         <h2>Algunos clientes</h2>
       </div>
       <div className={styles.content}>
-        <InfiniteSlider2 logos={logosTurnos} duration={40} />
+        <InfiniteSlider2
+          logos={logosTurnos}
+          speedPreset="slow"
+          stopOnFocus={false}
+        />
       </div>
     </section>
   );

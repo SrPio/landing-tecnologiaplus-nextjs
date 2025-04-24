@@ -6,7 +6,7 @@ import { useLogos } from "@/app/context/LogosContext";
 
 function LocalizadoresClientsSection() {
   const { logosLocalizadores } = useLogos();
-  
+
   return (
     <section className={style.clients__section}>
       <h2 className={style.clients__title}>Algunos de nuestros clientes</h2>
@@ -15,9 +15,10 @@ function LocalizadoresClientsSection() {
         mejorar su atención y agilizar sus pedidos.
       </p>
       <div className={style.clients__container}>
-        <InfiniteSlider2 
-          logos={logosLocalizadores} 
-          activeDefaultSpeed={true} 
+        <InfiniteSlider2
+          logos={logosLocalizadores}
+          speedPreset="slow"
+          stopOnFocus={false}
         />
       </div>
     </section>

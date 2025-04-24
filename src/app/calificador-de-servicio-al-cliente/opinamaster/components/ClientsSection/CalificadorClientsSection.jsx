@@ -16,7 +16,11 @@ function CalificadorClientsSection() {
         de OpinaMaster
       </p>
       <div className={style.clients__container}>
-        <InfiniteSlider2 logos={logosCalificador} duration={40} />
+        <InfiniteSlider2
+          logos={logosCalificador}
+          speedPreset="slow"
+          stopOnFocus={false}
+        />
       </div>
     </section>
   );

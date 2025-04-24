@@ -13,7 +13,11 @@ function LogosSection() {
         <h2>Algunos clientes</h2>
       </div>
       <div className={styles.content}>
-        <InfiniteSlider2 logos={logosTurnoExpress} speed={5000} />
+        <InfiniteSlider2
+          logos={logosTurnoExpress}
+          speedPreset="slow"
+          stopOnFocus={false}
+        />
       </div>
     </section>
   );

@@ -108,7 +108,7 @@ function EnfermeriaSecondaryProductsSection() {
             <p>2649 vendidos</p>
             <a
               className={style.card__btn}
-              href="https://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/enfermeria/alarma-de-luz"
+              href="http://landing-tecnologiaplus-nextjs.vercel.app/llamado-de-enfermeria-cuidamaster/alarma-de-luz"
             >
               Ver más
             </a>

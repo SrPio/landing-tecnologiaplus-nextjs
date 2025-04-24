@@ -1,7 +1,7 @@
 "use client";
 import styles from "../../../../styles/LogosSection.module.scss";
 import { useLogos } from "../../../../../context/LogosContext";
-import InfiniteSlider2 from "@/app/components/sliders/InfiniteSlider";
+import InfiniteSlider2 from "@/app/components/sliders/InfiniteSlider2";
 
 function LogosSection() {
   const { logosCalificador } = useLogos();
@@ -11,7 +11,11 @@ function LogosSection() {
         <h2>Algunos clientes</h2>
       </div>
       <div className={styles.content}>
-        <InfiniteSlider2 logos={logosCalificador} duration={40} />
+        <InfiniteSlider2
+          logos={logosCalificador}
+          speedPreset="slow"
+          stopOnFocus={false}
+        />
       </div>
     </section>
   );

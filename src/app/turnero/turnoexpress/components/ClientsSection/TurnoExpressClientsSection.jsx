@@ -13,7 +13,11 @@ function TurnoExpressClientsSection() {
       <h2 className={style.clients__title}>Algunos de nuestros clientes</h2>
       <p>Empresas que eliminan las filas usando el Turnero Digital.</p>
       <div className={style.clients__container}>
-        <InfiniteSlider2 logos={logosTurnoExpress} duration={40} />
+        <InfiniteSlider2
+          logos={logosTurnoExpress}
+          speedPreset="slow"
+          stopOnFocus={false}
+        />
       </div>
     </section>
   );

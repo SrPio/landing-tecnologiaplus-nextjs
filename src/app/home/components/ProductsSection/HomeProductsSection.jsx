@@ -19,7 +19,7 @@ function HomeProductsSection() {
           description="Digitaliza la gestión de turnos."
           imageSrc="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349924/TurnoMaster_2x-8_1_t4wh3f_ooru74.webp"
           altText="imagen de TurnoMaster"
-          link="https://landing-tecnologiaplus-nextjs.vercel.app/turnomaster"
+          link="http://landing-tecnologiaplus-nextjs.vercel.app/sistema-de-turnos/turnomaster"
           customClass="custom__style__one"
         />
 
@@ -62,7 +62,7 @@ function HomeProductsSection() {
           description="Transforma opiniones en acciones estratégicas."
           imageSrc="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738685536/Opinamaster_2x-8_sg1wyy.webp"
           altText="imagen de OpinaMaster"
-          link="https://landing-tecnologiaplus-nextjs.vercel.app/encuesta-virtual"
+          link="http://landing-tecnologiaplus-nextjs.vercel.app/encuesta-virtual/opinamaster"
         />
 
         <Card

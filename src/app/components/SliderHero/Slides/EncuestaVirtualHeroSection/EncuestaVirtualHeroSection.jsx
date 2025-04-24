@@ -16,7 +16,7 @@ function EncuestaVirtualHeroSection({
       <div className={styles.hero__content}>
         <img
           className={styles.hero__img}
-          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744462120/7-8_vhxppr.webp"
+          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1745506523/7_4x-8_2_a0z5uj.webp"
           alt="Software de encuestas en línea"
         />
         <img

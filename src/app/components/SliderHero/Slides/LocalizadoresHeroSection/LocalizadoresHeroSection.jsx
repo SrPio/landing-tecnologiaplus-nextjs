@@ -9,8 +9,10 @@ function LocalizadoresHeroSection({
   priority = false,
 }) {
   // Use original URLs to avoid hydration mismatches
-  const desktopImageUrl = "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744462120/12_1-8_o5nq6u.webp";
-  const mobileImageUrl = "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744861573/12_1-8_1_x1xwix.webp";
+  const desktopImageUrl =
+    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1745506512/bQaT52.tif_4x-8_su2sfk.webp";
+  const mobileImageUrl =
+    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744861573/12_1-8_1_x1xwix.webp";
 
   return (
     <section
@@ -46,8 +48,8 @@ function LocalizadoresHeroSection({
           <h1>Localizadores para restaurantes</h1>
           <p>Tiempo de espera sin temor a perder el turno.</p>
           {boton ? (
-            <a 
-              className={styles.hero__btn} 
+            <a
+              className={styles.hero__btn}
               href={boton.href}
               aria-label="Ver más sobre localizadores para restaurantes"
             >

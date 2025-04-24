@@ -17,7 +17,7 @@ function CalificadorHeroSection({
         <img
           loading="lazy"
           className={styles.hero__img}
-          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744863300/5-8_hkjqqp.webp"
+          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1745506513/5_4x-8_3_s0vc5b.webp"
           alt="Calificador de Servicio"
         />
         <img

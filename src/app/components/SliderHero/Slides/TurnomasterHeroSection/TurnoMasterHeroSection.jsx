@@ -16,7 +16,7 @@ function TurnoMasterHeroSection({
       <div className={styles.hero__content}>
         <img
           className={styles.hero__img}
-          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744462122/4-8_lwh7js.webp"
+          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1745506523/4_4x-8_2_lxfolj.webp"
           alt="Software de feedback de clientes con pantalla de turnos"
         />
         <img

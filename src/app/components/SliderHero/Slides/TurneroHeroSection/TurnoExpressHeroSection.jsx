@@ -16,7 +16,7 @@ function TurnoExpressHeroSection({
       <div className={styles.hero__content}>
         <img
           className={styles.hero__img}
-          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744462120/8-8_dy96no.webp"
+          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1745506512/8_4x-8_1_tpdrqu.webp"
           alt="Turnero caracol rojo con su complemento pantalla de turno y tickets"
         />
         <img

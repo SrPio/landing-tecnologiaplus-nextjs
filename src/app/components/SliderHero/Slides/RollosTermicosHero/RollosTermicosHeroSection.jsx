@@ -16,7 +16,7 @@ function RollosTermicosHeroSection({
       <div className={styles.hero__content}>
         <img
           className={styles.hero__img}
-          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744462120/11-8_rp5mms.webp"
+          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1745506512/11_4x-8_2_nsacou.webp"
           alt="Rollos de papel térmico"
         />
         <img

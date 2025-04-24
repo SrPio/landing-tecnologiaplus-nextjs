@@ -16,7 +16,7 @@ function EnfermeriaHeroSection({
       <div className={styles.hero__content}>
         <img
           className={styles.hero__img}
-          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744462123/2-8_bldfrk.webp"
+          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1745506524/2_4x-8_5_igrf1u.webp"
           alt="Llamado de enfermería presionando un botón"
         />
         <img

@@ -16,7 +16,7 @@ function LlamadorMeserosHeroSection({
       <div className={styles.hero__content}>
         <img
           className={styles.hero__img}
-          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744462123/1-8_mhpcwo.webp"
+          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1745506524/1_4x-8_5_kwkmli.webp"
           alt="llamador de personal junto al reloj receptor"
         />
 

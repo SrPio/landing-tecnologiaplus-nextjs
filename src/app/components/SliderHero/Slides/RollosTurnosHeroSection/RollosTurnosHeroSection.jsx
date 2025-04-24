@@ -16,7 +16,7 @@ function RollosTurnosHeroSection({
       <div className={styles.hero__content}>
         <img
           className={styles.hero__img}
-          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744462120/10-8_dvra0q.webp"
+          src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1745506512/10_4x-8_l0ccbu.webp"
           alt="Rollos para impresora térmica personalizados"
         />
         <img

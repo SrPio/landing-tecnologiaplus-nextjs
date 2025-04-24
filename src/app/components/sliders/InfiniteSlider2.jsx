@@ -143,7 +143,7 @@ const InfiniteSlider2 = ({
 
   // Handle image loading error
   const handleImageError = (e) => {
-    if (isClient) {
+    if (isClient && e && e.target) {
       // Instead of hiding, show a placeholder color
       e.target.style.opacity = '0.5';
       e.target.style.background = '#f0f0f0';
@@ -284,12 +284,12 @@ const InfiniteSlider2 = ({
           onError={handleImageError}
           style={imageStyle}
           onMouseEnter={(e) => {
-            if (isClient) {
+            if (isClient && e && e.currentTarget) {
               e.currentTarget.style.filter = 'grayscale(0%) opacity(1)';
             }
           }}
           onMouseLeave={(e) => {
-            if (isClient) {
+            if (isClient && e && e.currentTarget) {
               e.currentTarget.style.filter = 'grayscale(100%) opacity(0.7)';
             }
           }}

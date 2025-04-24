@@ -103,6 +103,8 @@ function ContactForm({ noMarginTop = false }) {
 
   // Phone number input handler to remove non-numeric characters
   const handlePhoneInput = (e) => {
+    if (!e || !e.target) return;
+    
     const input = e.target;
     const value = input.value.replace(/[^0-9]/g, "");
 

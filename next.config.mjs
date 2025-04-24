@@ -7,6 +7,7 @@ const nextConfig = {
   images: {
     domains: ['res.cloudinary.com', 'i.ytimg.com'],
     formats: ['image/avif', 'image/webp'],
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: 'https',
@@ -29,7 +30,7 @@ const nextConfig = {
   // Enhanced webpack configuration for optimizing JavaScript bundles
   webpack: (config, { isServer, dev }) => {
     // Only run optimizations in production builds
-    if (!dev) {
+    if (dev) {
       // Split chunks more aggressively
       config.optimization.splitChunks = {
         chunks: 'all',

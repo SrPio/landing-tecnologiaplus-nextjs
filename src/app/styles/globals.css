@@ -2,6 +2,30 @@
 img {
   max-width: 100%;
   height: auto;
+  display: block;
+}
+
+/* Fix layout issues - add these base styles */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+}
+
+/* Fix menu styling */
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 /* Add a low-opacity background to image placeholders */
@@ -26,4 +50,33 @@ img[src*=".svg"] {
 /* Remove blur effect once loaded */
 .image-loaded {
   filter: blur(0);
+}
+
+/* Fix flexbox display issues */
+.flex {
+  display: flex !important;
+}
+
+.flex-col {
+  flex-direction: column !important;
+}
+
+.items-center {
+  align-items: center !important;
+}
+
+.justify-center {
+  justify-content: center !important;
+}
+
+.justify-between {
+  justify-content: space-between !important;
+}
+
+/* Ensure header displays correctly */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 } 

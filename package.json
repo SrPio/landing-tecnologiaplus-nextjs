@@ -5,8 +5,9 @@
   "scripts": {
     "dev": "next dev",
     "dev:turbo": "next dev --turbopack",
-    "build": "next build",
-    "build:clean": "rm -rf .next && next build",
+    "build": "next build --turbopack",
+    "build:clean": "rimraf .next && next build",
+    "build:win": "rd /s /q .next 2>nul || echo No .next folder && next build",
     "start": "next start",
     "lint": "next lint",
     "postbuild": "next-sitemap",
@@ -41,6 +42,9 @@
     "eslint-plugin-react-hooks": "^5.1.0",
     "eslint-plugin-react-refresh": "^0.4.19",
     "file-loader": "^6.2.0",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-preset-env": "^10.1.6",
+    "rimraf": "^5.0.10",
     "swc-loader": "^0.2.6",
     "url-loader": "^4.1.1"
   },

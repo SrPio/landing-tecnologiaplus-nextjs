@@ -116,7 +116,7 @@ function SecondaryHeader() {
               </a>
             </li>
             <li>
-              <a href="https://landing-tecnologiaplus-nextjs.vercel.app/encuesta-virtual">
+              <a href="http://landing-tecnologiaplus-nextjs.vercel.app/encuesta-virtual/opinamaster">
                 Encuesta virtual
               </a>
             </li>

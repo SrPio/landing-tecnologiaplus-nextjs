@@ -29,7 +29,7 @@ function EnfermeriaRelatedProducts({ titleClassName = "" }) {
       description: "Transforma opiniones en acciones estratégicas.",
       img: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738685536/Opinamaster_2x-8_sg1wyy.webp",
       sold: "18 vendidos",
-      link: "https://landing-tecnologiaplus-nextjs.vercel.app/encuesta-virtual",
+      link: "http://landing-tecnologiaplus-nextjs.vercel.app/encuesta-virtual/opinamaster",
     },
   ];
 

@@ -1,7 +1,3 @@
-import ContactForm from "../components/ContactForm/ContactForm";
-import Footer from "../components/Footer/Footer";
-import SecondaryHeader from "../components/SecondaryHeader/SecondaryHeader";
-import WppBtn from "../components/WppBtn/WppBtn";
 
 import EncuestaVirtualBenefitsSection from "./components/BenefitsSection/EncuestaVirtualBenefitsSection";
 import EncuestaVirtualClientsSection from "./components/ClientsSection/EncuestaVirtualClientsSection";
@@ -10,6 +6,10 @@ import EncuestaVirtualIndustriesSection from "./components/IndustriesSection/Enc
 import EncuestaVirtualProductsSection from "./components/ProductsSection/EncuestaVirtualProductsSection";
 import EncuestaVirtualRelatedProducts from "./components/RelatedProducts/EncuestaVirtualRelatedProducts";
 import SecondaryEncuestaVirtualProductsSection from "./components/SecondaryProductsSection/SecondaryEncuestaVirtualProductsSection";
+import WppBtn from "@/app/components/WppBtn/WppBtn";
+import SecondaryHeader from "@/app/components/SecondaryHeader/SecondaryHeader";
+import Footer from "@/app/components/Footer/Footer";
+import ContactForm from "@/app/components/ContactForm/ContactForm";
 
 export default function EncuestaVirtualLanding() {
     return (

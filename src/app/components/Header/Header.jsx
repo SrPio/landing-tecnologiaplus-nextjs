@@ -93,12 +93,12 @@ function Header({ customStyles = {} }) {
           >
             <li>
               <a href="http://landing-tecnologiaplus-nextjs.vercel.app/localizadores-para-restaurantes">
-                Localizadores autoservicio
+                Localizadores para Restaurantes
               </a>
             </li>
             <li>
               <a href="https://landing-tecnologiaplus-nextjs.vercel.app/llamadores-de-meseros">
-                Llamadores de meseros
+                Llamadores de Meseros
               </a>
             </li>
             <li>

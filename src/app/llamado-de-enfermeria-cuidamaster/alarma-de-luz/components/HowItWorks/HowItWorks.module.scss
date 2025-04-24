@@ -1,5 +1,5 @@
-@use "../../../../styles/HowItWorks.module" as *;
-@use "../../../../../styles/base/mixins" as *;
+@use "@/app/ver-mas/styles/HowItWorks.module.scss" as *;
+@use "@/app/styles/base/mixins" as *;
 
 .HowItWorks__container {
   .items__container {

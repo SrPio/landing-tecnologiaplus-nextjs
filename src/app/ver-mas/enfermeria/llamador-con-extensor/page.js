@@ -3,7 +3,7 @@ import WppBtn from "@/app/components/WppBtn/WppBtn";
 import Footer from "@/app/components/Footer/Footer";
 import style from "../../../llamado-de-enfermeria/cuidamaster/components/RelatedProducts/EnfermeriaRelatedProducts.module.scss";
 import SecondaryHeader from "@/app/components/SecondaryHeader/SecondaryHeader";
-import LogosSection from "../alarma-de-luz/components/LogosSection/LogosSection";
+import LogosSection from "../../../llamado-de-enfermeria-cuidamaster/alarma-de-luz/components/LogosSection/LogosSection";
 import TechnicalSheet from "./components/TechnicalSheet/TechnicalSheet";
 import HowItWorks from "./components/HowItWorks/HowItWorks";
 import EnfermeriaRelatedProducts from "@/app/llamado-de-enfermeria/cuidamaster/components/RelatedProducts/EnfermeriaRelatedProducts";

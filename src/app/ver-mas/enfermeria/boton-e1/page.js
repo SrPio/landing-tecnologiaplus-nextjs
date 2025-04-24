@@ -7,7 +7,7 @@ import TechnicalSheet from "./components/TechnicalSheet/TechnicalSheet";
 import HowItWorks from "./components/HowItWorks/HowItWorks";
 import EnfermeriaRelatedProducts from "@/app/llamado-de-enfermeria/cuidamaster/components/RelatedProducts/EnfermeriaRelatedProducts";
 import ProductGallerySelected from "./components/ProductGallery/ProductGallerySelected";
-import LogosSection from "../alarma-de-luz/components/LogosSection/LogosSection";
+import LogosSection from "../../../llamado-de-enfermeria-cuidamaster/alarma-de-luz/components/LogosSection/LogosSection";
 
 export default function VerMasEnfermeriaBotonE1() {
     return (

@@ -18,7 +18,8 @@ body {
 
 /* Hero section critical styles */
 .container__slider__hero {
-  background-image: url("https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349921/jlxxsnlercoj0nihz4am_udppso.webp");
+  /* Background image is now loaded via JavaScript or img tag instead */
+  background-color: #f5f5f5; /* Fallback background color */
   background-size: cover;
   background-position: center;
   height: 100vh;

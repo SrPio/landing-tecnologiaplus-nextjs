@@ -1,7 +1,7 @@
-import ContactForm from "../components/ContactForm/ContactForm";
-import Footer from "../components/Footer/Footer";
-import SecondaryHeader from "../components/SecondaryHeader/SecondaryHeader";
-import WppBtn from "../components/WppBtn/WppBtn";
+import ContactForm from "../../components/ContactForm/ContactForm";
+import Footer from "../../components/Footer/Footer";
+import SecondaryHeader from "../../components/SecondaryHeader/SecondaryHeader";
+import WppBtn from "../../components/WppBtn/WppBtn";
 
 import TurnoMasterBenefitsSection from "./components/BenefitsSection/TurnoMasterBenefitsSection";
 import TurnoMasterClientsSection from "./components/ClientsSection/TurnoMasterClientsSection";
@@ -16,7 +16,7 @@ export const metadata = {
     description: "Sistema de turnos para organizar filas: Somos fabricantes. Ideal para agilizar la atención en salas de espera . ¡Solicita una asesoria ahora!",
     robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
     alternates: {
-        canonical: "https://landing-tecnologiaplus-nextjs.vercel.app/turnomaster",
+        canonical: "http://landing-tecnologiaplus-nextjs.vercel.app/sistema-de-turnos/turnomaster",
     },
     openGraph: {
         locale: "es_ES",

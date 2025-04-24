@@ -1,5 +1,5 @@
 import style from "./TurnoMasterProductsSection.module.scss";
-import ServerFirstImage from "../../../components/ServerFirstImage/ServerFirstImage";
+import ServerFirstImage from "../../../../components/ServerFirstImage/ServerFirstImage";
 
 function TurnoMasterProductsSection() {
   return (

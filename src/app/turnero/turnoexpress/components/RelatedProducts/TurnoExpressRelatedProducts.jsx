@@ -14,7 +14,7 @@ function TurnoExpressRelatedProducts({ titleClassName = "" }) {
       description: "Digitaliza la gestión de turnos.",
       img: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738350030/TurnoMaster_2x-8_stvupu_tvjv5q.webp",
       sold: "194 vendidos",
-      link: "https://landing-tecnologiaplus-nextjs.vercel.app/turnomaster",
+      link: "http://landing-tecnologiaplus-nextjs.vercel.app/sistema-de-turnos/turnomaster",
       className: style.turnomaster__card,
     },
     {

@@ -20,6 +20,7 @@ export function extractDimensionsFromUrl(url) {
   ];
   
   for (const pattern of dimensionPatterns) {
+    
     const match = url.match(pattern);
     if (match && match.length >= 3) {
       const width = parseInt(match[1], 10);

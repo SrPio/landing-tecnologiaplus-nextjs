@@ -19,7 +19,7 @@ function TurnoMasterProductsSection() {
           src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738860442/turno_en_casa_2x-8_szazfa.webp"
           alt="Solicitar turno desde casa"
           className={style.img__desktop}
-          width={500}
+          width={620}
           height={300}
         />
         <ServerFirstImage
@@ -53,7 +53,7 @@ function TurnoMasterProductsSection() {
           src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738860441/pedestal_2x-8_eurzvd.webp"
           alt="Solicitar turno de manera presencial"
           className={style.img__desktop}
-          width={500}
+          width={650}
           height={300}
         />
       </div>

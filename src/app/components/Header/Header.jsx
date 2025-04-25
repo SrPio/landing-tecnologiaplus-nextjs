@@ -93,12 +93,12 @@ function Header({ customStyles = {} }) {
           >
             <li>
               <a href="http://landing-tecnologiaplus-nextjs.vercel.app/localizadores-para-restaurantes">
-                Localizadores para Restaurantes
+                Localizadores autoservicio
               </a>
             </li>
             <li>
               <a href="https://landing-tecnologiaplus-nextjs.vercel.app/llamadores-de-meseros">
-                Llamadores de Meseros
+                Llamadores de meseros
               </a>
             </li>
             <li>
@@ -107,7 +107,7 @@ function Header({ customStyles = {} }) {
               </a>
             </li>
             <li>
-              <a href="http://landing-tecnologiaplus-nextjs.vercel.app/sistema-de-turnos/turnomaster">
+              <a href="https://landing-tecnologiaplus-nextjs.vercel.app/turnomaster">
                 Sistema de turnos
               </a>
             </li>
@@ -137,7 +137,7 @@ function Header({ customStyles = {} }) {
               </a>
             </li>
             <li>
-              <a href="http://landing-tecnologiaplus-nextjs.vercel.app/encuesta-virtual/opinamaster">
+              <a href="https://landing-tecnologiaplus-nextjs.vercel.app/encuesta-virtual">
                 Encuesta virtual
               </a>
             </li>

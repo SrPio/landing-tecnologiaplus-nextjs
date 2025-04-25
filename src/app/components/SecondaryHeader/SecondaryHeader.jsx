@@ -86,7 +86,7 @@ function SecondaryHeader() {
               </a>
             </li>
             <li>
-              <a href="http://landing-tecnologiaplus-nextjs.vercel.app/sistema-de-turnos/turnomaster">
+              <a href="https://landing-tecnologiaplus-nextjs.vercel.app/turnomaster">
                 Sistema de turnos
               </a>
             </li>
@@ -116,7 +116,7 @@ function SecondaryHeader() {
               </a>
             </li>
             <li>
-              <a href="http://landing-tecnologiaplus-nextjs.vercel.app/encuesta-virtual/opinamaster">
+              <a href="https://landing-tecnologiaplus-nextjs.vercel.app/encuesta-virtual">
                 Encuesta virtual
               </a>
             </li>

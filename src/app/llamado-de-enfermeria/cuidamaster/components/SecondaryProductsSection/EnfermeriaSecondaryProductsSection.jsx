@@ -55,7 +55,7 @@ function EnfermeriaSecondaryProductsSection() {
             </h3>
             <a
               className={style.card__btn}
-              href="http://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/enfermeria/boton-e1"
+              href="http://landing-tecnologiaplus-nextjs.vercel.app/llamado-de-enfermeria-cuidamaster/llamador-e1-para-cuello"
             >
               Ver más
             </a>

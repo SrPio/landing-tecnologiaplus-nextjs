@@ -123,7 +123,7 @@ function EnfermeriaSecondaryProductsSection() {
             <p>2276 vendidos</p>
             <a
               className={style.card__btn}
-              href="https://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/enfermeria/reloj-receptor"
+              href="https://landing-tecnologiaplus-nextjs.vercel.app/llamado-de-enfermeria-cuidamaster/reloj-receptor-de-llamados"
             >
               Ver más
             </a>

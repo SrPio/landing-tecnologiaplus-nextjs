@@ -17,7 +17,7 @@ function EnfermeriaSecondaryProductsSection() {
             <h3>Llamador E2 Blanco</h3>
             <a
               className={style.card__btn}
-              href="https://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/enfermeria/llamador-v2b"
+              href="http://landing-tecnologiaplus-nextjs.vercel.app/llamado-de-enfermeria-cuidamaster/llamador-e2-blanco"
             >
               Ver más
             </a>

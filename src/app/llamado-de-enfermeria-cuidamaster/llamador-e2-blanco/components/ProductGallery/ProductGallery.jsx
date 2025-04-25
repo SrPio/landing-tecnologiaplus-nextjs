@@ -1,9 +1,10 @@
 "use client";
 
 import { useState } from "react";
-import styles from "../../../../styles/ProductGallery.module.scss";
-import altStyles from "../../../../../components/Header/HeaderAlt.module.scss";
-import useDisableRightClick from "../../../../../../../hooks/useDisableRightClick";
+import styles from "@/app/ver-mas/styles/ProductGallery.module.scss";
+import altStyles from "@/app/components/Header/HeaderAlt.module.scss";
+import useDisableRightClick from "../../../../../../hooks/useDisableRightClick";
+
 import {
   IoIosArrowBack,
   IoIosArrowDown,

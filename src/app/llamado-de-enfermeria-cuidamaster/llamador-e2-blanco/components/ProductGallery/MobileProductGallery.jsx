@@ -6,8 +6,8 @@ import { Navigation, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import styles from "../../../../styles/ProductGallery.module.scss";
-import altStyles from "../../../../../components/Header/HeaderAlt.module.scss";
+import styles from "@/app/ver-mas/styles/ProductGallery.module.scss";
+import altStyles from "@/app/components/Header/HeaderAlt.module.scss";
 import Header from "@/app/components/Header/Header";
 import { IoIosArrowBack } from "react-icons/io";
 import { FaWhatsapp } from "react-icons/fa";
@@ -28,13 +28,13 @@ const COLOR_VARIANTS = [
   {
     name: "Blanco",
     url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741475394/Frame_2_xva6io.webp",
-    id: "white-v2b"
+    id: "white-v2b",
   },
   {
     name: "Negro",
     url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740668328/18_4x-8_u9bwuw.webp",
-    id: "black-v2b"
-  }
+    id: "black-v2b",
+  },
 ];
 
 // Helper function to generate safe keys from URLs
@@ -47,29 +47,30 @@ function MobileProductGallery() {
   // References to both swipers - we'll create two separate swipers
   const gallerySwiperRef = useRef(null);
   const colorSwiperRef = useRef(null);
-  
+
   // Track which view is active - 'gallery' or 'colors'
-  const [activeView, setActiveView] = useState('gallery');
-  
+  const [activeView, setActiveView] = useState("gallery");
+
   // Track individual indexes for each view
   const [galleryIndex, setGalleryIndex] = useState(0);
   const [colorIndex, setColorIndex] = useState(0);
-  
+
   // This will be true when we're actively switching views/slides to prevent double updates
   const [isTransitioning, setIsTransitioning] = useState(false);
 
   // Get current color name
-  const currentColorName = colorIndex >= 0 && colorIndex < COLOR_VARIANTS.length 
-    ? COLOR_VARIANTS[colorIndex].name
-    : '';
+  const currentColorName =
+    colorIndex >= 0 && colorIndex < COLOR_VARIANTS.length
+      ? COLOR_VARIANTS[colorIndex].name
+      : "";
 
   // Handle clicking a gallery thumbnail
   const handleGalleryThumbnailClick = (index) => {
-    if (activeView !== 'gallery') {
+    if (activeView !== "gallery") {
       setIsTransitioning(true);
-      setActiveView('gallery');
+      setActiveView("gallery");
       setGalleryIndex(index);
-      
+
       // Give time for view to change before sliding
       setTimeout(() => {
         if (gallerySwiperRef.current?.swiper) {
@@ -88,11 +89,11 @@ function MobileProductGallery() {
 
   // Handle clicking a color thumbnail
   const handleColorThumbnailClick = (index) => {
-    if (activeView !== 'colors') {
+    if (activeView !== "colors") {
       setIsTransitioning(true);
-      setActiveView('colors');
+      setActiveView("colors");
       setColorIndex(index);
-      
+
       // Give time for view to change before sliding
       setTimeout(() => {
         if (colorSwiperRef.current?.swiper) {
@@ -145,7 +146,7 @@ function MobileProductGallery() {
       </div>
 
       {/* Gallery Swiper - only visible when activeView is 'gallery' */}
-      <div style={{ display: activeView === 'gallery' ? 'block' : 'none' }}>
+      <div style={{ display: activeView === "gallery" ? "block" : "none" }}>
         <Swiper
           ref={gallerySwiperRef}
           modules={[Navigation, Pagination]}
@@ -168,7 +169,7 @@ function MobileProductGallery() {
       </div>
 
       {/* Colors Swiper - only visible when activeView is 'colors' */}
-      <div style={{ display: activeView === 'colors' ? 'block' : 'none' }}>
+      <div style={{ display: activeView === "colors" ? "block" : "none" }}>
         <Swiper
           ref={colorSwiperRef}
           modules={[Navigation, Pagination]}
@@ -188,7 +189,7 @@ function MobileProductGallery() {
             </SwiperSlide>
           ))}
         </Swiper>
-        
+
         <div className={styles.colorNameContainer}>
           <h3>{currentColorName}</h3>
           <div className={styles.container__colors}>
@@ -196,7 +197,10 @@ function MobileProductGallery() {
               <div
                 key={color.id || `color-dot-${index}`}
                 className={`${styles.technical__circle__figure} ${
-                  styles["color__" + color.name.replace(/\s+/g, "_").replace(/-/g, "_")]
+                  styles[
+                    "color__" +
+                      color.name.replace(/\s+/g, "_").replace(/-/g, "_")
+                  ]
                 } ${colorIndex === index ? styles.selected : ""}`}
                 onClick={() => handleColorThumbnailClick(index)}
               ></div>
@@ -212,7 +216,8 @@ function MobileProductGallery() {
             <div
               key={generateImageKey(img, index)}
               className={classNames(styles.thumb__Slide, {
-                [styles.active]: activeView === 'gallery' && galleryIndex === index,
+                [styles.active]:
+                  activeView === "gallery" && galleryIndex === index,
               })}
               onClick={() => handleGalleryThumbnailClick(index)}
             >
@@ -227,7 +232,8 @@ function MobileProductGallery() {
             <div
               key={color.id || `thumb-${index}`}
               className={classNames(styles.thumb__Slide, {
-                [styles.active]: activeView === 'colors' && colorIndex === index,
+                [styles.active]:
+                  activeView === "colors" && colorIndex === index,
               })}
               onClick={() => handleColorThumbnailClick(index)}
             >

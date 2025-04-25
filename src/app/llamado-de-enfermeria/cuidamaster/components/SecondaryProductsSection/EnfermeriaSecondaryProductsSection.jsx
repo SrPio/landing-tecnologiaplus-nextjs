@@ -78,7 +78,7 @@ function EnfermeriaSecondaryProductsSection() {
             <p>886 vendidos</p>
             <a
               className={style.card__btn}
-              href="https://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/enfermeria/pantalla-t1b"
+              href="https://landing-tecnologiaplus-nextjs.vercel.app/llamado-de-enfermeria-cuidamaster/pantalla-t1-b"
             >
               Ver más
             </a>

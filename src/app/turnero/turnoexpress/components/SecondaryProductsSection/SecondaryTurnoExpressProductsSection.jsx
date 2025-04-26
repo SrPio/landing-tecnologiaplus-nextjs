@@ -15,7 +15,7 @@ function SecondaryTurnoExpressProductsSection() {
             <p>2.686 vendidos</p>
             <a
               className={style.card__btn}
-              href="https://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/dispensador-de-tiquetes"
+              href="https://landing-tecnologiaplus-nextjs.vercel.app/dispensador-de-tickets/dispensador-de-tickets-caracol"
             >
               Ver más
             </a>

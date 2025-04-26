@@ -44,7 +44,7 @@ function DispensadorTiquetesHeroSection({
           ) : (
             <a
               className={styles.hero__btn}
-              href="https://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/dispensador-de-tiquetes"
+              href="https://landing-tecnologiaplus-nextjs.vercel.app/dispensador-de-tickets/dispensador-de-tickets-caracol"
             >
               Ver más
             </a>
@@ -72,7 +72,7 @@ function DispensadorTiquetesHeroSection({
           ) : (
             <a
               className={styles.hero__btn}
-              href="https://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/dispensador-de-tiquetes"
+              href="https://landing-tecnologiaplus-nextjs.vercel.app/dispensador-de-tickets/dispensador-de-tickets-caracol"
             >
               Ver más
             </a>

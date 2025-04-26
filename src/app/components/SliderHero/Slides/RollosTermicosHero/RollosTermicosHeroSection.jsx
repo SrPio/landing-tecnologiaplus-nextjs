@@ -35,7 +35,7 @@ function RollosTermicosHeroSection({
           ) : (
             <a
               className={styles.hero__btn}
-              href="https://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/termicos"
+              href="https://landing-tecnologiaplus-nextjs.vercel.app/rollos-de-papel-termico/rollos-termicos"
             >
               Ver más
             </a>

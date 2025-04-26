@@ -1,9 +1,9 @@
 "use client";
 
 import { useState } from "react";
-import styles from "../../../styles/ProductGallery.module.scss";
-import Header from "../../../../components/Header/Header";
-import altStyles from "../../../../components/Header/HeaderAlt.module.scss";
+import styles from "@/app/ver-mas/styles/ProductGallery.module.scss";
+import Header from "@/app/components/Header/Header";
+import altStyles from "@/app/components/Header/HeaderAlt.module.scss";
 import {
   IoIosArrowBack,
   IoIosArrowDown,

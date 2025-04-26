@@ -133,6 +133,8 @@
 
 @include respond-to-max("laptop") {
   .technical__details {
+    padding: 3rem 5%;
+    gap: 2rem;
     .technical__carousel__container {
       width: 100%;
       border-radius: 20px;

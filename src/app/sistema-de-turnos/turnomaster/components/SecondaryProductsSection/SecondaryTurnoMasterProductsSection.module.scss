@@ -185,6 +185,10 @@
 
         .card {
           width: 80vw;
+
+          h2 {
+            margin-top: 0;
+          }
         }
         .card:first-of-type {
           background: #fff;

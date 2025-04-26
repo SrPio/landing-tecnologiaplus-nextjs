@@ -88,12 +88,12 @@
 
         .card {
           h2 {
-            font-size: 1.8rem;
+            font-size: clamp(16px, 5vw, 30px);
             text-align: center;
           }
 
           p {
-            font-size: 1.5rem;
+            font-size: clamp(16px, 4vw, 25px);
             text-align: center;
           }
         }

@@ -30,5 +30,9 @@
         padding: 0;
       }
     }
+
+    @include respond-to-max("laptop") {
+      gap: 0;
+    }
   }
 }

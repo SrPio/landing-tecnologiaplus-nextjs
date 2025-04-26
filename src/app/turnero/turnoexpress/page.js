@@ -17,7 +17,7 @@ export const metadata = {
         "Turnero digital: Somos fabricantes. Acelera la atención al cliente y moderniza tu negocio. ¡Solicita una asesoria ahora!",
     robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
     alternates: {
-        canonical: "https://landing-tecnologiaplus-nextjs.vercel.app/turnero/",
+        canonical: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/turnero/",
     },
     openGraph: {
         locale: "es_ES",
@@ -25,7 +25,7 @@ export const metadata = {
         title: "Turnero Digital: Agiliza y Organiza las Filas en tu negocio.",
         description:
             "Turnero digital: Somos fabricantes. Acelera la atención al cliente y moderniza tu negocio. ¡Solicita una asesoria ahora!",
-        url: "https://landing-tecnologiaplus-nextjs.vercel.app/turnero/",
+        url: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/turnero/",
         siteName: "TecnologiaPlus",
         images: [
             {

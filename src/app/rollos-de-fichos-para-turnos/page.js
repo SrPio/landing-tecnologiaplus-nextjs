@@ -17,12 +17,12 @@ export const metadata = {
         "Somos fabricantes de rollos de turno de alta calidad. Compra directo de fábrica con entrega rápida. ¡Cotiza ahora y recibe asesoría personalizada!",
     robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
     alternates: {
-        canonical: "https://landing-tecnologiaplus-nextjs.vercel.app/rollos-de-turno/",
+        canonical: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/rollos-de-turno/",
     },
     openGraph: {
         type: "article",
         locale: "es_ES",
-        url: "https://landing-tecnologiaplus-nextjs.vercel.app/rollos-de-turno/",
+        url: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/rollos-de-turno/",
         title: "Rollos de Turno: Fabricantes de Calidad Garantizada",
         description:
             "Somos fabricantes de rollos de turno de alta calidad. Compra directo de fábrica con entrega rápida. ¡Cotiza ahora y recibe asesoría personalizada!",

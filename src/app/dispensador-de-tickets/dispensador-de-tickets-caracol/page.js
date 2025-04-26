@@ -18,7 +18,7 @@ export const metadata = {
         title: "Dispensador de Tickets Caracol: Ordena y Optimiza Filas",
         description:
             "Organiza filas fácilmente con nuestro dispensador tipo caracol. Ideal para salas de espera y servicios. Instalación sencilla. ¡Cotiza y mejora tu atención!",
-        url: "https://landing-tecnologiaplus-nextjs.vercel.app/dispensador-de-tickets/dispensador-de-tickets-caracol",
+        url: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/dispensador-de-tickets/dispensador-de-tickets-caracol",
         type: "website",
     },
     twitter: {

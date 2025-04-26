@@ -87,7 +87,7 @@ function TechnicalDetails() {
 
         <a
           className={style.technical__details__btn}
-          href="https://landing-tecnologiaplus-nextjs.vercel.app/rollos-de-papel-termico/rollos-termicos"
+          href="https://landing-tecnologiaplus-nextjs-dev.vercel.app/rollos-de-papel-termico/rollos-termicos"
         >
           Ver más
         </a>

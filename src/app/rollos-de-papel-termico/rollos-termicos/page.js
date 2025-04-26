@@ -17,7 +17,7 @@ export const metadata = {
         title: "Rollos de Papel Térmico: Calidad y Compatibilidad Garantizada",
         description:
             "Rollos térmicos para tickets y facturas. Variedad de tamaños y alta durabilidad. Compatibles con múltiples impresoras. ¡Compra directo de fabricante!",
-        url: "https://landing-tecnologiaplus-nextjs.vercel.app/rollos-de-papel-termico/rollos-termicos",
+        url: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/rollos-de-papel-termico/rollos-termicos",
         type: "website",
     },
     twitter: {

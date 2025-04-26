@@ -50,7 +50,7 @@ const articuloAtencionGimnasio = {
         "Tú también puedes optimizar la atención en tu gimnasio con herramientas innovadoras como un ",
         {
           texto: "llamador de entrenadores",
-          href: "https://landing-tecnologiaplus-nextjs.vercel.app/llamadores-de-meseros",
+          href: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/llamadores-de-meseros",
         },
         ". Este dispositivo facilita la comunicación entre los clientes y los entrenadores, permitiendo brindar un servicio más eficiente y personalizado. Incorporar un ",
         {
@@ -103,7 +103,7 @@ const articuloAtencionGimnasio = {
         "La verdad es que hay una gran variedad de opciones para mejorar este aspecto. Una de ellas es implementar un ",
         {
           texto: "llamador de entrenadores",
-          href: "https://landing-tecnologiaplus-nextjs.vercel.app/llamadores-de-meseros",
+          href: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/llamadores-de-meseros",
         },
         ", una herramienta práctica que facilita la comunicación entre los clientes y el personal de tu gimnasio, mejorando la experiencia de atención al cliente.",
       ],
@@ -180,7 +180,7 @@ const articuloAtencionGimnasio = {
         "Gracias al ",
         {
           texto: "llamador de entrenadores",
-          href: "https://landing-tecnologiaplus-nextjs.vercel.app/llamadores-de-meseros",
+          href: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/llamadores-de-meseros",
         },
         " inalámbrico no solo disfrutarás de una mejor experiencia personalizada, sino que también podrás mejorar tu atención al cliente en el gimnasio, ya que el personal logrará identificar a los clientes más regulares.",
       ],
@@ -200,7 +200,7 @@ const articuloAtencionGimnasio = {
         "Esta tecnología que te ofrece ",
         {
           texto: "Tecnología Plus",
-          href: "https://landing-tecnologiaplus-nextjs.vercel.app/",
+          href: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/",
         },
         " para mejorar la atención al cliente en tu gimnasio es bastante simple de implementar, pero para que puedas verlo con más facilidad, te lo explicamos:",
       ],
@@ -211,7 +211,7 @@ const articuloAtencionGimnasio = {
         "El ",
         {
           texto: "llamador de entrenadores",
-          href: "https://landing-tecnologiaplus-nextjs.vercel.app/llamadores-de-meseros",
+          href: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/llamadores-de-meseros",
         },
         " se instala cerca o directamente en las máquinas para ejercitar de tu gimnasio, para que el cliente cuando sea necesario, ya sea para una asesoría u orientación, presione el botón y el entrenador sepa que debe dirigirse a una determinada máquina de ejercicios.",
       ],
@@ -250,7 +250,7 @@ const articuloAtencionGimnasio = {
         "Estas soluciones creativas a problemas reales que puedes experimentar en tu gimnasio son gracias a las innovaciones que ",
         {
           texto: "Tecnología Plus",
-          href: "https://landing-tecnologiaplus-nextjs.vercel.app/",
+          href: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/",
         },
         " tiene para ofrecer, por lo cual es una excelente oportunidad para mejorar tu atención al cliente.",
       ],
@@ -261,7 +261,7 @@ const articuloAtencionGimnasio = {
         "¡",
         {
           texto: "Contáctanos hoy",
-          href: "https://landing-tecnologiaplus-nextjs.vercel.app/contacto/",
+          href: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/contacto/",
         },
         " mismo y descubre cómo podemos llevar tu servicio al siguiente nivel!",
       ],

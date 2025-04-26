@@ -18,7 +18,7 @@ export const metadata = {
         title: "Reloj Receptor de Llamados: Atención Ágil en Enfermería",
         description:
             "Recibe alertas instantáneas y vibra mostrando el número de cama. Ideal para personal de salud en hospitales y hogares geriátricos. ¡Solicita asesoría!",
-        url: "http://landing-tecnologiaplus-nextjs.vercel.app/llamado-de-enfermeria-cuidamaster/reloj-receptor-de-llamados",
+        url: "http://landing-tecnologiaplus-nextjs-dev.vercel.app/llamado-de-enfermeria-cuidamaster/reloj-receptor-de-llamados",
         type: "website",
     },
     twitter: {

@@ -15,21 +15,21 @@ function LlamadorMeserosRelatedProducts({ titleClassName = "" }) {
       description: "Lleva el autoservicio a otro nivel.",
       img: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741708165/NUEVA_etp9mi.webp",
       sold: "4.225 vendidos",
-      link: "http://landing-tecnologiaplus-nextjs.vercel.app/localizadores-para-restaurantes",
+      link: "http://landing-tecnologiaplus-nextjs-dev.vercel.app/localizadores-para-restaurantes",
     },
     {
       name: "TurnoExpress",
       description: "Rapidez y agilidad para tus filas.",
       img: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738350028/TurnoExpress_2x-8_ri7zqh_xjz8bw.webp",
       sold: "692 vendidos",
-      link: "https://landing-tecnologiaplus-nextjs.vercel.app/turnero/turnoexpress",
+      link: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/turnero/turnoexpress",
     },
     {
       name: "CuidaMaster",
       description: "Transforma opiniones en acciones estratégicas.",
       img: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738596111/cuidamaster_2x-8_dlawzx.webp",
       sold: "9.825 vendidos",
-      link: "https://landing-tecnologiaplus-nextjs.vercel.app/llamado-de-enfermeria/cuidamaster",
+      link: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/llamado-de-enfermeria/cuidamaster",
     },
   ];
 

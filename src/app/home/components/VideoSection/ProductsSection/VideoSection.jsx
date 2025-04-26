@@ -50,7 +50,7 @@ function VideoSection() {
         </p>
         <a
           className={style.card__btn}
-          href="https://landing-tecnologiaplus-nextjs.vercel.app/llamadores-de-meseros"
+          href="https://landing-tecnologiaplus-nextjs-dev.vercel.app/llamadores-de-meseros"
         >
           Ver más
         </a>

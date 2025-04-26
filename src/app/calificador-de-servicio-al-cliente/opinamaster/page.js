@@ -20,7 +20,7 @@ export const metadata = {
         "Conoce lo que piensan realmente tus clientes con el Calificador de Servicios. Toma decisiones informadas y lleva tu empresa al siguiente nivel.",
     robots: "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
     alternates: {
-        canonical: "https://landing-tecnologiaplus-nextjs.vercel.app/calificador-de-servicio-al-cliente/opinamaster",
+        canonical: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/calificador-de-servicio-al-cliente/opinamaster",
     },
     openGraph: {
         locale: "es_ES",
@@ -28,7 +28,7 @@ export const metadata = {
         title: "Calificador de Servicios: Conoce la opinión real de tus clientes",
         description:
             "Conoce lo que piensan realmente tus clientes con el Calificador de Servicios. Toma decisiones informadas y lleva tu empresa al siguiente nivel.",
-        url: "https://landing-tecnologiaplus-nextjs.vercel.app/calificador-de-servicios/",
+        url: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/calificador-de-servicios/",
         siteName: "TecnologiaPlus",
         images: [
             {
@@ -55,7 +55,7 @@ export default function CalificadorLanding() {
     const jsonLd = {
         "@context": "https://schema.org",
         "@type": "WebPage",
-        url: "https://landing-tecnologiaplus-nextjs.vercel.app/calificador-de-servicios/",
+        url: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/calificador-de-servicios/",
         name: "Calificador de Servicios: Conoce la opinión real de tus clientes",
         description:
             "Conoce lo que piensan realmente tus clientes con el Calificador de Servicios. Toma decisiones informadas y lleva tu empresa al siguiente nivel.",
@@ -66,10 +66,10 @@ export default function CalificadorLanding() {
         publisher: {
             "@type": "Organization",
             name: "TecnologiaPlus",
-            url: "https://landing-tecnologiaplus-nextjs.vercel.app/",
+            url: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/",
             logo: {
                 "@type": "ImageObject",
-                url: "https://landing-tecnologiaplus-nextjs.vercel.app/wp-content/uploads/2020/10/Logo-1a1.jpg",
+                url: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/wp-content/uploads/2020/10/Logo-1a1.jpg",
             },
         },
     };

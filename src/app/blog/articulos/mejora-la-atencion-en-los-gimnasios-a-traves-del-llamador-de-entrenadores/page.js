@@ -11,12 +11,12 @@ export const metadata = {
         "Mejora la atención en tu gimnasio con un llamador de entrenadores. Facilita la comunicación y brinda un servicio más eficiente.",
     robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
     alternates: {
-        canonical: "https://landing-tecnologiaplus-nextjs.vercel.app/blog-tecnologia-plus/articulos/mejora-la-atencion-en-los-gimnasios-a-traves-del-llamador-de-entrenadores",
+        canonical: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/blog-tecnologia-plus/articulos/mejora-la-atencion-en-los-gimnasios-a-traves-del-llamador-de-entrenadores",
     },
     openGraph: {
         type: "article",
         locale: "es_ES",
-        url: "https://landing-tecnologiaplus-nextjs.vercel.app/blog-tecnologia-plus/articulos/mejora-la-atencion-en-los-gimnasios-a-traves-del-llamador-de-entrenadores",
+        url: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/blog-tecnologia-plus/articulos/mejora-la-atencion-en-los-gimnasios-a-traves-del-llamador-de-entrenadores",
         title: "Llamador de Entrenadores: Mejora la atención en gimnasios",
         description:
             "Mejora la atención en tu gimnasio con un llamador de entrenadores. Facilita la comunicación y brinda un servicio más eficiente.",

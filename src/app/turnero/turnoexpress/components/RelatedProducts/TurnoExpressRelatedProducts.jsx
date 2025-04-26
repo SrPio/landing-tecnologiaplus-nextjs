@@ -14,7 +14,7 @@ function TurnoExpressRelatedProducts({ titleClassName = "" }) {
       description: "Digitaliza la gestión de turnos.",
       img: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738350030/TurnoMaster_2x-8_stvupu_tvjv5q.webp",
       sold: "194 vendidos",
-      link: "http://landing-tecnologiaplus-nextjs.vercel.app/sistema-de-turnos/turnomaster",
+      link: "http://landing-tecnologiaplus-nextjs-dev.vercel.app/sistema-de-turnos/turnomaster",
       className: style.turnomaster__card,
     },
     {
@@ -22,7 +22,7 @@ function TurnoExpressRelatedProducts({ titleClassName = "" }) {
       description: "Perfectos para tickets, facturas y más.",
       img: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349920/image-1_1_ljyxis_qdsmdq.webp",
       sold: "14.485 vendidos",
-      link: "https://landing-tecnologiaplus-nextjs.vercel.app/rollos-de-papel-termico",
+      link: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/rollos-de-papel-termico",
       className: style.rollos__termicos__card,
     },
     {
@@ -30,7 +30,7 @@ function TurnoExpressRelatedProducts({ titleClassName = "" }) {
       description: "Lleva el autoservicio a otro nivel.",
       img: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741708165/NUEVA_etp9mi.webp",
       sold: "4.225 vendidos",
-      link: "http://landing-tecnologiaplus-nextjs.vercel.app/localizadores-para-restaurantes",
+      link: "http://landing-tecnologiaplus-nextjs-dev.vercel.app/localizadores-para-restaurantes",
     },
   ];
 

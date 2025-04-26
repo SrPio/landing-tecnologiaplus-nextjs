@@ -17,7 +17,7 @@ function EnfermeriaSecondaryProductsSection() {
             <h3>Llamador E2 Blanco</h3>
             <a
               className={style.card__btn}
-              href="http://landing-tecnologiaplus-nextjs.vercel.app/llamado-de-enfermeria-cuidamaster/llamador-e2-blanco"
+              href="http://landing-tecnologiaplus-nextjs-dev.vercel.app/llamado-de-enfermeria-cuidamaster/llamador-e2-blanco"
             >
               Ver más
             </a>
@@ -36,7 +36,7 @@ function EnfermeriaSecondaryProductsSection() {
             </h3>
             <a
               className={style.card__btn}
-              href="https://landing-tecnologiaplus-nextjs.vercel.app/llamado-de-enfermeria-cuidamaster/llamador-ex1"
+              href="https://landing-tecnologiaplus-nextjs-dev.vercel.app/llamado-de-enfermeria-cuidamaster/llamador-ex1"
             >
               Ver más
             </a>
@@ -55,7 +55,7 @@ function EnfermeriaSecondaryProductsSection() {
             </h3>
             <a
               className={style.card__btn}
-              href="http://landing-tecnologiaplus-nextjs.vercel.app/llamado-de-enfermeria-cuidamaster/llamador-e1-para-cuello"
+              href="http://landing-tecnologiaplus-nextjs-dev.vercel.app/llamado-de-enfermeria-cuidamaster/llamador-e1-para-cuello"
             >
               Ver más
             </a>
@@ -78,7 +78,7 @@ function EnfermeriaSecondaryProductsSection() {
             <p>886 vendidos</p>
             <a
               className={style.card__btn}
-              href="https://landing-tecnologiaplus-nextjs.vercel.app/llamado-de-enfermeria-cuidamaster/pantalla-t1-b"
+              href="https://landing-tecnologiaplus-nextjs-dev.vercel.app/llamado-de-enfermeria-cuidamaster/pantalla-t1-b"
             >
               Ver más
             </a>
@@ -93,7 +93,7 @@ function EnfermeriaSecondaryProductsSection() {
             <p>942 vendidos</p>
             <a
               className={style.card__btn}
-              href="https://landing-tecnologiaplus-nextjs.vercel.app/llamado-de-enfermeria-cuidamaster/pantalla-t6"
+              href="https://landing-tecnologiaplus-nextjs-dev.vercel.app/llamado-de-enfermeria-cuidamaster/pantalla-t6"
             >
               Ver más
             </a>
@@ -108,7 +108,7 @@ function EnfermeriaSecondaryProductsSection() {
             <p>2.649 vendidos</p>
             <a
               className={style.card__btn}
-              href="http://landing-tecnologiaplus-nextjs.vercel.app/llamado-de-enfermeria-cuidamaster/alarma-de-luz"
+              href="http://landing-tecnologiaplus-nextjs-dev.vercel.app/llamado-de-enfermeria-cuidamaster/alarma-de-luz"
             >
               Ver más
             </a>
@@ -123,7 +123,7 @@ function EnfermeriaSecondaryProductsSection() {
             <p>2.276 vendidos</p>
             <a
               className={style.card__btn}
-              href="https://landing-tecnologiaplus-nextjs.vercel.app/llamado-de-enfermeria-cuidamaster/reloj-receptor-de-llamados"
+              href="https://landing-tecnologiaplus-nextjs-dev.vercel.app/llamado-de-enfermeria-cuidamaster/reloj-receptor-de-llamados"
             >
               Ver más
             </a>

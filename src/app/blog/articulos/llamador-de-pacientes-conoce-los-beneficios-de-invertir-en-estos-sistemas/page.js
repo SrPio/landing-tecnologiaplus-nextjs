@@ -11,12 +11,12 @@ export const metadata = {
         "Mejora la rentabilidad y eficiencia de tu clínica u hospital con un sistema de llamador de pacientes. ¡Aumenta tu productividad hoy mismo!",
     robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
     alternates: {
-        canonical: "https://landing-tecnologiaplus-nextjs.vercel.app/blog-tecnologia-plus/articulos/llamador-de-pacientes-conoce-los-beneficios-de-invertir-en-estos-sistemas",
+        canonical: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/blog-tecnologia-plus/articulos/llamador-de-pacientes-conoce-los-beneficios-de-invertir-en-estos-sistemas",
     },
     openGraph: {
         type: "article",
         locale: "es_ES",
-        url: "https://landing-tecnologiaplus-nextjs.vercel.app/blog-tecnologia-plus/articulos/llamador-de-pacientes-conoce-los-beneficios-de-invertir-en-estos-sistemas",
+        url: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/blog-tecnologia-plus/articulos/llamador-de-pacientes-conoce-los-beneficios-de-invertir-en-estos-sistemas",
         title: "Llamador de pacientes: Beneficios de estos sistemas",
         description:
             "Mejora la rentabilidad y eficiencia de tu clínica u hospital con un sistema de llamador de pacientes. ¡Aumenta tu productividad hoy mismo!",

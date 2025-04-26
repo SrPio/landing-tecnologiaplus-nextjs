@@ -113,17 +113,17 @@ const articuloTimbreCama = {
         {
           titulo:
             "✅ Cómo un Botón para Llamar a Enfermera Facilita la Labor del Personal de Enfermería",
-          url: "https://landing-tecnologiaplus-nextjs.vercel.app/boton-para-llamar-a-enfermera-como-facilita-la-labor-del-personal-de-enfermeria/",
+          url: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/boton-para-llamar-a-enfermera-como-facilita-la-labor-del-personal-de-enfermeria/",
         },
         {
           titulo:
             "✅ 🏥 Cómo los Llamadores de Enfermería Transforman los Hospitales📢",
-          url: "https://landing-tecnologiaplus-nextjs.vercel.app/llamadores-de-enfermeria-como-transforman-los-hospitales/",
+          url: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/llamadores-de-enfermeria-como-transforman-los-hospitales/",
         },
         {
           titulo:
             "✅ Mejora la Experiencia del Paciente con un Timbre de Llamado de Enfermería 🏥",
-          url: "https://landing-tecnologiaplus-nextjs.vercel.app/timbre-de-llamado-de-enfermeria-mejora-la-experiencia-del-paciente/",
+          url: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/timbre-de-llamado-de-enfermeria-mejora-la-experiencia-del-paciente/",
         },
       ],
     },

@@ -18,7 +18,7 @@ export const metadata = {
         title: "Llamador de Enfermería E2 Blanco: Atención Inmediata",
         description:
             "Mejora la experiencia de pacientes en clínicas y hospitales con el llamador inalámbrico E2. Ágil, cómodo y fácil de usar. ¡Solicita asesoría hoy!",
-        url: "https://landing-tecnologiaplus-nextjs.vercel.app/llamado-de-enfermeria-cuidamaster/llamador-e2-blanco",
+        url: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/llamado-de-enfermeria-cuidamaster/llamador-e2-blanco",
         type: "website",
     },
     twitter: {

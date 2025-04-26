@@ -14,7 +14,7 @@ function TurnoMasterRelatedProducts() {
       description: "Perfectos para tickets, facturas y más.",
       img: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349920/image-1_1_ljyxis_qdsmdq.webp",
       sold: "14.485 vendidos",
-      link: "https://landing-tecnologiaplus-nextjs.vercel.app/rollos-de-papel-termico",
+      link: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/rollos-de-papel-termico",
       className: style.rollos__termicos__card,
     },
     {
@@ -22,14 +22,14 @@ function TurnoMasterRelatedProducts() {
       description: "Rapidez y agilidad para tus filas.",
       img: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738350028/TurnoExpress_2x-8_ri7zqh_xjz8bw.webp",
       sold: "692 vendidos",
-      link: "https://landing-tecnologiaplus-nextjs.vercel.app/turnero/turnoexpress",
+      link: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/turnero/turnoexpress",
     },
     {
       name: "Rollos de turnos",
       description: "Organiza y mejora el servicio.",
       img: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1745436638/Frame_1_35_vku1gs_746c0e.webp",
       sold: "8.527 vendidos",
-      link: "http://landing-tecnologiaplus-nextjs.vercel.app/rollos-de-fichos-para-turnos",
+      link: "http://landing-tecnologiaplus-nextjs-dev.vercel.app/rollos-de-fichos-para-turnos",
     },
   ];
 

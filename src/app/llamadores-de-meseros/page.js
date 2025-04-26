@@ -19,7 +19,7 @@ export const metadata = {
         "Facilita el servicio con nuestros llamadores de meseros inalámbricos. Agiliza la atención y mejora la experiencia del cliente. ¡Asesoría personalizada!",
     robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
     alternates: {
-        canonical: "https://landing-tecnologiaplus-nextjs.vercel.app/llamadores-de-meseros",
+        canonical: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/llamadores-de-meseros",
     },
     openGraph: {
         locale: "es_ES",
@@ -27,7 +27,7 @@ export const metadata = {
         title: "Llamadores de Meseros: Hacemos Fácil la Atención de tus Clientes",
         description:
             "Facilita el servicio con nuestros llamadores de meseros inalámbricos. Agiliza la atención y mejora la experiencia del cliente. ¡Asesoría personalizada!",
-        url: "https://landing-tecnologiaplus-nextjs.vercel.app/llamadores-de-meseros",
+        url: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/llamadores-de-meseros",
         siteName: "TecnologiaPlus",
         images: [
             {

@@ -11,12 +11,12 @@ export const metadata = {
         "Descubre cómo un sistema de llamado de enfermería mejora la atención, reduce tiempos de espera y moderniza tu servicio. ¡Adquiérelo ahora!",
     robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
     alternates: {
-        canonical: "https://landing-tecnologiaplus-nextjs.vercel.app/blog-tecnologia-plus/articulos/por-que-usar-sistema-de-llamado-de-enfermeria",
+        canonical: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/blog-tecnologia-plus/articulos/por-que-usar-sistema-de-llamado-de-enfermeria",
     },
     openGraph: {
         type: "article",
         locale: "es_ES",
-        url: "https://landing-tecnologiaplus-nextjs.vercel.app/blog-tecnologia-plus/articulos/por-que-usar-sistema-de-llamado-de-enfermeria",
+        url: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/blog-tecnologia-plus/articulos/por-que-usar-sistema-de-llamado-de-enfermeria",
         title: "Sistema de Llamado de Enfermería - ¿Por qué usarlo?",
         description:
             "Descubre cómo un sistema de llamado de enfermería mejora la atención, reduce tiempos de espera y moderniza tu servicio. ¡Adquiérelo ahora!",

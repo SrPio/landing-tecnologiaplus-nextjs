@@ -18,7 +18,7 @@ export const metadata = {
         title: "Alarma de Luz para Enfermería: Atención Visual y Sonora",
         description:
             "Facilita la comunicación en hospitales con nuestra alarma de luz y sonido. Ideal para áreas amplias y entornos ruidosos. ¡Solicita tu cotización!",
-        url: "https://landing-tecnologiaplus-nextjs.vercel.app/llamado-de-enfermeria-cuidamaster/alarma-de-luz",
+        url: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/llamado-de-enfermeria-cuidamaster/alarma-de-luz",
         type: "website",
     },
     twitter: {

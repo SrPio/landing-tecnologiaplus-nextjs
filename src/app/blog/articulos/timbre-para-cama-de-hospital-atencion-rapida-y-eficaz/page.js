@@ -11,12 +11,12 @@ export const metadata = {
         "Un timbre para cama de hospital mejora la atención, agiliza la respuesta del personal de salud y reduce la carga laboral. Tecnología Plus te asesora.",
     robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
     alternates: {
-        canonical: "https://landing-tecnologiaplus-nextjs.vercel.app/blog-tecnologia-plus/articulos/timbre-para-cama-de-hospital-atencion-rapida-y-eficaz",
+        canonical: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/blog-tecnologia-plus/articulos/timbre-para-cama-de-hospital-atencion-rapida-y-eficaz",
     },
     openGraph: {
         type: "article",
         locale: "es_ES",
-        url: "https://landing-tecnologiaplus-nextjs.vercel.app/blog-tecnologia-plus/articulos/timbre-para-cama-de-hospital-atencion-rapida-y-eficaz",
+        url: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/blog-tecnologia-plus/articulos/timbre-para-cama-de-hospital-atencion-rapida-y-eficaz",
         title: "Timbre para Cama de Hospital: Atención rápida y eficaz",
         description:
             "Un timbre para cama de hospital mejora la atención, agiliza la respuesta del personal de salud y reduce la carga laboral. Tecnología Plus te asesora.",

@@ -20,7 +20,7 @@ function TurnoExpressProductsSection() {
             <p>294 vendidos</p>
             <a
               className={style.card__btn}
-              href="http://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/turnos/pantalla-t1b"
+              href="http://landing-tecnologiaplus-nextjs-dev.vercel.app/ver-mas/turnos/pantalla-t1b"
             >
               Ver más
             </a>
@@ -37,7 +37,7 @@ function TurnoExpressProductsSection() {
             <p>869 vendidos</p>
             <a
               className={style.card__btn}
-              href="https://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/turnos/pantalla-t1n"
+              href="https://landing-tecnologiaplus-nextjs-dev.vercel.app/ver-mas/turnos/pantalla-t1n"
             >
               Ver más
             </a>
@@ -52,7 +52,7 @@ function TurnoExpressProductsSection() {
             <p>32 vendidos</p>
             <a
               className={style.card__btn}
-              href="http://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/turnos/fila-unica"
+              href="http://landing-tecnologiaplus-nextjs-dev.vercel.app/ver-mas/turnos/fila-unica"
             >
               Ver más
             </a>
@@ -67,7 +67,7 @@ function TurnoExpressProductsSection() {
             <p>692 vendidos</p>
             <a
               className={style.card__btn}
-              href="https://landing-tecnologiaplus-nextjs.vercel.app/turnero-turnoexpress/turnero-t3-modulo-turno"
+              href="https://landing-tecnologiaplus-nextjs-dev.vercel.app/turnero-turnoexpress/turnero-t3-modulo-turno"
             >
               Ver más
             </a>
@@ -85,7 +85,7 @@ function TurnoExpressProductsSection() {
             <p>82 vendidos</p>
             <a
               className={style.card__btn}
-              href="https://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/turnos/pantalla-segun-producto"
+              href="https://landing-tecnologiaplus-nextjs-dev.vercel.app/ver-mas/turnos/pantalla-segun-producto"
             >
               Ver más
             </a>
@@ -100,7 +100,7 @@ function TurnoExpressProductsSection() {
             <p>269 vendidos</p>
             <a
               className={style.card__btn}
-              href="https://landing-tecnologiaplus-nextjs.vercel.app/turnero-turnoexpress/turnero-t3-modulo-turno"
+              href="https://landing-tecnologiaplus-nextjs-dev.vercel.app/turnero-turnoexpress/turnero-t3-modulo-turno"
             >
               Ver más
             </a>

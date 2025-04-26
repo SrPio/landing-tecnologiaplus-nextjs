@@ -16,14 +16,14 @@ export const metadata = {
     description: "Sistema de turnos para organizar filas: Somos fabricantes. Ideal para agilizar la atención en salas de espera . ¡Solicita una asesoria ahora!",
     robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
     alternates: {
-        canonical: "http://landing-tecnologiaplus-nextjs.vercel.app/sistema-de-turnos/turnomaster",
+        canonical: "http://landing-tecnologiaplus-nextjs-dev.vercel.app/sistema-de-turnos/turnomaster",
     },
     openGraph: {
         locale: "es_ES",
         type: "article",
         title: "Sistema de Turnos: Agiliza Organiza las Filas en tu negocio",
         description: "Sistema de turnos para organizar filas: Somos fabricantes. Ideal para agilizar la atención en salas de espera . ¡Solicita una asesoria ahora!",
-        url: "https://landing-tecnologiaplus-nextjs.vercel.app/software-para-turnos/",
+        url: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/software-para-turnos/",
         siteName: "TecnologiaPlus",
         images: [
             {

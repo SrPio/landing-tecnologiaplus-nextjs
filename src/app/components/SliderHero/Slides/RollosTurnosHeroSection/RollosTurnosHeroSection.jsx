@@ -39,7 +39,7 @@ function RollosTurnosHeroSection({
           ) : (
             <a
               className={styles.hero__btn}
-              href="http://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/rollos-de-turnos"
+              href="http://landing-tecnologiaplus-nextjs-dev.vercel.app/ver-mas/rollos-de-turnos"
             >
               Ver más
             </a>

@@ -1,6 +1,6 @@
 export default async function sitemap() {
-  const baseUrl = 'https://landing-tecnologiaplus-nextjs.vercel.app';
-  
+  const baseUrl = 'https://landing-tecnologiaplus-nextjs-dev.vercel.app';
+
   // Define all your static routes
   const staticRoutes = [
     '',

@@ -14,7 +14,7 @@ function EncuestaVirtualRelatedProducts() {
       description: "Toma decisiones con la opinión de tus clientes",
       img: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738607994/calificador_de_servicios_2x-8_pjnvol.webp",
       sold: "490 vendidos",
-      link: "https://landing-tecnologiaplus-nextjs.vercel.app/calificador-de-servicio-al-cliente/opinamaster",
+      link: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/calificador-de-servicio-al-cliente/opinamaster",
       className: style.calificador__card,
     },
     {
@@ -22,7 +22,7 @@ function EncuestaVirtualRelatedProducts() {
       description: "Digitaliza la gestión de turnos.",
       img: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738350030/TurnoMaster_2x-8_stvupu_tvjv5q.webp",
       sold: "194 vendidos",
-      link: "http://landing-tecnologiaplus-nextjs.vercel.app/sistema-de-turnos/turnomaster",
+      link: "http://landing-tecnologiaplus-nextjs-dev.vercel.app/sistema-de-turnos/turnomaster",
       className: style.turnomaster__card,
     },
     {
@@ -30,7 +30,7 @@ function EncuestaVirtualRelatedProducts() {
       description: "Rapidez y agilidad para tus filas.",
       img: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738350028/TurnoExpress_2x-8_ri7zqh_xjz8bw.webp",
       sold: "692 vendidos",
-      link: "https://landing-tecnologiaplus-nextjs.vercel.app/turnero/turnoexpress",
+      link: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/turnero/turnoexpress",
     },
   ];
 

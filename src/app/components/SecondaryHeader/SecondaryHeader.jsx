@@ -46,12 +46,14 @@ function SecondaryHeader() {
     >
       <a
         className={style.inicio__mobile}
-        href="https://landing-tecnologiaplus-nextjs.vercel.app/"
+        href="https://landing-tecnologiaplus-nextjs-dev.vercel.app/"
       >
         Inicio
       </a>
       <div className={`${style.nav__links} ${menuOpen ? style.showMenu : ""}`}>
-        <a href="https://landing-tecnologiaplus-nextjs.vercel.app/">Inicio</a>
+        <a href="https://landing-tecnologiaplus-nextjs-dev.vercel.app/">
+          Inicio
+        </a>
         {/* Dropdown Productos */}
         <div className={style.dropdown}>
           <a
@@ -71,52 +73,52 @@ function SecondaryHeader() {
             }`}
           >
             <li>
-              <a href="http://landing-tecnologiaplus-nextjs.vercel.app/localizadores-para-restaurantes">
+              <a href="http://landing-tecnologiaplus-nextjs-dev.vercel.app/localizadores-para-restaurantes">
                 Localizadores autoservicio
               </a>
             </li>
             <li>
-              <a href="https://landing-tecnologiaplus-nextjs.vercel.app/llamadores-de-meseros">
+              <a href="https://landing-tecnologiaplus-nextjs-dev.vercel.app/llamadores-de-meseros">
                 Llamadores de meseros
               </a>
             </li>
             <li>
-              <a href="https://landing-tecnologiaplus-nextjs.vercel.app/turnero/turnoexpress">
+              <a href="https://landing-tecnologiaplus-nextjs-dev.vercel.app/turnero/turnoexpress">
                 Turnero TurnoExpress
               </a>
             </li>
             <li>
-              <a href="http://landing-tecnologiaplus-nextjs.vercel.app/sistema-de-turnos/turnomaster">
+              <a href="http://landing-tecnologiaplus-nextjs-dev.vercel.app/sistema-de-turnos/turnomaster">
                 Sistema de turnos
               </a>
             </li>
             <li>
-              <a href="http://landing-tecnologiaplus-nextjs.vercel.app/rollos-de-fichos-para-turnos">
+              <a href="http://landing-tecnologiaplus-nextjs-dev.vercel.app/rollos-de-fichos-para-turnos">
                 Rollos para turnos
               </a>
             </li>
             <li>
-              <a href="https://landing-tecnologiaplus-nextjs.vercel.app/rollos-de-papel-termico">
+              <a href="https://landing-tecnologiaplus-nextjs-dev.vercel.app/rollos-de-papel-termico">
                 Rollos térmicos
               </a>
             </li>
             <li>
-              <a href="http://landing-tecnologiaplus-nextjs.vercel.app/dispensador-de-tickets">
+              <a href="http://landing-tecnologiaplus-nextjs-dev.vercel.app/dispensador-de-tickets">
                 Dispensador de tickets
               </a>
             </li>
             <li>
-              <a href="https://landing-tecnologiaplus-nextjs.vercel.app/llamado-de-enfermeria/cuidamaster">
+              <a href="https://landing-tecnologiaplus-nextjs-dev.vercel.app/llamado-de-enfermeria/cuidamaster">
                 Llamado de enfermería
               </a>
             </li>
             <li>
-              <a href="https://landing-tecnologiaplus-nextjs.vercel.app/calificador-de-servicio-al-cliente/opinamaster">
+              <a href="https://landing-tecnologiaplus-nextjs-dev.vercel.app/calificador-de-servicio-al-cliente/opinamaster">
                 Calificador de servicio
               </a>
             </li>
             <li>
-              <a href="http://landing-tecnologiaplus-nextjs.vercel.app/encuesta-virtual/opinamaster">
+              <a href="http://landing-tecnologiaplus-nextjs-dev.vercel.app/encuesta-virtual/opinamaster">
                 Encuesta virtual
               </a>
             </li>
@@ -124,13 +126,13 @@ function SecondaryHeader() {
         </div>
         <a
           className={style.btn__mobile}
-          href="https://landing-tecnologiaplus-nextjs.vercel.app/blog"
+          href="https://landing-tecnologiaplus-nextjs-dev.vercel.app/blog"
         >
           Blog
         </a>
         <a
           className={style.btn__mobile}
-          href="https://landing-tecnologiaplus-nextjs.vercel.app/contacto"
+          href="https://landing-tecnologiaplus-nextjs-dev.vercel.app/contacto"
         >
           Contacto
         </a>

@@ -18,7 +18,7 @@ export const metadata = {
         title: "Llamador de Enfermería E1 para Cuello: Autonomía Total",
         description:
             "Brinda libertad a tus pacientes con el botón portátil E1. Resistente al agua y fácil de usar. Perfecto para adultos mayores. ¡Conoce sus ventajas!",
-        url: "http://landing-tecnologiaplus-nextjs.vercel.app/llamado-de-enfermeria-cuidamaster/llamador-e1-para-cuello",
+        url: "http://landing-tecnologiaplus-nextjs-dev.vercel.app/llamado-de-enfermeria-cuidamaster/llamador-e1-para-cuello",
         type: "website",
     },
     twitter: {

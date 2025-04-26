@@ -18,7 +18,7 @@ export const metadata = {
         title: "Llamador de Enfermería EX1: Cable Extensor y Accesibilidad",
         description:
             "Facilita el llamado de ayuda con el EX1, diseñado para máxima accesibilidad en camas hospitalarias y hogares geriátricos. ¡Solicita información!",
-        url: "https://landing-tecnologiaplus-nextjs.vercel.app/llamado-de-enfermeria-cuidamaster/llamador-ex1",
+        url: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/llamado-de-enfermeria-cuidamaster/llamador-ex1",
         type: "website",
     },
     twitter: {

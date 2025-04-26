@@ -18,7 +18,7 @@ export const metadata = {
         title: "Pantalla T6 para Enfermería: Monitorea 6 Llamados Simultáneos",
         description:
             "Visualiza fácilmente los llamados de habitaciones o áreas. Pantalla alfanumérica compatible con sistemas de timbre para enfermería. ¡Optimiza tu servicio!",
-        url: "https://landing-tecnologiaplus-nextjs.vercel.app/llamado-de-enfermeria-cuidamaster/pantalla-t6",
+        url: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/llamado-de-enfermeria-cuidamaster/pantalla-t6",
         type: "website",
     },
     twitter: {

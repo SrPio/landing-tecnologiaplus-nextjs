@@ -24,7 +24,7 @@ const articuloSistemaLlamado = {
         "Hace algunos años que se comenzó a implementar el ",
         {
           texto: "sistema de llamado de enfermería",
-          href: "https://landing-tecnologiaplus-nextjs.vercel.app/llamado-de-enfermeria/cuidamaster/",
+          href: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/llamado-de-enfermeria/cuidamaster/",
         },
         " en Colombia, una manera eficiente de atender las necesidades de los pacientes en clínicas, hogares geriátricos y gerontológicos, debido a las facilidades que ofrece tanto para las enfermeras, como para los pacientes.",
       ],
@@ -74,7 +74,7 @@ const articuloSistemaLlamado = {
         "El ",
         {
           texto: "sistema de llamado de enfermería",
-          href: "https://landing-tecnologiaplus-nextjs.vercel.app/llamado-de-enfermeria/cuidamaster/",
+          href: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/llamado-de-enfermeria/cuidamaster/",
         },
         " solo debes instalarlo cerca de la cama del paciente y este debe tener un acceso fácil, cómodo y rápido. Por su parte, el llamador con cable extensor es para pacientes que no pueden levantarse de la cama y así ofrecer más comodidades.",
       ],
@@ -108,7 +108,7 @@ const articuloSistemaLlamado = {
         "Si estás decidido a instalar estos ",
         {
           texto: "sistema de llamado de enfermeras",
-          href: "https://landing-tecnologiaplus-nextjs.vercel.app/llamado-de-enfermeria/cuidamaster/",
+          href: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/llamado-de-enfermeria/cuidamaster/",
         },
         " en tu clínica, hogar geriátrico o gerontológico, quizá te gustaría conocer algunos casos de éxitos de otras empresas que ya cuentan con los llamadores de Tecnología Plus:",
       ],
@@ -130,7 +130,7 @@ const articuloSistemaLlamado = {
         "¡",
         {
           texto: "Contáctanos hoy mismo",
-          href: "https://landing-tecnologiaplus-nextjs.vercel.app/contacto/",
+          href: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/contacto/",
         },
         " y descubre cómo podemos llevar tu servicio al siguiente nivel!",
       ],

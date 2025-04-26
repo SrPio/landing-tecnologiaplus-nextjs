@@ -34,7 +34,7 @@ const articuloLlamadoEnfermeria = {
         "Para mejorar la calidad del cuidado que ofrecen las enfermeras en un hospital geriátrico, existen diversas soluciones que pueden implementarse de manera sencilla y efectiva. Una de estas herramientas clave es el ",
         {
           texto: "llamado de enfermería",
-          href: "https://landing-tecnologiaplus-nextjs.vercel.app/llamado-de-enfermeria/cuidamaster/",
+          href: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/llamado-de-enfermeria/cuidamaster/",
         },
         ", que facilita una atención más rápida y eficiente, mejorando la seguridad y la experiencia tanto de los residentes como del personal.",
       ],
@@ -63,7 +63,7 @@ const articuloLlamadoEnfermeria = {
         "Un trato más humano puede garantizar, no solo una mejor relación entre los pacientes geriátricos y las enfermeras, sino también la calidad de los servicios que se prestan. El uso de herramientas como el ",
         {
           texto: "llamado de enfermería",
-          href: "https://landing-tecnologiaplus-nextjs.vercel.app/llamado-de-enfermeria/cuidamaster/",
+          href: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/llamado-de-enfermeria/cuidamaster/",
         },
         " puede reforzar este vínculo, permitiendo una comunicación más efectiva y una respuesta inmediata a las necesidades de los residentes.",
       ],
@@ -106,7 +106,7 @@ const articuloLlamadoEnfermeria = {
         "El uso de un ",
         {
           texto: "llamado de enfermería",
-          href: "https://landing-tecnologiaplus-nextjs.vercel.app/llamado-de-enfermeria/cuidamaster/",
+          href: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/llamado-de-enfermeria/cuidamaster/",
         },
         " accesible también es una excelente forma de prevenir accidentes y lesiones. En caso de que un residente necesite asistencia y no haya una enfermera cerca, este dispositivo permite solicitar ayuda de manera rápida y eficiente, mejorando la seguridad y tranquilidad tanto de los pacientes como del personal.",
       ],
@@ -182,7 +182,7 @@ const articuloLlamadoEnfermeria = {
         "El uso de herramientas como el ",
         {
           texto: "llamado de enfermería",
-          href: "https://landing-tecnologiaplus-nextjs.vercel.app/llamado-de-enfermeria/cuidamaster/",
+          href: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/llamado-de-enfermeria/cuidamaster/",
         },
         " complementa estos cuidados especializados, ya que permite una atención inmediata y efectiva en caso de emergencias o requerimientos específicos de los residentes. Además, el enfoque interdisciplinario de su equipo de profesionales garantiza un cuidado integral, abordando tanto las condiciones médicas como las necesidades emocionales y sociales de los pacientes.",
       ],
@@ -197,7 +197,7 @@ const articuloLlamadoEnfermeria = {
         "Por otro lado, es crucial que los hospitales geriátricos cuenten con tecnologías que faciliten la comunicación entre los pacientes y las enfermeras, como puede ser el caso de los ",
         {
           texto: "llamadores de enfermería",
-          href: "https://landing-tecnologiaplus-nextjs.vercel.app/llamado-de-enfermeria/cuidamaster/",
+          href: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/llamado-de-enfermeria/cuidamaster/",
         },
         " que ofrece Tecnología Plus, ya que mejoran la calidad de los cuidados.",
       ],
@@ -208,7 +208,7 @@ const articuloLlamadoEnfermeria = {
         "¡",
         {
           texto: "Contáctanos hoy mismo",
-          href: "https://landing-tecnologiaplus-nextjs.vercel.app/contacto/",
+          href: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/contacto/",
         },
         " y descubre cómo podemos llevar tu servicio al siguiente nivel!",
       ],

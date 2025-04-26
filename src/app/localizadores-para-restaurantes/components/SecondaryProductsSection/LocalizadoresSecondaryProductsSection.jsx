@@ -1,5 +1,5 @@
 import style from "./LocalizadoresSecondaryProductsSection.module.scss";
-import YouTubePlayer from '@/components/YouTubePlayer';
+import YouTubePlayer from "@/components/YouTubePlayer";
 
 function LocalizadoresSecondaryProductsSection() {
   return (
@@ -14,7 +14,7 @@ function LocalizadoresSecondaryProductsSection() {
                 <h3>REC V3</h3>
                 <a
                   className={style.card__btn}
-                  href="http://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/localizadores/rec-v3"
+                  href="http://landing-tecnologiaplus-nextjs-dev.vercel.app/ver-mas/localizadores/rec-v3"
                 >
                   Ver más
                 </a>
@@ -37,7 +37,7 @@ function LocalizadoresSecondaryProductsSection() {
                 <h3>CIR C2</h3>
                 <a
                   className={style.card__btn}
-                  href="http://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/localizadores/cir-c2"
+                  href="http://landing-tecnologiaplus-nextjs-dev.vercel.app/ver-mas/localizadores/cir-c2"
                 >
                   Ver más
                 </a>

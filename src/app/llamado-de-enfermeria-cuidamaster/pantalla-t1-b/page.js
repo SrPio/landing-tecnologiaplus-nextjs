@@ -18,7 +18,7 @@ export const metadata = {
         title: "Pantalla T1-B para Enfermería: Visualiza Llamados en Tiempo Real",
         description:
             "Gestiona hasta 15 llamados en pantalla. Solución ideal para hospitales y hogares geriátricos. Mejora la atención y la coordinación del personal.",
-        url: "http://landing-tecnologiaplus-nextjs.vercel.app/llamado-de-enfermeria-cuidamaster/pantalla-t1-b",
+        url: "http://landing-tecnologiaplus-nextjs-dev.vercel.app/llamado-de-enfermeria-cuidamaster/pantalla-t1-b",
         type: "website",
     },
     twitter: {

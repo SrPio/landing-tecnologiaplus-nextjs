@@ -2,6 +2,10 @@
 @use "../../../styles/base/mixins" as *;
 
 .products__section {
+  @include respond-to-max("laptop") {
+    padding-bottom: 3rem;
+  }
+
   h2 {
     margin-bottom: 4rem;
 
@@ -39,6 +43,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    text-decoration: underline;
 
     @include respond-to-max("laptop") {
       font-size: clamp(16px, 5vw, 1.5rem);

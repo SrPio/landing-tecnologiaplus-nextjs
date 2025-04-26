@@ -14,10 +14,11 @@
 }
 
 .video__section {
-  video,
-  iframe {
+  /*  video,
+  iframe,
+  .youtubeContainer {
     width: 612px;
-    height: 344px;
+    height: 344px !important;
     border-radius: 20px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
@@ -29,7 +30,7 @@
       height: 50vw;
       margin-top: 0;
     }
-  }
+  } */
 }
 .benefits__section {
   position: relative;

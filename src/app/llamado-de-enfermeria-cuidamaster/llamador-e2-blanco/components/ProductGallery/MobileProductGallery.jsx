@@ -27,12 +27,12 @@ const GALLERY_IMAGES = [
 const COLOR_VARIANTS = [
   {
     name: "Blanco",
-    url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741475394/Frame_2_xva6io.webp",
+    url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1745632777/Frame_2_13_bnnw4z.webp",
     id: "white-v2b",
   },
   {
     name: "Negro",
-    url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1740668328/18_4x-8_u9bwuw.webp",
+    url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1745632773/Frame_2_12_ilvweb.webp",
     id: "black-v2b",
   },
 ];

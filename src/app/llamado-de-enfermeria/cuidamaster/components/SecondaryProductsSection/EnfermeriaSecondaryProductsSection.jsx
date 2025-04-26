@@ -40,7 +40,7 @@ function EnfermeriaSecondaryProductsSection() {
             >
               Ver más
             </a>
-            <p>3852 vendidos</p>
+            <p>3.852 vendidos</p>
           </div>
           <div className={style.card}>
             <img
@@ -105,7 +105,7 @@ function EnfermeriaSecondaryProductsSection() {
               alt="Alarma de luz para enfermeras"
             />
             <h3>Alarma de luz</h3>
-            <p>2649 vendidos</p>
+            <p>2.649 vendidos</p>
             <a
               className={style.card__btn}
               href="http://landing-tecnologiaplus-nextjs.vercel.app/llamado-de-enfermeria-cuidamaster/alarma-de-luz"
@@ -120,7 +120,7 @@ function EnfermeriaSecondaryProductsSection() {
               alt="Reloj de llamado al personal"
             />
             <h3>Reloj receptor de llamados</h3>
-            <p>2276 vendidos</p>
+            <p>2.276 vendidos</p>
             <a
               className={style.card__btn}
               href="https://landing-tecnologiaplus-nextjs.vercel.app/llamado-de-enfermeria-cuidamaster/reloj-receptor-de-llamados"

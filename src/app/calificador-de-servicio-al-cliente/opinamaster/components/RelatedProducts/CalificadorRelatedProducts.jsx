@@ -28,7 +28,7 @@ function CalificadorRelatedProducts({ titleClassName = "" }) {
       name: "CuidaMaster",
       description: "Transforma opiniones en acciones estratégicas.",
       img: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738596111/cuidamaster_2x-8_dlawzx.webp",
-      sold: "9825 vendidos",
+      sold: "9.825 vendidos",
       link: "https://landing-tecnologiaplus-nextjs.vercel.app/llamado-de-enfermeria/cuidamaster",
     },
   ];

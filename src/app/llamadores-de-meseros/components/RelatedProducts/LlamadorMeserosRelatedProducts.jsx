@@ -14,7 +14,7 @@ function LlamadorMeserosRelatedProducts({ titleClassName = "" }) {
       name: "Localizadores para restaurantes",
       description: "Lleva el autoservicio a otro nivel.",
       img: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741708165/NUEVA_etp9mi.webp",
-      sold: "4225 vendidos",
+      sold: "4.225 vendidos",
       link: "http://landing-tecnologiaplus-nextjs.vercel.app/localizadores-para-restaurantes",
     },
     {
@@ -28,14 +28,14 @@ function LlamadorMeserosRelatedProducts({ titleClassName = "" }) {
       name: "CuidaMaster",
       description: "Transforma opiniones en acciones estratégicas.",
       img: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738596111/cuidamaster_2x-8_dlawzx.webp",
-      sold: "9825 vendidos",
+      sold: "9.825 vendidos",
       link: "https://landing-tecnologiaplus-nextjs.vercel.app/llamado-de-enfermeria/cuidamaster",
     },
   ];
 
   // Use client-side only state initialization to avoid hydration mismatches
   const [shouldLoop, setShouldLoop] = useState(false);
-  
+
   // Only enable loop on client-side after component mounts
   useEffect(() => {
     setShouldLoop(products.length > 3);

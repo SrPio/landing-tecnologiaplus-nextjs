@@ -12,7 +12,7 @@ function SecondaryTurnoExpressProductsSection() {
               src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738789798/Dispensador_2x-8_soj9hp.webp"
               alt="Dispensador de turnos caracol rojo"
             />
-            <p>2686 vendidos</p>
+            <p>2.686 vendidos</p>
             <a
               className={style.card__btn}
               href="https://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/dispensador-de-tiquetes"
@@ -27,7 +27,7 @@ function SecondaryTurnoExpressProductsSection() {
               src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738448114/Rollos_de_turnos_2x-8_ovbwlu.webp"
               alt="Rollos de turnos personalizados"
             />
-            <p>8527 vendidos</p>
+            <p>8.527 vendidos</p>
             <a
               className={style.card__btn}
               href="https://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/rollos-de-turnos"

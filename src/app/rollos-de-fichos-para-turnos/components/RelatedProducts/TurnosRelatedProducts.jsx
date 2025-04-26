@@ -13,7 +13,7 @@ function TurnosRelatedProducts() {
       name: "Dispensador de tiquetes",
       description: "Complemento práctico para tomar el turno.",
       img: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349966/dispensador_de_tiquetes_2x-8_qusuqr_fuxs8k.webp",
-      sold: "2686 vendidos",
+      sold: "2.686 vendidos",
       className: style.dispensador__card,
       link: "http://landing-tecnologiaplus-nextjs.vercel.app/dispensador-de-tickets",
     },

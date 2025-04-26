@@ -13,7 +13,7 @@ function TurnoMasterRelatedProducts() {
       name: "Rollos térmicos",
       description: "Perfectos para tickets, facturas y más.",
       img: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349920/image-1_1_ljyxis_qdsmdq.webp",
-      sold: "14485 vendidos",
+      sold: "14.485 vendidos",
       link: "https://landing-tecnologiaplus-nextjs.vercel.app/rollos-de-papel-termico",
       className: style.rollos__termicos__card,
     },
@@ -28,7 +28,7 @@ function TurnoMasterRelatedProducts() {
       name: "Rollos de turnos",
       description: "Organiza y mejora el servicio.",
       img: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1745436638/Frame_1_35_vku1gs_746c0e.webp",
-      sold: "8527 vendidos",
+      sold: "8.527 vendidos",
       link: "http://landing-tecnologiaplus-nextjs.vercel.app/rollos-de-fichos-para-turnos",
     },
   ];

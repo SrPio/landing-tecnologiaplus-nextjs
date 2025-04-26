@@ -21,7 +21,7 @@ function TurnoExpressRelatedProducts({ titleClassName = "" }) {
       name: "Rollos térmicos",
       description: "Perfectos para tickets, facturas y más.",
       img: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738349920/image-1_1_ljyxis_qdsmdq.webp",
-      sold: "14485 vendidos",
+      sold: "14.485 vendidos",
       link: "https://landing-tecnologiaplus-nextjs.vercel.app/rollos-de-papel-termico",
       className: style.rollos__termicos__card,
     },
@@ -29,7 +29,7 @@ function TurnoExpressRelatedProducts({ titleClassName = "" }) {
       name: "Localizadores para restaurantes",
       description: "Lleva el autoservicio a otro nivel.",
       img: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741708165/NUEVA_etp9mi.webp",
-      sold: "4225 vendidos",
+      sold: "4.225 vendidos",
       link: "http://landing-tecnologiaplus-nextjs.vercel.app/localizadores-para-restaurantes",
     },
   ];

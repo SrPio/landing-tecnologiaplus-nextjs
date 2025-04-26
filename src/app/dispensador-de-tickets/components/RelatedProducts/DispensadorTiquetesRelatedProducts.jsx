@@ -13,7 +13,7 @@ function DispensadorTiquetesRelatedProducts() {
       name: "Rollos de turnos",
       description: "Organiza y mejora el servicio.",
       img: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1745436638/Frame_1_35_vku1gs_746c0e.webp",
-      sold: "8527 vendidos",
+      sold: "8.527 vendidos",
       link: "http://landing-tecnologiaplus-nextjs.vercel.app/rollos-de-fichos-para-turnos",
     },
     {

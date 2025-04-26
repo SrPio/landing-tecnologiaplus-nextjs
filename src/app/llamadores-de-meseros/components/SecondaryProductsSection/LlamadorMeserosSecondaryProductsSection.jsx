@@ -1,5 +1,5 @@
 import style from "./LlamadorMeserosSecondaryProductsSection.module.scss";
-import YouTubePlayer from '@/components/YouTubePlayer';
+import YouTubePlayer from "@/components/YouTubePlayer";
 
 function LlamadorMeserosSecondaryProductsSection() {
   return (
@@ -104,7 +104,7 @@ function LlamadorMeserosSecondaryProductsSection() {
                 alt=" Reloj de llamado al personal"
               />
               <h3>Reloj receptor de llamados</h3>
-              <p>2276 vendidos</p>
+              <p>2.276 vendidos</p>
               <a
                 className={style.card__btn}
                 href="http://landing-tecnologiaplus-nextjs.vercel.app/ver-mas/meseros/reloj-receptor"

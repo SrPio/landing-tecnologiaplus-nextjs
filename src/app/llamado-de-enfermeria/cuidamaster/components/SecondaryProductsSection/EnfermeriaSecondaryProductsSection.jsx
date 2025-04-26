@@ -75,13 +75,13 @@ function EnfermeriaSecondaryProductsSection() {
             <h3>
               Pantalla T<span>1</span>B de <span>1</span> llamado
             </h3>
-            <p>886 vendidos</p>
             <a
               className={style.card__btn}
               href="https://landing-tecnologiaplus-nextjs-dev.vercel.app/llamado-de-enfermeria-cuidamaster/pantalla-t1-b"
             >
               Ver más
             </a>
+            <p>886 vendidos</p>
           </div>
           <div className={style.card}>
             <img
@@ -90,13 +90,13 @@ function EnfermeriaSecondaryProductsSection() {
               alt="Pantalla de turnos T6"
             />
             <h3>Pantalla T6 de 6 llamados</h3>
-            <p>942 vendidos</p>
             <a
               className={style.card__btn}
               href="https://landing-tecnologiaplus-nextjs-dev.vercel.app/llamado-de-enfermeria-cuidamaster/pantalla-t6"
             >
               Ver más
             </a>
+            <p>942 vendidos</p>
           </div>
           <div className={style.card}>
             <img
@@ -105,13 +105,13 @@ function EnfermeriaSecondaryProductsSection() {
               alt="Alarma de luz para enfermeras"
             />
             <h3>Alarma de luz</h3>
-            <p>2.649 vendidos</p>
             <a
               className={style.card__btn}
               href="http://landing-tecnologiaplus-nextjs-dev.vercel.app/llamado-de-enfermeria-cuidamaster/alarma-de-luz"
             >
               Ver más
             </a>
+            <p>2.649 vendidos</p>
           </div>
           <div className={style.card}>
             <img
@@ -120,13 +120,13 @@ function EnfermeriaSecondaryProductsSection() {
               alt="Reloj de llamado al personal"
             />
             <h3>Reloj receptor de llamados</h3>
-            <p>2.276 vendidos</p>
             <a
               className={style.card__btn}
               href="https://landing-tecnologiaplus-nextjs-dev.vercel.app/llamado-de-enfermeria-cuidamaster/reloj-receptor-de-llamados"
             >
               Ver más
             </a>
+            <p>2.276 vendidos</p>
           </div>
         </div>
       </div>

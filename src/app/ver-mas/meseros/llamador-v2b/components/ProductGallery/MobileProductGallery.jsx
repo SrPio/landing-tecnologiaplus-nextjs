@@ -193,7 +193,7 @@ function MobileProductGallery() {
       {/* Colors Swiper - only visible when activeView is 'colors' */}
       <div style={{ display: activeView === 'colors' ? 'block' : 'none' }}>
         <Swiper
-          ref={swiperRef} 
+          ref={colorSwiperRef} 
           modules={[Navigation, Pagination]}
           pagination={false}
           loop={true}

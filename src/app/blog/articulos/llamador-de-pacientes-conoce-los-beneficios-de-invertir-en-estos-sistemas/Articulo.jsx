@@ -255,8 +255,9 @@ const articuloSistemaLlamado = {
         "No esperes más para transformar la operatividad de tu institución. Da el siguiente paso hacia una atención más eficiente, un ambiente de trabajo más saludable y una mayor satisfacción para todos. ¡Invierte ahora en el sistema de llamado de pacientes Tecnología Plus y lleva tu centro de salud al siguiente nivel!",
     },
     {
-      tipo: "cta",
+      tipo: "boton",
       texto: "Cotizar",
+      href: "https://wa.me/573164682034",
     },
   ],
 };

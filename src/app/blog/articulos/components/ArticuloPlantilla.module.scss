@@ -72,7 +72,6 @@
 
 .articulo__lista {
   padding-left: 30px;
-  list-style: disc;
   margin-top: 1rem;
 
   li {
@@ -105,6 +104,10 @@
 
 .articulo__lista_square {
   list-style-type: square; /* Bullets cuadrados */
+  padding-left: 40px;
+}
+.articulo__lista_disc {
+  list-style: disc;
   padding-left: 40px;
 }
 

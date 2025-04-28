@@ -140,6 +140,8 @@ function ArticuloPlantilla({
                     ? styles.articulo__lista_circle
                     : bloque.bulletStyle === "square"
                     ? styles.articulo__lista_square
+                    : bloque.bulletStyle === "disc"
+                    ? styles.articulo__lista_disc
                     : ""; // Usamos la clase CSS por defecto si no hay estilo personalizado
 
                 return bloque.ordenada ? (

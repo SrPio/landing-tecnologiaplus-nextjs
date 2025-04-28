@@ -1,3 +1,4 @@
+"use client";
 import PropTypes from "prop-types";
 import styles from "./ArticuloPlantilla.module.scss";
 import BlogCard from "@/app/components/Cards/Blog/BlogCard";
@@ -162,21 +163,33 @@ function ArticuloPlantilla({
             <div className={styles.social__section}>
               <span>Compartir</span>
               <div className={styles.social__icons}>
-                <img
-                  src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738944989/instagram_2x-8_bflzuj.webp"
-                  alt="Icono de Instagram"
-                  className={styles.social__icon}
-                />
-                <img
-                  src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738944985/facebook_2x-8_sy9pch.webp"
-                  alt="Icono de Facebook"
-                  className={styles.social__icon}
-                />
-                <img
-                  src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738944987/wpp_2x-8_tsgorp.webp"
-                  alt="Icono de WhatsApp"
-                  className={styles.social__icon}
-                />
+                <a
+                  href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(
+                    window.location.href
+                  )}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738944985/facebook_2x-8_sy9pch.webp"
+                    alt="Compartir en Facebook"
+                    className={styles.social__icon}
+                  />
+                </a>
+
+                <a
+                  href={`https://wa.me/?text=${encodeURIComponent(
+                    window.location.href
+                  )}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1738944987/wpp_2x-8_tsgorp.webp"
+                    alt="Compartir en WhatsApp"
+                    className={styles.social__icon}
+                  />
+                </a>
               </div>
             </div>
 

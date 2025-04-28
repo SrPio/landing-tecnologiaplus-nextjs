@@ -6,7 +6,7 @@ import SecondaryHeader from "@/app/components/SecondaryHeader/SecondaryHeader";
 import TechnicalSheet from "./components/TechnicalSheet/TechnicalSheet";
 import HowItWorks from "./components/HowItWorks/HowItWorks";
 import TurnoExpressRelatedProducts from "@/app/turnero/turnoexpress/components/RelatedProducts/TurnoExpressRelatedProducts";
-import ControlsOptions from "../pantalla-t1n/components/ControlsOptions/ControlsOptions";
+import ControlsOptions from "../../../turnero-turnoexpress/turnero-t1-n/components/ControlsOptions/ControlsOptions";
 import LogosSection from "../../../turnero-turnoexpress/turnero-fila-unica-supermercados/components/LogosSection/LogosSection";
 import ProductGallerySelected from "./components/ProductGallery/ProductGallerySelected";
 

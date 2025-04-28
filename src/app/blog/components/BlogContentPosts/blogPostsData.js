@@ -8,7 +8,7 @@ export const blogPosts = [
         imageSrc:
             "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743860057/18_ygcenj.webp",
         altText: "imagen de referencia",
-        link: "#",
+        link: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/blog/articulos/por-que-usar-sistema-de-llamado-de-enfermeria",
         width: "360px",
         imageHeight: "200px",
         hideSocials: false,
@@ -17,18 +17,18 @@ export const blogPosts = [
     },
     {
         id: 2,
-        title: "¿Qué es un sistema de espera inteligente y cómo funciona?",
+        title: "8 Cosas Que No Pueden Faltar En Un Restaurante Autoservicio Con Localizadores para restaurantes",
         description:
-            "¿Cómo están los Tiempos de espera en tu restaurante? Reducelos con Llamadores de Meseros...",
+            "Brindar un excelente servicio al cliente es esencial para el éxito de cualquier negocio de comida...",
         imageSrc:
-            "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743860056/2-r3fj0t4xo2t2kvdzv2l98durmbh383agvh839oy5gg_ulyujw.webp",
+            "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744205856/24_vmflhi.webp",
         altText: "imagen de referencia",
-        link: "#",
+        link: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/blog/articulos/8-cosas-que-no-pueden-faltar-en-un-restaurante-autoservicio",
         customClass: "custom__style__one",
         width: "360px",
         imageHeight: "200px",
         hideSocials: false,
-        date: "Marzo 26, 2025",
+        date: "Junio 28, 2023",
         titleFontSize: "1.3rem",
 
     },
@@ -41,7 +41,7 @@ export const blogPosts = [
         imageSrc:
             "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743783087/Imagen_de_WhatsApp_2025-04-04_a_las_11.06.54_1dcf04a8_gj6t2l.webp",
         altText: "imagen de referencia",
-        link: "#",
+        link: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/blog/articulos/llamado-de-enfermeria-como-mejorar-el-servicio-en-geriatricos",
         width: "360px",
         imageHeight: "200px",
         hideSocials: false,
@@ -56,7 +56,7 @@ export const blogPosts = [
         imageSrc:
             "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743712565/2-2-r2t8qbxf8mvesiss8ymnx9zqjfj67eus8hglr7abkw_klgqcz.webp",
         altText: "imagen de referencia",
-        link: "#",
+        link: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/blog/articulos/timbre-para-cama-de-hospital-atencion-rapida-y-eficaz",
         width: "360px",
         imageHeight: "200px",
         hideSocials: false,
@@ -66,82 +66,71 @@ export const blogPosts = [
     },
     {
         id: 5,
-        title: "¿Qué es un sistema de espera inteligente y cómo funciona?",
+        title:
+            "Llamador De Pacientes: Conoce Los Beneficios De Invertir En Estos Sistemas",
         description:
-            "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam orem ipsum dol",
+            "La eficiencia y la satisfacción del paciente son dos pilares fundamentales para el éxito de cualquier institución de salud... ",
         imageSrc:
-            "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739206940/3_1_2x-8_znjln1.png",
+            "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744122648/IMG_4834-1_xzrvjs.webp",
         altText: "imagen de referencia",
-        link: "#",
-        customClass: "custom__style__one",
+        link: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/blog/articulos/llamador-de-pacientes-conoce-los-beneficios-de-invertir-en-estos-sistemas",
         width: "360px",
+        imageHeight: "200px",
         hideSocials: false,
-        date: "Septiembre 10, 2024",
+        date: "Agosto 30, 2024",
         titleFontSize: "1.3rem",
 
     },
     {
         id: 6,
         title:
-            "¿Qué es el papel de transferencia térmica y cómo usarlo en tu negocio?",
+            "Cómo Mejorar La Atención En Los Gimnasios A Través Del Llamador De Entrenadores",
         description:
-            "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam orem ipsum dol",
+            "Cuando hablamos de atención al cliente, pensamos en empresas como Amazon, Zara, Netflix, entre otras grandes industrias... ",
         imageSrc:
-            "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739206967/2_1_2x-8_i8zygy.png",
+            "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744202150/26_ezfnar.webp",
         altText: "imagen de referencia",
-        link: "#",
+        link: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/blog/articulos/mejora-la-atencion-en-los-gimnasios-a-traves-del-llamador-de-entrenadores",
         width: "360px",
+        imageHeight: "200px",
         hideSocials: false,
-        date: "Septiembre 10, 2024",
+        date: "Mayo 28, 2023",
         titleFontSize: "1.3rem",
 
     },
     {
         id: 7,
         title:
-            "¿Cómo integrar un dispensador de turnos con tu sistema de gestión?",
+            "Cómo un Botón para Llamar a Enfermera Facilita la Labor del Personal de Enfermería",
         description:
-            "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam orem ipsum dol",
+            "El personal de enfermería es el pilar fundamental en la atención hospitalaria... ",
         imageSrc:
-            "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739206999/1_1_2x-8_vbgthg.png",
+            "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1745352671/18-r2rkjo25qkvgypzy1er9h0zk7aqlg3cpohyfzvti5c_tn9q2j.webp",
         altText: "imagen de referencia",
-        link: "#",
+        link: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/blog/llamado-de-enfermeria/boton-para-llamar-enfermera-facilita-labor-personal",
         width: "360px",
+        imageHeight: "200px",
         hideSocials: false,
-        date: "Septiembre 10, 2024",
+        date: "Marzo 12, 2025",
         titleFontSize: "1.3rem",
 
     },
     {
         id: 8,
-        title: "¿Qué es un sistema de espera inteligente y cómo funciona?",
-        description:
-            "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam orem ipsum dol",
-        imageSrc:
-            "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739206940/3_1_2x-8_znjln1.png",
-        altText: "imagen de referencia",
-        link: "#",
-        customClass: "custom__style__one",
-        width: "360px",
-        hideSocials: false,
-        date: "Septiembre 10, 2024",
-        titleFontSize: "1.3rem",
-
-    },
-    {
-        id: 9,
         title:
-            "¿Qué es el papel de transferencia térmica y cómo usarlo en tu negocio?",
+            "Mejora la Experiencia del Paciente con un Timbre de Llamado de Enfermería 🏥",
         description:
-            "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam orem ipsum dol",
+            "Cuando un paciente ingresa a un hospital o clínica, su estado físico y emocional puede verse afectado... ",
         imageSrc:
-            "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1739206967/2_1_2x-8_i8zygy.png",
+            "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1745348349/3_1_r3t9sy.webp",
         altText: "imagen de referencia",
-        link: "#",
+        link: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/blog/llamado-de-enfermeria/mejora-experiencia-paciente-con-timbre-llamado-enfermeria",
         width: "360px",
+        imageHeight: "200px",
         hideSocials: false,
-        date: "Septiembre 10, 2024",
+        date: "Marzo 11, 2025",
         titleFontSize: "1.3rem",
 
     },
+
 ];

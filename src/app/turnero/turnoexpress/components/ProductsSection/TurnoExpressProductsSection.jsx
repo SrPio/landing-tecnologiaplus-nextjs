@@ -52,7 +52,7 @@ function TurnoExpressProductsSection() {
             <p>32 vendidos</p>
             <a
               className={style.card__btn}
-              href="http://landing-tecnologiaplus-nextjs-dev.vercel.app/ver-mas/turnos/fila-unica"
+              href="https://landing-tecnologiaplus-nextjs-dev.vercel.app/turnero-turnoexpress/turnero-fila-unica-supermercados"
             >
               Ver más
             </a>

@@ -3,42 +3,39 @@ import WppBtn from "@/app/components/WppBtn/WppBtn";
 import Footer from "@/app/components/Footer/Footer";
 import style from "@/app/turnero/turnoexpress/components/RelatedProducts/TurnoExpressRelatedProducts.module.scss";
 import SecondaryHeader from "@/app/components/SecondaryHeader/SecondaryHeader";
-import LogosSection from "@/app/turnero-turnoexpress/turnero-fila-unica-supermercados/components/LogosSection/LogosSection";
 import TechnicalSheet from "./components/TechnicalSheet/TechnicalSheet";
 import HowItWorks from "./components/HowItWorks/HowItWorks";
 import TurnoExpressRelatedProducts from "@/app/turnero/turnoexpress/components/RelatedProducts/TurnoExpressRelatedProducts";
-import ControlsOptions from "@/app/ver-mas/turnos/pantalla-t1n/components/ControlsOptions/ControlsOptions";
+import LogosSection from "./components/LogosSection/LogosSection";
 import ProductGallerySelected from "./components/ProductGallery/ProductGallerySelected";
 
-
 export const metadata = {
-    title: "Turnero T3: Llama Turnos y Resalta tu Marca Profesionalmente",
+    title: "Turnero Fila Única: Agiliza la Atención en Supermercados",
     description:
-        "Turnero digital con espacio para logo. Llama turnos en orden y muestra ventanillas libres. Eleva la imagen y eficiencia de tu empresa. ¡Solicita demo!",
-    keywords: ["Turnero digital"],
+        "Organiza a todos en una sola fila y muestra la caja libre. Reduce confusión y mejora el servicio en supermercados y lugares concurridos. ¡Solicita demo!",
+    keywords: ["TURNERO FILA ÚNICA"],
     openGraph: {
-        title: "Turnero T3: Llama Turnos y Resalta tu Marca Profesionalmente",
+        title: "Turnero Fila Única: Agiliza la Atención en Supermercados",
         description:
-            "Turnero digital con espacio para logo. Llama turnos en orden y muestra ventanillas libres. Eleva la imagen y eficiencia de tu empresa. ¡Solicita demo!",
-        url: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/turnero-turnoexpress/turnero-t3-modulo-turno",
+            "Organiza a todos en una sola fila y muestra la caja libre. Reduce confusión y mejora el servicio en supermercados y lugares concurridos. ¡Solicita demo!",
+        url: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/turnero-turnoexpress/turnero-fila-unica-supermercados",
         type: "website",
     },
     twitter: {
         card: "summary_large_image",
-        title: "Turnero T3: Llama Turnos y Resalta tu Marca Profesionalmente",
+        title: "Turnero Fila Única: Agiliza la Atención en Supermercados",
         description:
-            "Turnero digital con espacio para logo. Llama turnos en orden y muestra ventanillas libres. Eleva la imagen y eficiencia de tu empresa. ¡Solicita demo!",
+            "Organiza a todos en una sola fila y muestra la caja libre. Reduce confusión y mejora el servicio en supermercados y lugares concurridos. ¡Solicita demo!",
     },
 };
 
 
-export default function VerMasPantallaT3() {
+export default function VerMasTurnosFilaUnica() {
     return (
         <>
             <ProductGallerySelected />
             <SecondaryHeader />
             <TechnicalSheet />
-            <ControlsOptions />
             <HowItWorks />
             <LogosSection />
             <TurnoExpressRelatedProducts titleClassName={style.customTitle} />

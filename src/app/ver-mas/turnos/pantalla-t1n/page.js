@@ -3,7 +3,7 @@ import WppBtn from "@/app/components/WppBtn/WppBtn";
 import Footer from "@/app/components/Footer/Footer";
 import style from "../../../turnero/turnoexpress/components/RelatedProducts/TurnoExpressRelatedProducts.module.scss";
 import SecondaryHeader from "@/app/components/SecondaryHeader/SecondaryHeader";
-import LogosSection from "../fila-unica/components/LogosSection/LogosSection";
+import LogosSection from "../../../turnero-turnoexpress/turnero-fila-unica-supermercados/components/LogosSection/LogosSection";
 import TechnicalSheet from "./components/TechnicalSheet/TechnicalSheet";
 import HowItWorks from "./components/HowItWorks/HowItWorks";
 import TurnoExpressRelatedProducts from "@/app/turnero/turnoexpress/components/RelatedProducts/TurnoExpressRelatedProducts";

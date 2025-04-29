@@ -44,8 +44,9 @@ function TurnoMasterProductsSection() {
           src="https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742994790/9_4x-8_zejb3t.webp"
           alt="Solicitar turno de manera presencial"
           className={style.img__mobile}
-          width={375}
+          width={450}
           height={400}
+          objectFit={"cover"}
         />
 
         <ServerFirstImage

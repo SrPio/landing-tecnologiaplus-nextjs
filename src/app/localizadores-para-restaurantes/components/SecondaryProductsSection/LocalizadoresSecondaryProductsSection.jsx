@@ -37,7 +37,7 @@ function LocalizadoresSecondaryProductsSection() {
                 <h3>CIR C2</h3>
                 <a
                   className={style.card__btn}
-                  href="http://landing-tecnologiaplus-nextjs-dev.vercel.app/ver-mas/localizadores/cir-c2"
+                  href="https://landing-tecnologiaplus-nextjs-dev.vercel.app/localizadores-para-restaurantes/localizadores-cir-c2"
                 >
                   Ver más
                 </a>

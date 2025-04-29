@@ -6,7 +6,7 @@ import SecondaryHeader from "@/app/components/SecondaryHeader/SecondaryHeader";
 import TechnicalSheet from "./components/TechnicalSheet/TechnicalSheet";
 import HowItWorks from "./components/HowItWorks/HowItWorks";
 import LocalizadoresRelatedProducts from "@/app/localizadores-para-restaurantes/components/RelatedProducts/LocalizadoresRelatedProducts";
-import LogosSection from "@/app/ver-mas/localizadores/cir-c2/components/LogosSection/LogosSection";
+import LogosSection from "@/app/localizadores-para-restaurantes/localizadores-cir-c2/components/LogosSection/LogosSection";
 import ProductGallerySelected from "./components/ProductGallery/ProductGallerySelected";
 
 export const metadata = {

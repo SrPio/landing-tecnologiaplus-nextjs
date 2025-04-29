@@ -13,6 +13,10 @@ const articuloBotonLlamarEnfermera = {
       descripcion: "Botón para llamar a enfermera en hospital",
     },
     {
+      tipo: "subtitulo",
+      texto: "👩‍⚕️ Los Desafíos del Personal de Enfermería en el Día a Día",
+    },
+    {
       tipo: "texto",
       texto:
         "El personal de enfermería es el pilar fundamental en la atención hospitalaria. Son quienes están en primera línea, garantizando el bienestar de los pacientes, administrando medicamentos, supervisando signos vitales y respondiendo a emergencias médicas. Sin embargo, su trabajo no solo implica conocimientos técnicos, sino también una gran carga emocional y física que puede generar agotamiento y estrés.",
@@ -162,6 +166,7 @@ const articuloBotonLlamarEnfermera = {
     },
     {
       tipo: "enlaces",
+      bulletStyle: "emoji",
       items: [
         {
           titulo:
@@ -185,9 +190,15 @@ const articuloBotonLlamarEnfermera = {
         "🏥 La Implementación de un Botón para Llamar a Enfermera con Tecnología Plus",
     },
     {
-      tipo: "texto",
-      texto:
-        "Si bien la adopción de nuevas tecnologías puede parecer un desafío, en realidad es un proceso sencillo cuando se cuenta con el proveedor adecuado. En Tecnología Plus, somos expertos en soluciones de comunicación hospitalaria y ofrecemos asesoría personalizada para garantizar que cada centro de salud implemente el sistema más adecuado a sus necesidades.",
+      tipo: "texto-enriquecido",
+      partes: [
+        "Si bien la adopción de nuevas tecnologías puede parecer un desafío, en realidad es un proceso sencillo cuando se cuenta con el proveedor adecuado. En ",
+        {
+          texto: "Tecnología Plus",
+          italic: true,
+        },
+        ", somos expertos en soluciones de comunicación hospitalaria y ofrecemos asesoría personalizada para garantizar que cada centro de salud implemente el sistema más adecuado a sus necesidades.",
+      ],
     },
     {
       tipo: "texto",
@@ -206,9 +217,17 @@ const articuloBotonLlamarEnfermera = {
     },
 
     {
-      tipo: "texto",
-      texto:
-        "Con la asesoría de Tecnología Plus, los hospitales y clínicas pueden mejorar significativamente la calidad del servicio y el bienestar de su personal de enfermería.",
+      tipo: "texto-enriquecido",
+      partes: [
+        "Con la asesoría de ",
+
+        {
+          texto: "Tecnología Plus",
+          italic: true,
+        },
+
+        " los hospitales y clínicas pueden mejorar significativamente la calidad del servicio y el bienestar de su personal de enfermería.",
+      ],
     },
     {
       tipo: "texto-enriquecido",

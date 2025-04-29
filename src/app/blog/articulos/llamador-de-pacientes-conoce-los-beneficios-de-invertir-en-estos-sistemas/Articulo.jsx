@@ -30,33 +30,18 @@ const articuloSistemaLlamado = {
         " se ha convertido en una herramienta esencial para hospitales, clínicas y consultorios, mejorando estos aspectos clave. En Colombia, la adopción de esta tecnología ha crecido rápidamente, demostrando su efectividad y rentabilidad.",
       ],
     },
+
     {
-      tipo: "texto-enriquecido",
-      partes: [
-        "Invertir en un ",
-        {
-          texto: "llamador de pacientes",
-          href: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/llamado-de-enfermeria/cuidamaster/",
-        },
-        " Tecnología Plus no solo optimiza los tiempos de espera, sino que también eleva la calidad del servicio al paciente. Este tipo de sistema de ",
-        {
-          texto: "llamado de pacientes",
-          href: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/llamado-de-enfermeria/cuidamaster/",
-        },
-        " se destaca por su capacidad para agilizar la comunicación, ofreciendo una experiencia más fluida tanto para los pacientes como para el personal médico.",
-      ],
+      tipo: "texto",
+      texto:
+        "Invertir en un llamador de pacientes Tecnología Plus no solo optimiza los tiempos de espera, sino que también eleva la calidad del servicio al paciente. Este tipo de sistema de llamado de pacientes se destaca por su capacidad para agilizar la comunicación, ofreciendo una experiencia más fluida tanto para los pacientes como para el personal médico.",
     },
     {
-      tipo: "texto-enriquecido",
-      partes: [
-        "A lo largo de este artículo, exploraremos los beneficios y la rentabilidad de implementar un sistema de ",
-        {
-          texto: "llamado de pacientes",
-          href: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/llamado-de-enfermeria/cuidamaster/",
-        },
-        ", y cómo Tecnología Plus puede transformar la experiencia de atención médica, mejorando la operatividad y la satisfacción general.",
-      ],
+      tipo: "texto",
+      texto:
+        "A lo largo de este artículo, exploraremos los beneficios y la rentabilidad de implementar un sistema de llamado de pacientes, y cómo Tecnología Plus puede transformar la experiencia de atención médica, mejorando la operatividad y la satisfacción general.",
     },
+
     {
       tipo: "imagen",
       url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744122897/banner-abuelos-1030x386_kxs411.webp",
@@ -120,9 +105,15 @@ const articuloSistemaLlamado = {
         "Reducción de costos operativos con un sistema de llamado de pacientes.",
     },
     {
-      tipo: "texto",
-      texto:
-        "Uno de los beneficios más tangibles de invertir en un sistema de llamado de pacientes como el de Tecnología Plus es la reducción de costos operativos. Gracias a este sistema, el enfermero puede estar realizando otras tareas dentro del hospital, y cuando reciba el llamado de un paciente, sabrá de inmediato a cuál debe dirigirse. Esto optimiza el tiempo y los recursos del personal médico, permitiendo una atención más eficiente y reduciendo los costos generales de operación.",
+      tipo: "texto-enriquecido",
+      partes: [
+        "Uno de los beneficios más tangibles de invertir en un sistema de ",
+        {
+          texto: "llamado de pacientes",
+          bold: true,
+        },
+        " como el de Tecnología Plus es la reducción de costos operativos. Gracias a este sistema, el enfermero puede estar realizando otras tareas dentro del hospital, y cuando reciba el llamado de un paciente, sabrá de inmediato a cuál debe dirigirse. Esto optimiza el tiempo y los recursos del personal médico, permitiendo una atención más eficiente y reduciendo los costos generales de operación.",
+      ],
     },
     {
       tipo: "subtitulo",
@@ -140,9 +131,15 @@ const articuloSistemaLlamado = {
       ],
     },
     {
-      tipo: "texto",
-      texto:
-        "La eficiencia es un factor esencial en la rentabilidad de cualquier inversión. Un sistema de llamado de pacientes como el de Tecnología Plus optimiza el flujo de trabajo de los enfermeros al proporcionar un mejor sistema de comunicación con los pacientes que están atendiendo.",
+      tipo: "texto-enriquecido",
+      partes: [
+        "La eficiencia es un factor esencial en la rentabilidad de cualquier inversión. Un sistema de ",
+        {
+          texto: "llamado de pacientes",
+          bold: true,
+        },
+        " como el de Tecnología Plus optimiza el flujo de trabajo de los enfermeros al proporcionar un mejor sistema de comunicación con los pacientes que están atendiendo.",
+      ],
     },
     {
       tipo: "texto",
@@ -166,9 +163,15 @@ const articuloSistemaLlamado = {
       ],
     },
     {
-      tipo: "texto",
-      texto:
-        "La implementación de un llamador de pacientes optimiza el flujo de atención, asegurando que cada paciente reciba la atención adecuada sin sobrecargar al personal ni los recursos disponibles.",
+      tipo: "texto-enriquecido",
+      partes: [
+        "La implementación de un ",
+        {
+          texto: "llamador de pacientes",
+          bold: true,
+        },
+        " optimiza el flujo de atención, asegurando que cada paciente reciba la atención adecuada sin sobrecargar al personal ni los recursos disponibles.",
+      ],
     },
     {
       tipo: "subtitulo",
@@ -186,9 +189,15 @@ const articuloSistemaLlamado = {
       ],
     },
     {
-      tipo: "texto",
-      texto:
-        "Al reducir los tiempos de espera y optimizar la comunicación, el llamador de pacientes contribuye a una atención más eficiente, lo que puede resultar en una mayor retención de pacientes y en más recomendaciones positivas para el centro de salud.",
+      tipo: "texto-enriquecido",
+      partes: [
+        "Al reducir los tiempos de espera y optimizar la comunicación, el ",
+        {
+          texto: "llamador de pacientes",
+          bold: true,
+        },
+        " contribuye a una atención más eficiente, lo que puede resultar en una mayor retención de pacientes y en más recomendaciones positivas para el centro de salud.",
+      ],
     },
     {
       tipo: "subtitulo",
@@ -196,18 +205,30 @@ const articuloSistemaLlamado = {
         "¿Qué beneficios aporta un sistema de llamado de pacientes a pacientes y personal?",
     },
     {
-      tipo: "texto",
-      texto:
-        "No se puede pasar por alto los beneficios que un sistema de llamado de pacientes aporta tanto a los pacientes como al personal de la clínica, ya que son fundamentales para el funcionamiento de cualquier centro de salud. Este llamador de pacientes mejora la comunicación y agiliza la atención, lo que contribuye a una experiencia más positiva tanto para los pacientes como para el equipo médico.",
+      tipo: "texto-enriquecido",
+      partes: [
+        "No se puede pasar por alto los beneficios que un sistema de ",
+        {
+          texto: "llamado de pacientes",
+          bold: true,
+        },
+        " aporta tanto a los pacientes como al personal de la clínica, ya que son fundamentales para el funcionamiento de cualquier centro de salud. Este llamador de pacientes mejora la comunicación y agiliza la atención, lo que contribuye a una experiencia más positiva tanto para los pacientes como para el equipo médico.",
+      ],
     },
     {
       tipo: "subtitulo",
       texto: "Reducción del tiempo de espera",
     },
     {
-      tipo: "texto",
-      texto:
-        "Uno de los mayores beneficios de un sistema de llamado de pacientes es la reducción del tiempo de espera. Los pacientes pueden ser atendidos de manera más rápida y eficiente, lo que mejora su experiencia general en el centro de salud. Esto es especialmente importante en un contexto donde la satisfacción del paciente se ha convertido en un indicador clave de calidad. Un llamador de pacientes eficaz no solo agiliza la atención, sino que también contribuye a una mayor percepción de calidad en los servicios ofrecidos.",
+      tipo: "texto-enriquecido",
+      partes: [
+        "Uno de los mayores beneficios de un ",
+        {
+          texto: "sistema de llamado de pacientes",
+          href: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/llamado-de-enfermeria/cuidamaster/",
+        },
+        " es la reducción del tiempo de espera. Los pacientes pueden ser atendidos de manera más rápida y eficiente, lo que mejora su experiencia general en el centro de salud. Esto es especialmente importante en un contexto donde la satisfacción del paciente se ha convertido en un indicador clave de calidad. Un llamador de pacientes eficaz no solo agiliza la atención, sino que también contribuye a una mayor percepción de calidad en los servicios ofrecidos.",
+      ],
     },
     {
       tipo: "subtitulo",
@@ -217,11 +238,18 @@ const articuloSistemaLlamado = {
       tipo: "texto-enriquecido",
       partes: [
         "Uno de los mayores beneficios de un sistema de ",
+
         {
           texto: "llamado de pacientes",
-          href: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/llamado-de-enfermeria/cuidamaster/",
+          bold: true,
         },
-        " como el de Tecnología Plus es la reducción del tiempo de espera. Los pacientes pueden ser atendidos de manera más rápida y eficiente, mejorando su experiencia general en el centro de salud. Esto es especialmente relevante en un contexto donde la satisfacción del paciente se ha convertido en un indicador clave de calidad. Un llamador de pacientes de Tecnología Plus no solo optimiza el tiempo de respuesta, sino que también eleva la percepción de calidad del servicio brindado.",
+
+        " como el de Tecnología Plus es la reducción del tiempo de espera. Los pacientes pueden ser atendidos de manera más rápida y eficiente, mejorando su experiencia general en el centro de salud. Esto es especialmente relevante en un contexto donde la satisfacción del paciente se ha convertido en un indicador clave de calidad. Un ",
+        {
+          texto: "llamador de pacientes",
+          bold: true,
+        },
+        " de Tecnología Plus no solo optimiza el tiempo de respuesta, sino que también eleva la percepción de calidad del servicio brindado.",
       ],
     },
     {
@@ -240,9 +268,15 @@ const articuloSistemaLlamado = {
       ],
     },
     {
-      tipo: "texto",
-      texto:
-        "La presión sobre el personal médico es un desafío constante en muchas instituciones de salud. Un sistema de llamado de pacientes como el de Tecnología Plus puede aliviar gran parte de esta presión al hacer que el flujo de pacientes sea más predecible y manejable.",
+      tipo: "texto-enriquecido",
+      partes: [
+        "La presión sobre el personal médico es un desafío constante en muchas instituciones de salud. Un sistema de ",
+        {
+          texto: "llamado de pacientes",
+          bold: true,
+        },
+        " como el de Tecnología Plus puede aliviar gran parte de esta presión al hacer que el flujo de pacientes sea más predecible y manejable.",
+      ],
     },
     {
       tipo: "texto",
@@ -250,9 +284,15 @@ const articuloSistemaLlamado = {
         "Al mejorar la organización y comunicación dentro del centro de salud, Tecnología Plus contribuye a reducir el estrés y la fatiga del personal, mejorando su bienestar general y, a su vez, disminuyendo las tasas de rotación. Esto no solo beneficia a los médicos y enfermeros, sino que también optimiza la atención brindada a los pacientes.",
     },
     {
-      tipo: "texto",
-      texto:
-        "No esperes más para transformar la operatividad de tu institución. Da el siguiente paso hacia una atención más eficiente, un ambiente de trabajo más saludable y una mayor satisfacción para todos. ¡Invierte ahora en el sistema de llamado de pacientes Tecnología Plus y lleva tu centro de salud al siguiente nivel!",
+      tipo: "texto-enriquecido",
+      partes: [
+        "No esperes más para transformar la operatividad de tu institución. Da el siguiente paso hacia una atención más eficiente, un ambiente de trabajo más saludable y una mayor satisfacción para todos. ¡Invierte ahora en el sistema de ",
+        {
+          texto: "llamado de pacientes",
+          bold: true,
+        },
+        " Tecnología Plus y lleva tu centro de salud al siguiente nivel!",
+      ],
     },
     {
       tipo: "boton",

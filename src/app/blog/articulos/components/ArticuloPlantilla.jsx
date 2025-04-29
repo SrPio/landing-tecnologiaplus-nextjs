@@ -19,6 +19,21 @@ function ArticuloPlantilla({
     }
   }, []);
 
+  function getListStyle(bulletStyle) {
+    switch (bulletStyle) {
+      case "emoji":
+        return styles.articulo__lista_emoji;
+      case "circle":
+        return styles.articulo__lista_circle;
+      case "square":
+        return styles.articulo__lista_square;
+      case "disc":
+        return styles.articulo__lista_disc;
+      default:
+        return "";
+    }
+  }
+
   return (
     <>
       <div className={styles.articulo__container}>
@@ -95,7 +110,12 @@ function ArticuloPlantilla({
 
               case "enlaces":
                 return (
-                  <ul key={index} className={styles.articulo__lista}>
+                  <ul
+                    key={index}
+                    className={`${styles.articulo__lista} ${getListStyle(
+                      bloque.bulletStyle
+                    )}`}
+                  >
                     {bloque.items.map((item, i) => (
                       <li key={i}>
                         <a
@@ -133,21 +153,12 @@ function ArticuloPlantilla({
                 );
 
               case "lista":
-                const listStyle =
-                  bloque.bulletStyle === "emoji"
-                    ? styles.articulo__lista_emoji
-                    : bloque.bulletStyle === "circle"
-                    ? styles.articulo__lista_circle
-                    : bloque.bulletStyle === "square"
-                    ? styles.articulo__lista_square
-                    : bloque.bulletStyle === "disc"
-                    ? styles.articulo__lista_disc
-                    : ""; // Usamos la clase CSS por defecto si no hay estilo personalizado
-
                 return bloque.ordenada ? (
                   <ol
                     key={index}
-                    className={`${styles.articulo__lista} ${listStyle}`}
+                    className={`${styles.articulo__lista} ${getListStyle(
+                      bloque.bulletStyle
+                    )}`}
                   >
                     {bloque.items.map((item, i) => (
                       <li key={i}>{item}</li>
@@ -156,7 +167,9 @@ function ArticuloPlantilla({
                 ) : (
                   <ul
                     key={index}
-                    className={`${styles.articulo__lista} ${listStyle}`}
+                    className={`${styles.articulo__lista} ${getListStyle(
+                      bloque.bulletStyle
+                    )}`}
                   >
                     {bloque.items.map((item, i) => (
                       <li key={i}>{item}</li>

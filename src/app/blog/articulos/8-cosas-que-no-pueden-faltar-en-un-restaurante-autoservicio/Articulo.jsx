@@ -57,6 +57,7 @@ const articuloRestauranteAutoservicio = {
     },
     {
       tipo: "enlaces",
+      bulletStyle: "disc",
       items: [
         {
           titulo: "Cómo mejorar el servicio en tu restaurante",
@@ -285,12 +286,11 @@ const articuloRestauranteAutoservicio = {
     {
       tipo: "texto-enriquecido",
       partes: [
-        "¡",
         {
-          texto: "Contáctanos hoy",
-          href: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/contacto/",
+          texto:
+            "📩 ¡Contáctanos hoy mismo y descubre cómo transformar la experiencia en tu negocio con nuestra tecnología innovadora. Te brindamos una asesoría personalizada!",
+          href: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/contacto",
         },
-        " mismo y descubre cómo podemos llevar tu servicio al siguiente nivel!",
       ],
     },
     {

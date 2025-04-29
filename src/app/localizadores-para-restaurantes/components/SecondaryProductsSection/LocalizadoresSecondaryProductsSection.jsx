@@ -14,7 +14,7 @@ function LocalizadoresSecondaryProductsSection() {
                 <h3>REC V3</h3>
                 <a
                   className={style.card__btn}
-                  href="http://landing-tecnologiaplus-nextjs-dev.vercel.app/ver-mas/localizadores/rec-v3"
+                  href="https://landing-tecnologiaplus-nextjs-dev.vercel.app/localizadores-para-restaurantes/localizadores-rec-v3"
                 >
                   Ver más
                 </a>

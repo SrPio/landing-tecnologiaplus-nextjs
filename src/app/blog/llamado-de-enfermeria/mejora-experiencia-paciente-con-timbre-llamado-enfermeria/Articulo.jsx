@@ -90,6 +90,7 @@ const articuloTimbreLlamadoEnfermeria = {
     },
     {
       tipo: "enlaces",
+      bulletStyle: "disc",
       items: [
         {
           titulo:

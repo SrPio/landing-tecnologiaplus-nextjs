@@ -30,9 +30,20 @@ const articuloSistemaLlamado = {
       ],
     },
     {
-      tipo: "texto",
-      texto:
-        "No por nada se han vuelto tendencia y una norma casi obligatoria en los últimos años. Es por ello que en Tecnología Plus queremos ofrecerte algunos de los mejores sistemas de llamado de enfermería del mercado, puesto que sabemos lo importante de ofrecer comodidades tanto para tu personal como para tus pacientes.",
+      tipo: "texto-enriquecido",
+      partes: [
+        "No por nada se han vuelto tendencia y una norma casi obligatoria en los últimos años. Es por ello que en ",
+        {
+          texto: "Tecnología Plus",
+          italic: true,
+        },
+        " queremos ofrecerte algunos de los mejores ",
+        {
+          texto: "sistemas de llamado de enfermería",
+          bold: true,
+        },
+        " del mercado, puesto que sabemos lo importante de ofrecer comodidades tanto para tu personal como para tus pacientes.",
+      ],
     },
     {
       tipo: "subtitulo",
@@ -45,6 +56,7 @@ const articuloSistemaLlamado = {
     },
     {
       tipo: "lista",
+      bulletStyle: "disc",
       items: [
         "No emiten ruidos molestos que puedan perturbar la paz de tu clínica.",
         "Diseñados para fijarlos sobre cualquier tipo de superficie.",
@@ -86,6 +98,7 @@ const articuloSistemaLlamado = {
     },
     {
       tipo: "lista",
+      bulletStyle: "disc",
       items: ["Call.", "Cancel."],
     },
     {
@@ -115,6 +128,7 @@ const articuloSistemaLlamado = {
     },
     {
       tipo: "lista",
+      bulletStyle: "disc",
       items: [
         "Hospital San Carlos",
         "Hogar casa Viva",

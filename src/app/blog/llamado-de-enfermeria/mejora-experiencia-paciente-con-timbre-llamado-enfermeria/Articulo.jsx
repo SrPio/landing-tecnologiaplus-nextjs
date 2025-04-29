@@ -40,6 +40,7 @@ const articuloTimbreLlamadoEnfermeria = {
     },
     {
       tipo: "lista",
+      bulletStyle: "disc",
       items: [
         "Mayor estrés y ansiedad en el paciente: La incertidumbre y la sensación de desamparo pueden afectar su estado emocional y prolongar su recuperación.",
         "Inseguridad para los familiares: Cuando los familiares dejan a su ser querido en el hospital, necesitan saber que podrá recibir ayuda de inmediato si la requiere.",
@@ -112,6 +113,7 @@ const articuloTimbreLlamadoEnfermeria = {
     },
     {
       tipo: "lista",
+      bulletStyle: "disc",
       items: [
         "Mayor confort y confianza: Saber que con solo presionar un botón podrá recibir asistencia genera tranquilidad en los pacientes y sus familiares, reduciendo la ansiedad.",
         "Reducción del tiempo de espera: Los pacientes no tienen que esperar largos periodos de tiempo para ser atendidos, lo que mejora su comodidad y bienestar.",
@@ -126,6 +128,7 @@ const articuloTimbreLlamadoEnfermeria = {
     },
     {
       tipo: "lista",
+      bulletStyle: "disc",
       items: [
         "Mayor eficiencia operativa: El personal de enfermería puede priorizar las solicitudes según la urgencia, evitando desplazamientos innecesarios y distribuyendo mejor el trabajo.",
         "Reducción del estrés del personal médico: Al contar con un sistema organizado de atención, los enfermeros pueden responder de manera eficiente sin sentirse abrumados.",

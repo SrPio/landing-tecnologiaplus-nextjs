@@ -11,7 +11,7 @@ const articuloSistemaLlamado = {
       tipo: "imagen",
       url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744122648/IMG_4834-1_xzrvjs.webp",
       descripcion: "persona enferma presionando botón",
-      altura: "32rem",
+      altura: "30rem",
       estilo: {
         float: "left",
         width: "50%",
@@ -42,11 +42,6 @@ const articuloSistemaLlamado = {
         "A lo largo de este artículo, exploraremos los beneficios y la rentabilidad de implementar un sistema de llamado de pacientes, y cómo Tecnología Plus puede transformar la experiencia de atención médica, mejorando la operatividad y la satisfacción general.",
     },
 
-    {
-      tipo: "imagen",
-      url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744122897/banner-abuelos-1030x386_kxs411.webp",
-      descripcion: "imagen de enfermera con abuelo y el llamador",
-    },
     {
       tipo: "subtitulo",
       texto: "¿Qué es un sistema de llamado de pacientes?",
@@ -91,6 +86,7 @@ const articuloSistemaLlamado = {
         " puede ofrecerte.",
       ],
     },
+
     {
       tipo: "texto-enriquecido",
       partes: [
@@ -98,6 +94,11 @@ const articuloSistemaLlamado = {
         { texto: "llamado de pacientes", bold: true },
         ", las clínicas y centros de salud pueden mejorar significativamente la comunicación entre el paciente y el personal médico. Este sistema optimiza los tiempos de respuesta, mejora la calidad de la atención y, lo más importante, aumenta la satisfacción general de los pacientes. Invertir en Tecnología Plus es una decisión estratégica que asegura un retorno positivo tanto en eficiencia como en rentabilidad.",
       ],
+    },
+    {
+      tipo: "imagen",
+      url: "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1744122897/banner-abuelos-1030x386_kxs411.webp",
+      descripcion: "imagen de enfermera con abuelo y el llamador",
     },
     {
       tipo: "subtitulo",

@@ -47,6 +47,7 @@ function TurnoMasterProductsSection() {
           width={450}
           height={400}
           objectFit={"cover"}
+          style={{ marginTop: "2rem" }}
         />
 
         <ServerFirstImage

@@ -1,26 +1,26 @@
 "use client";
 
-import { useRef } from 'react';
+import { useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination } from 'swiper/modules';
+import { Navigation, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import styles from "../../../../styles/ProductGallery.module.scss";
-import altStyles from "../../../../../components/Header/HeaderAlt.module.scss";
+import styles from "@/app/ver-mas/styles/ProductGallery.module.scss";
+import altStyles from "@/app/components/Header/HeaderAlt.module.scss";
 import Header from "@/app/components/Header/Header";
 import { IoIosArrowBack } from "react-icons/io";
 import { FaWhatsapp } from "react-icons/fa";
 
 // Main gallery images - don't modify these constants during rendering
 const GALLERY_IMAGES = [
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741704871/Frame_1_74_a9sxmd.webp",
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741705063/Frame_1_76_arw9zm.webp",
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742650842/Frame_1_2_gstdv0.webp",
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741704706/Frame_1_73_q4yt1c.webp",
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743774378/6_4x-8_2_ytxttp.webp",
-    "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1745435101/Frame_1_37_zb9elr.webp",
-  ];
+  "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741704871/Frame_1_74_a9sxmd.webp",
+  "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741705063/Frame_1_76_arw9zm.webp",
+  "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1742650842/Frame_1_2_gstdv0.webp",
+  "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1741704706/Frame_1_73_q4yt1c.webp",
+  "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1743774378/6_4x-8_2_ytxttp.webp",
+  "https://res.cloudinary.com/ddqh0mkx9/image/upload/v1745435101/Frame_1_37_zb9elr.webp",
+];
 
 // Helper function to generate safe keys from URLs
 const generateImageKey = (url, index) => {
@@ -29,8 +29,6 @@ const generateImageKey = (url, index) => {
 };
 
 function MobileProductGallery() {
-  
-
   // Reference to swiper - more efficient than using state
   const swiperRef = useRef(null);
 
@@ -58,7 +56,8 @@ function MobileProductGallery() {
       {/* Main Swiper */}
       <Swiper
         ref={swiperRef}
-        modules={[Navigation, Pagination]} pagination={{ clickable: true }}
+        modules={[Navigation, Pagination]}
+        pagination={{ clickable: true }}
         loop={true}
         className={styles.mainSwiper}
       >

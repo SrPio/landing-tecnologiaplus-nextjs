@@ -2,7 +2,7 @@ import ArticuloPlantilla from "../components/ArticuloPlantilla";
 
 const articuloSistemaLlamado = {
   titulo:
-    "Llamador De Pacientes: Conoce Los Beneficios De Invertir En Estos Sistemas",
+    "Llamador de Pacientes: Conoce los beneficios de invertir en estos sistemas",
   publicadoPor: "Autor Desconocido",
   fechaPublicacion: "agosto 30, 2024",
   fechaActualizacion: "agosto 30, 2024",

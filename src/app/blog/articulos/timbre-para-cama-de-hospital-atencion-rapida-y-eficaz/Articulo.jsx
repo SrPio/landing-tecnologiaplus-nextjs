@@ -2,7 +2,7 @@ import ArticuloPlantilla from "../components/ArticuloPlantilla";
 
 const articuloTimbreCama = {
   titulo:
-    "Timbre para Cama de Hospital: Atención Rápida y Eficaz para el Paciente",
+    "Timbre para Cama de Hospital: Atención rápida y eficaz para el paciente",
   publicadoPor: "Tecnología Plus",
   fechaPublicacion: "3 de abril de 2025",
   fechaActualizacion: "3 de abril de 2025",

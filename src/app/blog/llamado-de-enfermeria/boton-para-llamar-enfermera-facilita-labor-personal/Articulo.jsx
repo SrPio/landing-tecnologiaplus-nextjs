@@ -2,7 +2,7 @@ import ArticuloPlantilla from "../../articulos/components/ArticuloPlantilla";
 
 const articuloBotonLlamarEnfermera = {
   titulo:
-    "Cómo un Botón para Llamar a Enfermera Facilita la Labor del Personal de Enfermería",
+    "Cómo un Botón para Llamar a Enfermera facilita la labor del personal de enfermería",
   publicadoPor: "Autor Desconocido",
   fechaPublicacion: "marzo 12, 2025",
   fechaActualizacion: "marzo 12, 2025",

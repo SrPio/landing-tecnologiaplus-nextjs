@@ -2,7 +2,7 @@ import ArticuloPlantilla from "../../articulos/components/ArticuloPlantilla";
 
 const articuloTimbreLlamadoEnfermeria = {
   titulo:
-    "Mejora la Experiencia del Paciente con un Timbre de Llamado de Enfermería 🏥",
+    "Mejora la experiencia del paciente con un Timbre de Llamado de Enfermería 🏥",
   publicadoPor: "Autor Desconocido",
   fechaPublicacion: "marzo 11, 2025",
   fechaActualizacion: "marzo 11, 2025",

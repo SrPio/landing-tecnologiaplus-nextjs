@@ -2,7 +2,7 @@ import ArticuloPlantilla from "../components/ArticuloPlantilla";
 
 const articuloAtencionGimnasio = {
   titulo:
-    "Cómo Mejorar La Atención En Los Gimnasios A Través Del Llamador De Entrenadores",
+    "Cómo mejorar la atención en los gimnasios a través del Llamador de Entrenadores",
   publicadoPor: "Autor Desconocido",
   fechaPublicacion: "mayo 28, 2023",
   fechaActualizacion: "mayo 28, 2023",
@@ -78,6 +78,7 @@ const articuloAtencionGimnasio = {
     },
     {
       tipo: "lista",
+      bulletStyle: "disc",
       items: [
         "Mejoras la calidad de tus servicios en general.",
         "Ofreces un mejor trato a tus clientes.",
@@ -141,6 +142,7 @@ const articuloAtencionGimnasio = {
     },
     {
       tipo: "lista",
+      bulletStyle: "disc",
       items: [
         "Correo electrónico.",
         "Teléfono.",
@@ -163,11 +165,35 @@ const articuloAtencionGimnasio = {
     },
     {
       tipo: "lista",
+      bulletStyle: "disc",
       items: [
         "Planificación de programas de ejercicios individuales.",
         "Seguimiento de progresos.",
         "Sugerencias de ejercicios y rutinas.",
         "Herramientas como un llamador de entrenador, que facilite una interacción rápida y directa entre los clientes y el personal.",
+      ],
+    },
+    {
+      tipo: "subtitulo",
+      texto: "Utiliza un sistema de llamada inalámbrico",
+    },
+    {
+      tipo: "texto",
+      texto:
+        "Si mejoras la comunicación con tus clientes, podrás ofrecer una experiencia personalizada, porque, como seguramente sabrás, todas las personas requieren entrenamientos diferentes para alcanzar resultados específicos. Una comunicación efectiva es clave para entender sus necesidades y expectativas.",
+    },
+    {
+      tipo: "texto",
+      texto: "Por lo tanto, considera ofrecer:",
+    },
+    {
+      tipo: "lista",
+      bulletStyle: "disc",
+      items: [
+        "Servicio de atención al cliente de calidad, rápido y efectivo.",
+        "Atención personalizada para sus rutinas de entrenamiento y dudas.",
+        "Seguimiento de progresos.",
+        "Herramientas como un llamador de entrenadores, que facilite una interacción rápida y directa entre los clientes y el personal. Esta herramienta no solo mejora la experiencia del usuario, sino que también optimiza el tiempo y la calidad del servicio en tu gimnasio.",
       ],
     },
     {
@@ -238,6 +264,7 @@ const articuloAtencionGimnasio = {
     },
     {
       tipo: "lista",
+      bulletStyle: "disc",
       items: [
         "Disminución de ruidos, ya que los clientes no tendrían que llamar al entrenador en voz alta.",
         "Mejora la atención al cliente y la personalización de los entrenamientos y la orientación por parte de tus entrenadores.",

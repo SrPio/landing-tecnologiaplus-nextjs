@@ -2,7 +2,7 @@ import ArticuloPlantilla from "../components/ArticuloPlantilla";
 
 const articuloLlamadoEnfermeria = {
   titulo:
-    "Llamado de Enfermería ¿Cómo mejorar el servicio de enfermería en un hogar geriátrico o gerontológico?",
+    "Cómo mejorar el servicio de enfermería en un hogar geriátrico o gerontológico",
   publicadoPor: "Autor Desconocido",
   fechaPublicacion: "Octubre 28, 2020",
   fechaActualizacion: "Octubre 28, 2020",
@@ -199,7 +199,12 @@ const articuloLlamadoEnfermeria = {
           texto: "llamadores de enfermería",
           href: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/llamado-de-enfermeria/cuidamaster/",
         },
-        " que ofrece Tecnología Plus, ya que mejoran la calidad de los cuidados.",
+        " que ofrece ",
+        {
+          texto: "Tecnología Plus",
+          bold: true,
+        },
+        ", ya que mejoran la calidad de los cuidados.",
       ],
     },
     {

@@ -1,7 +1,7 @@
 import ArticuloPlantilla from "../components/ArticuloPlantilla";
 
 const articuloSistemaLlamado = {
-  titulo: "¿Por Qué Usar El Sistema De Llamado De Enfermería?",
+  titulo: "¿Por qué usar el Sistema de Llamado de Enfermería?",
   publicadoPor: "Autor Desconocido",
   fechaPublicacion: "julio 21, 2023",
   fechaActualizacion: "julio 21, 2023",

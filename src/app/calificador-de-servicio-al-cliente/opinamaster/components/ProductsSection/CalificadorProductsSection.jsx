@@ -21,7 +21,7 @@ function CalificadorProductsSection() {
             <p className={style.selling__counter}>472 vendidos</p>
             <a
               className={style.card__btn}
-              href="https://landing-tecnologiaplus-nextjs-dev.vercel.app/ver-mas/opinamaster-calificador/opinamaster"
+              href="https://landing-tecnologiaplus-nextjs-dev.vercel.app/calificador-de-servicio-al-cliente-opinamaster/calificador-de-servicio"
             >
               Ver más
             </a>

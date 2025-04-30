@@ -44,7 +44,7 @@ function CalificadorProductsSection() {
             <p className={style.selling__counter}>38 vendidos</p>
             <a
               className={style.card__btn}
-              href="https://landing-tecnologiaplus-nextjs-dev.vercel.app/ver-mas/opinamaster-calificador/aviso-de-pared"
+              href="https://landing-tecnologiaplus-nextjs-dev.vercel.app/calificador-de-servicio-al-cliente-opinamaster/aviso-de-pared-para-calificar-servicio"
             >
               Ver más
             </a>

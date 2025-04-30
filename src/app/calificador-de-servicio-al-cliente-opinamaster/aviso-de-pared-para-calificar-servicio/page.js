@@ -6,32 +6,31 @@ import SecondaryHeader from "@/app/components/SecondaryHeader/SecondaryHeader";
 import TechnicalSheet from "./components/TechnicalSheet/TechnicalSheet";
 import HowItWorks from "./components/HowItWorks/HowItWorks";
 import CalificadorRelatedProducts from "@/app/calificador-de-servicio-al-cliente/opinamaster/components/RelatedProducts/CalificadorRelatedProducts";
-import LogosSection from "@/app/calificador-de-servicio-al-cliente-opinamaster/aviso-de-pared-para-calificar-servicio/components/LogosSection/LogosSection";
+import LogosSection from "./components/LogosSection/LogosSection";
 import ProductGallerySelected from "./components/ProductGallery/ProductGallerySelected";
 
-
 export const metadata = {
-    title: "Calificador de Servicio al Cliente: Opinión en Tiempo Real",
+    title: "Aviso de Pared para Calificar Servicio: Opiniones Sin Contacto",
     description:
-        "Captura la percepción real de tus clientes en segundos. Recibe alertas de calificaciones negativas y mejora tu servicio. ¡Solicita asesoría personalizada!",
-    keywords: ["Calificador de servicio"],
+        "Recoge opiniones fácilmente en baños, áreas comunes y coworking. Calificador práctico y discreto para espacios sin contacto humano. ¡Mejora tu servicio!",
+    keywords: ["AVISO DE PARED"],
     openGraph: {
-        title: "Calificador de Servicio al Cliente: Opinión en Tiempo Real",
+        title: "Aviso de Pared para Calificar Servicio: Opiniones Sin Contacto",
         description:
-            "Captura la percepción real de tus clientes en segundos. Recibe alertas de calificaciones negativas y mejora tu servicio. ¡Solicita asesoría personalizada!",
-        url: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/calificador-de-servicio-al-cliente-opinamaster/calificador-de-servicio",
+            "Recoge opiniones fácilmente en baños, áreas comunes y coworking. Calificador práctico y discreto para espacios sin contacto humano. ¡Mejora tu servicio!",
+        url: "https://landing-tecnologiaplus-nextjs-dev.vercel.app/calificador-de-servicio-al-cliente-opinamaster/aviso-de-pared-para-calificar-servicio",
         type: "website",
     },
     twitter: {
         card: "summary_large_image",
-        title: "Calificador de Servicio al Cliente: Opinión en Tiempo Real",
+        title: "Aviso de Pared para Calificar Servicio: Opiniones Sin Contacto",
         description:
-            "Captura la percepción real de tus clientes en segundos. Recibe alertas de calificaciones negativas y mejora tu servicio. ¡Solicita asesoría personalizada!",
+            "Recoge opiniones fácilmente en baños, áreas comunes y coworking. Calificador práctico y discreto para espacios sin contacto humano. ¡Mejora tu servicio!",
     },
 };
 
 
-export default function VerMasOpinaMaster() {
+export default function VerMasAvisoDePared() {
     return (
         <>
             <ProductGallerySelected />
